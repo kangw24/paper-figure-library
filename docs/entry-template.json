@@ -4,17 +4,30 @@
   "title": "替换为中文标题 / English title",
   "category": "teaser",
   "kind": "template",
-  "tags": ["replace-with-useful-tag"],
-  "formats": ["svg"],
+  "tags": [
+    "replace-with-useful-tag"
+  ],
+  "formats": [
+    "svg"
+  ],
   "primary_file": "source.svg",
   "preview": "preview.png",
   "summary": "用一两句话说明此图的表达方式与适合借鉴的内容。",
   "source": {
     "project": "替换为项目或论文名称",
-    "authors": ["替换为作者"],
-    "urls": ["https://example.org/replace-with-author-source"],
-    "original_files": ["替换为来源中的原始文件路径"],
-    "retrieved_date": "YYYY-MM-DD"
+    "authors": [
+      "替换为作者"
+    ],
+    "urls": [
+      "https://example.org/replace-with-author-source"
+    ],
+    "original_files": [
+      "替换为来源中的原始文件路径"
+    ],
+    "retrieved_date": "YYYY-MM-DD",
+    "commit": "PINNED_UPSTREAM_COMMIT",
+    "original_sha256": "SHA256_OF_UNMODIFIED_SOURCE_FILE",
+    "git_blob_sha": "UPSTREAM_BLOB_SHA_IF_GITHUB"
   },
   "license": {
     "spdx_id": null,
@@ -27,8 +40,14 @@
     "vector_shapes": true,
     "editable_text": "记录实际检查结果",
     "embedded_raster_images": 0,
-    "notes": ["记录字体、依赖、软件打开验证等信息。"]
+    "notes": [
+      "记录字体、依赖、软件打开验证等信息。"
+    ]
   },
-  "changes": ["记录与作者原文件相比的修改，或说明保持原始字节。"],
-  "added_date": "YYYY-MM-DD"
+  "changes": [
+    "记录与作者原文件相比的修改，或说明保持原始字节。"
+  ],
+  "added_date": "YYYY-MM-DD",
+  "origin": "downloaded",
+  "visual_reviewed": false
 }

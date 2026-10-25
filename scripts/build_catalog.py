@@ -9,7 +9,7 @@ from pathlib import Path
 
 from validate_library import ROOT, validate
 
-KIND_LABELS = {"template": "通用模板", "paper-example": "论文范例", "tutorial-example": "教程范例", "original-example": "原创范例"}
+KIND_LABELS = {"template": "外部模板", "paper-example": "论文范例", "tutorial-example": "教程范例"}
 ELEMENT_CATEGORIES = {"modules": "模块", "data": "数据表示", "operations": "运算", "connections": "连接", "training": "训练标识", "concepts": "概念表示", "science": "科学与动力学"}
 
 
@@ -29,10 +29,9 @@ def build(root: Path) -> dict:
     raw_elements = json.loads((root / "elements" / "catalog.json").read_text(encoding="utf-8"))["items"]
     elements = []
     for item in raw_elements:
-        original = item["source"].get("kind") == "original"
-        license_data = item.get("license") or {"status": "original-unlicensed", "name": "本库原创；未设置对外再分发许可", "note": item["rights"]}
+        license_data = item["license"]
         elements.append({**item, "title": item["title_zh"], "category": "element", "element_category": item["category"],
-                         "kind": "original-element" if original else "external-element", "formats": ["svg"], "primary_path": item["svg_path"],
+                         "kind": "external-element", "formats": ["svg"], "primary_path": item["svg_path"],
                          "license": license_data})
     counts = {category: sum(item["category"] == category for item in examples + elements)
               for category in ("teaser", "architecture", "element")}
@@ -55,13 +54,12 @@ def build(root: Path) -> dict:
                       f"**许可：** {item['license']['name']}（`{item['license']['status']}`）。{item['license'].get('note', '')}", "",
                       "**标签：** " + " · ".join(f"`{tag}`" for tag in item["tags"]), "",
                       f"[可编辑源文件]({item['primary_path']}) · [来源与修改记录]({item['metadata_path']}) · [使用说明]({item['readme_path']})", ""]
-    original_count = sum(item["kind"] == "original-element" for item in elements)
-    lines += ["## 最小可复用元素", "", f"共 {counts['element']} 个元素，其中 {original_count} 个为此仓库原创。来源与权利状态逐条保存在索引中；当前原创元素用于你的绘图复用，未设置对外再分发许可证。", "",
+    lines += ["## 最小可复用元素", "", f"共 {counts['element']} 个有出处的元素，均为外部下载或原图中已有矢量节点的提取。来源、提取位置与权利状态逐条保存在索引中。", "",
               "[![元素总览](elements/preview.png)](elements/README.md)", "",
-              "[打开总览 SVG](elements/all-elements.svg) · [元素使用说明](elements/README.md) · [样式参数](elements/style-tokens.json)", "",
+              "[打开总览 SVG](elements/all-elements.svg) · [元素使用说明](elements/README.md) · [提取位置](elements/extraction-specs.json)", "",
               "| 元素 | 分类 | 标签 | 来源 / 权利状态 |", "|---|---|---|---|"]
     for item in elements:
-        license_label = "本库原创" if item["kind"] == "original-element" else item["license"]["name"]
+        license_label = item["license"]["name"]
         lines.append(f"| [{safe(item['title'])}]({item['primary_path']}) | {ELEMENT_CATEGORIES.get(item['element_category'], item['element_category'])} | {safe(', '.join(item['tags']))} | {safe(license_label)} |")
     lines += ["", "## 如何理解许可与可编辑性", "",
               "每条记录的许可单独适用，整个仓库没有为第三方素材重新授权。MIT 条目保留了原许可文件；reference-only 和 no-explicit-license 条目记录了可查证的状态。", "",

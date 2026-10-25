@@ -1,22 +1,45 @@
 # Architecture 范例
 
-用于解释方法流程、网络结构和模块连接。这里的首批两项均为作者公开的 Illustrator 教学源文件，原始 AI 字节保留。
+按结构、模块与数据流收录。保留的两份原生 AI 教程明确标注为教程范例。
 
-| 范例 | 类型 | 可编辑格式 | 适合借鉴 |
-|---|---|---|---|
-| [多尺度网络总览与模块展开](multiscale-network/) | 教学实例 | AI | 作者 Illustrator 科研绘图教程中的多尺度网络案例：Backbone、高低层特征、SPPA／LFSA／GMFF 模块、预测结果，以及模块细节。原文件含 7 个画板。 |
-| [SAM / LoRA 总体流程与 Transformer 模块](sam-lora/) | 教学实例 | AI | 作者 Illustrator 科研绘图教程中的 SAM / LoRA 案例，含总体方法流程与 Transformer／LoRA 模块结构，共 2 个画板；公开的 PNG、PDF 与 PPTX 配套素材一并保留。 |
+## [CLIP Figure 1：训练到零样本预测](clip/README.md)
 
-## [多尺度网络总览与模块展开](multiscale-network/)
+CLIP 的训练与零样本使用流程，按方法流程归入 architecture。
 
-[![多尺度网络总览与模块展开](multiscale-network/preview.png)](multiscale-network/)
+[![预览](clip/preview.png)](clip/source.svg)
 
-适合借鉴“上方总览 + 下方局部展开”的架构主图布局、不同分辨率特征图堆叠、跳连与图例。建议先从第 6 个画板的完整主图入手，再复制其余画板中的模块。
+## [LAV：感知、预测与驾驶控制流程](lav/README.md)
 
-## [SAM / LoRA 总体流程与 Transformer 模块](sam-lora/)
+多摄像头输入、语义分割、传感器融合、三维主干、运动预测与控制的整体数据流。原文件虽叫 teaser.svg，按内容归入 architecture。
 
-[![SAM / LoRA 总体流程与 Transformer 模块](sam-lora/preview.png)](sam-lora/)
+[![预览](lav/preview.png)](lav/source.svg)
 
-适合借鉴“整体流程 + 局部可训练模块”的画法、冻结与训练部件的区分、多模态输入和模块放大框。原作者未提供明确开源许可，先作为布局与绘制参考使用。
+## [LightGlue：注意力、动态剪枝与匹配](lightglue/README.md)
 
-[返回仓库首页](../../README.md)
+双分支局部特征经过 self/cross attention、置信度预测、剪枝和匹配分配。
+
+[![预览](lightglue/preview.png)](lightglue/source.svg)
+
+## [多尺度网络总览与模块展开](multiscale-network/README.md)
+
+作者 Illustrator 科研绘图教程中的多尺度网络案例：Backbone、高低层特征、SPPA／LFSA／GMFF 模块、预测结果，以及模块细节。原文件含 7 个画板。
+
+[![预览](multiscale-network/preview.png)](multiscale-network/source.ai)
+
+## [RayDer：统一 Transformer 的两个使用阶段](rayder/README.md)
+
+左右并列相机估计与新视角合成，清楚标明共用模型与不同输入输出。
+
+[![预览](rayder/preview.png)](rayder/source.svg)
+
+## [RUST：编码器、场景表示与位姿分支](rust/README.md)
+
+无位姿输入图像经 Encoder、场景表示、Decoder 输出新视角，训练时有 Pose Estimator 分支。按内容归入 architecture。
+
+[![预览](rust/preview.png)](rust/source.svg)
+
+## [SAM / LoRA 总体流程与 Transformer 模块](sam-lora/README.md)
+
+作者 Illustrator 科研绘图教程中的 SAM / LoRA 案例，含总体方法流程与 Transformer／LoRA 模块结构，共 2 个画板；公开的 PNG、PDF 与 PPTX 配套素材一并保留。
+
+[![预览](sam-lora/preview.png)](sam-lora/source.ai)

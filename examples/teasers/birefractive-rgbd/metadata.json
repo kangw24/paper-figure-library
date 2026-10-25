@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "birefractive-rgbd",
+  "title": "Uneven Double Refraction：原型与成像能力展示",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "hardware",
+    "imaging",
+    "capability-showcase"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "相机原型、输入、恢复彩色图和深度图横排，适合硬件或成像方法的 teaser。",
+  "classification_reason": "相机原型、输入、恢复彩色图和深度图横排，适合硬件或成像方法的 teaser。",
+  "source": {
+    "project": "KAIST-VCLAB/fastbirefstereo",
+    "venue": "CVPR 2020",
+    "urls": [
+      "http://vclab.kaist.ac.kr/cvpr2020p2/",
+      "https://github.com/KAIST-VCLAB/fastbirefstereo",
+      "https://raw.githubusercontent.com/KAIST-VCLAB/fastbirefstereo/ed5d9cd8d46380ad3dd08a1f4ddb68eaf71b3754/teaser.svg"
+    ],
+    "original_files": [
+      "teaser.svg"
+    ],
+    "commit": "ed5d9cd8d46380ad3dd08a1f4ddb68eaf71b3754",
+    "git_blob_sha": "cc4a9e8444972160298004150db695dc8cfa986a",
+    "original_sha256": "bdaa9b5969f27ee53e42a0d6f2247350c363f9ccc9dbff50fa9f09fd831393ac",
+    "retrieved_date": "2026-10-25",
+    "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+  },
+  "license": {
+    "status": "repository-license",
+    "name": "MIT（来源仓库）；照片与实验结果按原来源保留。",
+    "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": true,
+    "embedded_raster_images": 6,
+    "svg_object_counts": {
+      "path": 76,
+      "text": 12,
+      "image": 6,
+      "rect": 24,
+      "polygon": 0,
+      "circle": 0,
+      "use": 0
+    },
+    "notes": [
+      "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+      "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+      "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+    "仅将原文件重命名并生成浏览预览，未重绘图形。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 1074,
+      "sha256": "c79ad46c6dd03c60e650ab7aaa7f4b04c15e3a783502e03734d27ff46e6315fa"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 603799,
+      "sha256": "925ac0288b78309f2c386d73f8da886a3199bb2ecb51dcf20fb34957bf683b0b"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 475466,
+      "sha256": "bdaa9b5969f27ee53e42a0d6f2247350c363f9ccc9dbff50fa9f09fd831393ac"
+    }
+  ],
+  "visual_reviewed": true
+}

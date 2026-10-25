@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "rayder",
+  "title": "RayDer：统一 Transformer 的两个使用阶段",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "architecture",
+    "transformer",
+    "shared-model",
+    "two-stages"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "左右并列相机估计与新视角合成，清楚标明共用模型与不同输入输出。",
+  "classification_reason": "左右并列相机估计与新视角合成，清楚标明共用模型与不同输入输出。",
+  "source": {
+    "project": "CompVis/rayder",
+    "venue": "ECCV 2026",
+    "urls": [
+      "https://compvis.github.io/rayder/",
+      "https://github.com/CompVis/rayder",
+      "https://raw.githubusercontent.com/CompVis/rayder/2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd/docs/static/images/paper-svg/architecture-overview.svg"
+    ],
+    "original_files": [
+      "docs/static/images/paper-svg/architecture-overview.svg"
+    ],
+    "commit": "2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd",
+    "git_blob_sha": "8be5b3a550483e98a3941981773706cf78fed66d",
+    "original_sha256": "d11495bd213afd300a07b6899e84c1ce34d0b19e88dd315b6ca0b7ceb21ba908",
+    "retrieved_date": "2026-10-25",
+    "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+  },
+  "license": {
+    "status": "research-noncommercial",
+    "name": "保存仓库原许可证；用途限于其原有条款。",
+    "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": false,
+    "embedded_raster_images": 7,
+    "svg_object_counts": {
+      "path": 218,
+      "text": 0,
+      "image": 7,
+      "rect": 0,
+      "polygon": 0,
+      "circle": 0,
+      "use": 181
+    },
+    "notes": [
+      "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+      "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+      "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+    "仅将原文件重命名并生成浏览预览，未重绘图形。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 9248,
+      "sha256": "45ba9a85a48012b1b8df08c663f9e9327172aff2ce03b231ed5d8be72b25b50a"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 468992,
+      "sha256": "c5a9a17c3f3db4a6fd618e3733d4199b4e17a22433aef4e0e0d37c6fc367c624"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 541529,
+      "sha256": "d11495bd213afd300a07b6899e84c1ce34d0b19e88dd315b6ca0b7ceb21ba908"
+    }
+  ],
+  "visual_reviewed": true
+}

@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160" role="img">
-<title>Tensor stack</title>
-<desc>Original editable scientific figure element.</desc>
-<g id="element"><rect x="85" y="25" width="93" height="76" rx="2" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1.8"/><rect x="74" y="37" width="93" height="76" rx="2" fill="#E8F0F7" stroke="#7395B6" stroke-width="1.8"/><rect x="63" y="49" width="93" height="76" rx="2" fill="#D9E8F3" stroke="#416789" stroke-width="1.8"/><text x="120" y="149" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#334155" text-anchor="middle">C × H × W</text></g>
-</svg>

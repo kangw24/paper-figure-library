@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "lightglue",
+  "title": "LightGlue：注意力、动态剪枝与匹配",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "architecture",
+    "attention",
+    "pruning",
+    "feature-matching"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "双分支局部特征经过 self/cross attention、置信度预测、剪枝和匹配分配。",
+  "classification_reason": "双分支局部特征经过 self/cross attention、置信度预测、剪枝和匹配分配。",
+  "source": {
+    "project": "cvg/LightGlue",
+    "venue": "ICCV 2023",
+    "urls": [
+      "https://github.com/cvg/LightGlue",
+      "https://github.com/cvg/LightGlue",
+      "https://raw.githubusercontent.com/cvg/LightGlue/eb42fee2d71449efb0aa5c10549752b5d75384d8/assets/architecture.svg"
+    ],
+    "original_files": [
+      "assets/architecture.svg"
+    ],
+    "commit": "eb42fee2d71449efb0aa5c10549752b5d75384d8",
+    "git_blob_sha": "df15d83690d20f28fef4a33d7a2442105cb786f6",
+    "original_sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc",
+    "retrieved_date": "2026-10-25",
+    "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+  },
+  "license": {
+    "status": "repository-license",
+    "name": "Apache-2.0（来源仓库）。",
+    "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": true,
+    "embedded_raster_images": 12,
+    "svg_object_counts": {
+      "path": 162,
+      "text": 38,
+      "image": 12,
+      "rect": 0,
+      "polygon": 0,
+      "circle": 0,
+      "use": 0
+    },
+    "notes": [
+      "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+      "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+      "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+    "仅将原文件重命名并生成浏览预览，未重绘图形。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 11340,
+      "sha256": "0e6031ed3e62dc91dc8b1c8f240abd200b1083f60773362e64e339fe01d1bf18"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 146961,
+      "sha256": "54a9e37d1f393517f59b0111cb524330cccf4330380ea3e746bad5b1324ea491"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 128611,
+      "sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc"
+    }
+  ],
+  "visual_reviewed": true
+}

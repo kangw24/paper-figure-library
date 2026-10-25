@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "shaddr",
+  "title": "ShaDDR：粗形状与示例驱动的成果展示",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "results-showcase",
+    "3d-generation",
+    "zoom-in"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "上排粗形状与风格示例，下排生成结果与局部放大，以成果直接展示任务和贡献。",
+  "classification_reason": "上排粗形状与风格示例，下排生成结果与局部放大，以成果直接展示任务和贡献。",
+  "source": {
+    "project": "qiminchen/ShaDDR",
+    "venue": "SIGGRAPH Asia 2023",
+    "urls": [
+      "https://qiminchen.github.io/shaddr/",
+      "https://github.com/qiminchen/ShaDDR",
+      "https://raw.githubusercontent.com/qiminchen/ShaDDR/7b42dc1657dbabab69908455ce84ede022878b1a/teaser.svg"
+    ],
+    "original_files": [
+      "teaser.svg"
+    ],
+    "commit": "7b42dc1657dbabab69908455ce84ede022878b1a",
+    "git_blob_sha": "7947473a1debbc19cf0baf45f4140b39133c25cf",
+    "original_sha256": "4ad573e830401876bca07076f356d949122f18dc30d731ab2c1ae02446f2672e",
+    "retrieved_date": "2026-10-25",
+    "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+  },
+  "license": {
+    "status": "repository-license",
+    "name": "MIT（来源仓库）；渲染素材保留原论文出处。",
+    "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": false,
+    "embedded_raster_images": 6,
+    "svg_object_counts": {
+      "path": 49,
+      "text": 0,
+      "image": 6,
+      "rect": 0,
+      "polygon": 0,
+      "circle": 0,
+      "use": 0
+    },
+    "notes": [
+      "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+      "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+      "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+    "仅将原文件重命名并生成浏览预览，未重绘图形。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 1067,
+      "sha256": "4476e4ef04112d4e61a005d0cb383bbbefc853b48a11d459500a057587d1a84c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 754409,
+      "sha256": "cc3a2e2816b7f673318645920273ad1d1170e0176ede6fa042cba3539efe7133"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 6014518,
+      "sha256": "4ad573e830401876bca07076f356d949122f18dc30d731ab2c1ae02446f2672e"
+    }
+  ],
+  "visual_reviewed": true
+}

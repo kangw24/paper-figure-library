@@ -3,23 +3,484 @@
   "description": "Paper Figure Library — 按来源元数据生成的统一索引",
   "counts": {
     "teaser": 5,
-    "architecture": 2,
-    "element": 24
+    "architecture": 7,
+    "element": 16
   },
   "items": [
     {
       "schema_version": 1,
-      "id": "clip",
-      "title": "CLIP Figure 1：训练到零样本预测",
+      "id": "birefractive-rgbd",
+      "title": "Uneven Double Refraction：原型与成像能力展示",
       "category": "teaser",
       "kind": "paper-example",
+      "origin": "downloaded",
       "tags": [
         "teaser",
+        "hardware",
+        "imaging",
+        "capability-showcase"
+      ],
+      "formats": [
+        "svg"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "相机原型、输入、恢复彩色图和深度图横排，适合硬件或成像方法的 teaser。",
+      "classification_reason": "相机原型、输入、恢复彩色图和深度图横排，适合硬件或成像方法的 teaser。",
+      "source": {
+        "project": "KAIST-VCLAB/fastbirefstereo",
+        "venue": "CVPR 2020",
+        "urls": [
+          "http://vclab.kaist.ac.kr/cvpr2020p2/",
+          "https://github.com/KAIST-VCLAB/fastbirefstereo",
+          "https://raw.githubusercontent.com/KAIST-VCLAB/fastbirefstereo/ed5d9cd8d46380ad3dd08a1f4ddb68eaf71b3754/teaser.svg"
+        ],
+        "original_files": [
+          "teaser.svg"
+        ],
+        "commit": "ed5d9cd8d46380ad3dd08a1f4ddb68eaf71b3754",
+        "git_blob_sha": "cc4a9e8444972160298004150db695dc8cfa986a",
+        "original_sha256": "bdaa9b5969f27ee53e42a0d6f2247350c363f9ccc9dbff50fa9f09fd831393ac",
+        "retrieved_date": "2026-10-25",
+        "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+      },
+      "license": {
+        "status": "repository-license",
+        "name": "MIT（来源仓库）；照片与实验结果按原来源保留。",
+        "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+        "file": "LICENSE.source.txt"
+      },
+      "editability": {
+        "native_format": "author-supplied SVG",
+        "vector_shapes": true,
+        "editable_text": true,
+        "embedded_raster_images": 6,
+        "svg_object_counts": {
+          "path": 76,
+          "text": 12,
+          "image": 6,
+          "rect": 24,
+          "polygon": 0,
+          "circle": 0,
+          "use": 0
+        },
+        "notes": [
+          "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+          "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+          "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+        ]
+      },
+      "changes": [
+        "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+        "仅将原文件重命名并生成浏览预览，未重绘图形。"
+      ],
+      "added_date": "2026-10-25",
+      "files": [
+        {
+          "path": "LICENSE.source.txt",
+          "bytes": 1074,
+          "sha256": "c79ad46c6dd03c60e650ab7aaa7f4b04c15e3a783502e03734d27ff46e6315fa"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 603799,
+          "sha256": "925ac0288b78309f2c386d73f8da886a3199bb2ecb51dcf20fb34957bf683b0b"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 475466,
+          "sha256": "bdaa9b5969f27ee53e42a0d6f2247350c363f9ccc9dbff50fa9f09fd831393ac"
+        }
+      ],
+      "visual_reviewed": true,
+      "path": "examples/teasers/birefractive-rgbd",
+      "metadata_path": "examples/teasers/birefractive-rgbd/metadata.json",
+      "readme_path": "examples/teasers/birefractive-rgbd/README.md",
+      "primary_path": "examples/teasers/birefractive-rgbd/source.svg",
+      "preview_path": "examples/teasers/birefractive-rgbd/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "k-lora",
+      "title": "K-LoRA：主体风格组合与训练范式比较",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "method-comparison",
+        "subject-style",
+        "training-free"
+      ],
+      "formats": [
+        "svg"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "左侧主体与风格组合示例，右侧比较需要训练与免训练的融合方式。",
+      "classification_reason": "左侧主体与风格组合示例，右侧比较需要训练与免训练的融合方式。",
+      "source": {
+        "project": "HVision-NKU/K-LoRA",
+        "venue": "CVPR 2025",
+        "urls": [
+          "https://arxiv.org/abs/2502.18461",
+          "https://github.com/HVision-NKU/K-LoRA",
+          "https://raw.githubusercontent.com/HVision-NKU/K-LoRA/aef445b61c2cc54f13dfa678a4496f4e31bc8fdf/pictures/teaser.svg"
+        ],
+        "original_files": [
+          "pictures/teaser.svg"
+        ],
+        "commit": "aef445b61c2cc54f13dfa678a4496f4e31bc8fdf",
+        "git_blob_sha": "395e62ec93b03f134a4c0fc2a3dce24d88e43385",
+        "original_sha256": "3e83e15a63ff833a3f7e5e01daa5c16750af40c01f37bb27c8df8a07793ac00f",
+        "retrieved_date": "2026-10-25",
+        "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+      },
+      "license": {
+        "status": "noncommercial",
+        "name": "作者 README 声明 CC BY-NC 4.0；内嵌示例素材保留原出处。",
+        "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+        "evidence_file": "SOURCE_README.md"
+      },
+      "editability": {
+        "native_format": "author-supplied SVG",
+        "vector_shapes": true,
+        "editable_text": true,
+        "embedded_raster_images": 13,
+        "svg_object_counts": {
+          "path": 2,
+          "text": 10,
+          "image": 13,
+          "rect": 0,
+          "polygon": 0,
+          "circle": 0,
+          "use": 0
+        },
+        "notes": [
+          "此图以 13 个嵌入图片对象为主，适合改布局和标注；样例内容不能逐图元编辑。",
+          "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+          "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+          "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+        ]
+      },
+      "changes": [
+        "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+        "仅将原文件重命名并生成浏览预览，未重绘图形。"
+      ],
+      "added_date": "2026-10-25",
+      "files": [
+        {
+          "path": "SOURCE_README.md",
+          "bytes": 5690,
+          "sha256": "984dffe0e9ae97c6f03014f87976aa0cae532d1c0b10c12d62acb37a1e365084"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1441030,
+          "sha256": "a0acdc1564abe0334cf0335b3b88098d2ac9f803afd0b5fe21e133ae389ffe51"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 17217078,
+          "sha256": "3e83e15a63ff833a3f7e5e01daa5c16750af40c01f37bb27c8df8a07793ac00f"
+        }
+      ],
+      "visual_reviewed": true,
+      "path": "examples/teasers/k-lora",
+      "metadata_path": "examples/teasers/k-lora/metadata.json",
+      "readme_path": "examples/teasers/k-lora/README.md",
+      "primary_path": "examples/teasers/k-lora/source.svg",
+      "preview_path": "examples/teasers/k-lora/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "orienternet",
+      "title": "OrienterNet：用二维地图定位的任务与动机",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "motivation",
+        "task-comparison",
+        "localization"
+      ],
+      "formats": [
+        "svg"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "展示人类使用二维地图与既有三维点云定位的差别，再给出新方法的输入与输出。",
+      "classification_reason": "展示人类使用二维地图与既有三维点云定位的差别，再给出新方法的输入与输出。",
+      "source": {
+        "project": "facebookresearch/OrienterNet",
+        "venue": "CVPR 2023",
+        "urls": [
+          "https://psarlin.com/orienternet/",
+          "https://github.com/facebookresearch/OrienterNet",
+          "https://raw.githubusercontent.com/facebookresearch/OrienterNet/0280b6e248046dc7d714801d7d0651a162fd5a63/assets/teaser.svg"
+        ],
+        "original_files": [
+          "assets/teaser.svg"
+        ],
+        "commit": "0280b6e248046dc7d714801d7d0651a162fd5a63",
+        "git_blob_sha": "78a5f8358c2c354aca0e4f70f217f26d033317bd",
+        "original_sha256": "f22e5a22c46ac3c9be696993c7d260e9e199e2cfb90a7f9ded15529a696cc5b8",
+        "retrieved_date": "2026-10-25",
+        "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+      },
+      "license": {
+        "status": "mixed-source-license",
+        "name": "第三方图片与地图包含多种权利；图本身未见单独复用授权。",
+        "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+        "file": "LICENSE.source.txt"
+      },
+      "editability": {
+        "native_format": "author-supplied SVG",
+        "vector_shapes": true,
+        "editable_text": true,
+        "embedded_raster_images": 23,
+        "svg_object_counts": {
+          "path": 34,
+          "text": 21,
+          "image": 23,
+          "rect": 0,
+          "polygon": 0,
+          "circle": 0,
+          "use": 0
+        },
+        "notes": [
+          "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+          "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+          "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+        ]
+      },
+      "changes": [
+        "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+        "仅将原文件重命名并生成浏览预览，未重绘图形。"
+      ],
+      "added_date": "2026-10-25",
+      "files": [
+        {
+          "path": "LICENSE.source.txt",
+          "bytes": 286,
+          "sha256": "7c2dc1ff0114a14a10fcd916fb26fd08917064b0a6d5cc69b893bd5f7daa3acf"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1105216,
+          "sha256": "69b484c31f6ba6a19a849fea4cfbd376410c235927872ac1cebf880e50cf903d"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 318739,
+          "sha256": "f22e5a22c46ac3c9be696993c7d260e9e199e2cfb90a7f9ded15529a696cc5b8"
+        }
+      ],
+      "visual_reviewed": true,
+      "path": "examples/teasers/orienternet",
+      "metadata_path": "examples/teasers/orienternet/metadata.json",
+      "readme_path": "examples/teasers/orienternet/README.md",
+      "primary_path": "examples/teasers/orienternet/source.svg",
+      "preview_path": "examples/teasers/orienternet/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "rayder-concept",
+      "title": "RayDer：数据瓶颈与新训练范式",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "motivation",
+        "data-bottleneck",
+        "novel-view-synthesis"
+      ],
+      "formats": [
+        "svg"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "数据金字塔、训练过程、结果与规模变化并列，先说明问题和核心差异。",
+      "classification_reason": "数据金字塔、训练过程、结果与规模变化并列，先说明问题和核心差异。",
+      "source": {
+        "project": "CompVis/rayder",
+        "venue": "ECCV 2026",
+        "urls": [
+          "https://compvis.github.io/rayder/",
+          "https://github.com/CompVis/rayder",
+          "https://raw.githubusercontent.com/CompVis/rayder/2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd/docs/static/images/paper-svg/teaser-concept.svg"
+        ],
+        "original_files": [
+          "docs/static/images/paper-svg/teaser-concept.svg"
+        ],
+        "commit": "2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd",
+        "git_blob_sha": "4ff6681e8488f4d37456594a9ea8c3c04b46e568",
+        "original_sha256": "6e3838db1f43229daa2d4d2e860645b501ff23a67dd33c1c7f02a1fb79ba75cb",
+        "retrieved_date": "2026-10-25",
+        "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+      },
+      "license": {
+        "status": "research-noncommercial",
+        "name": "保存仓库原许可证；用途限于其原有条款。",
+        "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+        "file": "LICENSE.source.txt"
+      },
+      "editability": {
+        "native_format": "author-supplied SVG",
+        "vector_shapes": true,
+        "editable_text": false,
+        "embedded_raster_images": 12,
+        "svg_object_counts": {
+          "path": 347,
+          "text": 0,
+          "image": 12,
+          "rect": 0,
+          "polygon": 0,
+          "circle": 0,
+          "use": 688
+        },
+        "notes": [
+          "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+          "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+          "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+        ]
+      },
+      "changes": [
+        "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+        "仅将原文件重命名并生成浏览预览，未重绘图形。"
+      ],
+      "added_date": "2026-10-25",
+      "files": [
+        {
+          "path": "LICENSE.source.txt",
+          "bytes": 9248,
+          "sha256": "45ba9a85a48012b1b8df08c663f9e9327172aff2ce03b231ed5d8be72b25b50a"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 328657,
+          "sha256": "b4f9d42290d94d5d68014171f3937f24daeda05de703aaa58907e413152435d0"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 873299,
+          "sha256": "6e3838db1f43229daa2d4d2e860645b501ff23a67dd33c1c7f02a1fb79ba75cb"
+        }
+      ],
+      "visual_reviewed": true,
+      "path": "examples/teasers/rayder-concept",
+      "metadata_path": "examples/teasers/rayder-concept/metadata.json",
+      "readme_path": "examples/teasers/rayder-concept/README.md",
+      "primary_path": "examples/teasers/rayder-concept/source.svg",
+      "preview_path": "examples/teasers/rayder-concept/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "shaddr",
+      "title": "ShaDDR：粗形状与示例驱动的成果展示",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "results-showcase",
+        "3d-generation",
+        "zoom-in"
+      ],
+      "formats": [
+        "svg"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "上排粗形状与风格示例，下排生成结果与局部放大，以成果直接展示任务和贡献。",
+      "classification_reason": "上排粗形状与风格示例，下排生成结果与局部放大，以成果直接展示任务和贡献。",
+      "source": {
+        "project": "qiminchen/ShaDDR",
+        "venue": "SIGGRAPH Asia 2023",
+        "urls": [
+          "https://qiminchen.github.io/shaddr/",
+          "https://github.com/qiminchen/ShaDDR",
+          "https://raw.githubusercontent.com/qiminchen/ShaDDR/7b42dc1657dbabab69908455ce84ede022878b1a/teaser.svg"
+        ],
+        "original_files": [
+          "teaser.svg"
+        ],
+        "commit": "7b42dc1657dbabab69908455ce84ede022878b1a",
+        "git_blob_sha": "7947473a1debbc19cf0baf45f4140b39133c25cf",
+        "original_sha256": "4ad573e830401876bca07076f356d949122f18dc30d731ab2c1ae02446f2672e",
+        "retrieved_date": "2026-10-25",
+        "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+      },
+      "license": {
+        "status": "repository-license",
+        "name": "MIT（来源仓库）；渲染素材保留原论文出处。",
+        "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+        "file": "LICENSE.source.txt"
+      },
+      "editability": {
+        "native_format": "author-supplied SVG",
+        "vector_shapes": true,
+        "editable_text": false,
+        "embedded_raster_images": 6,
+        "svg_object_counts": {
+          "path": 49,
+          "text": 0,
+          "image": 6,
+          "rect": 0,
+          "polygon": 0,
+          "circle": 0,
+          "use": 0
+        },
+        "notes": [
+          "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+          "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+          "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+        ]
+      },
+      "changes": [
+        "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+        "仅将原文件重命名并生成浏览预览，未重绘图形。"
+      ],
+      "added_date": "2026-10-25",
+      "files": [
+        {
+          "path": "LICENSE.source.txt",
+          "bytes": 1067,
+          "sha256": "4476e4ef04112d4e61a005d0cb383bbbefc853b48a11d459500a057587d1a84c"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 754409,
+          "sha256": "cc3a2e2816b7f673318645920273ad1d1170e0176ede6fa042cba3539efe7133"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 6014518,
+          "sha256": "4ad573e830401876bca07076f356d949122f18dc30d731ab2c1ae02446f2672e"
+        }
+      ],
+      "visual_reviewed": true,
+      "path": "examples/teasers/shaddr",
+      "metadata_path": "examples/teasers/shaddr/metadata.json",
+      "readme_path": "examples/teasers/shaddr/README.md",
+      "primary_path": "examples/teasers/shaddr/source.svg",
+      "preview_path": "examples/teasers/shaddr/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "clip",
+      "title": "CLIP Figure 1：训练到零样本预测",
+      "category": "architecture",
+      "kind": "paper-example",
+      "tags": [
         "method-overview",
         "contrastive-learning",
         "zero-shot",
         "three-stages",
-        "CLIP"
+        "CLIP",
+        "architecture"
       ],
       "formats": [
         "pdf",
@@ -27,7 +488,7 @@
       ],
       "primary_file": "source.svg",
       "preview": "preview.png",
-      "summary": "真实论文 Figure 1：左侧为图文对比预训练，右侧依次为用类别文本构建分类器、零样本预测。适合借鉴“一个训练阶段 + 两个使用阶段”的信息层级。",
+      "summary": "CLIP 的训练与零样本使用流程，按方法流程归入 architecture。",
       "source": {
         "project": "Learning Transferable Visual Models From Natural Language Supervision",
         "authors": [
@@ -84,355 +545,197 @@
           "sha256": "d6486343eb6993296017183e4037e080e9e062c76997da710bb7f0ffb2acc5d5"
         }
       ],
-      "path": "examples/teasers/clip",
-      "metadata_path": "examples/teasers/clip/metadata.json",
-      "readme_path": "examples/teasers/clip/README.md",
-      "primary_path": "examples/teasers/clip/source.svg",
-      "preview_path": "examples/teasers/clip/preview.png"
+      "origin": "downloaded-and-format-converted",
+      "classification_reason": "主体解释训练与推理流程；Figure 1 编号本身不决定 teaser 类别。",
+      "path": "examples/architectures/clip",
+      "metadata_path": "examples/architectures/clip/metadata.json",
+      "readme_path": "examples/architectures/clip/README.md",
+      "primary_path": "examples/architectures/clip/source.svg",
+      "preview_path": "examples/architectures/clip/preview.png"
     },
     {
       "schema_version": 1,
-      "id": "evaluation-blindspot",
-      "title": "评估盲点与研究动机 / Evaluation blind spot",
-      "category": "teaser",
-      "kind": "template",
-      "tags": [
-        "teaser",
-        "motivation",
-        "evaluation",
-        "blind-spot",
-        "editable-text"
-      ],
-      "formats": [
-        "svg",
-        "yaml"
-      ],
-      "primary_file": "source.svg",
-      "preview": "preview.png",
-      "summary": "用系统的不同区域与指标覆盖范围的差别，解释“当前评估遗漏了什么”。适合论文动机、评价方法或诊断方法的首图。",
-      "source": {
-        "project": "CVPR-Figure",
-        "authors": [
-          "ChizkiyahuOhayon"
-        ],
-        "urls": [
-          "https://github.com/ChizkiyahuOhayon/CVPR-Figure",
-          "https://github.com/ChizkiyahuOhayon/CVPR-Figure/blob/main/templates/blindspot-teaser.yaml"
-        ],
-        "original_files": [
-          "templates/blindspot-teaser.yaml"
-        ],
-        "retrieved_date": "2026-10-25"
-      },
-      "license": {
-        "spdx_id": "MIT",
-        "status": "permissive",
-        "name": "MIT License",
-        "file": "LICENSE.source.txt",
-        "note": "许可证针对来源项目；复制或再分发其内容时保留原版权和许可声明。"
-      },
-      "editability": {
-        "native_format": "SVG",
-        "vector_shapes": true,
-        "editable_text": true,
-        "embedded_raster_images": 0,
-        "notes": [
-          "由作者 YAML 模板及公开渲染程序导出，保留文字和图形对象。",
-          "0.00 是模板占位数值，不是实验结果。",
-          "尚未在桌面 Illustrator 中打开验证。"
-        ]
-      },
-      "changes": [
-        "由作者原始 YAML 模板使用其渲染程序导出 SVG；未修改模板内容。",
-        "本条目仅复制、重命名已有 SVG 和预览。"
-      ],
-      "added_date": "2026-10-25",
-      "files": [
-        {
-          "path": "LICENSE.source.txt",
-          "bytes": 1065,
-          "sha256": "7a47efa5b15abf69547d2a9513b41e982db882bad2632c508ab90924f5fb766d"
-        },
-        {
-          "path": "originals/blindspot-teaser.yaml",
-          "bytes": 3659,
-          "sha256": "5e9dbc7dda7807d1e46dfc30131bd7e08c257bd85d771c22f95d2c4b50d55441"
-        },
-        {
-          "path": "preview.png",
-          "bytes": 152348,
-          "sha256": "d253578a86ad38ce0588bc3236b4704142cdb389c85e059054c58de6a23664d6"
-        },
-        {
-          "path": "source.svg",
-          "bytes": 8315,
-          "sha256": "d2114455879541efbe518e5d3a7e9162d1cfa413e0a8d9e165b339de448c9844"
-        }
-      ],
-      "path": "examples/teasers/evaluation-blindspot",
-      "metadata_path": "examples/teasers/evaluation-blindspot/metadata.json",
-      "readme_path": "examples/teasers/evaluation-blindspot/README.md",
-      "primary_path": "examples/teasers/evaluation-blindspot/source.svg",
-      "preview_path": "examples/teasers/evaluation-blindspot/preview.png"
-    },
-    {
-      "schema_version": 1,
-      "id": "method-comparison",
-      "title": "方法范式对比 / Method comparison",
-      "category": "teaser",
-      "kind": "template",
-      "tags": [
-        "teaser",
-        "method-comparison",
-        "three-rows",
-        "motivation",
-        "editable-text"
-      ],
-      "formats": [
-        "svg",
-        "yaml"
-      ],
-      "primary_file": "source.svg",
-      "preview": "preview.png",
-      "summary": "三行并列展示 Decoupled、Grid feature-based 与 Dynamic query-based 三种范式。适合把两类既有方法与本文方法的核心差异放在同一张首图中。",
-      "source": {
-        "project": "CVPR-Figure",
-        "authors": [
-          "ChizkiyahuOhayon"
-        ],
-        "urls": [
-          "https://github.com/ChizkiyahuOhayon/CVPR-Figure",
-          "https://github.com/ChizkiyahuOhayon/CVPR-Figure/blob/main/templates/teaser-comparison.yaml"
-        ],
-        "original_files": [
-          "templates/teaser-comparison.yaml"
-        ],
-        "retrieved_date": "2026-10-25"
-      },
-      "license": {
-        "spdx_id": "MIT",
-        "status": "permissive",
-        "name": "MIT License",
-        "file": "LICENSE.source.txt",
-        "note": "许可证针对来源项目；复制或再分发其内容时保留原版权和许可声明。"
-      },
-      "editability": {
-        "native_format": "SVG",
-        "vector_shapes": true,
-        "editable_text": true,
-        "embedded_raster_images": 0,
-        "notes": [
-          "由作者 YAML 模板及公开渲染程序导出，保留文字和图形对象。",
-          "字体表现依赖本地字体；尚未在桌面 Illustrator 中打开验证。"
-        ]
-      },
-      "changes": [
-        "由作者原始 YAML 模板使用其渲染程序导出 SVG；未修改模板内容。",
-        "本条目仅复制、重命名已有 SVG 和预览。"
-      ],
-      "added_date": "2026-10-25",
-      "files": [
-        {
-          "path": "LICENSE.source.txt",
-          "bytes": 1065,
-          "sha256": "7a47efa5b15abf69547d2a9513b41e982db882bad2632c508ab90924f5fb766d"
-        },
-        {
-          "path": "originals/teaser-comparison.yaml",
-          "bytes": 2753,
-          "sha256": "07264cc3e0acd8a79f710d2c013a9e02a725fe90e910c170136d2107391fc965"
-        },
-        {
-          "path": "preview.png",
-          "bytes": 195732,
-          "sha256": "0a9421a8f1973635c7302ddb436d7b2a560275512aad8218097f3908c54265fb"
-        },
-        {
-          "path": "source.svg",
-          "bytes": 12326,
-          "sha256": "69b17b25b1d06ae0f8a840b4de27b5ac3fbdd6488694d2b9d69cbcd65f19dbe2"
-        }
-      ],
-      "path": "examples/teasers/method-comparison",
-      "metadata_path": "examples/teasers/method-comparison/metadata.json",
-      "readme_path": "examples/teasers/method-comparison/README.md",
-      "primary_path": "examples/teasers/method-comparison/source.svg",
-      "preview_path": "examples/teasers/method-comparison/preview.png"
-    },
-    {
-      "schema_version": 1,
-      "id": "neural-ode",
-      "title": "Neural ODE Figure 1：离散层与连续动力学",
-      "category": "teaser",
+      "id": "lav",
+      "title": "LAV：感知、预测与驾驶控制流程",
+      "category": "architecture",
       "kind": "paper-example",
+      "origin": "downloaded",
       "tags": [
-        "teaser",
-        "conceptual-comparison",
-        "dynamics",
-        "neural-ode",
-        "residual-network",
-        "vector-field"
-      ],
-      "formats": [
-        "pdf",
-        "svg"
-      ],
-      "primary_file": "source.svg",
-      "preview": "preview.png",
-      "summary": "真实论文 Figure 1 的两个面板：离散残差变换与连续 ODE 向量场对比。适合借鉴用轨迹、采样位置与连续场解释方法差异的方式。",
-      "source": {
-        "project": "Neural Ordinary Differential Equations",
-        "authors": [
-          "Ricky T. Q. Chen et al."
-        ],
-        "paper_id": "arXiv:1806.07366",
-        "figure": "Figure 1",
-        "urls": [
-          "https://arxiv.org/abs/1806.07366",
-          "https://arxiv.org/src/1806.07366"
-        ],
-        "original_files": [
-          "imgs/resnet_0_viz.pdf",
-          "imgs/odenet_0_viz.pdf"
-        ],
-        "retrieved_date": "2026-10-25"
-      },
-      "license": {
-        "spdx_id": null,
-        "status": "reference-only",
-        "name": "arXiv non-exclusive distribution license",
-        "note": "arXiv 的非独占分发许可不是通用自由复用许可证。本条目作为私人研究与版式参考保存，不能据此推定可以自由再分发或直接复用论文图片。"
-      },
-      "editability": {
-        "native_format": "two vector PDFs converted to SVG",
-        "vector_shapes": true,
-        "editable_text": "partial",
-        "embedded_raster_images": 0,
-        "notes": [
-          "曲线、箭头与标记为矢量。",
-          "转换后的部分文字可能按 PDF 文本块拆分，字体依赖本地环境。",
-          "尚未在桌面 Illustrator 中打开验证。"
-        ]
-      },
-      "changes": [
-        "从作者 arXiv 源包提取两份原始 PDF，保留未修改副本。",
-        "将两个 PDF 面板转换为 SVG，给内部 XML ID 加前缀避免冲突。",
-        "并排组合两个面板，补上原论文中的 Residual Network 和 ODE Network 标题；图内内容不变。"
-      ],
-      "added_date": "2026-10-25",
-      "files": [
-        {
-          "path": "originals/odenet_0_viz.pdf",
-          "bytes": 32421,
-          "sha256": "e610489522347c6975f6fb2a560b158113e094a58686bdc7209f6471126134e0"
-        },
-        {
-          "path": "originals/resnet_0_viz.pdf",
-          "bytes": 19395,
-          "sha256": "9dcf52d7fca3ddea1221138294294707dce5b84d531b8bace44f873140a88836"
-        },
-        {
-          "path": "preview.png",
-          "bytes": 354891,
-          "sha256": "bc63bdad73c450635d63df3fb9e2c20e64804b1dc465ac2ae90a056a6e9cc379"
-        },
-        {
-          "path": "source.svg",
-          "bytes": 225496,
-          "sha256": "84d52d6a90ae00424b1af625e187f10bb155d8f8f44d3e09611e93ac6806d27a"
-        }
-      ],
-      "path": "examples/teasers/neural-ode",
-      "metadata_path": "examples/teasers/neural-ode/metadata.json",
-      "readme_path": "examples/teasers/neural-ode/README.md",
-      "primary_path": "examples/teasers/neural-ode/source.svg",
-      "preview_path": "examples/teasers/neural-ode/preview.png"
-    },
-    {
-      "schema_version": 1,
-      "id": "penrose",
-      "title": "Penrose Figure 1：三种几何的概念对照",
-      "category": "teaser",
-      "kind": "paper-example",
-      "tags": [
-        "teaser",
-        "geometry",
-        "mathematical-illustration",
-        "three-panels",
-        "conceptual-comparison"
+        "architecture",
+        "autonomous-driving",
+        "pipeline",
+        "multibranch"
       ],
       "formats": [
         "svg"
       ],
       "primary_file": "source.svg",
       "preview": "preview.png",
-      "summary": "Penrose 论文 Figure 1 右侧的三联可视化，展示欧氏、球面和双曲几何。原 Figure 1 左侧还包含语句／代码，所以本条目不是整张 Figure 1。",
+      "summary": "多摄像头输入、语义分割、传感器融合、三维主干、运动预测与控制的整体数据流。原文件虽叫 teaser.svg，按内容归入 architecture。",
+      "classification_reason": "多摄像头输入、语义分割、传感器融合、三维主干、运动预测与控制的整体数据流。原文件虽叫 teaser.svg，按内容归入 architecture。",
       "source": {
-        "project": "Penrose: From Mathematical Notation to Beautiful Diagrams",
-        "authors": [
-          "Katherine Ye et al."
-        ],
-        "venue": "SIGGRAPH 2020",
-        "figure": "Figure 1, right three-panel visualization",
+        "project": "dotchen/LAV",
+        "venue": "CVPR 2022",
         "urls": [
-          "https://penrose.cs.cmu.edu/siggraph20",
-          "https://github.com/penrose/penrose",
-          "https://raw.githubusercontent.com/penrose/penrose/main/packages/docs-site/public/media/figures/teaser.svg",
-          "https://raw.githubusercontent.com/penrose/penrose/main/packages/docs-site/public/media/figures/B936EAED9CFC42F4.png"
+          "https://dotchen.github.io/LAV/",
+          "https://github.com/dotchen/LAV",
+          "https://raw.githubusercontent.com/dotchen/LAV/12540bd5f7b8a1059117681fa8e1fa00e8908dd7/assets/teaser.svg"
         ],
         "original_files": [
-          "packages/docs-site/public/media/figures/teaser.svg",
-          "packages/docs-site/public/media/figures/B936EAED9CFC42F4.png"
+          "assets/teaser.svg"
         ],
-        "retrieved_date": "2026-10-25"
+        "commit": "12540bd5f7b8a1059117681fa8e1fa00e8908dd7",
+        "git_blob_sha": "2219dd310b6253b44e25e8dc6d032cfdbe7c3817",
+        "original_sha256": "4241546dfaf907173feffb1ad2b841ed5115446cce2b55159c40ca66f6b3c3d2",
+        "retrieved_date": "2026-10-25",
+        "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
       },
       "license": {
-        "spdx_id": "MIT",
-        "status": "repository-permissive",
-        "name": "MIT License (source repository)",
-        "file": "LICENSE.source.txt",
-        "note": "来源仓库声明 MIT，已保留其许可证原文；保留项目与论文出处。"
+        "status": "repository-license",
+        "name": "Apache-2.0（来源仓库）。",
+        "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+        "file": "LICENSE.source.txt"
       },
       "editability": {
-        "native_format": "SVG exported by Adobe Illustrator 24.0.1",
+        "native_format": "author-supplied SVG",
         "vector_shapes": true,
-        "editable_text": "partial",
-        "embedded_raster_images": 1,
+        "editable_text": true,
+        "embedded_raster_images": 42,
+        "svg_object_counts": {
+          "path": 93,
+          "text": 24,
+          "image": 42,
+          "rect": 0,
+          "polygon": 0,
+          "circle": 0,
+          "use": 50
+        },
         "notes": [
-          "多数形状与公式是可编辑路径；部分公式或字形已转轮廓，不再是文字对象。",
-          "少量底部标题仍是文字，依赖本地字体。",
-          "一个小型阴影 PNG 已内嵌；源 SVG 已无该外链依赖。",
-          "尚未在桌面 Illustrator 中打开验证。"
+          "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+          "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+          "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
         ]
       },
       "changes": [
-        "使用官方仓库的原始 SVG。",
-        "将同目录的 B936EAED9CFC42F4.png 内嵌为 data URI，解除外部阴影素材依赖；其余图内内容不变。",
-        "本条目仅复制、重命名已处理的 SVG 和预览。"
+        "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+        "仅将原文件重命名并生成浏览预览，未重绘图形。"
       ],
       "added_date": "2026-10-25",
       "files": [
         {
           "path": "LICENSE.source.txt",
-          "bytes": 1057,
-          "sha256": "afb11426e09da40a1ae4f8fa17ddcc6b6a52d14df04c29bc5bcd06eb8730624d"
+          "bytes": 11339,
+          "sha256": "89a026ebbe8dfdf0b812f66005dfc1c7d068b838c6e55c0d68be4576e8832caf"
         },
         {
           "path": "preview.png",
-          "bytes": 246144,
-          "sha256": "7a2e179fc341be49806c2829c7eb623488a407098007535c2f93d1ff4711ec89"
+          "bytes": 292671,
+          "sha256": "d55a7f78c9472e769468fc8023528e19312442acee26466c60ca4087e97b46b9"
         },
         {
           "path": "source.svg",
-          "bytes": 214744,
-          "sha256": "9cbb5e47e921dd2e1e94f9fea0d3cbe1579fbe4308ba7d618e79860553987a02"
+          "bytes": 1080517,
+          "sha256": "4241546dfaf907173feffb1ad2b841ed5115446cce2b55159c40ca66f6b3c3d2"
         }
       ],
-      "path": "examples/teasers/penrose",
-      "metadata_path": "examples/teasers/penrose/metadata.json",
-      "readme_path": "examples/teasers/penrose/README.md",
-      "primary_path": "examples/teasers/penrose/source.svg",
-      "preview_path": "examples/teasers/penrose/preview.png"
+      "visual_reviewed": true,
+      "path": "examples/architectures/lav",
+      "metadata_path": "examples/architectures/lav/metadata.json",
+      "readme_path": "examples/architectures/lav/README.md",
+      "primary_path": "examples/architectures/lav/source.svg",
+      "preview_path": "examples/architectures/lav/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "lightglue",
+      "title": "LightGlue：注意力、动态剪枝与匹配",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "architecture",
+        "attention",
+        "pruning",
+        "feature-matching"
+      ],
+      "formats": [
+        "svg"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "双分支局部特征经过 self/cross attention、置信度预测、剪枝和匹配分配。",
+      "classification_reason": "双分支局部特征经过 self/cross attention、置信度预测、剪枝和匹配分配。",
+      "source": {
+        "project": "cvg/LightGlue",
+        "venue": "ICCV 2023",
+        "urls": [
+          "https://github.com/cvg/LightGlue",
+          "https://github.com/cvg/LightGlue",
+          "https://raw.githubusercontent.com/cvg/LightGlue/eb42fee2d71449efb0aa5c10549752b5d75384d8/assets/architecture.svg"
+        ],
+        "original_files": [
+          "assets/architecture.svg"
+        ],
+        "commit": "eb42fee2d71449efb0aa5c10549752b5d75384d8",
+        "git_blob_sha": "df15d83690d20f28fef4a33d7a2442105cb786f6",
+        "original_sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc",
+        "retrieved_date": "2026-10-25",
+        "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+      },
+      "license": {
+        "status": "repository-license",
+        "name": "Apache-2.0（来源仓库）。",
+        "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+        "file": "LICENSE.source.txt"
+      },
+      "editability": {
+        "native_format": "author-supplied SVG",
+        "vector_shapes": true,
+        "editable_text": true,
+        "embedded_raster_images": 12,
+        "svg_object_counts": {
+          "path": 162,
+          "text": 38,
+          "image": 12,
+          "rect": 0,
+          "polygon": 0,
+          "circle": 0,
+          "use": 0
+        },
+        "notes": [
+          "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+          "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+          "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+        ]
+      },
+      "changes": [
+        "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+        "仅将原文件重命名并生成浏览预览，未重绘图形。"
+      ],
+      "added_date": "2026-10-25",
+      "files": [
+        {
+          "path": "LICENSE.source.txt",
+          "bytes": 11340,
+          "sha256": "0e6031ed3e62dc91dc8b1c8f240abd200b1083f60773362e64e339fe01d1bf18"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 146961,
+          "sha256": "54a9e37d1f393517f59b0111cb524330cccf4330380ea3e746bad5b1324ea491"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 128611,
+          "sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc"
+        }
+      ],
+      "visual_reviewed": true,
+      "path": "examples/architectures/lightglue",
+      "metadata_path": "examples/architectures/lightglue/metadata.json",
+      "readme_path": "examples/architectures/lightglue/README.md",
+      "primary_path": "examples/architectures/lightglue/source.svg",
+      "preview_path": "examples/architectures/lightglue/preview.png"
     },
     {
       "schema_version": 1,
@@ -510,6 +813,184 @@
       "readme_path": "examples/architectures/multiscale-network/README.md",
       "primary_path": "examples/architectures/multiscale-network/source.ai",
       "preview_path": "examples/architectures/multiscale-network/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "rayder",
+      "title": "RayDer：统一 Transformer 的两个使用阶段",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "architecture",
+        "transformer",
+        "shared-model",
+        "two-stages"
+      ],
+      "formats": [
+        "svg"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "左右并列相机估计与新视角合成，清楚标明共用模型与不同输入输出。",
+      "classification_reason": "左右并列相机估计与新视角合成，清楚标明共用模型与不同输入输出。",
+      "source": {
+        "project": "CompVis/rayder",
+        "venue": "ECCV 2026",
+        "urls": [
+          "https://compvis.github.io/rayder/",
+          "https://github.com/CompVis/rayder",
+          "https://raw.githubusercontent.com/CompVis/rayder/2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd/docs/static/images/paper-svg/architecture-overview.svg"
+        ],
+        "original_files": [
+          "docs/static/images/paper-svg/architecture-overview.svg"
+        ],
+        "commit": "2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd",
+        "git_blob_sha": "8be5b3a550483e98a3941981773706cf78fed66d",
+        "original_sha256": "d11495bd213afd300a07b6899e84c1ce34d0b19e88dd315b6ca0b7ceb21ba908",
+        "retrieved_date": "2026-10-25",
+        "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+      },
+      "license": {
+        "status": "research-noncommercial",
+        "name": "保存仓库原许可证；用途限于其原有条款。",
+        "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+        "file": "LICENSE.source.txt"
+      },
+      "editability": {
+        "native_format": "author-supplied SVG",
+        "vector_shapes": true,
+        "editable_text": false,
+        "embedded_raster_images": 7,
+        "svg_object_counts": {
+          "path": 218,
+          "text": 0,
+          "image": 7,
+          "rect": 0,
+          "polygon": 0,
+          "circle": 0,
+          "use": 181
+        },
+        "notes": [
+          "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+          "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+          "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+        ]
+      },
+      "changes": [
+        "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+        "仅将原文件重命名并生成浏览预览，未重绘图形。"
+      ],
+      "added_date": "2026-10-25",
+      "files": [
+        {
+          "path": "LICENSE.source.txt",
+          "bytes": 9248,
+          "sha256": "45ba9a85a48012b1b8df08c663f9e9327172aff2ce03b231ed5d8be72b25b50a"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 468992,
+          "sha256": "c5a9a17c3f3db4a6fd618e3733d4199b4e17a22433aef4e0e0d37c6fc367c624"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 541529,
+          "sha256": "d11495bd213afd300a07b6899e84c1ce34d0b19e88dd315b6ca0b7ceb21ba908"
+        }
+      ],
+      "visual_reviewed": true,
+      "path": "examples/architectures/rayder",
+      "metadata_path": "examples/architectures/rayder/metadata.json",
+      "readme_path": "examples/architectures/rayder/README.md",
+      "primary_path": "examples/architectures/rayder/source.svg",
+      "preview_path": "examples/architectures/rayder/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "rust",
+      "title": "RUST：编码器、场景表示与位姿分支",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "architecture",
+        "encoder-decoder",
+        "feature-stack",
+        "training-branch"
+      ],
+      "formats": [
+        "svg"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "无位姿输入图像经 Encoder、场景表示、Decoder 输出新视角，训练时有 Pose Estimator 分支。按内容归入 architecture。",
+      "classification_reason": "无位姿输入图像经 Encoder、场景表示、Decoder 输出新视角，训练时有 Pose Estimator 分支。按内容归入 architecture。",
+      "source": {
+        "project": "rust-paper/rust-paper.github.io",
+        "venue": "CVPR 2023",
+        "urls": [
+          "https://rust-paper.github.io/",
+          "https://github.com/rust-paper/rust-paper.github.io",
+          "https://raw.githubusercontent.com/rust-paper/rust-paper.github.io/8c3a856479a91b2acebb652d91e6b621b005ad95/data/teaser.svg"
+        ],
+        "original_files": [
+          "data/teaser.svg"
+        ],
+        "commit": "8c3a856479a91b2acebb652d91e6b621b005ad95",
+        "git_blob_sha": "8c268f84ec6ad810a5955b9c2c79bd8f07dc54ec",
+        "original_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+        "retrieved_date": "2026-10-25",
+        "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+      },
+      "license": {
+        "status": "no-explicit-license",
+        "name": "项目仓库未发现 LICENSE；仅作出处明确的参考，元素提取不新增授权。",
+        "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。"
+      },
+      "editability": {
+        "native_format": "author-supplied SVG",
+        "vector_shapes": true,
+        "editable_text": true,
+        "embedded_raster_images": 7,
+        "svg_object_counts": {
+          "path": 199,
+          "text": 9,
+          "image": 7,
+          "rect": 0,
+          "polygon": 0,
+          "circle": 0,
+          "use": 7
+        },
+        "notes": [
+          "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+          "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+          "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+        ]
+      },
+      "changes": [
+        "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+        "仅将原文件重命名并生成浏览预览，未重绘图形。"
+      ],
+      "added_date": "2026-10-25",
+      "files": [
+        {
+          "path": "preview.png",
+          "bytes": 499757,
+          "sha256": "287a7a4169c8478e079e7928a02e2b4f93192f99df5558133d937927b2ca5f92"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 311593,
+          "sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe"
+        }
+      ],
+      "visual_reviewed": true,
+      "path": "examples/architectures/rust",
+      "metadata_path": "examples/architectures/rust/metadata.json",
+      "readme_path": "examples/architectures/rust/README.md",
+      "primary_path": "examples/architectures/rust/source.svg",
+      "preview_path": "examples/architectures/rust/preview.png"
     },
     {
       "schema_version": 1,
@@ -629,799 +1110,830 @@
       "preview_path": "examples/architectures/sam-lora/preview.png"
     },
     {
-      "id": "module-block",
-      "title_zh": "通用模块",
-      "title_en": "Module block",
+      "id": "towaki-neuralnetwork",
+      "title_zh": "浅层神经网络",
+      "title_en": "Neural network",
       "category": "element",
       "tags": [
-        "module",
-        "process",
-        "architecture"
+        "external",
+        "CC0",
+        "icon"
       ],
-      "notes": "",
-      "svg_path": "elements/svg/module-block.svg",
-      "preview_path": "elements/svg/module-block.svg",
+      "origin": "downloaded",
+      "svg_path": "elements/svg/towaki-neuralnetwork.svg",
+      "preview_path": "elements/previews/towaki-neuralnetwork.png",
       "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
+        "kind": "external-download",
+        "author": "Towaki Takikawa",
+        "urls": [
+          "https://github.com/tovacinni/cv-gfx-ml-icons",
+          "https://raw.githubusercontent.com/tovacinni/cv-gfx-ml-icons/75bc108cd5777b96d702449d871e9067642c75b0/neuralnetwork.svg"
+        ],
+        "commit": "75bc108cd5777b96d702449d871e9067642c75b0",
+        "original_file": "neuralnetwork.svg",
+        "original_sha256": "2e8c4f812583ca7b785879967473b2f2f51814e9f1b19f8de85706b8a7762f06"
       },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "通用模块",
+      "rights": "CC0-1.0；保存作者原 SVG，字节未修改。",
+      "license": {
+        "status": "public-domain-dedication",
+        "name": "CC0-1.0",
+        "file": "elements/sources/CC0-1.0.txt"
+      },
+      "editability": "原 SVG 中的矢量路径，可直接修改；未重绘。",
+      "sha256": "2e8c4f812583ca7b785879967473b2f2f51814e9f1b19f8de85706b8a7762f06",
+      "visual_reviewed": true,
+      "title": "浅层神经网络",
       "element_category": "modules",
-      "kind": "original-element",
+      "kind": "external-element",
       "formats": [
         "svg"
       ],
-      "primary_path": "elements/svg/module-block.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
+      "primary_path": "elements/svg/towaki-neuralnetwork.svg"
     },
     {
-      "id": "encoder",
-      "title_zh": "编码器",
+      "id": "towaki-deepneuralnetwork",
+      "title_zh": "深层神经网络",
+      "title_en": "Deep neural network",
+      "category": "element",
+      "tags": [
+        "external",
+        "CC0",
+        "icon"
+      ],
+      "origin": "downloaded",
+      "svg_path": "elements/svg/towaki-deepneuralnetwork.svg",
+      "preview_path": "elements/previews/towaki-deepneuralnetwork.png",
+      "source": {
+        "kind": "external-download",
+        "author": "Towaki Takikawa",
+        "urls": [
+          "https://github.com/tovacinni/cv-gfx-ml-icons",
+          "https://raw.githubusercontent.com/tovacinni/cv-gfx-ml-icons/75bc108cd5777b96d702449d871e9067642c75b0/deepneuralnetwork.svg"
+        ],
+        "commit": "75bc108cd5777b96d702449d871e9067642c75b0",
+        "original_file": "deepneuralnetwork.svg",
+        "original_sha256": "4cc484c293948e4f1c2a52845da617117e4a2580b8362a397bba37cac4b6508b"
+      },
+      "rights": "CC0-1.0；保存作者原 SVG，字节未修改。",
+      "license": {
+        "status": "public-domain-dedication",
+        "name": "CC0-1.0",
+        "file": "elements/sources/CC0-1.0.txt"
+      },
+      "editability": "原 SVG 中的矢量路径，可直接修改；未重绘。",
+      "sha256": "4cc484c293948e4f1c2a52845da617117e4a2580b8362a397bba37cac4b6508b",
+      "visual_reviewed": true,
+      "title": "深层神经网络",
+      "element_category": "modules",
+      "kind": "external-element",
+      "formats": [
+        "svg"
+      ],
+      "primary_path": "elements/svg/towaki-deepneuralnetwork.svg"
+    },
+    {
+      "id": "towaki-neuralfieldpaper",
+      "title_zh": "神经场论文图标",
+      "title_en": "Neural field paper",
+      "category": "element",
+      "tags": [
+        "external",
+        "CC0",
+        "icon"
+      ],
+      "origin": "downloaded",
+      "svg_path": "elements/svg/towaki-neuralfieldpaper.svg",
+      "preview_path": "elements/previews/towaki-neuralfieldpaper.png",
+      "source": {
+        "kind": "external-download",
+        "author": "Towaki Takikawa",
+        "urls": [
+          "https://github.com/tovacinni/cv-gfx-ml-icons",
+          "https://raw.githubusercontent.com/tovacinni/cv-gfx-ml-icons/75bc108cd5777b96d702449d871e9067642c75b0/neuralfieldpaper.svg"
+        ],
+        "commit": "75bc108cd5777b96d702449d871e9067642c75b0",
+        "original_file": "neuralfieldpaper.svg",
+        "original_sha256": "7459d72720637bb46e34f08f47f55ce7bbe3a3e1cb9f8b44090c5ed62da50b1c"
+      },
+      "rights": "CC0-1.0；保存作者原 SVG，字节未修改。",
+      "license": {
+        "status": "public-domain-dedication",
+        "name": "CC0-1.0",
+        "file": "elements/sources/CC0-1.0.txt"
+      },
+      "editability": "原 SVG 中的矢量路径，可直接修改；未重绘。",
+      "sha256": "7459d72720637bb46e34f08f47f55ce7bbe3a3e1cb9f8b44090c5ed62da50b1c",
+      "visual_reviewed": true,
+      "title": "神经场论文图标",
+      "element_category": "data",
+      "kind": "external-element",
+      "formats": [
+        "svg"
+      ],
+      "primary_path": "elements/svg/towaki-neuralfieldpaper.svg"
+    },
+    {
+      "id": "towaki-bunny",
+      "title_zh": "兔形图标",
+      "title_en": "Bunny",
+      "category": "element",
+      "tags": [
+        "external",
+        "CC0",
+        "icon"
+      ],
+      "origin": "downloaded",
+      "svg_path": "elements/svg/towaki-bunny.svg",
+      "preview_path": "elements/previews/towaki-bunny.png",
+      "source": {
+        "kind": "external-download",
+        "author": "Towaki Takikawa",
+        "urls": [
+          "https://github.com/tovacinni/cv-gfx-ml-icons",
+          "https://raw.githubusercontent.com/tovacinni/cv-gfx-ml-icons/75bc108cd5777b96d702449d871e9067642c75b0/bunny.svg"
+        ],
+        "commit": "75bc108cd5777b96d702449d871e9067642c75b0",
+        "original_file": "bunny.svg",
+        "original_sha256": "6231f7aea4baa7e375604e02098ce0754277bdbac3af97b5c90daebc6a548ea2"
+      },
+      "rights": "CC0-1.0；保存作者原 SVG，字节未修改。",
+      "license": {
+        "status": "public-domain-dedication",
+        "name": "CC0-1.0",
+        "file": "elements/sources/CC0-1.0.txt"
+      },
+      "editability": "原 SVG 中的矢量路径，可直接修改；未重绘。",
+      "sha256": "6231f7aea4baa7e375604e02098ce0754277bdbac3af97b5c90daebc6a548ea2",
+      "visual_reviewed": true,
+      "title": "兔形图标",
+      "element_category": "data",
+      "kind": "external-element",
+      "formats": [
+        "svg"
+      ],
+      "primary_path": "elements/svg/towaki-bunny.svg"
+    },
+    {
+      "id": "towaki-floppydisk",
+      "title_zh": "存储图标",
+      "title_en": "Storage",
+      "category": "element",
+      "tags": [
+        "external",
+        "CC0",
+        "icon"
+      ],
+      "origin": "downloaded",
+      "svg_path": "elements/svg/towaki-floppydisk.svg",
+      "preview_path": "elements/previews/towaki-floppydisk.png",
+      "source": {
+        "kind": "external-download",
+        "author": "Towaki Takikawa",
+        "urls": [
+          "https://github.com/tovacinni/cv-gfx-ml-icons",
+          "https://raw.githubusercontent.com/tovacinni/cv-gfx-ml-icons/75bc108cd5777b96d702449d871e9067642c75b0/floppydisk.svg"
+        ],
+        "commit": "75bc108cd5777b96d702449d871e9067642c75b0",
+        "original_file": "floppydisk.svg",
+        "original_sha256": "7d08dcfaee22c2f8b72698c976b5cd581bded364cc42e76944cb832fea1af49c"
+      },
+      "rights": "CC0-1.0；保存作者原 SVG，字节未修改。",
+      "license": {
+        "status": "public-domain-dedication",
+        "name": "CC0-1.0",
+        "file": "elements/sources/CC0-1.0.txt"
+      },
+      "editability": "原 SVG 中的矢量路径，可直接修改；未重绘。",
+      "sha256": "7d08dcfaee22c2f8b72698c976b5cd581bded364cc42e76944cb832fea1af49c",
+      "visual_reviewed": true,
+      "title": "存储图标",
+      "element_category": "data",
+      "kind": "external-element",
+      "formats": [
+        "svg"
+      ],
+      "primary_path": "elements/svg/towaki-floppydisk.svg"
+    },
+    {
+      "id": "rust-encoder",
+      "title_zh": "编码器块",
       "title_en": "Encoder",
       "category": "element",
       "tags": [
-        "encoder",
-        "compression",
-        "representation"
+        "rust",
+        "extracted",
+        "vector"
       ],
-      "notes": "",
-      "svg_path": "elements/svg/encoder.svg",
-      "preview_path": "elements/svg/encoder.svg",
+      "origin": "extracted",
+      "svg_path": "elements/svg/rust-encoder.svg",
+      "preview_path": "elements/previews/rust-encoder.png",
       "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/rust-paper/rust-paper.github.io/8c3a856479a91b2acebb652d91e6b621b005ad95/data/teaser.svg"
+        ],
+        "local_original": "examples/architectures/rust/source.svg",
+        "original_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+        "selector": {
+          "parent_child_indices": [
+            0
+          ],
+          "selected_child_indices": [
+            8,
+            41,
+            42
+          ],
+          "index_base": 0,
+          "viewBox": [
+            138,
+            83,
+            27,
+            79
+          ]
+        }
       },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "编码器",
+      "rights": "原项目未发现独立图形授权；仅作出处明确的参考",
+      "license": {
+        "status": "no-explicit-license",
+        "name": "原项目未发现独立图形授权；仅作出处明确的参考"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "ba0ffefbdbee7796d9a70956b164f954d8580277ba57b49a57eba1cac507bcf1",
+      "visual_reviewed": true,
+      "title": "编码器块",
       "element_category": "modules",
-      "kind": "original-element",
+      "kind": "external-element",
       "formats": [
         "svg"
       ],
-      "primary_path": "elements/svg/encoder.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
+      "primary_path": "elements/svg/rust-encoder.svg"
     },
     {
-      "id": "decoder",
-      "title_zh": "解码器",
+      "id": "rust-decoder",
+      "title_zh": "解码器块",
       "title_en": "Decoder",
       "category": "element",
       "tags": [
-        "decoder",
-        "generation",
-        "reconstruction"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/decoder.svg",
-      "preview_path": "elements/svg/decoder.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "解码器",
-      "element_category": "modules",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/decoder.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "tensor-stack",
-      "title_zh": "特征张量",
-      "title_en": "Tensor stack",
-      "category": "element",
-      "tags": [
-        "tensor",
-        "feature-map",
-        "channels"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/tensor-stack.svg",
-      "preview_path": "elements/svg/tensor-stack.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "特征张量",
-      "element_category": "data",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/tensor-stack.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "matrix",
-      "title_zh": "矩阵",
-      "title_en": "Matrix",
-      "category": "element",
-      "tags": [
-        "matrix",
-        "features",
-        "linear-algebra"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/matrix.svg",
-      "preview_path": "elements/svg/matrix.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "矩阵",
-      "element_category": "data",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/matrix.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "token-sequence",
-      "title_zh": "Token 序列",
-      "title_en": "Token sequence",
-      "category": "element",
-      "tags": [
-        "tokens",
-        "transformer",
-        "sequence"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/token-sequence.svg",
-      "preview_path": "elements/svg/token-sequence.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "Token 序列",
-      "element_category": "data",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/token-sequence.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "image-tile",
-      "title_zh": "图像占位块",
-      "title_en": "Image tile",
-      "category": "element",
-      "tags": [
-        "image",
-        "input",
-        "placeholder"
-      ],
-      "notes": "Illustrative placeholder; replace with an actual image when needed.",
-      "svg_path": "elements/svg/image-tile.svg",
-      "preview_path": "elements/svg/image-tile.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "图像占位块",
-      "element_category": "data",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/image-tile.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "mlp",
-      "title_zh": "全连接网络",
-      "title_en": "MLP",
-      "category": "element",
-      "tags": [
-        "mlp",
-        "neural-network",
-        "fully-connected"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/mlp.svg",
-      "preview_path": "elements/svg/mlp.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "全连接网络",
-      "element_category": "modules",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/mlp.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "attention",
-      "title_zh": "注意力模块",
-      "title_en": "Attention",
-      "category": "element",
-      "tags": [
-        "attention",
-        "transformer",
-        "qkv"
-      ],
-      "notes": "Symbolic function label; adapt it to the actual attention definition.",
-      "svg_path": "elements/svg/attention.svg",
-      "preview_path": "elements/svg/attention.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "注意力模块",
-      "element_category": "modules",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/attention.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "sum-node",
-      "title_zh": "加法节点",
-      "title_en": "Sum node",
-      "category": "element",
-      "tags": [
-        "sum",
-        "add",
-        "residual"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/sum-node.svg",
-      "preview_path": "elements/svg/sum-node.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "加法节点",
-      "element_category": "operations",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/sum-node.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "concat-node",
-      "title_zh": "拼接节点",
-      "title_en": "Concatenation",
-      "category": "element",
-      "tags": [
-        "concat",
-        "fusion",
-        "merge"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/concat-node.svg",
-      "preview_path": "elements/svg/concat-node.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "拼接节点",
-      "element_category": "operations",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/concat-node.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "loss",
-      "title_zh": "损失函数",
-      "title_en": "Loss",
-      "category": "element",
-      "tags": [
-        "loss",
-        "objective",
-        "training"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/loss.svg",
-      "preview_path": "elements/svg/loss.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "损失函数",
-      "element_category": "operations",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/loss.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "arrow-solid",
-      "title_zh": "实线箭头",
-      "title_en": "Solid arrow",
-      "category": "element",
-      "tags": [
-        "arrow",
-        "flow",
-        "connection"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/arrow-solid.svg",
-      "preview_path": "elements/svg/arrow-solid.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "实线箭头",
-      "element_category": "connections",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/arrow-solid.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "arrow-dashed",
-      "title_zh": "虚线箭头",
-      "title_en": "Dashed arrow",
-      "category": "element",
-      "tags": [
-        "arrow",
-        "optional",
-        "auxiliary"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/arrow-dashed.svg",
-      "preview_path": "elements/svg/arrow-dashed.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "虚线箭头",
-      "element_category": "connections",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/arrow-dashed.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "arrow-bidirectional",
-      "title_zh": "双向箭头",
-      "title_en": "Bidirectional arrow",
-      "category": "element",
-      "tags": [
-        "arrow",
-        "bidirectional",
-        "interaction"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/arrow-bidirectional.svg",
-      "preview_path": "elements/svg/arrow-bidirectional.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "双向箭头",
-      "element_category": "connections",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/arrow-bidirectional.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "skip-connection",
-      "title_zh": "跳跃连接",
-      "title_en": "Skip connection",
-      "category": "element",
-      "tags": [
-        "skip",
-        "residual",
-        "bypass"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/skip-connection.svg",
-      "preview_path": "elements/svg/skip-connection.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "跳跃连接",
-      "element_category": "connections",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/skip-connection.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "frozen-badge",
-      "title_zh": "冻结参数",
-      "title_en": "Frozen parameters",
-      "category": "element",
-      "tags": [
-        "frozen",
-        "parameters",
-        "finetuning"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/frozen-badge.svg",
-      "preview_path": "elements/svg/frozen-badge.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "冻结参数",
-      "element_category": "training",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/frozen-badge.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "trainable-badge",
-      "title_zh": "可训练参数",
-      "title_en": "Trainable parameters",
-      "category": "element",
-      "tags": [
-        "trainable",
-        "parameters",
-        "finetuning"
-      ],
-      "notes": "",
-      "svg_path": "elements/svg/trainable-badge.svg",
-      "preview_path": "elements/svg/trainable-badge.svg",
-      "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
-      },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "可训练参数",
-      "element_category": "training",
-      "kind": "original-element",
-      "formats": [
-        "svg"
-      ],
-      "primary_path": "elements/svg/trainable-badge.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
-    },
-    {
-      "id": "latent-vector",
-      "title_zh": "隐变量向量",
-      "title_en": "Latent vector",
-      "category": "element",
-      "tags": [
-        "latent",
-        "embedding",
+        "rust",
+        "extracted",
         "vector"
       ],
-      "notes": "Illustrative feature values, not measured data.",
-      "svg_path": "elements/svg/latent-vector.svg",
-      "preview_path": "elements/svg/latent-vector.svg",
+      "origin": "extracted",
+      "svg_path": "elements/svg/rust-decoder.svg",
+      "preview_path": "elements/previews/rust-decoder.png",
       "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/rust-paper/rust-paper.github.io/8c3a856479a91b2acebb652d91e6b621b005ad95/data/teaser.svg"
+        ],
+        "local_original": "examples/architectures/rust/source.svg",
+        "original_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+        "selector": {
+          "parent_child_indices": [
+            0
+          ],
+          "selected_child_indices": [
+            9,
+            43,
+            44
+          ],
+          "index_base": 0,
+          "viewBox": [
+            248,
+            83,
+            27,
+            79
+          ]
+        }
       },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "隐变量向量",
+      "rights": "原项目未发现独立图形授权；仅作出处明确的参考",
+      "license": {
+        "status": "no-explicit-license",
+        "name": "原项目未发现独立图形授权；仅作出处明确的参考"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "4025bfe1f9dfecd3950af88f79ff994de4ba51995d06e97a0b9995f725eecf9a",
+      "visual_reviewed": true,
+      "title": "解码器块",
+      "element_category": "modules",
+      "kind": "external-element",
+      "formats": [
+        "svg"
+      ],
+      "primary_path": "elements/svg/rust-decoder.svg"
+    },
+    {
+      "id": "rust-feature-stack",
+      "title_zh": "特征表示堆叠",
+      "title_en": "Feature stack",
+      "category": "element",
+      "tags": [
+        "rust",
+        "extracted",
+        "vector"
+      ],
+      "origin": "extracted",
+      "svg_path": "elements/svg/rust-feature-stack.svg",
+      "preview_path": "elements/previews/rust-feature-stack.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/rust-paper/rust-paper.github.io/8c3a856479a91b2acebb652d91e6b621b005ad95/data/teaser.svg"
+        ],
+        "local_original": "examples/architectures/rust/source.svg",
+        "original_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+        "selector": {
+          "parent_child_indices": [
+            0
+          ],
+          "selected_child_indices": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "index_base": 0,
+          "viewBox": [
+            186,
+            78,
+            43,
+            89
+          ]
+        }
+      },
+      "rights": "原项目未发现独立图形授权；仅作出处明确的参考",
+      "license": {
+        "status": "no-explicit-license",
+        "name": "原项目未发现独立图形授权；仅作出处明确的参考"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "aad56d1c4c1d8687730ede9dec67b165dee702079029f9a0475f60b33b68b3c7",
+      "visual_reviewed": true,
+      "title": "特征表示堆叠",
       "element_category": "data",
-      "kind": "original-element",
+      "kind": "external-element",
       "formats": [
         "svg"
       ],
-      "primary_path": "elements/svg/latent-vector.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
+      "primary_path": "elements/svg/rust-feature-stack.svg"
     },
     {
-      "id": "sample-cloud",
-      "title_zh": "样本点云",
-      "title_en": "Sample cloud",
+      "id": "rust-feature-tile",
+      "title_zh": "单层特征块",
+      "title_en": "Feature tile",
       "category": "element",
       "tags": [
-        "distribution",
-        "samples",
-        "generative"
+        "rust",
+        "extracted",
+        "vector"
       ],
-      "notes": "Deterministic illustrative points generated with seed 42; not experimental data.",
-      "svg_path": "elements/svg/sample-cloud.svg",
-      "preview_path": "elements/svg/sample-cloud.svg",
+      "origin": "extracted",
+      "svg_path": "elements/svg/rust-feature-tile.svg",
+      "preview_path": "elements/previews/rust-feature-tile.png",
       "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/rust-paper/rust-paper.github.io/8c3a856479a91b2acebb652d91e6b621b005ad95/data/teaser.svg"
+        ],
+        "local_original": "examples/architectures/rust/source.svg",
+        "original_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+        "selector": {
+          "parent_child_indices": [
+            0
+          ],
+          "selected_child_indices": [
+            10
+          ],
+          "index_base": 0,
+          "viewBox": [
+            205,
+            79,
+            23,
+            65
+          ]
+        }
       },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "样本点云",
+      "rights": "原项目未发现独立图形授权；仅作出处明确的参考",
+      "license": {
+        "status": "no-explicit-license",
+        "name": "原项目未发现独立图形授权；仅作出处明确的参考"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "15d80a8add4fcaa5e448107c3594eee49b8cd2ca72d54337cf8286244682f5f6",
+      "visual_reviewed": true,
+      "title": "单层特征块",
       "element_category": "data",
-      "kind": "original-element",
+      "kind": "external-element",
       "formats": [
         "svg"
       ],
-      "primary_path": "elements/svg/sample-cloud.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
+      "primary_path": "elements/svg/rust-feature-tile.svg"
     },
     {
-      "id": "time-rollout",
-      "title_zh": "时间推进",
-      "title_en": "Time rollout",
+      "id": "rust-pose-estimator",
+      "title_zh": "位姿估计模块",
+      "title_en": "Pose estimator",
       "category": "element",
       "tags": [
-        "time-series",
-        "dynamics",
-        "ai4pde",
-        "rollout"
+        "rust",
+        "extracted",
+        "vector"
       ],
-      "notes": "",
-      "svg_path": "elements/svg/time-rollout.svg",
-      "preview_path": "elements/svg/time-rollout.svg",
+      "origin": "extracted",
+      "svg_path": "elements/svg/rust-pose-estimator.svg",
+      "preview_path": "elements/previews/rust-pose-estimator.png",
       "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/rust-paper/rust-paper.github.io/8c3a856479a91b2acebb652d91e6b621b005ad95/data/teaser.svg"
+        ],
+        "local_original": "examples/architectures/rust/source.svg",
+        "original_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+        "selector": {
+          "parent_child_indices": [
+            0
+          ],
+          "selected_child_indices": [
+            18,
+            45,
+            46
+          ],
+          "index_base": 0,
+          "viewBox": [
+            133,
+            21,
+            99,
+            28
+          ]
+        }
       },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "时间推进",
-      "element_category": "science",
-      "kind": "original-element",
+      "rights": "原项目未发现独立图形授权；仅作出处明确的参考",
+      "license": {
+        "status": "no-explicit-license",
+        "name": "原项目未发现独立图形授权；仅作出处明确的参考"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "5a27f3355174dd3fdeab8355eeb749b033e40b73b0899e6735b7673b91bc0f89",
+      "visual_reviewed": true,
+      "title": "位姿估计模块",
+      "element_category": "modules",
+      "kind": "external-element",
       "formats": [
         "svg"
       ],
-      "primary_path": "elements/svg/time-rollout.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
+      "primary_path": "elements/svg/rust-pose-estimator.svg"
     },
     {
-      "id": "physics-constraint",
-      "title_zh": "物理约束",
-      "title_en": "Physics constraint",
+      "id": "rust-arrow-right",
+      "title_zh": "右向流程箭头",
+      "title_en": "Right arrow",
       "category": "element",
       "tags": [
-        "physics",
-        "pde",
-        "residual",
-        "prior"
+        "rust",
+        "extracted",
+        "vector"
       ],
-      "notes": "",
-      "svg_path": "elements/svg/physics-constraint.svg",
-      "preview_path": "elements/svg/physics-constraint.svg",
+      "origin": "extracted",
+      "svg_path": "elements/svg/rust-arrow-right.svg",
+      "preview_path": "elements/previews/rust-arrow-right.png",
       "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/rust-paper/rust-paper.github.io/8c3a856479a91b2acebb652d91e6b621b005ad95/data/teaser.svg"
+        ],
+        "local_original": "examples/architectures/rust/source.svg",
+        "original_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+        "selector": {
+          "parent_child_indices": [
+            0
+          ],
+          "selected_child_indices": [
+            16
+          ],
+          "index_base": 0,
+          "viewBox": [
+            166,
+            119,
+            17,
+            7
+          ]
+        }
       },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "物理约束",
-      "element_category": "science",
-      "kind": "original-element",
+      "rights": "原项目未发现独立图形授权；仅作出处明确的参考",
+      "license": {
+        "status": "no-explicit-license",
+        "name": "原项目未发现独立图形授权；仅作出处明确的参考"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "36a4c69a0bb2335c80c6049655bf19bb54bf8242e650273ac44d9be32ed426a0",
+      "visual_reviewed": true,
+      "title": "右向流程箭头",
+      "element_category": "connections",
+      "kind": "external-element",
       "formats": [
         "svg"
       ],
-      "primary_path": "elements/svg/physics-constraint.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
+      "primary_path": "elements/svg/rust-arrow-right.svg"
     },
     {
-      "id": "shared-weights",
-      "title_zh": "参数共享",
-      "title_en": "Shared weights",
+      "id": "rust-arrow-down",
+      "title_zh": "下向流程箭头",
+      "title_en": "Down arrow",
       "category": "element",
       "tags": [
-        "shared-weights",
-        "siamese",
-        "parameters"
+        "rust",
+        "extracted",
+        "vector"
       ],
-      "notes": "",
-      "svg_path": "elements/svg/shared-weights.svg",
-      "preview_path": "elements/svg/shared-weights.svg",
+      "origin": "extracted",
+      "svg_path": "elements/svg/rust-arrow-down.svg",
+      "preview_path": "elements/previews/rust-arrow-down.png",
       "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/rust-paper/rust-paper.github.io/8c3a856479a91b2acebb652d91e6b621b005ad95/data/teaser.svg"
+        ],
+        "local_original": "examples/architectures/rust/source.svg",
+        "original_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+        "selector": {
+          "parent_child_indices": [
+            0
+          ],
+          "selected_child_indices": [
+            20
+          ],
+          "index_base": 0,
+          "viewBox": [
+            258,
+            47,
+            8,
+            36
+          ]
+        }
       },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "参数共享",
-      "element_category": "training",
-      "kind": "original-element",
+      "rights": "原项目未发现独立图形授权；仅作出处明确的参考",
+      "license": {
+        "status": "no-explicit-license",
+        "name": "原项目未发现独立图形授权；仅作出处明确的参考"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "2583bef3fc338edf36fcf98903aca4e53b7c1da47a1ba2813d8fb087bc7b4c27",
+      "visual_reviewed": true,
+      "title": "下向流程箭头",
+      "element_category": "connections",
+      "kind": "external-element",
       "formats": [
         "svg"
       ],
-      "primary_path": "elements/svg/shared-weights.svg",
-      "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
+      "primary_path": "elements/svg/rust-arrow-down.svg"
     },
     {
-      "id": "distribution-map",
-      "title_zh": "分布映射",
-      "title_en": "Distribution mapping",
+      "id": "lightglue-self-attention",
+      "title_zh": "Self attention 块",
+      "title_en": "Self attention",
       "category": "element",
       "tags": [
-        "distribution",
-        "mapping",
-        "transport",
-        "teaser"
+        "lightglue",
+        "extracted",
+        "vector"
       ],
-      "notes": "Illustrative distribution shapes, not fitted probability densities.",
-      "svg_path": "elements/svg/distribution-map.svg",
-      "preview_path": "elements/svg/distribution-map.svg",
+      "origin": "extracted",
+      "svg_path": "elements/svg/lightglue-self-attention.svg",
+      "preview_path": "elements/previews/lightglue-self-attention.png",
       "source": {
-        "kind": "original",
-        "created_for": "paper-figure-library",
-        "date": "2026-10-25"
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/cvg/LightGlue/eb42fee2d71449efb0aa5c10549752b5d75384d8/assets/architecture.svg"
+        ],
+        "local_original": "examples/architectures/lightglue/source.svg",
+        "original_sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc",
+        "selector": {
+          "parent_child_indices": [
+            1,
+            1
+          ],
+          "selected_child_indices": [
+            21,
+            22,
+            23
+          ],
+          "index_base": 0,
+          "viewBox": [
+            132,
+            46,
+            54,
+            40
+          ]
+        }
       },
-      "rights": "original; no public redistribution license specified",
-      "editability": "vector shapes and live text; no external assets",
-      "title": "分布映射",
-      "element_category": "science",
-      "kind": "original-element",
+      "rights": "Apache-2.0（LightGlue 来源仓库）",
+      "license": {
+        "status": "repository-license",
+        "name": "Apache-2.0（LightGlue 来源仓库）",
+        "file": "elements/sources/LightGlue-LICENSE.txt"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "dfbfe5e868d18c415976ba21f926f190fb169dc3ce4d82a26c3daa501609c67e",
+      "visual_reviewed": true,
+      "title": "Self attention 块",
+      "element_category": "modules",
+      "kind": "external-element",
       "formats": [
         "svg"
       ],
-      "primary_path": "elements/svg/distribution-map.svg",
+      "primary_path": "elements/svg/lightglue-self-attention.svg"
+    },
+    {
+      "id": "lightglue-assignment-matrix",
+      "title_zh": "匹配相似度矩阵",
+      "title_en": "Assignment matrix",
+      "category": "element",
+      "tags": [
+        "lightglue",
+        "extracted",
+        "vector"
+      ],
+      "origin": "extracted",
+      "svg_path": "elements/svg/lightglue-assignment-matrix.svg",
+      "preview_path": "elements/previews/lightglue-assignment-matrix.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/cvg/LightGlue/eb42fee2d71449efb0aa5c10549752b5d75384d8/assets/architecture.svg"
+        ],
+        "local_original": "examples/architectures/lightglue/source.svg",
+        "original_sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc",
+        "selector": {
+          "parent_child_indices": [
+            1,
+            1
+          ],
+          "selected_child_indices": [
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84
+          ],
+          "index_base": 0,
+          "viewBox": [
+            613,
+            50,
+            72,
+            72
+          ]
+        }
+      },
+      "rights": "Apache-2.0（LightGlue 来源仓库）",
       "license": {
-        "status": "original-unlicensed",
-        "name": "本库原创；未设置对外再分发许可",
-        "note": "original; no public redistribution license specified"
-      }
+        "status": "repository-license",
+        "name": "Apache-2.0（LightGlue 来源仓库）",
+        "file": "elements/sources/LightGlue-LICENSE.txt"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "127089e6674630bbacf974277ac49cf50fcdb571939c752f75cb5457552c9c18",
+      "visual_reviewed": true,
+      "title": "匹配相似度矩阵",
+      "element_category": "data",
+      "kind": "external-element",
+      "formats": [
+        "svg"
+      ],
+      "primary_path": "elements/svg/lightglue-assignment-matrix.svg"
+    },
+    {
+      "id": "lightglue-residual-add",
+      "title_zh": "残差加法节点",
+      "title_en": "Residual add",
+      "category": "element",
+      "tags": [
+        "lightglue",
+        "extracted",
+        "vector"
+      ],
+      "origin": "extracted",
+      "svg_path": "elements/svg/lightglue-residual-add.svg",
+      "preview_path": "elements/previews/lightglue-residual-add.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/cvg/LightGlue/eb42fee2d71449efb0aa5c10549752b5d75384d8/assets/architecture.svg"
+        ],
+        "local_original": "examples/architectures/lightglue/source.svg",
+        "original_sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc",
+        "selector": {
+          "parent_child_indices": [
+            1,
+            1
+          ],
+          "selected_child_indices": [
+            119,
+            120,
+            121,
+            122
+          ],
+          "index_base": 0,
+          "viewBox": [
+            190,
+            29,
+            17,
+            17
+          ]
+        }
+      },
+      "rights": "Apache-2.0（LightGlue 来源仓库）",
+      "license": {
+        "status": "repository-license",
+        "name": "Apache-2.0（LightGlue 来源仓库）",
+        "file": "elements/sources/LightGlue-LICENSE.txt"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "f465b305a974d84d9e08398ef704189a1bfc07a7c2e2413d38e1df2577d48fe0",
+      "visual_reviewed": true,
+      "title": "残差加法节点",
+      "element_category": "operations",
+      "kind": "external-element",
+      "formats": [
+        "svg"
+      ],
+      "primary_path": "elements/svg/lightglue-residual-add.svg"
+    },
+    {
+      "id": "lightglue-flow-arrow",
+      "title_zh": "蓝色流程箭头",
+      "title_en": "Flow arrow",
+      "category": "element",
+      "tags": [
+        "lightglue",
+        "extracted",
+        "vector"
+      ],
+      "origin": "extracted",
+      "svg_path": "elements/svg/lightglue-flow-arrow.svg",
+      "preview_path": "elements/previews/lightglue-flow-arrow.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "urls": [
+          "https://raw.githubusercontent.com/cvg/LightGlue/eb42fee2d71449efb0aa5c10549752b5d75384d8/assets/architecture.svg"
+        ],
+        "local_original": "examples/architectures/lightglue/source.svg",
+        "original_sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc",
+        "selector": {
+          "parent_child_indices": [
+            1,
+            1
+          ],
+          "selected_child_indices": [
+            27
+          ],
+          "index_base": 0,
+          "viewBox": [
+            83,
+            31,
+            326,
+            12
+          ]
+        }
+      },
+      "rights": "Apache-2.0（LightGlue 来源仓库）",
+      "license": {
+        "status": "repository-license",
+        "name": "Apache-2.0（LightGlue 来源仓库）",
+        "file": "elements/sources/LightGlue-LICENSE.txt"
+      },
+      "editability": "复制原 SVG 中已有节点与变换；仅调整画布范围并移除无引用的重复分组 ID，未重画路径、改色或添加文字。文字可能已转轮廓。",
+      "sha256": "6436e3c15ee9811cc6ba363669891576015c955947c21068f04bbaeaf9220a2d",
+      "visual_reviewed": true,
+      "title": "蓝色流程箭头",
+      "element_category": "connections",
+      "kind": "external-element",
+      "formats": [
+        "svg"
+      ],
+      "primary_path": "elements/svg/lightglue-flow-arrow.svg"
     }
   ]
 }

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "k-lora",
+  "title": "K-LoRA：主体风格组合与训练范式比较",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "method-comparison",
+    "subject-style",
+    "training-free"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "左侧主体与风格组合示例，右侧比较需要训练与免训练的融合方式。",
+  "classification_reason": "左侧主体与风格组合示例，右侧比较需要训练与免训练的融合方式。",
+  "source": {
+    "project": "HVision-NKU/K-LoRA",
+    "venue": "CVPR 2025",
+    "urls": [
+      "https://arxiv.org/abs/2502.18461",
+      "https://github.com/HVision-NKU/K-LoRA",
+      "https://raw.githubusercontent.com/HVision-NKU/K-LoRA/aef445b61c2cc54f13dfa678a4496f4e31bc8fdf/pictures/teaser.svg"
+    ],
+    "original_files": [
+      "pictures/teaser.svg"
+    ],
+    "commit": "aef445b61c2cc54f13dfa678a4496f4e31bc8fdf",
+    "git_blob_sha": "395e62ec93b03f134a4c0fc2a3dce24d88e43385",
+    "original_sha256": "3e83e15a63ff833a3f7e5e01daa5c16750af40c01f37bb27c8df8a07793ac00f",
+    "retrieved_date": "2026-10-25",
+    "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+  },
+  "license": {
+    "status": "noncommercial",
+    "name": "作者 README 声明 CC BY-NC 4.0；内嵌示例素材保留原出处。",
+    "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+    "evidence_file": "SOURCE_README.md"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": true,
+    "embedded_raster_images": 13,
+    "svg_object_counts": {
+      "path": 2,
+      "text": 10,
+      "image": 13,
+      "rect": 0,
+      "polygon": 0,
+      "circle": 0,
+      "use": 0
+    },
+    "notes": [
+      "此图以 13 个嵌入图片对象为主，适合改布局和标注；样例内容不能逐图元编辑。",
+      "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+      "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+      "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+    "仅将原文件重命名并生成浏览预览，未重绘图形。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "SOURCE_README.md",
+      "bytes": 5690,
+      "sha256": "984dffe0e9ae97c6f03014f87976aa0cae532d1c0b10c12d62acb37a1e365084"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1441030,
+      "sha256": "a0acdc1564abe0334cf0335b3b88098d2ac9f803afd0b5fe21e133ae389ffe51"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 17217078,
+      "sha256": "3e83e15a63ff833a3f7e5e01daa5c16750af40c01f37bb27c8df8a07793ac00f"
+    }
+  ],
+  "visual_reviewed": true
+}

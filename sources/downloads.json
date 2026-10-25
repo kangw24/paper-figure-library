@@ -1,0 +1,100 @@
+{
+  "retrieved_date": "2026-10-25",
+  "examples": [
+    {
+      "id": "orienternet",
+      "category": "teaser",
+      "repo": "facebookresearch/OrienterNet",
+      "path": "assets/teaser.svg",
+      "commit": "0280b6e248046dc7d714801d7d0651a162fd5a63",
+      "download": "https://raw.githubusercontent.com/facebookresearch/OrienterNet/0280b6e248046dc7d714801d7d0651a162fd5a63/assets/teaser.svg",
+      "blob_sha": "78a5f8358c2c354aca0e4f70f217f26d033317bd",
+      "sha256": "f22e5a22c46ac3c9be696993c7d260e9e199e2cfb90a7f9ded15529a696cc5b8"
+    },
+    {
+      "id": "rayder-concept",
+      "category": "teaser",
+      "repo": "CompVis/rayder",
+      "path": "docs/static/images/paper-svg/teaser-concept.svg",
+      "commit": "2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd",
+      "download": "https://raw.githubusercontent.com/CompVis/rayder/2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd/docs/static/images/paper-svg/teaser-concept.svg",
+      "blob_sha": "4ff6681e8488f4d37456594a9ea8c3c04b46e568",
+      "sha256": "6e3838db1f43229daa2d4d2e860645b501ff23a67dd33c1c7f02a1fb79ba75cb"
+    },
+    {
+      "id": "shaddr",
+      "category": "teaser",
+      "repo": "qiminchen/ShaDDR",
+      "path": "teaser.svg",
+      "commit": "7b42dc1657dbabab69908455ce84ede022878b1a",
+      "download": "https://raw.githubusercontent.com/qiminchen/ShaDDR/7b42dc1657dbabab69908455ce84ede022878b1a/teaser.svg",
+      "blob_sha": "7947473a1debbc19cf0baf45f4140b39133c25cf",
+      "sha256": "4ad573e830401876bca07076f356d949122f18dc30d731ab2c1ae02446f2672e"
+    },
+    {
+      "id": "k-lora",
+      "category": "teaser",
+      "repo": "HVision-NKU/K-LoRA",
+      "path": "pictures/teaser.svg",
+      "commit": "aef445b61c2cc54f13dfa678a4496f4e31bc8fdf",
+      "download": "https://raw.githubusercontent.com/HVision-NKU/K-LoRA/aef445b61c2cc54f13dfa678a4496f4e31bc8fdf/pictures/teaser.svg",
+      "blob_sha": "395e62ec93b03f134a4c0fc2a3dce24d88e43385",
+      "sha256": "3e83e15a63ff833a3f7e5e01daa5c16750af40c01f37bb27c8df8a07793ac00f"
+    },
+    {
+      "id": "birefractive-rgbd",
+      "category": "teaser",
+      "repo": "KAIST-VCLAB/fastbirefstereo",
+      "path": "teaser.svg",
+      "commit": "ed5d9cd8d46380ad3dd08a1f4ddb68eaf71b3754",
+      "download": "https://raw.githubusercontent.com/KAIST-VCLAB/fastbirefstereo/ed5d9cd8d46380ad3dd08a1f4ddb68eaf71b3754/teaser.svg",
+      "blob_sha": "cc4a9e8444972160298004150db695dc8cfa986a",
+      "sha256": "bdaa9b5969f27ee53e42a0d6f2247350c363f9ccc9dbff50fa9f09fd831393ac"
+    },
+    {
+      "id": "lightglue",
+      "category": "architecture",
+      "repo": "cvg/LightGlue",
+      "path": "assets/architecture.svg",
+      "commit": "eb42fee2d71449efb0aa5c10549752b5d75384d8",
+      "download": "https://raw.githubusercontent.com/cvg/LightGlue/eb42fee2d71449efb0aa5c10549752b5d75384d8/assets/architecture.svg",
+      "blob_sha": "df15d83690d20f28fef4a33d7a2442105cb786f6",
+      "sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc"
+    },
+    {
+      "id": "lav",
+      "category": "architecture",
+      "repo": "dotchen/LAV",
+      "path": "assets/teaser.svg",
+      "commit": "12540bd5f7b8a1059117681fa8e1fa00e8908dd7",
+      "download": "https://raw.githubusercontent.com/dotchen/LAV/12540bd5f7b8a1059117681fa8e1fa00e8908dd7/assets/teaser.svg",
+      "blob_sha": "2219dd310b6253b44e25e8dc6d032cfdbe7c3817",
+      "sha256": "4241546dfaf907173feffb1ad2b841ed5115446cce2b55159c40ca66f6b3c3d2"
+    },
+    {
+      "id": "rust",
+      "category": "architecture",
+      "repo": "rust-paper/rust-paper.github.io",
+      "path": "data/teaser.svg",
+      "commit": "8c3a856479a91b2acebb652d91e6b621b005ad95",
+      "download": "https://raw.githubusercontent.com/rust-paper/rust-paper.github.io/8c3a856479a91b2acebb652d91e6b621b005ad95/data/teaser.svg",
+      "blob_sha": "8c268f84ec6ad810a5955b9c2c79bd8f07dc54ec",
+      "sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe"
+    },
+    {
+      "id": "rayder",
+      "category": "architecture",
+      "repo": "CompVis/rayder",
+      "path": "docs/static/images/paper-svg/architecture-overview.svg",
+      "commit": "2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd",
+      "download": "https://raw.githubusercontent.com/CompVis/rayder/2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd/docs/static/images/paper-svg/architecture-overview.svg",
+      "blob_sha": "8be5b3a550483e98a3941981773706cf78fed66d",
+      "sha256": "d11495bd213afd300a07b6899e84c1ce34d0b19e88dd315b6ca0b7ceb21ba908"
+    }
+  ],
+  "icons": {
+    "repo": "tovacinni/cv-gfx-ml-icons",
+    "commit": "75bc108cd5777b96d702449d871e9067642c75b0"
+  },
+  "policy": "原始下载字节不修改；预览与元素提取为派生文件。"
+}

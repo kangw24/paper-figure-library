@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "rust",
+  "title": "RUST：编码器、场景表示与位姿分支",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "architecture",
+    "encoder-decoder",
+    "feature-stack",
+    "training-branch"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "无位姿输入图像经 Encoder、场景表示、Decoder 输出新视角，训练时有 Pose Estimator 分支。按内容归入 architecture。",
+  "classification_reason": "无位姿输入图像经 Encoder、场景表示、Decoder 输出新视角，训练时有 Pose Estimator 分支。按内容归入 architecture。",
+  "source": {
+    "project": "rust-paper/rust-paper.github.io",
+    "venue": "CVPR 2023",
+    "urls": [
+      "https://rust-paper.github.io/",
+      "https://github.com/rust-paper/rust-paper.github.io",
+      "https://raw.githubusercontent.com/rust-paper/rust-paper.github.io/8c3a856479a91b2acebb652d91e6b621b005ad95/data/teaser.svg"
+    ],
+    "original_files": [
+      "data/teaser.svg"
+    ],
+    "commit": "8c3a856479a91b2acebb652d91e6b621b005ad95",
+    "git_blob_sha": "8c268f84ec6ad810a5955b9c2c79bd8f07dc54ec",
+    "original_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+    "retrieved_date": "2026-10-25",
+    "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+  },
+  "license": {
+    "status": "no-explicit-license",
+    "name": "项目仓库未发现 LICENSE；仅作出处明确的参考，元素提取不新增授权。",
+    "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": true,
+    "embedded_raster_images": 7,
+    "svg_object_counts": {
+      "path": 199,
+      "text": 9,
+      "image": 7,
+      "rect": 0,
+      "polygon": 0,
+      "circle": 0,
+      "use": 7
+    },
+    "notes": [
+      "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+      "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+      "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+    "仅将原文件重命名并生成浏览预览，未重绘图形。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "preview.png",
+      "bytes": 499757,
+      "sha256": "287a7a4169c8478e079e7928a02e2b4f93192f99df5558133d937927b2ca5f92"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 311593,
+      "sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe"
+    }
+  ],
+  "visual_reviewed": true
+}

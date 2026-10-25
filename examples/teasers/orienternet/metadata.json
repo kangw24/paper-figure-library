@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "orienternet",
+  "title": "OrienterNet：用二维地图定位的任务与动机",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "motivation",
+    "task-comparison",
+    "localization"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "展示人类使用二维地图与既有三维点云定位的差别，再给出新方法的输入与输出。",
+  "classification_reason": "展示人类使用二维地图与既有三维点云定位的差别，再给出新方法的输入与输出。",
+  "source": {
+    "project": "facebookresearch/OrienterNet",
+    "venue": "CVPR 2023",
+    "urls": [
+      "https://psarlin.com/orienternet/",
+      "https://github.com/facebookresearch/OrienterNet",
+      "https://raw.githubusercontent.com/facebookresearch/OrienterNet/0280b6e248046dc7d714801d7d0651a162fd5a63/assets/teaser.svg"
+    ],
+    "original_files": [
+      "assets/teaser.svg"
+    ],
+    "commit": "0280b6e248046dc7d714801d7d0651a162fd5a63",
+    "git_blob_sha": "78a5f8358c2c354aca0e4f70f217f26d033317bd",
+    "original_sha256": "f22e5a22c46ac3c9be696993c7d260e9e199e2cfb90a7f9ded15529a696cc5b8",
+    "retrieved_date": "2026-10-25",
+    "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+  },
+  "license": {
+    "status": "mixed-source-license",
+    "name": "第三方图片与地图包含多种权利；图本身未见单独复用授权。",
+    "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": true,
+    "embedded_raster_images": 23,
+    "svg_object_counts": {
+      "path": 34,
+      "text": 21,
+      "image": 23,
+      "rect": 0,
+      "polygon": 0,
+      "circle": 0,
+      "use": 0
+    },
+    "notes": [
+      "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+      "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+      "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+    "仅将原文件重命名并生成浏览预览，未重绘图形。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 286,
+      "sha256": "7c2dc1ff0114a14a10fcd916fb26fd08917064b0a6d5cc69b893bd5f7daa3acf"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1105216,
+      "sha256": "69b484c31f6ba6a19a849fea4cfbd376410c235927872ac1cebf880e50cf903d"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 318739,
+      "sha256": "f22e5a22c46ac3c9be696993c7d260e9e199e2cfb90a7f9ded15529a696cc5b8"
+    }
+  ],
+  "visual_reviewed": true
+}

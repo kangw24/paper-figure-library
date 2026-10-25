@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "lav",
+  "title": "LAV：感知、预测与驾驶控制流程",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "architecture",
+    "autonomous-driving",
+    "pipeline",
+    "multibranch"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "多摄像头输入、语义分割、传感器融合、三维主干、运动预测与控制的整体数据流。原文件虽叫 teaser.svg，按内容归入 architecture。",
+  "classification_reason": "多摄像头输入、语义分割、传感器融合、三维主干、运动预测与控制的整体数据流。原文件虽叫 teaser.svg，按内容归入 architecture。",
+  "source": {
+    "project": "dotchen/LAV",
+    "venue": "CVPR 2022",
+    "urls": [
+      "https://dotchen.github.io/LAV/",
+      "https://github.com/dotchen/LAV",
+      "https://raw.githubusercontent.com/dotchen/LAV/12540bd5f7b8a1059117681fa8e1fa00e8908dd7/assets/teaser.svg"
+    ],
+    "original_files": [
+      "assets/teaser.svg"
+    ],
+    "commit": "12540bd5f7b8a1059117681fa8e1fa00e8908dd7",
+    "git_blob_sha": "2219dd310b6253b44e25e8dc6d032cfdbe7c3817",
+    "original_sha256": "4241546dfaf907173feffb1ad2b841ed5115446cce2b55159c40ca66f6b3c3d2",
+    "retrieved_date": "2026-10-25",
+    "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+  },
+  "license": {
+    "status": "repository-license",
+    "name": "Apache-2.0（来源仓库）。",
+    "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": true,
+    "embedded_raster_images": 42,
+    "svg_object_counts": {
+      "path": 93,
+      "text": 24,
+      "image": 42,
+      "rect": 0,
+      "polygon": 0,
+      "circle": 0,
+      "use": 50
+    },
+    "notes": [
+      "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+      "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+      "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+    "仅将原文件重命名并生成浏览预览，未重绘图形。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 11339,
+      "sha256": "89a026ebbe8dfdf0b812f66005dfc1c7d068b838c6e55c0d68be4576e8832caf"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 292671,
+      "sha256": "d55a7f78c9472e769468fc8023528e19312442acee26466c60ca4087e97b46b9"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1080517,
+      "sha256": "4241546dfaf907173feffb1ad2b841ed5115446cce2b55159c40ca66f6b3c3d2"
+    }
+  ],
+  "visual_reviewed": true
+}

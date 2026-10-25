@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "rayder-concept",
+  "title": "RayDer：数据瓶颈与新训练范式",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "motivation",
+    "data-bottleneck",
+    "novel-view-synthesis"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "数据金字塔、训练过程、结果与规模变化并列，先说明问题和核心差异。",
+  "classification_reason": "数据金字塔、训练过程、结果与规模变化并列，先说明问题和核心差异。",
+  "source": {
+    "project": "CompVis/rayder",
+    "venue": "ECCV 2026",
+    "urls": [
+      "https://compvis.github.io/rayder/",
+      "https://github.com/CompVis/rayder",
+      "https://raw.githubusercontent.com/CompVis/rayder/2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd/docs/static/images/paper-svg/teaser-concept.svg"
+    ],
+    "original_files": [
+      "docs/static/images/paper-svg/teaser-concept.svg"
+    ],
+    "commit": "2ce3a3fbe4996985a01a86bf5c8be8a22e88ebfd",
+    "git_blob_sha": "4ff6681e8488f4d37456594a9ea8c3c04b46e568",
+    "original_sha256": "6e3838db1f43229daa2d4d2e860645b501ff23a67dd33c1c7f02a1fb79ba75cb",
+    "retrieved_date": "2026-10-25",
+    "figure": "作者公开的配图，按项目页面语境与实际内容分类；不凭文件名推定论文图号。"
+  },
+  "license": {
+    "status": "research-noncommercial",
+    "name": "保存仓库原许可证；用途限于其原有条款。",
+    "note": "第三方图形保留原出处，图元提取或文件格式不改变原权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": false,
+    "embedded_raster_images": 12,
+    "svg_object_counts": {
+      "path": 347,
+      "text": 0,
+      "image": 12,
+      "rect": 0,
+      "polygon": 0,
+      "circle": 0,
+      "use": 688
+    },
+    "notes": [
+      "保留原始 SVG 字节；不是将整张 PNG 包装成 SVG。",
+      "照片、渲染结果等内嵌图片仍是位图；文字可能为轮廓或依赖本地字体。",
+      "已检查实际渲染预览；尚未在桌面 Illustrator 中逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者公开仓库按固定 commit 下载，source.svg 与上游原文件字节一致。",
+    "仅将原文件重命名并生成浏览预览，未重绘图形。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 9248,
+      "sha256": "45ba9a85a48012b1b8df08c663f9e9327172aff2ce03b231ed5d8be72b25b50a"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 328657,
+      "sha256": "b4f9d42290d94d5d68014171f3937f24daeda05de703aaa58907e413152435d0"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 873299,
+      "sha256": "6e3838db1f43229daa2d4d2e860645b501ff23a67dd33c1c7f02a1fb79ba75cb"
+    }
+  ],
+  "visual_reviewed": true
+}

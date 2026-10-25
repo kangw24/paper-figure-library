@@ -1,75 +1,55 @@
 # Paper Figure Library
 
-个人 CS / AI 论文配图库：积累 **teaser 的叙事与布局**、**architecture 的结构表达**，以及可以直接组合的 **最小 SVG 元素**。
+个人 CS / AI 论文配图参考与素材库。收集作者公开的 **teaser 范例**、**architecture 范例** 和 **有出处的最小元素**。
 
-首批收录：**5 个 teaser 范例 · 2 个架构图范例 · 24 个独立元素**。以 Illustrator 编辑为主要使用场景，同时保留 SVG、原始 PDF、原生 AI 和配套素材。
+**5 个 teaser · 7 个 architecture（5 个论文方法图 + 2 个 AI 教程）· 16 个外部或原图提取元素**。
 
-## 从这里开始
-
-| 分类 | 内容 | 入口 |
+| 分类 | 入口 | 内容 |
 |---|---|---|
-| **Teasers** | 核心想法、方法对比、动机与贡献的视觉概述 | [5 个范例](examples/teasers/README.md) |
-| **Architectures** | 模型内部结构、总体框架、模块连接和方法流程 | [2 个范例](examples/architectures/README.md) |
-| **Elements** | 模块、数据表示、运算节点、箭头和训练标记 | [24 个独立 SVG](elements/README.md) |
-| **全部素材** | 按类别浏览预览、格式、标签和使用状态 | [图文总目录](CATALOG.md) · [JSON 目录](catalog.json) |
+| Teaser | [浏览原图](examples/teasers/README.md) | OrienterNet、RayDer、ShaDDR、K-LoRA、Uneven Double Refraction |
+| Architecture | [浏览原图](examples/architectures/README.md) | LightGlue、LAV、RUST、RayDer、CLIP；另保留 2 份原生 AI 教程 |
+| 最小元素 | [浏览图元](elements/README.md) | 5 个 CC0 原图元 + 11 个从作者 SVG 提取的现成部件 |
+| 全部 | [图文目录](CATALOG.md) · [来源索引](catalog.json) | 每项含原文件、预览和来源记录 |
 
-| Teaser 示例 | Architecture 示例 |
-|---|---|
-| [![方法范式对比](examples/teasers/method-comparison/preview.png)](examples/teasers/method-comparison/README.md) | [![多尺度网络架构](examples/architectures/multiscale-network/preview.png)](examples/architectures/multiscale-network/README.md) |
+## Teaser 先看这几张
 
-### 最小元素总览
+### [OrienterNet：任务与动机](examples/teasers/orienternet/)
 
-[![24 个最小可复用元素](elements/preview.png)](elements/README.md)
+![OrienterNet](examples/teasers/orienternet/preview.png)
 
-## 首批范例
+### [RayDer：既有数据瓶颈与新范式](examples/teasers/rayder-concept/)
 
-| 范例 | 可借鉴的表达 | 主文件 |
-|---|---|---|
-| [Method comparison](examples/teasers/method-comparison/) | 并排比较已有范式与提出的方法 | SVG |
-| [Evaluation blind spot](examples/teasers/evaluation-blindspot/) | 用可视化指出评估或观测的盲区 | SVG |
-| [CLIP Figure 1](examples/teasers/clip/) | 一个训练阶段、两个应用阶段的层次安排 | SVG + 原 PDF |
-| [Neural ODE Figure 1](examples/teasers/neural-ode/) | 离散变换与连续动力学的概念对照 | SVG + 原 PDF |
-| [Penrose teaser](examples/teasers/penrose/) | 同一抽象关系在三种几何下的表达 | SVG；实际 Figure 1 的三联图部分 |
-| [Multiscale network](examples/architectures/multiscale-network/) | 主干、特征融合和分割输出的架构布局 | 原生 AI，7 个画板 |
-| [SAM / LoRA](examples/architectures/sam-lora/) | 总体流程与局部可训练模块的对应 | 原生 AI，2 个画板 |
+![RayDer](examples/teasers/rayder-concept/preview.png)
 
-两个通用 teaser 模板、真实论文图例和绘图教程分别标明类型。主分类按图的主要用途选取；同一条目可以通过标签同时关联 teaser、architecture、pipeline 等用途。
+### [ShaDDR：输入、风格示例与成果](examples/teasers/shaddr/)
 
-## 使用方式
+![ShaDDR](examples/teasers/shaddr/preview.png)
 
-1. **先看预览与说明**：进入条目目录，了解它的布局、来源和可编辑范围。
-2. **打开源文件**：Illustrator 打开 `source.ai` 或 `source.svg`。PDF 转出的 SVG 可能把文字拆成多个对象；论文中的照片仍是嵌入位图。
-3. **组合元素**：打开 [all-elements.svg](elements/all-elements.svg) 复制目标元素组，或从 [elements/svg](elements/svg/) 选取单独文件。
-4. **在论文项目中修改副本**：替换文字、模型模块、数值与真实实验结果。范例库中的原文件和来源记录保持可追溯。
+## Architecture 示例
 
-首批素材已做文件完整性、SVG 自包含性和预览渲染检查，尚未在桌面 Illustrator 中逐项打开。SAM / LoRA 原 AI 含作者本地 PSD 的旧链接，条目说明中列有已收集的配套文件。
+[![LightGlue](examples/architectures/lightglue/preview.png)](examples/architectures/lightglue/)
 
-## 持续维护
+## 图元
 
-新增范例时，为它建立独立目录，放入源文件、预览、`metadata.json` 和简短的 `README.md`。详细步骤见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+[![外部来源图元](elements/preview.png)](elements/README.md)
 
-在仓库根目录运行：
+## 收录规则
+
+- 图形必须有可追溯的外部来源。本仓库只下载、提取、转换、做预览与索引；不自行生成图形充数。
+- Teaser 按实际作用判断：用任务、动机、方法差异或成果抓住核心贡献。Figure 1 只是编号。
+- Architecture 用于说明模块、连接和数据流。LAV、RUST 的原文件虽名为 teaser.svg，仍按结构内容归入 architecture。
+- 保留原始 SVG 字节；提取元素记录原文件哈希与节点位置。SVG 中的图片、轮廓文字和实际文字对象分别标注，不把文件后缀当作完全可编辑的证明。
+- 来源许可逐项保存；图片中的地图、照片和论文实验结果保留原权利状态。
+
+## 使用与维护
+
+进入条目查看 PNG 预览，再下载 SVG 或 AI。SVG 可交给 Illustrator 导入；已检查浏览渲染，桌面 Illustrator 尚未逐项实测。原生 AI 教程中的旧链接问题见对应说明。
+
+新增素材参见 [CONTRIBUTING.md](CONTRIBUTING.md)。更新目录并检查完整性：
 
 ```bash
 python scripts/build_catalog.py
 python scripts/validate_library.py
 ```
 
-原创元素可通过以下命令重新生成；`--render` 额外需要本机安装 Inkscape：
-
-```bash
-python scripts/generate_elements.py --render
-```
-
-生成器会覆盖同名生成文件；长期修改应同时更新生成器。颜色、线宽与字体参数见 [style-tokens.json](elements/style-tokens.json)。
-
-## 来源与许可
-
-本仓库是私人收集与绘图工作库，**各条素材按自己的来源和许可管理**。没有给第三方素材统一套用开源许可证。
-
-- 两个 CVPR-Figure 模板和 Penrose 素材保留来源仓库的 MIT 许可证。
-- CLIP、Neural ODE 保存为论文图例与版式参考；arXiv 的分发许可不等于通用模板授权。
-- 两份 Illustrator 教程源文件未发现明确 LICENSE，保留原作者与下载来源。
-- `elements/` 为本仓库原创的绘图元素，暂未设置对外再分发许可。
-
-来源 URL、格式转换、嵌入位图、旧链接和文件校验值均记录在对应条目的说明与元数据中。
+[本次来源清单](sources/downloads.json) · [旧库纠正记录](docs/curation-correction.md)

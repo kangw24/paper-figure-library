@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "specs": [
+    {
+      "id": "rust-encoder",
+      "source": "examples/architectures/rust/source.svg",
+      "source_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+      "parent_child_indices": [
+        0
+      ],
+      "selected_child_indices": [
+        8,
+        41,
+        42
+      ],
+      "index_base": 0,
+      "viewBox": [
+        138,
+        83,
+        27,
+        79
+      ]
+    },
+    {
+      "id": "rust-decoder",
+      "source": "examples/architectures/rust/source.svg",
+      "source_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+      "parent_child_indices": [
+        0
+      ],
+      "selected_child_indices": [
+        9,
+        43,
+        44
+      ],
+      "index_base": 0,
+      "viewBox": [
+        248,
+        83,
+        27,
+        79
+      ]
+    },
+    {
+      "id": "rust-feature-stack",
+      "source": "examples/architectures/rust/source.svg",
+      "source_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+      "parent_child_indices": [
+        0
+      ],
+      "selected_child_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "index_base": 0,
+      "viewBox": [
+        186,
+        78,
+        43,
+        89
+      ]
+    },
+    {
+      "id": "rust-feature-tile",
+      "source": "examples/architectures/rust/source.svg",
+      "source_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+      "parent_child_indices": [
+        0
+      ],
+      "selected_child_indices": [
+        10
+      ],
+      "index_base": 0,
+      "viewBox": [
+        205,
+        79,
+        23,
+        65
+      ]
+    },
+    {
+      "id": "rust-pose-estimator",
+      "source": "examples/architectures/rust/source.svg",
+      "source_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+      "parent_child_indices": [
+        0
+      ],
+      "selected_child_indices": [
+        18,
+        45,
+        46
+      ],
+      "index_base": 0,
+      "viewBox": [
+        133,
+        21,
+        99,
+        28
+      ]
+    },
+    {
+      "id": "rust-arrow-right",
+      "source": "examples/architectures/rust/source.svg",
+      "source_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+      "parent_child_indices": [
+        0
+      ],
+      "selected_child_indices": [
+        16
+      ],
+      "index_base": 0,
+      "viewBox": [
+        166,
+        119,
+        17,
+        7
+      ]
+    },
+    {
+      "id": "rust-arrow-down",
+      "source": "examples/architectures/rust/source.svg",
+      "source_sha256": "f98c9cd0b84dce8c89fbd977eede0073d529feb6bb3672de64002e48b091abbe",
+      "parent_child_indices": [
+        0
+      ],
+      "selected_child_indices": [
+        20
+      ],
+      "index_base": 0,
+      "viewBox": [
+        258,
+        47,
+        8,
+        36
+      ]
+    },
+    {
+      "id": "lightglue-self-attention",
+      "source": "examples/architectures/lightglue/source.svg",
+      "source_sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc",
+      "parent_child_indices": [
+        1,
+        1
+      ],
+      "selected_child_indices": [
+        21,
+        22,
+        23
+      ],
+      "index_base": 0,
+      "viewBox": [
+        132,
+        46,
+        54,
+        40
+      ]
+    },
+    {
+      "id": "lightglue-assignment-matrix",
+      "source": "examples/architectures/lightglue/source.svg",
+      "source_sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc",
+      "parent_child_indices": [
+        1,
+        1
+      ],
+      "selected_child_indices": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "index_base": 0,
+      "viewBox": [
+        613,
+        50,
+        72,
+        72
+      ]
+    },
+    {
+      "id": "lightglue-residual-add",
+      "source": "examples/architectures/lightglue/source.svg",
+      "source_sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc",
+      "parent_child_indices": [
+        1,
+        1
+      ],
+      "selected_child_indices": [
+        119,
+        120,
+        121,
+        122
+      ],
+      "index_base": 0,
+      "viewBox": [
+        190,
+        29,
+        17,
+        17
+      ]
+    },
+    {
+      "id": "lightglue-flow-arrow",
+      "source": "examples/architectures/lightglue/source.svg",
+      "source_sha256": "bcacaa385cf6f39119cc3efecaf30e78df085cd6cfe105c2cfb4b4832efa92bc",
+      "parent_child_indices": [
+        1,
+        1
+      ],
+      "selected_child_indices": [
+        27
+      ],
+      "index_base": 0,
+      "viewBox": [
+        83,
+        31,
+        326,
+        12
+      ]
+    }
+  ]
+}

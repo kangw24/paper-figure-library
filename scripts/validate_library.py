@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = {"schema_version", "id", "title", "category", "kind", "tags", "formats",
             "primary_file", "preview", "source", "license", "editability", "changes", "added_date"}
-KINDS = {"template", "paper-example", "tutorial-example", "original-example"}
+KINDS = {"template", "paper-example", "tutorial-example"}
 
 
 def validate(root: Path) -> tuple[list[str], dict[str, int]]:
@@ -87,7 +87,7 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
             local_file(entry, "README.md", "条目说明")
             source = item.get("source", {})
             urls = source.get("urls", []) if isinstance(source, dict) else []
-            if not urls and item.get("kind") != "original-example":
+            if not urls:
                 error(metadata, "外部素材必须记录 source.urls")
             for url in urls:
                 parsed = urlparse(str(url))
@@ -106,6 +106,15 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
                     error(path, "文件大小与 metadata.files 不符")
                 if record.get("sha256") and hashlib.sha256(path.read_bytes()).hexdigest() != record["sha256"]:
                     error(path, "SHA256 与 metadata.files 不符")
+            if item.get("origin") == "downloaded":
+                primary = entry / item['primary_file']
+                if primary.is_file() and hashlib.sha256(primary.read_bytes()).hexdigest() != source.get('original_sha256'):
+                    error(primary, "原始下载文件与来源哈希不符")
+                if primary.is_file() and source.get('git_blob_sha'):
+                    raw = primary.read_bytes()
+                    actual_blob = hashlib.sha1(b'blob ' + str(len(raw)).encode() + b'\0' + raw).hexdigest()
+                    if actual_blob != source['git_blob_sha']:
+                        error(primary, '原始下载文件与上游 Git blob 不符')
 
     element_file = root / "elements" / "catalog.json"
     elements = read_json(element_file)
@@ -120,7 +129,9 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
                 if not item.get(key):
                     error(element_file, f"{item.get('id')}: 缺少 {key}")
             source = item.get("source", {})
-            if isinstance(source, dict) and source.get("kind") != "original":
+            if isinstance(source, dict):
+                if source.get("kind") not in {"external-download", "extracted-existing-vectors"}:
+                    error(element_file, f"{item.get('id')}: 只收录外部原素材或原图提取节点")
                 if not source.get("urls"):
                     error(element_file, f"{item.get('id')}: 外部元素必须记录 source.urls")
                 license_data = item.get("license", {})
@@ -128,6 +139,15 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
                     error(element_file, f"{item.get('id')}: 外部元素必须单独记录 license.name 和 license.status")
             local_file(root, item.get("svg_path"), "elements.svg_path")
             local_file(root, item.get("preview_path"), "elements.preview_path")
+            svg_file = root / item.get('svg_path', '')
+            if svg_file.is_file() and hashlib.sha256(svg_file.read_bytes()).hexdigest() != item.get('sha256'):
+                error(svg_file, '元素 SHA256 与来源索引不符')
+            if source.get('kind') == 'external-download' and item.get('sha256') != source.get('original_sha256'):
+                error(svg_file, '外部原素材的字节发生变化')
+            if source.get('kind') == 'extracted-existing-vectors':
+                original = root / source.get('local_original', '')
+                if not original.is_file() or hashlib.sha256(original.read_bytes()).hexdigest() != source.get('original_sha256'):
+                    error(svg_file, '提取来源缺失或原图哈希不符')
         for name in ("README.md", "all-elements.svg", "preview.png"):
             local_file(root / "elements", name, "元素库总览")
 

@@ -7,82 +7,124 @@
 | 类别 | 数量 | 主要用途 |
 |---|---:|---|
 | [Teaser](#teaser-范例) | 5 | 核心想法、动机与方法差异 |
-| [Architecture](#architecture-范例) | 2 | 模型结构、整体框架与模块连接 |
-| [最小可复用元素](#最小可复用元素) | 24 | 复制单个 SVG，组合成自己的图 |
+| [Architecture](#architecture-范例) | 7 | 模型结构、整体框架与模块连接 |
+| [最小可复用元素](#最小可复用元素) | 16 | 复制单个 SVG，组合成自己的图 |
 
 ## Teaser 范例
 
-### [CLIP Figure 1：训练到零样本预测](examples/teasers/clip/README.md)
+### [Uneven Double Refraction：原型与成像能力展示](examples/teasers/birefractive-rgbd/README.md)
 
-真实论文 Figure 1：左侧为图文对比预训练，右侧依次为用类别文本构建分类器、零样本预测。适合借鉴“一个训练阶段 + 两个使用阶段”的信息层级。
+相机原型、输入、恢复彩色图和深度图横排，适合硬件或成像方法的 teaser。
 
-[<img src="examples/teasers/clip/preview.png" alt="CLIP Figure 1：训练到零样本预测" width="820">](examples/teasers/clip/README.md)
-
-**类型：** 论文范例　**格式：** PDF / SVG
-
-**许可：** arXiv non-exclusive distribution license（`reference-only`）。arXiv 的非独占分发许可不是通用自由复用许可证。本条目作为私人研究与版式参考保存，不能据此推定可以自由再分发或直接复用论文图片。
-
-**标签：** `teaser` · `method-overview` · `contrastive-learning` · `zero-shot` · `three-stages` · `CLIP`
-
-[可编辑源文件](examples/teasers/clip/source.svg) · [来源与修改记录](examples/teasers/clip/metadata.json) · [使用说明](examples/teasers/clip/README.md)
-
-### [评估盲点与研究动机 / Evaluation blind spot](examples/teasers/evaluation-blindspot/README.md)
-
-用系统的不同区域与指标覆盖范围的差别，解释“当前评估遗漏了什么”。适合论文动机、评价方法或诊断方法的首图。
-
-[<img src="examples/teasers/evaluation-blindspot/preview.png" alt="评估盲点与研究动机 / Evaluation blind spot" width="820">](examples/teasers/evaluation-blindspot/README.md)
-
-**类型：** 通用模板　**格式：** SVG / YAML
-
-**许可：** MIT License（`permissive`）。许可证针对来源项目；复制或再分发其内容时保留原版权和许可声明。
-
-**标签：** `teaser` · `motivation` · `evaluation` · `blind-spot` · `editable-text`
-
-[可编辑源文件](examples/teasers/evaluation-blindspot/source.svg) · [来源与修改记录](examples/teasers/evaluation-blindspot/metadata.json) · [使用说明](examples/teasers/evaluation-blindspot/README.md)
-
-### [方法范式对比 / Method comparison](examples/teasers/method-comparison/README.md)
-
-三行并列展示 Decoupled、Grid feature-based 与 Dynamic query-based 三种范式。适合把两类既有方法与本文方法的核心差异放在同一张首图中。
-
-[<img src="examples/teasers/method-comparison/preview.png" alt="方法范式对比 / Method comparison" width="820">](examples/teasers/method-comparison/README.md)
-
-**类型：** 通用模板　**格式：** SVG / YAML
-
-**许可：** MIT License（`permissive`）。许可证针对来源项目；复制或再分发其内容时保留原版权和许可声明。
-
-**标签：** `teaser` · `method-comparison` · `three-rows` · `motivation` · `editable-text`
-
-[可编辑源文件](examples/teasers/method-comparison/source.svg) · [来源与修改记录](examples/teasers/method-comparison/metadata.json) · [使用说明](examples/teasers/method-comparison/README.md)
-
-### [Neural ODE Figure 1：离散层与连续动力学](examples/teasers/neural-ode/README.md)
-
-真实论文 Figure 1 的两个面板：离散残差变换与连续 ODE 向量场对比。适合借鉴用轨迹、采样位置与连续场解释方法差异的方式。
-
-[<img src="examples/teasers/neural-ode/preview.png" alt="Neural ODE Figure 1：离散层与连续动力学" width="820">](examples/teasers/neural-ode/README.md)
-
-**类型：** 论文范例　**格式：** PDF / SVG
-
-**许可：** arXiv non-exclusive distribution license（`reference-only`）。arXiv 的非独占分发许可不是通用自由复用许可证。本条目作为私人研究与版式参考保存，不能据此推定可以自由再分发或直接复用论文图片。
-
-**标签：** `teaser` · `conceptual-comparison` · `dynamics` · `neural-ode` · `residual-network` · `vector-field`
-
-[可编辑源文件](examples/teasers/neural-ode/source.svg) · [来源与修改记录](examples/teasers/neural-ode/metadata.json) · [使用说明](examples/teasers/neural-ode/README.md)
-
-### [Penrose Figure 1：三种几何的概念对照](examples/teasers/penrose/README.md)
-
-Penrose 论文 Figure 1 右侧的三联可视化，展示欧氏、球面和双曲几何。原 Figure 1 左侧还包含语句／代码，所以本条目不是整张 Figure 1。
-
-[<img src="examples/teasers/penrose/preview.png" alt="Penrose Figure 1：三种几何的概念对照" width="820">](examples/teasers/penrose/README.md)
+[<img src="examples/teasers/birefractive-rgbd/preview.png" alt="Uneven Double Refraction：原型与成像能力展示" width="820">](examples/teasers/birefractive-rgbd/README.md)
 
 **类型：** 论文范例　**格式：** SVG
 
-**许可：** MIT License (source repository)（`repository-permissive`）。来源仓库声明 MIT，已保留其许可证原文；保留项目与论文出处。
+**许可：** MIT（来源仓库）；照片与实验结果按原来源保留。（`repository-license`）。第三方图形保留原出处，图元提取或文件格式不改变原权利状态。
 
-**标签：** `teaser` · `geometry` · `mathematical-illustration` · `three-panels` · `conceptual-comparison`
+**标签：** `teaser` · `hardware` · `imaging` · `capability-showcase`
 
-[可编辑源文件](examples/teasers/penrose/source.svg) · [来源与修改记录](examples/teasers/penrose/metadata.json) · [使用说明](examples/teasers/penrose/README.md)
+[可编辑源文件](examples/teasers/birefractive-rgbd/source.svg) · [来源与修改记录](examples/teasers/birefractive-rgbd/metadata.json) · [使用说明](examples/teasers/birefractive-rgbd/README.md)
+
+### [K-LoRA：主体风格组合与训练范式比较](examples/teasers/k-lora/README.md)
+
+左侧主体与风格组合示例，右侧比较需要训练与免训练的融合方式。
+
+[<img src="examples/teasers/k-lora/preview.png" alt="K-LoRA：主体风格组合与训练范式比较" width="820">](examples/teasers/k-lora/README.md)
+
+**类型：** 论文范例　**格式：** SVG
+
+**许可：** 作者 README 声明 CC BY-NC 4.0；内嵌示例素材保留原出处。（`noncommercial`）。第三方图形保留原出处，图元提取或文件格式不改变原权利状态。
+
+**标签：** `teaser` · `method-comparison` · `subject-style` · `training-free`
+
+[可编辑源文件](examples/teasers/k-lora/source.svg) · [来源与修改记录](examples/teasers/k-lora/metadata.json) · [使用说明](examples/teasers/k-lora/README.md)
+
+### [OrienterNet：用二维地图定位的任务与动机](examples/teasers/orienternet/README.md)
+
+展示人类使用二维地图与既有三维点云定位的差别，再给出新方法的输入与输出。
+
+[<img src="examples/teasers/orienternet/preview.png" alt="OrienterNet：用二维地图定位的任务与动机" width="820">](examples/teasers/orienternet/README.md)
+
+**类型：** 论文范例　**格式：** SVG
+
+**许可：** 第三方图片与地图包含多种权利；图本身未见单独复用授权。（`mixed-source-license`）。第三方图形保留原出处，图元提取或文件格式不改变原权利状态。
+
+**标签：** `teaser` · `motivation` · `task-comparison` · `localization`
+
+[可编辑源文件](examples/teasers/orienternet/source.svg) · [来源与修改记录](examples/teasers/orienternet/metadata.json) · [使用说明](examples/teasers/orienternet/README.md)
+
+### [RayDer：数据瓶颈与新训练范式](examples/teasers/rayder-concept/README.md)
+
+数据金字塔、训练过程、结果与规模变化并列，先说明问题和核心差异。
+
+[<img src="examples/teasers/rayder-concept/preview.png" alt="RayDer：数据瓶颈与新训练范式" width="820">](examples/teasers/rayder-concept/README.md)
+
+**类型：** 论文范例　**格式：** SVG
+
+**许可：** 保存仓库原许可证；用途限于其原有条款。（`research-noncommercial`）。第三方图形保留原出处，图元提取或文件格式不改变原权利状态。
+
+**标签：** `teaser` · `motivation` · `data-bottleneck` · `novel-view-synthesis`
+
+[可编辑源文件](examples/teasers/rayder-concept/source.svg) · [来源与修改记录](examples/teasers/rayder-concept/metadata.json) · [使用说明](examples/teasers/rayder-concept/README.md)
+
+### [ShaDDR：粗形状与示例驱动的成果展示](examples/teasers/shaddr/README.md)
+
+上排粗形状与风格示例，下排生成结果与局部放大，以成果直接展示任务和贡献。
+
+[<img src="examples/teasers/shaddr/preview.png" alt="ShaDDR：粗形状与示例驱动的成果展示" width="820">](examples/teasers/shaddr/README.md)
+
+**类型：** 论文范例　**格式：** SVG
+
+**许可：** MIT（来源仓库）；渲染素材保留原论文出处。（`repository-license`）。第三方图形保留原出处，图元提取或文件格式不改变原权利状态。
+
+**标签：** `teaser` · `results-showcase` · `3d-generation` · `zoom-in`
+
+[可编辑源文件](examples/teasers/shaddr/source.svg) · [来源与修改记录](examples/teasers/shaddr/metadata.json) · [使用说明](examples/teasers/shaddr/README.md)
 
 ## Architecture 范例
+
+### [CLIP Figure 1：训练到零样本预测](examples/architectures/clip/README.md)
+
+CLIP 的训练与零样本使用流程，按方法流程归入 architecture。
+
+[<img src="examples/architectures/clip/preview.png" alt="CLIP Figure 1：训练到零样本预测" width="820">](examples/architectures/clip/README.md)
+
+**类型：** 论文范例　**格式：** PDF / SVG
+
+**许可：** arXiv non-exclusive distribution license（`reference-only`）。arXiv 的非独占分发许可不是通用自由复用许可证。本条目作为私人研究与版式参考保存，不能据此推定可以自由再分发或直接复用论文图片。
+
+**标签：** `method-overview` · `contrastive-learning` · `zero-shot` · `three-stages` · `CLIP` · `architecture`
+
+[可编辑源文件](examples/architectures/clip/source.svg) · [来源与修改记录](examples/architectures/clip/metadata.json) · [使用说明](examples/architectures/clip/README.md)
+
+### [LAV：感知、预测与驾驶控制流程](examples/architectures/lav/README.md)
+
+多摄像头输入、语义分割、传感器融合、三维主干、运动预测与控制的整体数据流。原文件虽叫 teaser.svg，按内容归入 architecture。
+
+[<img src="examples/architectures/lav/preview.png" alt="LAV：感知、预测与驾驶控制流程" width="820">](examples/architectures/lav/README.md)
+
+**类型：** 论文范例　**格式：** SVG
+
+**许可：** Apache-2.0（来源仓库）。（`repository-license`）。第三方图形保留原出处，图元提取或文件格式不改变原权利状态。
+
+**标签：** `architecture` · `autonomous-driving` · `pipeline` · `multibranch`
+
+[可编辑源文件](examples/architectures/lav/source.svg) · [来源与修改记录](examples/architectures/lav/metadata.json) · [使用说明](examples/architectures/lav/README.md)
+
+### [LightGlue：注意力、动态剪枝与匹配](examples/architectures/lightglue/README.md)
+
+双分支局部特征经过 self/cross attention、置信度预测、剪枝和匹配分配。
+
+[<img src="examples/architectures/lightglue/preview.png" alt="LightGlue：注意力、动态剪枝与匹配" width="820">](examples/architectures/lightglue/README.md)
+
+**类型：** 论文范例　**格式：** SVG
+
+**许可：** Apache-2.0（来源仓库）。（`repository-license`）。第三方图形保留原出处，图元提取或文件格式不改变原权利状态。
+
+**标签：** `architecture` · `attention` · `pruning` · `feature-matching`
+
+[可编辑源文件](examples/architectures/lightglue/source.svg) · [来源与修改记录](examples/architectures/lightglue/metadata.json) · [使用说明](examples/architectures/lightglue/README.md)
 
 ### [多尺度网络总览与模块展开](examples/architectures/multiscale-network/README.md)
 
@@ -97,6 +139,34 @@ Penrose 论文 Figure 1 右侧的三联可视化，展示欧氏、球面和双�
 **标签：** `architecture` · `network` · `multiscale` · `feature-fusion` · `skip-connection` · `illustrator`
 
 [可编辑源文件](examples/architectures/multiscale-network/source.ai) · [来源与修改记录](examples/architectures/multiscale-network/metadata.json) · [使用说明](examples/architectures/multiscale-network/README.md)
+
+### [RayDer：统一 Transformer 的两个使用阶段](examples/architectures/rayder/README.md)
+
+左右并列相机估计与新视角合成，清楚标明共用模型与不同输入输出。
+
+[<img src="examples/architectures/rayder/preview.png" alt="RayDer：统一 Transformer 的两个使用阶段" width="820">](examples/architectures/rayder/README.md)
+
+**类型：** 论文范例　**格式：** SVG
+
+**许可：** 保存仓库原许可证；用途限于其原有条款。（`research-noncommercial`）。第三方图形保留原出处，图元提取或文件格式不改变原权利状态。
+
+**标签：** `architecture` · `transformer` · `shared-model` · `two-stages`
+
+[可编辑源文件](examples/architectures/rayder/source.svg) · [来源与修改记录](examples/architectures/rayder/metadata.json) · [使用说明](examples/architectures/rayder/README.md)
+
+### [RUST：编码器、场景表示与位姿分支](examples/architectures/rust/README.md)
+
+无位姿输入图像经 Encoder、场景表示、Decoder 输出新视角，训练时有 Pose Estimator 分支。按内容归入 architecture。
+
+[<img src="examples/architectures/rust/preview.png" alt="RUST：编码器、场景表示与位姿分支" width="820">](examples/architectures/rust/README.md)
+
+**类型：** 论文范例　**格式：** SVG
+
+**许可：** 项目仓库未发现 LICENSE；仅作出处明确的参考，元素提取不新增授权。（`no-explicit-license`）。第三方图形保留原出处，图元提取或文件格式不改变原权利状态。
+
+**标签：** `architecture` · `encoder-decoder` · `feature-stack` · `training-branch`
+
+[可编辑源文件](examples/architectures/rust/source.svg) · [来源与修改记录](examples/architectures/rust/metadata.json) · [使用说明](examples/architectures/rust/README.md)
 
 ### [SAM / LoRA 总体流程与 Transformer 模块](examples/architectures/sam-lora/README.md)
 
@@ -114,38 +184,30 @@ Penrose 论文 Figure 1 右侧的三联可视化，展示欧氏、球面和双�
 
 ## 最小可复用元素
 
-共 24 个元素，其中 24 个为此仓库原创。来源与权利状态逐条保存在索引中；当前原创元素用于你的绘图复用，未设置对外再分发许可证。
+共 16 个有出处的元素，均为外部下载或原图中已有矢量节点的提取。来源、提取位置与权利状态逐条保存在索引中。
 
 [![元素总览](elements/preview.png)](elements/README.md)
 
-[打开总览 SVG](elements/all-elements.svg) · [元素使用说明](elements/README.md) · [样式参数](elements/style-tokens.json)
+[打开总览 SVG](elements/all-elements.svg) · [元素使用说明](elements/README.md) · [提取位置](elements/extraction-specs.json)
 
 | 元素 | 分类 | 标签 | 来源 / 权利状态 |
 |---|---|---|---|
-| [通用模块](elements/svg/module-block.svg) | 模块 | module, process, architecture | 本库原创 |
-| [编码器](elements/svg/encoder.svg) | 模块 | encoder, compression, representation | 本库原创 |
-| [解码器](elements/svg/decoder.svg) | 模块 | decoder, generation, reconstruction | 本库原创 |
-| [特征张量](elements/svg/tensor-stack.svg) | 数据表示 | tensor, feature-map, channels | 本库原创 |
-| [矩阵](elements/svg/matrix.svg) | 数据表示 | matrix, features, linear-algebra | 本库原创 |
-| [Token 序列](elements/svg/token-sequence.svg) | 数据表示 | tokens, transformer, sequence | 本库原创 |
-| [图像占位块](elements/svg/image-tile.svg) | 数据表示 | image, input, placeholder | 本库原创 |
-| [全连接网络](elements/svg/mlp.svg) | 模块 | mlp, neural-network, fully-connected | 本库原创 |
-| [注意力模块](elements/svg/attention.svg) | 模块 | attention, transformer, qkv | 本库原创 |
-| [加法节点](elements/svg/sum-node.svg) | 运算 | sum, add, residual | 本库原创 |
-| [拼接节点](elements/svg/concat-node.svg) | 运算 | concat, fusion, merge | 本库原创 |
-| [损失函数](elements/svg/loss.svg) | 运算 | loss, objective, training | 本库原创 |
-| [实线箭头](elements/svg/arrow-solid.svg) | 连接 | arrow, flow, connection | 本库原创 |
-| [虚线箭头](elements/svg/arrow-dashed.svg) | 连接 | arrow, optional, auxiliary | 本库原创 |
-| [双向箭头](elements/svg/arrow-bidirectional.svg) | 连接 | arrow, bidirectional, interaction | 本库原创 |
-| [跳跃连接](elements/svg/skip-connection.svg) | 连接 | skip, residual, bypass | 本库原创 |
-| [冻结参数](elements/svg/frozen-badge.svg) | 训练标识 | frozen, parameters, finetuning | 本库原创 |
-| [可训练参数](elements/svg/trainable-badge.svg) | 训练标识 | trainable, parameters, finetuning | 本库原创 |
-| [隐变量向量](elements/svg/latent-vector.svg) | 数据表示 | latent, embedding, vector | 本库原创 |
-| [样本点云](elements/svg/sample-cloud.svg) | 数据表示 | distribution, samples, generative | 本库原创 |
-| [时间推进](elements/svg/time-rollout.svg) | 科学与动力学 | time-series, dynamics, ai4pde, rollout | 本库原创 |
-| [物理约束](elements/svg/physics-constraint.svg) | 科学与动力学 | physics, pde, residual, prior | 本库原创 |
-| [参数共享](elements/svg/shared-weights.svg) | 训练标识 | shared-weights, siamese, parameters | 本库原创 |
-| [分布映射](elements/svg/distribution-map.svg) | 科学与动力学 | distribution, mapping, transport, teaser | 本库原创 |
+| [浅层神经网络](elements/svg/towaki-neuralnetwork.svg) | 模块 | external, CC0, icon | CC0-1.0 |
+| [深层神经网络](elements/svg/towaki-deepneuralnetwork.svg) | 模块 | external, CC0, icon | CC0-1.0 |
+| [神经场论文图标](elements/svg/towaki-neuralfieldpaper.svg) | 数据表示 | external, CC0, icon | CC0-1.0 |
+| [兔形图标](elements/svg/towaki-bunny.svg) | 数据表示 | external, CC0, icon | CC0-1.0 |
+| [存储图标](elements/svg/towaki-floppydisk.svg) | 数据表示 | external, CC0, icon | CC0-1.0 |
+| [编码器块](elements/svg/rust-encoder.svg) | 模块 | rust, extracted, vector | 原项目未发现独立图形授权；仅作出处明确的参考 |
+| [解码器块](elements/svg/rust-decoder.svg) | 模块 | rust, extracted, vector | 原项目未发现独立图形授权；仅作出处明确的参考 |
+| [特征表示堆叠](elements/svg/rust-feature-stack.svg) | 数据表示 | rust, extracted, vector | 原项目未发现独立图形授权；仅作出处明确的参考 |
+| [单层特征块](elements/svg/rust-feature-tile.svg) | 数据表示 | rust, extracted, vector | 原项目未发现独立图形授权；仅作出处明确的参考 |
+| [位姿估计模块](elements/svg/rust-pose-estimator.svg) | 模块 | rust, extracted, vector | 原项目未发现独立图形授权；仅作出处明确的参考 |
+| [右向流程箭头](elements/svg/rust-arrow-right.svg) | 连接 | rust, extracted, vector | 原项目未发现独立图形授权；仅作出处明确的参考 |
+| [下向流程箭头](elements/svg/rust-arrow-down.svg) | 连接 | rust, extracted, vector | 原项目未发现独立图形授权；仅作出处明确的参考 |
+| [Self attention 块](elements/svg/lightglue-self-attention.svg) | 模块 | lightglue, extracted, vector | Apache-2.0（LightGlue 来源仓库） |
+| [匹配相似度矩阵](elements/svg/lightglue-assignment-matrix.svg) | 数据表示 | lightglue, extracted, vector | Apache-2.0（LightGlue 来源仓库） |
+| [残差加法节点](elements/svg/lightglue-residual-add.svg) | 运算 | lightglue, extracted, vector | Apache-2.0（LightGlue 来源仓库） |
+| [蓝色流程箭头](elements/svg/lightglue-flow-arrow.svg) | 连接 | lightglue, extracted, vector | Apache-2.0（LightGlue 来源仓库） |
 
 ## 如何理解许可与可编辑性
 

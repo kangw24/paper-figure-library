@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "replace-with-unique-id",
+  "title": "替换为中文标题 / English title",
+  "category": "teaser",
+  "kind": "template",
+  "tags": ["replace-with-useful-tag"],
+  "formats": ["svg"],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "用一两句话说明此图的表达方式与适合借鉴的内容。",
+  "source": {
+    "project": "替换为项目或论文名称",
+    "authors": ["替换为作者"],
+    "urls": ["https://example.org/replace-with-author-source"],
+    "original_files": ["替换为来源中的原始文件路径"],
+    "retrieved_date": "YYYY-MM-DD"
+  },
+  "license": {
+    "spdx_id": null,
+    "status": "no-explicit-license",
+    "name": "替换为实际查得的许可名称或状态",
+    "note": "说明可查证的许可信息；有许可原文时增加 file 字段。"
+  },
+  "editability": {
+    "native_format": "替换为原生格式或转换说明",
+    "vector_shapes": true,
+    "editable_text": "记录实际检查结果",
+    "embedded_raster_images": 0,
+    "notes": ["记录字体、依赖、软件打开验证等信息。"]
+  },
+  "changes": ["记录与作者原文件相比的修改，或说明保持原始字节。"],
+  "added_date": "YYYY-MM-DD"
+}

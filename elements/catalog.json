@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "count": 24,
+  "items": [
+    {
+      "id": "module-block",
+      "title_zh": "通用模块",
+      "title_en": "Module block",
+      "category": "modules",
+      "tags": [
+        "module",
+        "process",
+        "architecture"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/module-block.svg",
+      "preview_path": "elements/svg/module-block.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "encoder",
+      "title_zh": "编码器",
+      "title_en": "Encoder",
+      "category": "modules",
+      "tags": [
+        "encoder",
+        "compression",
+        "representation"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/encoder.svg",
+      "preview_path": "elements/svg/encoder.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "decoder",
+      "title_zh": "解码器",
+      "title_en": "Decoder",
+      "category": "modules",
+      "tags": [
+        "decoder",
+        "generation",
+        "reconstruction"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/decoder.svg",
+      "preview_path": "elements/svg/decoder.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "tensor-stack",
+      "title_zh": "特征张量",
+      "title_en": "Tensor stack",
+      "category": "data",
+      "tags": [
+        "tensor",
+        "feature-map",
+        "channels"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/tensor-stack.svg",
+      "preview_path": "elements/svg/tensor-stack.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "matrix",
+      "title_zh": "矩阵",
+      "title_en": "Matrix",
+      "category": "data",
+      "tags": [
+        "matrix",
+        "features",
+        "linear-algebra"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/matrix.svg",
+      "preview_path": "elements/svg/matrix.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "token-sequence",
+      "title_zh": "Token 序列",
+      "title_en": "Token sequence",
+      "category": "data",
+      "tags": [
+        "tokens",
+        "transformer",
+        "sequence"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/token-sequence.svg",
+      "preview_path": "elements/svg/token-sequence.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "image-tile",
+      "title_zh": "图像占位块",
+      "title_en": "Image tile",
+      "category": "data",
+      "tags": [
+        "image",
+        "input",
+        "placeholder"
+      ],
+      "notes": "Illustrative placeholder; replace with an actual image when needed.",
+      "svg_path": "elements/svg/image-tile.svg",
+      "preview_path": "elements/svg/image-tile.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "mlp",
+      "title_zh": "全连接网络",
+      "title_en": "MLP",
+      "category": "modules",
+      "tags": [
+        "mlp",
+        "neural-network",
+        "fully-connected"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/mlp.svg",
+      "preview_path": "elements/svg/mlp.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "attention",
+      "title_zh": "注意力模块",
+      "title_en": "Attention",
+      "category": "modules",
+      "tags": [
+        "attention",
+        "transformer",
+        "qkv"
+      ],
+      "notes": "Symbolic function label; adapt it to the actual attention definition.",
+      "svg_path": "elements/svg/attention.svg",
+      "preview_path": "elements/svg/attention.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "sum-node",
+      "title_zh": "加法节点",
+      "title_en": "Sum node",
+      "category": "operations",
+      "tags": [
+        "sum",
+        "add",
+        "residual"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/sum-node.svg",
+      "preview_path": "elements/svg/sum-node.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "concat-node",
+      "title_zh": "拼接节点",
+      "title_en": "Concatenation",
+      "category": "operations",
+      "tags": [
+        "concat",
+        "fusion",
+        "merge"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/concat-node.svg",
+      "preview_path": "elements/svg/concat-node.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "loss",
+      "title_zh": "损失函数",
+      "title_en": "Loss",
+      "category": "operations",
+      "tags": [
+        "loss",
+        "objective",
+        "training"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/loss.svg",
+      "preview_path": "elements/svg/loss.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "arrow-solid",
+      "title_zh": "实线箭头",
+      "title_en": "Solid arrow",
+      "category": "connections",
+      "tags": [
+        "arrow",
+        "flow",
+        "connection"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/arrow-solid.svg",
+      "preview_path": "elements/svg/arrow-solid.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "arrow-dashed",
+      "title_zh": "虚线箭头",
+      "title_en": "Dashed arrow",
+      "category": "connections",
+      "tags": [
+        "arrow",
+        "optional",
+        "auxiliary"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/arrow-dashed.svg",
+      "preview_path": "elements/svg/arrow-dashed.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "arrow-bidirectional",
+      "title_zh": "双向箭头",
+      "title_en": "Bidirectional arrow",
+      "category": "connections",
+      "tags": [
+        "arrow",
+        "bidirectional",
+        "interaction"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/arrow-bidirectional.svg",
+      "preview_path": "elements/svg/arrow-bidirectional.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "skip-connection",
+      "title_zh": "跳跃连接",
+      "title_en": "Skip connection",
+      "category": "connections",
+      "tags": [
+        "skip",
+        "residual",
+        "bypass"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/skip-connection.svg",
+      "preview_path": "elements/svg/skip-connection.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "frozen-badge",
+      "title_zh": "冻结参数",
+      "title_en": "Frozen parameters",
+      "category": "training",
+      "tags": [
+        "frozen",
+        "parameters",
+        "finetuning"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/frozen-badge.svg",
+      "preview_path": "elements/svg/frozen-badge.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "trainable-badge",
+      "title_zh": "可训练参数",
+      "title_en": "Trainable parameters",
+      "category": "training",
+      "tags": [
+        "trainable",
+        "parameters",
+        "finetuning"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/trainable-badge.svg",
+      "preview_path": "elements/svg/trainable-badge.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "latent-vector",
+      "title_zh": "隐变量向量",
+      "title_en": "Latent vector",
+      "category": "data",
+      "tags": [
+        "latent",
+        "embedding",
+        "vector"
+      ],
+      "notes": "Illustrative feature values, not measured data.",
+      "svg_path": "elements/svg/latent-vector.svg",
+      "preview_path": "elements/svg/latent-vector.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "sample-cloud",
+      "title_zh": "样本点云",
+      "title_en": "Sample cloud",
+      "category": "data",
+      "tags": [
+        "distribution",
+        "samples",
+        "generative"
+      ],
+      "notes": "Deterministic illustrative points generated with seed 42; not experimental data.",
+      "svg_path": "elements/svg/sample-cloud.svg",
+      "preview_path": "elements/svg/sample-cloud.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "time-rollout",
+      "title_zh": "时间推进",
+      "title_en": "Time rollout",
+      "category": "science",
+      "tags": [
+        "time-series",
+        "dynamics",
+        "ai4pde",
+        "rollout"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/time-rollout.svg",
+      "preview_path": "elements/svg/time-rollout.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "physics-constraint",
+      "title_zh": "物理约束",
+      "title_en": "Physics constraint",
+      "category": "science",
+      "tags": [
+        "physics",
+        "pde",
+        "residual",
+        "prior"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/physics-constraint.svg",
+      "preview_path": "elements/svg/physics-constraint.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "shared-weights",
+      "title_zh": "参数共享",
+      "title_en": "Shared weights",
+      "category": "training",
+      "tags": [
+        "shared-weights",
+        "siamese",
+        "parameters"
+      ],
+      "notes": "",
+      "svg_path": "elements/svg/shared-weights.svg",
+      "preview_path": "elements/svg/shared-weights.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    },
+    {
+      "id": "distribution-map",
+      "title_zh": "分布映射",
+      "title_en": "Distribution mapping",
+      "category": "science",
+      "tags": [
+        "distribution",
+        "mapping",
+        "transport",
+        "teaser"
+      ],
+      "notes": "Illustrative distribution shapes, not fitted probability densities.",
+      "svg_path": "elements/svg/distribution-map.svg",
+      "preview_path": "elements/svg/distribution-map.svg",
+      "source": {
+        "kind": "original",
+        "created_for": "paper-figure-library",
+        "date": "2026-10-25"
+      },
+      "rights": "original; no public redistribution license specified",
+      "editability": "vector shapes and live text; no external assets"
+    }
+  ]
+}

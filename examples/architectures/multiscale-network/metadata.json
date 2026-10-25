@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "multiscale-network",
+  "title": "多尺度网络总览与模块展开",
+  "category": "architecture",
+  "kind": "tutorial-example",
+  "tags": [
+    "architecture",
+    "network",
+    "multiscale",
+    "feature-fusion",
+    "skip-connection",
+    "illustrator"
+  ],
+  "formats": [
+    "ai"
+  ],
+  "primary_file": "source.ai",
+  "preview": "preview.png",
+  "summary": "作者 Illustrator 科研绘图教程中的多尺度网络案例：Backbone、高低层特征、SPPA／LFSA／GMFF 模块、预测结果，以及模块细节。原文件含 7 个画板。",
+  "source": {
+    "project": "Adobe Illustrator for Scientific Graphic Design",
+    "authors": [
+      "JunchuanYu"
+    ],
+    "urls": [
+      "https://github.com/JunchuanYu/Adobe_Illustrator_for_Scientific_Graphic_Design",
+      "https://github.com/JunchuanYu/Adobe_Illustrator_for_Scientific_Graphic_Design/blob/main/demo/task5/task5.ai",
+      "https://raw.githubusercontent.com/JunchuanYu/Adobe_Illustrator_for_Scientific_Graphic_Design/main/demo/task5/task5.ai"
+    ],
+    "original_files": [
+      "demo/task5/task5.ai"
+    ],
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "spdx_id": null,
+    "status": "no-explicit-license",
+    "name": "未发现明确 LICENSE",
+    "note": "作者提供公开免费教程；公开下载不等于自由再分发许可。保留出处；不能标为 MIT、CC0 或已获商用授权。"
+  },
+  "editability": {
+    "native_format": "Adobe Illustrator 28.0 (Windows)",
+    "native_private_data": true,
+    "pdf_compatible": true,
+    "artboards": 7,
+    "vector_shapes": true,
+    "editable_text": "native source available; desktop verification pending",
+    "notes": [
+      "包含 Adobe Illustrator 原生 AIPrivateData，原始 AI 字节未修改。",
+      "检查过 PDF 兼容层，未在桌面 Illustrator 中实际打开。",
+      "在原文件 XMP 中未发现外链 Manifest；这不构成完整的桌面字体与链接验证。"
+    ]
+  },
+  "changes": [
+    "AI 源文件保持原始字节，仅重命名为 source.ai。",
+    "preview.png 从第 6 个 PDF 兼容画板重新渲染到 1500 px 宽。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "preview.png",
+      "bytes": 385124,
+      "sha256": "a2458872a80acc74d28f8bfeb1123a9bc034d2ec4341ca62d6093557dad11c6d"
+    },
+    {
+      "path": "source.ai",
+      "bytes": 3214325,
+      "sha256": "ce541fcfa3b8d2b2a0d2022b8ea216bc0e5f3d83190ce7ca63941e9eabe2036d"
+    }
+  ]
+}

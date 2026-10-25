@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "sam-lora",
+  "title": "SAM / LoRA 总体流程与 Transformer 模块",
+  "category": "architecture",
+  "kind": "tutorial-example",
+  "tags": [
+    "architecture",
+    "framework",
+    "SAM",
+    "LoRA",
+    "transformer",
+    "illustrator",
+    "parameter-efficient-finetuning"
+  ],
+  "formats": [
+    "ai",
+    "pdf",
+    "pptx"
+  ],
+  "primary_file": "source.ai",
+  "preview": "preview.png",
+  "summary": "作者 Illustrator 科研绘图教程中的 SAM / LoRA 案例，含总体方法流程与 Transformer／LoRA 模块结构，共 2 个画板；公开的 PNG、PDF 与 PPTX 配套素材一并保留。",
+  "source": {
+    "project": "Adobe Illustrator for Scientific Graphic Design",
+    "authors": [
+      "JunchuanYu"
+    ],
+    "urls": [
+      "https://github.com/JunchuanYu/Adobe_Illustrator_for_Scientific_Graphic_Design",
+      "https://github.com/JunchuanYu/Adobe_Illustrator_for_Scientific_Graphic_Design/tree/main/demo/task4",
+      "https://raw.githubusercontent.com/JunchuanYu/Adobe_Illustrator_for_Scientific_Graphic_Design/main/demo/task4/task4.ai"
+    ],
+    "original_files": [
+      "demo/task4/task4.ai",
+      "demo/task4/data-01.png",
+      "demo/task4/data-02-02.png",
+      "demo/task4/data.pdf",
+      "demo/task4/data2.pdf",
+      "demo/task4/data.pptx"
+    ],
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "spdx_id": null,
+    "status": "no-explicit-license",
+    "name": "未发现明确 LICENSE",
+    "note": "作者提供公开免费教程；公开下载不等于自由再分发许可。保留出处；不能标为 MIT、CC0 或已获商用授权。"
+  },
+  "editability": {
+    "native_format": "Adobe Illustrator 26.0 (Windows)",
+    "native_private_data": true,
+    "pdf_compatible": true,
+    "artboards": 2,
+    "vector_shapes": true,
+    "editable_text": "native source available; desktop verification pending",
+    "notes": [
+      "包含 Adobe Illustrator 原生 AIPrivateData，原始 AI 字节未修改。",
+      "原文件元数据含作者本地 AI_图像.psd 引用，该 PSD 未公开，Illustrator 可能提示旧链接。",
+      "原作者公开的 PNG／PDF／PPTX 位于 assets/；这些文件不能保证完整恢复缺失 PSD 的图层或链接。",
+      "检查过 PDF 兼容层，未在桌面 Illustrator 中实际打开。"
+    ]
+  },
+  "changes": [
+    "AI 源文件保持原始字节，仅重命名为 source.ai。",
+    "公开配套素材保持原始字节，收录在 assets/。",
+    "preview.png 与 module-preview.png 分别从两个 PDF 兼容画板重新渲染到 1500 px 宽。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "assets/data-01.png",
+      "bytes": 633293,
+      "sha256": "3699d9c81a4a839d7ccf2acca2c60334a1b44f6a8459322b0554bd12284f7f16"
+    },
+    {
+      "path": "assets/data-02-02.png",
+      "bytes": 102512,
+      "sha256": "4b4d395fa514c43898eb3118f87150bee2fb61444d9b2db72d1e82bff2af2fef"
+    },
+    {
+      "path": "assets/data.pdf",
+      "bytes": 104761,
+      "sha256": "cb943c324e0b45c541231ce12d2e10a352ca399a144321c1ca59eeb4ef62592a"
+    },
+    {
+      "path": "assets/data.pptx",
+      "bytes": 2260295,
+      "sha256": "df02def3cb692503abc155c7df43dd9e36932e51ae280c1eb87d29ba265834c9"
+    },
+    {
+      "path": "assets/data2.pdf",
+      "bytes": 169757,
+      "sha256": "73716ea8b323305bd01f5682c69d0ad4670b6d98c9ef0090901582ba9cf4567c"
+    },
+    {
+      "path": "module-preview.png",
+      "bytes": 123567,
+      "sha256": "48112039cafde3fbac24ddf7d20accd43c99620359b7042ba9b4848faae58e50"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 234667,
+      "sha256": "872ed5a515655446a1a21e5f23ba452b50af6a9f4baeb30b87b5d06cfa637f4c"
+    },
+    {
+      "path": "source.ai",
+      "bytes": 1302207,
+      "sha256": "b93cd78da33cf32179664af0cc9eb9fa5ca866b81eaee131afbcbce26e76ff95"
+    }
+  ]
+}

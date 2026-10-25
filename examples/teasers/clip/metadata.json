@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "clip",
+  "title": "CLIP Figure 1：训练到零样本预测",
+  "category": "teaser",
+  "kind": "paper-example",
+  "tags": [
+    "teaser",
+    "method-overview",
+    "contrastive-learning",
+    "zero-shot",
+    "three-stages",
+    "CLIP"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "真实论文 Figure 1：左侧为图文对比预训练，右侧依次为用类别文本构建分类器、零样本预测。适合借鉴“一个训练阶段 + 两个使用阶段”的信息层级。",
+  "source": {
+    "project": "Learning Transferable Visual Models From Natural Language Supervision",
+    "authors": [
+      "Alec Radford et al."
+    ],
+    "paper_id": "arXiv:2103.00020",
+    "figure": "Figure 1",
+    "urls": [
+      "https://arxiv.org/abs/2103.00020",
+      "https://arxiv.org/src/2103.00020"
+    ],
+    "original_files": [
+      "main-diagrams.pdf"
+    ],
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "spdx_id": null,
+    "status": "reference-only",
+    "name": "arXiv non-exclusive distribution license",
+    "note": "arXiv 的非独占分发许可不是通用自由复用许可证。本条目作为私人研究与版式参考保存，不能据此推定可以自由再分发或直接复用论文图片。"
+  },
+  "editability": {
+    "native_format": "vector PDF converted to SVG",
+    "vector_shapes": true,
+    "editable_text": "partial",
+    "embedded_raster_images": 5,
+    "notes": [
+      "文字通过 PDF 转换保留为文字对象，但可能被拆成多个字符或文本块。",
+      "样本照片仍是嵌入位图；不能当作可编辑矢量图形。",
+      "字体表现依赖本地字体；尚未在桌面 Illustrator 中打开验证。"
+    ]
+  },
+  "changes": [
+    "从作者 arXiv 源包原样提取 main-diagrams.pdf。",
+    "用 PyMuPDF 导出 SVG，text_as_path=False，以保留文字对象。",
+    "本条目仅复制、重命名已有 SVG、原始 PDF 和预览。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "originals/main-diagrams.pdf",
+      "bytes": 304254,
+      "sha256": "5b91663aad44e793ec0f227c9ac8a34470fa54bcec5c0ad05f01e7bc696cac15"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 130326,
+      "sha256": "c520ccf0ccf48db626a4965a6f0f30b0b8aa34e9070190ad80ca3746e0776039"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 324774,
+      "sha256": "d6486343eb6993296017183e4037e080e9e062c76997da710bb7f0ffb2acc5d5"
+    }
+  ]
+}

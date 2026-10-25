@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "evaluation-blindspot",
+  "title": "评估盲点与研究动机 / Evaluation blind spot",
+  "category": "teaser",
+  "kind": "template",
+  "tags": [
+    "teaser",
+    "motivation",
+    "evaluation",
+    "blind-spot",
+    "editable-text"
+  ],
+  "formats": [
+    "svg",
+    "yaml"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "用系统的不同区域与指标覆盖范围的差别，解释“当前评估遗漏了什么”。适合论文动机、评价方法或诊断方法的首图。",
+  "source": {
+    "project": "CVPR-Figure",
+    "authors": [
+      "ChizkiyahuOhayon"
+    ],
+    "urls": [
+      "https://github.com/ChizkiyahuOhayon/CVPR-Figure",
+      "https://github.com/ChizkiyahuOhayon/CVPR-Figure/blob/main/templates/blindspot-teaser.yaml"
+    ],
+    "original_files": [
+      "templates/blindspot-teaser.yaml"
+    ],
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "spdx_id": "MIT",
+    "status": "permissive",
+    "name": "MIT License",
+    "file": "LICENSE.source.txt",
+    "note": "许可证针对来源项目；复制或再分发其内容时保留原版权和许可声明。"
+  },
+  "editability": {
+    "native_format": "SVG",
+    "vector_shapes": true,
+    "editable_text": true,
+    "embedded_raster_images": 0,
+    "notes": [
+      "由作者 YAML 模板及公开渲染程序导出，保留文字和图形对象。",
+      "0.00 是模板占位数值，不是实验结果。",
+      "尚未在桌面 Illustrator 中打开验证。"
+    ]
+  },
+  "changes": [
+    "由作者原始 YAML 模板使用其渲染程序导出 SVG；未修改模板内容。",
+    "本条目仅复制、重命名已有 SVG 和预览。"
+  ],
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 1065,
+      "sha256": "7a47efa5b15abf69547d2a9513b41e982db882bad2632c508ab90924f5fb766d"
+    },
+    {
+      "path": "originals/blindspot-teaser.yaml",
+      "bytes": 3659,
+      "sha256": "5e9dbc7dda7807d1e46dfc30131bd7e08c257bd85d771c22f95d2c4b50d55441"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 152348,
+      "sha256": "d253578a86ad38ce0588bc3236b4704142cdb389c85e059054c58de6a23664d6"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 8315,
+      "sha256": "d2114455879541efbe518e5d3a7e9162d1cfa413e0a8d9e165b339de448c9844"
+    }
+  ]
+}

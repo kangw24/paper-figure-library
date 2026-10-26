@@ -1,11 +1,11 @@
 # 素材总目录
 
-[仓库首页](README.md) · [元素分类目录](elements/README.md) · [JSON 来源索引](catalog.json)
+[仓库首页](README.md) · [顶会论文精选](collections/top-conference-figures.md) · [元素分类目录](elements/README.md) · [JSON 来源索引](catalog.json)
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 7 | [浏览](examples/teasers/README.md) |
-| Architecture 范例 | 23 | [浏览](examples/architectures/README.md) |
+| Teaser 范例 | 13 | [浏览](examples/teasers/README.md) |
+| Architecture 范例 | 35 | [浏览](examples/architectures/README.md) |
 | 机制参考图 | 17 | [浏览](references/mechanisms/README.md) |
 | 原生版式模板 | 11 | [浏览](templates/layouts/README.md) |
 | 最小可复用元素 | 317 | [按内容与来源浏览](elements/README.md) |
@@ -27,6 +27,17 @@
 来源类型：论文范例。许可：MIT（来源仓库）；照片与实验结果按原来源保留。。
 [原文件](examples/teasers/birefractive-rgbd/source.svg) · [来源记录](examples/teasers/birefractive-rgbd/metadata.json)
 
+### [CUT3R · 静态、动态与稀疏照片三类场景](examples/teasers/cut3r-capabilities/README.md)
+
+三列分别说明输入场景和重建能力，借助同一版式把连续三维感知的应用范围讲清楚。
+
+CVPR 2025 · Oral · 矢量 + 原有位图
+
+[<img src="examples/teasers/cut3r-capabilities/preview.png" width="760" alt="CUT3R · 静态、动态与稀疏照片三类场景">](examples/teasers/cut3r-capabilities/source.svg)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](examples/teasers/cut3r-capabilities/source.svg) · [来源记录](examples/teasers/cut3r-capabilities/metadata.json)
+
 ### [DECOLLAGE：局部风格控制与三维细化](examples/teasers/decollage/README.md)
 
 从粗体素结构出发，用不同示例为局部赋予风格，再展示细化结果。作者的首屏 teaser，包含原始矢量箭头与嵌入渲染图。
@@ -35,6 +46,39 @@
 
 来源类型：论文范例。许可：MIT。
 [原文件](examples/teasers/decollage/source.svg) · [来源记录](examples/teasers/decollage/metadata.json)
+
+### [DPO · RLHF 与直接偏好优化的流程简化](examples/teasers/dpo-comparison/README.md)
+
+左右两块使用同一输入与终点，只改变中间步骤；简化过程本身就是论文的主要观点。
+
+NeurIPS 2023 · Oral · 整图位图，仅构图参考
+
+[<img src="examples/teasers/dpo-comparison/preview.png" width="760" alt="DPO · RLHF 与直接偏好优化的流程简化">](examples/teasers/dpo-comparison/source.png)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](examples/teasers/dpo-comparison/source.png) · [来源记录](examples/teasers/dpo-comparison/metadata.json)
+
+### [DreamGaussian · 生成能力与优化进程同图展示](examples/teasers/dreamgaussian-progress/README.md)
+
+上方多视角结果说明输出能力，下方时间序列展示从模糊到成形的优化过程，让效率与质量成为同一视觉叙事。
+
+ICLR 2024 · Oral · 矢量 + 原有位图
+
+[<img src="examples/teasers/dreamgaussian-progress/preview.png" width="760" alt="DreamGaussian · 生成能力与优化进程同图展示">](examples/teasers/dreamgaussian-progress/source.svg)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/teasers/dreamgaussian-progress/source.svg) · [来源记录](examples/teasers/dreamgaussian-progress/metadata.json)
+
+### [Genie · 不同提示生成可交互世界](examples/teasers/genie-interaction/README.md)
+
+左侧三种输入沿统一箭头进入模型，右侧按动作展示连续变化；一张图同时回答输入是什么、输出是什么、为什么可交互。
+
+ICML 2024 · Oral · 矢量 + 原有位图
+
+[<img src="examples/teasers/genie-interaction/preview.png" width="760" alt="Genie · 不同提示生成可交互世界">](examples/teasers/genie-interaction/source.svg)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/teasers/genie-interaction/source.svg) · [来源记录](examples/teasers/genie-interaction/metadata.json)
 
 ### [K-LoRA：主体风格组合与训练范式比较](examples/teasers/k-lora/README.md)
 
@@ -81,6 +125,28 @@
 来源类型：论文范例。许可：MIT（来源仓库）；渲染素材保留原论文出处。。
 [原文件](examples/teasers/shaddr/source.svg) · [来源记录](examples/teasers/shaddr/metadata.json)
 
+### [VAR · 从逐 token 到逐尺度生成的范式对照](examples/teasers/var-paradigm/README.md)
+
+同一张图比较语言自回归、图像逐 token 生成和逐尺度生成，核心差异直接表现为生成顺序与尺度变化。
+
+NeurIPS 2024 · Oral · 矢量 + 原有位图
+
+[<img src="examples/teasers/var-paradigm/preview.png" width="760" alt="VAR · 从逐 token 到逐尺度生成的范式对照">](examples/teasers/var-paradigm/source.svg)
+
+来源类型：论文范例。许可：CC0-1.0。
+[原文件](examples/teasers/var-paradigm/source.svg) · [来源记录](examples/teasers/var-paradigm/metadata.json)
+
+### [VGGT · 多视图输入与统一三维感知能力](examples/teasers/vggt-capabilities/README.md)
+
+用一个大型三维场景作为视觉中心，两侧安排输入与多种输出，让读者先理解方法能做什么。
+
+CVPR 2025 · Oral · 矢量 + 原有位图
+
+[<img src="examples/teasers/vggt-capabilities/preview.png" width="760" alt="VGGT · 多视图输入与统一三维感知能力">](examples/teasers/vggt-capabilities/source.svg)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/teasers/vggt-capabilities/source.svg) · [来源记录](examples/teasers/vggt-capabilities/metadata.json)
+
 ## Architecture 范例
 
 ### [CLIP Figure 1：训练到零样本预测](examples/architectures/clip/README.md)
@@ -91,6 +157,17 @@ CLIP 的训练与零样本使用流程，按方法流程归入 architecture。
 
 来源类型：论文范例。许可：arXiv non-exclusive distribution license。
 [原文件](examples/architectures/clip/source.svg) · [来源记录](examples/architectures/clip/metadata.json)
+
+### [CUT3R · 持久状态的更新、读取与未见视角推断](examples/architectures/cut3r-architecture/README.md)
+
+左侧按时间展开状态更新，右侧用独立色块解释状态读取；重建结果紧邻对应计算步骤。
+
+CVPR 2025 · Oral · 矢量 + 原有位图
+
+[<img src="examples/architectures/cut3r-architecture/preview.png" width="760" alt="CUT3R · 持久状态的更新、读取与未见视角推断">](examples/architectures/cut3r-architecture/source.svg)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](examples/architectures/cut3r-architecture/source.svg) · [来源记录](examples/architectures/cut3r-architecture/metadata.json)
 
 ### [D2L · AlexNet](examples/architectures/d2l-alexnet/README.md)
 
@@ -236,6 +313,61 @@ D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；�
 来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
 [原文件](examples/architectures/d2l-vit/source.svg) · [来源记录](examples/architectures/d2l-vit/metadata.json)
 
+### [DiT · 整体主干与三种条件注入模块](examples/architectures/dit-architecture/README.md)
+
+左侧给完整主干，右侧展开 block 变体；推荐模块使用更高视觉对比，完整展示论文的结构选择。
+
+ICCV 2023 · Oral · 矢量结构
+
+[<img src="examples/architectures/dit-architecture/preview.png" width="760" alt="DiT · 整体主干与三种条件注入模块">](examples/architectures/dit-architecture/source.svg)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](examples/architectures/dit-architecture/source.svg) · [来源记录](examples/architectures/dit-architecture/metadata.json)
+
+### [DreamGaussian · 高斯生成、网格提取与纹理细化](examples/architectures/dreamgaussian-architecture/README.md)
+
+三个带编号的区域分别解释表示初始化、表示转换和后续细化，同时把不同损失放在对应优化回路内。
+
+ICLR 2024 · Oral · 矢量 + 原有位图
+
+[<img src="examples/architectures/dreamgaussian-architecture/preview.png" width="760" alt="DreamGaussian · 高斯生成、网格提取与纹理细化">](examples/architectures/dreamgaussian-architecture/source.svg)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/architectures/dreamgaussian-architecture/source.svg) · [来源记录](examples/architectures/dreamgaussian-architecture/metadata.json)
+
+### [3D Gaussian Splatting · 优化与光栅化双向流程](examples/architectures/gaussian-splatting-architecture/README.md)
+
+黑色实线和蓝色箭头分别表达正向操作与梯度回传，让自适应密度控制与可微渲染的关系无需依赖长图注。
+
+SIGGRAPH 2023 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="examples/architectures/gaussian-splatting-architecture/preview.png" width="760" alt="3D Gaussian Splatting · 优化与光栅化双向流程">](examples/architectures/gaussian-splatting-architecture/source.svg)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](examples/architectures/gaussian-splatting-architecture/source.svg) · [来源记录](examples/architectures/gaussian-splatting-architecture/metadata.json)
+
+### [Genie · 视频 tokenizer、潜在动作与动力学模型](examples/architectures/genie-architecture/README.md)
+
+只保留三个核心模块，视频 tokens 与潜在动作分别编码后汇入动力学模型；简单分支就讲清训练信息来源。
+
+ICML 2024 · Oral · 整图位图，仅构图参考
+
+[<img src="examples/architectures/genie-architecture/preview.png" width="760" alt="Genie · 视频 tokenizer、潜在动作与动力学模型">](examples/architectures/genie-architecture/source.png)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/architectures/genie-architecture/source.png) · [来源记录](examples/architectures/genie-architecture/metadata.json)
+
+### [Instant NGP · 多分辨率哈希编码到 MLP](examples/architectures/instant-ngp-hash-architecture/README.md)
+
+通过五个编号步骤，将空间采样、哈希查表、插值、拼接与网络连接起来；不同尺度的颜色可贯穿整张图。
+
+SIGGRAPH 2022 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="examples/architectures/instant-ngp-hash-architecture/preview.png" width="760" alt="Instant NGP · 多分辨率哈希编码到 MLP">](examples/architectures/instant-ngp-hash-architecture/source.svg)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/architectures/instant-ngp-hash-architecture/source.svg) · [来源记录](examples/architectures/instant-ngp-hash-architecture/metadata.json)
+
 ### [LAV：感知、预测与驾驶控制流程](examples/architectures/lav/README.md)
 
 多摄像头输入、语义分割、传感器融合、三维主干、运动预测与控制的整体数据流。原文件虽叫 teaser.svg，按内容归入 architecture。
@@ -244,6 +376,28 @@ D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；�
 
 来源类型：论文范例。许可：Apache-2.0（来源仓库）。。
 [原文件](examples/architectures/lav/source.svg) · [来源记录](examples/architectures/lav/metadata.json)
+
+### [LGM · 非对称 U-Net 与跨视角注意力](examples/architectures/lgm-architecture/README.md)
+
+把多视图输入、相机射线编码、U-Net、三维融合和监督闭环放在一张图里；顶部局部放大说明跨视角交互。
+
+ECCV 2024 · Oral · 矢量 + 原有位图
+
+[<img src="examples/architectures/lgm-architecture/preview.png" width="760" alt="LGM · 非对称 U-Net 与跨视角注意力">](examples/architectures/lgm-architecture/source.svg)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/architectures/lgm-architecture/source.svg) · [来源记录](examples/architectures/lgm-architecture/metadata.json)
+
+### [LGM · 从文本或图像到三维高斯和网格的流程](examples/architectures/lgm-pipeline/README.md)
+
+用少量大模块完成端到端说明，同时把各阶段耗时直接放在阶段下方，适合紧凑的方法总览。
+
+ECCV 2024 · Oral · 矢量 + 原有位图
+
+[<img src="examples/architectures/lgm-pipeline/preview.png" width="760" alt="LGM · 从文本或图像到三维高斯和网格的流程">](examples/architectures/lgm-pipeline/source.svg)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/architectures/lgm-pipeline/source.svg) · [来源记录](examples/architectures/lgm-pipeline/metadata.json)
 
 ### [LightGlue：注意力、动态剪枝与匹配](examples/architectures/lightglue/README.md)
 
@@ -289,6 +443,50 @@ D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；�
 
 来源类型：教材或教程范例。许可：未发现明确 LICENSE。
 [原文件](examples/architectures/sam-lora/source.ai) · [来源记录](examples/architectures/sam-lora/metadata.json)
+
+### [SD3 · 双模态主干与 MM-DiT block 展开](examples/architectures/sd3-mmdit-architecture/README.md)
+
+左侧说明文本与图像条件如何进入主干，右侧以对称双路结构展开联合注意力，颜色和符号在两部分保持一致。
+
+ICML 2024 · Oral · 矢量结构
+
+[<img src="examples/architectures/sd3-mmdit-architecture/preview.png" width="760" alt="SD3 · 双模态主干与 MM-DiT block 展开">](examples/architectures/sd3-mmdit-architecture/source.svg)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/architectures/sd3-mmdit-architecture/source.svg) · [来源记录](examples/architectures/sd3-mmdit-architecture/metadata.json)
+
+### [VAR · 多尺度 VQVAE 与 VAR 两阶段训练](examples/architectures/var-architecture/README.md)
+
+两块并列区域分别解释表示学习和自回归训练，尺度、token 序列和因果 mask 的对应关系可在图中追踪。
+
+NeurIPS 2024 · Oral · 矢量 + 原有位图
+
+[<img src="examples/architectures/var-architecture/preview.png" width="760" alt="VAR · 多尺度 VQVAE 与 VAR 两阶段训练">](examples/architectures/var-architecture/source.svg)
+
+来源类型：论文范例。许可：CC0-1.0。
+[原文件](examples/architectures/var-architecture/source.svg) · [来源记录](examples/architectures/var-architecture/metadata.json)
+
+### [VGGT · 交替注意力主干与多任务输出头](examples/architectures/vggt-architecture/README.md)
+
+整图始终沿左到右阅读；颜色区分 token，虚线框标出重复主干，右侧分组展开输出任务。
+
+CVPR 2025 · Oral · 矢量 + 原有位图
+
+[<img src="examples/architectures/vggt-architecture/preview.png" width="760" alt="VGGT · 交替注意力主干与多任务输出头">](examples/architectures/vggt-architecture/source.svg)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/architectures/vggt-architecture/source.svg) · [来源记录](examples/architectures/vggt-architecture/metadata.json)
+
+### [ViT 原论文 · 图像分块、token 序列与编码器展开](examples/architectures/vit-original-architecture/README.md)
+
+输入图像、patch 序列、位置编码和分类 token 都有直观的对应关系；右侧独立展开重复的 Transformer 编码器。
+
+ICLR 2021 · Oral · 矢量 + 原有位图
+
+[<img src="examples/architectures/vit-original-architecture/preview.png" width="760" alt="ViT 原论文 · 图像分块、token 序列与编码器展开">](examples/architectures/vit-original-architecture/source.svg)
+
+来源类型：论文范例。许可：作者保留权利 / 参考收录。
+[原文件](examples/architectures/vit-original-architecture/source.svg) · [来源记录](examples/architectures/vit-original-architecture/metadata.json)
 
 ## 机制参考图
 

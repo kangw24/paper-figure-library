@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "lgm-architecture",
+  "title": "LGM · 非对称 U-Net 与跨视角注意力",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "lgm",
+    "ECCV",
+    "2024",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "把多视图输入、相机射线编码、U-Net、三维融合和监督闭环放在一张图里；顶部局部放大说明跨视角交互。",
+  "publication": {
+    "title": "LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation",
+    "venue": "ECCV",
+    "year": 2024,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://me.kiui.moe/lgm/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "网络内部结构与训练监督主图。",
+    "why_selected": "把多视图输入、相机射线编码、U-Net、三维融合和监督闭环放在一张图里；顶部局部放大说明跨视角交互。",
+    "what_to_borrow": [
+      "层级条块表达 U-Net 深度与分辨率变化",
+      "局部放大解释创新模块",
+      "用虚线闭环连接新视角监督"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://me.kiui.moe/lgm/",
+    "authors": [
+      "Tang, Jiaxiang",
+      "Chen, Zhaoxi",
+      "Chen, Xiaokang",
+      "Wang, Tengfei",
+      "Zeng, Gang",
+      "Liu, Ziwei"
+    ],
+    "urls": [
+      "https://me.kiui.moe/lgm/",
+      "https://arxiv.org/abs/2402.05054",
+      "https://arxiv.org/pdf/2402.05054",
+      "https://me.kiui.moe/lgm/"
+    ],
+    "arxiv_id": "2402.05054",
+    "full_pdf_url": "https://arxiv.org/pdf/2402.05054",
+    "full_pdf_sha256": "eb8580c5e25943b2a6422cb4d07ff46f93822d44e65e8c762faa57ed729740f6",
+    "full_pdf_bytes": 6308323,
+    "page_number": 6,
+    "figure_number": 3,
+    "crop_bbox_pt": [
+      32,
+      27,
+      381,
+      201
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 19,
+    "pdf_drawing_objects": 26,
+    "embedded_raster_images": 19,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 274,
+      "path": 108,
+      "clipPath": 23,
+      "image": 36,
+      "mask": 19,
+      "use": 238,
+      "rect": 2
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 520,
+      "sha256": "4a128e4737100b01a2bc3d3ce797e3ce9e3d40fe6fc3a4597bde64a7d9695e67"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 444607,
+      "sha256": "5ff92e72794da5eae061d2608e2f1350451b6ffd67944cfbbeb0512f08769cad"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 149415,
+      "sha256": "3e93e6e8ffa144a86aa655788093ba436282c3dbf63072d37f1f457a8ae0ba9f"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 534877,
+      "sha256": "a34fefb951ab728e3dde384f58f793c8a0d019e0912d55e175541384eb388765"
+    }
+  ]
+}

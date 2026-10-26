@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "id": "vit-original-architecture",
+  "title": "ViT 原论文 · 图像分块、token 序列与编码器展开",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "vit-paper",
+    "ICLR",
+    "2021",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "输入图像、patch 序列、位置编码和分类 token 都有直观的对应关系；右侧独立展开重复的 Transformer 编码器。",
+  "publication": {
+    "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+    "venue": "ICLR",
+    "year": 2021,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://iclr.cc/virtual/2021/oral/3458",
+    "evidence_type": "official-conference",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "原论文的模型架构图。作为论文范例保存，与库中的 D2L 教材示意图区分。",
+    "why_selected": "输入图像、patch 序列、位置编码和分类 token 都有直观的对应关系；右侧独立展开重复的 Transformer 编码器。",
+    "what_to_borrow": [
+      "图像块与序列位置一一对应",
+      "主流程与重复模块分开解释",
+      "颜色区分功能，形状保持统一"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://github.com/google-research/vision_transformer",
+    "authors": [
+      "Dosovitskiy, Alexey",
+      "Beyer, Lucas",
+      "Kolesnikov, Alexander",
+      "Weissenborn, Dirk",
+      "Zhai, Xiaohua",
+      "Unterthiner, Thomas",
+      "Dehghani, Mostafa",
+      "Minderer, Matthias",
+      "Heigold, Georg",
+      "Gelly, Sylvain",
+      "Uszkoreit, Jakob",
+      "Houlsby, Neil"
+    ],
+    "urls": [
+      "https://github.com/google-research/vision_transformer",
+      "https://arxiv.org/abs/2010.11929",
+      "https://arxiv.org/pdf/2010.11929",
+      "https://iclr.cc/virtual/2021/oral/3458"
+    ],
+    "arxiv_id": "2010.11929",
+    "full_pdf_url": "https://arxiv.org/pdf/2010.11929",
+    "full_pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+    "full_pdf_bytes": 3743814,
+    "page_number": 3,
+    "figure_number": 1,
+    "crop_bbox_pt": [
+      140,
+      77,
+      472,
+      253
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 43,
+    "pdf_drawing_objects": 332,
+    "embedded_raster_images": 2,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 6,
+      "path": 336,
+      "image": 2,
+      "g": 6,
+      "use": 2
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 650,
+      "sha256": "ac723d1b354d610781b433ecbb71d2cbcc43280ee075cc5484a2158439497c47"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 694977,
+      "sha256": "77ac84ce434f29953bba7dad1e7dd086559ca8f536521424a548e247b0926ed8"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 69934,
+      "sha256": "1d653f750d4cdb996b63bf3d7e30996ce880e8766b073603ef890e8d7fef7758"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 818116,
+      "sha256": "8d3a35629fdb38302e7c02d1161e109d451f755fa300b7da9efb8e302902229d"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "vggt-capabilities",
+  "title": "VGGT · 多视图输入与统一三维感知能力",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "teaser",
+    "vggt",
+    "CVPR",
+    "2025",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "用一个大型三维场景作为视觉中心，两侧安排输入与多种输出，让读者先理解方法能做什么。",
+  "publication": {
+    "title": "VGGT: Visual Geometry Grounded Transformer",
+    "venue": "CVPR",
+    "year": 2025,
+    "presentation": "oral",
+    "award": "Best Paper",
+    "evidence_url": "https://cvpr.thecvf.com/Conferences/2025/News/Awards_Press",
+    "evidence_type": "official-conference",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "能力展示型 teaser；不是网络内部结构图。",
+    "why_selected": "用一个大型三维场景作为视觉中心，两侧安排输入与多种输出，让读者先理解方法能做什么。",
+    "what_to_borrow": [
+      "中心主视觉与两侧辅助信息的层级",
+      "少量输入图像串联统一三维场景",
+      "能力展示型 teaser 的留白与占比"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://vgg-t.github.io/",
+    "authors": [
+      "Wang, Jianyuan",
+      "Chen, Minghao",
+      "Karaev, Nikita",
+      "Vedaldi, Andrea",
+      "Rupprecht, Christian",
+      "Novotny, David"
+    ],
+    "urls": [
+      "https://vgg-t.github.io/",
+      "https://arxiv.org/abs/2503.11651",
+      "https://jytime.github.io/data/VGGT_CVPR25.pdf",
+      "https://cvpr.thecvf.com/Conferences/2025/News/Awards_Press"
+    ],
+    "arxiv_id": "2503.11651",
+    "full_pdf_url": "https://jytime.github.io/data/VGGT_CVPR25.pdf",
+    "full_pdf_sha256": "ddf1949826bf5b606d87a8afdd69aa52279b28e6128ee44c629470a56e3330a3",
+    "full_pdf_bytes": 2983418,
+    "page_number": 1,
+    "figure_number": 1,
+    "crop_bbox_pt": [
+      57,
+      233,
+      558,
+      418
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 1,
+    "pdf_drawing_objects": 60,
+    "embedded_raster_images": 11,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 21,
+      "path": 73,
+      "clipPath": 14,
+      "image": 13,
+      "mask": 2,
+      "use": 15,
+      "rect": 2
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 503,
+      "sha256": "9ec9886eb780d134bf70d7268af5092eae1526147939537672c71549fb725d5a"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 659361,
+      "sha256": "db56805c5025af39022b803e32da091915c51b8079080b34e40912510fd81980"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 707247,
+      "sha256": "c47101966de2a1c294d2ce036a5ff38dbe7ecf927dd2eaafb98c8d9e093917bd"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 3096894,
+      "sha256": "b6c170d4078038668c6e16031b9c4d236212564748c2455cc9d3affff1581f4d"
+    }
+  ]
+}

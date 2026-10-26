@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "dreamgaussian-progress",
+  "title": "DreamGaussian · 生成能力与优化进程同图展示",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "teaser",
+    "dreamgaussian",
+    "ICLR",
+    "2024",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "上方多视角结果说明输出能力，下方时间序列展示从模糊到成形的优化过程，让效率与质量成为同一视觉叙事。",
+  "publication": {
+    "title": "DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation",
+    "venue": "ICLR",
+    "year": 2024,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://dreamgaussian.github.io/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "结果与过程结合的 teaser；不是单纯的生成样例拼图。",
+    "why_selected": "上方多视角结果说明输出能力，下方时间序列展示从模糊到成形的优化过程，让效率与质量成为同一视觉叙事。",
+    "what_to_borrow": [
+      "输入、多个视角、网格形成固定列结构",
+      "在能力展示下方补充时间轴",
+      "用过程变化表达核心优势"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://dreamgaussian.github.io/",
+    "authors": [
+      "Tang, Jiaxiang",
+      "Ren, Jiawei",
+      "Zhou, Hang",
+      "Liu, Ziwei",
+      "Zeng, Gang"
+    ],
+    "urls": [
+      "https://dreamgaussian.github.io/",
+      "https://arxiv.org/abs/2309.16653",
+      "https://arxiv.org/pdf/2309.16653",
+      "https://dreamgaussian.github.io/"
+    ],
+    "arxiv_id": "2309.16653",
+    "full_pdf_url": "https://arxiv.org/pdf/2309.16653",
+    "full_pdf_sha256": "a53b9219edcc31d683abe9b7b15e3dcc42eb2e6d669a16785e217d39b56d8a38",
+    "full_pdf_bytes": 8013225,
+    "page_number": 1,
+    "figure_number": 1,
+    "crop_bbox_pt": [
+      105,
+      201,
+      505,
+      481
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 11,
+    "pdf_drawing_objects": 7,
+    "embedded_raster_images": 48,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 320,
+      "path": 99,
+      "clipPath": 40,
+      "image": 96,
+      "mask": 48,
+      "use": 369,
+      "rect": 2
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 502,
+      "sha256": "242e37a771f93e504d24f5216dc62a22cc507a76a971b648af433718cf43a5fd"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 2729397,
+      "sha256": "6b5b30f69294c6ac1feb0f90b4573a6651b3fa8a50507ea68bcece37089455b0"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 443332,
+      "sha256": "1bfaeb14be1abd5ea1434d070682f640886dade8b8e9ae5cd34d9a858cb572e7"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 3402299,
+      "sha256": "d45673c1d033fb9ae4ed729ed64a57fa83adeca704648a55101a5cb42d512025"
+    }
+  ]
+}

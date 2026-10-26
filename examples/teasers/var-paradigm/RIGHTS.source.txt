@@ -1,0 +1,6 @@
+Paper: Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction
+Authors: Tian, Keyu, Jiang, Yi, Yuan, Zehuan, Peng, Bingyue, Wang, Liwei
+Paper URL: https://arxiv.org/abs/2404.02905
+Declared article license: https://creativecommons.org/publicdomain/zero/1.0/
+arXiv 原文声明 CC0 1.0；仍保留论文来源和修改记录，第三方素材以其原声明为准。
+Figure excerpt and conversion only; no redrawing.

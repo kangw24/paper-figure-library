@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "var-architecture",
+  "title": "VAR · 多尺度 VQVAE 与 VAR 两阶段训练",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "var",
+    "NeurIPS",
+    "2024",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "两块并列区域分别解释表示学习和自回归训练，尺度、token 序列和因果 mask 的对应关系可在图中追踪。",
+  "publication": {
+    "title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "presentation": "oral",
+    "award": "Best Paper",
+    "evidence_url": "https://neurips.cc/virtual/2024/oral/97960",
+    "evidence_type": "official-conference",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "训练框架主图；区别于 Figure 2 的范式概念图。",
+    "why_selected": "两块并列区域分别解释表示学习和自回归训练，尺度、token 序列和因果 mask 的对应关系可在图中追踪。",
+    "what_to_borrow": [
+      "两个训练阶段明确分区",
+      "三维特征平面表达多尺度编码",
+      "用小型 mask 插图解释约束"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://github.com/FoundationVision/VAR",
+    "authors": [
+      "Tian, Keyu",
+      "Jiang, Yi",
+      "Yuan, Zehuan",
+      "Peng, Bingyue",
+      "Wang, Liwei"
+    ],
+    "urls": [
+      "https://github.com/FoundationVision/VAR",
+      "https://arxiv.org/abs/2404.02905",
+      "https://arxiv.org/pdf/2404.02905",
+      "https://neurips.cc/virtual/2024/oral/97960"
+    ],
+    "arxiv_id": "2404.02905",
+    "full_pdf_url": "https://arxiv.org/pdf/2404.02905",
+    "full_pdf_sha256": "09bf82325072d173f99954cf971b5f748ddc8834dadd9afc135098410d6b5849",
+    "full_pdf_bytes": 6362492,
+    "page_number": 5,
+    "figure_number": 4,
+    "crop_bbox_pt": [
+      106,
+      151,
+      506,
+      277
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC0-1.0",
+    "note": "arXiv 原文声明 CC0 1.0；仍保留论文来源和修改记录，第三方素材以其原声明为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 28,
+    "pdf_drawing_objects": 418,
+    "embedded_raster_images": 10,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 520,
+      "path": 520,
+      "clipPath": 113,
+      "image": 20,
+      "mask": 10,
+      "use": 369,
+      "rect": 1
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 443,
+      "sha256": "b311fdcf118ea74d60310df49b70074b90f032961c4a4c0fbe75c0af1eb34d43"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 531514,
+      "sha256": "270b040492285fa649774b6d8ddcd5b49c6bd7e5c4e56c387e217eef24a7101c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 147591,
+      "sha256": "f0492a536635763ca4e21229a215c14728b57e077be9f85fc29cea0700ac7ff5"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 3393004,
+      "sha256": "d28dcfd50d2185c030d6035ad49752853f0258e143808f5729a8bbb9c4c54ca8"
+    }
+  ]
+}

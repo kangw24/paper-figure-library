@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "dpo-comparison",
+  "title": "DPO · RLHF 与直接偏好优化的流程简化",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "teaser",
+    "dpo",
+    "NeurIPS",
+    "2023",
+    "oral"
+  ],
+  "formats": [
+    "png",
+    "pdf"
+  ],
+  "primary_file": "source.png",
+  "preview": "preview.png",
+  "summary": "左右两块使用同一输入与终点，只改变中间步骤；简化过程本身就是论文的主要观点。",
+  "publication": {
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "venue": "NeurIPS",
+    "year": 2023,
+    "presentation": "oral",
+    "award": "Outstanding Paper",
+    "evidence_url": "https://media.neurips.cc/Conferences/NeurIPS2023/NeurIPS2023-Press_Release.pdf",
+    "evidence_type": "official-conference",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "方法差异 teaser。原论文此图已嵌入为整张位图，只作为构图参考收录。",
+    "why_selected": "左右两块使用同一输入与终点，只改变中间步骤；简化过程本身就是论文的主要观点。",
+    "what_to_borrow": [
+      "旧方法与新方法用等高容器并列",
+      "相同输入重复出现以控制比较条件",
+      "用步骤减少而非额外装饰突出贡献"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://github.com/eric-mitchell/direct-preference-optimization",
+    "authors": [
+      "Rafailov, Rafael",
+      "Sharma, Archit",
+      "Mitchell, Eric",
+      "Ermon, Stefano",
+      "Manning, Christopher D.",
+      "Finn, Chelsea"
+    ],
+    "urls": [
+      "https://github.com/eric-mitchell/direct-preference-optimization",
+      "https://arxiv.org/abs/2305.18290",
+      "https://arxiv.org/pdf/2305.18290",
+      "https://media.neurips.cc/Conferences/NeurIPS2023/NeurIPS2023-Press_Release.pdf"
+    ],
+    "arxiv_id": "2305.18290",
+    "full_pdf_url": "https://arxiv.org/pdf/2305.18290",
+    "full_pdf_sha256": "92cb3a2b71362acda98a789b03d88688fd33cf5fcf13f81d2b1de30ee7d3b67a",
+    "full_pdf_bytes": 1299212,
+    "page_number": 2,
+    "figure_number": 1,
+    "crop_bbox_pt": [
+      108,
+      71,
+      505,
+      153
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF raster image",
+    "level": "raster-reference",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pdf_text_spans": 0,
+    "pdf_drawing_objects": 0,
+    "embedded_raster_images": 1,
+    "svg_object_counts": {},
+    "notes": [
+      "作者 PDF 内该图为整张位图。源 PNG 原样提取，PDF 摘图也不会增加可编辑矢量节点。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "从原 PDF 提取原嵌入位图；不创建伪矢量 SVG。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 517,
+      "sha256": "9f5120e300fb3642ea6fb2c3f76f1c324ed14202f17cd4677b0c5b07a20fc6b1"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 216369,
+      "sha256": "64a4b617795cadfc76524c3eb6113183d752576935a4fe5aee6af269a5d55e0a"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 59759,
+      "sha256": "376201f16db3cecf4e0d072aa284ad4fa76257df4dfb14d00e1caaddb16f34c2"
+    },
+    {
+      "path": "source.png",
+      "bytes": 180990,
+      "sha256": "826943ade24681ecef15e59b965308a51fad2625e5659ef690fb19d7cbfea7aa"
+    }
+  ]
+}

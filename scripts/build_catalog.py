@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Rebuild source-backed catalogs and GitHub browsing pages."""
-import argparse,html,json
+import argparse,html,json,re
 from pathlib import Path
 from validate_library import ROOT,validate
 
@@ -10,26 +10,39 @@ LABELS={'modules':'网络与模块','data':'数据与文档','operations':'运�
 KINDS={'paper-example':'论文范例','tutorial-example':'教材或教程范例','template':'原生模板'}
 def write(root,path,text):
  p=root/path;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text.rstrip()+'\n',encoding='utf-8')
+def publication_line(x):
+ p=x.get('publication')
+ if not p:return ''
+ label=p['venue']+' '+str(p['year'])+' · '+('Oral' if p.get('presentation')=='oral' else '会议论文，未核实 Oral')
+ level=x.get('editability',{}).get('level')
+ label+=' · '+{'vector':'矢量结构','vector-and-raster':'矢量 + 原有位图','raster-reference':'整图位图，仅构图参考'}.get(level,'')
+ return label.rstrip(' ·')
 def build(root):
  examples=[]
  for category,folder,label in SECTIONS:
   lines=['# '+label,'','[回到总目录](../../CATALOG.md)','']
   for path in sorted((root/folder).glob('*/metadata.json')):
    x=json.loads(path.read_text());base=path.parent.relative_to(root).as_posix();x.update(path=base,metadata_path=base+'/metadata.json',readme_path=base+'/README.md',primary_path=base+'/'+x['primary_file'],preview_path=base+'/'+x['preview']);examples.append(x)
-   lines+=['## ['+x['title']+']('+x['id']+'/README.md)','','**'+KINDS[x['kind']]+'** · '+x['summary'],'','[![预览]('+x['id']+'/'+x['preview']+')]('+x['id']+'/'+x['primary_file']+')','']
+   lines+=['## ['+x['title']+']('+x['id']+'/README.md)','','**'+KINDS[x['kind']]+'** · '+x['summary']+('\n\n'+publication_line(x) if publication_line(x) else ''),'','[![预览]('+x['id']+'/'+x['preview']+')]('+x['id']+'/'+x['primary_file']+')','']
   write(root,Path(folder)/'README.md','\n'.join(lines))
  elements=json.loads((root/'elements/catalog.json').read_text())['items'];normalized=[]
  for x in elements:normalized.append({**x,'title':x['title_zh'],'category':'element','element_category':x['category'],'kind':'external-element','formats':['svg'],'primary_path':x['svg_path']})
  counts={c:sum(x['category']==c for x in examples+normalized) for c in ['teaser','architecture','element','mechanism','layout-template']}
+ readme=root/'README.md'
+ if readme.exists():
+  content=readme.read_text(encoding='utf-8')
+  label='**'+str(counts['element'])+' 个独立元素 · '+str(counts['teaser'])+' 个 teaser · '+str(counts['architecture'])+' 个 architecture · '+str(counts['mechanism'])+' 张机制参考图 · '+str(counts['layout-template'])+' 份原生版式模板**'
+  content=re.sub(r'\*\*\d+ 个独立元素 · \d+ 个 teaser · \d+ 个 architecture · \d+ 张机制参考图 · \d+ 份原生版式模板\*\*',lambda _:label,content)
+  write(root,Path('README.md'),content)
  write(root,Path('catalog.json'),json.dumps({'schema_version':2,'counts':counts,'items':examples+normalized},ensure_ascii=False,indent=2))
- lines=['# 素材总目录','','[仓库首页](README.md) · [元素分类目录](elements/README.md) · [JSON 来源索引](catalog.json)','','| 类别 | 数量 | 入口 |','|---|---:|---|']
+ lines=['# 素材总目录','','[仓库首页](README.md) · [顶会论文精选](collections/top-conference-figures.md) · [元素分类目录](elements/README.md) · [JSON 来源索引](catalog.json)','','| 类别 | 数量 | 入口 |','|---|---:|---|']
  for c,f,l in SECTIONS:lines.append('| '+l+' | '+str(counts[c])+' | [浏览]('+f+'/README.md) |')
  lines+=['| 最小可复用元素 | '+str(counts['element'])+' | [按内容与来源浏览](elements/README.md) |','','## 元素入口','','[![元素选览](elements/preview.png)](elements/README.md)','','完整机制图、版式母版与完整架构图分别计数；它们不计入最小图元数量。','']
  for c,f,l in SECTIONS:
   lines+=['## '+l,'']
   for x in examples:
    if x['category']!=c:continue
-   lines+=['### ['+x['title']+']('+x['readme_path']+')','',x['summary'],'','[<img src="'+x['preview_path']+'" width="760" alt="'+html.escape(x['title'],quote=True)+'">]('+x['primary_path']+')','','来源类型：'+KINDS[x['kind']]+'。许可：'+x['license']['name']+'。','[原文件]('+x['primary_path']+') · [来源记录]('+x['metadata_path']+')','']
+   lines+=['### ['+x['title']+']('+x['readme_path']+')','',x['summary']+('\n\n'+publication_line(x) if publication_line(x) else ''),'','[<img src="'+x['preview_path']+'" width="760" alt="'+html.escape(x['title'],quote=True)+'">]('+x['primary_path']+')','','来源类型：'+KINDS[x['kind']]+'。许可：'+x['license']['name']+'。','[原文件]('+x['primary_path']+') · [来源记录]('+x['metadata_path']+')','']
  write(root,Path('CATALOG.md'),'\n'.join(lines))
  lines=['# 元素库','','**'+str(len(elements))+' 个独立 SVG**，全部为外部下载或现有原图节点的提取。','','[离线搜索与筛选](gallery.html)（下载仓库后直接打开） · [完整总览 SVG](all-elements.svg) · [逐项来源、许可与署名](catalog.json)','','![元素选览](preview.png)','','## 按内容浏览','','| 分类 | 数量 | 入口 |','|---|---:|---|']
  for c,l in LABELS.items():

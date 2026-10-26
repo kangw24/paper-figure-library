@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "lgm-pipeline",
+  "title": "LGM · 从文本或图像到三维高斯和网格的流程",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "lgm",
+    "ECCV",
+    "2024",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "用少量大模块完成端到端说明，同时把各阶段耗时直接放在阶段下方，适合紧凑的方法总览。",
+  "publication": {
+    "title": "LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation",
+    "venue": "ECCV",
+    "year": 2024,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://me.kiui.moe/lgm/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "方法 pipeline；细粒度网络结构另见 LGM Figure 3。",
+    "why_selected": "用少量大模块完成端到端说明，同时把各阶段耗时直接放在阶段下方，适合紧凑的方法总览。",
+    "what_to_borrow": [
+      "文本与图像两种输入在起点汇合",
+      "用代表性结果解释中间表示",
+      "阶段耗时附在对应模块下方"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://me.kiui.moe/lgm/",
+    "authors": [
+      "Tang, Jiaxiang",
+      "Chen, Zhaoxi",
+      "Chen, Xiaokang",
+      "Wang, Tengfei",
+      "Zeng, Gang",
+      "Liu, Ziwei"
+    ],
+    "urls": [
+      "https://me.kiui.moe/lgm/",
+      "https://arxiv.org/abs/2402.05054",
+      "https://arxiv.org/pdf/2402.05054",
+      "https://me.kiui.moe/lgm/"
+    ],
+    "arxiv_id": "2402.05054",
+    "full_pdf_url": "https://arxiv.org/pdf/2402.05054",
+    "full_pdf_sha256": "eb8580c5e25943b2a6422cb4d07ff46f93822d44e65e8c762faa57ed729740f6",
+    "full_pdf_bytes": 6308323,
+    "page_number": 5,
+    "figure_number": 2,
+    "crop_bbox_pt": [
+      32,
+      27,
+      390,
+      112
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 12,
+    "pdf_drawing_objects": 19,
+    "embedded_raster_images": 7,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 195,
+      "path": 88,
+      "clipPath": 7,
+      "image": 13,
+      "mask": 7,
+      "use": 169,
+      "rect": 2
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 520,
+      "sha256": "4a128e4737100b01a2bc3d3ce797e3ce9e3d40fe6fc3a4597bde64a7d9695e67"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 237391,
+      "sha256": "dbc7c0dfa3722bc4efae8e79b66097f0c5bbf38481d5f6e6b6e28c1325808f13"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 69340,
+      "sha256": "f858a0df0b985b738dc87450ee974390ced7642dffa721cb1b625f2c5fa6b339"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 259598,
+      "sha256": "1009028af6eb01cfefdd8ad92bb7d3279921d797e8e41c1fedd3779ebeb49389"
+    }
+  ]
+}

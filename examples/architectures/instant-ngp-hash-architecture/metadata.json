@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "id": "instant-ngp-hash-architecture",
+  "title": "Instant NGP · 多分辨率哈希编码到 MLP",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "instant-ngp",
+    "SIGGRAPH",
+    "2022",
+    "conference-paper"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "通过五个编号步骤，将空间采样、哈希查表、插值、拼接与网络连接起来；不同尺度的颜色可贯穿整张图。",
+  "publication": {
+    "title": "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding",
+    "venue": "SIGGRAPH",
+    "year": 2022,
+    "presentation": "conference-paper",
+    "award": null,
+    "evidence_url": "https://nvlabs.github.io/instant-ngp/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "编码方法与网络输入的完整结构图；SIGGRAPH 精选，未标作已核实 Oral。",
+    "why_selected": "通过五个编号步骤，将空间采样、哈希查表、插值、拼接与网络连接起来；不同尺度的颜色可贯穿整张图。",
+    "what_to_borrow": [
+      "几何对象与数据结构直接建立对应关系",
+      "用持续一致的颜色追踪多个尺度",
+      "让步骤编号代替大段流程解释"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://nvlabs.github.io/instant-ngp/",
+    "authors": [
+      "Müller, Thomas",
+      "Evans, Alex",
+      "Schied, Christoph",
+      "Keller, Alexander"
+    ],
+    "urls": [
+      "https://nvlabs.github.io/instant-ngp/",
+      "https://arxiv.org/abs/2201.05989",
+      "https://nvlabs.github.io/instant-ngp/assets/mueller2022instant.pdf",
+      "https://nvlabs.github.io/instant-ngp/"
+    ],
+    "arxiv_id": "2201.05989",
+    "full_pdf_url": "https://nvlabs.github.io/instant-ngp/assets/mueller2022instant.pdf",
+    "full_pdf_sha256": "b3631fa8f707fe81d7dd4dfb6f8d35cf1bbd13ffd7fb1f457495c837ab00d93a",
+    "full_pdf_bytes": 17686120,
+    "page_number": 4,
+    "figure_number": 3,
+    "crop_bbox_pt": [
+      45,
+      69,
+      562,
+      257
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 73,
+    "pdf_drawing_objects": 214,
+    "embedded_raster_images": 1,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 170,
+      "path": 304,
+      "clipPath": 24,
+      "image": 2,
+      "mask": 1,
+      "use": 153,
+      "rect": 1
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 498,
+      "sha256": "c7924997a73ef8fadc40e4845c1724496cc4977822ea30db3a7969d016f413e2"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 434434,
+      "sha256": "8d3e22efdd69019fa618d9aa299f21f0973d31c4f275520e05d99083b8bae881"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 102672,
+      "sha256": "b3e5ab60b08f04d35715768c89c8bfce0b04766220c8e3f4fd9139ba92eb8b57"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 302245,
+      "sha256": "ebc04c2afb35c8bfeff485c1b7ca0df8a3d8ca242a882ba926d027cd94ed1971"
+    }
+  ]
+}

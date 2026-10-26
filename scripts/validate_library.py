@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import math
 import re
 from pathlib import Path
 from urllib.parse import urlparse
@@ -106,6 +107,33 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
                     error(path, "文件大小与 metadata.files 不符")
                 if record.get("sha256") and hashlib.sha256(path.read_bytes()).hexdigest() != record["sha256"]:
                     error(path, "SHA256 与 metadata.files 不符")
+            if item.get("origin") == "extracted-from-author-pdf":
+                publication = item.get("publication", {})
+                if not publication.get("venue") or not publication.get("year"):
+                    error(metadata, "论文摘图必须记录会议与年份")
+                if publication.get("presentation") == "oral" and not publication.get("evidence_url"):
+                    error(metadata, "Oral 必须有官网或作者明确声明的依据链接")
+                if publication.get("evidence_url") not in source.get("urls", []):
+                    error(metadata, "会议身份依据应列入 source.urls")
+                for name in ("page_number", "figure_number"):
+                    if not isinstance(source.get(name), int) or source[name] < 1:
+                        error(metadata, name + " 必须为正整数")
+                box = source.get("crop_bbox_pt")
+                if not isinstance(box, list) or len(box) != 4 or not all(isinstance(v, (int, float)) and math.isfinite(v) for v in box):
+                    error(metadata, "论文摘图必须有四个有限坐标")
+                elif box[2] <= box[0] or box[3] <= box[1]:
+                    error(metadata, "裁剪坐标范围无效")
+                if not re.fullmatch(r"[0-9a-f]{64}", str(source.get("full_pdf_sha256", ""))):
+                    error(metadata, "必须记录原论文 PDF 的 SHA256")
+                local_file(entry, "figure.pdf", "原矢量或位图 PDF 摘图")
+                editability = item.get("editability", {})
+                if editability.get("level") == "raster-reference":
+                    if "svg" in item.get("formats", []) or editability.get("vector_shapes"):
+                        error(metadata, "整图位图不能标为可编辑 SVG")
+                elif not editability.get("pdf_drawing_objects"):
+                    error(metadata, "矢量摘图应有原 PDF 图形对象")
+                if not item.get("curation", {}).get("why_selected"):
+                    error(metadata, "精选原图必须说明选择理由")
             if item.get("origin") == "downloaded":
                 primary = entry / item['primary_file']
                 if primary.is_file() and hashlib.sha256(primary.read_bytes()).hexdigest() != source.get('original_sha256'):

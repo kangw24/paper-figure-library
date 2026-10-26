@@ -1,0 +1,6 @@
+Paper: Direct Preference Optimization: Your Language Model is Secretly a Reward Model
+Authors: Rafailov, Rafael, Sharma, Archit, Mitchell, Eric, Ermon, Stefano, Manning, Christopher D., Finn, Chelsea
+Paper URL: https://arxiv.org/abs/2305.18290
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。
+Figure excerpt and conversion only; no redrawing.

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "vggt-architecture",
+  "title": "VGGT · 交替注意力主干与多任务输出头",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "vggt",
+    "CVPR",
+    "2025",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "整图始终沿左到右阅读；颜色区分 token，虚线框标出重复主干，右侧分组展开输出任务。",
+  "publication": {
+    "title": "VGGT: Visual Geometry Grounded Transformer",
+    "venue": "CVPR",
+    "year": 2025,
+    "presentation": "oral",
+    "award": "Best Paper",
+    "evidence_url": "https://cvpr.thecvf.com/Conferences/2025/News/Awards_Press",
+    "evidence_type": "official-conference",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "模型整体架构，覆盖 token 化、主干和输出头。",
+    "why_selected": "整图始终沿左到右阅读；颜色区分 token，虚线框标出重复主干，右侧分组展开输出任务。",
+    "what_to_borrow": [
+      "同色 token 在不同阶段保持身份",
+      "重复层使用统一虚线容器",
+      "多任务输出头按任务整齐分组"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://vgg-t.github.io/",
+    "authors": [
+      "Wang, Jianyuan",
+      "Chen, Minghao",
+      "Karaev, Nikita",
+      "Vedaldi, Andrea",
+      "Rupprecht, Christian",
+      "Novotny, David"
+    ],
+    "urls": [
+      "https://vgg-t.github.io/",
+      "https://arxiv.org/abs/2503.11651",
+      "https://jytime.github.io/data/VGGT_CVPR25.pdf",
+      "https://cvpr.thecvf.com/Conferences/2025/News/Awards_Press"
+    ],
+    "arxiv_id": "2503.11651",
+    "full_pdf_url": "https://jytime.github.io/data/VGGT_CVPR25.pdf",
+    "full_pdf_sha256": "ddf1949826bf5b606d87a8afdd69aa52279b28e6128ee44c629470a56e3330a3",
+    "full_pdf_bytes": 2983418,
+    "page_number": 3,
+    "figure_number": 2,
+    "crop_bbox_pt": [
+      56,
+      69,
+      561,
+      249
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 17,
+    "pdf_drawing_objects": 156,
+    "embedded_raster_images": 10,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 186,
+      "path": 235,
+      "clipPath": 24,
+      "image": 12,
+      "mask": 2,
+      "use": 130,
+      "rect": 2
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 503,
+      "sha256": "9ec9886eb780d134bf70d7268af5092eae1526147939537672c71549fb725d5a"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 153774,
+      "sha256": "061d0372f3cd343ca197b443b7862a136e90d7a2eb6cccde0a8c0386b9cece04"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 132846,
+      "sha256": "3a07db0d2a73ef88439253ffd4ae5cd7f26fe40e5c1c913286d887380eb1913d"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 260204,
+      "sha256": "e433b95519274fa659dfd08c81f08251329afbc2a3ec4944091823d3244d5b9d"
+    }
+  ]
+}

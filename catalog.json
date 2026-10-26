@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "counts": {
-    "teaser": 7,
-    "architecture": 23,
+    "teaser": 13,
+    "architecture": 35,
     "element": 317,
     "mechanism": 17,
     "layout-template": 11
@@ -102,6 +102,150 @@
     },
     {
       "schema_version": 1,
+      "id": "cut3r-capabilities",
+      "title": "CUT3R · 静态、动态与稀疏照片三类场景",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "teaser",
+        "cut3r",
+        "CVPR",
+        "2025",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "三列分别说明输入场景和重建能力，借助同一版式把连续三维感知的应用范围讲清楚。",
+      "publication": {
+        "title": "Continuous 3D Perception Model with Persistent State",
+        "venue": "CVPR",
+        "year": 2025,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://github.com/CUT3R/CUT3R/blob/main/README.md",
+        "evidence_type": "author-project",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "多场景能力 teaser；与方法内部的状态更新架构分别保存。",
+        "why_selected": "三列分别说明输入场景和重建能力，借助同一版式把连续三维感知的应用范围讲清楚。",
+        "what_to_borrow": [
+          "三类场景使用统一输入与输出关系",
+          "把动态与静态能力并列呈现",
+          "用真实场景代替大段动机文字"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://cut3r.github.io/",
+        "authors": [
+          "Wang, Qianqian",
+          "Zhang, Yifei",
+          "Holynski, Aleksander",
+          "Efros, Alexei A.",
+          "Kanazawa, Angjoo"
+        ],
+        "urls": [
+          "https://cut3r.github.io/",
+          "https://arxiv.org/abs/2501.12387",
+          "https://arxiv.org/pdf/2501.12387",
+          "https://github.com/CUT3R/CUT3R/blob/main/README.md"
+        ],
+        "arxiv_id": "2501.12387",
+        "full_pdf_url": "https://arxiv.org/pdf/2501.12387",
+        "full_pdf_sha256": "5467dd822b4b45c0829115bbf361a5ca8c3319a930f4e0d861b6e9138d0d9db4",
+        "full_pdf_bytes": 10842625,
+        "page_number": 1,
+        "figure_number": 1,
+        "crop_bbox_pt": [
+          43,
+          193,
+          566,
+          356
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 3,
+        "pdf_drawing_objects": 187,
+        "embedded_raster_images": 14,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 88,
+          "path": 219,
+          "clipPath": 15,
+          "image": 28,
+          "mask": 14,
+          "use": 77,
+          "rect": 1
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 473,
+          "sha256": "76da35ffdb1a8392e2ee9540c65e94767ff0fffc4ce96ada9b43d11e7734d062"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 9997936,
+          "sha256": "12c4c383f9c61651b8d6b42174dba53429e5ba0b546f5c6a845a97f79e6422aa"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 544300,
+          "sha256": "6671de2c08e51ed88964c1c0029243d41de78dfbdc4df4ece7da08dc4179f414"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 11942995,
+          "sha256": "6775b8a74403e0dddd02bdcb4115136c4ab992809c837cb00a702d766af9730c"
+        }
+      ],
+      "path": "examples/teasers/cut3r-capabilities",
+      "metadata_path": "examples/teasers/cut3r-capabilities/metadata.json",
+      "readme_path": "examples/teasers/cut3r-capabilities/README.md",
+      "primary_path": "examples/teasers/cut3r-capabilities/source.svg",
+      "preview_path": "examples/teasers/cut3r-capabilities/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "decollage",
       "title": "DECOLLAGE：局部风格控制与三维细化",
       "category": "teaser",
@@ -181,6 +325,444 @@
       "readme_path": "examples/teasers/decollage/README.md",
       "primary_path": "examples/teasers/decollage/source.svg",
       "preview_path": "examples/teasers/decollage/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "dpo-comparison",
+      "title": "DPO · RLHF 与直接偏好优化的流程简化",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "teaser",
+        "dpo",
+        "NeurIPS",
+        "2023",
+        "oral"
+      ],
+      "formats": [
+        "png",
+        "pdf"
+      ],
+      "primary_file": "source.png",
+      "preview": "preview.png",
+      "summary": "左右两块使用同一输入与终点，只改变中间步骤；简化过程本身就是论文的主要观点。",
+      "publication": {
+        "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "venue": "NeurIPS",
+        "year": 2023,
+        "presentation": "oral",
+        "award": "Outstanding Paper",
+        "evidence_url": "https://media.neurips.cc/Conferences/NeurIPS2023/NeurIPS2023-Press_Release.pdf",
+        "evidence_type": "official-conference",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "方法差异 teaser。原论文此图已嵌入为整张位图，只作为构图参考收录。",
+        "why_selected": "左右两块使用同一输入与终点，只改变中间步骤；简化过程本身就是论文的主要观点。",
+        "what_to_borrow": [
+          "旧方法与新方法用等高容器并列",
+          "相同输入重复出现以控制比较条件",
+          "用步骤减少而非额外装饰突出贡献"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://github.com/eric-mitchell/direct-preference-optimization",
+        "authors": [
+          "Rafailov, Rafael",
+          "Sharma, Archit",
+          "Mitchell, Eric",
+          "Ermon, Stefano",
+          "Manning, Christopher D.",
+          "Finn, Chelsea"
+        ],
+        "urls": [
+          "https://github.com/eric-mitchell/direct-preference-optimization",
+          "https://arxiv.org/abs/2305.18290",
+          "https://arxiv.org/pdf/2305.18290",
+          "https://media.neurips.cc/Conferences/NeurIPS2023/NeurIPS2023-Press_Release.pdf"
+        ],
+        "arxiv_id": "2305.18290",
+        "full_pdf_url": "https://arxiv.org/pdf/2305.18290",
+        "full_pdf_sha256": "92cb3a2b71362acda98a789b03d88688fd33cf5fcf13f81d2b1de30ee7d3b67a",
+        "full_pdf_bytes": 1299212,
+        "page_number": 2,
+        "figure_number": 1,
+        "crop_bbox_pt": [
+          108,
+          71,
+          505,
+          153
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF raster image",
+        "level": "raster-reference",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pdf_text_spans": 0,
+        "pdf_drawing_objects": 0,
+        "embedded_raster_images": 1,
+        "svg_object_counts": {},
+        "notes": [
+          "作者 PDF 内该图为整张位图。源 PNG 原样提取，PDF 摘图也不会增加可编辑矢量节点。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "从原 PDF 提取原嵌入位图；不创建伪矢量 SVG。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 517,
+          "sha256": "9f5120e300fb3642ea6fb2c3f76f1c324ed14202f17cd4677b0c5b07a20fc6b1"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 216369,
+          "sha256": "64a4b617795cadfc76524c3eb6113183d752576935a4fe5aee6af269a5d55e0a"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 59759,
+          "sha256": "376201f16db3cecf4e0d072aa284ad4fa76257df4dfb14d00e1caaddb16f34c2"
+        },
+        {
+          "path": "source.png",
+          "bytes": 180990,
+          "sha256": "826943ade24681ecef15e59b965308a51fad2625e5659ef690fb19d7cbfea7aa"
+        }
+      ],
+      "path": "examples/teasers/dpo-comparison",
+      "metadata_path": "examples/teasers/dpo-comparison/metadata.json",
+      "readme_path": "examples/teasers/dpo-comparison/README.md",
+      "primary_path": "examples/teasers/dpo-comparison/source.png",
+      "preview_path": "examples/teasers/dpo-comparison/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "dreamgaussian-progress",
+      "title": "DreamGaussian · 生成能力与优化进程同图展示",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "teaser",
+        "dreamgaussian",
+        "ICLR",
+        "2024",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "上方多视角结果说明输出能力，下方时间序列展示从模糊到成形的优化过程，让效率与质量成为同一视觉叙事。",
+      "publication": {
+        "title": "DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation",
+        "venue": "ICLR",
+        "year": 2024,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://dreamgaussian.github.io/",
+        "evidence_type": "author-project",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "结果与过程结合的 teaser；不是单纯的生成样例拼图。",
+        "why_selected": "上方多视角结果说明输出能力，下方时间序列展示从模糊到成形的优化过程，让效率与质量成为同一视觉叙事。",
+        "what_to_borrow": [
+          "输入、多个视角、网格形成固定列结构",
+          "在能力展示下方补充时间轴",
+          "用过程变化表达核心优势"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://dreamgaussian.github.io/",
+        "authors": [
+          "Tang, Jiaxiang",
+          "Ren, Jiawei",
+          "Zhou, Hang",
+          "Liu, Ziwei",
+          "Zeng, Gang"
+        ],
+        "urls": [
+          "https://dreamgaussian.github.io/",
+          "https://arxiv.org/abs/2309.16653",
+          "https://arxiv.org/pdf/2309.16653",
+          "https://dreamgaussian.github.io/"
+        ],
+        "arxiv_id": "2309.16653",
+        "full_pdf_url": "https://arxiv.org/pdf/2309.16653",
+        "full_pdf_sha256": "a53b9219edcc31d683abe9b7b15e3dcc42eb2e6d669a16785e217d39b56d8a38",
+        "full_pdf_bytes": 8013225,
+        "page_number": 1,
+        "figure_number": 1,
+        "crop_bbox_pt": [
+          105,
+          201,
+          505,
+          481
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 11,
+        "pdf_drawing_objects": 7,
+        "embedded_raster_images": 48,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 320,
+          "path": 99,
+          "clipPath": 40,
+          "image": 96,
+          "mask": 48,
+          "use": 369,
+          "rect": 2
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 502,
+          "sha256": "242e37a771f93e504d24f5216dc62a22cc507a76a971b648af433718cf43a5fd"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 2729397,
+          "sha256": "6b5b30f69294c6ac1feb0f90b4573a6651b3fa8a50507ea68bcece37089455b0"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 443332,
+          "sha256": "1bfaeb14be1abd5ea1434d070682f640886dade8b8e9ae5cd34d9a858cb572e7"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 3402299,
+          "sha256": "d45673c1d033fb9ae4ed729ed64a57fa83adeca704648a55101a5cb42d512025"
+        }
+      ],
+      "path": "examples/teasers/dreamgaussian-progress",
+      "metadata_path": "examples/teasers/dreamgaussian-progress/metadata.json",
+      "readme_path": "examples/teasers/dreamgaussian-progress/README.md",
+      "primary_path": "examples/teasers/dreamgaussian-progress/source.svg",
+      "preview_path": "examples/teasers/dreamgaussian-progress/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "genie-interaction",
+      "title": "Genie · 不同提示生成可交互世界",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "teaser",
+        "genie",
+        "ICML",
+        "2024",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "左侧三种输入沿统一箭头进入模型，右侧按动作展示连续变化；一张图同时回答输入是什么、输出是什么、为什么可交互。",
+      "publication": {
+        "title": "Genie: Generative Interactive Environments",
+        "venue": "ICML",
+        "year": 2024,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://icml.cc/virtual/2024/oral/35508",
+        "evidence_type": "official-conference",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "任务概念与交互能力 teaser。",
+        "why_selected": "左侧三种输入沿统一箭头进入模型，右侧按动作展示连续变化；一张图同时回答输入是什么、输出是什么、为什么可交互。",
+        "what_to_borrow": [
+          "输入类型用不同颜色贯穿对应输出行",
+          "操作标记紧邻连续帧",
+          "大箭头承载模型身份并组织阅读方向"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://sites.google.com/view/genie2024/home",
+        "authors": [
+          "Bruce, Jake",
+          "Dennis, Michael",
+          "Edwards, Ashley",
+          "Parker-Holder, Jack",
+          "Shi, Yuge",
+          "Hughes, Edward",
+          "Lai, Matthew",
+          "Mavalankar, Aditi",
+          "Steigerwald, Richie",
+          "Apps, Chris",
+          "Aytar, Yusuf",
+          "Bechtle, Sarah",
+          "Behbahani, Feryal",
+          "Chan, Stephanie",
+          "Heess, Nicolas",
+          "Gonzalez, Lucy",
+          "Osindero, Simon",
+          "Ozair, Sherjil",
+          "Reed, Scott",
+          "Zhang, Jingwei",
+          "Zolna, Konrad",
+          "Clune, Jeff",
+          "de Freitas, Nando",
+          "Singh, Satinder",
+          "Rocktäschel, Tim"
+        ],
+        "urls": [
+          "https://sites.google.com/view/genie2024/home",
+          "https://arxiv.org/abs/2402.15391",
+          "https://arxiv.org/pdf/2402.15391",
+          "https://icml.cc/virtual/2024/oral/35508"
+        ],
+        "arxiv_id": "2402.15391",
+        "full_pdf_url": "https://arxiv.org/pdf/2402.15391",
+        "full_pdf_sha256": "94c63a5ced89355326706c88236591c2972ced12f3dece4f8982f020110c81f3",
+        "full_pdf_bytes": 42346194,
+        "page_number": 1,
+        "figure_number": 1,
+        "crop_bbox_pt": [
+          62,
+          213,
+          534,
+          410
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 15,
+        "pdf_drawing_objects": 52,
+        "embedded_raster_images": 14,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 67,
+          "path": 71,
+          "clipPath": 21,
+          "image": 15,
+          "mask": 1,
+          "use": 98,
+          "rect": 2
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 23
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 23 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 806,
+          "sha256": "516bbd81d1fe027179d0daaaf008b691a19c9fd681d188c47f30b9276cfe6ca1"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 2917032,
+          "sha256": "f0c5d7fbd3ac7570dd5e8318a77087b8133b2e9e8b01bdba420744ef4611650d"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 227582,
+          "sha256": "9ff753ddebba1f6ad06d5b8157a35148e90b30522077835c2d882a0e0b966d60"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 3289051,
+          "sha256": "e4c4d6291a1869c0e0287deab62a91089ff6672a087f1c4e67e4924f49fdedf6"
+        }
+      ],
+      "path": "examples/teasers/genie-interaction",
+      "metadata_path": "examples/teasers/genie-interaction/metadata.json",
+      "readme_path": "examples/teasers/genie-interaction/README.md",
+      "primary_path": "examples/teasers/genie-interaction/source.svg",
+      "preview_path": "examples/teasers/genie-interaction/preview.png"
     },
     {
       "schema_version": 1,
@@ -635,6 +1217,295 @@
     },
     {
       "schema_version": 1,
+      "id": "var-paradigm",
+      "title": "VAR · 从逐 token 到逐尺度生成的范式对照",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "teaser",
+        "var",
+        "NeurIPS",
+        "2024",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "同一张图比较语言自回归、图像逐 token 生成和逐尺度生成，核心差异直接表现为生成顺序与尺度变化。",
+      "publication": {
+        "title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
+        "venue": "NeurIPS",
+        "year": 2024,
+        "presentation": "oral",
+        "award": "Best Paper",
+        "evidence_url": "https://neurips.cc/virtual/2024/oral/97960",
+        "evidence_type": "official-conference",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "概念与范式对照 teaser，原论文编号为 Figure 2。",
+        "why_selected": "同一张图比较语言自回归、图像逐 token 生成和逐尺度生成，核心差异直接表现为生成顺序与尺度变化。",
+        "what_to_borrow": [
+          "保持对照项的视觉语法一致",
+          "用空间展开表达粗到细过程",
+          "把新范式分配更大的视觉面积"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://github.com/FoundationVision/VAR",
+        "authors": [
+          "Tian, Keyu",
+          "Jiang, Yi",
+          "Yuan, Zehuan",
+          "Peng, Bingyue",
+          "Wang, Liwei"
+        ],
+        "urls": [
+          "https://github.com/FoundationVision/VAR",
+          "https://arxiv.org/abs/2404.02905",
+          "https://arxiv.org/pdf/2404.02905",
+          "https://neurips.cc/virtual/2024/oral/97960"
+        ],
+        "arxiv_id": "2404.02905",
+        "full_pdf_url": "https://arxiv.org/pdf/2404.02905",
+        "full_pdf_sha256": "09bf82325072d173f99954cf971b5f748ddc8834dadd9afc135098410d6b5849",
+        "full_pdf_bytes": 6362492,
+        "page_number": 2,
+        "figure_number": 2,
+        "crop_bbox_pt": [
+          106,
+          69,
+          506,
+          215
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC0-1.0",
+        "note": "arXiv 原文声明 CC0 1.0；仍保留论文来源和修改记录，第三方素材以其原声明为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 2,
+        "pdf_drawing_objects": 12,
+        "embedded_raster_images": 45,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 199,
+          "path": 81,
+          "clipPath": 45,
+          "image": 90,
+          "mask": 45,
+          "use": 137,
+          "rect": 3
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 443,
+          "sha256": "b311fdcf118ea74d60310df49b70074b90f032961c4a4c0fbe75c0af1eb34d43"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 401514,
+          "sha256": "26b1bd00cdd661e4295c7f79faa5a5e813f4065615d46f4f71e20e85855a0554"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 209966,
+          "sha256": "3f067f97621019e56630586b8e3cd37e38f91f77020d526937933f127e38af0d"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1155329,
+          "sha256": "4c2ae91d94e930987d0826f35b1601fb1435164881d4ade866a51a2493102ab1"
+        }
+      ],
+      "path": "examples/teasers/var-paradigm",
+      "metadata_path": "examples/teasers/var-paradigm/metadata.json",
+      "readme_path": "examples/teasers/var-paradigm/README.md",
+      "primary_path": "examples/teasers/var-paradigm/source.svg",
+      "preview_path": "examples/teasers/var-paradigm/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "vggt-capabilities",
+      "title": "VGGT · 多视图输入与统一三维感知能力",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "teaser",
+        "vggt",
+        "CVPR",
+        "2025",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "用一个大型三维场景作为视觉中心，两侧安排输入与多种输出，让读者先理解方法能做什么。",
+      "publication": {
+        "title": "VGGT: Visual Geometry Grounded Transformer",
+        "venue": "CVPR",
+        "year": 2025,
+        "presentation": "oral",
+        "award": "Best Paper",
+        "evidence_url": "https://cvpr.thecvf.com/Conferences/2025/News/Awards_Press",
+        "evidence_type": "official-conference",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "能力展示型 teaser；不是网络内部结构图。",
+        "why_selected": "用一个大型三维场景作为视觉中心，两侧安排输入与多种输出，让读者先理解方法能做什么。",
+        "what_to_borrow": [
+          "中心主视觉与两侧辅助信息的层级",
+          "少量输入图像串联统一三维场景",
+          "能力展示型 teaser 的留白与占比"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://vgg-t.github.io/",
+        "authors": [
+          "Wang, Jianyuan",
+          "Chen, Minghao",
+          "Karaev, Nikita",
+          "Vedaldi, Andrea",
+          "Rupprecht, Christian",
+          "Novotny, David"
+        ],
+        "urls": [
+          "https://vgg-t.github.io/",
+          "https://arxiv.org/abs/2503.11651",
+          "https://jytime.github.io/data/VGGT_CVPR25.pdf",
+          "https://cvpr.thecvf.com/Conferences/2025/News/Awards_Press"
+        ],
+        "arxiv_id": "2503.11651",
+        "full_pdf_url": "https://jytime.github.io/data/VGGT_CVPR25.pdf",
+        "full_pdf_sha256": "ddf1949826bf5b606d87a8afdd69aa52279b28e6128ee44c629470a56e3330a3",
+        "full_pdf_bytes": 2983418,
+        "page_number": 1,
+        "figure_number": 1,
+        "crop_bbox_pt": [
+          57,
+          233,
+          558,
+          418
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 1,
+        "pdf_drawing_objects": 60,
+        "embedded_raster_images": 11,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 21,
+          "path": 73,
+          "clipPath": 14,
+          "image": 13,
+          "mask": 2,
+          "use": 15,
+          "rect": 2
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 503,
+          "sha256": "9ec9886eb780d134bf70d7268af5092eae1526147939537672c71549fb725d5a"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 659361,
+          "sha256": "db56805c5025af39022b803e32da091915c51b8079080b34e40912510fd81980"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 707247,
+          "sha256": "c47101966de2a1c294d2ce036a5ff38dbe7ecf927dd2eaafb98c8d9e093917bd"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 3096894,
+          "sha256": "b6c170d4078038668c6e16031b9c4d236212564748c2455cc9d3affff1581f4d"
+        }
+      ],
+      "path": "examples/teasers/vggt-capabilities",
+      "metadata_path": "examples/teasers/vggt-capabilities/metadata.json",
+      "readme_path": "examples/teasers/vggt-capabilities/README.md",
+      "primary_path": "examples/teasers/vggt-capabilities/source.svg",
+      "preview_path": "examples/teasers/vggt-capabilities/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "clip",
       "title": "CLIP Figure 1：训练到零样本预测",
       "category": "architecture",
@@ -717,6 +1588,151 @@
       "readme_path": "examples/architectures/clip/README.md",
       "primary_path": "examples/architectures/clip/source.svg",
       "preview_path": "examples/architectures/clip/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "cut3r-architecture",
+      "title": "CUT3R · 持久状态的更新、读取与未见视角推断",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "cut3r",
+        "CVPR",
+        "2025",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "左侧按时间展开状态更新，右侧用独立色块解释状态读取；重建结果紧邻对应计算步骤。",
+      "publication": {
+        "title": "Continuous 3D Perception Model with Persistent State",
+        "venue": "CVPR",
+        "year": 2025,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://github.com/CUT3R/CUT3R/blob/main/README.md",
+        "evidence_type": "author-project",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "完整方法框架；重点是状态信息流和两个使用分支。",
+        "why_selected": "左侧按时间展开状态更新，右侧用独立色块解释状态读取；重建结果紧邻对应计算步骤。",
+        "what_to_borrow": [
+          "递归状态按时间纵向展开",
+          "更新与只读分支分区表达",
+          "中间输出与场景结果保持对齐"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://cut3r.github.io/",
+        "authors": [
+          "Wang, Qianqian",
+          "Zhang, Yifei",
+          "Holynski, Aleksander",
+          "Efros, Alexei A.",
+          "Kanazawa, Angjoo"
+        ],
+        "urls": [
+          "https://cut3r.github.io/",
+          "https://arxiv.org/abs/2501.12387",
+          "https://arxiv.org/pdf/2501.12387",
+          "https://github.com/CUT3R/CUT3R/blob/main/README.md"
+        ],
+        "arxiv_id": "2501.12387",
+        "full_pdf_url": "https://arxiv.org/pdf/2501.12387",
+        "full_pdf_sha256": "5467dd822b4b45c0829115bbf361a5ca8c3319a930f4e0d861b6e9138d0d9db4",
+        "full_pdf_bytes": 10842625,
+        "page_number": 4,
+        "figure_number": 3,
+        "crop_bbox_pt": [
+          57,
+          68,
+          558,
+          264
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 33,
+        "pdf_drawing_objects": 115,
+        "embedded_raster_images": 50,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 357,
+          "path": 407,
+          "clipPath": 73,
+          "image": 28,
+          "mask": 7,
+          "use": 316,
+          "linearGradient": 24,
+          "stop": 2078
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 55
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 55 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 473,
+          "sha256": "76da35ffdb1a8392e2ee9540c65e94767ff0fffc4ce96ada9b43d11e7734d062"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 5181225,
+          "sha256": "f1a11afe825a4e2dfa98e8a8362c9378bdf91649bee62a98172e58f86dbc8e99"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 330050,
+          "sha256": "fbba3b0b3384dd6828ce47221cbf0f1649d2a4ae16cad71a2f53b43e4aad4884"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 6871635,
+          "sha256": "b61c6807a47e1e5ad00c2ee5bf553e7784770c63b1816dc8e756d3ebd2334556"
+        }
+      ],
+      "path": "examples/architectures/cut3r-architecture",
+      "metadata_path": "examples/architectures/cut3r-architecture/metadata.json",
+      "readme_path": "examples/architectures/cut3r-architecture/README.md",
+      "primary_path": "examples/architectures/cut3r-architecture/source.svg",
+      "preview_path": "examples/architectures/cut3r-architecture/preview.png"
     },
     {
       "schema_version": 1,
@@ -2128,6 +3144,717 @@
     },
     {
       "schema_version": 1,
+      "id": "dit-architecture",
+      "title": "DiT · 整体主干与三种条件注入模块",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "dit",
+        "ICCV",
+        "2023",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "左侧给完整主干，右侧展开 block 变体；推荐模块使用更高视觉对比，完整展示论文的结构选择。",
+      "publication": {
+        "title": "Scalable Diffusion Models with Transformers",
+        "venue": "ICCV",
+        "year": 2023,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://www.wpeebles.com/DiT",
+        "evidence_type": "author-project",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "网络架构与 block 设计对照。原图右侧两个变体的浅色是作者设计。",
+        "why_selected": "左侧给完整主干，右侧展开 block 变体；推荐模块使用更高视觉对比，完整展示论文的结构选择。",
+        "what_to_borrow": [
+          "整体网络与局部模块放在同一水平基线",
+          "放大连线连接主干和 block",
+          "作者用淡化处理弱化对照变体"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://www.wpeebles.com/DiT",
+        "authors": [
+          "Peebles, William",
+          "Xie, Saining"
+        ],
+        "urls": [
+          "https://www.wpeebles.com/DiT",
+          "https://arxiv.org/abs/2212.09748",
+          "https://arxiv.org/pdf/2212.09748",
+          "https://www.wpeebles.com/DiT"
+        ],
+        "arxiv_id": "2212.09748",
+        "full_pdf_url": "https://arxiv.org/pdf/2212.09748",
+        "full_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+        "full_pdf_bytes": 43824062,
+        "page_number": 3,
+        "figure_number": 3,
+        "crop_bbox_pt": [
+          49,
+          72,
+          546,
+          281
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 77,
+        "pdf_drawing_objects": 83,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "g": 638,
+          "path": 225,
+          "clipPath": 10,
+          "use": 636
+        },
+        "notes": [
+          "结构与文字轮廓均为矢量路径；另附 PDF 摘图保留原字体和结构。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 13
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 13 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 408,
+          "sha256": "df7ffcf377a0566b54af0ba68912000a7bc138efefe6c91fe04d54c064d18184"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 117312,
+          "sha256": "1a4b737e496e827b0806cdd9338eb3ad0967b4679587820cf11b0c2ea23cd3e5"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 72599,
+          "sha256": "9016525b5d33f4a82d006fd872b84775c2cf742ab50f17c90eb40575e33177e9"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 211084,
+          "sha256": "af77105542c979622d9dff95138c2d53f9ea49a43f9ee372911dc04b1efd0b8e"
+        }
+      ],
+      "path": "examples/architectures/dit-architecture",
+      "metadata_path": "examples/architectures/dit-architecture/metadata.json",
+      "readme_path": "examples/architectures/dit-architecture/README.md",
+      "primary_path": "examples/architectures/dit-architecture/source.svg",
+      "preview_path": "examples/architectures/dit-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "dreamgaussian-architecture",
+      "title": "DreamGaussian · 高斯生成、网格提取与纹理细化",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "dreamgaussian",
+        "ICLR",
+        "2024",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "三个带编号的区域分别解释表示初始化、表示转换和后续细化，同时把不同损失放在对应优化回路内。",
+      "publication": {
+        "title": "DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation",
+        "venue": "ICLR",
+        "year": 2024,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://dreamgaussian.github.io/",
+        "evidence_type": "author-project",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "多阶段生成与优化框架图。",
+        "why_selected": "三个带编号的区域分别解释表示初始化、表示转换和后续细化，同时把不同损失放在对应优化回路内。",
+        "what_to_borrow": [
+          "阶段区域用边框与编号区分",
+          "显式画出三维表示转换",
+          "把损失与其实际作用阶段放在一起"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://dreamgaussian.github.io/",
+        "authors": [
+          "Tang, Jiaxiang",
+          "Ren, Jiawei",
+          "Zhou, Hang",
+          "Liu, Ziwei",
+          "Zeng, Gang"
+        ],
+        "urls": [
+          "https://dreamgaussian.github.io/",
+          "https://arxiv.org/abs/2309.16653",
+          "https://arxiv.org/pdf/2309.16653",
+          "https://dreamgaussian.github.io/"
+        ],
+        "arxiv_id": "2309.16653",
+        "full_pdf_url": "https://arxiv.org/pdf/2309.16653",
+        "full_pdf_sha256": "a53b9219edcc31d683abe9b7b15e3dcc42eb2e6d669a16785e217d39b56d8a38",
+        "full_pdf_bytes": 8013225,
+        "page_number": 4,
+        "figure_number": 2,
+        "crop_bbox_pt": [
+          107,
+          80,
+          505,
+          307
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 29,
+        "pdf_drawing_objects": 31,
+        "embedded_raster_images": 11,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 348,
+          "path": 129,
+          "clipPath": 15,
+          "image": 22,
+          "mask": 11,
+          "use": 362,
+          "rect": 2
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 502,
+          "sha256": "242e37a771f93e504d24f5216dc62a22cc507a76a971b648af433718cf43a5fd"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 352302,
+          "sha256": "1ff1c5bc1c322168f8bd551f689e2af5b6f64b802e4803cd1c6ba4fb7b614351"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 214891,
+          "sha256": "9f1bb340895e8afe79c1d468d2cc7d2be4ea13bdb0195529259ee010c20714a3"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 592368,
+          "sha256": "838e5ec545c9b7cb471b44561e93c1f5434e2364dd8965c21908967e1be303cc"
+        }
+      ],
+      "path": "examples/architectures/dreamgaussian-architecture",
+      "metadata_path": "examples/architectures/dreamgaussian-architecture/metadata.json",
+      "readme_path": "examples/architectures/dreamgaussian-architecture/README.md",
+      "primary_path": "examples/architectures/dreamgaussian-architecture/source.svg",
+      "preview_path": "examples/architectures/dreamgaussian-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "gaussian-splatting-architecture",
+      "title": "3D Gaussian Splatting · 优化与光栅化双向流程",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "gaussian-splatting",
+        "SIGGRAPH",
+        "2023",
+        "conference-paper"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "黑色实线和蓝色箭头分别表达正向操作与梯度回传，让自适应密度控制与可微渲染的关系无需依赖长图注。",
+      "publication": {
+        "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+        "venue": "SIGGRAPH",
+        "year": 2023,
+        "presentation": "conference-paper",
+        "award": null,
+        "evidence_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+        "evidence_type": "author-project",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "优化与渲染框架；SIGGRAPH 精选，未标作已核实 Oral。",
+        "why_selected": "黑色实线和蓝色箭头分别表达正向操作与梯度回传，让自适应密度控制与可微渲染的关系无需依赖长图注。",
+        "what_to_borrow": [
+          "正向操作与梯度流使用两套明确的箭头",
+          "小型图例就地解释颜色语义",
+          "优化闭环与输出保持同一水平主线"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+        "authors": [
+          "Kerbl, Bernhard",
+          "Kopanas, Georgios",
+          "Leimkühler, Thomas",
+          "Drettakis, George"
+        ],
+        "urls": [
+          "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+          "https://arxiv.org/abs/2308.04079",
+          "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf",
+          "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
+        ],
+        "arxiv_id": "2308.04079",
+        "full_pdf_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf",
+        "full_pdf_sha256": "d4b85a5d86f389dcd702203e6c4f21cdcce7f49450f33bc4adeadfee6edca2c7",
+        "full_pdf_bytes": 24343676,
+        "page_number": 5,
+        "figure_number": 2,
+        "crop_bbox_pt": [
+          51,
+          78,
+          562,
+          177
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 12,
+        "pdf_drawing_objects": 50,
+        "embedded_raster_images": 41,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "g": 169,
+          "path": 179,
+          "clipPath": 80,
+          "image": 40,
+          "use": 175
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 469,
+          "sha256": "af37237013ad3a38d0ea5f635befa34c2ff5a4816a3b49d134ee4ed117f05c0c"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 563489,
+          "sha256": "a8a63529f06a4b6c9c6266d0069a93bd6781369065399aebdbbe0f97f217f13e"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 38507,
+          "sha256": "0de7904813ebc0c9721500ac81419d292c83898050fbf3c5890fc8fba849b250"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 377831,
+          "sha256": "52f20692971e24ca925fd6f4d1dda783e268197e8e20af835abecfa880c1ce9b"
+        }
+      ],
+      "path": "examples/architectures/gaussian-splatting-architecture",
+      "metadata_path": "examples/architectures/gaussian-splatting-architecture/metadata.json",
+      "readme_path": "examples/architectures/gaussian-splatting-architecture/README.md",
+      "primary_path": "examples/architectures/gaussian-splatting-architecture/source.svg",
+      "preview_path": "examples/architectures/gaussian-splatting-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "genie-architecture",
+      "title": "Genie · 视频 tokenizer、潜在动作与动力学模型",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "genie",
+        "ICML",
+        "2024",
+        "oral"
+      ],
+      "formats": [
+        "png",
+        "pdf"
+      ],
+      "primary_file": "source.png",
+      "preview": "preview.png",
+      "summary": "只保留三个核心模块，视频 tokens 与潜在动作分别编码后汇入动力学模型；简单分支就讲清训练信息来源。",
+      "publication": {
+        "title": "Genie: Generative Interactive Environments",
+        "venue": "ICML",
+        "year": 2024,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://icml.cc/virtual/2024/oral/35508",
+        "evidence_type": "official-conference",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "世界模型整体训练架构；作者 PDF 中此图为整张位图，作为构图参考保存。",
+        "why_selected": "只保留三个核心模块，视频 tokens 与潜在动作分别编码后汇入动力学模型；简单分支就讲清训练信息来源。",
+        "what_to_borrow": [
+          "同一输入分支提取两类表示",
+          "表示类型通过颜色与排列方式区分",
+          "核心模块数量少，适合方法总览"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://sites.google.com/view/genie2024/home",
+        "authors": [
+          "Bruce, Jake",
+          "Dennis, Michael",
+          "Edwards, Ashley",
+          "Parker-Holder, Jack",
+          "Shi, Yuge",
+          "Hughes, Edward",
+          "Lai, Matthew",
+          "Mavalankar, Aditi",
+          "Steigerwald, Richie",
+          "Apps, Chris",
+          "Aytar, Yusuf",
+          "Bechtle, Sarah",
+          "Behbahani, Feryal",
+          "Chan, Stephanie",
+          "Heess, Nicolas",
+          "Gonzalez, Lucy",
+          "Osindero, Simon",
+          "Ozair, Sherjil",
+          "Reed, Scott",
+          "Zhang, Jingwei",
+          "Zolna, Konrad",
+          "Clune, Jeff",
+          "de Freitas, Nando",
+          "Singh, Satinder",
+          "Rocktäschel, Tim"
+        ],
+        "urls": [
+          "https://sites.google.com/view/genie2024/home",
+          "https://arxiv.org/abs/2402.15391",
+          "https://arxiv.org/pdf/2402.15391",
+          "https://icml.cc/virtual/2024/oral/35508"
+        ],
+        "arxiv_id": "2402.15391",
+        "full_pdf_url": "https://arxiv.org/pdf/2402.15391",
+        "full_pdf_sha256": "94c63a5ced89355326706c88236591c2972ced12f3dece4f8982f020110c81f3",
+        "full_pdf_bytes": 42346194,
+        "page_number": 4,
+        "figure_number": 3,
+        "crop_bbox_pt": [
+          62,
+          74,
+          534,
+          198
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF raster image",
+        "level": "raster-reference",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pdf_text_spans": 0,
+        "pdf_drawing_objects": 0,
+        "embedded_raster_images": 1,
+        "svg_object_counts": {},
+        "notes": [
+          "作者 PDF 内该图为整张位图。源 PNG 原样提取，PDF 摘图也不会增加可编辑矢量节点。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "从原 PDF 提取原嵌入位图；不创建伪矢量 SVG。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 806,
+          "sha256": "516bbd81d1fe027179d0daaaf008b691a19c9fd681d188c47f30b9276cfe6ca1"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 807263,
+          "sha256": "8cff015984cd93df588070a0126fa637440222992f40a28694cc43d6ff187b8f"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 154583,
+          "sha256": "3f49f3d6243e259696e03c6338203d4601c1325216bd26bdb8e8c6f132f8396b"
+        },
+        {
+          "path": "source.png",
+          "bytes": 634284,
+          "sha256": "72b7644486f50122451e00e995d5a9abe382b71933ed88408d11670a8657523c"
+        }
+      ],
+      "path": "examples/architectures/genie-architecture",
+      "metadata_path": "examples/architectures/genie-architecture/metadata.json",
+      "readme_path": "examples/architectures/genie-architecture/README.md",
+      "primary_path": "examples/architectures/genie-architecture/source.png",
+      "preview_path": "examples/architectures/genie-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "instant-ngp-hash-architecture",
+      "title": "Instant NGP · 多分辨率哈希编码到 MLP",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "instant-ngp",
+        "SIGGRAPH",
+        "2022",
+        "conference-paper"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "通过五个编号步骤，将空间采样、哈希查表、插值、拼接与网络连接起来；不同尺度的颜色可贯穿整张图。",
+      "publication": {
+        "title": "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding",
+        "venue": "SIGGRAPH",
+        "year": 2022,
+        "presentation": "conference-paper",
+        "award": null,
+        "evidence_url": "https://nvlabs.github.io/instant-ngp/",
+        "evidence_type": "author-project",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "编码方法与网络输入的完整结构图；SIGGRAPH 精选，未标作已核实 Oral。",
+        "why_selected": "通过五个编号步骤，将空间采样、哈希查表、插值、拼接与网络连接起来；不同尺度的颜色可贯穿整张图。",
+        "what_to_borrow": [
+          "几何对象与数据结构直接建立对应关系",
+          "用持续一致的颜色追踪多个尺度",
+          "让步骤编号代替大段流程解释"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://nvlabs.github.io/instant-ngp/",
+        "authors": [
+          "Müller, Thomas",
+          "Evans, Alex",
+          "Schied, Christoph",
+          "Keller, Alexander"
+        ],
+        "urls": [
+          "https://nvlabs.github.io/instant-ngp/",
+          "https://arxiv.org/abs/2201.05989",
+          "https://nvlabs.github.io/instant-ngp/assets/mueller2022instant.pdf",
+          "https://nvlabs.github.io/instant-ngp/"
+        ],
+        "arxiv_id": "2201.05989",
+        "full_pdf_url": "https://nvlabs.github.io/instant-ngp/assets/mueller2022instant.pdf",
+        "full_pdf_sha256": "b3631fa8f707fe81d7dd4dfb6f8d35cf1bbd13ffd7fb1f457495c837ab00d93a",
+        "full_pdf_bytes": 17686120,
+        "page_number": 4,
+        "figure_number": 3,
+        "crop_bbox_pt": [
+          45,
+          69,
+          562,
+          257
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 73,
+        "pdf_drawing_objects": 214,
+        "embedded_raster_images": 1,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 170,
+          "path": 304,
+          "clipPath": 24,
+          "image": 2,
+          "mask": 1,
+          "use": 153,
+          "rect": 1
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 498,
+          "sha256": "c7924997a73ef8fadc40e4845c1724496cc4977822ea30db3a7969d016f413e2"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 434434,
+          "sha256": "8d3e22efdd69019fa618d9aa299f21f0973d31c4f275520e05d99083b8bae881"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 102672,
+          "sha256": "b3e5ab60b08f04d35715768c89c8bfce0b04766220c8e3f4fd9139ba92eb8b57"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 302245,
+          "sha256": "ebc04c2afb35c8bfeff485c1b7ca0df8a3d8ca242a882ba926d027cd94ed1971"
+        }
+      ],
+      "path": "examples/architectures/instant-ngp-hash-architecture",
+      "metadata_path": "examples/architectures/instant-ngp-hash-architecture/metadata.json",
+      "readme_path": "examples/architectures/instant-ngp-hash-architecture/README.md",
+      "primary_path": "examples/architectures/instant-ngp-hash-architecture/source.svg",
+      "preview_path": "examples/architectures/instant-ngp-hash-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "lav",
       "title": "LAV：感知、预测与驾驶控制流程",
       "category": "architecture",
@@ -2217,6 +3944,296 @@
       "readme_path": "examples/architectures/lav/README.md",
       "primary_path": "examples/architectures/lav/source.svg",
       "preview_path": "examples/architectures/lav/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "lgm-architecture",
+      "title": "LGM · 非对称 U-Net 与跨视角注意力",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "lgm",
+        "ECCV",
+        "2024",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "把多视图输入、相机射线编码、U-Net、三维融合和监督闭环放在一张图里；顶部局部放大说明跨视角交互。",
+      "publication": {
+        "title": "LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation",
+        "venue": "ECCV",
+        "year": 2024,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://me.kiui.moe/lgm/",
+        "evidence_type": "author-project",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "网络内部结构与训练监督主图。",
+        "why_selected": "把多视图输入、相机射线编码、U-Net、三维融合和监督闭环放在一张图里；顶部局部放大说明跨视角交互。",
+        "what_to_borrow": [
+          "层级条块表达 U-Net 深度与分辨率变化",
+          "局部放大解释创新模块",
+          "用虚线闭环连接新视角监督"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://me.kiui.moe/lgm/",
+        "authors": [
+          "Tang, Jiaxiang",
+          "Chen, Zhaoxi",
+          "Chen, Xiaokang",
+          "Wang, Tengfei",
+          "Zeng, Gang",
+          "Liu, Ziwei"
+        ],
+        "urls": [
+          "https://me.kiui.moe/lgm/",
+          "https://arxiv.org/abs/2402.05054",
+          "https://arxiv.org/pdf/2402.05054",
+          "https://me.kiui.moe/lgm/"
+        ],
+        "arxiv_id": "2402.05054",
+        "full_pdf_url": "https://arxiv.org/pdf/2402.05054",
+        "full_pdf_sha256": "eb8580c5e25943b2a6422cb4d07ff46f93822d44e65e8c762faa57ed729740f6",
+        "full_pdf_bytes": 6308323,
+        "page_number": 6,
+        "figure_number": 3,
+        "crop_bbox_pt": [
+          32,
+          27,
+          381,
+          201
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 19,
+        "pdf_drawing_objects": 26,
+        "embedded_raster_images": 19,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 274,
+          "path": 108,
+          "clipPath": 23,
+          "image": 36,
+          "mask": 19,
+          "use": 238,
+          "rect": 2
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 520,
+          "sha256": "4a128e4737100b01a2bc3d3ce797e3ce9e3d40fe6fc3a4597bde64a7d9695e67"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 444607,
+          "sha256": "5ff92e72794da5eae061d2608e2f1350451b6ffd67944cfbbeb0512f08769cad"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 149415,
+          "sha256": "3e93e6e8ffa144a86aa655788093ba436282c3dbf63072d37f1f457a8ae0ba9f"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 534877,
+          "sha256": "a34fefb951ab728e3dde384f58f793c8a0d019e0912d55e175541384eb388765"
+        }
+      ],
+      "path": "examples/architectures/lgm-architecture",
+      "metadata_path": "examples/architectures/lgm-architecture/metadata.json",
+      "readme_path": "examples/architectures/lgm-architecture/README.md",
+      "primary_path": "examples/architectures/lgm-architecture/source.svg",
+      "preview_path": "examples/architectures/lgm-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "lgm-pipeline",
+      "title": "LGM · 从文本或图像到三维高斯和网格的流程",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "lgm",
+        "ECCV",
+        "2024",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "用少量大模块完成端到端说明，同时把各阶段耗时直接放在阶段下方，适合紧凑的方法总览。",
+      "publication": {
+        "title": "LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation",
+        "venue": "ECCV",
+        "year": 2024,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://me.kiui.moe/lgm/",
+        "evidence_type": "author-project",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "方法 pipeline；细粒度网络结构另见 LGM Figure 3。",
+        "why_selected": "用少量大模块完成端到端说明，同时把各阶段耗时直接放在阶段下方，适合紧凑的方法总览。",
+        "what_to_borrow": [
+          "文本与图像两种输入在起点汇合",
+          "用代表性结果解释中间表示",
+          "阶段耗时附在对应模块下方"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://me.kiui.moe/lgm/",
+        "authors": [
+          "Tang, Jiaxiang",
+          "Chen, Zhaoxi",
+          "Chen, Xiaokang",
+          "Wang, Tengfei",
+          "Zeng, Gang",
+          "Liu, Ziwei"
+        ],
+        "urls": [
+          "https://me.kiui.moe/lgm/",
+          "https://arxiv.org/abs/2402.05054",
+          "https://arxiv.org/pdf/2402.05054",
+          "https://me.kiui.moe/lgm/"
+        ],
+        "arxiv_id": "2402.05054",
+        "full_pdf_url": "https://arxiv.org/pdf/2402.05054",
+        "full_pdf_sha256": "eb8580c5e25943b2a6422cb4d07ff46f93822d44e65e8c762faa57ed729740f6",
+        "full_pdf_bytes": 6308323,
+        "page_number": 5,
+        "figure_number": 2,
+        "crop_bbox_pt": [
+          32,
+          27,
+          390,
+          112
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 12,
+        "pdf_drawing_objects": 19,
+        "embedded_raster_images": 7,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 195,
+          "path": 88,
+          "clipPath": 7,
+          "image": 13,
+          "mask": 7,
+          "use": 169,
+          "rect": 2
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 520,
+          "sha256": "4a128e4737100b01a2bc3d3ce797e3ce9e3d40fe6fc3a4597bde64a7d9695e67"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 237391,
+          "sha256": "dbc7c0dfa3722bc4efae8e79b66097f0c5bbf38481d5f6e6b6e28c1325808f13"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 69340,
+          "sha256": "f858a0df0b985b738dc87450ee974390ced7642dffa721cb1b625f2c5fa6b339"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 259598,
+          "sha256": "1009028af6eb01cfefdd8ad92bb7d3279921d797e8e41c1fedd3779ebeb49389"
+        }
+      ],
+      "path": "examples/architectures/lgm-pipeline",
+      "metadata_path": "examples/architectures/lgm-pipeline/metadata.json",
+      "readme_path": "examples/architectures/lgm-pipeline/README.md",
+      "primary_path": "examples/architectures/lgm-pipeline/source.svg",
+      "preview_path": "examples/architectures/lgm-pipeline/preview.png"
     },
     {
       "schema_version": 1,
@@ -2681,6 +4698,592 @@
       "readme_path": "examples/architectures/sam-lora/README.md",
       "primary_path": "examples/architectures/sam-lora/source.ai",
       "preview_path": "examples/architectures/sam-lora/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "sd3-mmdit-architecture",
+      "title": "SD3 · 双模态主干与 MM-DiT block 展开",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "sd3",
+        "ICML",
+        "2024",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "左侧说明文本与图像条件如何进入主干，右侧以对称双路结构展开联合注意力，颜色和符号在两部分保持一致。",
+      "publication": {
+        "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+        "venue": "ICML",
+        "year": 2024,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://icml.cc/virtual/2024/oral/35548",
+        "evidence_type": "official-conference",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "多模态网络架构；适合借鉴整体图加模块详图的排版。",
+        "why_selected": "左侧说明文本与图像条件如何进入主干，右侧以对称双路结构展开联合注意力，颜色和符号在两部分保持一致。",
+        "what_to_borrow": [
+          "整体网络与 block 内部各占一个清晰区域",
+          "双模态用对称布局区分",
+          "局部运算符与残差连线统一使用"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://stability.ai/news/stable-diffusion-3-research-paper",
+        "authors": [
+          "Esser, Patrick",
+          "Kulal, Sumith",
+          "Blattmann, Andreas",
+          "Entezari, Rahim",
+          "Müller, Jonas",
+          "Saini, Harry",
+          "Levi, Yam",
+          "Lorenz, Dominik",
+          "Sauer, Axel",
+          "Boesel, Frederic",
+          "Podell, Dustin",
+          "Dockhorn, Tim",
+          "English, Zion",
+          "Lacey, Kyle",
+          "Goodwin, Alex",
+          "Marek, Yannik",
+          "Rombach, Robin"
+        ],
+        "urls": [
+          "https://stability.ai/news/stable-diffusion-3-research-paper",
+          "https://arxiv.org/abs/2403.03206",
+          "https://arxiv.org/pdf/2403.03206",
+          "https://icml.cc/virtual/2024/oral/35548"
+        ],
+        "arxiv_id": "2403.03206",
+        "full_pdf_url": "https://arxiv.org/pdf/2403.03206",
+        "full_pdf_sha256": "7ba352b6ded12859cda4d47df203d5fe38ee884c45f3b67ff227549d82db1487",
+        "full_pdf_bytes": 33973124,
+        "page_number": 5,
+        "figure_number": 2,
+        "crop_bbox_pt": [
+          55,
+          65,
+          508,
+          384
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 141,
+        "pdf_drawing_objects": 249,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "g": 305,
+          "path": 390,
+          "use": 492
+        },
+        "notes": [
+          "结构与文字轮廓均为矢量路径；另附 PDF 摘图保留原字体和结构。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 692,
+          "sha256": "6cc2aff69f927af810759336ac9fee2d62b7ebf05f6b02f15f52cd2749ffb1a1"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 186668,
+          "sha256": "b1e9b3f2547e443c30bca317c83d96c05b6ac15cde358e920945111f9f578735"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 91379,
+          "sha256": "c519f7041f06e7c25908f0623ab12823dc98bec503ab6bd368799200aa9dc7c0"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 268977,
+          "sha256": "c4d4f5d2af3afaf3bd3efdeabd26bed0e0c357b13c6b45f06d8a83bb93e8212a"
+        }
+      ],
+      "path": "examples/architectures/sd3-mmdit-architecture",
+      "metadata_path": "examples/architectures/sd3-mmdit-architecture/metadata.json",
+      "readme_path": "examples/architectures/sd3-mmdit-architecture/README.md",
+      "primary_path": "examples/architectures/sd3-mmdit-architecture/source.svg",
+      "preview_path": "examples/architectures/sd3-mmdit-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "var-architecture",
+      "title": "VAR · 多尺度 VQVAE 与 VAR 两阶段训练",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "var",
+        "NeurIPS",
+        "2024",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "两块并列区域分别解释表示学习和自回归训练，尺度、token 序列和因果 mask 的对应关系可在图中追踪。",
+      "publication": {
+        "title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
+        "venue": "NeurIPS",
+        "year": 2024,
+        "presentation": "oral",
+        "award": "Best Paper",
+        "evidence_url": "https://neurips.cc/virtual/2024/oral/97960",
+        "evidence_type": "official-conference",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "训练框架主图；区别于 Figure 2 的范式概念图。",
+        "why_selected": "两块并列区域分别解释表示学习和自回归训练，尺度、token 序列和因果 mask 的对应关系可在图中追踪。",
+        "what_to_borrow": [
+          "两个训练阶段明确分区",
+          "三维特征平面表达多尺度编码",
+          "用小型 mask 插图解释约束"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://github.com/FoundationVision/VAR",
+        "authors": [
+          "Tian, Keyu",
+          "Jiang, Yi",
+          "Yuan, Zehuan",
+          "Peng, Bingyue",
+          "Wang, Liwei"
+        ],
+        "urls": [
+          "https://github.com/FoundationVision/VAR",
+          "https://arxiv.org/abs/2404.02905",
+          "https://arxiv.org/pdf/2404.02905",
+          "https://neurips.cc/virtual/2024/oral/97960"
+        ],
+        "arxiv_id": "2404.02905",
+        "full_pdf_url": "https://arxiv.org/pdf/2404.02905",
+        "full_pdf_sha256": "09bf82325072d173f99954cf971b5f748ddc8834dadd9afc135098410d6b5849",
+        "full_pdf_bytes": 6362492,
+        "page_number": 5,
+        "figure_number": 4,
+        "crop_bbox_pt": [
+          106,
+          151,
+          506,
+          277
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC0-1.0",
+        "note": "arXiv 原文声明 CC0 1.0；仍保留论文来源和修改记录，第三方素材以其原声明为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 28,
+        "pdf_drawing_objects": 418,
+        "embedded_raster_images": 10,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 520,
+          "path": 520,
+          "clipPath": 113,
+          "image": 20,
+          "mask": 10,
+          "use": 369,
+          "rect": 1
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 443,
+          "sha256": "b311fdcf118ea74d60310df49b70074b90f032961c4a4c0fbe75c0af1eb34d43"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 531514,
+          "sha256": "270b040492285fa649774b6d8ddcd5b49c6bd7e5c4e56c387e217eef24a7101c"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 147591,
+          "sha256": "f0492a536635763ca4e21229a215c14728b57e077be9f85fc29cea0700ac7ff5"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 3393004,
+          "sha256": "d28dcfd50d2185c030d6035ad49752853f0258e143808f5729a8bbb9c4c54ca8"
+        }
+      ],
+      "path": "examples/architectures/var-architecture",
+      "metadata_path": "examples/architectures/var-architecture/metadata.json",
+      "readme_path": "examples/architectures/var-architecture/README.md",
+      "primary_path": "examples/architectures/var-architecture/source.svg",
+      "preview_path": "examples/architectures/var-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "vggt-architecture",
+      "title": "VGGT · 交替注意力主干与多任务输出头",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "vggt",
+        "CVPR",
+        "2025",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "整图始终沿左到右阅读；颜色区分 token，虚线框标出重复主干，右侧分组展开输出任务。",
+      "publication": {
+        "title": "VGGT: Visual Geometry Grounded Transformer",
+        "venue": "CVPR",
+        "year": 2025,
+        "presentation": "oral",
+        "award": "Best Paper",
+        "evidence_url": "https://cvpr.thecvf.com/Conferences/2025/News/Awards_Press",
+        "evidence_type": "official-conference",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "模型整体架构，覆盖 token 化、主干和输出头。",
+        "why_selected": "整图始终沿左到右阅读；颜色区分 token，虚线框标出重复主干，右侧分组展开输出任务。",
+        "what_to_borrow": [
+          "同色 token 在不同阶段保持身份",
+          "重复层使用统一虚线容器",
+          "多任务输出头按任务整齐分组"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://vgg-t.github.io/",
+        "authors": [
+          "Wang, Jianyuan",
+          "Chen, Minghao",
+          "Karaev, Nikita",
+          "Vedaldi, Andrea",
+          "Rupprecht, Christian",
+          "Novotny, David"
+        ],
+        "urls": [
+          "https://vgg-t.github.io/",
+          "https://arxiv.org/abs/2503.11651",
+          "https://jytime.github.io/data/VGGT_CVPR25.pdf",
+          "https://cvpr.thecvf.com/Conferences/2025/News/Awards_Press"
+        ],
+        "arxiv_id": "2503.11651",
+        "full_pdf_url": "https://jytime.github.io/data/VGGT_CVPR25.pdf",
+        "full_pdf_sha256": "ddf1949826bf5b606d87a8afdd69aa52279b28e6128ee44c629470a56e3330a3",
+        "full_pdf_bytes": 2983418,
+        "page_number": 3,
+        "figure_number": 2,
+        "crop_bbox_pt": [
+          56,
+          69,
+          561,
+          249
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 17,
+        "pdf_drawing_objects": 156,
+        "embedded_raster_images": 10,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 186,
+          "path": 235,
+          "clipPath": 24,
+          "image": 12,
+          "mask": 2,
+          "use": 130,
+          "rect": 2
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 503,
+          "sha256": "9ec9886eb780d134bf70d7268af5092eae1526147939537672c71549fb725d5a"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 153774,
+          "sha256": "061d0372f3cd343ca197b443b7862a136e90d7a2eb6cccde0a8c0386b9cece04"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 132846,
+          "sha256": "3a07db0d2a73ef88439253ffd4ae5cd7f26fe40e5c1c913286d887380eb1913d"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 260204,
+          "sha256": "e433b95519274fa659dfd08c81f08251329afbc2a3ec4944091823d3244d5b9d"
+        }
+      ],
+      "path": "examples/architectures/vggt-architecture",
+      "metadata_path": "examples/architectures/vggt-architecture/metadata.json",
+      "readme_path": "examples/architectures/vggt-architecture/README.md",
+      "primary_path": "examples/architectures/vggt-architecture/source.svg",
+      "preview_path": "examples/architectures/vggt-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "vit-original-architecture",
+      "title": "ViT 原论文 · 图像分块、token 序列与编码器展开",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "collection": "top-conference-figures-2026-10",
+      "tags": [
+        "architecture",
+        "vit-paper",
+        "ICLR",
+        "2021",
+        "oral"
+      ],
+      "formats": [
+        "svg",
+        "pdf"
+      ],
+      "primary_file": "source.svg",
+      "preview": "preview.png",
+      "summary": "输入图像、patch 序列、位置编码和分类 token 都有直观的对应关系；右侧独立展开重复的 Transformer 编码器。",
+      "publication": {
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "venue": "ICLR",
+        "year": 2021,
+        "presentation": "oral",
+        "award": null,
+        "evidence_url": "https://iclr.cc/virtual/2021/oral/3458",
+        "evidence_type": "official-conference",
+        "checked_date": "2026-10-27"
+      },
+      "curation": {
+        "figure_role": "原论文的模型架构图。作为论文范例保存，与库中的 D2L 教材示意图区分。",
+        "why_selected": "输入图像、patch 序列、位置编码和分类 token 都有直观的对应关系；右侧独立展开重复的 Transformer 编码器。",
+        "what_to_borrow": [
+          "图像块与序列位置一一对应",
+          "主流程与重复模块分开解释",
+          "颜色区分功能，形状保持统一"
+        ],
+        "reviewed_from": "original PDF page and final extracted preview"
+      },
+      "source": {
+        "project": "https://github.com/google-research/vision_transformer",
+        "authors": [
+          "Dosovitskiy, Alexey",
+          "Beyer, Lucas",
+          "Kolesnikov, Alexander",
+          "Weissenborn, Dirk",
+          "Zhai, Xiaohua",
+          "Unterthiner, Thomas",
+          "Dehghani, Mostafa",
+          "Minderer, Matthias",
+          "Heigold, Georg",
+          "Gelly, Sylvain",
+          "Uszkoreit, Jakob",
+          "Houlsby, Neil"
+        ],
+        "urls": [
+          "https://github.com/google-research/vision_transformer",
+          "https://arxiv.org/abs/2010.11929",
+          "https://arxiv.org/pdf/2010.11929",
+          "https://iclr.cc/virtual/2021/oral/3458"
+        ],
+        "arxiv_id": "2010.11929",
+        "full_pdf_url": "https://arxiv.org/pdf/2010.11929",
+        "full_pdf_sha256": "8ce7b83971a14508ca711a27c875c9b6914c4f6767cf3150fb1ca6c07aa056d6",
+        "full_pdf_bytes": 3743814,
+        "page_number": 3,
+        "figure_number": 1,
+        "crop_bbox_pt": [
+          140,
+          77,
+          472,
+          253
+        ],
+        "coordinate_system": "PDF points from top-left, unrotated page",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 参考收录",
+        "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author PDF vector excerpt exported as SVG",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_text_spans": 43,
+        "pdf_drawing_objects": 332,
+        "embedded_raster_images": 2,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 6,
+          "path": 336,
+          "image": 2,
+          "g": 6,
+          "use": 2
+        },
+        "notes": [
+          "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+          "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+          "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+        ],
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0
+      },
+      "changes": [
+        "按记录的页码和坐标提取作者原图。",
+        "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+        "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+        "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 650,
+          "sha256": "ac723d1b354d610781b433ecbb71d2cbcc43280ee075cc5484a2158439497c47"
+        },
+        {
+          "path": "figure.pdf",
+          "bytes": 694977,
+          "sha256": "77ac84ce434f29953bba7dad1e7dd086559ca8f536521424a548e247b0926ed8"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 69934,
+          "sha256": "1d653f750d4cdb996b63bf3d7e30996ce880e8766b073603ef890e8d7fef7758"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 818116,
+          "sha256": "8d3a35629fdb38302e7c02d1161e109d451f755fa300b7da9efb8e302902229d"
+        }
+      ],
+      "path": "examples/architectures/vit-original-architecture",
+      "metadata_path": "examples/architectures/vit-original-architecture/metadata.json",
+      "readme_path": "examples/architectures/vit-original-architecture/README.md",
+      "primary_path": "examples/architectures/vit-original-architecture/source.svg",
+      "preview_path": "examples/architectures/vit-original-architecture/preview.png"
     },
     {
       "schema_version": 1,

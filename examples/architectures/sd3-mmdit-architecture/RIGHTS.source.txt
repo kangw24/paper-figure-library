@@ -1,0 +1,6 @@
+Paper: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
+Authors: Esser, Patrick, Kulal, Sumith, Blattmann, Andreas, Entezari, Rahim, Müller, Jonas, Saini, Harry, Levi, Yam, Lorenz, Dominik, Sauer, Axel, Boesel, Frederic, Podell, Dustin, Dockhorn, Tim, English, Zion, Lacey, Kyle, Goodwin, Alex, Marek, Yannik, Rombach, Robin
+Paper URL: https://arxiv.org/abs/2403.03206
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。
+Figure excerpt and conversion only; no redrawing.

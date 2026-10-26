@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "cut3r-capabilities",
+  "title": "CUT3R · 静态、动态与稀疏照片三类场景",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "teaser",
+    "cut3r",
+    "CVPR",
+    "2025",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "三列分别说明输入场景和重建能力，借助同一版式把连续三维感知的应用范围讲清楚。",
+  "publication": {
+    "title": "Continuous 3D Perception Model with Persistent State",
+    "venue": "CVPR",
+    "year": 2025,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://github.com/CUT3R/CUT3R/blob/main/README.md",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "多场景能力 teaser；与方法内部的状态更新架构分别保存。",
+    "why_selected": "三列分别说明输入场景和重建能力，借助同一版式把连续三维感知的应用范围讲清楚。",
+    "what_to_borrow": [
+      "三类场景使用统一输入与输出关系",
+      "把动态与静态能力并列呈现",
+      "用真实场景代替大段动机文字"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://cut3r.github.io/",
+    "authors": [
+      "Wang, Qianqian",
+      "Zhang, Yifei",
+      "Holynski, Aleksander",
+      "Efros, Alexei A.",
+      "Kanazawa, Angjoo"
+    ],
+    "urls": [
+      "https://cut3r.github.io/",
+      "https://arxiv.org/abs/2501.12387",
+      "https://arxiv.org/pdf/2501.12387",
+      "https://github.com/CUT3R/CUT3R/blob/main/README.md"
+    ],
+    "arxiv_id": "2501.12387",
+    "full_pdf_url": "https://arxiv.org/pdf/2501.12387",
+    "full_pdf_sha256": "5467dd822b4b45c0829115bbf361a5ca8c3319a930f4e0d861b6e9138d0d9db4",
+    "full_pdf_bytes": 10842625,
+    "page_number": 1,
+    "figure_number": 1,
+    "crop_bbox_pt": [
+      43,
+      193,
+      566,
+      356
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 3,
+    "pdf_drawing_objects": 187,
+    "embedded_raster_images": 14,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 88,
+      "path": 219,
+      "clipPath": 15,
+      "image": 28,
+      "mask": 14,
+      "use": 77,
+      "rect": 1
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 473,
+      "sha256": "76da35ffdb1a8392e2ee9540c65e94767ff0fffc4ce96ada9b43d11e7734d062"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 9997936,
+      "sha256": "12c4c383f9c61651b8d6b42174dba53429e5ba0b546f5c6a845a97f79e6422aa"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 544300,
+      "sha256": "6671de2c08e51ed88964c1c0029243d41de78dfbdc4df4ece7da08dc4179f414"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 11942995,
+      "sha256": "6775b8a74403e0dddd02bdcb4115136c4ab992809c837cb00a702d766af9730c"
+    }
+  ]
+}

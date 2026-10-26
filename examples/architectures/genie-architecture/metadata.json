@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "id": "genie-architecture",
+  "title": "Genie · 视频 tokenizer、潜在动作与动力学模型",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "genie",
+    "ICML",
+    "2024",
+    "oral"
+  ],
+  "formats": [
+    "png",
+    "pdf"
+  ],
+  "primary_file": "source.png",
+  "preview": "preview.png",
+  "summary": "只保留三个核心模块，视频 tokens 与潜在动作分别编码后汇入动力学模型；简单分支就讲清训练信息来源。",
+  "publication": {
+    "title": "Genie: Generative Interactive Environments",
+    "venue": "ICML",
+    "year": 2024,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://icml.cc/virtual/2024/oral/35508",
+    "evidence_type": "official-conference",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "世界模型整体训练架构；作者 PDF 中此图为整张位图，作为构图参考保存。",
+    "why_selected": "只保留三个核心模块，视频 tokens 与潜在动作分别编码后汇入动力学模型；简单分支就讲清训练信息来源。",
+    "what_to_borrow": [
+      "同一输入分支提取两类表示",
+      "表示类型通过颜色与排列方式区分",
+      "核心模块数量少，适合方法总览"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://sites.google.com/view/genie2024/home",
+    "authors": [
+      "Bruce, Jake",
+      "Dennis, Michael",
+      "Edwards, Ashley",
+      "Parker-Holder, Jack",
+      "Shi, Yuge",
+      "Hughes, Edward",
+      "Lai, Matthew",
+      "Mavalankar, Aditi",
+      "Steigerwald, Richie",
+      "Apps, Chris",
+      "Aytar, Yusuf",
+      "Bechtle, Sarah",
+      "Behbahani, Feryal",
+      "Chan, Stephanie",
+      "Heess, Nicolas",
+      "Gonzalez, Lucy",
+      "Osindero, Simon",
+      "Ozair, Sherjil",
+      "Reed, Scott",
+      "Zhang, Jingwei",
+      "Zolna, Konrad",
+      "Clune, Jeff",
+      "de Freitas, Nando",
+      "Singh, Satinder",
+      "Rocktäschel, Tim"
+    ],
+    "urls": [
+      "https://sites.google.com/view/genie2024/home",
+      "https://arxiv.org/abs/2402.15391",
+      "https://arxiv.org/pdf/2402.15391",
+      "https://icml.cc/virtual/2024/oral/35508"
+    ],
+    "arxiv_id": "2402.15391",
+    "full_pdf_url": "https://arxiv.org/pdf/2402.15391",
+    "full_pdf_sha256": "94c63a5ced89355326706c88236591c2972ced12f3dece4f8982f020110c81f3",
+    "full_pdf_bytes": 42346194,
+    "page_number": 4,
+    "figure_number": 3,
+    "crop_bbox_pt": [
+      62,
+      74,
+      534,
+      198
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF raster image",
+    "level": "raster-reference",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pdf_text_spans": 0,
+    "pdf_drawing_objects": 0,
+    "embedded_raster_images": 1,
+    "svg_object_counts": {},
+    "notes": [
+      "作者 PDF 内该图为整张位图。源 PNG 原样提取，PDF 摘图也不会增加可编辑矢量节点。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "从原 PDF 提取原嵌入位图；不创建伪矢量 SVG。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 806,
+      "sha256": "516bbd81d1fe027179d0daaaf008b691a19c9fd681d188c47f30b9276cfe6ca1"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 807263,
+      "sha256": "8cff015984cd93df588070a0126fa637440222992f40a28694cc43d6ff187b8f"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 154583,
+      "sha256": "3f49f3d6243e259696e03c6338203d4601c1325216bd26bdb8e8c6f132f8396b"
+    },
+    {
+      "path": "source.png",
+      "bytes": 634284,
+      "sha256": "72b7644486f50122451e00e995d5a9abe382b71933ed88408d11670a8657523c"
+    }
+  ]
+}

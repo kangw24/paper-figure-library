@@ -1,0 +1,6 @@
+Paper: VGGT: Visual Geometry Grounded Transformer
+Authors: Wang, Jianyuan, Chen, Minghao, Karaev, Nikita, Vedaldi, Andrea, Rupprecht, Christian, Novotny, David
+Paper URL: https://arxiv.org/abs/2503.11651
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。
+Figure excerpt and conversion only; no redrawing.

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "dit-architecture",
+  "title": "DiT · 整体主干与三种条件注入模块",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "dit",
+    "ICCV",
+    "2023",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "左侧给完整主干，右侧展开 block 变体；推荐模块使用更高视觉对比，完整展示论文的结构选择。",
+  "publication": {
+    "title": "Scalable Diffusion Models with Transformers",
+    "venue": "ICCV",
+    "year": 2023,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://www.wpeebles.com/DiT",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "网络架构与 block 设计对照。原图右侧两个变体的浅色是作者设计。",
+    "why_selected": "左侧给完整主干，右侧展开 block 变体；推荐模块使用更高视觉对比，完整展示论文的结构选择。",
+    "what_to_borrow": [
+      "整体网络与局部模块放在同一水平基线",
+      "放大连线连接主干和 block",
+      "作者用淡化处理弱化对照变体"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://www.wpeebles.com/DiT",
+    "authors": [
+      "Peebles, William",
+      "Xie, Saining"
+    ],
+    "urls": [
+      "https://www.wpeebles.com/DiT",
+      "https://arxiv.org/abs/2212.09748",
+      "https://arxiv.org/pdf/2212.09748",
+      "https://www.wpeebles.com/DiT"
+    ],
+    "arxiv_id": "2212.09748",
+    "full_pdf_url": "https://arxiv.org/pdf/2212.09748",
+    "full_pdf_sha256": "5fbb0ec35e3ae76826240171ca63ed4c27de6cb43180367453019e9d28a8b076",
+    "full_pdf_bytes": 43824062,
+    "page_number": 3,
+    "figure_number": 3,
+    "crop_bbox_pt": [
+      49,
+      72,
+      546,
+      281
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 77,
+    "pdf_drawing_objects": 83,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 638,
+      "path": 225,
+      "clipPath": 10,
+      "use": 636
+    },
+    "notes": [
+      "结构与文字轮廓均为矢量路径；另附 PDF 摘图保留原字体和结构。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 13
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 13 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 408,
+      "sha256": "df7ffcf377a0566b54af0ba68912000a7bc138efefe6c91fe04d54c064d18184"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 117312,
+      "sha256": "1a4b737e496e827b0806cdd9338eb3ad0967b4679587820cf11b0c2ea23cd3e5"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 72599,
+      "sha256": "9016525b5d33f4a82d006fd872b84775c2cf742ab50f17c90eb40575e33177e9"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 211084,
+      "sha256": "af77105542c979622d9dff95138c2d53f9ea49a43f9ee372911dc04b1efd0b8e"
+    }
+  ]
+}

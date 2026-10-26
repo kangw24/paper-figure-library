@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "cut3r-architecture",
+  "title": "CUT3R · 持久状态的更新、读取与未见视角推断",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "cut3r",
+    "CVPR",
+    "2025",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "左侧按时间展开状态更新，右侧用独立色块解释状态读取；重建结果紧邻对应计算步骤。",
+  "publication": {
+    "title": "Continuous 3D Perception Model with Persistent State",
+    "venue": "CVPR",
+    "year": 2025,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://github.com/CUT3R/CUT3R/blob/main/README.md",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "完整方法框架；重点是状态信息流和两个使用分支。",
+    "why_selected": "左侧按时间展开状态更新，右侧用独立色块解释状态读取；重建结果紧邻对应计算步骤。",
+    "what_to_borrow": [
+      "递归状态按时间纵向展开",
+      "更新与只读分支分区表达",
+      "中间输出与场景结果保持对齐"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://cut3r.github.io/",
+    "authors": [
+      "Wang, Qianqian",
+      "Zhang, Yifei",
+      "Holynski, Aleksander",
+      "Efros, Alexei A.",
+      "Kanazawa, Angjoo"
+    ],
+    "urls": [
+      "https://cut3r.github.io/",
+      "https://arxiv.org/abs/2501.12387",
+      "https://arxiv.org/pdf/2501.12387",
+      "https://github.com/CUT3R/CUT3R/blob/main/README.md"
+    ],
+    "arxiv_id": "2501.12387",
+    "full_pdf_url": "https://arxiv.org/pdf/2501.12387",
+    "full_pdf_sha256": "5467dd822b4b45c0829115bbf361a5ca8c3319a930f4e0d861b6e9138d0d9db4",
+    "full_pdf_bytes": 10842625,
+    "page_number": 4,
+    "figure_number": 3,
+    "crop_bbox_pt": [
+      57,
+      68,
+      558,
+      264
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 33,
+    "pdf_drawing_objects": 115,
+    "embedded_raster_images": 50,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 357,
+      "path": 407,
+      "clipPath": 73,
+      "image": 28,
+      "mask": 7,
+      "use": 316,
+      "linearGradient": 24,
+      "stop": 2078
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 55
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 55 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 473,
+      "sha256": "76da35ffdb1a8392e2ee9540c65e94767ff0fffc4ce96ada9b43d11e7734d062"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 5181225,
+      "sha256": "f1a11afe825a4e2dfa98e8a8362c9378bdf91649bee62a98172e58f86dbc8e99"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 330050,
+      "sha256": "fbba3b0b3384dd6828ce47221cbf0f1649d2a4ae16cad71a2f53b43e4aad4884"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 6871635,
+      "sha256": "b61c6807a47e1e5ad00c2ee5bf553e7784770c63b1816dc8e756d3ebd2334556"
+    }
+  ]
+}

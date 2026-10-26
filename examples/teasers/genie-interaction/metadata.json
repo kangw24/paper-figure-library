@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "genie-interaction",
+  "title": "Genie · 不同提示生成可交互世界",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "teaser",
+    "genie",
+    "ICML",
+    "2024",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "左侧三种输入沿统一箭头进入模型，右侧按动作展示连续变化；一张图同时回答输入是什么、输出是什么、为什么可交互。",
+  "publication": {
+    "title": "Genie: Generative Interactive Environments",
+    "venue": "ICML",
+    "year": 2024,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://icml.cc/virtual/2024/oral/35508",
+    "evidence_type": "official-conference",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "任务概念与交互能力 teaser。",
+    "why_selected": "左侧三种输入沿统一箭头进入模型，右侧按动作展示连续变化；一张图同时回答输入是什么、输出是什么、为什么可交互。",
+    "what_to_borrow": [
+      "输入类型用不同颜色贯穿对应输出行",
+      "操作标记紧邻连续帧",
+      "大箭头承载模型身份并组织阅读方向"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://sites.google.com/view/genie2024/home",
+    "authors": [
+      "Bruce, Jake",
+      "Dennis, Michael",
+      "Edwards, Ashley",
+      "Parker-Holder, Jack",
+      "Shi, Yuge",
+      "Hughes, Edward",
+      "Lai, Matthew",
+      "Mavalankar, Aditi",
+      "Steigerwald, Richie",
+      "Apps, Chris",
+      "Aytar, Yusuf",
+      "Bechtle, Sarah",
+      "Behbahani, Feryal",
+      "Chan, Stephanie",
+      "Heess, Nicolas",
+      "Gonzalez, Lucy",
+      "Osindero, Simon",
+      "Ozair, Sherjil",
+      "Reed, Scott",
+      "Zhang, Jingwei",
+      "Zolna, Konrad",
+      "Clune, Jeff",
+      "de Freitas, Nando",
+      "Singh, Satinder",
+      "Rocktäschel, Tim"
+    ],
+    "urls": [
+      "https://sites.google.com/view/genie2024/home",
+      "https://arxiv.org/abs/2402.15391",
+      "https://arxiv.org/pdf/2402.15391",
+      "https://icml.cc/virtual/2024/oral/35508"
+    ],
+    "arxiv_id": "2402.15391",
+    "full_pdf_url": "https://arxiv.org/pdf/2402.15391",
+    "full_pdf_sha256": "94c63a5ced89355326706c88236591c2972ced12f3dece4f8982f020110c81f3",
+    "full_pdf_bytes": 42346194,
+    "page_number": 1,
+    "figure_number": 1,
+    "crop_bbox_pt": [
+      62,
+      213,
+      534,
+      410
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 15,
+    "pdf_drawing_objects": 52,
+    "embedded_raster_images": 14,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 67,
+      "path": 71,
+      "clipPath": 21,
+      "image": 15,
+      "mask": 1,
+      "use": 98,
+      "rect": 2
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 23
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 23 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 806,
+      "sha256": "516bbd81d1fe027179d0daaaf008b691a19c9fd681d188c47f30b9276cfe6ca1"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 2917032,
+      "sha256": "f0c5d7fbd3ac7570dd5e8318a77087b8133b2e9e8b01bdba420744ef4611650d"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 227582,
+      "sha256": "9ff753ddebba1f6ad06d5b8157a35148e90b30522077835c2d882a0e0b966d60"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 3289051,
+      "sha256": "e4c4d6291a1869c0e0287deab62a91089ff6672a087f1c4e67e4924f49fdedf6"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Paper: Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
+Authors: Müller, Thomas, Evans, Alex, Schied, Christoph, Keller, Alexander
+Paper URL: https://arxiv.org/abs/2201.05989
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。
+Figure excerpt and conversion only; no redrawing.

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "dreamgaussian-architecture",
+  "title": "DreamGaussian · 高斯生成、网格提取与纹理细化",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "dreamgaussian",
+    "ICLR",
+    "2024",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "三个带编号的区域分别解释表示初始化、表示转换和后续细化，同时把不同损失放在对应优化回路内。",
+  "publication": {
+    "title": "DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation",
+    "venue": "ICLR",
+    "year": 2024,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://dreamgaussian.github.io/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "多阶段生成与优化框架图。",
+    "why_selected": "三个带编号的区域分别解释表示初始化、表示转换和后续细化，同时把不同损失放在对应优化回路内。",
+    "what_to_borrow": [
+      "阶段区域用边框与编号区分",
+      "显式画出三维表示转换",
+      "把损失与其实际作用阶段放在一起"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://dreamgaussian.github.io/",
+    "authors": [
+      "Tang, Jiaxiang",
+      "Ren, Jiawei",
+      "Zhou, Hang",
+      "Liu, Ziwei",
+      "Zeng, Gang"
+    ],
+    "urls": [
+      "https://dreamgaussian.github.io/",
+      "https://arxiv.org/abs/2309.16653",
+      "https://arxiv.org/pdf/2309.16653",
+      "https://dreamgaussian.github.io/"
+    ],
+    "arxiv_id": "2309.16653",
+    "full_pdf_url": "https://arxiv.org/pdf/2309.16653",
+    "full_pdf_sha256": "a53b9219edcc31d683abe9b7b15e3dcc42eb2e6d669a16785e217d39b56d8a38",
+    "full_pdf_bytes": 8013225,
+    "page_number": 4,
+    "figure_number": 2,
+    "crop_bbox_pt": [
+      107,
+      80,
+      505,
+      307
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 29,
+    "pdf_drawing_objects": 31,
+    "embedded_raster_images": 11,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 348,
+      "path": 129,
+      "clipPath": 15,
+      "image": 22,
+      "mask": 11,
+      "use": 362,
+      "rect": 2
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 502,
+      "sha256": "242e37a771f93e504d24f5216dc62a22cc507a76a971b648af433718cf43a5fd"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 352302,
+      "sha256": "1ff1c5bc1c322168f8bd551f689e2af5b6f64b802e4803cd1c6ba4fb7b614351"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 214891,
+      "sha256": "9f1bb340895e8afe79c1d468d2cc7d2be4ea13bdb0195529259ee010c20714a3"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 592368,
+      "sha256": "838e5ec545c9b7cb471b44561e93c1f5434e2364dd8965c21908967e1be303cc"
+    }
+  ]
+}

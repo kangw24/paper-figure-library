@@ -1,0 +1,6 @@
+Paper: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+Authors: Dosovitskiy, Alexey, Beyer, Lucas, Kolesnikov, Alexander, Weissenborn, Dirk, Zhai, Xiaohua, Unterthiner, Thomas, Dehghani, Mostafa, Minderer, Matthias, Heigold, Georg, Gelly, Sylvain, Uszkoreit, Jakob, Houlsby, Neil
+Paper URL: https://arxiv.org/abs/2010.11929
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。
+Figure excerpt and conversion only; no redrawing.

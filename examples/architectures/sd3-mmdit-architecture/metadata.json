@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "id": "sd3-mmdit-architecture",
+  "title": "SD3 · 双模态主干与 MM-DiT block 展开",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "sd3",
+    "ICML",
+    "2024",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "左侧说明文本与图像条件如何进入主干，右侧以对称双路结构展开联合注意力，颜色和符号在两部分保持一致。",
+  "publication": {
+    "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+    "venue": "ICML",
+    "year": 2024,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://icml.cc/virtual/2024/oral/35548",
+    "evidence_type": "official-conference",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "多模态网络架构；适合借鉴整体图加模块详图的排版。",
+    "why_selected": "左侧说明文本与图像条件如何进入主干，右侧以对称双路结构展开联合注意力，颜色和符号在两部分保持一致。",
+    "what_to_borrow": [
+      "整体网络与 block 内部各占一个清晰区域",
+      "双模态用对称布局区分",
+      "局部运算符与残差连线统一使用"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://stability.ai/news/stable-diffusion-3-research-paper",
+    "authors": [
+      "Esser, Patrick",
+      "Kulal, Sumith",
+      "Blattmann, Andreas",
+      "Entezari, Rahim",
+      "Müller, Jonas",
+      "Saini, Harry",
+      "Levi, Yam",
+      "Lorenz, Dominik",
+      "Sauer, Axel",
+      "Boesel, Frederic",
+      "Podell, Dustin",
+      "Dockhorn, Tim",
+      "English, Zion",
+      "Lacey, Kyle",
+      "Goodwin, Alex",
+      "Marek, Yannik",
+      "Rombach, Robin"
+    ],
+    "urls": [
+      "https://stability.ai/news/stable-diffusion-3-research-paper",
+      "https://arxiv.org/abs/2403.03206",
+      "https://arxiv.org/pdf/2403.03206",
+      "https://icml.cc/virtual/2024/oral/35548"
+    ],
+    "arxiv_id": "2403.03206",
+    "full_pdf_url": "https://arxiv.org/pdf/2403.03206",
+    "full_pdf_sha256": "7ba352b6ded12859cda4d47df203d5fe38ee884c45f3b67ff227549d82db1487",
+    "full_pdf_bytes": 33973124,
+    "page_number": 5,
+    "figure_number": 2,
+    "crop_bbox_pt": [
+      55,
+      65,
+      508,
+      384
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 141,
+    "pdf_drawing_objects": 249,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 305,
+      "path": 390,
+      "use": 492
+    },
+    "notes": [
+      "结构与文字轮廓均为矢量路径；另附 PDF 摘图保留原字体和结构。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 692,
+      "sha256": "6cc2aff69f927af810759336ac9fee2d62b7ebf05f6b02f15f52cd2749ffb1a1"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 186668,
+      "sha256": "b1e9b3f2547e443c30bca317c83d96c05b6ac15cde358e920945111f9f578735"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 91379,
+      "sha256": "c519f7041f06e7c25908f0623ab12823dc98bec503ab6bd368799200aa9dc7c0"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 268977,
+      "sha256": "c4d4f5d2af3afaf3bd3efdeabd26bed0e0c357b13c6b45f06d8a83bb93e8212a"
+    }
+  ]
+}

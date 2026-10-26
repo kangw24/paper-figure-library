@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "gaussian-splatting-architecture",
+  "title": "3D Gaussian Splatting · 优化与光栅化双向流程",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "collection": "top-conference-figures-2026-10",
+  "tags": [
+    "architecture",
+    "gaussian-splatting",
+    "SIGGRAPH",
+    "2023",
+    "conference-paper"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "黑色实线和蓝色箭头分别表达正向操作与梯度回传，让自适应密度控制与可微渲染的关系无需依赖长图注。",
+  "publication": {
+    "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+    "venue": "SIGGRAPH",
+    "year": 2023,
+    "presentation": "conference-paper",
+    "award": null,
+    "evidence_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "优化与渲染框架；SIGGRAPH 精选，未标作已核实 Oral。",
+    "why_selected": "黑色实线和蓝色箭头分别表达正向操作与梯度回传，让自适应密度控制与可微渲染的关系无需依赖长图注。",
+    "what_to_borrow": [
+      "正向操作与梯度流使用两套明确的箭头",
+      "小型图例就地解释颜色语义",
+      "优化闭环与输出保持同一水平主线"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+    "authors": [
+      "Kerbl, Bernhard",
+      "Kopanas, Georgios",
+      "Leimkühler, Thomas",
+      "Drettakis, George"
+    ],
+    "urls": [
+      "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+      "https://arxiv.org/abs/2308.04079",
+      "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf",
+      "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
+    ],
+    "arxiv_id": "2308.04079",
+    "full_pdf_url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf",
+    "full_pdf_sha256": "d4b85a5d86f389dcd702203e6c4f21cdcce7f49450f33bc4adeadfee6edca2c7",
+    "full_pdf_bytes": 24343676,
+    "page_number": 5,
+    "figure_number": 2,
+    "crop_bbox_pt": [
+      51,
+      78,
+      562,
+      177
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 12,
+    "pdf_drawing_objects": 50,
+    "embedded_raster_images": 41,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 169,
+      "path": 179,
+      "clipPath": 80,
+      "image": 40,
+      "use": 175
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 将单图 PDF 转为自包含 SVG；文字转轮廓，原有位图嵌入。",
+    "等价展开 0 处超大坐标路径的统一缩放矩阵，修复部分 SVG 渲染器遗漏边框的问题；没有重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 469,
+      "sha256": "af37237013ad3a38d0ea5f635befa34c2ff5a4816a3b49d134ee4ed117f05c0c"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 563489,
+      "sha256": "a8a63529f06a4b6c9c6266d0069a93bd6781369065399aebdbbe0f97f217f13e"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 38507,
+      "sha256": "0de7904813ebc0c9721500ac81419d292c83898050fbf3c5890fc8fba849b250"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 377831,
+      "sha256": "52f20692971e24ca925fd6f4d1dda783e268197e8e20af835abecfa880c1ce9b"
+    }
+  ]
+}

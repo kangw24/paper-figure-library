@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "decollage",
+  "title": "DECOLLAGE：局部风格控制与三维细化",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "controllable-generation"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "从粗体素结构出发，用不同示例为局部赋予风格，再展示细化结果。作者的首屏 teaser，包含原始矢量箭头与嵌入渲染图。",
+  "classification_reason": "从粗体素结构出发，用不同示例为局部赋予风格，再展示细化结果。作者的首屏 teaser，包含原始矢量箭头与嵌入渲染图。",
+  "source": {
+    "project": "qiminchen/DECOLLAGE",
+    "urls": [
+      "https://github.com/qiminchen/DECOLLAGE",
+      "https://raw.githubusercontent.com/qiminchen/DECOLLAGE/c74f8a2d913154fe62f1ceef1ec78902bc3db4a8/teaser.svg"
+    ],
+    "commit": "c74f8a2d913154fe62f1ceef1ec78902bc3db4a8",
+    "original_files": [
+      "teaser.svg"
+    ],
+    "original_sha256": "0a51a01d49aeb1a1ba4dd35e2963d583676c6edc33934e14beef7e83914e7648",
+    "git_blob_sha": "2d79ef5a31c82f270306343f63ce20ac926fb5d1",
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "MIT",
+    "file": "LICENSE.source.txt",
+    "note": "保留来源仓库许可，实验结果和渲染图仍是原图。"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "embedded_raster_images": 26,
+    "editable_text": true,
+    "svg_object_counts": {
+      "path": 232,
+      "text": 10,
+      "image": 26,
+      "use": 0
+    },
+    "notes": [
+      "源 SVG 字节不变；部分文字为轮廓，渲染结果仍是嵌入位图。",
+      "已渲染检查，尚未在 Illustrator 逐项打开。"
+    ]
+  },
+  "changes": [
+    "下载作者公开的现有原图；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 1067,
+      "sha256": "2f9883842401dd5e82cb831e52e26517f91514ad563eb55f05e876d91dbe0133"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 360646,
+      "sha256": "e08df57c470b2f78bb5229606a9f40b2aa7cd6edf6dfd41b702920ce7302aae4"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 13975091,
+      "sha256": "0a51a01d49aeb1a1ba4dd35e2963d583676c6edc33934e14beef7e83914e7648"
+    }
+  ]
+}

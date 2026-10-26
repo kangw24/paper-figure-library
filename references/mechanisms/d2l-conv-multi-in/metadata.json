@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "d2l-conv-multi-in",
+  "title": "D2L · 多输入通道卷积",
+  "category": "mechanism",
+  "kind": "tutorial-example",
+  "origin": "downloaded",
+  "tags": [
+    "mechanism",
+    "Dive into Deep Learning",
+    "conv-multi-in"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。",
+  "source": {
+    "project": "d2l-ai/d2l-en",
+    "authors": [
+      "Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola"
+    ],
+    "urls": [
+      "https://github.com/d2l-ai/d2l-en",
+      "https://raw.githubusercontent.com/d2l-ai/d2l-en/23d7a5aecceee57d1292c56e90cce307f183bb0a/img/conv-multi-in.svg"
+    ],
+    "commit": "23d7a5aecceee57d1292c56e90cce307f183bb0a",
+    "original_files": [
+      "img/conv-multi-in.svg"
+    ],
+    "original_sha256": "f75f5ed4cdc666d5813ea08ac2e81b5a8796d67e91efd7071db7d412565a1d22",
+    "git_blob_sha": "3cd130371c7a4102fdaaa53142bcca6fc5db3cc7",
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-SA-4.0",
+    "note": "保留作者与原来源；图中实验照片和结果仍按各自原有权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": false,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "path": 81,
+      "text": 0,
+      "image": 0,
+      "rect": 0,
+      "circle": 0,
+      "polygon": 0,
+      "use": 96
+    },
+    "notes": [
+      "原 SVG 字节未修改；可能含轮廓文字或嵌入位图。",
+      "已渲染检查；桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "直接下载已有源图；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 14849,
+      "sha256": "a39a4b3d0f411a8217b7c6dd35dc8b06003784ce32d3593d0d2d780a7e9c2f8c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 16361,
+      "sha256": "48124fa816bd0d8a2ff634eecb0037f9ab1e3e7e24b23cd83b5dc2100c61e61d"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 49848,
+      "sha256": "f75f5ed4cdc666d5813ea08ac2e81b5a8796d67e91efd7071db7d412565a1d22"
+    }
+  ]
+}

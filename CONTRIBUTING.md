@@ -10,3 +10,7 @@
 6. 用 `python scripts/build_catalog.py` 更新索引；`python scripts/validate_library.py` 检查文件、哈希、来源与 SVG 引用。实际查看预览后才能标记 visual_reviewed。
 
 `elements/extraction-specs.json` 保存精确提取位置，`scripts/extract_elements.py` 可以重新提取；这只复制原有 SVG 节点，不生成新几何。
+
+扩充后，完整机制参考图放 references/mechanisms，版式母版放 templates/layouts；两者分别计数。元素页按内容和来源分组，完整画板与完整架构图不能当作一个最小图元凑数。
+
+原 AIT 可能只有提示文字的 PDF 层。遇到这种情况保留原生文件，改用原作者配套 PDF 或官方网页预览，并在元数据明确注明。预览文件变更后更新对应文件哈希。

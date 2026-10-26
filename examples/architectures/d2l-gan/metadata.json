@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "d2l-gan",
+  "title": "D2L · 生成对抗网络",
+  "category": "architecture",
+  "kind": "tutorial-example",
+  "origin": "downloaded",
+  "tags": [
+    "architecture",
+    "Dive into Deep Learning",
+    "gan"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。",
+  "source": {
+    "project": "d2l-ai/d2l-en",
+    "authors": [
+      "Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola"
+    ],
+    "urls": [
+      "https://github.com/d2l-ai/d2l-en",
+      "https://raw.githubusercontent.com/d2l-ai/d2l-en/23d7a5aecceee57d1292c56e90cce307f183bb0a/img/gan.svg"
+    ],
+    "commit": "23d7a5aecceee57d1292c56e90cce307f183bb0a",
+    "original_files": [
+      "img/gan.svg"
+    ],
+    "original_sha256": "f51dc373c89a89a620cef10e9712e991bd1c23dd4c62cbd698e56740caad1d5b",
+    "git_blob_sha": "1d618e014399cfc242570151b1502328d7ef1512",
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-SA-4.0",
+    "note": "保留作者与原来源；图中实验照片和结果仍按各自原有权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": false,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "path": 49,
+      "text": 0,
+      "image": 0,
+      "rect": 0,
+      "circle": 0,
+      "polygon": 0,
+      "use": 59
+    },
+    "notes": [
+      "原 SVG 字节未修改；可能含轮廓文字或嵌入位图。",
+      "已渲染检查；桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "直接下载已有源图；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 14849,
+      "sha256": "a39a4b3d0f411a8217b7c6dd35dc8b06003784ce32d3593d0d2d780a7e9c2f8c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 14172,
+      "sha256": "d77500e3a3a301f0e4861c42ec82596028ed46660922317353bde5c5a3732127"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 32781,
+      "sha256": "f51dc373c89a89a620cef10e9712e991bd1c23dd4c62cbd698e56740caad1d5b"
+    }
+  ]
+}

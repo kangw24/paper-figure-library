@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "d2l-trans-conv",
+  "title": "D2L · 转置卷积",
+  "category": "mechanism",
+  "kind": "tutorial-example",
+  "origin": "downloaded",
+  "tags": [
+    "mechanism",
+    "Dive into Deep Learning",
+    "trans_conv"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。",
+  "source": {
+    "project": "d2l-ai/d2l-en",
+    "authors": [
+      "Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola"
+    ],
+    "urls": [
+      "https://github.com/d2l-ai/d2l-en",
+      "https://raw.githubusercontent.com/d2l-ai/d2l-en/23d7a5aecceee57d1292c56e90cce307f183bb0a/img/trans_conv.svg"
+    ],
+    "commit": "23d7a5aecceee57d1292c56e90cce307f183bb0a",
+    "original_files": [
+      "img/trans_conv.svg"
+    ],
+    "original_sha256": "b37ad150a3158f196a4fc13d44e50683f5693a7b4003c74e1af05a5ed37182a9",
+    "git_blob_sha": "264b76b6fc3b3b7565227d8dbbfe9bfd8707f756",
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-SA-4.0",
+    "note": "保留作者与原来源；图中实验照片和结果仍按各自原有权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": false,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "path": 82,
+      "text": 0,
+      "image": 0,
+      "rect": 0,
+      "circle": 0,
+      "polygon": 0,
+      "use": 71
+    },
+    "notes": [
+      "原 SVG 字节未修改；可能含轮廓文字或嵌入位图。",
+      "已渲染检查；桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "直接下载已有源图；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 14849,
+      "sha256": "a39a4b3d0f411a8217b7c6dd35dc8b06003784ce32d3593d0d2d780a7e9c2f8c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 13428,
+      "sha256": "fb01550c04ec4ee3d488b6d51d13e98aaf98311747d2340419ed9ca3c5ef4dc4"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 48209,
+      "sha256": "b37ad150a3158f196a4fc13d44e50683f5693a7b4003c74e1af05a5ed37182a9"
+    }
+  ]
+}

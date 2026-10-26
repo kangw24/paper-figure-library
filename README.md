@@ -1,55 +1,49 @@
 # Paper Figure Library
 
-个人 CS / AI 论文配图参考与素材库。收集作者公开的 **teaser 范例**、**architecture 范例** 和 **有出处的最小元素**。
+个人 CS / AI 论文配图素材库。收集作者和成熟素材库已有的源文件，方便用 Illustrator 选图、拆图和组合。
 
-**5 个 teaser · 7 个 architecture（5 个论文方法图 + 2 个 AI 教程）· 16 个外部或原图提取元素**。
+**317 个独立元素 · 7 个 teaser · 23 个 architecture · 17 张机制参考图 · 11 份原生版式模板**。
 
-| 分类 | 入口 | 内容 |
-|---|---|---|
-| Teaser | [浏览原图](examples/teasers/README.md) | OrienterNet、RayDer、ShaDDR、K-LoRA、Uneven Double Refraction |
-| Architecture | [浏览原图](examples/architectures/README.md) | LightGlue、LAV、RUST、RayDer、CLIP；另保留 2 份原生 AI 教程 |
-| 最小元素 | [浏览图元](elements/README.md) | 5 个 CC0 原图元 + 11 个从作者 SVG 提取的现成部件 |
-| 全部 | [图文目录](CATALOG.md) · [来源索引](catalog.json) | 每项含原文件、预览和来源记录 |
+## 先找元素
 
-## Teaser 先看这几张
+[![元素选览](elements/preview.png)](elements/README.md)
 
-### [OrienterNet：任务与动机](examples/teasers/orienternet/)
+| 内容 | 入口 |
+|---|---|
+| 网络、张量、特征图与模块 | [网络与模块](elements/by-category/modules.md) · [数据表示](elements/by-category/data.md) |
+| 箭头、分支、汇合、弯曲连接 | [箭头与连接](elements/by-category/connections.md) |
+| 运算、冻结与训练标记 | [运算与变换](elements/by-category/operations.md) · [训练与标记](elements/by-category/training.md) |
+| GPU、服务器、相机、云、设备 | [设备与对象](elements/by-category/devices.md) |
+| 原图来源、许可、署名和源文件 | [元素图文目录](elements/README.md) · [逐项记录](elements/catalog.json) |
+| 离线搜索与筛选 | 下载仓库后打开 [gallery.html](elements/gallery.html)，按中文、英文、分类和来源检索 |
 
-![OrienterNet](examples/teasers/orienternet/preview.png)
+这批元素包括 **160 个 Tabler 通用线性图标、100 个 Bioicons 科学与计算图元、30 个 Isoflow 等轴测对象、11 个从原 task5.ai 提取的网络部件，以及此前的 16 个作者来源元素**。通用图标和网络专用部件在分类与来源页分别列出。
 
-### [RayDer：既有数据瓶颈与新范式](examples/teasers/rayder-concept/)
+原 AI 提取的部件包括：多通道张量、特征层、多尺度特征堆叠、CBR、GAP、FC+ReLU、拼接、加法、乘法和上采样。只复制原有路径与字形，记录原图、画板和节点位置。
 
-![RayDer](examples/teasers/rayder-concept/preview.png)
+## 范例与模板
 
-### [ShaDDR：输入、风格示例与成果](examples/teasers/shaddr/)
+| 分类 | 数量 | 内容 |
+|---|---:|---|
+| [Teaser](examples/teasers/README.md) | 7 | OrienterNet、RayDer、ShaDDR、K-LoRA、DECOLLAGE、LightGlue 等作者原图；覆盖动机、方法差异、能力与速度精度权衡 |
+| [Architecture](examples/architectures/README.md) | 23 | 5 个论文方法图、16 个 D2L 教材结构图、2 个原生 AI 教程；包括 Transformer、ViT、ResNet、DenseNet、LSTM、GRU、GAN 等 |
+| [机制参考](references/mechanisms/README.md) | 17 | 卷积、池化、Q/K/V、多头注意力与转置卷积等完整机制图；不计入最小元素数量 |
+| [原生版式模板](templates/layouts/README.md) | 11 | Nature 官方、SciFigureTemplates、ICML / IEEE-ISBI 等 AI / AIT 母版；不计入 teaser 或元素数量 |
+| [全部素材与来源](CATALOG.md) | — | 图文目录与 [JSON 索引](catalog.json) |
 
-![ShaDDR](examples/teasers/shaddr/preview.png)
+## 来源与编辑范围
 
-## Architecture 示例
+所有新增原始 SVG、AI、AIT 保留下载字节，GitHub 来源按固定版本和 blob 哈希核对。拆取的图元保留完整原图与精确节点位置。没有运行来源仓库中的图形生成脚本，也没有用本仓库自行生成的图形填充素材数量。
 
-[![LightGlue](examples/architectures/lightglue/preview.png)](examples/architectures/lightglue/)
+照片和三维渲染图仍是内嵌位图，部分字形已转轮廓。原 AIT 有些未保存实际 PDF 兼容图形，预览采用同一作者配套 PDF 或官方网页；说明中明确记录了预览来源。已检查图形预览与文件完整性，桌面 Illustrator 尚未逐项实测。
 
-## 图元
+许可逐项保留。CC BY 等条目有作者与来源信息；未明确授权的论文图和教程部件作为参考保存。不要给整库第三方素材统一套用新的许可证。
 
-[![外部来源图元](elements/preview.png)](elements/README.md)
+## 维护
 
-## 收录规则
+新增规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。运行以下两步更新索引并检查完整性：
 
-- 图形必须有可追溯的外部来源。本仓库只下载、提取、转换、做预览与索引；不自行生成图形充数。
-- Teaser 按实际作用判断：用任务、动机、方法差异或成果抓住核心贡献。Figure 1 只是编号。
-- Architecture 用于说明模块、连接和数据流。LAV、RUST 的原文件虽名为 teaser.svg，仍按结构内容归入 architecture。
-- 保留原始 SVG 字节；提取元素记录原文件哈希与节点位置。SVG 中的图片、轮廓文字和实际文字对象分别标注，不把文件后缀当作完全可编辑的证明。
-- 来源许可逐项保存；图片中的地图、照片和论文实验结果保留原权利状态。
+    python scripts/build_catalog.py
+    python scripts/validate_library.py
 
-## 使用与维护
-
-进入条目查看 PNG 预览，再下载 SVG 或 AI。SVG 可交给 Illustrator 导入；已检查浏览渲染，桌面 Illustrator 尚未逐项实测。原生 AI 教程中的旧链接问题见对应说明。
-
-新增素材参见 [CONTRIBUTING.md](CONTRIBUTING.md)。更新目录并检查完整性：
-
-```bash
-python scripts/build_catalog.py
-python scripts/validate_library.py
-```
-
-[本次来源清单](sources/downloads.json) · [旧库纠正记录](docs/curation-correction.md)
+[本轮批量下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)

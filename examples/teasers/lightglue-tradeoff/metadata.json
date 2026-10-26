@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "lightglue-tradeoff",
+  "title": "LightGlue：速度与精度权衡",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "tradeoff"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "准确率与吞吐量的权衡作为论文的贡献展示，比较固定深度、动态深度与既有方法。它属于结果型 teaser。",
+  "classification_reason": "准确率与吞吐量的权衡作为论文的贡献展示，比较固定深度、动态深度与既有方法。它属于结果型 teaser。",
+  "source": {
+    "project": "cvg/LightGlue",
+    "urls": [
+      "https://github.com/cvg/LightGlue",
+      "https://raw.githubusercontent.com/cvg/LightGlue/eb42fee2d71449efb0aa5c10549752b5d75384d8/assets/teaser.svg"
+    ],
+    "commit": "eb42fee2d71449efb0aa5c10549752b5d75384d8",
+    "original_files": [
+      "assets/teaser.svg"
+    ],
+    "original_sha256": "b68546af51c1215970c695a97d1adcb01380040821eb182581563f356f389f3c",
+    "git_blob_sha": "c2acdb96a9f1f8e35de3cc472c1eab013adeedb2",
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "Apache-2.0",
+    "file": "LICENSE.source.txt",
+    "note": "保留来源仓库许可，实验结果和渲染图仍是原图。"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "embedded_raster_images": 0,
+    "editable_text": false,
+    "svg_object_counts": {
+      "path": 63,
+      "text": 0,
+      "image": 0,
+      "use": 166
+    },
+    "notes": [
+      "源 SVG 字节不变；部分文字为轮廓，渲染结果仍是嵌入位图。",
+      "已渲染检查，尚未在 Illustrator 逐项打开。"
+    ]
+  },
+  "changes": [
+    "下载作者公开的现有原图；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 11340,
+      "sha256": "0e6031ed3e62dc91dc8b1c8f240abd200b1083f60773362e64e339fe01d1bf18"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 169817,
+      "sha256": "6ca5098e0f59c2bc9882867ed0ad5fa21a2f17530ba945f51eb81ff5fe8be11d"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 37584,
+      "sha256": "b68546af51c1215970c695a97d1adcb01380040821eb182581563f356f389f3c"
+    }
+  ]
+}

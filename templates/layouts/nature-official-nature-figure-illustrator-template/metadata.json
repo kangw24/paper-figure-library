@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "nature-official-nature-figure-illustrator-template",
+  "title": "Nature 官方 · nature-figure-illustrator-template",
+  "category": "layout-template",
+  "kind": "template",
+  "origin": "downloaded",
+  "tags": [
+    "illustrator",
+    "canvas",
+    "layout-template"
+  ],
+  "formats": [
+    "ait"
+  ],
+  "primary_file": "nature-figure-illustrator-template.ait",
+  "preview": "preview.png",
+  "summary": "作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。",
+  "source": {
+    "project": "Nature research figure guide",
+    "urls": [
+      "https://research-figure-guide.nature.com/resources/templates/",
+      "https://research-figure-guide.nature.com/static/templates/nature-figure-illustrator-template.ait"
+    ],
+    "original_sha256": "1758b3a3acd41d983669e6feaba33ed7a5bf2a8ac5174a4976d2687b0ebed042",
+    "retrieved_date": "2026-10-25",
+    "preview_url": "https://research-figure-guide.nature.com/static/images/templates/illustrator.png"
+  },
+  "license": {
+    "status": "no-explicit-reuse-license",
+    "name": "website-terms",
+    "note": "保留原说明；模板中的尺寸与规范信息应在投稿时核对期刊当前要求。"
+  },
+  "editability": {
+    "native_format": "ait",
+    "pdf_compatible_preview": false,
+    "notes": [
+      "原 AIT 包含 Illustrator 原生编辑数据；其 PDF 层为缺少 PDF 内容的占位提示。",
+      "预览采用 Nature 官方网页截图；尚未在 Illustrator 打开原生文件。"
+    ],
+    "preview_source": "Nature 官方模板页面的 illustrator.png"
+  },
+  "changes": [
+    "原生 AI / AIT 字节保持不变，仅生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "nature-figure-illustrator-template.ait",
+      "bytes": 217531,
+      "sha256": "1758b3a3acd41d983669e6feaba33ed7a5bf2a8ac5174a4976d2687b0ebed042"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 75135,
+      "sha256": "8df610d8250c98be6bfe7479f28320f3c62cb0a3e5e9cea4b1a61aa511c6066e"
+    }
+  ]
+}

@@ -19,7 +19,7 @@ KINDS = {"template", "paper-example", "tutorial-example"}
 def validate(root: Path) -> tuple[list[str], dict[str, int]]:
     root = root.resolve()
     errors: list[str] = []
-    counts = {"teaser": 0, "architecture": 0, "element": 0, "svg": 0}
+    counts = {"teaser": 0, "architecture": 0, "element": 0, "mechanism": 0, "layout-template": 0, "svg": 0}
     ids: set[str] = set()
 
     def error(path: Path | str, message: str) -> None:
@@ -58,8 +58,8 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
         else:
             ids.add(value)
 
-    for category, directory in (("teaser", "teasers"), ("architecture", "architectures")):
-        folder = root / "examples" / directory
+    for category, directory in (("teaser", "examples/teasers"), ("architecture", "examples/architectures"), ("mechanism", "references/mechanisms"), ("layout-template", "templates/layouts")):
+        folder = root / directory
         for entry in sorted(folder.iterdir()) if folder.is_dir() else []:
             if not entry.is_dir() or entry.name.startswith("."):
                 continue
@@ -199,6 +199,7 @@ def main() -> int:
         return 1
     print(f"校验通过：{counts['teaser']} teaser，{counts['architecture']} architecture，"
           f"{counts['element']} 元素；{counts['svg']} 个 SVG 已检查。")
+    print(f"另含 {counts['mechanism']} 张机制参考图、{counts['layout-template']} 份原生版式模板；分别计数。")
     print("仅检查结构、引用、已记录校验和及 SVG 自包含性；不证明桌面 Illustrator 兼容性或素材授权。")
     return 0
 

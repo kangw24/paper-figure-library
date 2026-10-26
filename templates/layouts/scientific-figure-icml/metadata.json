@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "scientific-figure-icml",
+  "title": "Scientific Figure Templates · ICML",
+  "category": "layout-template",
+  "kind": "template",
+  "origin": "downloaded",
+  "tags": [
+    "illustrator",
+    "canvas",
+    "layout-template"
+  ],
+  "formats": [
+    "ai"
+  ],
+  "primary_file": "ICML.ai",
+  "preview": "preview.png",
+  "summary": "作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。",
+  "source": {
+    "project": "j6k4m8/Scientific-Figure-Templates",
+    "urls": [
+      "https://github.com/j6k4m8/Scientific-Figure-Templates",
+      "https://raw.githubusercontent.com/j6k4m8/Scientific-Figure-Templates/f9637dad70e088a57b689bf7f831f61a78712b25/ICML.ai"
+    ],
+    "original_sha256": "009bac0710cfe87897cb97fbef74c830947b072064180455ac29609b6119562c",
+    "retrieved_date": "2026-10-25",
+    "git_blob_sha": "1d749f3bca5ace589bf8aac7db2a93626664147b",
+    "commit": "f9637dad70e088a57b689bf7f831f61a78712b25"
+  },
+  "license": {
+    "status": "no-explicit-reuse-license",
+    "name": "no-explicit-license",
+    "note": "保留原说明；模板中的尺寸与规范信息应在投稿时核对期刊当前要求。"
+  },
+  "editability": {
+    "native_format": "ai",
+    "pdf_compatible_preview": true,
+    "notes": [
+      "已渲染 PDF 兼容层；尚未逐一在 Illustrator 打开。"
+    ]
+  },
+  "changes": [
+    "原生 AI / AIT 字节保持不变，仅生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "ICML.ai",
+      "bytes": 1225689,
+      "sha256": "009bac0710cfe87897cb97fbef74c830947b072064180455ac29609b6119562c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 14042,
+      "sha256": "ce01ce9c6e6165f0a85c531a6ecba24455baf7af31a9798126caee6a83f88ae1"
+    }
+  ]
+}

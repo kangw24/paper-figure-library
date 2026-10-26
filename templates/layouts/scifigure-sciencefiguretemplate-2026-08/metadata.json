@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "scifigure-sciencefiguretemplate-2026-08",
+  "title": "SciFigureTemplates · ScienceFigureTemplate_2026-08",
+  "category": "layout-template",
+  "kind": "template",
+  "origin": "downloaded",
+  "tags": [
+    "illustrator",
+    "canvas",
+    "layout-template"
+  ],
+  "formats": [
+    "ait"
+  ],
+  "primary_file": "ScienceFigureTemplate_2026-08.ait",
+  "preview": "preview.png",
+  "summary": "作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。",
+  "source": {
+    "project": "GutierrezPhys/SciFigureTemplates",
+    "urls": [
+      "https://github.com/GutierrezPhys/SciFigureTemplates",
+      "https://raw.githubusercontent.com/GutierrezPhys/SciFigureTemplates/04b8c7988a486d6c7e39d6f8e0cd7007cf91ad4d/ScienceFigureTemplate_2026-08.ait"
+    ],
+    "original_sha256": "9997fcc45283b0427a194db0bca7e960b76e217dd19ea74c9377007fcb535e53",
+    "retrieved_date": "2026-10-25",
+    "git_blob_sha": "71f46a94923c6518ec86be70c95e3d4f1fd27f35",
+    "commit": "04b8c7988a486d6c7e39d6f8e0cd7007cf91ad4d"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "MIT",
+    "note": "保留原说明；模板中的尺寸与规范信息应在投稿时核对期刊当前要求。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "ait",
+    "pdf_compatible_preview": false,
+    "notes": [
+      "原 AIT 包含 Illustrator 原生编辑数据；其 PDF 层只保存缺少 PDF 内容的占位提示。",
+      "预览从同一作者的配套 PDF 渲染；未把占位提示当作实际模板。",
+      "尚未逐一在 Illustrator 中打开。"
+    ],
+    "preview_source": "作者配套 PDF"
+  },
+  "changes": [
+    "原生 AI / AIT 字节保持不变，仅生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 1079,
+      "sha256": "e4bce76ce7fa34aebc47ffc7ed4957d63a60e779b990b480a73d62b4b955cde5"
+    },
+    {
+      "path": "ScienceFigureTemplate_2026-08.ait",
+      "bytes": 384643,
+      "sha256": "9997fcc45283b0427a194db0bca7e960b76e217dd19ea74c9377007fcb535e53"
+    },
+    {
+      "path": "ScienceFigureTemplate_2026-08.pdf",
+      "bytes": 439528,
+      "sha256": "ca4b0a9ee9c4f00182e9c4d07ab445d98faf2c5acc77c842fe144aeb0a0ce48c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 37643,
+      "sha256": "f841b9faa763e3501d0498ec4be63ef6d6cb19e539f9694a39b841dbd947d720"
+    }
+  ]
+}

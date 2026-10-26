@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "d2l-lstm-3",
+  "title": "D2L · LSTM 内部门控",
+  "category": "architecture",
+  "kind": "tutorial-example",
+  "origin": "downloaded",
+  "tags": [
+    "architecture",
+    "Dive into Deep Learning",
+    "lstm-3"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。",
+  "source": {
+    "project": "d2l-ai/d2l-en",
+    "authors": [
+      "Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola"
+    ],
+    "urls": [
+      "https://github.com/d2l-ai/d2l-en",
+      "https://raw.githubusercontent.com/d2l-ai/d2l-en/23d7a5aecceee57d1292c56e90cce307f183bb0a/img/lstm-3.svg"
+    ],
+    "commit": "23d7a5aecceee57d1292c56e90cce307f183bb0a",
+    "original_files": [
+      "img/lstm-3.svg"
+    ],
+    "original_sha256": "41fb0bc833e05ff2b24c86bf1b15b1c275009e7e2b4f61b7404df61290d95874",
+    "git_blob_sha": "5bb09b1f1dfde1a1ff1f3e3e24ac061a8343483c",
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-SA-4.0",
+    "note": "保留作者与原来源；图中实验照片和结果仍按各自原有权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": false,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "path": 126,
+      "text": 0,
+      "image": 0,
+      "rect": 0,
+      "circle": 0,
+      "polygon": 0,
+      "use": 185
+    },
+    "notes": [
+      "原 SVG 字节未修改；可能含轮廓文字或嵌入位图。",
+      "已渲染检查；桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "直接下载已有源图；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 14849,
+      "sha256": "a39a4b3d0f411a8217b7c6dd35dc8b06003784ce32d3593d0d2d780a7e9c2f8c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 26360,
+      "sha256": "df621936ad069ef6433af71554128f7283bfcf956cb7ed488aeaad5bfea45e2c"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 80612,
+      "sha256": "41fb0bc833e05ff2b24c86bf1b15b1c275009e7e2b4f61b7404df61290d95874"
+    }
+  ]
+}

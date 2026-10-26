@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "d2l-densenet-block",
+  "title": "D2L · DenseNet 密集连接块",
+  "category": "architecture",
+  "kind": "tutorial-example",
+  "origin": "downloaded",
+  "tags": [
+    "architecture",
+    "Dive into Deep Learning",
+    "densenet-block"
+  ],
+  "formats": [
+    "svg"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。",
+  "source": {
+    "project": "d2l-ai/d2l-en",
+    "authors": [
+      "Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola"
+    ],
+    "urls": [
+      "https://github.com/d2l-ai/d2l-en",
+      "https://raw.githubusercontent.com/d2l-ai/d2l-en/23d7a5aecceee57d1292c56e90cce307f183bb0a/img/densenet-block.svg"
+    ],
+    "commit": "23d7a5aecceee57d1292c56e90cce307f183bb0a",
+    "original_files": [
+      "img/densenet-block.svg"
+    ],
+    "original_sha256": "f11c993d8ab435151c29c24797c5545bed4e1914cb4088c6137b517c53b95579",
+    "git_blob_sha": "04feb3874fd0ee4d62e89da50180c735c52fe4a9",
+    "retrieved_date": "2026-10-25"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-SA-4.0",
+    "note": "保留作者与原来源；图中实验照片和结果仍按各自原有权利状态。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "author-supplied SVG",
+    "vector_shapes": true,
+    "editable_text": false,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "path": 26,
+      "text": 0,
+      "image": 0,
+      "rect": 0,
+      "circle": 0,
+      "polygon": 0,
+      "use": 10
+    },
+    "notes": [
+      "原 SVG 字节未修改；可能含轮廓文字或嵌入位图。",
+      "已渲染检查；桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "直接下载已有源图；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 14849,
+      "sha256": "a39a4b3d0f411a8217b7c6dd35dc8b06003784ce32d3593d0d2d780a7e9c2f8c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 10002,
+      "sha256": "286700c7d40cbad52fb5a98c098776b1ba845612c38a305c79e45fce83cd09fb"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 10152,
+      "sha256": "f11c993d8ab435151c29c24797c5545bed4e1914cb4088c6137b517c53b95579"
+    }
+  ]
+}

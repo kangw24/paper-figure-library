@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "scientific-figure-nature",
+  "title": "Scientific Figure Templates · Nature",
+  "category": "layout-template",
+  "kind": "template",
+  "origin": "downloaded",
+  "tags": [
+    "illustrator",
+    "canvas",
+    "layout-template"
+  ],
+  "formats": [
+    "ai"
+  ],
+  "primary_file": "Nature.ai",
+  "preview": "preview.png",
+  "summary": "作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。",
+  "source": {
+    "project": "j6k4m8/Scientific-Figure-Templates",
+    "urls": [
+      "https://github.com/j6k4m8/Scientific-Figure-Templates",
+      "https://raw.githubusercontent.com/j6k4m8/Scientific-Figure-Templates/f9637dad70e088a57b689bf7f831f61a78712b25/Nature.ai"
+    ],
+    "original_sha256": "77a86e509e276506667dcf800ebd7896054e99b29e9de53828c13599789245ff",
+    "retrieved_date": "2026-10-25",
+    "git_blob_sha": "8243115020cc8068c8651eb0d4c335b83a322392",
+    "commit": "f9637dad70e088a57b689bf7f831f61a78712b25"
+  },
+  "license": {
+    "status": "no-explicit-reuse-license",
+    "name": "no-explicit-license",
+    "note": "保留原说明；模板中的尺寸与规范信息应在投稿时核对期刊当前要求。"
+  },
+  "editability": {
+    "native_format": "ai",
+    "pdf_compatible_preview": true,
+    "notes": [
+      "已渲染 PDF 兼容层；尚未逐一在 Illustrator 打开。"
+    ]
+  },
+  "changes": [
+    "原生 AI / AIT 字节保持不变，仅生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "Nature.ai",
+      "bytes": 1264433,
+      "sha256": "77a86e509e276506667dcf800ebd7896054e99b29e9de53828c13599789245ff"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 77729,
+      "sha256": "263d0dd75ed358ee5da8a88500c91d841157e0fbbe13c25d67af57d0c8d694fd"
+    }
+  ]
+}

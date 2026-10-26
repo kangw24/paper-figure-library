@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "scifigure-iopfiguretemplate",
+  "title": "SciFigureTemplates · IOPFigureTemplate",
+  "category": "layout-template",
+  "kind": "template",
+  "origin": "downloaded",
+  "tags": [
+    "illustrator",
+    "canvas",
+    "layout-template"
+  ],
+  "formats": [
+    "ait"
+  ],
+  "primary_file": "IOPFigureTemplate.ait",
+  "preview": "preview.png",
+  "summary": "作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。",
+  "source": {
+    "project": "GutierrezPhys/SciFigureTemplates",
+    "urls": [
+      "https://github.com/GutierrezPhys/SciFigureTemplates",
+      "https://raw.githubusercontent.com/GutierrezPhys/SciFigureTemplates/04b8c7988a486d6c7e39d6f8e0cd7007cf91ad4d/IOPFigureTemplate.ait"
+    ],
+    "original_sha256": "e411492bd8009026690502637d4eb4fd28d8899b7f4d789e737507e3764e7712",
+    "retrieved_date": "2026-10-25",
+    "git_blob_sha": "09d64c9378eceedf46d25831aa96846c00b074f5",
+    "commit": "04b8c7988a486d6c7e39d6f8e0cd7007cf91ad4d"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "MIT",
+    "note": "保留原说明；模板中的尺寸与规范信息应在投稿时核对期刊当前要求。",
+    "file": "LICENSE.source.txt"
+  },
+  "editability": {
+    "native_format": "ait",
+    "pdf_compatible_preview": false,
+    "notes": [
+      "原 AIT 包含 Illustrator 原生编辑数据；其 PDF 层只保存缺少 PDF 内容的占位提示。",
+      "预览从同一作者的配套 PDF 渲染；未把占位提示当作实际模板。",
+      "尚未逐一在 Illustrator 中打开。"
+    ],
+    "preview_source": "作者配套 PDF"
+  },
+  "changes": [
+    "原生 AI / AIT 字节保持不变，仅生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-25",
+  "files": [
+    {
+      "path": "IOPFigureTemplate.ait",
+      "bytes": 374538,
+      "sha256": "e411492bd8009026690502637d4eb4fd28d8899b7f4d789e737507e3764e7712"
+    },
+    {
+      "path": "IOPFigureTemplate.pdf",
+      "bytes": 420845,
+      "sha256": "01e73c140cffef8019698d72e9cf0fdf70fa7fdaa01f38f48dd5d372e020fbc3"
+    },
+    {
+      "path": "LICENSE.source.txt",
+      "bytes": 1079,
+      "sha256": "e4bce76ce7fa34aebc47ffc7ed4957d63a60e779b990b480a73d62b4b955cde5"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 64788,
+      "sha256": "61682ee9e81d0f25b72ccd54fa46c278bf75628613f799e961339ca7c871c57a"
+    }
+  ]
+}

@@ -7,7 +7,6 @@
   "origin": "downloaded",
   "tags": [
     "survey",
-    "user-reference",
     "conceptual-overview",
     "scope-method-application-map",
     "ai4pde",
@@ -33,7 +32,7 @@
     "source_version": "2410.19843v3"
   },
   "curation": {
-    "figure_role": "用户指定的综述 teaser 选图参照，原论文 Figure 1。重点在领域定位与方法—应用关系；后续可在保留内容关系的基础上统一视觉设计。",
+    "figure_role": "原论文 Figure 1。重点在领域定位与方法—应用关系；可在保留内容关系的基础上统一视觉设计。",
     "figure_subtype": "scope-method-application-map",
     "panel_layout": {
       "method_families": 3,
@@ -50,7 +49,6 @@
       "三个应用领域沿用正问题／反问题的相同组织规则，便于横向阅读。"
     ],
     "reviewed_from": "original paper page, native author figure, and final rendered preview",
-    "user_reference": true,
     "design_notes": [
       "统一领域圆环、方法块和应用分支的字号、线宽与配色层级。",
       "压缩二级任务标签的视觉权重，为固体、流体和生物力学各配置有真实来源的代表性科学示意图。",

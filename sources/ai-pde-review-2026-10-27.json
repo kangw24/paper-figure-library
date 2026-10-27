@@ -1,6 +1,5 @@
 {
   "date": "2026-10-27",
-  "policy": "User-selected conceptual review figures; preserve author originals and record semantic structure and proposed visual refinements.",
   "papers": [
     {
       "id": "ai-pde-mechanics",
@@ -66,5 +65,6 @@
       },
       "editability": "vector-and-raster"
     }
-  ]
+  ],
+  "collection_note": "Two review figures with author originals, source records, SVG conversions, and figure-specific layout notes."
 }

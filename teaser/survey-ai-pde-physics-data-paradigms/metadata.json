@@ -7,7 +7,6 @@
   "origin": "downloaded",
   "tags": [
     "survey",
-    "user-reference",
     "conceptual-overview",
     "method-comparison",
     "ai4pde",
@@ -33,7 +32,7 @@
     "source_version": "2410.19843v3"
   },
   "curation": {
-    "figure_role": "用户指定的综述 teaser 选图参照，原论文 Figure 2。整图用于比较方法范式，含有网络和算子局部示意；按整体表达目的归入 Teaser。",
+    "figure_role": "原论文 Figure 2。整图用于比较方法范式，含有网络和算子局部示意；按整体表达目的归入 Teaser。",
     "figure_subtype": "physics-data-method-comparison",
     "panel_layout": {
       "method_families": 3,
@@ -48,7 +47,6 @@
       "上下两层分别呈现基础范式和融合范式，连接线说明它们的联系。"
     ],
     "reviewed_from": "original paper page, native author figure, and final rendered preview",
-    "user_reference": true,
     "design_notes": [
       "为三类方法加上同级标题，并把物理／数据条件整理成位置一致的角标。",
       "在 teaser 版本中适度收起训练循环与网络内部细节，保留约束来源、关键算子和主要关系。",

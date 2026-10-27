@@ -81,7 +81,8 @@
     "archive_member": "figs/3DEditing.pdf",
     "inclusion_member": "Secs/3_method.tex",
     "retrieved_date": "2026-10-27",
-    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "inclusion_whitespace_normalized": true
   },
   "license": {
     "status": "reference-only",
@@ -122,7 +123,8 @@
   "changes": [
     "从固定版本作者 TeX 归档复制原件，未改原始字节。",
     "保存原始插图定义、子图计数口径、来源和预览。",
-    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。",
+    "原始 TeX 插图定义摘录仅清理行末空格，保留内容与语义。"
   ],
   "visual_reviewed": true,
   "added_date": "2026-10-27",
@@ -134,8 +136,8 @@
     },
     {
       "path": "figure-inclusion.tex",
-      "bytes": 432,
-      "sha256": "f08fb2df2e2bc304403e02e69edd02e04e962423cbe525589f1a017ea3fcdf48"
+      "bytes": 428,
+      "sha256": "17e4d2c190dc08f87b3c575f0f75ae117b103b560643f0d4f576693249f433c5"
     },
     {
       "path": "original.pdf",

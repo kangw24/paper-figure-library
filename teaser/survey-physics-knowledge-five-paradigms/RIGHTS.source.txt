@@ -1,0 +1,9 @@
+Paper: Machine Learning with Physics Knowledge for Prediction: A Survey
+Authors: Watson, Joe, Song, Chen, Weeger, Oliver, Gruner, Theo, Le, An T., Pompetzki, Kay, Hendawy, Ahmed, Arenz, Oleg, Trojak, Will, Cranmer, Miles, D'Eramo, Carlo, Bülow, Fabian, Goyal, Tanmay, Peters, Jan, Hoffman, Martin W.
+Source version: 2408.09840v2
+TeX archive: https://arxiv.org/src/2408.09840v2
+Archive member: figures/overview-rebuttal.pdf
+Original SHA256: e86554753c517bb8f183d270623a6d58dc938cb40e8f23d6affaf28a8d00cc8e
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。
+The original figure is byte-identical to its archive member. No redrawing.

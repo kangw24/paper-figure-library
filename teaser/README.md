@@ -6,9 +6,9 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 方法与范式对照 | 6 | [浏览](#comparison) |
+| 方法与范式对照 | 9 | [浏览](#comparison) |
 | 多子图主题与应用总览 | 6 | [浏览](#multi-panel) |
-| 领域全景、演进与综述路线图 | 18 | [浏览](#landscape) |
+| 领域全景、演进与综述路线图 | 20 | [浏览](#landscape) |
 | 任务、动机与能力展示 | 7 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
 | 速度与精度权衡 | 2 | [浏览](#tradeoff) |
@@ -16,6 +16,42 @@
 <a id="comparison"></a>
 
 ## 方法与范式对照
+
+### [PDE 求解综述 · 物理—数据连续谱与两类方法全景](survey-pde-physics-data-continuum/README.md)
+
+共同难题、统一视角和分支方法排成三层。PINNs 与神经算子沿同一物理—数据主线对照，下层用 12 个小型科学／方法图示解释具体研究方向，信息丰富且阅读顺序清楚。
+
+IJCAI 2026 · 会议论文；未核实 Oral · 综述
+
+**子图组织：** 上层 3 个共同问题，中层物理—数据连续谱，下层两类方法各 6 个研究方向。 原论文 Figure 1。
+
+[![预览](survey-pde-physics-data-continuum/preview.png)](survey-pde-physics-data-continuum/README.md)
+
+[说明与源文件](survey-pde-physics-data-continuum/README.md) · [关联元素](survey-pde-physics-data-continuum/README.md#关联范例与元素)
+
+### [物理知识融入学习 · 五种方式的统一图元对照](survey-physics-knowledge-five-paradigms/README.md)
+
+五栏使用同一套数据、模型和目标函数图元，通过信息流和明暗编码突出物理知识进入学习过程的位置。读者只需理解一栏的图示规则，就能比较其余四栏。
+
+TMLR 2025 · 期刊论文 · 综述
+
+**子图组织：** 五栏并列：物理模型、物理损失、物理数据增强、多数据集泛化和上下文学习。 原论文 Figure 1。
+
+[![预览](survey-physics-knowledge-five-paradigms/preview.png)](survey-physics-knowledge-five-paradigms/README.md)
+
+[说明与源文件](survey-physics-knowledge-five-paradigms/README.md) · [关联元素](survey-physics-knowledge-five-paradigms/README.md#关联范例与元素)
+
+### [Informed ML · 数据路径与先验知识路径的概念对照](survey-informed-ml-information-flow/README.md)
+
+把传统数据路径和独立先验知识路径画在同一信息流中，通过实线、虚线和内部阶段展开解释融合发生在哪里。简洁的结构承载清楚的方法差异。
+
+arXiv 2019 · 预印本 · 综述
+
+**子图组织：** 问题—数据—学习—解答的主路径，配独立先验知识路径；学习流程内部展开 4 个位置。 原论文 Figure 1。
+
+[![预览](survey-informed-ml-information-flow/preview.png)](survey-informed-ml-information-flow/README.md)
+
+[说明与源文件](survey-informed-ml-information-flow/README.md) · [同论文：Informed ML · 知识来源—表示—融入位置全景](survey-informed-ml-knowledge-map/README.md) · [关联元素](survey-informed-ml-information-flow/README.md#关联范例与元素)
 
 ### [AI for PDEs · 物理与数据条件下的三类方法对照](survey-ai-pde-physics-data-paradigms/README.md)
 
@@ -166,6 +202,30 @@ EUROGRAPHICS 2022 · STAR 报告 · 综述
 ## 领域全景、演进与综述路线图
 
 条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。
+
+### [Informed ML · 知识来源—表示—融入位置全景](survey-informed-ml-knowledge-map/README.md)
+
+三列分别回答知识来自哪里、如何表示、在哪里进入学习流程。Sankey 连接将分类目录变成关系全景，能够同时展示多个类别以及它们之间的联系。
+
+arXiv 2019 · 预印本 · 综述
+
+**子图组织：** 3 类知识来源 → 8 类知识表示 → 4 个学习流程融入位置。 原论文 Figure 2。
+
+[![预览](survey-informed-ml-knowledge-map/preview.png)](survey-informed-ml-knowledge-map/README.md)
+
+[说明与源文件](survey-informed-ml-knowledge-map/README.md) · [同论文：Informed ML · 数据路径与先验知识路径的概念对照](survey-informed-ml-information-flow/README.md) · [关联元素](survey-informed-ml-knowledge-map/README.md#关联范例与元素)
+
+### [PIML · 物理先验、融入层级与任务的三维全景](survey-piml-three-axis-landscape/README.md)
+
+以物理先验、学习中的融入层级和任务为三个维度，再用两张二维图将代表方法放回同一分类空间。图形结构直接解释领域是如何被组织的。
+
+arXiv 2022 · 预印本 · 综述
+
+**子图组织：** (a) 三维分类示意；(b) 先验类型与融入层级；(c) 先验类型与应用任务。 原论文 Figure 1。
+
+[![预览](survey-piml-three-axis-landscape/preview.png)](survey-piml-three-axis-landscape/README.md)
+
+[说明与源文件](survey-piml-three-axis-landscape/README.md) · [关联元素](survey-piml-three-axis-landscape/README.md#关联范例与元素)
 
 ### [AI for PDEs · 领域定位、方法与应用全景](survey-ai-pde-scope-map/README.md)
 

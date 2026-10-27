@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-27",
+  "collection_note": "Related conceptual overviews and method comparisons; author originals and figure-specific notes.",
+  "papers": [
+    {
+      "id": "physics-knowledge-prediction",
+      "arxiv": "2408.09840v2",
+      "project": "https://arxiv.org/abs/2408.09840",
+      "title": "Machine Learning with Physics Knowledge for Prediction: A Survey",
+      "authors": [
+        "Watson, Joe",
+        "Song, Chen",
+        "Weeger, Oliver",
+        "Gruner, Theo",
+        "Le, An T.",
+        "Pompetzki, Kay",
+        "Hendawy, Ahmed",
+        "Arenz, Oleg",
+        "Trojak, Will",
+        "Cranmer, Miles",
+        "D'Eramo, Carlo",
+        "Bülow, Fabian",
+        "Goyal, Tanmay",
+        "Peters, Jan",
+        "Hoffman, Martin W."
+      ],
+      "year": 2025,
+      "venue": "TMLR",
+      "presentation": "journal-article",
+      "evidence": "https://arxiv.org/abs/2408.09840v2",
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "pdf": "https://arxiv.org/pdf/2408.09840v2",
+      "sha256": "1848cffc494ed52d9832896916069e846004231bfc4af97079916f778a0bc66d",
+      "bytes": 1694839,
+      "ok": true,
+      "arxiv_first_year": 2024,
+      "publication_evidence": {
+        "url": "https://www.dfki.de/en/web/research/projects-and-publications/publication/16334",
+        "note": "Accepted TMLR; fixed arXiv v2 dated 2025-05-15"
+      }
+    },
+    {
+      "id": "informed-machine-learning",
+      "arxiv": "1903.12394v3",
+      "project": "https://arxiv.org/abs/1903.12394",
+      "title": "Informed Machine Learning -- A Taxonomy and Survey of Integrating Knowledge into Learning Systems",
+      "authors": [
+        "von Rueden, Laura",
+        "Mayer, Sebastian",
+        "Beckh, Katharina",
+        "Georgiev, Bogdan",
+        "Giesselbach, Sven",
+        "Heese, Raoul",
+        "Kirsch, Birgit",
+        "Pfrommer, Julius",
+        "Pick, Annika",
+        "Ramamurthy, Rajkumar",
+        "Walczak, Michal",
+        "Garcke, Jochen",
+        "Bauckhage, Christian",
+        "Schuecker, Jannis"
+      ],
+      "year": 2019,
+      "venue": "arXiv",
+      "presentation": "preprint",
+      "evidence": "https://arxiv.org/abs/1903.12394v3",
+      "arxiv_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdf": "https://arxiv.org/pdf/1903.12394v3",
+      "sha256": "d407043a615223c85846bdce64568a3dba2589f3d1a94c2afa243fee979806a9",
+      "bytes": 940122,
+      "ok": true
+    },
+    {
+      "id": "piml-problems-methods",
+      "arxiv": "2211.08064v2",
+      "project": "https://arxiv.org/abs/2211.08064",
+      "title": "Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications",
+      "authors": [
+        "Hao, Zhongkai",
+        "Liu, Songming",
+        "Zhang, Yichi",
+        "Ying, Chengyang",
+        "Feng, Yao",
+        "Su, Hang",
+        "Zhu, Jun"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "presentation": "preprint",
+      "evidence": "https://arxiv.org/abs/2211.08064v2",
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "pdf": "https://arxiv.org/pdf/2211.08064v2",
+      "sha256": "9e04bef9ebc21400c7dcd1b20cc7f1323e13fd42cb9de4a1600b4376cc2549e9",
+      "bytes": 3402006,
+      "ok": true
+    },
+    {
+      "id": "unifying-pde-solvers",
+      "arxiv": "2601.14517v2",
+      "project": "https://ijcai.org/proceedings/2026/868",
+      "title": "Learning PDE Solvers with Physics and Data: A Unifying View of Physics-Informed Neural Networks and Neural Operators",
+      "authors": [
+        "Dai, Yilong",
+        "Chen, Shengyu",
+        "Wang, Ziyi",
+        "Jia, Xiaowei",
+        "Xie, Yiqun",
+        "Kumar, Vipin",
+        "Yu, Runlong"
+      ],
+      "year": 2026,
+      "venue": "IJCAI",
+      "presentation": "conference-paper",
+      "evidence": "https://arxiv.org/abs/2601.14517v2",
+      "arxiv_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdf": "https://arxiv.org/pdf/2601.14517v2",
+      "sha256": "5e57e8e588c4a57b8e8e82e3d7087b2d887d22c894a1020fd81d0f7f35d364d1",
+      "bytes": 2083001,
+      "ok": true,
+      "publication_evidence": {
+        "url": "https://ijcai.org/proceedings/2026/868",
+        "track": "Survey Track"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "survey-pde-physics-data-continuum",
+      "path": "teaser/survey-pde-physics-data-continuum",
+      "paper": "unifying-pde-solvers",
+      "archive_member": "figure1.pdf",
+      "original_sha256": "5146afda0d40e0eee8884884e138770893ea795c41549092f86869a66d786ff4",
+      "figure_number": 1,
+      "page_number": 3,
+      "panel_layout": {
+        "shared_challenges": 3,
+        "method_families": 2,
+        "research_topics": 12,
+        "summary": "上层 3 个共同问题，中层物理—数据连续谱，下层两类方法各 6 个研究方向。",
+        "counting_note": "下层按 12 个图标与标签组合计研究主题；中间 Hybrid Zone 是融合区域，不单独计作第三套完整方法面板。"
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "id": "survey-physics-knowledge-five-paradigms",
+      "path": "teaser/survey-physics-knowledge-five-paradigms",
+      "paper": "physics-knowledge-prediction",
+      "archive_member": "figures/overview-rebuttal.pdf",
+      "original_sha256": "e86554753c517bb8f183d270623a6d58dc938cb40e8f23d6affaf28a8d00cc8e",
+      "figure_number": 1,
+      "page_number": 3,
+      "panel_layout": {
+        "method_panels": 5,
+        "summary": "五栏并列：物理模型、物理损失、物理数据增强、多数据集泛化和上下文学习。",
+        "counting_note": "按下方五个范式标签计数；白色／深色框表示作者定义的 informed／uninformed，属于概念编码，不是性能评分。"
+      },
+      "editability": "vector"
+    },
+    {
+      "id": "survey-informed-ml-knowledge-map",
+      "path": "teaser/survey-informed-ml-knowledge-map",
+      "paper": "informed-machine-learning",
+      "archive_member": "figures/central_figures/fig_taxonomy_v15_210311_compiled.pdf",
+      "original_sha256": "7803ad2a685bbba5482a03289b2db91155e69ea4a15f719bde3ec7244ac77808",
+      "figure_number": 2,
+      "page_number": 4,
+      "panel_layout": {
+        "source_types": 3,
+        "representation_types": 8,
+        "integration_stages": 4,
+        "summary": "3 类知识来源 → 8 类知识表示 → 4 个学习流程融入位置。",
+        "counting_note": "按三列命名节点分别计数。连接带的宽度对应作者所分析文献中的相对数量，属于该版本的文献统计；不能仅当装饰性连线。"
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "id": "survey-informed-ml-information-flow",
+      "path": "teaser/survey-informed-ml-information-flow",
+      "paper": "informed-machine-learning",
+      "archive_member": "figures/central_figures/fig_iml_concept_v8b_201012_compiled.pdf",
+      "original_sha256": "6d07ad786693ab0af681c75fa02acc1b22e402421168c890a44170d62f31ba09",
+      "figure_number": 1,
+      "page_number": 2,
+      "panel_layout": {
+        "information_paths": 2,
+        "pipeline_stages": 4,
+        "summary": "问题—数据—学习—解答的主路径，配独立先验知识路径；学习流程内部展开 4 个位置。",
+        "counting_note": "两条路径对应作者图例中的数据驱动学习与先验知识融合；流程内部四阶段是 Training Data、Hypothesis Set、Learning Algorithm、Final Hypothesis。"
+      },
+      "editability": "vector"
+    },
+    {
+      "id": "survey-piml-three-axis-landscape",
+      "path": "teaser/survey-piml-three-axis-landscape",
+      "paper": "piml-problems-methods",
+      "archive_member": "fig/fig0_new.pdf",
+      "original_sha256": "86fe20ac208c5b0591b30cacd66ceaf266993fb413045dd1f72abaa511caafc3",
+      "figure_number": 1,
+      "page_number": 3,
+      "panel_layout": {
+        "panels": 3,
+        "integration_levels": 5,
+        "prior_categories": 4,
+        "task_categories": 4,
+        "summary": "(a) 三维分类示意；(b) 先验类型与融入层级；(c) 先验类型与应用任务。",
+        "counting_note": "按作者标出的 (a)–(c) 计三个面板。先验分 PDEs、ODEs/SDEs、Symmetry、Intuitive Physics；五个融入层级为数据、架构、损失、优化、推断。气泡与方法名称是该版本的示意性概览。"
+      },
+      "editability": "vector-and-raster"
+    }
+  ]
+}

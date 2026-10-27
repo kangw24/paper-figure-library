@@ -7,6 +7,9 @@
         "id": "comparison",
         "title": "方法与范式对照",
         "figures": [
+          "survey-pde-physics-data-continuum",
+          "survey-physics-knowledge-five-paradigms",
+          "survey-informed-ml-information-flow",
           "survey-ai-pde-physics-data-paradigms",
           "var-paradigm",
           "dpo-comparison",
@@ -33,6 +36,8 @@
         "title": "领域全景、演进与综述路线图",
         "description": "条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。",
         "figures": [
+          "survey-informed-ml-knowledge-map",
+          "survey-piml-three-axis-landscape",
           "survey-ai-pde-scope-map",
           "survey-ai4science-domain-wheel",
           "survey-ai4science-scale-map",
@@ -236,6 +241,10 @@
     [
       "survey-ai-pde-scope-map",
       "survey-ai-pde-physics-data-paradigms"
+    ],
+    [
+      "survey-informed-ml-information-flow",
+      "survey-informed-ml-knowledge-map"
     ]
   ],
   "suggested_elements": {
@@ -806,6 +815,37 @@
       "tabler-wave-sine",
       "tabler-arrows-right-left",
       "tabler-arrow-loop-right"
+    ],
+    "survey-pde-physics-data-continuum": [
+      "tabler-network",
+      "tabler-brain",
+      "tabler-wave-sine",
+      "tabler-database",
+      "tabler-arrows-right-left"
+    ],
+    "survey-physics-knowledge-five-paradigms": [
+      "tabler-database",
+      "towaki-neuralnetwork",
+      "tabler-arrows-right-left",
+      "tabler-file-text"
+    ],
+    "survey-informed-ml-knowledge-map": [
+      "tabler-sitemap",
+      "tabler-affiliate",
+      "tabler-brain",
+      "tabler-database"
+    ],
+    "survey-informed-ml-information-flow": [
+      "tabler-database",
+      "towaki-neuralnetwork",
+      "tabler-arrow-right",
+      "tabler-affiliate"
+    ],
+    "survey-piml-three-axis-landscape": [
+      "tabler-atom",
+      "tabler-network",
+      "tabler-chart-scatter",
+      "tabler-wave-sine"
     ]
   }
 }

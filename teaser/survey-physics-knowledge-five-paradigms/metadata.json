@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "id": "survey-physics-knowledge-five-paradigms",
+  "title": "物理知识融入学习 · 五种方式的统一图元对照",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "conceptual-overview",
+    "method-comparison",
+    "physics-knowledge",
+    "physics-knowledge-prediction",
+    "2025"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "五栏使用同一套数据、模型和目标函数图元，通过信息流和明暗编码突出物理知识进入学习过程的位置。读者只需理解一栏的图示规则，就能比较其余四栏。",
+  "publication": {
+    "title": "Machine Learning with Physics Knowledge for Prediction: A Survey",
+    "venue": "TMLR",
+    "year": 2025,
+    "article_type": "survey",
+    "presentation": "journal-article",
+    "evidence_url": "https://www.dfki.de/en/web/research/projects-and-publications/publication/16334",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2408.09840v2",
+    "publication_evidence": {
+      "url": "https://www.dfki.de/en/web/research/projects-and-publications/publication/16334",
+      "note": "Accepted TMLR; fixed arXiv v2 dated 2025-05-15"
+    },
+    "arxiv_first_year": 2024
+  },
+  "curation": {
+    "figure_role": "综述 Figure 1。与 AI4PDE Fig.2 相近之处是固定一套可比较的条件与图元，再展示多种方法范式。",
+    "figure_subtype": "five-way-knowledge-integration-comparison",
+    "panel_layout": {
+      "method_panels": 5,
+      "summary": "五栏并列：物理模型、物理损失、物理数据增强、多数据集泛化和上下文学习。",
+      "counting_note": "按下方五个范式标签计数；白色／深色框表示作者定义的 informed／uninformed，属于概念编码，不是性能评分。"
+    },
+    "why_selected": "五栏使用同一套数据、模型和目标函数图元，通过信息流和明暗编码突出物理知识进入学习过程的位置。读者只需理解一栏的图示规则，就能比较其余四栏。",
+    "what_to_borrow": [
+      "同一对象在所有面板中保持相同符号和位置。",
+      "以局部结构变化表达方法区别，避免每栏重新设计一套图例。",
+      "图例集中放在一处，底部短标签概括每种方式。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview",
+    "design_notes": [
+      "改编时可用少量强调色替换明暗编码，并保留清楚的图例。",
+      "统一各栏的宽度、模型框高度与箭头路径。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-physics-data-paradigms",
+      "reason": "以相同图元对照物理知识进入学习过程的不同方式。"
+    }
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2408.09840",
+    "authors": [
+      "Watson, Joe",
+      "Song, Chen",
+      "Weeger, Oliver",
+      "Gruner, Theo",
+      "Le, An T.",
+      "Pompetzki, Kay",
+      "Hendawy, Ahmed",
+      "Arenz, Oleg",
+      "Trojak, Will",
+      "Cranmer, Miles",
+      "D'Eramo, Carlo",
+      "Bülow, Fabian",
+      "Goyal, Tanmay",
+      "Peters, Jan",
+      "Hoffman, Martin W."
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2408.09840",
+      "https://arxiv.org/abs/2408.09840v2",
+      "https://arxiv.org/pdf/2408.09840v2",
+      "https://arxiv.org/src/2408.09840v2",
+      "https://www.dfki.de/en/web/research/projects-and-publications/publication/16334"
+    ],
+    "arxiv_id": "2408.09840v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2408.09840v2",
+    "full_pdf_sha256": "1848cffc494ed52d9832896916069e846004231bfc4af97079916f778a0bc66d",
+    "full_pdf_bytes": 1694839,
+    "page_number": 3,
+    "figure_number": 1,
+    "original_sha256": "e86554753c517bb8f183d270623a6d58dc938cb40e8f23d6affaf28a8d00cc8e",
+    "original_bytes": 24812,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2408.09840v2",
+    "archive_sha256": "d403919bc1b2874d6136c423939a6c34c6b27149232502a0b79d2a7f12994b24",
+    "archive_bytes": 1639251,
+    "archive_member": "figures/overview-rebuttal.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "author_svg_archive_member": "figures/overview-rebuttal.svg",
+    "author_svg_sha256": "65de4ba1f517bbec8c8479fd7879013fd73c6917dd3178c5ebc2b6486cb982f2",
+    "author_svg_relation": "Author companion file: same five paradigms, with a larger canvas and some typographic/layout differences from the paper PDF."
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text",
+      "author-source.svg": "original text objects and outlined text retained"
+    },
+    "pdf_drawing_objects": 120,
+    "pdf_text_spans": 13,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 2,
+      "path": 193,
+      "g": 3,
+      "use": 151
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "独立 PDF 保留作者原有矢量图形、连线和文本对象；SVG 文字转轮廓。此独立 PDF 未检测到嵌入位图。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。",
+      "作者原生 SVG 的画布留白较大，部分字体和布局与论文 PDF 略有差异；需要论文中的紧凑版式时使用 original.pdf 或 source.svg。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 927,
+      "sha256": "a8ea934cf4f5b92ffac68711962ae53d259f0cf7adf94f8f637ba3e8f336bf69"
+    },
+    {
+      "path": "author-source.svg",
+      "bytes": 294129,
+      "sha256": "65de4ba1f517bbec8c8479fd7879013fd73c6917dd3178c5ebc2b6486cb982f2"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1200,
+      "sha256": "0244f188d843f67f233ed4271705141497c957b78f3c0d4fb8ea3e5b4c89b88e"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 24812,
+      "sha256": "e86554753c517bb8f183d270623a6d58dc938cb40e8f23d6affaf28a8d00cc8e"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 61570,
+      "sha256": "d3efd4a7ebff1e4bee1274961fd7f3deed21d10fc75d6c69a3a1f8e82568c2db"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 115891,
+      "sha256": "6157916a6bd0aca91da518ce56001495aca4e640e2d911cda2e7878953dc8f23"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Paper: Informed Machine Learning -- A Taxonomy and Survey of Integrating Knowledge into Learning Systems
+Authors: von Rueden, Laura, Mayer, Sebastian, Beckh, Katharina, Georgiev, Bogdan, Giesselbach, Sven, Heese, Raoul, Kirsch, Birgit, Pfrommer, Julius, Pick, Annika, Ramamurthy, Rajkumar, Walczak, Michal, Garcke, Jochen, Bauckhage, Christian, Schuecker, Jannis
+Source version: 1903.12394v3
+TeX archive: https://arxiv.org/src/1903.12394v3
+Archive member: figures/central_figures/fig_taxonomy_v15_210311_compiled.pdf
+Original SHA256: 7803ad2a685bbba5482a03289b2db91155e69ea4a15f719bde3ec7244ac77808
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。
+The original figure is byte-identical to its archive member. No redrawing.

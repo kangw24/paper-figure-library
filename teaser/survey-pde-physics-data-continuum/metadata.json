@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "id": "survey-pde-physics-data-continuum",
+  "title": "PDE 求解综述 · 物理—数据连续谱与两类方法全景",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "conceptual-overview",
+    "method-comparison",
+    "physics-data-continuum",
+    "ai4pde",
+    "unifying-pde-solvers",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "共同难题、统一视角和分支方法排成三层。PINNs 与神经算子沿同一物理—数据主线对照，下层用 12 个小型科学／方法图示解释具体研究方向，信息丰富且阅读顺序清楚。",
+  "publication": {
+    "title": "Learning PDE Solvers with Physics and Data: A Unifying View of Physics-Informed Neural Networks and Neural Operators",
+    "venue": "IJCAI",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "conference-paper",
+    "evidence_url": "https://ijcai.org/proceedings/2026/868",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2601.14517v2",
+    "publication_evidence": {
+      "url": "https://ijcai.org/proceedings/2026/868",
+      "track": "Survey Track"
+    },
+    "arxiv_first_year": 2026
+  },
+  "curation": {
+    "figure_role": "综述 Figure 1，采用所收录 arXiv v2 中的作者原图；会议与图版本分别记录。与 AI4PDE Fig.2 同样以物理和数据的关系组织方法对照。",
+    "figure_subtype": "physics-data-paradigm-overview",
+    "panel_layout": {
+      "shared_challenges": 3,
+      "method_families": 2,
+      "research_topics": 12,
+      "summary": "上层 3 个共同问题，中层物理—数据连续谱，下层两类方法各 6 个研究方向。",
+      "counting_note": "下层按 12 个图标与标签组合计研究主题；中间 Hybrid Zone 是融合区域，不单独计作第三套完整方法面板。"
+    },
+    "why_selected": "共同难题、统一视角和分支方法排成三层。PINNs 与神经算子沿同一物理—数据主线对照，下层用 12 个小型科学／方法图示解释具体研究方向，信息丰富且阅读顺序清楚。",
+    "what_to_borrow": [
+      "先展示共同问题，再给出统一分类视角，最后展开各分支的代表方向。",
+      "用一致的行高和图标尺度容纳多项研究内容。",
+      "渐变条承载连续谱的概念，分色区域承载两类方法的差异。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview",
+    "design_notes": [
+      "改编时可保留三层结构，减少章节号和不必要的标题重复。",
+      "长标签可压缩为统一长度的短语，但应保持每个研究方向的含义。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-physics-data-paradigms",
+      "reason": "都将物理与数据的关系作为组织主线，再用具体方法内容解释不同分支。"
+    }
+  },
+  "source": {
+    "project": "https://ijcai.org/proceedings/2026/868",
+    "authors": [
+      "Dai, Yilong",
+      "Chen, Shengyu",
+      "Wang, Ziyi",
+      "Jia, Xiaowei",
+      "Xie, Yiqun",
+      "Kumar, Vipin",
+      "Yu, Runlong"
+    ],
+    "urls": [
+      "https://ijcai.org/proceedings/2026/868",
+      "https://arxiv.org/abs/2601.14517v2",
+      "https://arxiv.org/pdf/2601.14517v2",
+      "https://arxiv.org/src/2601.14517v2",
+      "https://ijcai.org/proceedings/2026/868"
+    ],
+    "arxiv_id": "2601.14517v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2601.14517v2",
+    "full_pdf_sha256": "5e57e8e588c4a57b8e8e82e3d7087b2d887d22c894a1020fd81d0f7f35d364d1",
+    "full_pdf_bytes": 2083001,
+    "page_number": 3,
+    "figure_number": 1,
+    "original_sha256": "5146afda0d40e0eee8884884e138770893ea795c41549092f86869a66d786ff4",
+    "original_bytes": 1774526,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2601.14517v2",
+    "archive_sha256": "0e9f51644a739a1350179ea7fb0504171c30d1e248d4b918831d88f02ebcab24",
+    "archive_bytes": 1754864,
+    "archive_member": "figure1.pdf",
+    "inclusion_member": "ijcai26-arxiv.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 352,
+    "pdf_text_spans": 108,
+    "embedded_raster_images": 7,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 179,
+      "rect": 1,
+      "clipPath": 9,
+      "path": 361,
+      "mask": 6,
+      "use": 725,
+      "image": 12
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。原图中的嵌入位图可移动或替换，不能按矢量节点编辑。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 753,
+      "sha256": "7e2a4a25256cbd554c19603eea01bcabc34e84c52a5045a7d43f7797e0e24b9d"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 570,
+      "sha256": "99cde855ed2d721c32cf544b8a2793e20a0adc7b6d02db693b975bdfc3073688"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1774526,
+      "sha256": "5146afda0d40e0eee8884884e138770893ea795c41549092f86869a66d786ff4"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 318479,
+      "sha256": "05a961861bb611729e7e71dcadc4ccffd747c141f240e950879b36c212db38d9"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 3596675,
+      "sha256": "4e91499c55584ca97e196cf19b6e782c5917c8c96b651ce6077d6dcd91daf002"
+    }
+  ]
+}

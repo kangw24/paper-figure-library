@@ -1,0 +1,9 @@
+Paper: Learning PDE Solvers with Physics and Data: A Unifying View of Physics-Informed Neural Networks and Neural Operators
+Authors: Dai, Yilong, Chen, Shengyu, Wang, Ziyi, Jia, Xiaowei, Xie, Yiqun, Kumar, Vipin, Yu, Runlong
+Source version: 2601.14517v2
+TeX archive: https://arxiv.org/src/2601.14517v2
+Archive member: figure1.pdf
+Original SHA256: 5146afda0d40e0eee8884884e138770893ea795c41549092f86869a66d786ff4
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。
+The original figure is byte-identical to its archive member. No redrawing.

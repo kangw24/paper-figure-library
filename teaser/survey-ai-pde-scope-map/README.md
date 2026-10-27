@@ -58,6 +58,14 @@
 
 只复制原件、转换格式和制作预览；所有内容沿用作者原图。
 
+<!-- BEGIN SIMILAR EXAMPLES -->
+## 相近范例
+
+- [Informed ML · 知识来源—表示—融入位置全景](../survey-informed-ml-knowledge-map/README.md)：将多级分类串成完整的领域关系图，适合表达研究范围与组成。
+- [PIML · 物理先验、融入层级与任务的三维全景](../survey-piml-three-axis-landscape/README.md)：在同一全景中组织先验、方法与应用任务，形成有主线的综述概念图。
+
+<!-- END SIMILAR EXAMPLES -->
+
 <!-- BEGIN FIGURE LINKS -->
 ## 关联范例与元素
 

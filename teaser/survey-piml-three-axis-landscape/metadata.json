@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "survey-piml-three-axis-landscape",
+  "title": "PIML · 物理先验、融入层级与任务的三维全景",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "conceptual-overview",
+    "taxonomy",
+    "physics-informed-learning",
+    "piml-problems-methods",
+    "2022"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "以物理先验、学习中的融入层级和任务为三个维度，再用两张二维图将代表方法放回同一分类空间。图形结构直接解释领域是如何被组织的。",
+  "publication": {
+    "title": "Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications",
+    "venue": "arXiv",
+    "year": 2022,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2211.08064v2",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2211.08064v2"
+  },
+  "curation": {
+    "figure_role": "综述 Figure 1。与 AI4PDE Fig.1 的领域—方法—应用总览相近，也可借鉴其统一维度下的方法定位。",
+    "figure_subtype": "three-axis-physics-informed-learning-landscape",
+    "panel_layout": {
+      "panels": 3,
+      "integration_levels": 5,
+      "prior_categories": 4,
+      "task_categories": 4,
+      "summary": "(a) 三维分类示意；(b) 先验类型与融入层级；(c) 先验类型与应用任务。",
+      "counting_note": "按作者标出的 (a)–(c) 计三个面板。先验分 PDEs、ODEs/SDEs、Symmetry、Intuitive Physics；五个融入层级为数据、架构、损失、优化、推断。气泡与方法名称是该版本的示意性概览。"
+    },
+    "why_selected": "以物理先验、学习中的融入层级和任务为三个维度，再用两张二维图将代表方法放回同一分类空间。图形结构直接解释领域是如何被组织的。",
+    "what_to_borrow": [
+      "先用一个总图建立维度，再用展开视图放入具体方法。",
+      "三个子图复用相同的先验类型顺序。",
+      "区分方法定位、概念维度与定量数据，避免将概览误读为统一性能评测。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview",
+    "design_notes": [
+      "改编时可放大轴标签，控制三维透视对文字可读性的影响。",
+      "减少无关的立体与阴影效果，将强调留给分类关系和代表方法。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-scope-map",
+      "reason": "在同一全景中组织先验、方法与应用任务，形成有主线的综述概念图。"
+    }
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2211.08064",
+    "authors": [
+      "Hao, Zhongkai",
+      "Liu, Songming",
+      "Zhang, Yichi",
+      "Ying, Chengyang",
+      "Feng, Yao",
+      "Su, Hang",
+      "Zhu, Jun"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2211.08064",
+      "https://arxiv.org/abs/2211.08064v2",
+      "https://arxiv.org/pdf/2211.08064v2",
+      "https://arxiv.org/src/2211.08064v2"
+    ],
+    "arxiv_id": "2211.08064v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2211.08064v2",
+    "full_pdf_sha256": "9e04bef9ebc21400c7dcd1b20cc7f1323e13fd42cb9de4a1600b4376cc2549e9",
+    "full_pdf_bytes": 3402006,
+    "page_number": 3,
+    "figure_number": 1,
+    "original_sha256": "86fe20ac208c5b0591b30cacd66ceaf266993fb413045dd1f72abaa511caafc3",
+    "original_bytes": 2205779,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2211.08064v2",
+    "archive_sha256": "9349f18f6ca7b17472b5fbc8c13705a370b4f46cb699a09e59e883f1a6b38507",
+    "archive_bytes": 3137295,
+    "archive_member": "fig/fig0_new.pdf",
+    "inclusion_member": "Preliminary.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 556,
+    "pdf_text_spans": 62,
+    "embedded_raster_images": 353,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 517,
+      "path": 1155,
+      "mask": 353,
+      "g": 1577,
+      "image": 652,
+      "use": 628
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。原图中的嵌入位图可移动或替换，不能按矢量节点编辑。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 802,
+      "sha256": "647ce3b944374b34ffc13b18c3f6169ffb350c90e99d1a41f11f568c38c34f98"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1913,
+      "sha256": "fef3a2555c4fa7574aaf5390d5616ae56ffec8c06642f12f9980a2d9338241de"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 2205779,
+      "sha256": "86fe20ac208c5b0591b30cacd66ceaf266993fb413045dd1f72abaa511caafc3"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 210819,
+      "sha256": "005e2f35f36f6c4b92985bb0488066897d96ea02fe21f88371c3bae7e851a040"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 3878163,
+      "sha256": "f13e22fb2ed5d57a1cd2a54c0409c433868333b21f5a81796714ff717bb2588f"
+    }
+  ]
+}

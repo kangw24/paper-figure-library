@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "counts": {
-    "teaser": 42,
+    "teaser": 47,
     "architecture": 45,
     "element": 341,
     "mechanism": 17,
@@ -4643,6 +4643,355 @@
     },
     {
       "schema_version": 1,
+      "id": "survey-informed-ml-information-flow",
+      "title": "Informed ML · 数据路径与先验知识路径的概念对照",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "conceptual-overview",
+        "method-comparison",
+        "knowledge-integration",
+        "informed-machine-learning",
+        "2019"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "把传统数据路径和独立先验知识路径画在同一信息流中，通过实线、虚线和内部阶段展开解释融合发生在哪里。简洁的结构承载清楚的方法差异。",
+      "publication": {
+        "title": "Informed Machine Learning -- A Taxonomy and Survey of Integrating Knowledge into Learning Systems",
+        "venue": "arXiv",
+        "year": 2019,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/1903.12394v3",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "1903.12394v3"
+      },
+      "curation": {
+        "figure_role": "综述 Figure 1。作为数据与知识融合的概念首图参考，与 AI4PDE Fig.2 的物理—数据方法对照形成互补。",
+        "figure_subtype": "data-and-knowledge-information-flow",
+        "panel_layout": {
+          "information_paths": 2,
+          "pipeline_stages": 4,
+          "summary": "问题—数据—学习—解答的主路径，配独立先验知识路径；学习流程内部展开 4 个位置。",
+          "counting_note": "两条路径对应作者图例中的数据驱动学习与先验知识融合；流程内部四阶段是 Training Data、Hypothesis Set、Learning Algorithm、Final Hypothesis。"
+        },
+        "why_selected": "把传统数据路径和独立先验知识路径画在同一信息流中，通过实线、虚线和内部阶段展开解释融合发生在哪里。简洁的结构承载清楚的方法差异。",
+        "what_to_borrow": [
+          "保持主路径清楚，将新增知识路径作为第二条可追踪的信息流。",
+          "内部流程只展开到足以说明融入位置的粒度。",
+          "图例解释线型语义，避免将不同路径混成装饰性箭头。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview",
+        "design_notes": [
+          "可使用少量颜色区分两条信息来源，同时保留线型差异。",
+          "对齐主流程模块，压缩图例占用的空白。"
+        ],
+        "similar_example": {
+          "id": "survey-ai-pde-physics-data-paradigms",
+          "reason": "明确区分数据与先验知识，并解释两者如何进入学习过程。"
+        }
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/1903.12394",
+        "authors": [
+          "von Rueden, Laura",
+          "Mayer, Sebastian",
+          "Beckh, Katharina",
+          "Georgiev, Bogdan",
+          "Giesselbach, Sven",
+          "Heese, Raoul",
+          "Kirsch, Birgit",
+          "Pfrommer, Julius",
+          "Pick, Annika",
+          "Ramamurthy, Rajkumar",
+          "Walczak, Michal",
+          "Garcke, Jochen",
+          "Bauckhage, Christian",
+          "Schuecker, Jannis"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/1903.12394",
+          "https://arxiv.org/abs/1903.12394v3",
+          "https://arxiv.org/pdf/1903.12394v3",
+          "https://arxiv.org/src/1903.12394v3"
+        ],
+        "arxiv_id": "1903.12394v3",
+        "full_pdf_url": "https://arxiv.org/pdf/1903.12394v3",
+        "full_pdf_sha256": "d407043a615223c85846bdce64568a3dba2589f3d1a94c2afa243fee979806a9",
+        "full_pdf_bytes": 940122,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "6d07ad786693ab0af681c75fa02acc1b22e402421168c890a44170d62f31ba09",
+        "original_bytes": 52634,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/1903.12394v3",
+        "archive_sha256": "eaed5df95af94b0b5824a06f7268e5fb1a87036ca6a3852375675891c2ffcb03",
+        "archive_bytes": 691992,
+        "archive_member": "figures/central_figures/fig_iml_concept_v8b_201012_compiled.pdf",
+        "inclusion_member": "2x_concept_figure.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text"
+        },
+        "pdf_drawing_objects": 76,
+        "pdf_text_spans": 23,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 12,
+          "path": 167,
+          "g": 25,
+          "use": 224
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "独立 PDF 保留作者原有矢量图形、连线和文本对象；SVG 文字转轮廓。此独立 PDF 未检测到嵌入位图。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 943,
+          "sha256": "c93ea7ea0cb1bd7eefc0bf739f4795e4c5ef9e84bc6168849df9d82b4cc811ae"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 781,
+          "sha256": "7bb6b2f56ddd580794a2c6de33fe2c4406f481eb1bd4210c631d1dd0ec703a2f"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 52634,
+          "sha256": "6d07ad786693ab0af681c75fa02acc1b22e402421168c890a44170d62f31ba09"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 42894,
+          "sha256": "07d59d26285066f4b316c897bbfef10b3227086613d825d53141e4adca3c8eeb"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 127383,
+          "sha256": "bacff1483cf99efdf45c0bffc645a590ae264fbf66c42551e91d3372df561738"
+        }
+      ],
+      "path": "teaser/survey-informed-ml-information-flow",
+      "metadata_path": "teaser/survey-informed-ml-information-flow/metadata.json",
+      "readme_path": "teaser/survey-informed-ml-information-flow/README.md",
+      "primary_path": "teaser/survey-informed-ml-information-flow/original.pdf",
+      "preview_path": "teaser/survey-informed-ml-information-flow/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-informed-ml-knowledge-map",
+      "title": "Informed ML · 知识来源—表示—融入位置全景",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "conceptual-overview",
+        "taxonomy",
+        "knowledge-integration",
+        "informed-machine-learning",
+        "2019"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "三列分别回答知识来自哪里、如何表示、在哪里进入学习流程。Sankey 连接将分类目录变成关系全景，能够同时展示多个类别以及它们之间的联系。",
+      "publication": {
+        "title": "Informed Machine Learning -- A Taxonomy and Survey of Integrating Knowledge into Learning Systems",
+        "venue": "arXiv",
+        "year": 2019,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/1903.12394v3",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "1903.12394v3"
+      },
+      "curation": {
+        "figure_role": "综述 Figure 2 的分类全景。与 AI4PDE Fig.1 同样用多层分类和连接关系交代研究范围。",
+        "figure_subtype": "knowledge-source-representation-integration-map",
+        "panel_layout": {
+          "source_types": 3,
+          "representation_types": 8,
+          "integration_stages": 4,
+          "summary": "3 类知识来源 → 8 类知识表示 → 4 个学习流程融入位置。",
+          "counting_note": "按三列命名节点分别计数。连接带的宽度对应作者所分析文献中的相对数量，属于该版本的文献统计；不能仅当装饰性连线。"
+        },
+        "why_selected": "三列分别回答知识来自哪里、如何表示、在哪里进入学习流程。Sankey 连接将分类目录变成关系全景，能够同时展示多个类别以及它们之间的联系。",
+        "what_to_borrow": [
+          "每列回答一个明确问题，使复杂分类保持稳定的阅读顺序。",
+          "将节点类型与连接关系同时表达，避免只列名称。",
+          "分清概念关系和带宽所表示的文献统计，改编时应重新核对。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview",
+        "design_notes": [
+          "可为三个层级或主要路径使用克制的配色，保持文字对比度。",
+          "保留足够列间距离，避免连线与节点标签相互遮挡。"
+        ],
+        "similar_example": {
+          "id": "survey-ai-pde-scope-map",
+          "reason": "将多级分类串成完整的领域关系图，适合表达研究范围与组成。"
+        }
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/1903.12394",
+        "authors": [
+          "von Rueden, Laura",
+          "Mayer, Sebastian",
+          "Beckh, Katharina",
+          "Georgiev, Bogdan",
+          "Giesselbach, Sven",
+          "Heese, Raoul",
+          "Kirsch, Birgit",
+          "Pfrommer, Julius",
+          "Pick, Annika",
+          "Ramamurthy, Rajkumar",
+          "Walczak, Michal",
+          "Garcke, Jochen",
+          "Bauckhage, Christian",
+          "Schuecker, Jannis"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/1903.12394",
+          "https://arxiv.org/abs/1903.12394v3",
+          "https://arxiv.org/pdf/1903.12394v3",
+          "https://arxiv.org/src/1903.12394v3"
+        ],
+        "arxiv_id": "1903.12394v3",
+        "full_pdf_url": "https://arxiv.org/pdf/1903.12394v3",
+        "full_pdf_sha256": "d407043a615223c85846bdce64568a3dba2589f3d1a94c2afa243fee979806a9",
+        "full_pdf_bytes": 940122,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "7803ad2a685bbba5482a03289b2db91155e69ea4a15f719bde3ec7244ac77808",
+        "original_bytes": 137103,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/1903.12394v3",
+        "archive_sha256": "eaed5df95af94b0b5824a06f7268e5fb1a87036ca6a3852375675891c2ffcb03",
+        "archive_bytes": 691992,
+        "archive_member": "figures/central_figures/fig_taxonomy_v15_210311_compiled.pdf",
+        "inclusion_member": "4x_taxonomy_figure.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text"
+        },
+        "pdf_drawing_objects": 18,
+        "pdf_text_spans": 33,
+        "embedded_raster_images": 2,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 17,
+          "path": 100,
+          "g": 35,
+          "image": 2,
+          "use": 575
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。原图中的嵌入位图可移动或替换，不能按矢量节点编辑。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。",
+          "作者 PDF 中两列之间的 Sankey 连接带已保存为两幅位图，节点框和文字保留原有矢量与文本对象。SVG 转换没有把连接带恢复为可独立编辑的曲线。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 940,
+          "sha256": "b2be4012d8d9b580f4e77c6c0b3240f494bc0cde8cac03f82a3577eb8200cf29"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1175,
+          "sha256": "387d380f667c81afac66fd1ea899c4802db109c24900579a380bd08d686d7b40"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 137103,
+          "sha256": "7803ad2a685bbba5482a03289b2db91155e69ea4a15f719bde3ec7244ac77808"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 139792,
+          "sha256": "b86afc9635c5031419bd66b3e36d3c35dc89ef91309886b7ea889667667f2d5f"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 258377,
+          "sha256": "a9baf3257284c6872329b6d06fbca3cda6927aedee025534736c7ff1b86aa907"
+        }
+      ],
+      "path": "teaser/survey-informed-ml-knowledge-map",
+      "metadata_path": "teaser/survey-informed-ml-knowledge-map/metadata.json",
+      "readme_path": "teaser/survey-informed-ml-knowledge-map/README.md",
+      "primary_path": "teaser/survey-informed-ml-knowledge-map/original.pdf",
+      "preview_path": "teaser/survey-informed-ml-knowledge-map/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "survey-instruction-editing-task-gallery",
       "title": "指令式图像编辑 · 21 种任务的多子图总览",
       "category": "teaser",
@@ -6149,6 +6498,542 @@
       "readme_path": "teaser/survey-neural-rendering-2022-gallery/README.md",
       "primary_path": "teaser/survey-neural-rendering-2022-gallery/source.jpg",
       "preview_path": "teaser/survey-neural-rendering-2022-gallery/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-pde-physics-data-continuum",
+      "title": "PDE 求解综述 · 物理—数据连续谱与两类方法全景",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "conceptual-overview",
+        "method-comparison",
+        "physics-data-continuum",
+        "ai4pde",
+        "unifying-pde-solvers",
+        "2026"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "共同难题、统一视角和分支方法排成三层。PINNs 与神经算子沿同一物理—数据主线对照，下层用 12 个小型科学／方法图示解释具体研究方向，信息丰富且阅读顺序清楚。",
+      "publication": {
+        "title": "Learning PDE Solvers with Physics and Data: A Unifying View of Physics-Informed Neural Networks and Neural Operators",
+        "venue": "IJCAI",
+        "year": 2026,
+        "article_type": "survey",
+        "presentation": "conference-paper",
+        "evidence_url": "https://ijcai.org/proceedings/2026/868",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2601.14517v2",
+        "publication_evidence": {
+          "url": "https://ijcai.org/proceedings/2026/868",
+          "track": "Survey Track"
+        },
+        "arxiv_first_year": 2026
+      },
+      "curation": {
+        "figure_role": "综述 Figure 1，采用所收录 arXiv v2 中的作者原图；会议与图版本分别记录。与 AI4PDE Fig.2 同样以物理和数据的关系组织方法对照。",
+        "figure_subtype": "physics-data-paradigm-overview",
+        "panel_layout": {
+          "shared_challenges": 3,
+          "method_families": 2,
+          "research_topics": 12,
+          "summary": "上层 3 个共同问题，中层物理—数据连续谱，下层两类方法各 6 个研究方向。",
+          "counting_note": "下层按 12 个图标与标签组合计研究主题；中间 Hybrid Zone 是融合区域，不单独计作第三套完整方法面板。"
+        },
+        "why_selected": "共同难题、统一视角和分支方法排成三层。PINNs 与神经算子沿同一物理—数据主线对照，下层用 12 个小型科学／方法图示解释具体研究方向，信息丰富且阅读顺序清楚。",
+        "what_to_borrow": [
+          "先展示共同问题，再给出统一分类视角，最后展开各分支的代表方向。",
+          "用一致的行高和图标尺度容纳多项研究内容。",
+          "渐变条承载连续谱的概念，分色区域承载两类方法的差异。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview",
+        "design_notes": [
+          "改编时可保留三层结构，减少章节号和不必要的标题重复。",
+          "长标签可压缩为统一长度的短语，但应保持每个研究方向的含义。"
+        ],
+        "similar_example": {
+          "id": "survey-ai-pde-physics-data-paradigms",
+          "reason": "都将物理与数据的关系作为组织主线，再用具体方法内容解释不同分支。"
+        }
+      },
+      "source": {
+        "project": "https://ijcai.org/proceedings/2026/868",
+        "authors": [
+          "Dai, Yilong",
+          "Chen, Shengyu",
+          "Wang, Ziyi",
+          "Jia, Xiaowei",
+          "Xie, Yiqun",
+          "Kumar, Vipin",
+          "Yu, Runlong"
+        ],
+        "urls": [
+          "https://ijcai.org/proceedings/2026/868",
+          "https://arxiv.org/abs/2601.14517v2",
+          "https://arxiv.org/pdf/2601.14517v2",
+          "https://arxiv.org/src/2601.14517v2",
+          "https://ijcai.org/proceedings/2026/868"
+        ],
+        "arxiv_id": "2601.14517v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2601.14517v2",
+        "full_pdf_sha256": "5e57e8e588c4a57b8e8e82e3d7087b2d887d22c894a1020fd81d0f7f35d364d1",
+        "full_pdf_bytes": 2083001,
+        "page_number": 3,
+        "figure_number": 1,
+        "original_sha256": "5146afda0d40e0eee8884884e138770893ea795c41549092f86869a66d786ff4",
+        "original_bytes": 1774526,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2601.14517v2",
+        "archive_sha256": "0e9f51644a739a1350179ea7fb0504171c30d1e248d4b918831d88f02ebcab24",
+        "archive_bytes": 1754864,
+        "archive_member": "figure1.pdf",
+        "inclusion_member": "ijcai26-arxiv.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text"
+        },
+        "pdf_drawing_objects": 352,
+        "pdf_text_spans": 108,
+        "embedded_raster_images": 7,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "g": 179,
+          "rect": 1,
+          "clipPath": 9,
+          "path": 361,
+          "mask": 6,
+          "use": 725,
+          "image": 12
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。原图中的嵌入位图可移动或替换，不能按矢量节点编辑。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 753,
+          "sha256": "7e2a4a25256cbd554c19603eea01bcabc34e84c52a5045a7d43f7797e0e24b9d"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 570,
+          "sha256": "99cde855ed2d721c32cf544b8a2793e20a0adc7b6d02db693b975bdfc3073688"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1774526,
+          "sha256": "5146afda0d40e0eee8884884e138770893ea795c41549092f86869a66d786ff4"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 318479,
+          "sha256": "05a961861bb611729e7e71dcadc4ccffd747c141f240e950879b36c212db38d9"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 3596675,
+          "sha256": "4e91499c55584ca97e196cf19b6e782c5917c8c96b651ce6077d6dcd91daf002"
+        }
+      ],
+      "path": "teaser/survey-pde-physics-data-continuum",
+      "metadata_path": "teaser/survey-pde-physics-data-continuum/metadata.json",
+      "readme_path": "teaser/survey-pde-physics-data-continuum/README.md",
+      "primary_path": "teaser/survey-pde-physics-data-continuum/original.pdf",
+      "preview_path": "teaser/survey-pde-physics-data-continuum/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-physics-knowledge-five-paradigms",
+      "title": "物理知识融入学习 · 五种方式的统一图元对照",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "conceptual-overview",
+        "method-comparison",
+        "physics-knowledge",
+        "physics-knowledge-prediction",
+        "2025"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "五栏使用同一套数据、模型和目标函数图元，通过信息流和明暗编码突出物理知识进入学习过程的位置。读者只需理解一栏的图示规则，就能比较其余四栏。",
+      "publication": {
+        "title": "Machine Learning with Physics Knowledge for Prediction: A Survey",
+        "venue": "TMLR",
+        "year": 2025,
+        "article_type": "survey",
+        "presentation": "journal-article",
+        "evidence_url": "https://www.dfki.de/en/web/research/projects-and-publications/publication/16334",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2408.09840v2",
+        "publication_evidence": {
+          "url": "https://www.dfki.de/en/web/research/projects-and-publications/publication/16334",
+          "note": "Accepted TMLR; fixed arXiv v2 dated 2025-05-15"
+        },
+        "arxiv_first_year": 2024
+      },
+      "curation": {
+        "figure_role": "综述 Figure 1。与 AI4PDE Fig.2 相近之处是固定一套可比较的条件与图元，再展示多种方法范式。",
+        "figure_subtype": "five-way-knowledge-integration-comparison",
+        "panel_layout": {
+          "method_panels": 5,
+          "summary": "五栏并列：物理模型、物理损失、物理数据增强、多数据集泛化和上下文学习。",
+          "counting_note": "按下方五个范式标签计数；白色／深色框表示作者定义的 informed／uninformed，属于概念编码，不是性能评分。"
+        },
+        "why_selected": "五栏使用同一套数据、模型和目标函数图元，通过信息流和明暗编码突出物理知识进入学习过程的位置。读者只需理解一栏的图示规则，就能比较其余四栏。",
+        "what_to_borrow": [
+          "同一对象在所有面板中保持相同符号和位置。",
+          "以局部结构变化表达方法区别，避免每栏重新设计一套图例。",
+          "图例集中放在一处，底部短标签概括每种方式。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview",
+        "design_notes": [
+          "改编时可用少量强调色替换明暗编码，并保留清楚的图例。",
+          "统一各栏的宽度、模型框高度与箭头路径。"
+        ],
+        "similar_example": {
+          "id": "survey-ai-pde-physics-data-paradigms",
+          "reason": "以相同图元对照物理知识进入学习过程的不同方式。"
+        }
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2408.09840",
+        "authors": [
+          "Watson, Joe",
+          "Song, Chen",
+          "Weeger, Oliver",
+          "Gruner, Theo",
+          "Le, An T.",
+          "Pompetzki, Kay",
+          "Hendawy, Ahmed",
+          "Arenz, Oleg",
+          "Trojak, Will",
+          "Cranmer, Miles",
+          "D'Eramo, Carlo",
+          "Bülow, Fabian",
+          "Goyal, Tanmay",
+          "Peters, Jan",
+          "Hoffman, Martin W."
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2408.09840",
+          "https://arxiv.org/abs/2408.09840v2",
+          "https://arxiv.org/pdf/2408.09840v2",
+          "https://arxiv.org/src/2408.09840v2",
+          "https://www.dfki.de/en/web/research/projects-and-publications/publication/16334"
+        ],
+        "arxiv_id": "2408.09840v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2408.09840v2",
+        "full_pdf_sha256": "1848cffc494ed52d9832896916069e846004231bfc4af97079916f778a0bc66d",
+        "full_pdf_bytes": 1694839,
+        "page_number": 3,
+        "figure_number": 1,
+        "original_sha256": "e86554753c517bb8f183d270623a6d58dc938cb40e8f23d6affaf28a8d00cc8e",
+        "original_bytes": 24812,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2408.09840v2",
+        "archive_sha256": "d403919bc1b2874d6136c423939a6c34c6b27149232502a0b79d2a7f12994b24",
+        "archive_bytes": 1639251,
+        "archive_member": "figures/overview-rebuttal.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "author_svg_archive_member": "figures/overview-rebuttal.svg",
+        "author_svg_sha256": "65de4ba1f517bbec8c8479fd7879013fd73c6917dd3178c5ebc2b6486cb982f2",
+        "author_svg_relation": "Author companion file: same five paradigms, with a larger canvas and some typographic/layout differences from the paper PDF."
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text",
+          "author-source.svg": "original text objects and outlined text retained"
+        },
+        "pdf_drawing_objects": 120,
+        "pdf_text_spans": 13,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 2,
+          "path": 193,
+          "g": 3,
+          "use": 151
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "独立 PDF 保留作者原有矢量图形、连线和文本对象；SVG 文字转轮廓。此独立 PDF 未检测到嵌入位图。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。",
+          "作者原生 SVG 的画布留白较大，部分字体和布局与论文 PDF 略有差异；需要论文中的紧凑版式时使用 original.pdf 或 source.svg。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 927,
+          "sha256": "a8ea934cf4f5b92ffac68711962ae53d259f0cf7adf94f8f637ba3e8f336bf69"
+        },
+        {
+          "path": "author-source.svg",
+          "bytes": 294129,
+          "sha256": "65de4ba1f517bbec8c8479fd7879013fd73c6917dd3178c5ebc2b6486cb982f2"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1200,
+          "sha256": "0244f188d843f67f233ed4271705141497c957b78f3c0d4fb8ea3e5b4c89b88e"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 24812,
+          "sha256": "e86554753c517bb8f183d270623a6d58dc938cb40e8f23d6affaf28a8d00cc8e"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 61570,
+          "sha256": "d3efd4a7ebff1e4bee1274961fd7f3deed21d10fc75d6c69a3a1f8e82568c2db"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 115891,
+          "sha256": "6157916a6bd0aca91da518ce56001495aca4e640e2d911cda2e7878953dc8f23"
+        }
+      ],
+      "path": "teaser/survey-physics-knowledge-five-paradigms",
+      "metadata_path": "teaser/survey-physics-knowledge-five-paradigms/metadata.json",
+      "readme_path": "teaser/survey-physics-knowledge-five-paradigms/README.md",
+      "primary_path": "teaser/survey-physics-knowledge-five-paradigms/original.pdf",
+      "preview_path": "teaser/survey-physics-knowledge-five-paradigms/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-piml-three-axis-landscape",
+      "title": "PIML · 物理先验、融入层级与任务的三维全景",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "conceptual-overview",
+        "taxonomy",
+        "physics-informed-learning",
+        "piml-problems-methods",
+        "2022"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "以物理先验、学习中的融入层级和任务为三个维度，再用两张二维图将代表方法放回同一分类空间。图形结构直接解释领域是如何被组织的。",
+      "publication": {
+        "title": "Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications",
+        "venue": "arXiv",
+        "year": 2022,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2211.08064v2",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2211.08064v2"
+      },
+      "curation": {
+        "figure_role": "综述 Figure 1。与 AI4PDE Fig.1 的领域—方法—应用总览相近，也可借鉴其统一维度下的方法定位。",
+        "figure_subtype": "three-axis-physics-informed-learning-landscape",
+        "panel_layout": {
+          "panels": 3,
+          "integration_levels": 5,
+          "prior_categories": 4,
+          "task_categories": 4,
+          "summary": "(a) 三维分类示意；(b) 先验类型与融入层级；(c) 先验类型与应用任务。",
+          "counting_note": "按作者标出的 (a)–(c) 计三个面板。先验分 PDEs、ODEs/SDEs、Symmetry、Intuitive Physics；五个融入层级为数据、架构、损失、优化、推断。气泡与方法名称是该版本的示意性概览。"
+        },
+        "why_selected": "以物理先验、学习中的融入层级和任务为三个维度，再用两张二维图将代表方法放回同一分类空间。图形结构直接解释领域是如何被组织的。",
+        "what_to_borrow": [
+          "先用一个总图建立维度，再用展开视图放入具体方法。",
+          "三个子图复用相同的先验类型顺序。",
+          "区分方法定位、概念维度与定量数据，避免将概览误读为统一性能评测。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview",
+        "design_notes": [
+          "改编时可放大轴标签，控制三维透视对文字可读性的影响。",
+          "减少无关的立体与阴影效果，将强调留给分类关系和代表方法。"
+        ],
+        "similar_example": {
+          "id": "survey-ai-pde-scope-map",
+          "reason": "在同一全景中组织先验、方法与应用任务，形成有主线的综述概念图。"
+        }
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2211.08064",
+        "authors": [
+          "Hao, Zhongkai",
+          "Liu, Songming",
+          "Zhang, Yichi",
+          "Ying, Chengyang",
+          "Feng, Yao",
+          "Su, Hang",
+          "Zhu, Jun"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2211.08064",
+          "https://arxiv.org/abs/2211.08064v2",
+          "https://arxiv.org/pdf/2211.08064v2",
+          "https://arxiv.org/src/2211.08064v2"
+        ],
+        "arxiv_id": "2211.08064v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2211.08064v2",
+        "full_pdf_sha256": "9e04bef9ebc21400c7dcd1b20cc7f1323e13fd42cb9de4a1600b4376cc2549e9",
+        "full_pdf_bytes": 3402006,
+        "page_number": 3,
+        "figure_number": 1,
+        "original_sha256": "86fe20ac208c5b0591b30cacd66ceaf266993fb413045dd1f72abaa511caafc3",
+        "original_bytes": 2205779,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2211.08064v2",
+        "archive_sha256": "9349f18f6ca7b17472b5fbc8c13705a370b4f46cb699a09e59e883f1a6b38507",
+        "archive_bytes": 3137295,
+        "archive_member": "fig/fig0_new.pdf",
+        "inclusion_member": "Preliminary.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text"
+        },
+        "pdf_drawing_objects": 556,
+        "pdf_text_spans": 62,
+        "embedded_raster_images": 353,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 517,
+          "path": 1155,
+          "mask": 353,
+          "g": 1577,
+          "image": 652,
+          "use": 628
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。原图中的嵌入位图可移动或替换，不能按矢量节点编辑。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 802,
+          "sha256": "647ce3b944374b34ffc13b18c3f6169ffb350c90e99d1a41f11f568c38c34f98"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1913,
+          "sha256": "fef3a2555c4fa7574aaf5390d5616ae56ffec8c06642f12f9980a2d9338241de"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 2205779,
+          "sha256": "86fe20ac208c5b0591b30cacd66ceaf266993fb413045dd1f72abaa511caafc3"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 210819,
+          "sha256": "005e2f35f36f6c4b92985bb0488066897d96ea02fe21f88371c3bae7e851a040"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 3878163,
+          "sha256": "f13e22fb2ed5d57a1cd2a54c0409c433868333b21f5a81796714ff717bb2588f"
+        }
+      ],
+      "path": "teaser/survey-piml-three-axis-landscape",
+      "metadata_path": "teaser/survey-piml-three-axis-landscape/metadata.json",
+      "readme_path": "teaser/survey-piml-three-axis-landscape/README.md",
+      "primary_path": "teaser/survey-piml-three-axis-landscape/original.pdf",
+      "preview_path": "teaser/survey-piml-three-axis-landscape/preview.png"
     },
     {
       "schema_version": 1,

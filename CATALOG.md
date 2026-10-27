@@ -6,7 +6,7 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 42 | [浏览](teaser/README.md) |
+| Teaser 范例 | 47 | [浏览](teaser/README.md) |
 | Architecture 范例 | 45 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 341 | [按内容与来源浏览](element/README.md) |
 
@@ -330,6 +330,28 @@ arXiv 2023 · 预印本 · 综述 · 矢量结构
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-graph-foundation-paradigm/original.pdf) · [来源记录](teaser/survey-graph-foundation-paradigm/metadata.json)
 
+### [Informed ML · 数据路径与先验知识路径的概念对照](teaser/survey-informed-ml-information-flow/README.md)
+
+把传统数据路径和独立先验知识路径画在同一信息流中，通过实线、虚线和内部阶段展开解释融合发生在哪里。简洁的结构承载清楚的方法差异。
+
+arXiv 2019 · 预印本 · 综述 · 矢量结构
+
+[<img src="teaser/survey-informed-ml-information-flow/preview.png" width="760" alt="Informed ML · 数据路径与先验知识路径的概念对照">](teaser/survey-informed-ml-information-flow/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-informed-ml-information-flow/original.pdf) · [来源记录](teaser/survey-informed-ml-information-flow/metadata.json)
+
+### [Informed ML · 知识来源—表示—融入位置全景](teaser/survey-informed-ml-knowledge-map/README.md)
+
+三列分别回答知识来自哪里、如何表示、在哪里进入学习流程。Sankey 连接将分类目录变成关系全景，能够同时展示多个类别以及它们之间的联系。
+
+arXiv 2019 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-informed-ml-knowledge-map/preview.png" width="760" alt="Informed ML · 知识来源—表示—融入位置全景">](teaser/survey-informed-ml-knowledge-map/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-informed-ml-knowledge-map/original.pdf) · [来源记录](teaser/survey-informed-ml-knowledge-map/metadata.json)
+
 ### [指令式图像编辑 · 21 种任务的多子图总览](teaser/survey-instruction-editing-task-gallery/README.md)
 
 21 个任务子图按五类操作组织，每个小面板保留输入、编辑结果和短标签；颜色只分大类，横排、竖排与底部长条配合，内容密集且层次清楚。
@@ -428,6 +450,39 @@ EUROGRAPHICS 2022 · STAR 报告 · 综述 · 整图位图，仅构图参考
 
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-neural-rendering-2022-gallery/source.jpg) · [来源记录](teaser/survey-neural-rendering-2022-gallery/metadata.json)
+
+### [PDE 求解综述 · 物理—数据连续谱与两类方法全景](teaser/survey-pde-physics-data-continuum/README.md)
+
+共同难题、统一视角和分支方法排成三层。PINNs 与神经算子沿同一物理—数据主线对照，下层用 12 个小型科学／方法图示解释具体研究方向，信息丰富且阅读顺序清楚。
+
+IJCAI 2026 · 会议论文，未核实 Oral · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-pde-physics-data-continuum/preview.png" width="760" alt="PDE 求解综述 · 物理—数据连续谱与两类方法全景">](teaser/survey-pde-physics-data-continuum/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-pde-physics-data-continuum/original.pdf) · [来源记录](teaser/survey-pde-physics-data-continuum/metadata.json)
+
+### [物理知识融入学习 · 五种方式的统一图元对照](teaser/survey-physics-knowledge-five-paradigms/README.md)
+
+五栏使用同一套数据、模型和目标函数图元，通过信息流和明暗编码突出物理知识进入学习过程的位置。读者只需理解一栏的图示规则，就能比较其余四栏。
+
+TMLR 2025 · 期刊论文 · 综述 · 矢量结构
+
+[<img src="teaser/survey-physics-knowledge-five-paradigms/preview.png" width="760" alt="物理知识融入学习 · 五种方式的统一图元对照">](teaser/survey-physics-knowledge-five-paradigms/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-physics-knowledge-five-paradigms/original.pdf) · [来源记录](teaser/survey-physics-knowledge-five-paradigms/metadata.json)
+
+### [PIML · 物理先验、融入层级与任务的三维全景](teaser/survey-piml-three-axis-landscape/README.md)
+
+以物理先验、学习中的融入层级和任务为三个维度，再用两张二维图将代表方法放回同一分类空间。图形结构直接解释领域是如何被组织的。
+
+arXiv 2022 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-piml-three-axis-landscape/preview.png" width="760" alt="PIML · 物理先验、融入层级与任务的三维全景">](teaser/survey-piml-three-axis-landscape/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-piml-three-axis-landscape/original.pdf) · [来源记录](teaser/survey-piml-three-axis-landscape/metadata.json)
 
 ### [世界模型能力递进 · 可信预测、可控干预与决策收益](teaser/survey-world-model-capability-ladder/README.md)
 

@@ -58,6 +58,15 @@
 
 只复制原件、转换格式和制作预览；所有内容沿用作者原图。
 
+<!-- BEGIN SIMILAR EXAMPLES -->
+## 相近范例
+
+- [PDE 求解综述 · 物理—数据连续谱与两类方法全景](../survey-pde-physics-data-continuum/README.md)：都将物理与数据的关系作为组织主线，再用具体方法内容解释不同分支。
+- [物理知识融入学习 · 五种方式的统一图元对照](../survey-physics-knowledge-five-paradigms/README.md)：以相同图元对照物理知识进入学习过程的不同方式。
+- [Informed ML · 数据路径与先验知识路径的概念对照](../survey-informed-ml-information-flow/README.md)：明确区分数据与先验知识，并解释两者如何进入学习过程。
+
+<!-- END SIMILAR EXAMPLES -->
+
 <!-- BEGIN FIGURE LINKS -->
 ## 关联范例与元素
 

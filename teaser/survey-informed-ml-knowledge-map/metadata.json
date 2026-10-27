@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "survey-informed-ml-knowledge-map",
+  "title": "Informed ML · 知识来源—表示—融入位置全景",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "conceptual-overview",
+    "taxonomy",
+    "knowledge-integration",
+    "informed-machine-learning",
+    "2019"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "三列分别回答知识来自哪里、如何表示、在哪里进入学习流程。Sankey 连接将分类目录变成关系全景，能够同时展示多个类别以及它们之间的联系。",
+  "publication": {
+    "title": "Informed Machine Learning -- A Taxonomy and Survey of Integrating Knowledge into Learning Systems",
+    "venue": "arXiv",
+    "year": 2019,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/1903.12394v3",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "1903.12394v3"
+  },
+  "curation": {
+    "figure_role": "综述 Figure 2 的分类全景。与 AI4PDE Fig.1 同样用多层分类和连接关系交代研究范围。",
+    "figure_subtype": "knowledge-source-representation-integration-map",
+    "panel_layout": {
+      "source_types": 3,
+      "representation_types": 8,
+      "integration_stages": 4,
+      "summary": "3 类知识来源 → 8 类知识表示 → 4 个学习流程融入位置。",
+      "counting_note": "按三列命名节点分别计数。连接带的宽度对应作者所分析文献中的相对数量，属于该版本的文献统计；不能仅当装饰性连线。"
+    },
+    "why_selected": "三列分别回答知识来自哪里、如何表示、在哪里进入学习流程。Sankey 连接将分类目录变成关系全景，能够同时展示多个类别以及它们之间的联系。",
+    "what_to_borrow": [
+      "每列回答一个明确问题，使复杂分类保持稳定的阅读顺序。",
+      "将节点类型与连接关系同时表达，避免只列名称。",
+      "分清概念关系和带宽所表示的文献统计，改编时应重新核对。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview",
+    "design_notes": [
+      "可为三个层级或主要路径使用克制的配色，保持文字对比度。",
+      "保留足够列间距离，避免连线与节点标签相互遮挡。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-scope-map",
+      "reason": "将多级分类串成完整的领域关系图，适合表达研究范围与组成。"
+    }
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/1903.12394",
+    "authors": [
+      "von Rueden, Laura",
+      "Mayer, Sebastian",
+      "Beckh, Katharina",
+      "Georgiev, Bogdan",
+      "Giesselbach, Sven",
+      "Heese, Raoul",
+      "Kirsch, Birgit",
+      "Pfrommer, Julius",
+      "Pick, Annika",
+      "Ramamurthy, Rajkumar",
+      "Walczak, Michal",
+      "Garcke, Jochen",
+      "Bauckhage, Christian",
+      "Schuecker, Jannis"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/1903.12394",
+      "https://arxiv.org/abs/1903.12394v3",
+      "https://arxiv.org/pdf/1903.12394v3",
+      "https://arxiv.org/src/1903.12394v3"
+    ],
+    "arxiv_id": "1903.12394v3",
+    "full_pdf_url": "https://arxiv.org/pdf/1903.12394v3",
+    "full_pdf_sha256": "d407043a615223c85846bdce64568a3dba2589f3d1a94c2afa243fee979806a9",
+    "full_pdf_bytes": 940122,
+    "page_number": 4,
+    "figure_number": 2,
+    "original_sha256": "7803ad2a685bbba5482a03289b2db91155e69ea4a15f719bde3ec7244ac77808",
+    "original_bytes": 137103,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/1903.12394v3",
+    "archive_sha256": "eaed5df95af94b0b5824a06f7268e5fb1a87036ca6a3852375675891c2ffcb03",
+    "archive_bytes": 691992,
+    "archive_member": "figures/central_figures/fig_taxonomy_v15_210311_compiled.pdf",
+    "inclusion_member": "4x_taxonomy_figure.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 18,
+    "pdf_text_spans": 33,
+    "embedded_raster_images": 2,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 17,
+      "path": 100,
+      "g": 35,
+      "image": 2,
+      "use": 575
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。原图中的嵌入位图可移动或替换，不能按矢量节点编辑。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。",
+      "作者 PDF 中两列之间的 Sankey 连接带已保存为两幅位图，节点框和文字保留原有矢量与文本对象。SVG 转换没有把连接带恢复为可独立编辑的曲线。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 940,
+      "sha256": "b2be4012d8d9b580f4e77c6c0b3240f494bc0cde8cac03f82a3577eb8200cf29"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1175,
+      "sha256": "387d380f667c81afac66fd1ea899c4802db109c24900579a380bd08d686d7b40"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 137103,
+      "sha256": "7803ad2a685bbba5482a03289b2db91155e69ea4a15f719bde3ec7244ac77808"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 139792,
+      "sha256": "b86afc9635c5031419bd66b3e36d3c35dc89ef91309886b7ea889667667f2d5f"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 258377,
+      "sha256": "a9baf3257284c6872329b6d06fbca3cda6927aedee025534736c7ff1b86aa907"
+    }
+  ]
+}

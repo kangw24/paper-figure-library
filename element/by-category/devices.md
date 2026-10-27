@@ -24,7 +24,7 @@
 | <img src="../../element/previews/tabler-robot.png" width="140"> | [机器人](../../element/svg/tabler-robot.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-car.png" width="140"> | [汽车](../../element/svg/tabler-car.svg) | Tabler outline · MIT | [LAV：感知、预测与驾驶控制流程](../../architecture/lav/README.md) |
 | <img src="../../element/previews/tabler-plane.png" width="140"> | [飞机](../../element/svg/tabler-plane.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-world.png" width="140"> | [地球](../../element/svg/tabler-world.svg) | Tabler outline · MIT | — |
+| <img src="../../element/previews/tabler-world.png" width="140"> | [地球](../../element/svg/tabler-world.svg) | Tabler outline · MIT | [3DGS 应用全景 · 中心主题与场景分支](../../teaser/survey-3dgs-application-landscape/README.md) · [Agent 社会场景 · 综述概念 teaser](../../teaser/survey-agent-society-teaser/README.md) |
 | <img src="../../element/previews/tabler-map.png" width="140"> | [地图](../../element/svg/tabler-map.svg) | Tabler outline · MIT | [OrienterNet：用二维地图定位的任务与动机](../../teaser/orienternet/README.md) |
 | <img src="../../element/previews/tabler-map-pin.png" width="140"> | [定位](../../element/svg/tabler-map-pin.svg) | Tabler outline · MIT | [OrienterNet：用二维地图定位的任务与动机](../../teaser/orienternet/README.md) |
 | <img src="../../element/previews/tabler-temperature.png" width="140"> | [温度](../../element/svg/tabler-temperature.svg) | Tabler outline · MIT | — |

@@ -1,0 +1,8 @@
+Paper: A Survey on Multimodal Large Language Models
+Authors: Yin, Shukang, Fu, Chaoyou, Zhao, Sirui, Li, Ke, Sun, Xing, Xu, Tong, Chen, Enhong
+Source version: 2306.13549v4
+TeX archive: https://arxiv.org/src/2306.13549v4
+Archive member: figs/survey-timeline.pdf
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。
+Original PDF is byte-identical to the archive member. SVG conversion only; no redrawing.

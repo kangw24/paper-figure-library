@@ -31,5 +31,13 @@
 - 在 `relationships.json` 维护按表达用途的二级分组、同论文关联及现有元素关联；分组覆盖每个范例且不重复。实际拆件关系从元素的 `source.local_original` / `source.native_original` 读取，不手工伪造。
 - 运行目录生成器后会更新两类范例目录、各条目的关联段落、Element 分类页和 `element/with-examples.md`。不要只修改生成出的 Markdown 而漏改关联记录。
 
+## 综述原图
+
+- 先按实际用途区分概念场景、领域全景、时间线、谱系和分类路线图；综述中的统一框架与模块分解仍放 Architecture。图号与具体子类型写入元数据。
+- 综述放在现有根目录分类中，使用 `survey` 标签和 `publication.article_type: survey`，不另建 survey 实体文件夹。期刊年份和所收录 arXiv 修订版本分别记录，不给期刊综述套 Oral 标签。
+- 作者 TeX 归档中的独立 PDF 优先原样保存。记录固定版本的归档 URL、SHA256、成员路径与原件 SHA256，并保留原始插图定义；转换 SVG 的文字轮廓与原有位图须单独说明。
+- 个别作者会在 LaTeX 中叠加章节、引文或子图编号，独立 PDF 中预留空槽。保留原件并在条目显著说明，不能悄悄补字后宣称是原文件。
+- 时间线、增长曲线与谱系图是对应版本的历史快照，不能因今天收录而暗示其中内容已更新到今天。
+
 
 `element/vector-parts.json` 记录从论文 SVG 提取的精确节点路径，`scripts/extract_vector_parts.py` 可在不重绘的情况下重新提取。完整机制图与版式模板继续作为辅助资料，从相应类别页链接。

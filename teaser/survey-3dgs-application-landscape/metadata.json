@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "id": "survey-3dgs-application-landscape",
+  "title": "3DGS 应用全景 · 中心主题与场景分支",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "application-landscape",
+    "3dgs",
+    "mind-map",
+    "3dgs-survey",
+    "ACM Computing Surveys",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "以中心主题连接机器人、动态场景、生成编辑、化身、内窥镜、场景重建和物理等分支，并把少量视觉实例放进分支旁，兼顾分类和直观性。",
+  "publication": {
+    "title": "A Survey on 3D Gaussian Splatting",
+    "venue": "ACM Computing Surveys",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "journal-article",
+    "evidence_url": "https://arxiv.org/abs/2401.03890v9",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2401.03890v9"
+  },
+  "curation": {
+    "figure_role": "综述中的应用范围总览，可借鉴为领域全景 teaser；原文为 Figure 3，不能称其为原论文首图。",
+    "figure_subtype": "application-landscape",
+    "why_selected": "以中心主题连接机器人、动态场景、生成编辑、化身、内窥镜、场景重建和物理等分支，并把少量视觉实例放进分支旁，兼顾分类和直观性。",
+    "what_to_borrow": [
+      "中心只放领域主题，一层分支讲应用，下一层讲子任务。",
+      "用小型图像例子补足抽象类别，让全景图具有视觉锚点。",
+      "原作者的章节与引文编号由 LaTeX 叠加；独立 PDF 母图保留对应空槽，附原始叠加定义。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://github.com/guikunchen/Awesome3DGS",
+    "authors": [
+      "Chen, Guikun",
+      "Wang, Wenguan"
+    ],
+    "urls": [
+      "https://github.com/guikunchen/Awesome3DGS",
+      "https://arxiv.org/abs/2401.03890v9",
+      "https://arxiv.org/pdf/2401.03890v9",
+      "https://arxiv.org/src/2401.03890v9"
+    ],
+    "arxiv_id": "2401.03890v9",
+    "full_pdf_url": "https://arxiv.org/pdf/2401.03890v9",
+    "full_pdf_sha256": "c459485396f1922756dd7f3c5d9bf22c4b800265e905d3377045d0e347e1ca9d",
+    "full_pdf_bytes": 2351798,
+    "page_number": 14,
+    "figure_number": 3,
+    "original_sha256": "19a7a39c20d231ffcd12bd7bd78c828b36f28710faf0e9ba4bda5e603bdda09e",
+    "original_bytes": 1007026,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2401.03890v9",
+    "archive_sha256": "1b94db98d32a3eb5268f0216f1e78319d3f897c6facdc21504250d391e4ca7fd",
+    "archive_bytes": 1607660,
+    "archive_member": "fig/fig_app1.pdf",
+    "inclusion_member": "sec/misc/fig_app.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 34,
+    "pdf_drawing_objects": 50,
+    "embedded_raster_images": 7,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 337,
+      "path": 162,
+      "clipPath": 27,
+      "image": 7,
+      "use": 490
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "原作者把章节或引文编号放在 LaTeX 中叠加，独立 PDF 与转换 SVG 保留其编号空槽；配套 figure-inclusion.tex 是原始叠加定义。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 546,
+      "sha256": "79762a1bb2ec120f41688961b1e42e270cc65f60b0f6eb1287d1cac51beeb7b2"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 2012,
+      "sha256": "1fc9c751e3d85abc0afc7593f73243d87b2fc73e4dda832fc79be82c8029b011"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1007026,
+      "sha256": "19a7a39c20d231ffcd12bd7bd78c828b36f28710faf0e9ba4bda5e603bdda09e"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 483791,
+      "sha256": "ed41a6d2dec05248faafa56adc450d6e5eec41bf0a43ca22f8246d9f706ad0ea"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1335634,
+      "sha256": "fd972a40b184fc46e73de53556ec8acc4a7e1cffe2927e0e97de5f41bfd06612"
+    }
+  ]
+}

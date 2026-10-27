@@ -1,0 +1,8 @@
+Paper: The Rise and Potential of Large Language Model Based Agents: A Survey
+Authors: Xi, Zhiheng, Chen, Wenxiang, Guo, Xin, He, Wei, Ding, Yiwen, Hong, Boyang, Zhang, Ming, Wang, Junzhe, Jin, Senjie, Zhou, Enyu, Zheng, Rui, Fan, Xiaoran, Wang, Xiao, Xiong, Limao, Zhou, Yuhao, Wang, Weiran, Jiang, Changhao, Zou, Yicheng, Liu, Xiangyang, Yin, Zhangyue, Dou, Shihan, Weng, Rongxiang, Cheng, Wensen, Zhang, Qi, Qin, Wenjuan, Zheng, Yongyan, Qiu, Xipeng, Huang, Xuanjing, Gui, Tao
+Source version: 2309.07864v3
+TeX archive: https://arxiv.org/src/2309.07864v3
+Archive member: figures/sec3_construction_v2.pdf
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 场景、人物和部分图标含第三方视觉素材；不视为本仓库可自由再分发的元素。
+Original PDF is byte-identical to the archive member. SVG conversion only; no redrawing.

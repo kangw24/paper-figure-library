@@ -2,23 +2,25 @@
 
 个人 CS / AI 论文配图素材库，按用途分为 **Teaser、Architecture、Element**。收集作者和已有素材库的源文件，用 Markdown 串联完整范例、方法结构与可复用部件。
 
-**16 个 teaser · 42 个 architecture · 341 个独立 element**。
+**24 个 teaser · 45 个 architecture · 341 个独立 element**。
 
 | 分类 | 用来找什么 | 入口 |
 |---|---|---|
-| **Teaser** | 问题动机、方法差异、核心想法和能力展示 | [按表达目的浏览](teaser/README.md) |
+| **Teaser** | 问题动机、核心想法、能力展示、领域全景与演进 | [按表达目的浏览](teaser/README.md) |
 | **Architecture** | 整体流程、网络主干、训练框架和模块展开 | [按结构用途浏览](architecture/README.md) |
 | **Element** | 模块、张量、矩阵、运算、箭头和对象等独立 SVG | [按内容分类浏览](element/README.md) |
 
 根目录直接提供三个素材文件夹：
 
 ```text
-teaser/        动机、概念与能力展示
+teaser/        动机、概念、能力展示与领域全景
 architecture/  方法流程、网络与模块结构
 element/       独立可复用部件
 ```
 
-会议、年份、Oral 与奖项保留为条目标签。
+会议、期刊、年份、综述类型、Oral 与奖项保留为条目标签。
+
+综述图从 [领域全景与发展脉络](teaser/README.md#landscape) 浏览：本批从 5 篇综述收录 8 张概念、场景、时间线、谱系与分类总览图，另有 3 张配套框架图放在 Architecture。优先看 [Agent 社会场景 teaser](teaser/survey-agent-society-teaser/README.md)、[语言模型能力演进](teaser/survey-lm-capability-evolution/README.md) 和 [LLaMA 家族关系](teaser/survey-llama-family-map/README.md)。
 
 ## 沿着范例找素材
 
@@ -41,13 +43,15 @@ element/       独立可复用部件
 | 范例到元素、元素到范例 | [Markdown 对照表](element/with-examples.md) |
 | 离线搜索 | 下载仓库后打开 [gallery.html](element/gallery.html) |
 
-本轮补充 MVSplat、SAM 2、LLaVA、BLIP-2、pixelSplat、3DETR 的 10 张作者原图，并从 DiT、ViT、SD3 架构图提取 24 个独立网络部件。
+已收录 MVSplat、SAM 2、LLaVA、BLIP-2、pixelSplat、3DETR 的 10 张作者原图，并从 DiT、ViT、SD3 架构图提取 24 个独立网络部件。
 
 元素包括作者公开图元、从论文与 task5 原图提取的部件，以及 Tabler、Bioicons、Isoflow 的已有素材。每项保留独立源文件、来源、许可和预览。
 
 ## 来源与编辑范围
 
-原始下载的 SVG、AI、AIT 保留原字节；论文 PDF 提取的 SVG 明确记录原文哈希、页码、裁剪坐标与转换步骤。文字可能已转轮廓，照片和渲染图仍为位图。DPO 对照图和 Genie 训练总览明确标为整图位图参考。
+原始下载的 SVG、AI、AIT 保留原字节；本批综述还保留作者 TeX 归档中的独立 PDF 原件及插图定义，记录固定版本、归档哈希与成员路径。PDF 中的原文本对象保留，附带 SVG 的文字转为轮廓。3DGS 母图的章节与引文编号由原论文 LaTeX 叠加，独立文件保留作者的编号空槽。
+
+从整篇论文 PDF 摘取的 SVG 另记录原文哈希、页码、裁剪坐标与转换步骤。照片和渲染图仍为位图。DPO 对照图和 Genie 训练总览明确标为整图位图参考。
 
 每张图的 README 保留选图理由、使用范围和来源记录。完整机制参考通过 Element 页链接，版式母版通过 Architecture 页链接；它们分别计数，不充作最小元素。许可逐项保留，桌面 Illustrator 尚未逐项实测。
 
@@ -60,4 +64,4 @@ element/       独立可复用部件
     python scripts/build_catalog.py
     python scripts/validate_library.py
 
-[论文原图收录记录](sources/top-conference-2026-10-27.json) · [元素下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)
+[综述原图收录记录](sources/survey-figures-2026-10-27.json) · [论文原图收录记录](sources/top-conference-2026-10-27.json) · [元素下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)

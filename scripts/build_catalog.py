@@ -14,7 +14,8 @@ def write(root,path,text):
 def publication_line(x):
  p=x.get('publication')
  if not p:return ''
- label=p['venue']+' '+str(p['year'])+' · '+{'oral':'Oral','poster':'Poster'}.get(p.get('presentation'),'会议论文，未核实 Oral')
+ label=p['venue']+' '+str(p['year'])+' · '+{'oral':'Oral','poster':'Poster','journal-article':'期刊论文','preprint':'预印本'}.get(p.get('presentation'),'会议论文，未核实 Oral')
+ if p.get('article_type')=='survey':label+=' · 综述'
  level=x.get('editability',{}).get('level')
  label+=' · '+{'vector':'矢量结构','vector-and-raster':'矢量 + 原有位图','raster-reference':'整图位图，仅构图参考'}.get(level,'')
  return label.rstrip(' ·')

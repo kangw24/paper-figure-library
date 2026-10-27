@@ -6,8 +6,8 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 16 | [浏览](teaser/README.md) |
-| Architecture 范例 | 42 | [浏览](architecture/README.md) |
+| Teaser 范例 | 24 | [浏览](teaser/README.md) |
+| Architecture 范例 | 45 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 341 | [按内容与来源浏览](element/README.md) |
 
 完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。
@@ -153,6 +153,94 @@ ICLR 2025 · Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：MIT（来源仓库）；渲染素材保留原论文出处。。
 [原文件](teaser/shaddr/source.svg) · [来源记录](teaser/shaddr/metadata.json)
+
+### [3DGS 应用全景 · 中心主题与场景分支](teaser/survey-3dgs-application-landscape/README.md)
+
+以中心主题连接机器人、动态场景、生成编辑、化身、内窥镜、场景重建和物理等分支，并把少量视觉实例放进分支旁，兼顾分类和直观性。
+
+ACM Computing Surveys 2026 · 期刊论文 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-3dgs-application-landscape/preview.png" width="760" alt="3DGS 应用全景 · 中心主题与场景分支">](teaser/survey-3dgs-application-landscape/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-3dgs-application-landscape/original.pdf) · [来源记录](teaser/survey-3dgs-application-landscape/metadata.json)
+
+### [3DGS 综述路线图 · 双侧分类地图](teaser/survey-3dgs-review-map/README.md)
+
+从中心领域向两侧展开原理、方法方向、应用、比较与研究方向，颜色对应一层主题，形成清晰的综述阅读地图。
+
+ACM Computing Surveys 2026 · 期刊论文 · 综述 · 矢量结构
+
+[<img src="teaser/survey-3dgs-review-map/preview.png" width="760" alt="3DGS 综述路线图 · 双侧分类地图">](teaser/survey-3dgs-review-map/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-3dgs-review-map/original.pdf) · [来源记录](teaser/survey-3dgs-review-map/metadata.json)
+
+### [自主 Agent 发展 · 趋势曲线与代表场景](teaser/survey-agent-growth-landscape/README.md)
+
+在累计论文增长曲线上排布有类别配色的代表系统缩略图，将领域热度、时间顺序和应用类型合在一个画面里。
+
+Frontiers of Computer Science 2024 · 期刊论文 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-agent-growth-landscape/preview.png" width="760" alt="自主 Agent 发展 · 趋势曲线与代表场景">](teaser/survey-agent-growth-landscape/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-agent-growth-landscape/original.pdf) · [来源记录](teaser/survey-agent-growth-landscape/metadata.json)
+
+### [Agent 社会场景 · 综述概念 teaser](teaser/survey-agent-society-teaser/README.md)
+
+以一座共同活动的虚拟城市场景承载任务规划、协作和工具使用，再用三个局部场景与对话气泡解释含义；这是本批最接近叙事型 teaser 的一张。
+
+arXiv 2023 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-agent-society-teaser/preview.png" width="760" alt="Agent 社会场景 · 综述概念 teaser">](teaser/survey-agent-society-teaser/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-agent-society-teaser/original.pdf) · [来源记录](teaser/survey-agent-society-teaser/metadata.json)
+
+### [LLaMA 家族关系 · 模型与数据继承图](teaser/survey-llama-family-map/README.md)
+
+把模型继承、数据继承与继续预训练画成不同颜色和线型的关系，从单一根节点展开出任务与领域分支，重点是关系而非枚举。
+
+Frontiers of Computer Science 2026 · 期刊论文 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-llama-family-map/preview.png" width="760" alt="LLaMA 家族关系 · 模型与数据继承图">](teaser/survey-llama-family-map/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-llama-family-map/original.pdf) · [来源记录](teaser/survey-llama-family-map/metadata.json)
+
+### [LLM 发布脉络 · 主轴与时间分支](teaser/survey-llm-release-timeline/README.md)
+
+沿弯曲主轴安排不同时间段，分支容纳密集的模型名称，黄色底色再编码检查点是否公开；适合综述开篇交代领域发展范围。
+
+Frontiers of Computer Science 2026 · 期刊论文 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-llm-release-timeline/preview.png" width="760" alt="LLM 发布脉络 · 主轴与时间分支">](teaser/survey-llm-release-timeline/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-llm-release-timeline/original.pdf) · [来源记录](teaser/survey-llm-release-timeline/metadata.json)
+
+### [语言模型四代能力演进 · 阶梯式概念图](teaser/survey-lm-capability-evolution/README.md)
+
+用同一条阶梯和时间轴，把统计语言模型、神经语言模型、预训练语言模型与大语言模型的任务能力变化串起来；一眼先读到观点，再读阶段细节。
+
+Frontiers of Computer Science 2026 · 期刊论文 · 综述 · 矢量结构
+
+[<img src="teaser/survey-lm-capability-evolution/preview.png" width="760" alt="语言模型四代能力演进 · 阶梯式概念图">](teaser/survey-lm-capability-evolution/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-lm-capability-evolution/original.pdf) · [来源记录](teaser/survey-lm-capability-evolution/metadata.json)
+
+### [多模态大模型发展 · 分段曲线时间线](teaser/survey-mllm-timeline/README.md)
+
+弯曲时间轴配合阶段分支和小型图标，在一张横向图内承载多模态模型从 2022 年到 2024 年初的发展；比普通表格更容易看出阶段。
+
+National Science Review 2024 · 期刊论文 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-mllm-timeline/preview.png" width="760" alt="多模态大模型发展 · 分段曲线时间线">](teaser/survey-mllm-timeline/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-mllm-timeline/original.pdf) · [来源记录](teaser/survey-mllm-timeline/metadata.json)
 
 ### [VAR · 从逐 token 到逐尺度生成的范式对照](teaser/var-paradigm/README.md)
 
@@ -562,6 +650,39 @@ ICML 2024 · Oral · 矢量结构
 
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/sd3-mmdit-architecture/source.svg) · [来源记录](architecture/sd3-mmdit-architecture/metadata.json)
+
+### [Agent 概念框架 · 感知、大脑与行动](architecture/survey-agent-perception-brain-action/README.md)
+
+用环境交互闭环串起感知、大脑与行动，同时在右侧展开存储和决策能力；适合作为综述统一框架图的构图参考。
+
+arXiv 2023 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="architecture/survey-agent-perception-brain-action/preview.png" width="760" alt="Agent 概念框架 · 感知、大脑与行动">](architecture/survey-agent-perception-brain-action/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/survey-agent-perception-brain-action/original.pdf) · [来源记录](architecture/survey-agent-perception-brain-action/metadata.json)
+
+### [自主 Agent 统一框架 · 四列模块分解](architecture/survey-autonomous-agent-modules/README.md)
+
+将 Profile、Memory、Planning、Action 并列成四列，列内再分子能力，顶部说明共享的 LLM 基础，适合综述比较多个系统的共同组成。
+
+Frontiers of Computer Science 2024 · 期刊论文 · 综述 · 矢量 + 原有位图
+
+[<img src="architecture/survey-autonomous-agent-modules/preview.png" width="760" alt="自主 Agent 统一框架 · 四列模块分解">](architecture/survey-autonomous-agent-modules/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](architecture/survey-autonomous-agent-modules/original.pdf) · [来源记录](architecture/survey-autonomous-agent-modules/metadata.json)
+
+### [MLLM 统一架构 · 模态接口与连接器对照](architecture/survey-mllm-connector-framework/README.md)
+
+上半部统一多模态输入、编码器、连接器、LLM 与生成器，下半部并列展开 MLP、Q-Former 和注意力连接方式，兼顾全局和接口差异。
+
+National Science Review 2024 · 期刊论文 · 综述 · 矢量结构
+
+[<img src="architecture/survey-mllm-connector-framework/preview.png" width="760" alt="MLLM 统一架构 · 模态接口与连接器对照">](architecture/survey-mllm-connector-framework/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](architecture/survey-mllm-connector-framework/original.pdf) · [来源记录](architecture/survey-mllm-connector-framework/metadata.json)
 
 ### [VAR · 多尺度 VQVAE 与 VAR 两阶段训练](architecture/var-architecture/README.md)
 

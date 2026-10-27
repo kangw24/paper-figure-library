@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "id": "survey-agent-society-teaser",
+  "title": "Agent 社会场景 · 综述概念 teaser",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "scenario-teaser",
+    "agent",
+    "human-agent-interaction",
+    "agent-rise-survey",
+    "arXiv",
+    "2023"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "以一座共同活动的虚拟城市场景承载任务规划、协作和工具使用，再用三个局部场景与对话气泡解释含义；这是本批最接近叙事型 teaser 的一张。",
+  "publication": {
+    "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+    "venue": "arXiv",
+    "year": 2023,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2309.07864v3",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2309.07864v3"
+  },
+  "curation": {
+    "figure_role": "原论文 Figure 1，用具体场景描绘作者设想的 Agent 社会；属于愿景概念图，不是已验证的系统能力展示。",
+    "figure_subtype": "scenario-teaser",
+    "why_selected": "以一座共同活动的虚拟城市场景承载任务规划、协作和工具使用，再用三个局部场景与对话气泡解释含义；这是本批最接近叙事型 teaser 的一张。",
+    "what_to_borrow": [
+      "先给一个能被迅速理解的主场景，再用局部放大区讲不同能力。",
+      "气泡与短标签围绕人物行为，减少抽象术语堆积。",
+      "城市场景和人物主要是原有位图，文字、标注框与部分形状才是可编辑对象；保留第三方视觉素材权利。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://github.com/WooooDyy/LLM-Agent-Paper-List",
+    "authors": [
+      "Xi, Zhiheng",
+      "Chen, Wenxiang",
+      "Guo, Xin",
+      "He, Wei",
+      "Ding, Yiwen",
+      "Hong, Boyang",
+      "Zhang, Ming",
+      "Wang, Junzhe",
+      "Jin, Senjie",
+      "Zhou, Enyu",
+      "Zheng, Rui",
+      "Fan, Xiaoran",
+      "Wang, Xiao",
+      "Xiong, Limao",
+      "Zhou, Yuhao",
+      "Wang, Weiran",
+      "Jiang, Changhao",
+      "Zou, Yicheng",
+      "Liu, Xiangyang",
+      "Yin, Zhangyue",
+      "Dou, Shihan",
+      "Weng, Rongxiang",
+      "Cheng, Wensen",
+      "Zhang, Qi",
+      "Qin, Wenjuan",
+      "Zheng, Yongyan",
+      "Qiu, Xipeng",
+      "Huang, Xuanjing",
+      "Gui, Tao"
+    ],
+    "urls": [
+      "https://github.com/WooooDyy/LLM-Agent-Paper-List",
+      "https://arxiv.org/abs/2309.07864v3",
+      "https://arxiv.org/pdf/2309.07864v3",
+      "https://arxiv.org/src/2309.07864v3"
+    ],
+    "arxiv_id": "2309.07864v3",
+    "full_pdf_url": "https://arxiv.org/pdf/2309.07864v3",
+    "full_pdf_sha256": "5e3b2357ff942e1a0e084ae4af3327011a651cf1f155d108065c70af369e24ac",
+    "full_pdf_bytes": 6832174,
+    "page_number": 5,
+    "figure_number": 1,
+    "original_sha256": "d45d6c21c7de1945375f396d7b72d60984d82644dc70d2d4088bd66efa6436a5",
+    "original_bytes": 4638710,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2309.07864v3",
+    "archive_sha256": "8b2811e4c2bdf3b873c390aee0ab52611730d4a987985f2412a54c9f4ad4d31f",
+    "archive_bytes": 23664872,
+    "archive_member": "figures/intro_add.pdf",
+    "inclusion_member": "main.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 场景、人物和部分图标含第三方视觉素材；不视为本仓库可自由再分发的元素。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 23,
+    "pdf_drawing_objects": 20,
+    "embedded_raster_images": 24,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 35,
+      "path": 140,
+      "mask": 23,
+      "g": 106,
+      "image": 37,
+      "use": 233
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。",
+      "原 PDF 在 Poppler 解析时报告交叉引用问题，故使用 MuPDF 导出 SVG；原 PDF 字节保持不变，SVG 已重新渲染核对。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "使用 MuPDF 从独立 PDF 转为自包含 SVG，文字转轮廓；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 1020,
+      "sha256": "f85cdd9600084248192fd9c53b55a0b59b1a8eccdc513686c0ef40e107f9d017"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 699,
+      "sha256": "a081fc4e131f20ad85ab2606f05c5cc996f15e18d4d389e9abc1a9cd03a6d9ed"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 4638710,
+      "sha256": "d45d6c21c7de1945375f396d7b72d60984d82644dc70d2d4088bd66efa6436a5"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 571244,
+      "sha256": "7c89d66cff1845c9d1efc7335f2da82bbf12d7d5fb3fe3b75011f50c7f97e519"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1229579,
+      "sha256": "70578f2b2457c7876c151b96391accb4ef0df2659df2d5b641a28e96413c1edd"
+    }
+  ]
+}

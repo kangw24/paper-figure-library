@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "survey-llm-release-timeline",
+  "title": "LLM 发布脉络 · 主轴与时间分支",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "timeline",
+    "landscape",
+    "llm-survey",
+    "Frontiers of Computer Science",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "沿弯曲主轴安排不同时间段，分支容纳密集的模型名称，黄色底色再编码检查点是否公开；适合综述开篇交代领域发展范围。",
+  "publication": {
+    "title": "A Survey of Large Language Models",
+    "venue": "Frontiers of Computer Science",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "journal-article",
+    "evidence_url": "https://arxiv.org/abs/2303.18223v19",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2303.18223v19"
+  },
+  "curation": {
+    "figure_role": "综述时间线总览参考，信息密度高于简洁的概念 teaser；按用途放在发展脉络分组。",
+    "figure_subtype": "timeline-overview",
+    "why_selected": "沿弯曲主轴安排不同时间段，分支容纳密集的模型名称，黄色底色再编码检查点是否公开；适合综述开篇交代领域发展范围。",
+    "what_to_borrow": [
+      "时间主轴与密集条目分离，分支控制拥挤程度。",
+      "用一项克制的底色编码补充属性，并在角落放图例。",
+      "这是论文 2303.18223v19 中的历史快照，不代表完整或持续更新的模型清单。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://github.com/RUCAIBox/LLMSurvey",
+    "authors": [
+      "Zhao, Wayne Xin",
+      "Zhou, Kun",
+      "Li, Junyi",
+      "Tang, Tianyi",
+      "Wang, Xiaolei",
+      "Hou, Yupeng",
+      "Min, Yingqian",
+      "Zhang, Beichen",
+      "Zhang, Junjie",
+      "Dong, Zican",
+      "Du, Yifan",
+      "Yang, Chen",
+      "Chen, Yushuo",
+      "Chen, Zhipeng",
+      "Jiang, Jinhao",
+      "Ren, Ruiyang",
+      "Li, Yifan",
+      "Tang, Xinyu",
+      "Liu, Zikang",
+      "Liu, Peiyu",
+      "Nie, Jian-Yun",
+      "Wen, Ji-Rong"
+    ],
+    "urls": [
+      "https://github.com/RUCAIBox/LLMSurvey",
+      "https://arxiv.org/abs/2303.18223v19",
+      "https://arxiv.org/pdf/2303.18223v19",
+      "https://arxiv.org/src/2303.18223v19"
+    ],
+    "arxiv_id": "2303.18223v19",
+    "full_pdf_url": "https://arxiv.org/pdf/2303.18223v19",
+    "full_pdf_sha256": "585551fe1a17793d141f6bff3e595e63151e867a53353991c3c9891facc72377",
+    "full_pdf_bytes": 5853703,
+    "page_number": 9,
+    "figure_number": 3,
+    "original_sha256": "50a32f78c7ca7239e0843a19ac06e76a397cd9273fe3c7d78f52b1e7b62ae997",
+    "original_bytes": 596353,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2303.18223v19",
+    "archive_sha256": "158430e5b62148a708269791d3ceada2e7baa6276658ea01a374887e593e414d",
+    "archive_bytes": 5119180,
+    "archive_member": "images/0227-LLM.pdf",
+    "inclusion_member": "sections/overview.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 作者在论文和项目中明确保留图表权利，并要求出版使用取得作者许可。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 86,
+    "pdf_drawing_objects": 81,
+    "embedded_raster_images": 76,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 214,
+      "path": 186,
+      "image": 30,
+      "clipPath": 23,
+      "mask": 2,
+      "use": 698
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 880,
+      "sha256": "4132e6058b719864b72854c546d0ead1dce08aded413eee59b88f31196917625"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 823,
+      "sha256": "ff354cbd35c2fd80d986cc970e9e850ec25b49cef879ca916c1bbf1261eabf89"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 596353,
+      "sha256": "50a32f78c7ca7239e0843a19ac06e76a397cd9273fe3c7d78f52b1e7b62ae997"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 243569,
+      "sha256": "7876f2fd97acc91ca7495c2b7c6fdabb4bfd85cf9a20c2fe1ddf086bb8a00af3"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 987926,
+      "sha256": "c3909944bad71954f4142d6cdc2a032618aaca12583050abd9837c756d6da0ff"
+    }
+  ]
+}

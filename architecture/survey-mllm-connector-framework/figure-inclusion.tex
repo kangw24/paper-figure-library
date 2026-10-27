@@ -1,0 +1,6 @@
+\begin{figure}[!htpb]
+    \centering
+    \includegraphics[width=\linewidth]{figs/survey-arch.pdf}
+    \caption{An illustration of typical MLLM architecture. It includes an encoder, a connector, and a LLM. An optional generator can be attached to the LLM to generate more modalities besides text. The encoder takes in images, audios or videos and outputs features, which are processed by the connector so that the LLM can better understand. There are broadly three types of connectors: projection-based, query-based, and fusion-based connectors. The former two types adopt token-level fusion, processing features into tokens to be sent along with text tokens, while the last type enables a feature-level fusion inside the LLM.}
+    \label{fig:arch}
+\end{figure}

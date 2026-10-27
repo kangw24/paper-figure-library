@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "id": "survey-3dgs-review-map",
+  "title": "3DGS 综述路线图 · 双侧分类地图",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "taxonomy",
+    "roadmap",
+    "3dgs",
+    "3dgs-survey",
+    "ACM Computing Surveys",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "从中心领域向两侧展开原理、方法方向、应用、比较与研究方向，颜色对应一层主题，形成清晰的综述阅读地图。",
+  "publication": {
+    "title": "A Survey on 3D Gaussian Splatting",
+    "venue": "ACM Computing Surveys",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "journal-article",
+    "evidence_url": "https://arxiv.org/abs/2401.03890v9",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2401.03890v9"
+  },
+  "curation": {
+    "figure_role": "原论文 Figure 1 是综述组织路线图。此条作为综述分类总览参考收录，强调内容范围；不把普通分类树一概称作概念 teaser。",
+    "figure_subtype": "taxonomy-roadmap",
+    "why_selected": "从中心领域向两侧展开原理、方法方向、应用、比较与研究方向，颜色对应一层主题，形成清晰的综述阅读地图。",
+    "what_to_borrow": [
+      "先把综述范围划成少量一级主题，再让左右两侧分担长文本。",
+      "一级主题使用色块，叶节点只保留短标签，控制视觉层级。",
+      "章节编号由原论文 LaTeX 叠加；可编辑母图保持原字节，另附原始叠加定义。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://github.com/guikunchen/Awesome3DGS",
+    "authors": [
+      "Chen, Guikun",
+      "Wang, Wenguan"
+    ],
+    "urls": [
+      "https://github.com/guikunchen/Awesome3DGS",
+      "https://arxiv.org/abs/2401.03890v9",
+      "https://arxiv.org/pdf/2401.03890v9",
+      "https://arxiv.org/src/2401.03890v9"
+    ],
+    "arxiv_id": "2401.03890v9",
+    "full_pdf_url": "https://arxiv.org/pdf/2401.03890v9",
+    "full_pdf_sha256": "c459485396f1922756dd7f3c5d9bf22c4b800265e905d3377045d0e347e1ca9d",
+    "full_pdf_bytes": 2351798,
+    "page_number": 4,
+    "figure_number": 1,
+    "original_sha256": "cf74ba8ea5112e408890753b0854988a5944a34e9a9ef72c66b6bf241116875e",
+    "original_bytes": 46242,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2401.03890v9",
+    "archive_sha256": "1b94db98d32a3eb5268f0216f1e78319d3f897c6facdc21504250d391e4ca7fd",
+    "archive_bytes": 1607660,
+    "archive_member": "fig/fig_overview_v5.pdf",
+    "inclusion_member": "sec/misc/fig_structure.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 46,
+    "pdf_drawing_objects": 67,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 263,
+      "path": 157,
+      "clipPath": 13,
+      "rect": 2,
+      "use": 886
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。这张独立原图未检出嵌入位图。",
+      "原作者把章节或引文编号放在 LaTeX 中叠加，独立 PDF 与转换 SVG 保留其编号空槽；配套 figure-inclusion.tex 是原始叠加定义。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 553,
+      "sha256": "af4515933485202c74100c04d5230af1db6e80088948b05ce6f32e644062cbb2"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1745,
+      "sha256": "00ec916f6a6ec51327f7d2bfb3ae406bf5f10db76253c076d7ac9d939313f599"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 46242,
+      "sha256": "cf74ba8ea5112e408890753b0854988a5944a34e9a9ef72c66b6bf241116875e"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 284253,
+      "sha256": "9f82f72cdc2f9b3bd43b39c7783a6c13e15d472dd982a51ab8b172f895847b63"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 334403,
+      "sha256": "f88f8ce95387555bae1635e352debc7206b5b87949fa5bb7265ca32c34650728"
+    }
+  ]
+}

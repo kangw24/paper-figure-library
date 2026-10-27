@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "id": "survey-mllm-connector-framework",
+  "title": "MLLM 统一架构 · 模态接口与连接器对照",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "architecture",
+    "survey",
+    "multimodal",
+    "connector",
+    "architecture-overview",
+    "mllm-survey",
+    "National Science Review",
+    "2024"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "上半部统一多模态输入、编码器、连接器、LLM 与生成器，下半部并列展开 MLP、Q-Former 和注意力连接方式，兼顾全局和接口差异。",
+  "publication": {
+    "title": "A Survey on Multimodal Large Language Models",
+    "venue": "National Science Review",
+    "year": 2024,
+    "article_type": "survey",
+    "presentation": "journal-article",
+    "evidence_url": "https://arxiv.org/abs/2306.13549v4",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2306.13549v4"
+  },
+  "curation": {
+    "figure_role": "综述提炼的典型模型架构及连接器对照；按网络组成放在 Architecture。",
+    "figure_subtype": "architecture-overview",
+    "why_selected": "上半部统一多模态输入、编码器、连接器、LLM 与生成器，下半部并列展开 MLP、Q-Former 和注意力连接方式，兼顾全局和接口差异。",
+    "what_to_borrow": [
+      "主图只保留统一接口，局部展开再解释结构差异。",
+      "相同的 token 色块贯穿整体和局部，对应关系清楚。",
+      "三种连接器采用同样的信息尺度，方便并列比较。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+    "authors": [
+      "Yin, Shukang",
+      "Fu, Chaoyou",
+      "Zhao, Sirui",
+      "Li, Ke",
+      "Sun, Xing",
+      "Xu, Tong",
+      "Chen, Enhong"
+    ],
+    "urls": [
+      "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "https://arxiv.org/abs/2306.13549v4",
+      "https://arxiv.org/pdf/2306.13549v4",
+      "https://arxiv.org/src/2306.13549v4"
+    ],
+    "arxiv_id": "2306.13549v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2306.13549v4",
+    "full_pdf_sha256": "d3058b36775fbd7bd52182365c0c21f2ff2b7f183d1dd059b48921516558a1ef",
+    "full_pdf_bytes": 1093777,
+    "page_number": 3,
+    "figure_number": 2,
+    "original_sha256": "7fb47368744532154adf48ceda23a0a2efd81cf925c37f88dcffdccf25e1983b",
+    "original_bytes": 54844,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2306.13549v4",
+    "archive_sha256": "76992a17f4df3255bf94ff8179358ee38e53a45c4197979c1d76e619a0e4dfe2",
+    "archive_bytes": 597287,
+    "archive_member": "figs/survey-arch.pdf",
+    "inclusion_member": "draft/032_arch.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 25,
+    "pdf_drawing_objects": 123,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 101,
+      "path": 166,
+      "clipPath": 3,
+      "use": 107
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。这张独立原图未检出嵌入位图。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 615,
+      "sha256": "438dfebdcd18eaa07ecc36ea5fe5193b9f1b0e05709838b283b9bfeefeecfe87"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 761,
+      "sha256": "c0a1f3a6858fe8475eec2d9a77210896a79b4c07d29e2d26b8565ec59185071e"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 54844,
+      "sha256": "7fb47368744532154adf48ceda23a0a2efd81cf925c37f88dcffdccf25e1983b"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 74566,
+      "sha256": "7cb2d84d3d7ae18cf0d150f1f4a9a354c73d6e21770afa537c35a71e6272daaf"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 119553,
+      "sha256": "379e0062feef4ee87f23002eb8de1ebe228e64f085856135395f10329acbfb1b"
+    }
+  ]
+}

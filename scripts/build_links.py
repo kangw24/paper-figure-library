@@ -125,19 +125,23 @@ def build(root, figures, elements, config):
         page = folder / 'README.md'
         title = 'Teaser 范例' if category == 'teaser' else 'Architecture 范例'
         lines = ['# ' + title, '', nav(root, page), '',
-                 '按图的表达用途浏览。会议、年份、Oral 等信息保留在各条目，不另设会议分类。', '',
+                 '按图的表达用途浏览。会议、期刊、年份及综述类型保留在条目标签中。', '',
                  '| 表达用途 | 数量 | 入口 |', '|---|---:|---|']
         for group in groups:
             lines.append('| ' + group['title'] + ' | ' + str(len(group['figures'])) + ' | [浏览](#' + group['id'] + ') |')
         for group in groups:
             lines += ['', '<a id="' + group['id'] + '"></a>', '', '## ' + group['title'], '']
+            if group.get('description'):
+                lines += [group['description'], '']
             for figure_id in group['figures']:
                 figure = figures[figure_id]
                 detail = figure['_folder'] / 'README.md'
                 lines += ['### ' + link(page, figure['title'], detail), '', figure.get('summary', ''), '']
                 publication = figure.get('publication')
                 if publication:
-                    label = publication['venue'] + ' ' + str(publication['year']) + ' · ' + {'oral': 'Oral', 'poster': 'Poster'}.get(publication['presentation'], '会议论文；未核实 Oral')
+                    label = publication['venue'] + ' ' + str(publication['year']) + ' · ' + {'oral': 'Oral', 'poster': 'Poster', 'journal-article': '期刊论文', 'preprint': '预印本'}.get(publication['presentation'], '会议论文；未核实 Oral')
+                    if publication.get('article_type') == 'survey':
+                        label += ' · 综述'
                     lines += [label, '']
                 if figure.get('editability', {}).get('level') == 'raster-reference':
                     lines += ['**整图位图，仅构图参考。**', '']

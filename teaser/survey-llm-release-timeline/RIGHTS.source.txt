@@ -1,0 +1,8 @@
+Paper: A Survey of Large Language Models
+Authors: Zhao, Wayne Xin, Zhou, Kun, Li, Junyi, Tang, Tianyi, Wang, Xiaolei, Hou, Yupeng, Min, Yingqian, Zhang, Beichen, Zhang, Junjie, Dong, Zican, Du, Yifan, Yang, Chen, Chen, Yushuo, Chen, Zhipeng, Jiang, Jinhao, Ren, Ruiyang, Li, Yifan, Tang, Xinyu, Liu, Zikang, Liu, Peiyu, Nie, Jian-Yun, Wen, Ji-Rong
+Source version: 2303.18223v19
+TeX archive: https://arxiv.org/src/2303.18223v19
+Archive member: images/0227-LLM.pdf
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 作者在论文和项目中明确保留图表权利，并要求出版使用取得作者许可。
+Original PDF is byte-identical to the archive member. SVG conversion only; no redrawing.

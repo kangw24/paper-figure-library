@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "counts": {
-    "teaser": 16,
-    "architecture": 42,
+    "teaser": 24,
+    "architecture": 45,
     "element": 341,
     "mechanism": 17,
     "layout-template": 11
@@ -1645,6 +1645,1337 @@
       "readme_path": "teaser/shaddr/README.md",
       "primary_path": "teaser/shaddr/source.svg",
       "preview_path": "teaser/shaddr/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-3dgs-application-landscape",
+      "title": "3DGS 应用全景 · 中心主题与场景分支",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "application-landscape",
+        "3dgs",
+        "mind-map",
+        "3dgs-survey",
+        "ACM Computing Surveys",
+        "2026"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "以中心主题连接机器人、动态场景、生成编辑、化身、内窥镜、场景重建和物理等分支，并把少量视觉实例放进分支旁，兼顾分类和直观性。",
+      "publication": {
+        "title": "A Survey on 3D Gaussian Splatting",
+        "venue": "ACM Computing Surveys",
+        "year": 2026,
+        "article_type": "survey",
+        "presentation": "journal-article",
+        "evidence_url": "https://arxiv.org/abs/2401.03890v9",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2401.03890v9"
+      },
+      "curation": {
+        "figure_role": "综述中的应用范围总览，可借鉴为领域全景 teaser；原文为 Figure 3，不能称其为原论文首图。",
+        "figure_subtype": "application-landscape",
+        "why_selected": "以中心主题连接机器人、动态场景、生成编辑、化身、内窥镜、场景重建和物理等分支，并把少量视觉实例放进分支旁，兼顾分类和直观性。",
+        "what_to_borrow": [
+          "中心只放领域主题，一层分支讲应用，下一层讲子任务。",
+          "用小型图像例子补足抽象类别，让全景图具有视觉锚点。",
+          "原作者的章节与引文编号由 LaTeX 叠加；独立 PDF 母图保留对应空槽，附原始叠加定义。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/guikunchen/Awesome3DGS",
+        "authors": [
+          "Chen, Guikun",
+          "Wang, Wenguan"
+        ],
+        "urls": [
+          "https://github.com/guikunchen/Awesome3DGS",
+          "https://arxiv.org/abs/2401.03890v9",
+          "https://arxiv.org/pdf/2401.03890v9",
+          "https://arxiv.org/src/2401.03890v9"
+        ],
+        "arxiv_id": "2401.03890v9",
+        "full_pdf_url": "https://arxiv.org/pdf/2401.03890v9",
+        "full_pdf_sha256": "c459485396f1922756dd7f3c5d9bf22c4b800265e905d3377045d0e347e1ca9d",
+        "full_pdf_bytes": 2351798,
+        "page_number": 14,
+        "figure_number": 3,
+        "original_sha256": "19a7a39c20d231ffcd12bd7bd78c828b36f28710faf0e9ba4bda5e603bdda09e",
+        "original_bytes": 1007026,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2401.03890v9",
+        "archive_sha256": "1b94db98d32a3eb5268f0216f1e78319d3f897c6facdc21504250d391e4ca7fd",
+        "archive_bytes": 1607660,
+        "archive_member": "fig/fig_app1.pdf",
+        "inclusion_member": "sec/misc/fig_app.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 34,
+        "pdf_drawing_objects": 50,
+        "embedded_raster_images": 7,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "g": 337,
+          "path": 162,
+          "clipPath": 27,
+          "image": 7,
+          "use": 490
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "原作者把章节或引文编号放在 LaTeX 中叠加，独立 PDF 与转换 SVG 保留其编号空槽；配套 figure-inclusion.tex 是原始叠加定义。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 546,
+          "sha256": "79762a1bb2ec120f41688961b1e42e270cc65f60b0f6eb1287d1cac51beeb7b2"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 2012,
+          "sha256": "1fc9c751e3d85abc0afc7593f73243d87b2fc73e4dda832fc79be82c8029b011"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1007026,
+          "sha256": "19a7a39c20d231ffcd12bd7bd78c828b36f28710faf0e9ba4bda5e603bdda09e"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 483791,
+          "sha256": "ed41a6d2dec05248faafa56adc450d6e5eec41bf0a43ca22f8246d9f706ad0ea"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1335634,
+          "sha256": "fd972a40b184fc46e73de53556ec8acc4a7e1cffe2927e0e97de5f41bfd06612"
+        }
+      ],
+      "path": "teaser/survey-3dgs-application-landscape",
+      "metadata_path": "teaser/survey-3dgs-application-landscape/metadata.json",
+      "readme_path": "teaser/survey-3dgs-application-landscape/README.md",
+      "primary_path": "teaser/survey-3dgs-application-landscape/original.pdf",
+      "preview_path": "teaser/survey-3dgs-application-landscape/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-3dgs-review-map",
+      "title": "3DGS 综述路线图 · 双侧分类地图",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "taxonomy",
+        "roadmap",
+        "3dgs",
+        "3dgs-survey",
+        "ACM Computing Surveys",
+        "2026"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "从中心领域向两侧展开原理、方法方向、应用、比较与研究方向，颜色对应一层主题，形成清晰的综述阅读地图。",
+      "publication": {
+        "title": "A Survey on 3D Gaussian Splatting",
+        "venue": "ACM Computing Surveys",
+        "year": 2026,
+        "article_type": "survey",
+        "presentation": "journal-article",
+        "evidence_url": "https://arxiv.org/abs/2401.03890v9",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2401.03890v9"
+      },
+      "curation": {
+        "figure_role": "原论文 Figure 1 是综述组织路线图。此条作为综述分类总览参考收录，强调内容范围；不把普通分类树一概称作概念 teaser。",
+        "figure_subtype": "taxonomy-roadmap",
+        "why_selected": "从中心领域向两侧展开原理、方法方向、应用、比较与研究方向，颜色对应一层主题，形成清晰的综述阅读地图。",
+        "what_to_borrow": [
+          "先把综述范围划成少量一级主题，再让左右两侧分担长文本。",
+          "一级主题使用色块，叶节点只保留短标签，控制视觉层级。",
+          "章节编号由原论文 LaTeX 叠加；可编辑母图保持原字节，另附原始叠加定义。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/guikunchen/Awesome3DGS",
+        "authors": [
+          "Chen, Guikun",
+          "Wang, Wenguan"
+        ],
+        "urls": [
+          "https://github.com/guikunchen/Awesome3DGS",
+          "https://arxiv.org/abs/2401.03890v9",
+          "https://arxiv.org/pdf/2401.03890v9",
+          "https://arxiv.org/src/2401.03890v9"
+        ],
+        "arxiv_id": "2401.03890v9",
+        "full_pdf_url": "https://arxiv.org/pdf/2401.03890v9",
+        "full_pdf_sha256": "c459485396f1922756dd7f3c5d9bf22c4b800265e905d3377045d0e347e1ca9d",
+        "full_pdf_bytes": 2351798,
+        "page_number": 4,
+        "figure_number": 1,
+        "original_sha256": "cf74ba8ea5112e408890753b0854988a5944a34e9a9ef72c66b6bf241116875e",
+        "original_bytes": 46242,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2401.03890v9",
+        "archive_sha256": "1b94db98d32a3eb5268f0216f1e78319d3f897c6facdc21504250d391e4ca7fd",
+        "archive_bytes": 1607660,
+        "archive_member": "fig/fig_overview_v5.pdf",
+        "inclusion_member": "sec/misc/fig_structure.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 46,
+        "pdf_drawing_objects": 67,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "g": 263,
+          "path": 157,
+          "clipPath": 13,
+          "rect": 2,
+          "use": 886
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。这张独立原图未检出嵌入位图。",
+          "原作者把章节或引文编号放在 LaTeX 中叠加，独立 PDF 与转换 SVG 保留其编号空槽；配套 figure-inclusion.tex 是原始叠加定义。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 553,
+          "sha256": "af4515933485202c74100c04d5230af1db6e80088948b05ce6f32e644062cbb2"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1745,
+          "sha256": "00ec916f6a6ec51327f7d2bfb3ae406bf5f10db76253c076d7ac9d939313f599"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 46242,
+          "sha256": "cf74ba8ea5112e408890753b0854988a5944a34e9a9ef72c66b6bf241116875e"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 284253,
+          "sha256": "9f82f72cdc2f9b3bd43b39c7783a6c13e15d472dd982a51ab8b172f895847b63"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 334403,
+          "sha256": "f88f8ce95387555bae1635e352debc7206b5b87949fa5bb7265ca32c34650728"
+        }
+      ],
+      "path": "teaser/survey-3dgs-review-map",
+      "metadata_path": "teaser/survey-3dgs-review-map/metadata.json",
+      "readme_path": "teaser/survey-3dgs-review-map/README.md",
+      "primary_path": "teaser/survey-3dgs-review-map/original.pdf",
+      "preview_path": "teaser/survey-3dgs-review-map/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-agent-growth-landscape",
+      "title": "自主 Agent 发展 · 趋势曲线与代表场景",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "timeline",
+        "landscape",
+        "agent",
+        "autonomous-agent-survey",
+        "Frontiers of Computer Science",
+        "2024"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "在累计论文增长曲线上排布有类别配色的代表系统缩略图，将领域热度、时间顺序和应用类型合在一个画面里。",
+      "publication": {
+        "title": "A Survey on Large Language Model based Autonomous Agents",
+        "venue": "Frontiers of Computer Science",
+        "year": 2024,
+        "article_type": "survey",
+        "presentation": "journal-article",
+        "evidence_url": "https://arxiv.org/abs/2308.11432v7",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2308.11432v7"
+      },
+      "curation": {
+        "figure_role": "综述开篇的发展概览，适合借鉴趋势与实例结合的布局；缩略图是既有系统插图，不是当前系统基准比较。",
+        "figure_subtype": "timeline-landscape",
+        "why_selected": "在累计论文增长曲线上排布有类别配色的代表系统缩略图，将领域热度、时间顺序和应用类型合在一个画面里。",
+        "what_to_borrow": [
+          "先确定趋势主线，再把代表实例锚定到相应时期。",
+          "图例颜色只编码类别，时间和累计数量交给坐标轴。",
+          "原图覆盖 2021 年 1 月至 2023 年 8 月，不能直接作为今天的领域统计。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+        "authors": [
+          "Wang, Lei",
+          "Ma, Chen",
+          "Feng, Xueyang",
+          "Zhang, Zeyu",
+          "Yang, Hao",
+          "Zhang, Jingsen",
+          "Chen, Zhiyuan",
+          "Tang, Jiakai",
+          "Chen, Xu",
+          "Lin, Yankai",
+          "Zhao, Wayne Xin",
+          "Wei, Zhewei",
+          "Wen, Ji-Rong"
+        ],
+        "urls": [
+          "https://github.com/Paitesanshi/LLM-Agent-Survey",
+          "https://arxiv.org/abs/2308.11432v7",
+          "https://arxiv.org/pdf/2308.11432v7",
+          "https://arxiv.org/src/2308.11432v7"
+        ],
+        "arxiv_id": "2308.11432v7",
+        "full_pdf_url": "https://arxiv.org/pdf/2308.11432v7",
+        "full_pdf_sha256": "8709507742c260a5a92b4690ffc0459a0ab9af16dc7a5478d253a6e7b57bf23a",
+        "full_pdf_bytes": 5788348,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "5205b3f2c200d94092ece1e0f8e892190849cb5ed542dc76cc111020945f44ef",
+        "original_bytes": 181698,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2308.11432v7",
+        "archive_sha256": "6681674832b00ae4653b831d1c720573c51ad3f381b2c7ad6d86dca3682b055d",
+        "archive_bytes": 5224394,
+        "archive_member": "FCS-240231-fig1.pdf",
+        "inclusion_member": "main.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 62,
+        "pdf_drawing_objects": 93,
+        "embedded_raster_images": 26,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 472,
+          "path": 194,
+          "image": 28,
+          "mask": 6,
+          "use": 459,
+          "clipPath": 20,
+          "rect": 1
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 45,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 715,
+          "sha256": "c1246980d287ce7869898e5c870474c5999099e770964a0b7d621dd69ea41ae5"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 722,
+          "sha256": "8c75bd04c6e0fb5e4f27ed0bc431d5242aac23557b011c50a76441a7e595ae63"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 181698,
+          "sha256": "5205b3f2c200d94092ece1e0f8e892190849cb5ed542dc76cc111020945f44ef"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 756401,
+          "sha256": "f921062b340ef28f1add2c827df18c0a889952ffad2340f43b912af7bfd4b2df"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 336113,
+          "sha256": "215fdf6edd5d269447de500fb9ab09bfa340cda74582c82a40176558c34a4658"
+        }
+      ],
+      "path": "teaser/survey-agent-growth-landscape",
+      "metadata_path": "teaser/survey-agent-growth-landscape/metadata.json",
+      "readme_path": "teaser/survey-agent-growth-landscape/README.md",
+      "primary_path": "teaser/survey-agent-growth-landscape/original.pdf",
+      "preview_path": "teaser/survey-agent-growth-landscape/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-agent-society-teaser",
+      "title": "Agent 社会场景 · 综述概念 teaser",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "scenario-teaser",
+        "agent",
+        "human-agent-interaction",
+        "agent-rise-survey",
+        "arXiv",
+        "2023"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "以一座共同活动的虚拟城市场景承载任务规划、协作和工具使用，再用三个局部场景与对话气泡解释含义；这是本批最接近叙事型 teaser 的一张。",
+      "publication": {
+        "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+        "venue": "arXiv",
+        "year": 2023,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2309.07864v3",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2309.07864v3"
+      },
+      "curation": {
+        "figure_role": "原论文 Figure 1，用具体场景描绘作者设想的 Agent 社会；属于愿景概念图，不是已验证的系统能力展示。",
+        "figure_subtype": "scenario-teaser",
+        "why_selected": "以一座共同活动的虚拟城市场景承载任务规划、协作和工具使用，再用三个局部场景与对话气泡解释含义；这是本批最接近叙事型 teaser 的一张。",
+        "what_to_borrow": [
+          "先给一个能被迅速理解的主场景，再用局部放大区讲不同能力。",
+          "气泡与短标签围绕人物行为，减少抽象术语堆积。",
+          "城市场景和人物主要是原有位图，文字、标注框与部分形状才是可编辑对象；保留第三方视觉素材权利。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/WooooDyy/LLM-Agent-Paper-List",
+        "authors": [
+          "Xi, Zhiheng",
+          "Chen, Wenxiang",
+          "Guo, Xin",
+          "He, Wei",
+          "Ding, Yiwen",
+          "Hong, Boyang",
+          "Zhang, Ming",
+          "Wang, Junzhe",
+          "Jin, Senjie",
+          "Zhou, Enyu",
+          "Zheng, Rui",
+          "Fan, Xiaoran",
+          "Wang, Xiao",
+          "Xiong, Limao",
+          "Zhou, Yuhao",
+          "Wang, Weiran",
+          "Jiang, Changhao",
+          "Zou, Yicheng",
+          "Liu, Xiangyang",
+          "Yin, Zhangyue",
+          "Dou, Shihan",
+          "Weng, Rongxiang",
+          "Cheng, Wensen",
+          "Zhang, Qi",
+          "Qin, Wenjuan",
+          "Zheng, Yongyan",
+          "Qiu, Xipeng",
+          "Huang, Xuanjing",
+          "Gui, Tao"
+        ],
+        "urls": [
+          "https://github.com/WooooDyy/LLM-Agent-Paper-List",
+          "https://arxiv.org/abs/2309.07864v3",
+          "https://arxiv.org/pdf/2309.07864v3",
+          "https://arxiv.org/src/2309.07864v3"
+        ],
+        "arxiv_id": "2309.07864v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2309.07864v3",
+        "full_pdf_sha256": "5e3b2357ff942e1a0e084ae4af3327011a651cf1f155d108065c70af369e24ac",
+        "full_pdf_bytes": 6832174,
+        "page_number": 5,
+        "figure_number": 1,
+        "original_sha256": "d45d6c21c7de1945375f396d7b72d60984d82644dc70d2d4088bd66efa6436a5",
+        "original_bytes": 4638710,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2309.07864v3",
+        "archive_sha256": "8b2811e4c2bdf3b873c390aee0ab52611730d4a987985f2412a54c9f4ad4d31f",
+        "archive_bytes": 23664872,
+        "archive_member": "figures/intro_add.pdf",
+        "inclusion_member": "main.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 场景、人物和部分图标含第三方视觉素材；不视为本仓库可自由再分发的元素。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 23,
+        "pdf_drawing_objects": 20,
+        "embedded_raster_images": 24,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 35,
+          "path": 140,
+          "mask": 23,
+          "g": 106,
+          "image": 37,
+          "use": 233
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。",
+          "原 PDF 在 Poppler 解析时报告交叉引用问题，故使用 MuPDF 导出 SVG；原 PDF 字节保持不变，SVG 已重新渲染核对。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "使用 MuPDF 从独立 PDF 转为自包含 SVG，文字转轮廓；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 1020,
+          "sha256": "f85cdd9600084248192fd9c53b55a0b59b1a8eccdc513686c0ef40e107f9d017"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 699,
+          "sha256": "a081fc4e131f20ad85ab2606f05c5cc996f15e18d4d389e9abc1a9cd03a6d9ed"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 4638710,
+          "sha256": "d45d6c21c7de1945375f396d7b72d60984d82644dc70d2d4088bd66efa6436a5"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 571244,
+          "sha256": "7c89d66cff1845c9d1efc7335f2da82bbf12d7d5fb3fe3b75011f50c7f97e519"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1229579,
+          "sha256": "70578f2b2457c7876c151b96391accb4ef0df2659df2d5b641a28e96413c1edd"
+        }
+      ],
+      "path": "teaser/survey-agent-society-teaser",
+      "metadata_path": "teaser/survey-agent-society-teaser/metadata.json",
+      "readme_path": "teaser/survey-agent-society-teaser/README.md",
+      "primary_path": "teaser/survey-agent-society-teaser/original.pdf",
+      "preview_path": "teaser/survey-agent-society-teaser/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-llama-family-map",
+      "title": "LLaMA 家族关系 · 模型与数据继承图",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "lineage",
+        "relationship-map",
+        "llm-survey",
+        "Frontiers of Computer Science",
+        "2026"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "把模型继承、数据继承与继续预训练画成不同颜色和线型的关系，从单一根节点展开出任务与领域分支，重点是关系而非枚举。",
+      "publication": {
+        "title": "A Survey of Large Language Models",
+        "venue": "Frontiers of Computer Science",
+        "year": 2026,
+        "article_type": "survey",
+        "presentation": "journal-article",
+        "evidence_url": "https://arxiv.org/abs/2303.18223v19",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2303.18223v19"
+      },
+      "curation": {
+        "figure_role": "综述中的谱系总览图，适合表达一个基础模型如何衍生出多个研究方向。",
+        "figure_subtype": "lineage-overview",
+        "why_selected": "把模型继承、数据继承与继续预训练画成不同颜色和线型的关系，从单一根节点展开出任务与领域分支，重点是关系而非枚举。",
+        "what_to_borrow": [
+          "颜色与虚实分别表达关系语义，并保留清楚的图例。",
+          "用虚线范围框归并多模态分支，用底部小图例标注应用领域。",
+          "保留原图的早期 LLaMA 生态范围；图中模型与关系不可直接当作当前全景。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/RUCAIBox/LLMSurvey",
+        "authors": [
+          "Zhao, Wayne Xin",
+          "Zhou, Kun",
+          "Li, Junyi",
+          "Tang, Tianyi",
+          "Wang, Xiaolei",
+          "Hou, Yupeng",
+          "Min, Yingqian",
+          "Zhang, Beichen",
+          "Zhang, Junjie",
+          "Dong, Zican",
+          "Du, Yifan",
+          "Yang, Chen",
+          "Chen, Yushuo",
+          "Chen, Zhipeng",
+          "Jiang, Jinhao",
+          "Ren, Ruiyang",
+          "Li, Yifan",
+          "Tang, Xinyu",
+          "Liu, Zikang",
+          "Liu, Peiyu",
+          "Nie, Jian-Yun",
+          "Wen, Ji-Rong"
+        ],
+        "urls": [
+          "https://github.com/RUCAIBox/LLMSurvey",
+          "https://arxiv.org/abs/2303.18223v19",
+          "https://arxiv.org/pdf/2303.18223v19",
+          "https://arxiv.org/src/2303.18223v19"
+        ],
+        "arxiv_id": "2303.18223v19",
+        "full_pdf_url": "https://arxiv.org/pdf/2303.18223v19",
+        "full_pdf_sha256": "585551fe1a17793d141f6bff3e595e63151e867a53353991c3c9891facc72377",
+        "full_pdf_bytes": 5853703,
+        "page_number": 12,
+        "figure_number": 5,
+        "original_sha256": "7c421535ec1b56ec4b77155c89fddc802bd8bce214d918f7b293ccfde2402381",
+        "original_bytes": 2064263,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2303.18223v19",
+        "archive_sha256": "158430e5b62148a708269791d3ceada2e7baa6276658ea01a374887e593e414d",
+        "archive_bytes": 5119180,
+        "archive_member": "images/llama-0628-final.pdf",
+        "inclusion_member": "sections/overview.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 作者在论文和项目中明确保留图表权利，并要求出版使用取得作者许可。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 69,
+        "pdf_drawing_objects": 82,
+        "embedded_raster_images": 19,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 203,
+          "path": 194,
+          "clipPath": 3,
+          "image": 14,
+          "mask": 4,
+          "use": 678
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 888,
+          "sha256": "7dcb2780089ae033bf88e5180c98ed784a7d479f5a513c89d6cbeae6f454c2b1"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 512,
+          "sha256": "4fc1541881eb7bd20a40a097a496cf464d001d7298139d1d606eeae062ea828c"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 2064263,
+          "sha256": "7c421535ec1b56ec4b77155c89fddc802bd8bce214d918f7b293ccfde2402381"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 214935,
+          "sha256": "536ff8fcb8b42a110ffd0402b35d2cb254544d39deee848d9bf10020900d0e13"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1353932,
+          "sha256": "7ad7854bacbb77affb6dd74e36f704cd36af3db3040503ca3af47b68e76a30a6"
+        }
+      ],
+      "path": "teaser/survey-llama-family-map",
+      "metadata_path": "teaser/survey-llama-family-map/metadata.json",
+      "readme_path": "teaser/survey-llama-family-map/README.md",
+      "primary_path": "teaser/survey-llama-family-map/original.pdf",
+      "preview_path": "teaser/survey-llama-family-map/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-llm-release-timeline",
+      "title": "LLM 发布脉络 · 主轴与时间分支",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "timeline",
+        "landscape",
+        "llm-survey",
+        "Frontiers of Computer Science",
+        "2026"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "沿弯曲主轴安排不同时间段，分支容纳密集的模型名称，黄色底色再编码检查点是否公开；适合综述开篇交代领域发展范围。",
+      "publication": {
+        "title": "A Survey of Large Language Models",
+        "venue": "Frontiers of Computer Science",
+        "year": 2026,
+        "article_type": "survey",
+        "presentation": "journal-article",
+        "evidence_url": "https://arxiv.org/abs/2303.18223v19",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2303.18223v19"
+      },
+      "curation": {
+        "figure_role": "综述时间线总览参考，信息密度高于简洁的概念 teaser；按用途放在发展脉络分组。",
+        "figure_subtype": "timeline-overview",
+        "why_selected": "沿弯曲主轴安排不同时间段，分支容纳密集的模型名称，黄色底色再编码检查点是否公开；适合综述开篇交代领域发展范围。",
+        "what_to_borrow": [
+          "时间主轴与密集条目分离，分支控制拥挤程度。",
+          "用一项克制的底色编码补充属性，并在角落放图例。",
+          "这是论文 2303.18223v19 中的历史快照，不代表完整或持续更新的模型清单。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/RUCAIBox/LLMSurvey",
+        "authors": [
+          "Zhao, Wayne Xin",
+          "Zhou, Kun",
+          "Li, Junyi",
+          "Tang, Tianyi",
+          "Wang, Xiaolei",
+          "Hou, Yupeng",
+          "Min, Yingqian",
+          "Zhang, Beichen",
+          "Zhang, Junjie",
+          "Dong, Zican",
+          "Du, Yifan",
+          "Yang, Chen",
+          "Chen, Yushuo",
+          "Chen, Zhipeng",
+          "Jiang, Jinhao",
+          "Ren, Ruiyang",
+          "Li, Yifan",
+          "Tang, Xinyu",
+          "Liu, Zikang",
+          "Liu, Peiyu",
+          "Nie, Jian-Yun",
+          "Wen, Ji-Rong"
+        ],
+        "urls": [
+          "https://github.com/RUCAIBox/LLMSurvey",
+          "https://arxiv.org/abs/2303.18223v19",
+          "https://arxiv.org/pdf/2303.18223v19",
+          "https://arxiv.org/src/2303.18223v19"
+        ],
+        "arxiv_id": "2303.18223v19",
+        "full_pdf_url": "https://arxiv.org/pdf/2303.18223v19",
+        "full_pdf_sha256": "585551fe1a17793d141f6bff3e595e63151e867a53353991c3c9891facc72377",
+        "full_pdf_bytes": 5853703,
+        "page_number": 9,
+        "figure_number": 3,
+        "original_sha256": "50a32f78c7ca7239e0843a19ac06e76a397cd9273fe3c7d78f52b1e7b62ae997",
+        "original_bytes": 596353,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2303.18223v19",
+        "archive_sha256": "158430e5b62148a708269791d3ceada2e7baa6276658ea01a374887e593e414d",
+        "archive_bytes": 5119180,
+        "archive_member": "images/0227-LLM.pdf",
+        "inclusion_member": "sections/overview.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 作者在论文和项目中明确保留图表权利，并要求出版使用取得作者许可。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 86,
+        "pdf_drawing_objects": 81,
+        "embedded_raster_images": 76,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 214,
+          "path": 186,
+          "image": 30,
+          "clipPath": 23,
+          "mask": 2,
+          "use": 698
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 880,
+          "sha256": "4132e6058b719864b72854c546d0ead1dce08aded413eee59b88f31196917625"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 823,
+          "sha256": "ff354cbd35c2fd80d986cc970e9e850ec25b49cef879ca916c1bbf1261eabf89"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 596353,
+          "sha256": "50a32f78c7ca7239e0843a19ac06e76a397cd9273fe3c7d78f52b1e7b62ae997"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 243569,
+          "sha256": "7876f2fd97acc91ca7495c2b7c6fdabb4bfd85cf9a20c2fe1ddf086bb8a00af3"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 987926,
+          "sha256": "c3909944bad71954f4142d6cdc2a032618aaca12583050abd9837c756d6da0ff"
+        }
+      ],
+      "path": "teaser/survey-llm-release-timeline",
+      "metadata_path": "teaser/survey-llm-release-timeline/metadata.json",
+      "readme_path": "teaser/survey-llm-release-timeline/README.md",
+      "primary_path": "teaser/survey-llm-release-timeline/original.pdf",
+      "preview_path": "teaser/survey-llm-release-timeline/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-lm-capability-evolution",
+      "title": "语言模型四代能力演进 · 阶梯式概念图",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "conceptual-teaser",
+        "paradigm-evolution",
+        "llm-survey",
+        "Frontiers of Computer Science",
+        "2026"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "用同一条阶梯和时间轴，把统计语言模型、神经语言模型、预训练语言模型与大语言模型的任务能力变化串起来；一眼先读到观点，再读阶段细节。",
+      "publication": {
+        "title": "A Survey of Large Language Models",
+        "venue": "Frontiers of Computer Science",
+        "year": 2026,
+        "article_type": "survey",
+        "presentation": "journal-article",
+        "evidence_url": "https://arxiv.org/abs/2303.18223v19",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2303.18223v19"
+      },
+      "curation": {
+        "figure_role": "综述中的概念演进图；突出领域视角和阶段差异，适合作为综述 teaser 的构图参考。不是网络架构图。",
+        "figure_subtype": "conceptual-teaser",
+        "why_selected": "用同一条阶梯和时间轴，把统计语言模型、神经语言模型、预训练语言模型与大语言模型的任务能力变化串起来；一眼先读到观点，再读阶段细节。",
+        "what_to_borrow": [
+          "用阶梯高度表达能力范围，用横轴表达阶段，避免把概念演进堆成论文列表。",
+          "每一阶段复用相同的信息层级：名称、代表工作、关键机制、任务范围。",
+          "图中年份与分类是作者在所收录版本中的划分，改编时应重新核对。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/RUCAIBox/LLMSurvey",
+        "authors": [
+          "Zhao, Wayne Xin",
+          "Zhou, Kun",
+          "Li, Junyi",
+          "Tang, Tianyi",
+          "Wang, Xiaolei",
+          "Hou, Yupeng",
+          "Min, Yingqian",
+          "Zhang, Beichen",
+          "Zhang, Junjie",
+          "Dong, Zican",
+          "Du, Yifan",
+          "Yang, Chen",
+          "Chen, Yushuo",
+          "Chen, Zhipeng",
+          "Jiang, Jinhao",
+          "Ren, Ruiyang",
+          "Li, Yifan",
+          "Tang, Xinyu",
+          "Liu, Zikang",
+          "Liu, Peiyu",
+          "Nie, Jian-Yun",
+          "Wen, Ji-Rong"
+        ],
+        "urls": [
+          "https://github.com/RUCAIBox/LLMSurvey",
+          "https://arxiv.org/abs/2303.18223v19",
+          "https://arxiv.org/pdf/2303.18223v19",
+          "https://arxiv.org/src/2303.18223v19"
+        ],
+        "arxiv_id": "2303.18223v19",
+        "full_pdf_url": "https://arxiv.org/pdf/2303.18223v19",
+        "full_pdf_sha256": "585551fe1a17793d141f6bff3e595e63151e867a53353991c3c9891facc72377",
+        "full_pdf_bytes": 5853703,
+        "page_number": 2,
+        "figure_number": 2,
+        "original_sha256": "3b1183426e0305c319ff10391f1bf8bd2b5ca204e75f962953b05398ed4a2eb5",
+        "original_bytes": 95779,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2303.18223v19",
+        "archive_sha256": "158430e5b62148a708269791d3ceada2e7baa6276658ea01a374887e593e414d",
+        "archive_bytes": 5119180,
+        "archive_member": "images/task-solvers.pdf",
+        "inclusion_member": "sections/intro.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 作者在论文和项目中明确保留图表权利，并要求出版使用取得作者许可。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 46,
+        "pdf_drawing_objects": 20,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "g": 546,
+          "path": 162,
+          "clipPath": 1,
+          "rect": 1,
+          "use": 549
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 4,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。这张独立原图未检出嵌入位图。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 884,
+          "sha256": "8ffbb0df3b21c7ce6d5d3b750571f4490191a03368f91d1e4341ec6204f4a7ba"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 830,
+          "sha256": "3f5bfa7ea67ab2ac35b465b467353b4f172cf8a60ccfa7a7ff8cc00260004fea"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 95779,
+          "sha256": "3b1183426e0305c319ff10391f1bf8bd2b5ca204e75f962953b05398ed4a2eb5"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 136912,
+          "sha256": "520da731e236f5123fb515616ea1e280b8630558b8819755a18b9954236d6971"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 237758,
+          "sha256": "ccb49b26d5de3e5a049b0c782a97310ae378d1acc630c061873d3ca9cc2c0dae"
+        }
+      ],
+      "path": "teaser/survey-lm-capability-evolution",
+      "metadata_path": "teaser/survey-lm-capability-evolution/metadata.json",
+      "readme_path": "teaser/survey-lm-capability-evolution/README.md",
+      "primary_path": "teaser/survey-lm-capability-evolution/original.pdf",
+      "preview_path": "teaser/survey-lm-capability-evolution/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-mllm-timeline",
+      "title": "多模态大模型发展 · 分段曲线时间线",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "timeline",
+        "multimodal",
+        "mllm-survey",
+        "National Science Review",
+        "2024"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "弯曲时间轴配合阶段分支和小型图标，在一张横向图内承载多模态模型从 2022 年到 2024 年初的发展；比普通表格更容易看出阶段。",
+      "publication": {
+        "title": "A Survey on Multimodal Large Language Models",
+        "venue": "National Science Review",
+        "year": 2024,
+        "article_type": "survey",
+        "presentation": "journal-article",
+        "evidence_url": "https://arxiv.org/abs/2306.13549v4",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2306.13549v4"
+      },
+      "curation": {
+        "figure_role": "综述 Figure 1 的时间线总览；适合领域背景页和发展脉络页，不是模型之间的架构连接关系。",
+        "figure_subtype": "timeline-overview",
+        "why_selected": "弯曲时间轴配合阶段分支和小型图标，在一张横向图内承载多模态模型从 2022 年到 2024 年初的发展；比普通表格更容易看出阶段。",
+        "what_to_borrow": [
+          "用稀疏主轴承载时间，把具体模型放在两侧分支。",
+          "模型标识与名称并列，少量颜色编码公开可用状态。",
+          "这是作者所收录时期的代表模型快照，原始布局与条目范围均保持不变。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+        "authors": [
+          "Yin, Shukang",
+          "Fu, Chaoyou",
+          "Zhao, Sirui",
+          "Li, Ke",
+          "Sun, Xing",
+          "Xu, Tong",
+          "Chen, Enhong"
+        ],
+        "urls": [
+          "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+          "https://arxiv.org/abs/2306.13549v4",
+          "https://arxiv.org/pdf/2306.13549v4",
+          "https://arxiv.org/src/2306.13549v4"
+        ],
+        "arxiv_id": "2306.13549v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2306.13549v4",
+        "full_pdf_sha256": "d3058b36775fbd7bd52182365c0c21f2ff2b7f183d1dd059b48921516558a1ef",
+        "full_pdf_bytes": 1093777,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "30ce6f6bc63d4b991bd57acfb1dafb9960014401c01deeb91799653c10fe0aee",
+        "original_bytes": 391826,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2306.13549v4",
+        "archive_sha256": "76992a17f4df3255bf94ff8179358ee38e53a45c4197979c1d76e619a0e4dfe2",
+        "archive_bytes": 597287,
+        "archive_member": "figs/survey-timeline.pdf",
+        "inclusion_member": "draft/010_intro.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 77,
+        "pdf_drawing_objects": 40,
+        "embedded_raster_images": 73,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 682,
+          "path": 183,
+          "clipPath": 66,
+          "image": 101,
+          "mask": 55,
+          "use": 679,
+          "rect": 1
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 32,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 619,
+          "sha256": "f856ecb39a95d0b61ad53b390938c22e92f568dbe2d5a510ae6368e5ffff04e7"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 311,
+          "sha256": "34b6ed01d2d19fc2c0732bf5f1573d5bc755e113000cfc9cc487f3bd40f8ca1c"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 391826,
+          "sha256": "30ce6f6bc63d4b991bd57acfb1dafb9960014401c01deeb91799653c10fe0aee"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 265238,
+          "sha256": "e14caca5bb8dcefd7f093e70c5b878e24e5c64f61ea9b5877fd8995d2584ef55"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 700354,
+          "sha256": "e72b2071231723a34dd96192df3a0d22c4f99f121c3e22d8e1d829d10faddca5"
+        }
+      ],
+      "path": "teaser/survey-mllm-timeline",
+      "metadata_path": "teaser/survey-mllm-timeline/metadata.json",
+      "readme_path": "teaser/survey-mllm-timeline/README.md",
+      "primary_path": "teaser/survey-mllm-timeline/original.pdf",
+      "preview_path": "teaser/survey-mllm-timeline/preview.png"
     },
     {
       "schema_version": 1,
@@ -6264,6 +7595,508 @@
       "readme_path": "architecture/sd3-mmdit-architecture/README.md",
       "primary_path": "architecture/sd3-mmdit-architecture/source.svg",
       "preview_path": "architecture/sd3-mmdit-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-agent-perception-brain-action",
+      "title": "Agent 概念框架 · 感知、大脑与行动",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "architecture",
+        "survey",
+        "agent",
+        "conceptual-framework",
+        "agent-rise-survey",
+        "arXiv",
+        "2023"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "用环境交互闭环串起感知、大脑与行动，同时在右侧展开存储和决策能力；适合作为综述统一框架图的构图参考。",
+      "publication": {
+        "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+        "venue": "arXiv",
+        "year": 2023,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2309.07864v3",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2309.07864v3"
+      },
+      "curation": {
+        "figure_role": "综述提炼的概念框架，按内部组成与交互关系放入 Architecture；不是某个具体可执行模型的完整网络定义。",
+        "figure_subtype": "conceptual-framework",
+        "why_selected": "用环境交互闭环串起感知、大脑与行动，同时在右侧展开存储和决策能力；适合作为综述统一框架图的构图参考。",
+        "what_to_borrow": [
+          "整体交互闭环与局部功能展开分区表达。",
+          "用一个用户指令例子把抽象模块与实际信息流联系起来。",
+          "保持输入、记忆知识、规划推理、工具和具身行动之间的层级。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/WooooDyy/LLM-Agent-Paper-List",
+        "authors": [
+          "Xi, Zhiheng",
+          "Chen, Wenxiang",
+          "Guo, Xin",
+          "He, Wei",
+          "Ding, Yiwen",
+          "Hong, Boyang",
+          "Zhang, Ming",
+          "Wang, Junzhe",
+          "Jin, Senjie",
+          "Zhou, Enyu",
+          "Zheng, Rui",
+          "Fan, Xiaoran",
+          "Wang, Xiao",
+          "Xiong, Limao",
+          "Zhou, Yuhao",
+          "Wang, Weiran",
+          "Jiang, Changhao",
+          "Zou, Yicheng",
+          "Liu, Xiangyang",
+          "Yin, Zhangyue",
+          "Dou, Shihan",
+          "Weng, Rongxiang",
+          "Cheng, Wensen",
+          "Zhang, Qi",
+          "Qin, Wenjuan",
+          "Zheng, Yongyan",
+          "Qiu, Xipeng",
+          "Huang, Xuanjing",
+          "Gui, Tao"
+        ],
+        "urls": [
+          "https://github.com/WooooDyy/LLM-Agent-Paper-List",
+          "https://arxiv.org/abs/2309.07864v3",
+          "https://arxiv.org/pdf/2309.07864v3",
+          "https://arxiv.org/src/2309.07864v3"
+        ],
+        "arxiv_id": "2309.07864v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2309.07864v3",
+        "full_pdf_sha256": "5e3b2357ff942e1a0e084ae4af3327011a651cf1f155d108065c70af369e24ac",
+        "full_pdf_bytes": 6832174,
+        "page_number": 10,
+        "figure_number": 2,
+        "original_sha256": "e33051a0b33d6b692f6cd12e16a4cddbd3b77c9f9ae9e01cdacdd8890dca9efe",
+        "original_bytes": 1480987,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2309.07864v3",
+        "archive_sha256": "8b2811e4c2bdf3b873c390aee0ab52611730d4a987985f2412a54c9f4ad4d31f",
+        "archive_bytes": 23664872,
+        "archive_member": "figures/sec3_construction_v2.pdf",
+        "inclusion_member": "sections/Sec3.Construction.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 场景、人物和部分图标含第三方视觉素材；不视为本仓库可自由再分发的元素。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 34,
+        "pdf_drawing_objects": 121,
+        "embedded_raster_images": 47,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 37,
+          "path": 244,
+          "mask": 47,
+          "g": 181,
+          "image": 70,
+          "use": 417
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。",
+          "原 PDF 在 Poppler 解析时报告交叉引用问题，故使用 MuPDF 导出 SVG；原 PDF 字节保持不变，SVG 已重新渲染核对。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "使用 MuPDF 从独立 PDF 转为自包含 SVG，文字转轮廓；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 1031,
+          "sha256": "e280fc8b4fe871c052540ae679767188639725df2b24e7155c4d5004bca922ac"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1059,
+          "sha256": "d62937b1078b3ed9817a3d5e1c539d47748d6545adc35e0f04de5e5f61bb3010"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1480987,
+          "sha256": "e33051a0b33d6b692f6cd12e16a4cddbd3b77c9f9ae9e01cdacdd8890dca9efe"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 324460,
+          "sha256": "a4544a77b75fe95af213cbb2382ceb62c54c82ef9cec9ed74398530f7c6ab469"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 984816,
+          "sha256": "503b8289a39b9eac02b42f7a77481dffa7c0f22fc4412a2575e1159da3322ca9"
+        }
+      ],
+      "path": "architecture/survey-agent-perception-brain-action",
+      "metadata_path": "architecture/survey-agent-perception-brain-action/metadata.json",
+      "readme_path": "architecture/survey-agent-perception-brain-action/README.md",
+      "primary_path": "architecture/survey-agent-perception-brain-action/original.pdf",
+      "preview_path": "architecture/survey-agent-perception-brain-action/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-autonomous-agent-modules",
+      "title": "自主 Agent 统一框架 · 四列模块分解",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "architecture",
+        "survey",
+        "agent",
+        "modular-framework",
+        "autonomous-agent-survey",
+        "Frontiers of Computer Science",
+        "2024"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "将 Profile、Memory、Planning、Action 并列成四列，列内再分子能力，顶部说明共享的 LLM 基础，适合综述比较多个系统的共同组成。",
+      "publication": {
+        "title": "A Survey on Large Language Model based Autonomous Agents",
+        "venue": "Frontiers of Computer Science",
+        "year": 2024,
+        "article_type": "survey",
+        "presentation": "journal-article",
+        "evidence_url": "https://arxiv.org/abs/2308.11432v7",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2308.11432v7"
+      },
+      "curation": {
+        "figure_role": "综述统一框架图；表达组件分类与共同基础，不把并列栏目误读为从左到右执行的流水线。",
+        "figure_subtype": "conceptual-framework",
+        "why_selected": "将 Profile、Memory、Planning、Action 并列成四列，列内再分子能力，顶部说明共享的 LLM 基础，适合综述比较多个系统的共同组成。",
+        "what_to_borrow": [
+          "固定列宽与重复的标题层级，便于并列扫描。",
+          "用浅色区分组件，列内只保留短语。",
+          "顶部共享来源与四列能力分解分开，不额外制造串行箭头。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+        "authors": [
+          "Wang, Lei",
+          "Ma, Chen",
+          "Feng, Xueyang",
+          "Zhang, Zeyu",
+          "Yang, Hao",
+          "Zhang, Jingsen",
+          "Chen, Zhiyuan",
+          "Tang, Jiakai",
+          "Chen, Xu",
+          "Lin, Yankai",
+          "Zhao, Wayne Xin",
+          "Wei, Zhewei",
+          "Wen, Ji-Rong"
+        ],
+        "urls": [
+          "https://github.com/Paitesanshi/LLM-Agent-Survey",
+          "https://arxiv.org/abs/2308.11432v7",
+          "https://arxiv.org/pdf/2308.11432v7",
+          "https://arxiv.org/src/2308.11432v7"
+        ],
+        "arxiv_id": "2308.11432v7",
+        "full_pdf_url": "https://arxiv.org/pdf/2308.11432v7",
+        "full_pdf_sha256": "8709507742c260a5a92b4690ffc0459a0ab9af16dc7a5478d253a6e7b57bf23a",
+        "full_pdf_bytes": 5788348,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "d6d697c8a373bb0fcf0874fccdcb23c13c27f3c8fe4851e252b8f0f6a5de11cd",
+        "original_bytes": 88751,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2308.11432v7",
+        "archive_sha256": "6681674832b00ae4653b831d1c720573c51ad3f381b2c7ad6d86dca3682b055d",
+        "archive_bytes": 5224394,
+        "archive_member": "FCS-240231-fig2.pdf",
+        "inclusion_member": "main.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 118,
+        "pdf_drawing_objects": 23,
+        "embedded_raster_images": 10,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 735,
+          "path": 142,
+          "clipPath": 4,
+          "image": 19,
+          "mask": 9,
+          "use": 685,
+          "rect": 1
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 9,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 715,
+          "sha256": "d6377b52eea2c4b98e29661b3021fc5babbeabab16e5995ad091d97640ddcd57"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 323,
+          "sha256": "bf05277d162729e627f7af828a95ec8128a4bd56efda91e75e2c8ae4feb108ff"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 88751,
+          "sha256": "d6d697c8a373bb0fcf0874fccdcb23c13c27f3c8fe4851e252b8f0f6a5de11cd"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 293394,
+          "sha256": "bae51be716f6303c81c1cfd265f5495ff273f0219d5ee1cab02ef0a4f837743c"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 206734,
+          "sha256": "b5f1eec2a68a8d5c48e02e479a70b01f082c2161752e66a5f7717368b25dda83"
+        }
+      ],
+      "path": "architecture/survey-autonomous-agent-modules",
+      "metadata_path": "architecture/survey-autonomous-agent-modules/metadata.json",
+      "readme_path": "architecture/survey-autonomous-agent-modules/README.md",
+      "primary_path": "architecture/survey-autonomous-agent-modules/original.pdf",
+      "preview_path": "architecture/survey-autonomous-agent-modules/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-mllm-connector-framework",
+      "title": "MLLM 统一架构 · 模态接口与连接器对照",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "architecture",
+        "survey",
+        "multimodal",
+        "connector",
+        "architecture-overview",
+        "mllm-survey",
+        "National Science Review",
+        "2024"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "上半部统一多模态输入、编码器、连接器、LLM 与生成器，下半部并列展开 MLP、Q-Former 和注意力连接方式，兼顾全局和接口差异。",
+      "publication": {
+        "title": "A Survey on Multimodal Large Language Models",
+        "venue": "National Science Review",
+        "year": 2024,
+        "article_type": "survey",
+        "presentation": "journal-article",
+        "evidence_url": "https://arxiv.org/abs/2306.13549v4",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2306.13549v4"
+      },
+      "curation": {
+        "figure_role": "综述提炼的典型模型架构及连接器对照；按网络组成放在 Architecture。",
+        "figure_subtype": "architecture-overview",
+        "why_selected": "上半部统一多模态输入、编码器、连接器、LLM 与生成器，下半部并列展开 MLP、Q-Former 和注意力连接方式，兼顾全局和接口差异。",
+        "what_to_borrow": [
+          "主图只保留统一接口，局部展开再解释结构差异。",
+          "相同的 token 色块贯穿整体和局部，对应关系清楚。",
+          "三种连接器采用同样的信息尺度，方便并列比较。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+        "authors": [
+          "Yin, Shukang",
+          "Fu, Chaoyou",
+          "Zhao, Sirui",
+          "Li, Ke",
+          "Sun, Xing",
+          "Xu, Tong",
+          "Chen, Enhong"
+        ],
+        "urls": [
+          "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+          "https://arxiv.org/abs/2306.13549v4",
+          "https://arxiv.org/pdf/2306.13549v4",
+          "https://arxiv.org/src/2306.13549v4"
+        ],
+        "arxiv_id": "2306.13549v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2306.13549v4",
+        "full_pdf_sha256": "d3058b36775fbd7bd52182365c0c21f2ff2b7f183d1dd059b48921516558a1ef",
+        "full_pdf_bytes": 1093777,
+        "page_number": 3,
+        "figure_number": 2,
+        "original_sha256": "7fb47368744532154adf48ceda23a0a2efd81cf925c37f88dcffdccf25e1983b",
+        "original_bytes": 54844,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2306.13549v4",
+        "archive_sha256": "76992a17f4df3255bf94ff8179358ee38e53a45c4197979c1d76e619a0e4dfe2",
+        "archive_bytes": 597287,
+        "archive_member": "figs/survey-arch.pdf",
+        "inclusion_member": "draft/032_arch.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 25,
+        "pdf_drawing_objects": 123,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "g": 101,
+          "path": 166,
+          "clipPath": 3,
+          "use": 107
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。这张独立原图未检出嵌入位图。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 615,
+          "sha256": "438dfebdcd18eaa07ecc36ea5fe5193b9f1b0e05709838b283b9bfeefeecfe87"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 761,
+          "sha256": "c0a1f3a6858fe8475eec2d9a77210896a79b4c07d29e2d26b8565ec59185071e"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 54844,
+          "sha256": "7fb47368744532154adf48ceda23a0a2efd81cf925c37f88dcffdccf25e1983b"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 74566,
+          "sha256": "7cb2d84d3d7ae18cf0d150f1f4a9a354c73d6e21770afa537c35a71e6272daaf"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 119553,
+          "sha256": "379e0062feef4ee87f23002eb8de1ebe228e64f085856135395f10329acbfb1b"
+        }
+      ],
+      "path": "architecture/survey-mllm-connector-framework",
+      "metadata_path": "architecture/survey-mllm-connector-framework/metadata.json",
+      "readme_path": "architecture/survey-mllm-connector-framework/README.md",
+      "primary_path": "architecture/survey-mllm-connector-framework/original.pdf",
+      "preview_path": "architecture/survey-mllm-connector-framework/preview.png"
     },
     {
       "schema_version": 1,

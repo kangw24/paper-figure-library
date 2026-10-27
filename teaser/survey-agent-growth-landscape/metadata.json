@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "survey-agent-growth-landscape",
+  "title": "自主 Agent 发展 · 趋势曲线与代表场景",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "timeline",
+    "landscape",
+    "agent",
+    "autonomous-agent-survey",
+    "Frontiers of Computer Science",
+    "2024"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "在累计论文增长曲线上排布有类别配色的代表系统缩略图，将领域热度、时间顺序和应用类型合在一个画面里。",
+  "publication": {
+    "title": "A Survey on Large Language Model based Autonomous Agents",
+    "venue": "Frontiers of Computer Science",
+    "year": 2024,
+    "article_type": "survey",
+    "presentation": "journal-article",
+    "evidence_url": "https://arxiv.org/abs/2308.11432v7",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2308.11432v7"
+  },
+  "curation": {
+    "figure_role": "综述开篇的发展概览，适合借鉴趋势与实例结合的布局；缩略图是既有系统插图，不是当前系统基准比较。",
+    "figure_subtype": "timeline-landscape",
+    "why_selected": "在累计论文增长曲线上排布有类别配色的代表系统缩略图，将领域热度、时间顺序和应用类型合在一个画面里。",
+    "what_to_borrow": [
+      "先确定趋势主线，再把代表实例锚定到相应时期。",
+      "图例颜色只编码类别，时间和累计数量交给坐标轴。",
+      "原图覆盖 2021 年 1 月至 2023 年 8 月，不能直接作为今天的领域统计。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://github.com/Paitesanshi/LLM-Agent-Survey",
+    "authors": [
+      "Wang, Lei",
+      "Ma, Chen",
+      "Feng, Xueyang",
+      "Zhang, Zeyu",
+      "Yang, Hao",
+      "Zhang, Jingsen",
+      "Chen, Zhiyuan",
+      "Tang, Jiakai",
+      "Chen, Xu",
+      "Lin, Yankai",
+      "Zhao, Wayne Xin",
+      "Wei, Zhewei",
+      "Wen, Ji-Rong"
+    ],
+    "urls": [
+      "https://github.com/Paitesanshi/LLM-Agent-Survey",
+      "https://arxiv.org/abs/2308.11432v7",
+      "https://arxiv.org/pdf/2308.11432v7",
+      "https://arxiv.org/src/2308.11432v7"
+    ],
+    "arxiv_id": "2308.11432v7",
+    "full_pdf_url": "https://arxiv.org/pdf/2308.11432v7",
+    "full_pdf_sha256": "8709507742c260a5a92b4690ffc0459a0ab9af16dc7a5478d253a6e7b57bf23a",
+    "full_pdf_bytes": 5788348,
+    "page_number": 2,
+    "figure_number": 1,
+    "original_sha256": "5205b3f2c200d94092ece1e0f8e892190849cb5ed542dc76cc111020945f44ef",
+    "original_bytes": 181698,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2308.11432v7",
+    "archive_sha256": "6681674832b00ae4653b831d1c720573c51ad3f381b2c7ad6d86dca3682b055d",
+    "archive_bytes": 5224394,
+    "archive_member": "FCS-240231-fig1.pdf",
+    "inclusion_member": "main.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 62,
+    "pdf_drawing_objects": 93,
+    "embedded_raster_images": 26,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 472,
+      "path": 194,
+      "image": 28,
+      "mask": 6,
+      "use": 459,
+      "clipPath": 20,
+      "rect": 1
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 45,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 715,
+      "sha256": "c1246980d287ce7869898e5c870474c5999099e770964a0b7d621dd69ea41ae5"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 722,
+      "sha256": "8c75bd04c6e0fb5e4f27ed0bc431d5242aac23557b011c50a76441a7e595ae63"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 181698,
+      "sha256": "5205b3f2c200d94092ece1e0f8e892190849cb5ed542dc76cc111020945f44ef"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 756401,
+      "sha256": "f921062b340ef28f1add2c827df18c0a889952ffad2340f43b912af7bfd4b2df"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 336113,
+      "sha256": "215fdf6edd5d269447de500fb9ab09bfa340cda74582c82a40176558c34a4658"
+    }
+  ]
+}

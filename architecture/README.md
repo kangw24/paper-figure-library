@@ -2,11 +2,11 @@
 
 [Teaser](../teaser/README.md) · [Architecture](README.md) · [Element](../element/README.md) · [总目录](../CATALOG.md)
 
-按图的表达用途浏览。会议、年份、Oral 等信息保留在各条目，不另设会议分类。
+按图的表达用途浏览。会议、期刊、年份及综述类型保留在条目标签中。
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 整体方法与训练流程 | 13 | [浏览](#framework) |
+| 整体方法与训练流程 | 16 | [浏览](#framework) |
 | 网络主干与模块展开 | 13 | [浏览](#network) |
 | 基础结构与教材范例 | 16 | [浏览](#tutorial) |
 
@@ -135,6 +135,36 @@ ICML 2023 · Poster
 [![预览](blip2-bridge-framework/preview.png)](blip2-bridge-framework/README.md)
 
 [说明与源文件](blip2-bridge-framework/README.md) · [同论文：BLIP-2 · Q-Former 与三种注意力掩码](blip2-qformer-architecture/README.md) · [关联元素](blip2-bridge-framework/README.md#关联范例与元素)
+
+### [Agent 概念框架 · 感知、大脑与行动](survey-agent-perception-brain-action/README.md)
+
+用环境交互闭环串起感知、大脑与行动，同时在右侧展开存储和决策能力；适合作为综述统一框架图的构图参考。
+
+arXiv 2023 · 预印本 · 综述
+
+[![预览](survey-agent-perception-brain-action/preview.png)](survey-agent-perception-brain-action/README.md)
+
+[说明与源文件](survey-agent-perception-brain-action/README.md) · [同论文：Agent 社会场景 · 综述概念 teaser](../teaser/survey-agent-society-teaser/README.md) · [关联元素](survey-agent-perception-brain-action/README.md#关联范例与元素)
+
+### [自主 Agent 统一框架 · 四列模块分解](survey-autonomous-agent-modules/README.md)
+
+将 Profile、Memory、Planning、Action 并列成四列，列内再分子能力，顶部说明共享的 LLM 基础，适合综述比较多个系统的共同组成。
+
+Frontiers of Computer Science 2024 · 期刊论文 · 综述
+
+[![预览](survey-autonomous-agent-modules/preview.png)](survey-autonomous-agent-modules/README.md)
+
+[说明与源文件](survey-autonomous-agent-modules/README.md) · [同论文：自主 Agent 发展 · 趋势曲线与代表场景](../teaser/survey-agent-growth-landscape/README.md) · [关联元素](survey-autonomous-agent-modules/README.md#关联范例与元素)
+
+### [MLLM 统一架构 · 模态接口与连接器对照](survey-mllm-connector-framework/README.md)
+
+上半部统一多模态输入、编码器、连接器、LLM 与生成器，下半部并列展开 MLP、Q-Former 和注意力连接方式，兼顾全局和接口差异。
+
+National Science Review 2024 · 期刊论文 · 综述
+
+[![预览](survey-mllm-connector-framework/preview.png)](survey-mllm-connector-framework/README.md)
+
+[说明与源文件](survey-mllm-connector-framework/README.md) · [同论文：多模态大模型发展 · 分段曲线时间线](../teaser/survey-mllm-timeline/README.md) · [关联元素](survey-mllm-connector-framework/README.md#关联范例与元素)
 
 
 <a id="network"></a>

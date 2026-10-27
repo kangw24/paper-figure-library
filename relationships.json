@@ -14,6 +14,21 @@
         ]
       },
       {
+        "id": "landscape",
+        "title": "领域全景、演进与综述路线图",
+        "description": "条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。",
+        "figures": [
+          "survey-agent-society-teaser",
+          "survey-lm-capability-evolution",
+          "survey-llama-family-map",
+          "survey-3dgs-application-landscape",
+          "survey-llm-release-timeline",
+          "survey-mllm-timeline",
+          "survey-agent-growth-landscape",
+          "survey-3dgs-review-map"
+        ]
+      },
+      {
         "id": "capabilities",
         "title": "任务、动机与能力展示",
         "figures": [
@@ -61,7 +76,10 @@
           "lav",
           "sam-lora",
           "pixelsplat-probabilistic-architecture",
-          "blip2-bridge-framework"
+          "blip2-bridge-framework",
+          "survey-agent-perception-brain-action",
+          "survey-autonomous-agent-modules",
+          "survey-mllm-connector-framework"
         ]
       },
       {
@@ -155,6 +173,27 @@
     [
       "3detr-attention-teaser",
       "3detr-architecture"
+    ],
+    [
+      "survey-3dgs-application-landscape",
+      "survey-3dgs-review-map"
+    ],
+    [
+      "survey-lm-capability-evolution",
+      "survey-llm-release-timeline",
+      "survey-llama-family-map"
+    ],
+    [
+      "survey-agent-society-teaser",
+      "survey-agent-perception-brain-action"
+    ],
+    [
+      "survey-agent-growth-landscape",
+      "survey-autonomous-agent-modules"
+    ],
+    [
+      "survey-mllm-timeline",
+      "survey-mllm-connector-framework"
     ]
   ],
   "suggested_elements": {
@@ -552,6 +591,68 @@
       "dit-embed",
       "vit-mlp",
       "tabler-cube-3d-sphere"
+    ],
+    "survey-lm-capability-evolution": [
+      "tabler-route",
+      "tabler-clock",
+      "tabler-book"
+    ],
+    "survey-llm-release-timeline": [
+      "tabler-route",
+      "tabler-clock",
+      "tabler-affiliate"
+    ],
+    "survey-llama-family-map": [
+      "tabler-sitemap",
+      "tabler-affiliate",
+      "tabler-arrows-split"
+    ],
+    "survey-agent-society-teaser": [
+      "tabler-users",
+      "tabler-message",
+      "tabler-world",
+      "tabler-brain"
+    ],
+    "survey-agent-growth-landscape": [
+      "tabler-chart-scatter",
+      "tabler-clock",
+      "tabler-users"
+    ],
+    "survey-mllm-timeline": [
+      "tabler-route",
+      "tabler-photo",
+      "tabler-file-text",
+      "tabler-clock"
+    ],
+    "survey-3dgs-application-landscape": [
+      "tabler-camera",
+      "tabler-cube-3d-sphere",
+      "tabler-world",
+      "tabler-sitemap"
+    ],
+    "survey-3dgs-review-map": [
+      "tabler-sitemap",
+      "tabler-network",
+      "tabler-book"
+    ],
+    "survey-agent-perception-brain-action": [
+      "tabler-brain",
+      "tabler-database",
+      "tabler-message-chatbot",
+      "tabler-arrow-loop-right"
+    ],
+    "survey-autonomous-agent-modules": [
+      "tabler-user",
+      "tabler-database",
+      "tabler-brain",
+      "tabler-target"
+    ],
+    "survey-mllm-connector-framework": [
+      "vit-encoder-block",
+      "dit-embed",
+      "dit-self-attention",
+      "tabler-photo",
+      "tabler-file-text"
     ]
   }
 }

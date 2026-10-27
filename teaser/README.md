@@ -2,11 +2,12 @@
 
 [Teaser](README.md) · [Architecture](../architecture/README.md) · [Element](../element/README.md) · [总目录](../CATALOG.md)
 
-按图的表达用途浏览。会议、年份、Oral 等信息保留在各条目，不另设会议分类。
+按图的表达用途浏览。会议、期刊、年份及综述类型保留在条目标签中。
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
 | 方法与范式对照 | 4 | [浏览](#comparison) |
+| 领域全景、演进与综述路线图 | 8 | [浏览](#landscape) |
 | 任务、动机与能力展示 | 7 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
 | 速度与精度权衡 | 2 | [浏览](#tradeoff) |
@@ -52,6 +53,93 @@ NeurIPS 2023 · Oral
 [![预览](rayder-concept/preview.png)](rayder-concept/README.md)
 
 [说明与源文件](rayder-concept/README.md) · [同论文：RayDer：统一 Transformer 的两个使用阶段](../architecture/rayder/README.md) · [关联元素](rayder-concept/README.md#关联范例与元素)
+
+
+<a id="landscape"></a>
+
+## 领域全景、演进与综述路线图
+
+条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。
+
+### [Agent 社会场景 · 综述概念 teaser](survey-agent-society-teaser/README.md)
+
+以一座共同活动的虚拟城市场景承载任务规划、协作和工具使用，再用三个局部场景与对话气泡解释含义；这是本批最接近叙事型 teaser 的一张。
+
+arXiv 2023 · 预印本 · 综述
+
+[![预览](survey-agent-society-teaser/preview.png)](survey-agent-society-teaser/README.md)
+
+[说明与源文件](survey-agent-society-teaser/README.md) · [同论文：Agent 概念框架 · 感知、大脑与行动](../architecture/survey-agent-perception-brain-action/README.md) · [关联元素](survey-agent-society-teaser/README.md#关联范例与元素)
+
+### [语言模型四代能力演进 · 阶梯式概念图](survey-lm-capability-evolution/README.md)
+
+用同一条阶梯和时间轴，把统计语言模型、神经语言模型、预训练语言模型与大语言模型的任务能力变化串起来；一眼先读到观点，再读阶段细节。
+
+Frontiers of Computer Science 2026 · 期刊论文 · 综述
+
+[![预览](survey-lm-capability-evolution/preview.png)](survey-lm-capability-evolution/README.md)
+
+[说明与源文件](survey-lm-capability-evolution/README.md) · [同论文：LLM 发布脉络 · 主轴与时间分支](survey-llm-release-timeline/README.md) · [同论文：LLaMA 家族关系 · 模型与数据继承图](survey-llama-family-map/README.md) · [关联元素](survey-lm-capability-evolution/README.md#关联范例与元素)
+
+### [LLaMA 家族关系 · 模型与数据继承图](survey-llama-family-map/README.md)
+
+把模型继承、数据继承与继续预训练画成不同颜色和线型的关系，从单一根节点展开出任务与领域分支，重点是关系而非枚举。
+
+Frontiers of Computer Science 2026 · 期刊论文 · 综述
+
+[![预览](survey-llama-family-map/preview.png)](survey-llama-family-map/README.md)
+
+[说明与源文件](survey-llama-family-map/README.md) · [同论文：语言模型四代能力演进 · 阶梯式概念图](survey-lm-capability-evolution/README.md) · [同论文：LLM 发布脉络 · 主轴与时间分支](survey-llm-release-timeline/README.md) · [关联元素](survey-llama-family-map/README.md#关联范例与元素)
+
+### [3DGS 应用全景 · 中心主题与场景分支](survey-3dgs-application-landscape/README.md)
+
+以中心主题连接机器人、动态场景、生成编辑、化身、内窥镜、场景重建和物理等分支，并把少量视觉实例放进分支旁，兼顾分类和直观性。
+
+ACM Computing Surveys 2026 · 期刊论文 · 综述
+
+[![预览](survey-3dgs-application-landscape/preview.png)](survey-3dgs-application-landscape/README.md)
+
+[说明与源文件](survey-3dgs-application-landscape/README.md) · [同论文：3DGS 综述路线图 · 双侧分类地图](survey-3dgs-review-map/README.md) · [关联元素](survey-3dgs-application-landscape/README.md#关联范例与元素)
+
+### [LLM 发布脉络 · 主轴与时间分支](survey-llm-release-timeline/README.md)
+
+沿弯曲主轴安排不同时间段，分支容纳密集的模型名称，黄色底色再编码检查点是否公开；适合综述开篇交代领域发展范围。
+
+Frontiers of Computer Science 2026 · 期刊论文 · 综述
+
+[![预览](survey-llm-release-timeline/preview.png)](survey-llm-release-timeline/README.md)
+
+[说明与源文件](survey-llm-release-timeline/README.md) · [同论文：语言模型四代能力演进 · 阶梯式概念图](survey-lm-capability-evolution/README.md) · [同论文：LLaMA 家族关系 · 模型与数据继承图](survey-llama-family-map/README.md) · [关联元素](survey-llm-release-timeline/README.md#关联范例与元素)
+
+### [多模态大模型发展 · 分段曲线时间线](survey-mllm-timeline/README.md)
+
+弯曲时间轴配合阶段分支和小型图标，在一张横向图内承载多模态模型从 2022 年到 2024 年初的发展；比普通表格更容易看出阶段。
+
+National Science Review 2024 · 期刊论文 · 综述
+
+[![预览](survey-mllm-timeline/preview.png)](survey-mllm-timeline/README.md)
+
+[说明与源文件](survey-mllm-timeline/README.md) · [同论文：MLLM 统一架构 · 模态接口与连接器对照](../architecture/survey-mllm-connector-framework/README.md) · [关联元素](survey-mllm-timeline/README.md#关联范例与元素)
+
+### [自主 Agent 发展 · 趋势曲线与代表场景](survey-agent-growth-landscape/README.md)
+
+在累计论文增长曲线上排布有类别配色的代表系统缩略图，将领域热度、时间顺序和应用类型合在一个画面里。
+
+Frontiers of Computer Science 2024 · 期刊论文 · 综述
+
+[![预览](survey-agent-growth-landscape/preview.png)](survey-agent-growth-landscape/README.md)
+
+[说明与源文件](survey-agent-growth-landscape/README.md) · [同论文：自主 Agent 统一框架 · 四列模块分解](../architecture/survey-autonomous-agent-modules/README.md) · [关联元素](survey-agent-growth-landscape/README.md#关联范例与元素)
+
+### [3DGS 综述路线图 · 双侧分类地图](survey-3dgs-review-map/README.md)
+
+从中心领域向两侧展开原理、方法方向、应用、比较与研究方向，颜色对应一层主题，形成清晰的综述阅读地图。
+
+ACM Computing Surveys 2026 · 期刊论文 · 综述
+
+[![预览](survey-3dgs-review-map/preview.png)](survey-3dgs-review-map/README.md)
+
+[说明与源文件](survey-3dgs-review-map/README.md) · [同论文：3DGS 应用全景 · 中心主题与场景分支](survey-3dgs-application-landscape/README.md) · [关联元素](survey-3dgs-review-map/README.md#关联范例与元素)
 
 
 <a id="capabilities"></a>

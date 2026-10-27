@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "survey-lm-capability-evolution",
+  "title": "语言模型四代能力演进 · 阶梯式概念图",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "conceptual-teaser",
+    "paradigm-evolution",
+    "llm-survey",
+    "Frontiers of Computer Science",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "用同一条阶梯和时间轴，把统计语言模型、神经语言模型、预训练语言模型与大语言模型的任务能力变化串起来；一眼先读到观点，再读阶段细节。",
+  "publication": {
+    "title": "A Survey of Large Language Models",
+    "venue": "Frontiers of Computer Science",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "journal-article",
+    "evidence_url": "https://arxiv.org/abs/2303.18223v19",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2303.18223v19"
+  },
+  "curation": {
+    "figure_role": "综述中的概念演进图；突出领域视角和阶段差异，适合作为综述 teaser 的构图参考。不是网络架构图。",
+    "figure_subtype": "conceptual-teaser",
+    "why_selected": "用同一条阶梯和时间轴，把统计语言模型、神经语言模型、预训练语言模型与大语言模型的任务能力变化串起来；一眼先读到观点，再读阶段细节。",
+    "what_to_borrow": [
+      "用阶梯高度表达能力范围，用横轴表达阶段，避免把概念演进堆成论文列表。",
+      "每一阶段复用相同的信息层级：名称、代表工作、关键机制、任务范围。",
+      "图中年份与分类是作者在所收录版本中的划分，改编时应重新核对。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://github.com/RUCAIBox/LLMSurvey",
+    "authors": [
+      "Zhao, Wayne Xin",
+      "Zhou, Kun",
+      "Li, Junyi",
+      "Tang, Tianyi",
+      "Wang, Xiaolei",
+      "Hou, Yupeng",
+      "Min, Yingqian",
+      "Zhang, Beichen",
+      "Zhang, Junjie",
+      "Dong, Zican",
+      "Du, Yifan",
+      "Yang, Chen",
+      "Chen, Yushuo",
+      "Chen, Zhipeng",
+      "Jiang, Jinhao",
+      "Ren, Ruiyang",
+      "Li, Yifan",
+      "Tang, Xinyu",
+      "Liu, Zikang",
+      "Liu, Peiyu",
+      "Nie, Jian-Yun",
+      "Wen, Ji-Rong"
+    ],
+    "urls": [
+      "https://github.com/RUCAIBox/LLMSurvey",
+      "https://arxiv.org/abs/2303.18223v19",
+      "https://arxiv.org/pdf/2303.18223v19",
+      "https://arxiv.org/src/2303.18223v19"
+    ],
+    "arxiv_id": "2303.18223v19",
+    "full_pdf_url": "https://arxiv.org/pdf/2303.18223v19",
+    "full_pdf_sha256": "585551fe1a17793d141f6bff3e595e63151e867a53353991c3c9891facc72377",
+    "full_pdf_bytes": 5853703,
+    "page_number": 2,
+    "figure_number": 2,
+    "original_sha256": "3b1183426e0305c319ff10391f1bf8bd2b5ca204e75f962953b05398ed4a2eb5",
+    "original_bytes": 95779,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2303.18223v19",
+    "archive_sha256": "158430e5b62148a708269791d3ceada2e7baa6276658ea01a374887e593e414d",
+    "archive_bytes": 5119180,
+    "archive_member": "images/task-solvers.pdf",
+    "inclusion_member": "sections/intro.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 作者在论文和项目中明确保留图表权利，并要求出版使用取得作者许可。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 46,
+    "pdf_drawing_objects": 20,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 546,
+      "path": 162,
+      "clipPath": 1,
+      "rect": 1,
+      "use": 549
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 4,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。这张独立原图未检出嵌入位图。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 884,
+      "sha256": "8ffbb0df3b21c7ce6d5d3b750571f4490191a03368f91d1e4341ec6204f4a7ba"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 830,
+      "sha256": "3f5bfa7ea67ab2ac35b465b467353b4f172cf8a60ccfa7a7ff8cc00260004fea"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 95779,
+      "sha256": "3b1183426e0305c319ff10391f1bf8bd2b5ca204e75f962953b05398ed4a2eb5"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 136912,
+      "sha256": "520da731e236f5123fb515616ea1e280b8630558b8819755a18b9954236d6971"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 237758,
+      "sha256": "ccb49b26d5de3e5a049b0c782a97310ae378d1acc630c061873d3ca9cc2c0dae"
+    }
+  ]
+}

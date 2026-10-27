@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "survey-mllm-timeline",
+  "title": "多模态大模型发展 · 分段曲线时间线",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "timeline",
+    "multimodal",
+    "mllm-survey",
+    "National Science Review",
+    "2024"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "弯曲时间轴配合阶段分支和小型图标，在一张横向图内承载多模态模型从 2022 年到 2024 年初的发展；比普通表格更容易看出阶段。",
+  "publication": {
+    "title": "A Survey on Multimodal Large Language Models",
+    "venue": "National Science Review",
+    "year": 2024,
+    "article_type": "survey",
+    "presentation": "journal-article",
+    "evidence_url": "https://arxiv.org/abs/2306.13549v4",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2306.13549v4"
+  },
+  "curation": {
+    "figure_role": "综述 Figure 1 的时间线总览；适合领域背景页和发展脉络页，不是模型之间的架构连接关系。",
+    "figure_subtype": "timeline-overview",
+    "why_selected": "弯曲时间轴配合阶段分支和小型图标，在一张横向图内承载多模态模型从 2022 年到 2024 年初的发展；比普通表格更容易看出阶段。",
+    "what_to_borrow": [
+      "用稀疏主轴承载时间，把具体模型放在两侧分支。",
+      "模型标识与名称并列，少量颜色编码公开可用状态。",
+      "这是作者所收录时期的代表模型快照，原始布局与条目范围均保持不变。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+    "authors": [
+      "Yin, Shukang",
+      "Fu, Chaoyou",
+      "Zhao, Sirui",
+      "Li, Ke",
+      "Sun, Xing",
+      "Xu, Tong",
+      "Chen, Enhong"
+    ],
+    "urls": [
+      "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "https://arxiv.org/abs/2306.13549v4",
+      "https://arxiv.org/pdf/2306.13549v4",
+      "https://arxiv.org/src/2306.13549v4"
+    ],
+    "arxiv_id": "2306.13549v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2306.13549v4",
+    "full_pdf_sha256": "d3058b36775fbd7bd52182365c0c21f2ff2b7f183d1dd059b48921516558a1ef",
+    "full_pdf_bytes": 1093777,
+    "page_number": 2,
+    "figure_number": 1,
+    "original_sha256": "30ce6f6bc63d4b991bd57acfb1dafb9960014401c01deeb91799653c10fe0aee",
+    "original_bytes": 391826,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2306.13549v4",
+    "archive_sha256": "76992a17f4df3255bf94ff8179358ee38e53a45c4197979c1d76e619a0e4dfe2",
+    "archive_bytes": 597287,
+    "archive_member": "figs/survey-timeline.pdf",
+    "inclusion_member": "draft/010_intro.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 77,
+    "pdf_drawing_objects": 40,
+    "embedded_raster_images": 73,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 682,
+      "path": 183,
+      "clipPath": 66,
+      "image": 101,
+      "mask": 55,
+      "use": 679,
+      "rect": 1
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 32,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 619,
+      "sha256": "f856ecb39a95d0b61ad53b390938c22e92f568dbe2d5a510ae6368e5ffff04e7"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 311,
+      "sha256": "34b6ed01d2d19fc2c0732bf5f1573d5bc755e113000cfc9cc487f3bd40f8ca1c"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 391826,
+      "sha256": "30ce6f6bc63d4b991bd57acfb1dafb9960014401c01deeb91799653c10fe0aee"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 265238,
+      "sha256": "e14caca5bb8dcefd7f093e70c5b878e24e5c64f61ea9b5877fd8995d2584ef55"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 700354,
+      "sha256": "e72b2071231723a34dd96192df3a0d22c4f99f121c3e22d8e1d829d10faddca5"
+    }
+  ]
+}

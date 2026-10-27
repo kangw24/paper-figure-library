@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "id": "survey-agent-perception-brain-action",
+  "title": "Agent 概念框架 · 感知、大脑与行动",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "architecture",
+    "survey",
+    "agent",
+    "conceptual-framework",
+    "agent-rise-survey",
+    "arXiv",
+    "2023"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "用环境交互闭环串起感知、大脑与行动，同时在右侧展开存储和决策能力；适合作为综述统一框架图的构图参考。",
+  "publication": {
+    "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+    "venue": "arXiv",
+    "year": 2023,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2309.07864v3",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2309.07864v3"
+  },
+  "curation": {
+    "figure_role": "综述提炼的概念框架，按内部组成与交互关系放入 Architecture；不是某个具体可执行模型的完整网络定义。",
+    "figure_subtype": "conceptual-framework",
+    "why_selected": "用环境交互闭环串起感知、大脑与行动，同时在右侧展开存储和决策能力；适合作为综述统一框架图的构图参考。",
+    "what_to_borrow": [
+      "整体交互闭环与局部功能展开分区表达。",
+      "用一个用户指令例子把抽象模块与实际信息流联系起来。",
+      "保持输入、记忆知识、规划推理、工具和具身行动之间的层级。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://github.com/WooooDyy/LLM-Agent-Paper-List",
+    "authors": [
+      "Xi, Zhiheng",
+      "Chen, Wenxiang",
+      "Guo, Xin",
+      "He, Wei",
+      "Ding, Yiwen",
+      "Hong, Boyang",
+      "Zhang, Ming",
+      "Wang, Junzhe",
+      "Jin, Senjie",
+      "Zhou, Enyu",
+      "Zheng, Rui",
+      "Fan, Xiaoran",
+      "Wang, Xiao",
+      "Xiong, Limao",
+      "Zhou, Yuhao",
+      "Wang, Weiran",
+      "Jiang, Changhao",
+      "Zou, Yicheng",
+      "Liu, Xiangyang",
+      "Yin, Zhangyue",
+      "Dou, Shihan",
+      "Weng, Rongxiang",
+      "Cheng, Wensen",
+      "Zhang, Qi",
+      "Qin, Wenjuan",
+      "Zheng, Yongyan",
+      "Qiu, Xipeng",
+      "Huang, Xuanjing",
+      "Gui, Tao"
+    ],
+    "urls": [
+      "https://github.com/WooooDyy/LLM-Agent-Paper-List",
+      "https://arxiv.org/abs/2309.07864v3",
+      "https://arxiv.org/pdf/2309.07864v3",
+      "https://arxiv.org/src/2309.07864v3"
+    ],
+    "arxiv_id": "2309.07864v3",
+    "full_pdf_url": "https://arxiv.org/pdf/2309.07864v3",
+    "full_pdf_sha256": "5e3b2357ff942e1a0e084ae4af3327011a651cf1f155d108065c70af369e24ac",
+    "full_pdf_bytes": 6832174,
+    "page_number": 10,
+    "figure_number": 2,
+    "original_sha256": "e33051a0b33d6b692f6cd12e16a4cddbd3b77c9f9ae9e01cdacdd8890dca9efe",
+    "original_bytes": 1480987,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2309.07864v3",
+    "archive_sha256": "8b2811e4c2bdf3b873c390aee0ab52611730d4a987985f2412a54c9f4ad4d31f",
+    "archive_bytes": 23664872,
+    "archive_member": "figures/sec3_construction_v2.pdf",
+    "inclusion_member": "sections/Sec3.Construction.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 场景、人物和部分图标含第三方视觉素材；不视为本仓库可自由再分发的元素。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 34,
+    "pdf_drawing_objects": 121,
+    "embedded_raster_images": 47,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 37,
+      "path": 244,
+      "mask": 47,
+      "g": 181,
+      "image": 70,
+      "use": 417
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。",
+      "原 PDF 在 Poppler 解析时报告交叉引用问题，故使用 MuPDF 导出 SVG；原 PDF 字节保持不变，SVG 已重新渲染核对。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "使用 MuPDF 从独立 PDF 转为自包含 SVG，文字转轮廓；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 1031,
+      "sha256": "e280fc8b4fe871c052540ae679767188639725df2b24e7155c4d5004bca922ac"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1059,
+      "sha256": "d62937b1078b3ed9817a3d5e1c539d47748d6545adc35e0f04de5e5f61bb3010"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1480987,
+      "sha256": "e33051a0b33d6b692f6cd12e16a4cddbd3b77c9f9ae9e01cdacdd8890dca9efe"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 324460,
+      "sha256": "a4544a77b75fe95af213cbb2382ceb62c54c82ef9cec9ed74398530f7c6ab469"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 984816,
+      "sha256": "503b8289a39b9eac02b42f7a77481dffa7c0f22fc4412a2575e1159da3322ca9"
+    }
+  ]
+}

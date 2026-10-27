@@ -15,7 +15,7 @@
 | <img src="../../element/previews/tabler-player-stop.png" width="140"> | [停止](../../element/svg/tabler-player-stop.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-repeat.png" width="140"> | [重复](../../element/svg/tabler-repeat.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-adjustments.png" width="140"> | [参数设置](../../element/svg/tabler-adjustments.svg) | Tabler outline · MIT | [DECOLLAGE：局部风格控制与三维细化](../../teaser/decollage/README.md) · [ShaDDR：粗形状与示例驱动的成果展示](../../teaser/shaddr/README.md) |
-| <img src="../../element/previews/tabler-target.png" width="140"> | [目标](../../element/svg/tabler-target.svg) | Tabler outline · MIT | [3DETR · 输入点云、注意力与检测结果的对应](../../teaser/3detr-attention-teaser/README.md) · [LightGlue：速度与精度权衡](../../teaser/lightglue-tradeoff/README.md) |
+| <img src="../../element/previews/tabler-target.png" width="140"> | [目标](../../element/svg/tabler-target.svg) | Tabler outline · MIT | [3DETR · 输入点云、注意力与检测结果的对应](../../teaser/3detr-attention-teaser/README.md) · [LightGlue：速度与精度权衡](../../teaser/lightglue-tradeoff/README.md) · [自主 Agent 统一框架 · 四列模块分解](../../architecture/survey-autonomous-agent-modules/README.md) |
 | <img src="../../element/previews/tabler-focus.png" width="140"> | [聚焦](../../element/svg/tabler-focus.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-clock.png" width="140"> | [时钟](../../element/svg/tabler-clock.svg) | Tabler outline · MIT | [DreamGaussian · 生成能力与优化进程同图展示](../../teaser/dreamgaussian-progress/README.md) · [LightGlue：速度与精度权衡](../../teaser/lightglue-tradeoff/README.md) · [MVSplat · 重建质量、速度与参数量的并列对照](../../teaser/mvsplat-comparison/README.md) |
 | <img src="../../element/previews/tabler-hourglass.png" width="140"> | [沙漏](../../element/svg/tabler-hourglass.svg) | Tabler outline · MIT | — |
@@ -31,10 +31,10 @@
 | <img src="../../element/previews/tabler-award.png" width="140"> | [奖章](../../element/svg/tabler-award.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-trophy.png" width="140"> | [奖杯](../../element/svg/tabler-trophy.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-scale.png" width="140"> | [天平](../../element/svg/tabler-scale.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-users.png" width="140"> | [多用户](../../element/svg/tabler-users.svg) | Tabler outline · MIT | [DPO · RLHF 与直接偏好优化的流程简化](../../teaser/dpo-comparison/README.md) |
-| <img src="../../element/previews/tabler-user.png" width="140"> | [用户](../../element/svg/tabler-user.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-message.png" width="140"> | [对话](../../element/svg/tabler-message.svg) | Tabler outline · MIT | [DPO · RLHF 与直接偏好优化的流程简化](../../teaser/dpo-comparison/README.md) |
-| <img src="../../element/previews/tabler-message-chatbot.png" width="140"> | [聊天机器人](../../element/svg/tabler-message-chatbot.svg) | Tabler outline · MIT | — |
+| <img src="../../element/previews/tabler-users.png" width="140"> | [多用户](../../element/svg/tabler-users.svg) | Tabler outline · MIT | [DPO · RLHF 与直接偏好优化的流程简化](../../teaser/dpo-comparison/README.md) · [自主 Agent 发展 · 趋势曲线与代表场景](../../teaser/survey-agent-growth-landscape/README.md) · [Agent 社会场景 · 综述概念 teaser](../../teaser/survey-agent-society-teaser/README.md) |
+| <img src="../../element/previews/tabler-user.png" width="140"> | [用户](../../element/svg/tabler-user.svg) | Tabler outline · MIT | [自主 Agent 统一框架 · 四列模块分解](../../architecture/survey-autonomous-agent-modules/README.md) |
+| <img src="../../element/previews/tabler-message.png" width="140"> | [对话](../../element/svg/tabler-message.svg) | Tabler outline · MIT | [DPO · RLHF 与直接偏好优化的流程简化](../../teaser/dpo-comparison/README.md) · [Agent 社会场景 · 综述概念 teaser](../../teaser/survey-agent-society-teaser/README.md) |
+| <img src="../../element/previews/tabler-message-chatbot.png" width="140"> | [聊天机器人](../../element/svg/tabler-message-chatbot.svg) | Tabler outline · MIT | [Agent 概念框架 · 感知、大脑与行动](../../architecture/survey-agent-perception-brain-action/README.md) |
 | <img src="../../element/previews/tabler-eye.png" width="140"> | [可见](../../element/svg/tabler-eye.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-eye-off.png" width="140"> | [隐藏](../../element/svg/tabler-eye-off.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-search.png" width="140"> | [搜索](../../element/svg/tabler-search.svg) | Tabler outline · MIT | — |

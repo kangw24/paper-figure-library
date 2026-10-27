@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "survey-llama-family-map",
+  "title": "LLaMA 家族关系 · 模型与数据继承图",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "lineage",
+    "relationship-map",
+    "llm-survey",
+    "Frontiers of Computer Science",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "把模型继承、数据继承与继续预训练画成不同颜色和线型的关系，从单一根节点展开出任务与领域分支，重点是关系而非枚举。",
+  "publication": {
+    "title": "A Survey of Large Language Models",
+    "venue": "Frontiers of Computer Science",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "journal-article",
+    "evidence_url": "https://arxiv.org/abs/2303.18223v19",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2303.18223v19"
+  },
+  "curation": {
+    "figure_role": "综述中的谱系总览图，适合表达一个基础模型如何衍生出多个研究方向。",
+    "figure_subtype": "lineage-overview",
+    "why_selected": "把模型继承、数据继承与继续预训练画成不同颜色和线型的关系，从单一根节点展开出任务与领域分支，重点是关系而非枚举。",
+    "what_to_borrow": [
+      "颜色与虚实分别表达关系语义，并保留清楚的图例。",
+      "用虚线范围框归并多模态分支，用底部小图例标注应用领域。",
+      "保留原图的早期 LLaMA 生态范围；图中模型与关系不可直接当作当前全景。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://github.com/RUCAIBox/LLMSurvey",
+    "authors": [
+      "Zhao, Wayne Xin",
+      "Zhou, Kun",
+      "Li, Junyi",
+      "Tang, Tianyi",
+      "Wang, Xiaolei",
+      "Hou, Yupeng",
+      "Min, Yingqian",
+      "Zhang, Beichen",
+      "Zhang, Junjie",
+      "Dong, Zican",
+      "Du, Yifan",
+      "Yang, Chen",
+      "Chen, Yushuo",
+      "Chen, Zhipeng",
+      "Jiang, Jinhao",
+      "Ren, Ruiyang",
+      "Li, Yifan",
+      "Tang, Xinyu",
+      "Liu, Zikang",
+      "Liu, Peiyu",
+      "Nie, Jian-Yun",
+      "Wen, Ji-Rong"
+    ],
+    "urls": [
+      "https://github.com/RUCAIBox/LLMSurvey",
+      "https://arxiv.org/abs/2303.18223v19",
+      "https://arxiv.org/pdf/2303.18223v19",
+      "https://arxiv.org/src/2303.18223v19"
+    ],
+    "arxiv_id": "2303.18223v19",
+    "full_pdf_url": "https://arxiv.org/pdf/2303.18223v19",
+    "full_pdf_sha256": "585551fe1a17793d141f6bff3e595e63151e867a53353991c3c9891facc72377",
+    "full_pdf_bytes": 5853703,
+    "page_number": 12,
+    "figure_number": 5,
+    "original_sha256": "7c421535ec1b56ec4b77155c89fddc802bd8bce214d918f7b293ccfde2402381",
+    "original_bytes": 2064263,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2303.18223v19",
+    "archive_sha256": "158430e5b62148a708269791d3ceada2e7baa6276658ea01a374887e593e414d",
+    "archive_bytes": 5119180,
+    "archive_member": "images/llama-0628-final.pdf",
+    "inclusion_member": "sections/overview.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。 作者在论文和项目中明确保留图表权利，并要求出版使用取得作者许可。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 69,
+    "pdf_drawing_objects": 82,
+    "embedded_raster_images": 19,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 203,
+      "path": 194,
+      "clipPath": 3,
+      "image": 14,
+      "mask": 4,
+      "use": 678
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 888,
+      "sha256": "7dcb2780089ae033bf88e5180c98ed784a7d479f5a513c89d6cbeae6f454c2b1"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 512,
+      "sha256": "4fc1541881eb7bd20a40a097a496cf464d001d7298139d1d606eeae062ea828c"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 2064263,
+      "sha256": "7c421535ec1b56ec4b77155c89fddc802bd8bce214d918f7b293ccfde2402381"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 214935,
+      "sha256": "536ff8fcb8b42a110ffd0402b35d2cb254544d39deee848d9bf10020900d0e13"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1353932,
+      "sha256": "7ad7854bacbb77affb6dd74e36f704cd36af3db3040503ca3af47b68e76a30a6"
+    }
+  ]
+}

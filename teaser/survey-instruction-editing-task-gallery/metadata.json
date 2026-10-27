@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "survey-instruction-editing-task-gallery",
+  "title": "指令式图像编辑 · 21 种任务的多子图总览",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "multi-panel",
+    "application-overview",
+    "task-gallery",
+    "instruction-image-editing",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "21 个任务子图按五类操作组织，每个小面板保留输入、编辑结果和短标签；颜色只分大类，横排、竖排与底部长条配合，内容密集且层次清楚。",
+  "publication": {
+    "title": "Instruction-based Image Editing: A Survey on Data, Models, Evaluation, and Applications",
+    "venue": "arXiv",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2607.25642v1",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2607.25642v1"
+  },
+  "curation": {
+    "figure_role": "综述 Figure 2 的任务全景参考，原文并非首图。适合借鉴为多任务综述 teaser 的布局，不把示意样例当作同一模型的定量比较。",
+    "figure_subtype": "task-gallery",
+    "panel_layout": {
+      "theme_count": 21,
+      "groups": 5,
+      "picture_count": 44,
+      "summary": "21 个任务子图，按 5 类操作分区；共 44 张输入或结果图。",
+      "counting_note": "按 Removal、Addition 等任务标签计 21 个子图；顺序编辑面板含 4 张状态图，其余面板各为一组前后对照。"
+    },
+    "why_selected": "21 个任务子图按五类操作组织，每个小面板保留输入、编辑结果和短标签；颜色只分大类，横排、竖排与底部长条配合，内容密集且层次清楚。",
+    "what_to_borrow": [
+      "每个任务沿用相同的前后对照逻辑，同时根据图像比例选择横排或竖排。",
+      "大色块区分五类任务，小圆框区分具体操作，避免 21 个子图看成杂乱拼贴。",
+      "顺序编辑使用横向长条，既完整呈现多个状态，也形成整张图的底部收束。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2607.25642",
+    "authors": [
+      "Zang, Xianghao",
+      "Jiang, Zijian",
+      "Cheng, Jiarong",
+      "Teng, Qianrui",
+      "He, Ying",
+      "Mu, Yuxuan",
+      "Ban, Chao",
+      "Zhang, Huayu",
+      "Zhou, Lanxiang",
+      "Feng, Zerun",
+      "Zhang, Chi"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2607.25642",
+      "https://arxiv.org/abs/2607.25642v1",
+      "https://arxiv.org/pdf/2607.25642v1",
+      "https://arxiv.org/src/2607.25642v1"
+    ],
+    "arxiv_id": "2607.25642v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2607.25642v1",
+    "full_pdf_sha256": "84219a91e90d9abaee6421758f99d84fb511dbb2a8e97ae4fda7b5f837d6210f",
+    "full_pdf_bytes": 11405219,
+    "page_number": 7,
+    "figure_number": 2,
+    "original_sha256": "14e8f2537176f5faeac433ec48de67e9cc305325b28f9b1849cfe6a59c3f86e5",
+    "original_bytes": 5278544,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2607.25642v1",
+    "archive_sha256": "88a8acc93067b1ec5df6b2034afcb6563b251b0d155ca73f37bd1c4ad3b35375",
+    "archive_bytes": 10683113,
+    "archive_member": "task_show.pdf",
+    "inclusion_member": "script.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 93,
+    "pdf_text_spans": 39,
+    "embedded_raster_images": 44,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 2,
+      "path": 164,
+      "g": 46,
+      "image": 44,
+      "use": 357
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。各照片与结果图仍是嵌入位图，可移动或替换，不能按矢量节点编辑。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。",
+      "图中的输入与生成或编辑样例均来自原论文；本库未另行生成这些图片。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 863,
+      "sha256": "acfdd1f36288e44bb34ee6e5ab5e8ef2defe1dc480cb0da17a06ffcc990bc1ce"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 435,
+      "sha256": "016c77af29ce0c20d62a1ee6032412d1140bd0107025113ce550f9bd5053ac98"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 5278544,
+      "sha256": "14e8f2537176f5faeac433ec48de67e9cc305325b28f9b1849cfe6a59c3f86e5"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 3545310,
+      "sha256": "66fb9b9952f6d404b9e880ff7132149b2d3beeef751aa599ece1b630070d8bd6"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 7456044,
+      "sha256": "16f3e5acffb4e38a9b8e262b57ff6253083778916fea2c62fc64e42769687711"
+    }
+  ]
+}

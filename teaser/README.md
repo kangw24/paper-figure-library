@@ -7,6 +7,7 @@
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
 | 方法与范式对照 | 5 | [浏览](#comparison) |
+| 多子图主题与应用总览 | 6 | [浏览](#multi-panel) |
 | 领域全景、演进与综述路线图 | 17 | [浏览](#landscape) |
 | 任务、动机与能力展示 | 7 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
@@ -63,6 +64,89 @@ arXiv 2023 · 预印本 · 综述
 [![预览](survey-graph-foundation-paradigm/preview.png)](survey-graph-foundation-paradigm/README.md)
 
 [说明与源文件](survey-graph-foundation-paradigm/README.md) · [关联元素](survey-graph-foundation-paradigm/README.md#关联范例与元素)
+
+
+<a id="multi-panel"></a>
+
+## 多子图主题与应用总览
+
+按主题面板、任务组或场景组浏览，组内可包含多张图片。这里同时收录原论文 teaser 首图，以及适合借鉴为 teaser 的任务或应用总览；每项标明原图号和子图计数口径。
+
+### [指令式图像编辑 · 21 种任务的多子图总览](survey-instruction-editing-task-gallery/README.md)
+
+21 个任务子图按五类操作组织，每个小面板保留输入、编辑结果和短标签；颜色只分大类，横排、竖排与底部长条配合，内容密集且层次清楚。
+
+arXiv 2026 · 预印本 · 综述
+
+**子图组织：** 21 个任务子图，按 5 类操作分区；共 44 张输入或结果图。 原论文 Figure 2。
+
+[![预览](survey-instruction-editing-task-gallery/preview.png)](survey-instruction-editing-task-gallery/README.md)
+
+[说明与源文件](survey-instruction-editing-task-gallery/README.md) · [关联元素](survey-instruction-editing-task-gallery/README.md#关联范例与元素)
+
+### [Neural Fields · 5 类技术与 6 类应用的多子图 teaser](survey-neural-fields-multipanel/README.md)
+
+把 5 类通用技术放在上层、6 类应用放在下层，再用一个数据库截图连接到综述资源；每个主题有短标签、不同形态的原论文图例和清楚分区，是完整的综述首图。
+
+EUROGRAPHICS 2022 · STAR 报告 · 综述
+
+**子图组织：** 上层 5 类技术，下层 6 类应用，另有数据库预览。 原论文 Figure 1。
+
+[![预览](survey-neural-fields-multipanel/preview.png)](survey-neural-fields-multipanel/README.md)
+
+[说明与源文件](survey-neural-fields-multipanel/README.md) · [关联元素](survey-neural-fields-multipanel/README.md#关联范例与元素)
+
+### [多模态 Agent · 8 类应用与外围场景子图](survey-multimodal-agent-applications/README.md)
+
+8 类应用围绕中心展开，外围场景图分别对应 UI 助手、驾驶、游戏、机器人、音视频和视觉推理等主题；既有领域分类，也有能直接识别的任务实例。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 8 个应用主题，外围配置代表性场景或交互截图。 原论文 Figure 4。
+
+[![预览](survey-multimodal-agent-applications/preview.png)](survey-multimodal-agent-applications/README.md)
+
+[说明与源文件](survey-multimodal-agent-applications/README.md) · [关联元素](survey-multimodal-agent-applications/README.md#关联范例与元素)
+
+### [3DGS 编辑应用 · 5 组子图与上下前后对照](survey-3dgs-editing-operations/README.md)
+
+5 组操作横向排开，上排原视图、下排编辑结果；视频编辑保留连续帧，风格迁移加入参考图，统一对照逻辑又允许各组呈现必要细节。
+
+arXiv 2025 · 预印本 · 综述
+
+**子图组织：** (a)–(e) 5 组操作子图，每组上下对齐原图与编辑结果。 原论文 Figure 4。
+
+[![预览](survey-3dgs-editing-operations/preview.png)](survey-3dgs-editing-operations/README.md)
+
+[说明与源文件](survey-3dgs-editing-operations/README.md) · [关联元素](survey-3dgs-editing-operations/README.md#关联范例与元素)
+
+### [Neural Rendering 2020 · 两排 11 组场景 teaser](survey-neural-rendering-2020-gallery/README.md)
+
+两排 11 组场景覆盖人像、对象、场景、重光照、表情与人体驱动，使用不同宽度的小组安排输入输出对和多视角样例，整张图仍保持平齐的上下边界。
+
+EUROGRAPHICS 2020 · STAR 报告 · 综述
+
+**子图组织：** 两排 11 组场景示例，组内可包含多个视图或输入输出对。 原论文 Figure 1。
+
+**整图位图，仅构图参考。**
+
+[![预览](survey-neural-rendering-2020-gallery/preview.png)](survey-neural-rendering-2020-gallery/README.md)
+
+[说明与源文件](survey-neural-rendering-2020-gallery/README.md) · [关联元素](survey-neural-rendering-2020-gallery/README.md#关联范例与元素)
+
+### [Advances in Neural Rendering · 两排约 10 组主题 teaser](survey-neural-rendering-2022-gallery/README.md)
+
+把自由视角、生成、重光照、场景编辑和动态人物等能力排成两层图群；组内用多个视图或状态形成小叙事，既展示多样性，也让同一能力的变化可见。
+
+EUROGRAPHICS 2022 · STAR 报告 · 综述
+
+**子图组织：** 两排约 10 个主题组，每组用多个视图或状态展示一种能力。 原论文 Figure 1。
+
+**整图位图，仅构图参考。**
+
+[![预览](survey-neural-rendering-2022-gallery/preview.png)](survey-neural-rendering-2022-gallery/README.md)
+
+[说明与源文件](survey-neural-rendering-2022-gallery/README.md) · [关联元素](survey-neural-rendering-2022-gallery/README.md#关联范例与元素)
 
 
 <a id="landscape"></a>

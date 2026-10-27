@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "counts": {
-    "teaser": 34,
+    "teaser": 40,
     "architecture": 45,
     "element": 341,
     "mechanism": 17,
@@ -2484,6 +2484,167 @@
     },
     {
       "schema_version": 1,
+      "id": "survey-3dgs-editing-operations",
+      "title": "3DGS 编辑应用 · 5 组子图与上下前后对照",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "multi-panel",
+        "application-overview",
+        "before-after-application-panels",
+        "gaussian-applications",
+        "2025"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "5 组操作横向排开，上排原视图、下排编辑结果；视频编辑保留连续帧，风格迁移加入参考图，统一对照逻辑又允许各组呈现必要细节。",
+      "publication": {
+        "title": "A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+        "venue": "arXiv",
+        "year": 2025,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2508.09977v5",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2508.09977v5"
+      },
+      "curation": {
+        "figure_role": "综述 Figure 4 的应用操作概览，原文并非首图。用于借鉴多任务展示的对齐与分组方式。",
+        "figure_subtype": "before-after-application-panels",
+        "panel_layout": {
+          "theme_count": 5,
+          "groups": 5,
+          "pdf_image_objects": 26,
+          "summary": "(a)–(e) 5 组操作子图，每组上下对齐原图与编辑结果。",
+          "counting_note": "按原图 (a) Editing、(b) Video Editing、(c) Style Transfer、(d) Removal、(e) Drag 计 5 组；连续视频帧与风格参考图保留在各组内。"
+        },
+        "why_selected": "5 组操作横向排开，上排原视图、下排编辑结果；视频编辑保留连续帧，风格迁移加入参考图，统一对照逻辑又允许各组呈现必要细节。",
+        "what_to_borrow": [
+          "各组共用上下两排的 Original View／Edited View，让读者只需学一次阅读顺序。",
+          "虚线框和组标签界定不同操作，避免相邻视频帧被误读成不同方法。",
+          "不强行让每组图片数量相同，保留视频与风格参考所需的额外画面。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview"
+      },
+      "source": {
+        "project": "https://github.com/heshuting555/Awesome-3DGS-Applications",
+        "authors": [
+          "He, Shuting",
+          "Ji, Peilin",
+          "Yang, Yitong",
+          "Wang, Changshuo",
+          "Ji, Jiayi",
+          "Wang, Yinglin",
+          "Ding, Henghui"
+        ],
+        "urls": [
+          "https://github.com/heshuting555/Awesome-3DGS-Applications",
+          "https://arxiv.org/abs/2508.09977v5",
+          "https://arxiv.org/pdf/2508.09977v5",
+          "https://arxiv.org/src/2508.09977v5"
+        ],
+        "arxiv_id": "2508.09977v5",
+        "full_pdf_url": "https://arxiv.org/pdf/2508.09977v5",
+        "full_pdf_sha256": "3cfb9469e8a7facb9beacea29a2f89a2b04995aa9fcfe1d22a3fd96e1b6517ba",
+        "full_pdf_bytes": 7337595,
+        "page_number": 8,
+        "figure_number": 4,
+        "original_sha256": "19ab93fde1f0bd7826170219a0742830f5c47096bcb3d9acbbe36f5f91595d7e",
+        "original_bytes": 1333124,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2508.09977v5",
+        "archive_sha256": "f92984322d06ba053f05f5223f0873b039af5b5e41e52f4b8e1864d28cb64341",
+        "archive_bytes": 6688629,
+        "archive_member": "figs/3DEditing.pdf",
+        "inclusion_member": "Secs/3_method.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text"
+        },
+        "pdf_drawing_objects": 10,
+        "pdf_text_spans": 15,
+        "embedded_raster_images": 26,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 52,
+          "path": 126,
+          "mask": 1,
+          "g": 81,
+          "image": 24,
+          "use": 154
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 6,
+        "notes": [
+          "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。各照片与结果图仍是嵌入位图，可移动或替换，不能按矢量节点编辑。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 813,
+          "sha256": "4bfe46c04b27242065ece991df3e094b547d0dc8cb3c09e37db162e9821fdb70"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 432,
+          "sha256": "f08fb2df2e2bc304403e02e69edd02e04e962423cbe525589f1a017ea3fcdf48"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1333124,
+          "sha256": "19ab93fde1f0bd7826170219a0742830f5c47096bcb3d9acbbe36f5f91595d7e"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 954806,
+          "sha256": "53faef024ddff5bc1529eca884937611fe29bf7fb90a9663bf90a9634f2468f3"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1854526,
+          "sha256": "2f20a77f1ddc030a60874946a79251bad5bd9d4bb601184ea618f3620e2813bd"
+        }
+      ],
+      "path": "teaser/survey-3dgs-editing-operations",
+      "metadata_path": "teaser/survey-3dgs-editing-operations/metadata.json",
+      "readme_path": "teaser/survey-3dgs-editing-operations/README.md",
+      "primary_path": "teaser/survey-3dgs-editing-operations/original.pdf",
+      "preview_path": "teaser/survey-3dgs-editing-operations/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "survey-3dgs-review-map",
       "title": "3DGS 综述路线图 · 双侧分类地图",
       "category": "teaser",
@@ -4140,6 +4301,171 @@
     },
     {
       "schema_version": 1,
+      "id": "survey-instruction-editing-task-gallery",
+      "title": "指令式图像编辑 · 21 种任务的多子图总览",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "multi-panel",
+        "application-overview",
+        "task-gallery",
+        "instruction-image-editing",
+        "2026"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "21 个任务子图按五类操作组织，每个小面板保留输入、编辑结果和短标签；颜色只分大类，横排、竖排与底部长条配合，内容密集且层次清楚。",
+      "publication": {
+        "title": "Instruction-based Image Editing: A Survey on Data, Models, Evaluation, and Applications",
+        "venue": "arXiv",
+        "year": 2026,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2607.25642v1",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2607.25642v1"
+      },
+      "curation": {
+        "figure_role": "综述 Figure 2 的任务全景参考，原文并非首图。适合借鉴为多任务综述 teaser 的布局，不把示意样例当作同一模型的定量比较。",
+        "figure_subtype": "task-gallery",
+        "panel_layout": {
+          "theme_count": 21,
+          "groups": 5,
+          "picture_count": 44,
+          "summary": "21 个任务子图，按 5 类操作分区；共 44 张输入或结果图。",
+          "counting_note": "按 Removal、Addition 等任务标签计 21 个子图；顺序编辑面板含 4 张状态图，其余面板各为一组前后对照。"
+        },
+        "why_selected": "21 个任务子图按五类操作组织，每个小面板保留输入、编辑结果和短标签；颜色只分大类，横排、竖排与底部长条配合，内容密集且层次清楚。",
+        "what_to_borrow": [
+          "每个任务沿用相同的前后对照逻辑，同时根据图像比例选择横排或竖排。",
+          "大色块区分五类任务，小圆框区分具体操作，避免 21 个子图看成杂乱拼贴。",
+          "顺序编辑使用横向长条，既完整呈现多个状态，也形成整张图的底部收束。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2607.25642",
+        "authors": [
+          "Zang, Xianghao",
+          "Jiang, Zijian",
+          "Cheng, Jiarong",
+          "Teng, Qianrui",
+          "He, Ying",
+          "Mu, Yuxuan",
+          "Ban, Chao",
+          "Zhang, Huayu",
+          "Zhou, Lanxiang",
+          "Feng, Zerun",
+          "Zhang, Chi"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2607.25642",
+          "https://arxiv.org/abs/2607.25642v1",
+          "https://arxiv.org/pdf/2607.25642v1",
+          "https://arxiv.org/src/2607.25642v1"
+        ],
+        "arxiv_id": "2607.25642v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2607.25642v1",
+        "full_pdf_sha256": "84219a91e90d9abaee6421758f99d84fb511dbb2a8e97ae4fda7b5f837d6210f",
+        "full_pdf_bytes": 11405219,
+        "page_number": 7,
+        "figure_number": 2,
+        "original_sha256": "14e8f2537176f5faeac433ec48de67e9cc305325b28f9b1849cfe6a59c3f86e5",
+        "original_bytes": 5278544,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2607.25642v1",
+        "archive_sha256": "88a8acc93067b1ec5df6b2034afcb6563b251b0d155ca73f37bd1c4ad3b35375",
+        "archive_bytes": 10683113,
+        "archive_member": "task_show.pdf",
+        "inclusion_member": "script.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text"
+        },
+        "pdf_drawing_objects": 93,
+        "pdf_text_spans": 39,
+        "embedded_raster_images": 44,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 2,
+          "path": 164,
+          "g": 46,
+          "image": 44,
+          "use": 357
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。各照片与结果图仍是嵌入位图，可移动或替换，不能按矢量节点编辑。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。",
+          "图中的输入与生成或编辑样例均来自原论文；本库未另行生成这些图片。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 863,
+          "sha256": "acfdd1f36288e44bb34ee6e5ab5e8ef2defe1dc480cb0da17a06ffcc990bc1ce"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 435,
+          "sha256": "016c77af29ce0c20d62a1ee6032412d1140bd0107025113ce550f9bd5053ac98"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 5278544,
+          "sha256": "14e8f2537176f5faeac433ec48de67e9cc305325b28f9b1849cfe6a59c3f86e5"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 3545310,
+          "sha256": "66fb9b9952f6d404b9e880ff7132149b2d3beeef751aa599ece1b630070d8bd6"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 7456044,
+          "sha256": "16f3e5acffb4e38a9b8e262b57ff6253083778916fea2c62fc64e42769687711"
+        }
+      ],
+      "path": "teaser/survey-instruction-editing-task-gallery",
+      "metadata_path": "teaser/survey-instruction-editing-task-gallery/metadata.json",
+      "readme_path": "teaser/survey-instruction-editing-task-gallery/README.md",
+      "primary_path": "teaser/survey-instruction-editing-task-gallery/original.pdf",
+      "preview_path": "teaser/survey-instruction-editing-task-gallery/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "survey-llama-family-map",
       "title": "LLaMA 家族关系 · 模型与数据继承图",
       "category": "teaser",
@@ -4816,6 +5142,669 @@
       "readme_path": "teaser/survey-mllm-timeline/README.md",
       "primary_path": "teaser/survey-mllm-timeline/original.pdf",
       "preview_path": "teaser/survey-mllm-timeline/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-multimodal-agent-applications",
+      "title": "多模态 Agent · 8 类应用与外围场景子图",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "multi-panel",
+        "application-overview",
+        "radial-application-panels",
+        "large-multimodal-agents",
+        "2024"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "8 类应用围绕中心展开，外围场景图分别对应 UI 助手、驾驶、游戏、机器人、音视频和视觉推理等主题；既有领域分类，也有能直接识别的任务实例。",
+      "publication": {
+        "title": "Large Multimodal Agents: A Survey",
+        "venue": "arXiv",
+        "year": 2024,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2402.15116v1",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2402.15116v1"
+      },
+      "curation": {
+        "figure_role": "综述 Figure 4 的应用全景参考，原文并非首图。适合借鉴中心分类与外围场景相互对应的多子图构图。",
+        "figure_subtype": "radial-application-panels",
+        "panel_layout": {
+          "theme_count": 8,
+          "groups": 1,
+          "summary": "8 个应用主题，外围配置代表性场景或交互截图。",
+          "counting_note": "按 8 个有名称的应用主题计数；截图中的多个界面窗口不额外计作独立应用子图。"
+        },
+        "why_selected": "8 类应用围绕中心展开，外围场景图分别对应 UI 助手、驾驶、游戏、机器人、音视频和视觉推理等主题；既有领域分类，也有能直接识别的任务实例。",
+        "what_to_borrow": [
+          "主题名称放在中心附近，具体截图放到外侧，让抽象与具体两层对应。",
+          "采用不同的轻色轮廓区分应用，保持场景照片本身的颜色。",
+          "代表方法名称是作者所收录版本的范围，改编时应更新并核对。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview"
+      },
+      "source": {
+        "project": "https://github.com/jun0wanan/awesome-large-multimodal-agents",
+        "authors": [
+          "Xie, Junlin",
+          "Chen, Zhihong",
+          "Zhang, Ruifei",
+          "Wan, Xiang",
+          "Li, Guanbin"
+        ],
+        "urls": [
+          "https://github.com/jun0wanan/awesome-large-multimodal-agents",
+          "https://arxiv.org/abs/2402.15116v1",
+          "https://arxiv.org/pdf/2402.15116v1",
+          "https://arxiv.org/src/2402.15116v1"
+        ],
+        "arxiv_id": "2402.15116v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2402.15116v1",
+        "full_pdf_sha256": "423ee1528995f17b7920aee021b8ed8c4186060886252c748f1e2cd5733d3485",
+        "full_pdf_bytes": 1091823,
+        "page_number": 9,
+        "figure_number": 4,
+        "original_sha256": "301f2472a2e53195a4f93ac80e2ff248ebe2dfcdf68595621335f12521230d20",
+        "original_bytes": 397843,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2402.15116v1",
+        "archive_sha256": "da5782c9485994fb64f68e8e1c53beed740ff90b5634cf826f71c906ffb5ed5d",
+        "archive_bytes": 986319,
+        "archive_member": "figures/app.pdf",
+        "inclusion_member": "sections/6_discuss.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text"
+        },
+        "pdf_drawing_objects": 18,
+        "pdf_text_spans": 79,
+        "embedded_raster_images": 8,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 17,
+          "path": 149,
+          "g": 26,
+          "use": 658,
+          "image": 8
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。各照片与结果图仍是嵌入位图，可移动或替换，不能按矢量节点编辑。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 649,
+          "sha256": "61550694d65a189217fe7c86de81767fca4f9a3e8442da36add83efacdd07fcd"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 183,
+          "sha256": "4bf10f0b0a5e5659bbb0a7168edc047a19a56a803ccad0d0c7138afff6dd70b8"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 397843,
+          "sha256": "301f2472a2e53195a4f93ac80e2ff248ebe2dfcdf68595621335f12521230d20"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1955067,
+          "sha256": "71001a7dfbd9588aaa3df83436b34725df43193f36b59cb017968849673c1b11"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 679266,
+          "sha256": "04f8c61ccd7d19e9cd77c19ad15a3b01db570425b08ed52f3848ef673c7b7d8a"
+        }
+      ],
+      "path": "teaser/survey-multimodal-agent-applications",
+      "metadata_path": "teaser/survey-multimodal-agent-applications/metadata.json",
+      "readme_path": "teaser/survey-multimodal-agent-applications/README.md",
+      "primary_path": "teaser/survey-multimodal-agent-applications/original.pdf",
+      "preview_path": "teaser/survey-multimodal-agent-applications/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-neural-fields-multipanel",
+      "title": "Neural Fields · 5 类技术与 6 类应用的多子图 teaser",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "multi-panel",
+        "application-overview",
+        "technique-application-teaser",
+        "neural-fields-star",
+        "2022"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "把 5 类通用技术放在上层、6 类应用放在下层，再用一个数据库截图连接到综述资源；每个主题有短标签、不同形态的原论文图例和清楚分区，是完整的综述首图。",
+      "publication": {
+        "title": "Neural Fields in Visual Computing and Beyond",
+        "venue": "EUROGRAPHICS",
+        "year": 2022,
+        "article_type": "survey",
+        "presentation": "survey-report",
+        "evidence_url": "https://arxiv.org/abs/2111.11426v4",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2111.11426v4",
+        "publication_evidence": {
+          "pdf_url": "https://arxiv.org/pdf/2111.11426v4",
+          "page_number": 1,
+          "header_text": "EUROGRAPHICS 2022; Volume 41 (2022), Number 2; STAR"
+        },
+        "arxiv_first_year": 2021
+      },
+      "curation": {
+        "figure_role": "原论文 Figure 1 的核心 teaser 画面。独立 PDF 未包括由 LaTeX 另叠加的顶部网页链接；对应插图定义一并保留。",
+        "figure_subtype": "technique-application-teaser",
+        "panel_layout": {
+          "theme_count": 11,
+          "groups": 2,
+          "auxiliary_panels": 1,
+          "summary": "上层 5 类技术，下层 6 类应用，另有数据库预览。",
+          "counting_note": "技术标签计 5 类，应用标签计 6 类；左侧场函数符号与右侧数据库截图不计入 11 个主题子图。"
+        },
+        "why_selected": "把 5 类通用技术放在上层、6 类应用放在下层，再用一个数据库截图连接到综述资源；每个主题有短标签、不同形态的原论文图例和清楚分区，是完整的综述首图。",
+        "what_to_borrow": [
+          "技术与应用用两条主线分层，子图在同层采用相近视觉尺度。",
+          "用几何、物理场、数字人体、机器人等视觉对象表达领域范围。",
+          "右侧资源预览作为辅助区，不挤占主要主题子图；作者的 PowerPoint 组成源文件另存原样归档。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview"
+      },
+      "source": {
+        "project": "https://neuralfields.cs.brown.edu/",
+        "authors": [
+          "Xie, Yiheng",
+          "Takikawa, Towaki",
+          "Saito, Shunsuke",
+          "Litany, Or",
+          "Yan, Shiqin",
+          "Khan, Numair",
+          "Tombari, Federico",
+          "Tompkin, James",
+          "Sitzmann, Vincent",
+          "Sridhar, Srinath"
+        ],
+        "urls": [
+          "https://neuralfields.cs.brown.edu/",
+          "https://arxiv.org/abs/2111.11426v4",
+          "https://arxiv.org/pdf/2111.11426v4",
+          "https://arxiv.org/src/2111.11426v4"
+        ],
+        "arxiv_id": "2111.11426v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2111.11426v4",
+        "full_pdf_sha256": "fc32c67445cc4be262959929beddad86e9a991771935176b814ba0cd5c998797",
+        "full_pdf_bytes": 16431725,
+        "page_number": 1,
+        "figure_number": 1,
+        "original_sha256": "35a64726d11a85df08efedf52203893eb98a6227f99e0205e47d84f5843f98b5",
+        "original_bytes": 369173,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2111.11426v4",
+        "archive_sha256": "1d09e586d5db460f4bbccab50c220e9940063d116e3bb0aaf46ee3f176405910",
+        "archive_bytes": 29259703,
+        "archive_member": "figures/teaser/NeuralFieldsReview_Teaser.pdf",
+        "inclusion_member": "2021_NeuralFieldsReview.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "office_parts_manifest": "author-office-parts.json"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text"
+        },
+        "pdf_drawing_objects": 56,
+        "pdf_text_spans": 17,
+        "embedded_raster_images": 18,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 263,
+          "path": 155,
+          "clipPath": 18,
+          "image": 19,
+          "mask": 5,
+          "use": 225,
+          "rect": 3
+        },
+        "conversion_tool": "Poppler pdftocairo -svg; original masks and transparency retained",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。各照片与结果图仍是嵌入位图，可移动或替换，不能按矢量节点编辑。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 860,
+          "sha256": "a589d3515a16bce39e73b3f34e2cce220f595054e48592f469695b8169b12aeb"
+        },
+        {
+          "path": "author-office-parts.json",
+          "bytes": 14264,
+          "sha256": "091ee3000a95abdd82354b22d327a715eedac4f57f38d6c130088bf4f3836ef0"
+        },
+        {
+          "path": "author-office-parts.zip",
+          "bytes": 3957263,
+          "sha256": "7aee05c390973eadc672d2e46c446d25f0577b6f0dec22b3fec0e383ec9c137e"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 925,
+          "sha256": "be80a9853392e45977a5d8c6d374583f3372b58102024b9c345d1bde2f31d0df"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 369173,
+          "sha256": "35a64726d11a85df08efedf52203893eb98a6227f99e0205e47d84f5843f98b5"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1237025,
+          "sha256": "ebe7138e6ff27e28ff425ca4d6b5ce628907653b8c404fed6aa47eb4c5436dd0"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 732684,
+          "sha256": "a7e3a027bbcb56d1a56f474ba343cb2f59e269df8caf9efe1b4b358a8b845488"
+        }
+      ],
+      "path": "teaser/survey-neural-fields-multipanel",
+      "metadata_path": "teaser/survey-neural-fields-multipanel/metadata.json",
+      "readme_path": "teaser/survey-neural-fields-multipanel/README.md",
+      "primary_path": "teaser/survey-neural-fields-multipanel/original.pdf",
+      "preview_path": "teaser/survey-neural-fields-multipanel/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-neural-rendering-2020-gallery",
+      "title": "Neural Rendering 2020 · 两排 11 组场景 teaser",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "multi-panel",
+        "application-overview",
+        "scene-gallery-teaser",
+        "neural-rendering-2020",
+        "2020"
+      ],
+      "formats": [
+        "jpg"
+      ],
+      "primary_file": "source.jpg",
+      "preview": "preview.png",
+      "summary": "两排 11 组场景覆盖人像、对象、场景、重光照、表情与人体驱动，使用不同宽度的小组安排输入输出对和多视角样例，整张图仍保持平齐的上下边界。",
+      "publication": {
+        "title": "State of the Art on Neural Rendering",
+        "venue": "EUROGRAPHICS",
+        "year": 2020,
+        "article_type": "survey",
+        "presentation": "survey-report",
+        "evidence_url": "https://arxiv.org/abs/2004.03805v1",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2004.03805v1",
+        "publication_evidence": {
+          "pdf_url": "https://arxiv.org/pdf/2004.03805v1",
+          "page_number": 1,
+          "header_text": "EUROGRAPHICS 2020; Volume 39 (2020), Number 2; STAR"
+        },
+        "arxiv_first_year": 2020
+      },
+      "curation": {
+        "figure_role": "综述原论文 Figure 1，作者在 TeX 中明确作为 teaser 使用。原件为整张 JPEG，此条作为布局与内容组织参考。",
+        "figure_subtype": "scene-gallery-teaser",
+        "panel_layout": {
+          "theme_count": 11,
+          "groups": 2,
+          "summary": "两排 11 组场景示例，组内可包含多个视图或输入输出对。",
+          "counting_note": "按原图边框与留白分为上排 7 组、下排 4 组。作者未用 (a)–(k) 编号；这不是图片总张数。"
+        },
+        "why_selected": "两排 11 组场景覆盖人像、对象、场景、重光照、表情与人体驱动，使用不同宽度的小组安排输入输出对和多视角样例，整张图仍保持平齐的上下边界。",
+        "what_to_borrow": [
+          "行高统一、组宽可变，让成对比较和宽场景都有合适空间。",
+          "使用细边框和小留白分组，减少解释性文字。",
+          "整张 JPEG 的照片和边框已合并，逐个子图需裁切后替换，不能当作矢量画板。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2004.03805",
+        "authors": [
+          "Tewari, Ayush",
+          "Fried, Ohad",
+          "Thies, Justus",
+          "Sitzmann, Vincent",
+          "Lombardi, Stephen",
+          "Sunkavalli, Kalyan",
+          "Martin-Brualla, Ricardo",
+          "Simon, Tomas",
+          "Saragih, Jason",
+          "Nießner, Matthias",
+          "Pandey, Rohit",
+          "Fanello, Sean",
+          "Wetzstein, Gordon",
+          "Zhu, Jun-Yan",
+          "Theobalt, Christian",
+          "Agrawala, Maneesh",
+          "Shechtman, Eli",
+          "Goldman, Dan B",
+          "Zollhöfer, Michael"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2004.03805",
+          "https://arxiv.org/abs/2004.03805v1",
+          "https://arxiv.org/pdf/2004.03805v1",
+          "https://arxiv.org/src/2004.03805v1"
+        ],
+        "arxiv_id": "2004.03805v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2004.03805v1",
+        "full_pdf_sha256": "70502f0eb5f32866eb0caefdd898e540ab7b3536358af4a951a503399408f5f7",
+        "full_pdf_bytes": 3964343,
+        "page_number": 1,
+        "figure_number": 1,
+        "original_sha256": "213709113d6135d420c8cd9a174f3049e40866fc2dfae99188ce43a787cfcb3d",
+        "original_bytes": 409220,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2004.03805v1",
+        "archive_sha256": "9e2e1d749d4384584a736b10e2cc3bdd0b9b8682ee5c5015d6cfcee83f66238f",
+        "archive_bytes": 3268470,
+        "archive_member": "applications/images_lq/teaser2.jpg",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author flattened JPEG teaser",
+        "level": "raster-reference",
+        "vector_shapes": false,
+        "editable_text": false,
+        "editable_text_by_format": {
+          "jpg": "flattened image; no separate panel objects"
+        },
+        "pdf_drawing_objects": 0,
+        "pdf_text_spans": 0,
+        "embedded_raster_images": 1,
+        "svg_object_counts": {},
+        "conversion_tool": "none; original JPEG preserved",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者原件是一张完整 JPEG，所有子图已合并；此条为构图与场景组织参考。保留原字节，不提供伪矢量 SVG。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "仅生成浏览预览；不把整张位图包装成可编辑 SVG。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 1015,
+          "sha256": "03c7689f2f7ef07570c32af37557284718c75d841dd809b0c5d10b7dc8ae99c4"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 574,
+          "sha256": "121561f58d584b272a3cac1da1f2469db95a60200d249e03483d0bcd4a21a059"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1288201,
+          "sha256": "a513cfb6164498b8ae07eacb6efa23c8bfd3124d4906e0168747d2562cd1c853"
+        },
+        {
+          "path": "source.jpg",
+          "bytes": 409220,
+          "sha256": "213709113d6135d420c8cd9a174f3049e40866fc2dfae99188ce43a787cfcb3d"
+        }
+      ],
+      "path": "teaser/survey-neural-rendering-2020-gallery",
+      "metadata_path": "teaser/survey-neural-rendering-2020-gallery/metadata.json",
+      "readme_path": "teaser/survey-neural-rendering-2020-gallery/README.md",
+      "primary_path": "teaser/survey-neural-rendering-2020-gallery/source.jpg",
+      "preview_path": "teaser/survey-neural-rendering-2020-gallery/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-neural-rendering-2022-gallery",
+      "title": "Advances in Neural Rendering · 两排约 10 组主题 teaser",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "multi-panel",
+        "application-overview",
+        "scene-gallery-teaser",
+        "neural-rendering-advances",
+        "2022"
+      ],
+      "formats": [
+        "jpg"
+      ],
+      "primary_file": "source.jpg",
+      "preview": "preview.png",
+      "summary": "把自由视角、生成、重光照、场景编辑和动态人物等能力排成两层图群；组内用多个视图或状态形成小叙事，既展示多样性，也让同一能力的变化可见。",
+      "publication": {
+        "title": "Advances in Neural Rendering",
+        "venue": "EUROGRAPHICS",
+        "year": 2022,
+        "article_type": "survey",
+        "presentation": "survey-report",
+        "evidence_url": "https://arxiv.org/abs/2111.05849v2",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2111.05849v2",
+        "publication_evidence": {
+          "pdf_url": "https://arxiv.org/pdf/2111.05849v2",
+          "page_number": 1,
+          "header_text": "This state of the art report is accepted at EUROGRAPHICS 2022."
+        },
+        "arxiv_first_year": 2021
+      },
+      "curation": {
+        "figure_role": "综述原论文 Figure 1，TeX 中的 teaser 原件。源文件为整张 JPEG，明确作为多子图构图参考收录。",
+        "figure_subtype": "scene-gallery-teaser",
+        "panel_layout": {
+          "theme_count": 10,
+          "groups": 2,
+          "summary": "两排约 10 个主题组，每组用多个视图或状态展示一种能力。",
+          "counting_note": "按留白与主题分为上排 5 组、下排 5 组；原图未给这些组编号，组内的多个人脸、椅子、视图或时刻不另计主题。"
+        },
+        "why_selected": "把自由视角、生成、重光照、场景编辑和动态人物等能力排成两层图群；组内用多个视图或状态形成小叙事，既展示多样性，也让同一能力的变化可见。",
+        "what_to_borrow": [
+          "每组用同一种对象讲一个能力变化，例如多视角、不同光照或连续动作。",
+          "组间用留白分隔，维持两排的整体秩序。",
+          "图注承担方法出处，画面主要用于展示主题范围；组内样例不是统一基准评测。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2111.05849",
+        "authors": [
+          "Tewari, Ayush",
+          "Thies, Justus",
+          "Mildenhall, Ben",
+          "Srinivasan, Pratul",
+          "Tretschk, Edgar",
+          "Wang, Yifan",
+          "Lassner, Christoph",
+          "Sitzmann, Vincent",
+          "Martin-Brualla, Ricardo",
+          "Lombardi, Stephen",
+          "Simon, Tomas",
+          "Theobalt, Christian",
+          "Niessner, Matthias",
+          "Barron, Jonathan T.",
+          "Wetzstein, Gordon",
+          "Zollhoefer, Michael",
+          "Golyanik, Vladislav"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2111.05849",
+          "https://arxiv.org/abs/2111.05849v2",
+          "https://arxiv.org/pdf/2111.05849v2",
+          "https://arxiv.org/src/2111.05849v2"
+        ],
+        "arxiv_id": "2111.05849v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2111.05849v2",
+        "full_pdf_sha256": "fdff4c55ea2c2944f58592f1b42d4ae04628fbfed26f336ba6159766c5b7b307",
+        "full_pdf_bytes": 19167243,
+        "page_number": 1,
+        "figure_number": 1,
+        "original_sha256": "cd57d06dc81acfa7cb13b7a0bf453010ceadfed3f2d225aa611d7f4fe0544627",
+        "original_bytes": 243806,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2111.05849v2",
+        "archive_sha256": "338c604b42bec4a2321d8eb291e1b0fcc373fb45597f141e891b445f44f50533",
+        "archive_bytes": 17412473,
+        "archive_member": "figures/teaser.jpg",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author flattened JPEG teaser",
+        "level": "raster-reference",
+        "vector_shapes": false,
+        "editable_text": false,
+        "editable_text_by_format": {
+          "jpg": "flattened image; no separate panel objects"
+        },
+        "pdf_drawing_objects": 0,
+        "pdf_text_spans": 0,
+        "embedded_raster_images": 1,
+        "svg_object_counts": {},
+        "conversion_tool": "none; original JPEG preserved",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者原件是一张完整 JPEG，所有子图已合并；此条为构图与场景组织参考。保留原字节，不提供伪矢量 SVG。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "仅生成浏览预览；不把整张位图包装成可编辑 SVG。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 976,
+          "sha256": "4d1ba5ea45146c6bf098c21cfdc41f44b1802c13ca4d03771430ce45572b9328"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 684,
+          "sha256": "daf567fd4ebe9093189867c3b34b8a0661a57598f454717de8e8e428849aad0f"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1129321,
+          "sha256": "28ceabb4798e3e549f372940da9d0b408cc8b42f447d830c297366077cc8a4a2"
+        },
+        {
+          "path": "source.jpg",
+          "bytes": 243806,
+          "sha256": "cd57d06dc81acfa7cb13b7a0bf453010ceadfed3f2d225aa611d7f4fe0544627"
+        }
+      ],
+      "path": "teaser/survey-neural-rendering-2022-gallery",
+      "metadata_path": "teaser/survey-neural-rendering-2022-gallery/metadata.json",
+      "readme_path": "teaser/survey-neural-rendering-2022-gallery/README.md",
+      "primary_path": "teaser/survey-neural-rendering-2022-gallery/source.jpg",
+      "preview_path": "teaser/survey-neural-rendering-2022-gallery/preview.png"
     },
     {
       "schema_version": 1,

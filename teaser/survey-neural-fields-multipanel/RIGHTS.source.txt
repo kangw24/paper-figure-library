@@ -1,0 +1,9 @@
+Paper: Neural Fields in Visual Computing and Beyond
+Authors: Xie, Yiheng, Takikawa, Towaki, Saito, Shunsuke, Litany, Or, Yan, Shiqin, Khan, Numair, Tombari, Federico, Tompkin, James, Sitzmann, Vincent, Sridhar, Srinath
+Source version: 2111.11426v4
+TeX archive: https://arxiv.org/src/2111.11426v4
+Archive member: figures/teaser/NeuralFieldsReview_Teaser.pdf
+Original SHA256: 35a64726d11a85df08efedf52203893eb98a6227f99e0205e47d84f5843f98b5
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。
+The original figure is byte-identical to its archive member. No redrawing.

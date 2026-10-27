@@ -6,7 +6,7 @@
 
 1. 优先找论文作者项目页、作者仓库与作者提供的源文件。下载前先看图及其论文或项目语境。
 2. 按图的用途分 teaser / architecture；不能仅按 Figure 1 或文件名分类。
-3. 每个条目保留 source.svg 或 source.ai、preview.png、metadata.json、README.md。记录固定版本 URL、上游路径、SHA256、许可证据、位图数量与文字可编辑情况。
+3. 每个条目保留作者原件（如 SVG、AI、独立 PDF 或 JPEG）、preview.png、metadata.json、README.md。记录固定版本 URL、上游路径、SHA256、许可证据、位图数量与文字可编辑情况。
 4. 原始下载件不重绘。需要从图中拆部件时，保留完整原图，记录节点位置与画布范围。已有节点可提取，不重新仿画。
 5. `element/catalog.json` 的 source.kind 只能是 external-download 或 extracted-existing-vectors。RUST 的参考部件不代表已取得自由再分发授权；许可状态必须保留。
 6. 用 `python scripts/build_catalog.py` 更新索引；`python scripts/validate_library.py` 检查文件、哈希、来源与 SVG 引用。实际查看预览后才能标记 visual_reviewed。
@@ -33,6 +33,7 @@
 
 ## 综述原图
 
+- 多子图按主题、任务或场景组计数，另记录组内图片总数；不能直接把 PDF 的图像对象数当作子图数。标清原论文图号；非首图的应用或任务总览应说明借鉴用途。
 - 先按实际用途区分概念场景、领域全景、时间线、谱系和分类路线图；综述中的统一框架与模块分解仍放 Architecture。图号与具体子类型写入元数据。
 - 综述放在现有根目录分类中，使用 `survey` 标签和 `publication.article_type: survey`，不另建 survey 实体文件夹。期刊年份和所收录 arXiv 修订版本分别记录，不给期刊综述套 Oral 标签。
 - 作者 TeX 归档中的独立 PDF 优先原样保存。记录固定版本的归档 URL、SHA256、成员路径与原件 SHA256，并保留原始插图定义；转换 SVG 的文字轮廓与原有位图须单独说明。

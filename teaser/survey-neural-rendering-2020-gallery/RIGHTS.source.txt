@@ -1,0 +1,9 @@
+Paper: State of the Art on Neural Rendering
+Authors: Tewari, Ayush, Fried, Ohad, Thies, Justus, Sitzmann, Vincent, Lombardi, Stephen, Sunkavalli, Kalyan, Martin-Brualla, Ricardo, Simon, Tomas, Saragih, Jason, Nießner, Matthias, Pandey, Rohit, Fanello, Sean, Wetzstein, Gordon, Zhu, Jun-Yan, Theobalt, Christian, Agrawala, Maneesh, Shechtman, Eli, Goldman, Dan B, Zollhöfer, Michael
+Source version: 2004.03805v1
+TeX archive: https://arxiv.org/src/2004.03805v1
+Archive member: applications/images_lq/teaser2.jpg
+Original SHA256: 213709113d6135d420c8cd9a174f3049e40866fc2dfae99188ce43a787cfcb3d
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。
+The original figure is byte-identical to its archive member. No redrawing.

@@ -1,0 +1,9 @@
+Paper: Large Multimodal Agents: A Survey
+Authors: Xie, Junlin, Chen, Zhihong, Zhang, Ruifei, Wan, Xiang, Li, Guanbin
+Source version: 2402.15116v1
+TeX archive: https://arxiv.org/src/2402.15116v1
+Archive member: figures/app.pdf
+Original SHA256: 301f2472a2e53195a4f93ac80e2ff248ebe2dfcdf68595621335f12521230d20
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。
+The original figure is byte-identical to its archive member. No redrawing.

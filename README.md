@@ -2,7 +2,7 @@
 
 个人 CS / AI 论文配图素材库，按用途分为 **Teaser、Architecture、Element**。收集作者和已有素材库的源文件，用 Markdown 串联完整范例、方法结构与可复用部件。
 
-**34 个 teaser · 45 个 architecture · 341 个独立 element**。
+**40 个 teaser · 45 个 architecture · 341 个独立 element**。
 
 | 分类 | 用来找什么 | 入口 |
 |---|---|---|
@@ -21,6 +21,8 @@ element/       独立可复用部件
 会议、期刊、年份、综述类型、Oral 与奖项保留为条目标签。
 
 综述与综合报告的概念图、领域地图和发展脉络从 [全景目录](teaser/README.md#landscape) 浏览。优先看 [AI4Science 领域圆环](teaser/survey-ai4science-domain-wheel/README.md)、[3D／4D 世界模型全景](teaser/survey-3d4d-world-overview/README.md)、[3D 表示与生成范式](teaser/survey-3d-representation-generators/README.md)，以及 [世界模型能力递进](teaser/survey-world-model-capability-ladder/README.md)。范式对照还可看 [图基础模型](teaser/survey-graph-foundation-paradigm/README.md)。
+
+多子图综述优先看 [主题与应用总览](teaser/README.md#multi-panel)：[21 种图像编辑任务](teaser/survey-instruction-editing-task-gallery/README.md)、[神经场的 5 类技术＋6 类应用](teaser/survey-neural-fields-multipanel/README.md)，以及 [Neural Rendering 场景拼图](teaser/survey-neural-rendering-2020-gallery/README.md)。前两项保留作者独立 PDF 并提供 SVG；神经渲染拼图原件为整张 JPEG。
 
 ## 沿着范例找素材
 
@@ -64,4 +66,4 @@ element/       独立可复用部件
     python scripts/build_catalog.py
     python scripts/validate_library.py
 
-[综述原图收录记录](sources/survey-figures-2026-10-27.json) · [领域全景扩充记录](sources/survey-rich-2026-10-27.json) · [论文原图收录记录](sources/top-conference-2026-10-27.json) · [元素下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)
+[多子图综述收录记录](sources/survey-panels-2026-10-27.json) · [综述原图收录记录](sources/survey-figures-2026-10-27.json) · [领域全景扩充记录](sources/survey-rich-2026-10-27.json) · [论文原图收录记录](sources/top-conference-2026-10-27.json) · [元素下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)

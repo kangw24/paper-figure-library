@@ -139,10 +139,13 @@ def build(root, figures, elements, config):
                 lines += ['### ' + link(page, figure['title'], detail), '', figure.get('summary', ''), '']
                 publication = figure.get('publication')
                 if publication:
-                    label = publication['venue'] + ' ' + str(publication['year']) + ' · ' + {'oral': 'Oral', 'poster': 'Poster', 'journal-article': '期刊论文', 'preprint': '预印本'}.get(publication['presentation'], '会议论文；未核实 Oral')
+                    label = publication['venue'] + ' ' + str(publication['year']) + ' · ' + {'oral': 'Oral', 'poster': 'Poster', 'journal-article': '期刊论文', 'preprint': '预印本', 'survey-report': 'STAR 报告'}.get(publication['presentation'], '会议论文；未核实 Oral')
                     if publication.get('article_type') == 'survey':
                         label += ' · 综述'
                     lines += [label, '']
+                layout = figure.get('curation', {}).get('panel_layout')
+                if layout:
+                    lines += ['**子图组织：** ' + layout['summary'] + ' 原论文 Figure ' + str(figure['source']['figure_number']) + '。', '']
                 if figure.get('editability', {}).get('level') == 'raster-reference':
                     lines += ['**整图位图，仅构图参考。**', '']
                 lines += ['[![预览](' + relative(page, figure['_folder'] / figure['preview']) + ')](' + relative(page, detail) + ')', '']

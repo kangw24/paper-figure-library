@@ -1,0 +1,296 @@
+{
+  "date": "2026-10-27",
+  "policy": "Author originals; explicit panel-count units; raster galleries remain raster.",
+  "papers": [
+    {
+      "id": "neural-fields-star",
+      "arxiv": "2111.11426v4",
+      "project": "https://neuralfields.cs.brown.edu/",
+      "title": "Neural Fields in Visual Computing and Beyond",
+      "authors": [
+        "Xie, Yiheng",
+        "Takikawa, Towaki",
+        "Saito, Shunsuke",
+        "Litany, Or",
+        "Yan, Shiqin",
+        "Khan, Numair",
+        "Tombari, Federico",
+        "Tompkin, James",
+        "Sitzmann, Vincent",
+        "Sridhar, Srinath"
+      ],
+      "year": 2022,
+      "venue": "EUROGRAPHICS",
+      "presentation": "survey-report",
+      "evidence": "https://arxiv.org/abs/2111.11426v4",
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "pdf": "https://arxiv.org/pdf/2111.11426v4",
+      "sha256": "fc32c67445cc4be262959929beddad86e9a991771935176b814ba0cd5c998797",
+      "bytes": 16431725,
+      "ok": true,
+      "arxiv_first_year": 2021,
+      "publication_evidence": {
+        "pdf_url": "https://arxiv.org/pdf/2111.11426v4",
+        "page_number": 1,
+        "header_text": "EUROGRAPHICS 2022; Volume 41 (2022), Number 2; STAR"
+      }
+    },
+    {
+      "id": "neural-rendering-2020",
+      "arxiv": "2004.03805v1",
+      "project": "https://arxiv.org/abs/2004.03805",
+      "title": "State of the Art on Neural Rendering",
+      "authors": [
+        "Tewari, Ayush",
+        "Fried, Ohad",
+        "Thies, Justus",
+        "Sitzmann, Vincent",
+        "Lombardi, Stephen",
+        "Sunkavalli, Kalyan",
+        "Martin-Brualla, Ricardo",
+        "Simon, Tomas",
+        "Saragih, Jason",
+        "Nießner, Matthias",
+        "Pandey, Rohit",
+        "Fanello, Sean",
+        "Wetzstein, Gordon",
+        "Zhu, Jun-Yan",
+        "Theobalt, Christian",
+        "Agrawala, Maneesh",
+        "Shechtman, Eli",
+        "Goldman, Dan B",
+        "Zollhöfer, Michael"
+      ],
+      "year": 2020,
+      "venue": "EUROGRAPHICS",
+      "presentation": "survey-report",
+      "evidence": "https://arxiv.org/abs/2004.03805v1",
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "pdf": "https://arxiv.org/pdf/2004.03805v1",
+      "sha256": "70502f0eb5f32866eb0caefdd898e540ab7b3536358af4a951a503399408f5f7",
+      "bytes": 3964343,
+      "ok": true,
+      "arxiv_first_year": 2020,
+      "publication_evidence": {
+        "pdf_url": "https://arxiv.org/pdf/2004.03805v1",
+        "page_number": 1,
+        "header_text": "EUROGRAPHICS 2020; Volume 39 (2020), Number 2; STAR"
+      }
+    },
+    {
+      "id": "neural-rendering-advances",
+      "arxiv": "2111.05849v2",
+      "project": "https://arxiv.org/abs/2111.05849",
+      "title": "Advances in Neural Rendering",
+      "authors": [
+        "Tewari, Ayush",
+        "Thies, Justus",
+        "Mildenhall, Ben",
+        "Srinivasan, Pratul",
+        "Tretschk, Edgar",
+        "Wang, Yifan",
+        "Lassner, Christoph",
+        "Sitzmann, Vincent",
+        "Martin-Brualla, Ricardo",
+        "Lombardi, Stephen",
+        "Simon, Tomas",
+        "Theobalt, Christian",
+        "Niessner, Matthias",
+        "Barron, Jonathan T.",
+        "Wetzstein, Gordon",
+        "Zollhoefer, Michael",
+        "Golyanik, Vladislav"
+      ],
+      "year": 2022,
+      "venue": "EUROGRAPHICS",
+      "presentation": "survey-report",
+      "evidence": "https://arxiv.org/abs/2111.05849v2",
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "pdf": "https://arxiv.org/pdf/2111.05849v2",
+      "sha256": "fdff4c55ea2c2944f58592f1b42d4ae04628fbfed26f336ba6159766c5b7b307",
+      "bytes": 19167243,
+      "ok": true,
+      "arxiv_first_year": 2021,
+      "publication_evidence": {
+        "pdf_url": "https://arxiv.org/pdf/2111.05849v2",
+        "page_number": 1,
+        "header_text": "This state of the art report is accepted at EUROGRAPHICS 2022."
+      }
+    },
+    {
+      "id": "gaussian-applications",
+      "arxiv": "2508.09977v5",
+      "project": "https://github.com/heshuting555/Awesome-3DGS-Applications",
+      "title": "A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+      "authors": [
+        "He, Shuting",
+        "Ji, Peilin",
+        "Yang, Yitong",
+        "Wang, Changshuo",
+        "Ji, Jiayi",
+        "Wang, Yinglin",
+        "Ding, Henghui"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "presentation": "preprint",
+      "evidence": "https://arxiv.org/abs/2508.09977v5",
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "pdf": "https://arxiv.org/pdf/2508.09977v5",
+      "sha256": "3cfb9469e8a7facb9beacea29a2f89a2b04995aa9fcfe1d22a3fd96e1b6517ba",
+      "bytes": 7337595,
+      "ok": true
+    },
+    {
+      "id": "large-multimodal-agents",
+      "arxiv": "2402.15116v1",
+      "project": "https://github.com/jun0wanan/awesome-large-multimodal-agents",
+      "title": "Large Multimodal Agents: A Survey",
+      "authors": [
+        "Xie, Junlin",
+        "Chen, Zhihong",
+        "Zhang, Ruifei",
+        "Wan, Xiang",
+        "Li, Guanbin"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "presentation": "preprint",
+      "evidence": "https://arxiv.org/abs/2402.15116v1",
+      "arxiv_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdf": "https://arxiv.org/pdf/2402.15116v1",
+      "sha256": "423ee1528995f17b7920aee021b8ed8c4186060886252c748f1e2cd5733d3485",
+      "bytes": 1091823,
+      "ok": true
+    },
+    {
+      "id": "instruction-image-editing",
+      "arxiv": "2607.25642v1",
+      "project": "https://arxiv.org/abs/2607.25642",
+      "title": "Instruction-based Image Editing: A Survey on Data, Models, Evaluation, and Applications",
+      "authors": [
+        "Zang, Xianghao",
+        "Jiang, Zijian",
+        "Cheng, Jiarong",
+        "Teng, Qianrui",
+        "He, Ying",
+        "Mu, Yuxuan",
+        "Ban, Chao",
+        "Zhang, Huayu",
+        "Zhou, Lanxiang",
+        "Feng, Zerun",
+        "Zhang, Chi"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "presentation": "preprint",
+      "evidence": "https://arxiv.org/abs/2607.25642v1",
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "pdf": "https://arxiv.org/pdf/2607.25642v1",
+      "sha256": "84219a91e90d9abaee6421758f99d84fb511dbb2a8e97ae4fda7b5f837d6210f",
+      "bytes": 11405219,
+      "ok": true
+    }
+  ],
+  "items": [
+    {
+      "id": "survey-instruction-editing-task-gallery",
+      "path": "teaser/survey-instruction-editing-task-gallery",
+      "paper": "instruction-image-editing",
+      "archive_member": "task_show.pdf",
+      "original_sha256": "14e8f2537176f5faeac433ec48de67e9cc305325b28f9b1849cfe6a59c3f86e5",
+      "figure_number": 2,
+      "page_number": 7,
+      "panel_layout": {
+        "theme_count": 21,
+        "groups": 5,
+        "picture_count": 44,
+        "summary": "21 个任务子图，按 5 类操作分区；共 44 张输入或结果图。",
+        "counting_note": "按 Removal、Addition 等任务标签计 21 个子图；顺序编辑面板含 4 张状态图，其余面板各为一组前后对照。"
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "id": "survey-neural-fields-multipanel",
+      "path": "teaser/survey-neural-fields-multipanel",
+      "paper": "neural-fields-star",
+      "archive_member": "figures/teaser/NeuralFieldsReview_Teaser.pdf",
+      "original_sha256": "35a64726d11a85df08efedf52203893eb98a6227f99e0205e47d84f5843f98b5",
+      "figure_number": 1,
+      "page_number": 1,
+      "panel_layout": {
+        "theme_count": 11,
+        "groups": 2,
+        "auxiliary_panels": 1,
+        "summary": "上层 5 类技术，下层 6 类应用，另有数据库预览。",
+        "counting_note": "技术标签计 5 类，应用标签计 6 类；左侧场函数符号与右侧数据库截图不计入 11 个主题子图。"
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "id": "survey-multimodal-agent-applications",
+      "path": "teaser/survey-multimodal-agent-applications",
+      "paper": "large-multimodal-agents",
+      "archive_member": "figures/app.pdf",
+      "original_sha256": "301f2472a2e53195a4f93ac80e2ff248ebe2dfcdf68595621335f12521230d20",
+      "figure_number": 4,
+      "page_number": 9,
+      "panel_layout": {
+        "theme_count": 8,
+        "groups": 1,
+        "summary": "8 个应用主题，外围配置代表性场景或交互截图。",
+        "counting_note": "按 8 个有名称的应用主题计数；截图中的多个界面窗口不额外计作独立应用子图。"
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "id": "survey-3dgs-editing-operations",
+      "path": "teaser/survey-3dgs-editing-operations",
+      "paper": "gaussian-applications",
+      "archive_member": "figs/3DEditing.pdf",
+      "original_sha256": "19ab93fde1f0bd7826170219a0742830f5c47096bcb3d9acbbe36f5f91595d7e",
+      "figure_number": 4,
+      "page_number": 8,
+      "panel_layout": {
+        "theme_count": 5,
+        "groups": 5,
+        "pdf_image_objects": 26,
+        "summary": "(a)–(e) 5 组操作子图，每组上下对齐原图与编辑结果。",
+        "counting_note": "按原图 (a) Editing、(b) Video Editing、(c) Style Transfer、(d) Removal、(e) Drag 计 5 组；连续视频帧与风格参考图保留在各组内。"
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "id": "survey-neural-rendering-2020-gallery",
+      "path": "teaser/survey-neural-rendering-2020-gallery",
+      "paper": "neural-rendering-2020",
+      "archive_member": "applications/images_lq/teaser2.jpg",
+      "original_sha256": "213709113d6135d420c8cd9a174f3049e40866fc2dfae99188ce43a787cfcb3d",
+      "figure_number": 1,
+      "page_number": 1,
+      "panel_layout": {
+        "theme_count": 11,
+        "groups": 2,
+        "summary": "两排 11 组场景示例，组内可包含多个视图或输入输出对。",
+        "counting_note": "按原图边框与留白分为上排 7 组、下排 4 组。作者未用 (a)–(k) 编号；这不是图片总张数。"
+      },
+      "editability": "raster-reference"
+    },
+    {
+      "id": "survey-neural-rendering-2022-gallery",
+      "path": "teaser/survey-neural-rendering-2022-gallery",
+      "paper": "neural-rendering-advances",
+      "archive_member": "figures/teaser.jpg",
+      "original_sha256": "cd57d06dc81acfa7cb13b7a0bf453010ceadfed3f2d225aa611d7f4fe0544627",
+      "figure_number": 1,
+      "page_number": 1,
+      "panel_layout": {
+        "theme_count": 10,
+        "groups": 2,
+        "summary": "两排约 10 个主题组，每组用多个视图或状态展示一种能力。",
+        "counting_note": "按留白与主题分为上排 5 组、下排 5 组；原图未给这些组编号，组内的多个人脸、椅子、视图或时刻不另计主题。"
+      },
+      "editability": "raster-reference"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "id": "survey-3dgs-editing-operations",
+  "title": "3DGS 编辑应用 · 5 组子图与上下前后对照",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "multi-panel",
+    "application-overview",
+    "before-after-application-panels",
+    "gaussian-applications",
+    "2025"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "5 组操作横向排开，上排原视图、下排编辑结果；视频编辑保留连续帧，风格迁移加入参考图，统一对照逻辑又允许各组呈现必要细节。",
+  "publication": {
+    "title": "A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+    "venue": "arXiv",
+    "year": 2025,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2508.09977v5",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2508.09977v5"
+  },
+  "curation": {
+    "figure_role": "综述 Figure 4 的应用操作概览，原文并非首图。用于借鉴多任务展示的对齐与分组方式。",
+    "figure_subtype": "before-after-application-panels",
+    "panel_layout": {
+      "theme_count": 5,
+      "groups": 5,
+      "pdf_image_objects": 26,
+      "summary": "(a)–(e) 5 组操作子图，每组上下对齐原图与编辑结果。",
+      "counting_note": "按原图 (a) Editing、(b) Video Editing、(c) Style Transfer、(d) Removal、(e) Drag 计 5 组；连续视频帧与风格参考图保留在各组内。"
+    },
+    "why_selected": "5 组操作横向排开，上排原视图、下排编辑结果；视频编辑保留连续帧，风格迁移加入参考图，统一对照逻辑又允许各组呈现必要细节。",
+    "what_to_borrow": [
+      "各组共用上下两排的 Original View／Edited View，让读者只需学一次阅读顺序。",
+      "虚线框和组标签界定不同操作，避免相邻视频帧被误读成不同方法。",
+      "不强行让每组图片数量相同，保留视频与风格参考所需的额外画面。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview"
+  },
+  "source": {
+    "project": "https://github.com/heshuting555/Awesome-3DGS-Applications",
+    "authors": [
+      "He, Shuting",
+      "Ji, Peilin",
+      "Yang, Yitong",
+      "Wang, Changshuo",
+      "Ji, Jiayi",
+      "Wang, Yinglin",
+      "Ding, Henghui"
+    ],
+    "urls": [
+      "https://github.com/heshuting555/Awesome-3DGS-Applications",
+      "https://arxiv.org/abs/2508.09977v5",
+      "https://arxiv.org/pdf/2508.09977v5",
+      "https://arxiv.org/src/2508.09977v5"
+    ],
+    "arxiv_id": "2508.09977v5",
+    "full_pdf_url": "https://arxiv.org/pdf/2508.09977v5",
+    "full_pdf_sha256": "3cfb9469e8a7facb9beacea29a2f89a2b04995aa9fcfe1d22a3fd96e1b6517ba",
+    "full_pdf_bytes": 7337595,
+    "page_number": 8,
+    "figure_number": 4,
+    "original_sha256": "19ab93fde1f0bd7826170219a0742830f5c47096bcb3d9acbbe36f5f91595d7e",
+    "original_bytes": 1333124,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2508.09977v5",
+    "archive_sha256": "f92984322d06ba053f05f5223f0873b039af5b5e41e52f4b8e1864d28cb64341",
+    "archive_bytes": 6688629,
+    "archive_member": "figs/3DEditing.pdf",
+    "inclusion_member": "Secs/3_method.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 10,
+    "pdf_text_spans": 15,
+    "embedded_raster_images": 26,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 52,
+      "path": 126,
+      "mask": 1,
+      "g": 81,
+      "image": 24,
+      "use": 154
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 6,
+    "notes": [
+      "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。各照片与结果图仍是嵌入位图，可移动或替换，不能按矢量节点编辑。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 813,
+      "sha256": "4bfe46c04b27242065ece991df3e094b547d0dc8cb3c09e37db162e9821fdb70"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 432,
+      "sha256": "f08fb2df2e2bc304403e02e69edd02e04e962423cbe525589f1a017ea3fcdf48"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1333124,
+      "sha256": "19ab93fde1f0bd7826170219a0742830f5c47096bcb3d9acbbe36f5f91595d7e"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 954806,
+      "sha256": "53faef024ddff5bc1529eca884937611fe29bf7fb90a9663bf90a9634f2468f3"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1854526,
+      "sha256": "2f20a77f1ddc030a60874946a79251bad5bd9d4bb601184ea618f3620e2813bd"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Paper: A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation
+Authors: He, Shuting, Ji, Peilin, Yang, Yitong, Wang, Changshuo, Ji, Jiayi, Wang, Yinglin, Ding, Henghui
+Source version: 2508.09977v5
+TeX archive: https://arxiv.org/src/2508.09977v5
+Archive member: figs/3DEditing.pdf
+Original SHA256: 19ab93fde1f0bd7826170219a0742830f5c47096bcb3d9acbbe36f5f91595d7e
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。
+The original figure is byte-identical to its archive member. No redrawing.

@@ -6,7 +6,7 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 34 | [浏览](teaser/README.md) |
+| Teaser 范例 | 40 | [浏览](teaser/README.md) |
 | Architecture 范例 | 45 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 341 | [按内容与来源浏览](element/README.md) |
 
@@ -209,6 +209,17 @@ ACM Computing Surveys 2026 · 期刊论文 · 综述 · 矢量 + 原有位图
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](teaser/survey-3dgs-application-landscape/original.pdf) · [来源记录](teaser/survey-3dgs-application-landscape/metadata.json)
 
+### [3DGS 编辑应用 · 5 组子图与上下前后对照](teaser/survey-3dgs-editing-operations/README.md)
+
+5 组操作横向排开，上排原视图、下排编辑结果；视频编辑保留连续帧，风格迁移加入参考图，统一对照逻辑又允许各组呈现必要细节。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-3dgs-editing-operations/preview.png" width="760" alt="3DGS 编辑应用 · 5 组子图与上下前后对照">](teaser/survey-3dgs-editing-operations/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-3dgs-editing-operations/original.pdf) · [来源记录](teaser/survey-3dgs-editing-operations/metadata.json)
+
 ### [3DGS 综述路线图 · 双侧分类地图](teaser/survey-3dgs-review-map/README.md)
 
 从中心领域向两侧展开原理、方法方向、应用、比较与研究方向，颜色对应一层主题，形成清晰的综述阅读地图。
@@ -297,6 +308,17 @@ arXiv 2023 · 预印本 · 综述 · 矢量结构
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-graph-foundation-paradigm/original.pdf) · [来源记录](teaser/survey-graph-foundation-paradigm/metadata.json)
 
+### [指令式图像编辑 · 21 种任务的多子图总览](teaser/survey-instruction-editing-task-gallery/README.md)
+
+21 个任务子图按五类操作组织，每个小面板保留输入、编辑结果和短标签；颜色只分大类，横排、竖排与底部长条配合，内容密集且层次清楚。
+
+arXiv 2026 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-instruction-editing-task-gallery/preview.png" width="760" alt="指令式图像编辑 · 21 种任务的多子图总览">](teaser/survey-instruction-editing-task-gallery/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-instruction-editing-task-gallery/original.pdf) · [来源记录](teaser/survey-instruction-editing-task-gallery/metadata.json)
+
 ### [LLaMA 家族关系 · 模型与数据继承图](teaser/survey-llama-family-map/README.md)
 
 把模型继承、数据继承与继续预训练画成不同颜色和线型的关系，从单一根节点展开出任务与领域分支，重点是关系而非枚举。
@@ -340,6 +362,50 @@ National Science Review 2024 · 期刊论文 · 综述 · 矢量 + 原有位图
 
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](teaser/survey-mllm-timeline/original.pdf) · [来源记录](teaser/survey-mllm-timeline/metadata.json)
+
+### [多模态 Agent · 8 类应用与外围场景子图](teaser/survey-multimodal-agent-applications/README.md)
+
+8 类应用围绕中心展开，外围场景图分别对应 UI 助手、驾驶、游戏、机器人、音视频和视觉推理等主题；既有领域分类，也有能直接识别的任务实例。
+
+arXiv 2024 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-multimodal-agent-applications/preview.png" width="760" alt="多模态 Agent · 8 类应用与外围场景子图">](teaser/survey-multimodal-agent-applications/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-multimodal-agent-applications/original.pdf) · [来源记录](teaser/survey-multimodal-agent-applications/metadata.json)
+
+### [Neural Fields · 5 类技术与 6 类应用的多子图 teaser](teaser/survey-neural-fields-multipanel/README.md)
+
+把 5 类通用技术放在上层、6 类应用放在下层，再用一个数据库截图连接到综述资源；每个主题有短标签、不同形态的原论文图例和清楚分区，是完整的综述首图。
+
+EUROGRAPHICS 2022 · STAR 报告 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-neural-fields-multipanel/preview.png" width="760" alt="Neural Fields · 5 类技术与 6 类应用的多子图 teaser">](teaser/survey-neural-fields-multipanel/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-neural-fields-multipanel/original.pdf) · [来源记录](teaser/survey-neural-fields-multipanel/metadata.json)
+
+### [Neural Rendering 2020 · 两排 11 组场景 teaser](teaser/survey-neural-rendering-2020-gallery/README.md)
+
+两排 11 组场景覆盖人像、对象、场景、重光照、表情与人体驱动，使用不同宽度的小组安排输入输出对和多视角样例，整张图仍保持平齐的上下边界。
+
+EUROGRAPHICS 2020 · STAR 报告 · 综述 · 整图位图，仅构图参考
+
+[<img src="teaser/survey-neural-rendering-2020-gallery/preview.png" width="760" alt="Neural Rendering 2020 · 两排 11 组场景 teaser">](teaser/survey-neural-rendering-2020-gallery/source.jpg)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-neural-rendering-2020-gallery/source.jpg) · [来源记录](teaser/survey-neural-rendering-2020-gallery/metadata.json)
+
+### [Advances in Neural Rendering · 两排约 10 组主题 teaser](teaser/survey-neural-rendering-2022-gallery/README.md)
+
+把自由视角、生成、重光照、场景编辑和动态人物等能力排成两层图群；组内用多个视图或状态形成小叙事，既展示多样性，也让同一能力的变化可见。
+
+EUROGRAPHICS 2022 · STAR 报告 · 综述 · 整图位图，仅构图参考
+
+[<img src="teaser/survey-neural-rendering-2022-gallery/preview.png" width="760" alt="Advances in Neural Rendering · 两排约 10 组主题 teaser">](teaser/survey-neural-rendering-2022-gallery/source.jpg)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-neural-rendering-2022-gallery/source.jpg) · [来源记录](teaser/survey-neural-rendering-2022-gallery/metadata.json)
 
 ### [世界模型能力递进 · 可信预测、可控干预与决策收益](teaser/survey-world-model-capability-ladder/README.md)
 

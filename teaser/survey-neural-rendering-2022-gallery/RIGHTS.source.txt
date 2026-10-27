@@ -1,0 +1,9 @@
+Paper: Advances in Neural Rendering
+Authors: Tewari, Ayush, Thies, Justus, Mildenhall, Ben, Srinivasan, Pratul, Tretschk, Edgar, Wang, Yifan, Lassner, Christoph, Sitzmann, Vincent, Martin-Brualla, Ricardo, Lombardi, Stephen, Simon, Tomas, Theobalt, Christian, Niessner, Matthias, Barron, Jonathan T., Wetzstein, Gordon, Zollhoefer, Michael, Golyanik, Vladislav
+Source version: 2111.05849v2
+TeX archive: https://arxiv.org/src/2111.05849v2
+Archive member: figures/teaser.jpg
+Original SHA256: cd57d06dc81acfa7cb13b7a0bf453010ceadfed3f2d225aa611d7f4fe0544627
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。
+The original figure is byte-identical to its archive member. No redrawing.

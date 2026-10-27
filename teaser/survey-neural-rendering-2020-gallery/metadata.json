@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "id": "survey-neural-rendering-2020-gallery",
+  "title": "Neural Rendering 2020 · 两排 11 组场景 teaser",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "multi-panel",
+    "application-overview",
+    "scene-gallery-teaser",
+    "neural-rendering-2020",
+    "2020"
+  ],
+  "formats": [
+    "jpg"
+  ],
+  "primary_file": "source.jpg",
+  "preview": "preview.png",
+  "summary": "两排 11 组场景覆盖人像、对象、场景、重光照、表情与人体驱动，使用不同宽度的小组安排输入输出对和多视角样例，整张图仍保持平齐的上下边界。",
+  "publication": {
+    "title": "State of the Art on Neural Rendering",
+    "venue": "EUROGRAPHICS",
+    "year": 2020,
+    "article_type": "survey",
+    "presentation": "survey-report",
+    "evidence_url": "https://arxiv.org/abs/2004.03805v1",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2004.03805v1",
+    "publication_evidence": {
+      "pdf_url": "https://arxiv.org/pdf/2004.03805v1",
+      "page_number": 1,
+      "header_text": "EUROGRAPHICS 2020; Volume 39 (2020), Number 2; STAR"
+    },
+    "arxiv_first_year": 2020
+  },
+  "curation": {
+    "figure_role": "综述原论文 Figure 1，作者在 TeX 中明确作为 teaser 使用。原件为整张 JPEG，此条作为布局与内容组织参考。",
+    "figure_subtype": "scene-gallery-teaser",
+    "panel_layout": {
+      "theme_count": 11,
+      "groups": 2,
+      "summary": "两排 11 组场景示例，组内可包含多个视图或输入输出对。",
+      "counting_note": "按原图边框与留白分为上排 7 组、下排 4 组。作者未用 (a)–(k) 编号；这不是图片总张数。"
+    },
+    "why_selected": "两排 11 组场景覆盖人像、对象、场景、重光照、表情与人体驱动，使用不同宽度的小组安排输入输出对和多视角样例，整张图仍保持平齐的上下边界。",
+    "what_to_borrow": [
+      "行高统一、组宽可变，让成对比较和宽场景都有合适空间。",
+      "使用细边框和小留白分组，减少解释性文字。",
+      "整张 JPEG 的照片和边框已合并，逐个子图需裁切后替换，不能当作矢量画板。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2004.03805",
+    "authors": [
+      "Tewari, Ayush",
+      "Fried, Ohad",
+      "Thies, Justus",
+      "Sitzmann, Vincent",
+      "Lombardi, Stephen",
+      "Sunkavalli, Kalyan",
+      "Martin-Brualla, Ricardo",
+      "Simon, Tomas",
+      "Saragih, Jason",
+      "Nießner, Matthias",
+      "Pandey, Rohit",
+      "Fanello, Sean",
+      "Wetzstein, Gordon",
+      "Zhu, Jun-Yan",
+      "Theobalt, Christian",
+      "Agrawala, Maneesh",
+      "Shechtman, Eli",
+      "Goldman, Dan B",
+      "Zollhöfer, Michael"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2004.03805",
+      "https://arxiv.org/abs/2004.03805v1",
+      "https://arxiv.org/pdf/2004.03805v1",
+      "https://arxiv.org/src/2004.03805v1"
+    ],
+    "arxiv_id": "2004.03805v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2004.03805v1",
+    "full_pdf_sha256": "70502f0eb5f32866eb0caefdd898e540ab7b3536358af4a951a503399408f5f7",
+    "full_pdf_bytes": 3964343,
+    "page_number": 1,
+    "figure_number": 1,
+    "original_sha256": "213709113d6135d420c8cd9a174f3049e40866fc2dfae99188ce43a787cfcb3d",
+    "original_bytes": 409220,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2004.03805v1",
+    "archive_sha256": "9e2e1d749d4384584a736b10e2cc3bdd0b9b8682ee5c5015d6cfcee83f66238f",
+    "archive_bytes": 3268470,
+    "archive_member": "applications/images_lq/teaser2.jpg",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author flattened JPEG teaser",
+    "level": "raster-reference",
+    "vector_shapes": false,
+    "editable_text": false,
+    "editable_text_by_format": {
+      "jpg": "flattened image; no separate panel objects"
+    },
+    "pdf_drawing_objects": 0,
+    "pdf_text_spans": 0,
+    "embedded_raster_images": 1,
+    "svg_object_counts": {},
+    "conversion_tool": "none; original JPEG preserved",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者原件是一张完整 JPEG，所有子图已合并；此条为构图与场景组织参考。保留原字节，不提供伪矢量 SVG。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "仅生成浏览预览；不把整张位图包装成可编辑 SVG。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 1015,
+      "sha256": "03c7689f2f7ef07570c32af37557284718c75d841dd809b0c5d10b7dc8ae99c4"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 574,
+      "sha256": "121561f58d584b272a3cac1da1f2469db95a60200d249e03483d0bcd4a21a059"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1288201,
+      "sha256": "a513cfb6164498b8ae07eacb6efa23c8bfd3124d4906e0168747d2562cd1c853"
+    },
+    {
+      "path": "source.jpg",
+      "bytes": 409220,
+      "sha256": "213709113d6135d420c8cd9a174f3049e40866fc2dfae99188ce43a787cfcb3d"
+    }
+  ]
+}

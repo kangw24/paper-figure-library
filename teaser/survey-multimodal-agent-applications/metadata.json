@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "id": "survey-multimodal-agent-applications",
+  "title": "多模态 Agent · 8 类应用与外围场景子图",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "multi-panel",
+    "application-overview",
+    "radial-application-panels",
+    "large-multimodal-agents",
+    "2024"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "8 类应用围绕中心展开，外围场景图分别对应 UI 助手、驾驶、游戏、机器人、音视频和视觉推理等主题；既有领域分类，也有能直接识别的任务实例。",
+  "publication": {
+    "title": "Large Multimodal Agents: A Survey",
+    "venue": "arXiv",
+    "year": 2024,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2402.15116v1",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2402.15116v1"
+  },
+  "curation": {
+    "figure_role": "综述 Figure 4 的应用全景参考，原文并非首图。适合借鉴中心分类与外围场景相互对应的多子图构图。",
+    "figure_subtype": "radial-application-panels",
+    "panel_layout": {
+      "theme_count": 8,
+      "groups": 1,
+      "summary": "8 个应用主题，外围配置代表性场景或交互截图。",
+      "counting_note": "按 8 个有名称的应用主题计数；截图中的多个界面窗口不额外计作独立应用子图。"
+    },
+    "why_selected": "8 类应用围绕中心展开，外围场景图分别对应 UI 助手、驾驶、游戏、机器人、音视频和视觉推理等主题；既有领域分类，也有能直接识别的任务实例。",
+    "what_to_borrow": [
+      "主题名称放在中心附近，具体截图放到外侧，让抽象与具体两层对应。",
+      "采用不同的轻色轮廓区分应用，保持场景照片本身的颜色。",
+      "代表方法名称是作者所收录版本的范围，改编时应更新并核对。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview"
+  },
+  "source": {
+    "project": "https://github.com/jun0wanan/awesome-large-multimodal-agents",
+    "authors": [
+      "Xie, Junlin",
+      "Chen, Zhihong",
+      "Zhang, Ruifei",
+      "Wan, Xiang",
+      "Li, Guanbin"
+    ],
+    "urls": [
+      "https://github.com/jun0wanan/awesome-large-multimodal-agents",
+      "https://arxiv.org/abs/2402.15116v1",
+      "https://arxiv.org/pdf/2402.15116v1",
+      "https://arxiv.org/src/2402.15116v1"
+    ],
+    "arxiv_id": "2402.15116v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2402.15116v1",
+    "full_pdf_sha256": "423ee1528995f17b7920aee021b8ed8c4186060886252c748f1e2cd5733d3485",
+    "full_pdf_bytes": 1091823,
+    "page_number": 9,
+    "figure_number": 4,
+    "original_sha256": "301f2472a2e53195a4f93ac80e2ff248ebe2dfcdf68595621335f12521230d20",
+    "original_bytes": 397843,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2402.15116v1",
+    "archive_sha256": "da5782c9485994fb64f68e8e1c53beed740ff90b5634cf826f71c906ffb5ed5d",
+    "archive_bytes": 986319,
+    "archive_member": "figures/app.pdf",
+    "inclusion_member": "sections/6_discuss.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 18,
+    "pdf_text_spans": 79,
+    "embedded_raster_images": 8,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 17,
+      "path": 149,
+      "g": 26,
+      "use": 658,
+      "image": 8
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。各照片与结果图仍是嵌入位图，可移动或替换，不能按矢量节点编辑。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 649,
+      "sha256": "61550694d65a189217fe7c86de81767fca4f9a3e8442da36add83efacdd07fcd"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 183,
+      "sha256": "4bf10f0b0a5e5659bbb0a7168edc047a19a56a803ccad0d0c7138afff6dd70b8"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 397843,
+      "sha256": "301f2472a2e53195a4f93ac80e2ff248ebe2dfcdf68595621335f12521230d20"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1955067,
+      "sha256": "71001a7dfbd9588aaa3df83436b34725df43193f36b59cb017968849673c1b11"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 679266,
+      "sha256": "04f8c61ccd7d19e9cd77c19ad15a3b01db570425b08ed52f3848ef673c7b7d8a"
+    }
+  ]
+}

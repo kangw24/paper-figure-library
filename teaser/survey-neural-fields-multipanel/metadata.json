@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "id": "survey-neural-fields-multipanel",
+  "title": "Neural Fields · 5 类技术与 6 类应用的多子图 teaser",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "multi-panel",
+    "application-overview",
+    "technique-application-teaser",
+    "neural-fields-star",
+    "2022"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "把 5 类通用技术放在上层、6 类应用放在下层，再用一个数据库截图连接到综述资源；每个主题有短标签、不同形态的原论文图例和清楚分区，是完整的综述首图。",
+  "publication": {
+    "title": "Neural Fields in Visual Computing and Beyond",
+    "venue": "EUROGRAPHICS",
+    "year": 2022,
+    "article_type": "survey",
+    "presentation": "survey-report",
+    "evidence_url": "https://arxiv.org/abs/2111.11426v4",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2111.11426v4",
+    "publication_evidence": {
+      "pdf_url": "https://arxiv.org/pdf/2111.11426v4",
+      "page_number": 1,
+      "header_text": "EUROGRAPHICS 2022; Volume 41 (2022), Number 2; STAR"
+    },
+    "arxiv_first_year": 2021
+  },
+  "curation": {
+    "figure_role": "原论文 Figure 1 的核心 teaser 画面。独立 PDF 未包括由 LaTeX 另叠加的顶部网页链接；对应插图定义一并保留。",
+    "figure_subtype": "technique-application-teaser",
+    "panel_layout": {
+      "theme_count": 11,
+      "groups": 2,
+      "auxiliary_panels": 1,
+      "summary": "上层 5 类技术，下层 6 类应用，另有数据库预览。",
+      "counting_note": "技术标签计 5 类，应用标签计 6 类；左侧场函数符号与右侧数据库截图不计入 11 个主题子图。"
+    },
+    "why_selected": "把 5 类通用技术放在上层、6 类应用放在下层，再用一个数据库截图连接到综述资源；每个主题有短标签、不同形态的原论文图例和清楚分区，是完整的综述首图。",
+    "what_to_borrow": [
+      "技术与应用用两条主线分层，子图在同层采用相近视觉尺度。",
+      "用几何、物理场、数字人体、机器人等视觉对象表达领域范围。",
+      "右侧资源预览作为辅助区，不挤占主要主题子图；作者的 PowerPoint 组成源文件另存原样归档。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview"
+  },
+  "source": {
+    "project": "https://neuralfields.cs.brown.edu/",
+    "authors": [
+      "Xie, Yiheng",
+      "Takikawa, Towaki",
+      "Saito, Shunsuke",
+      "Litany, Or",
+      "Yan, Shiqin",
+      "Khan, Numair",
+      "Tombari, Federico",
+      "Tompkin, James",
+      "Sitzmann, Vincent",
+      "Sridhar, Srinath"
+    ],
+    "urls": [
+      "https://neuralfields.cs.brown.edu/",
+      "https://arxiv.org/abs/2111.11426v4",
+      "https://arxiv.org/pdf/2111.11426v4",
+      "https://arxiv.org/src/2111.11426v4"
+    ],
+    "arxiv_id": "2111.11426v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2111.11426v4",
+    "full_pdf_sha256": "fc32c67445cc4be262959929beddad86e9a991771935176b814ba0cd5c998797",
+    "full_pdf_bytes": 16431725,
+    "page_number": 1,
+    "figure_number": 1,
+    "original_sha256": "35a64726d11a85df08efedf52203893eb98a6227f99e0205e47d84f5843f98b5",
+    "original_bytes": 369173,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2111.11426v4",
+    "archive_sha256": "1d09e586d5db460f4bbccab50c220e9940063d116e3bb0aaf46ee3f176405910",
+    "archive_bytes": 29259703,
+    "archive_member": "figures/teaser/NeuralFieldsReview_Teaser.pdf",
+    "inclusion_member": "2021_NeuralFieldsReview.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "office_parts_manifest": "author-office-parts.json"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 56,
+    "pdf_text_spans": 17,
+    "embedded_raster_images": 18,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 263,
+      "path": 155,
+      "clipPath": 18,
+      "image": 19,
+      "mask": 5,
+      "use": 225,
+      "rect": 3
+    },
+    "conversion_tool": "Poppler pdftocairo -svg; original masks and transparency retained",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。各照片与结果图仍是嵌入位图，可移动或替换，不能按矢量节点编辑。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 860,
+      "sha256": "a589d3515a16bce39e73b3f34e2cce220f595054e48592f469695b8169b12aeb"
+    },
+    {
+      "path": "author-office-parts.json",
+      "bytes": 14264,
+      "sha256": "091ee3000a95abdd82354b22d327a715eedac4f57f38d6c130088bf4f3836ef0"
+    },
+    {
+      "path": "author-office-parts.zip",
+      "bytes": 3957263,
+      "sha256": "7aee05c390973eadc672d2e46c446d25f0577b6f0dec22b3fec0e383ec9c137e"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 925,
+      "sha256": "be80a9853392e45977a5d8c6d374583f3372b58102024b9c345d1bde2f31d0df"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 369173,
+      "sha256": "35a64726d11a85df08efedf52203893eb98a6227f99e0205e47d84f5843f98b5"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1237025,
+      "sha256": "ebe7138e6ff27e28ff425ca4d6b5ce628907653b8c404fed6aa47eb4c5436dd0"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 732684,
+      "sha256": "a7e3a027bbcb56d1a56f474ba343cb2f59e269df8caf9efe1b4b358a8b845488"
+    }
+  ]
+}

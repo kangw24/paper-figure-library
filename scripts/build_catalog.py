@@ -4,6 +4,7 @@
 import argparse,html,json,re
 from pathlib import Path
 from validate_library import ROOT,validate
+from build_links import load as load_links,build as build_links,figure_links
 
 SECTIONS=[('teaser','examples/teasers','Teaser 范例'),('architecture','examples/architectures','Architecture 范例'),('mechanism','references/mechanisms','机制参考图'),('layout-template','templates/layouts','原生版式模板')]
 LABELS={'modules':'网络与模块','data':'数据与文档','operations':'运算与变换','connections':'箭头与连接','training':'训练与标记','devices':'设备与对象','science':'科学与图表','concepts':'概念符号'}
@@ -28,29 +29,36 @@ def build(root):
  elements=json.loads((root/'elements/catalog.json').read_text())['items'];normalized=[]
  for x in elements:normalized.append({**x,'title':x['title_zh'],'category':'element','element_category':x['category'],'kind':'external-element','formats':['svg'],'primary_path':x['svg_path']})
  counts={c:sum(x['category']==c for x in examples+normalized) for c in ['teaser','architecture','element','mechanism','layout-template']}
+ figures,element_map,relationships=load_links(root)
+ reverse=build_links(root,figures,element_map,relationships)
  readme=root/'README.md'
  if readme.exists():
   content=readme.read_text(encoding='utf-8')
-  label='**'+str(counts['element'])+' 个独立元素 · '+str(counts['teaser'])+' 个 teaser · '+str(counts['architecture'])+' 个 architecture · '+str(counts['mechanism'])+' 张机制参考图 · '+str(counts['layout-template'])+' 份原生版式模板**'
-  content=re.sub(r'\*\*\d+ 个独立元素 · \d+ 个 teaser · \d+ 个 architecture · \d+ 张机制参考图 · \d+ 份原生版式模板\*\*',lambda _:label,content)
+  label='**'+str(counts['teaser'])+' 个 teaser · '+str(counts['architecture'])+' 个 architecture · '+str(counts['element'])+' 个独立 element**'
+  content=re.sub(r'\*\*\d+ 个 teaser · \d+ 个 architecture · \d+ 个独立 element\*\*',lambda _:label,content)
   write(root,Path('README.md'),content)
  write(root,Path('catalog.json'),json.dumps({'schema_version':2,'counts':counts,'items':examples+normalized},ensure_ascii=False,indent=2))
- lines=['# 素材总目录','','[仓库首页](README.md) · [顶会论文精选](collections/top-conference-figures.md) · [元素分类目录](elements/README.md) · [JSON 来源索引](catalog.json)','','| 类别 | 数量 | 入口 |','|---|---:|---|']
- for c,f,l in SECTIONS:lines.append('| '+l+' | '+str(counts[c])+' | [浏览]('+f+'/README.md) |')
- lines+=['| 最小可复用元素 | '+str(counts['element'])+' | [按内容与来源浏览](elements/README.md) |','','## 元素入口','','[![元素选览](elements/preview.png)](elements/README.md)','','完整机制图、版式母版与完整架构图分别计数；它们不计入最小图元数量。','']
+ lines=['# 素材总目录','','[Teaser](examples/teasers/README.md) · [Architecture](examples/architectures/README.md) · [Element](elements/README.md) · [仓库首页](README.md) · [JSON 来源索引](catalog.json)','','按图的用途分类，会议、年份与 Oral 仅作为条目标签。完整范例与最小元素通过 [Markdown 对照表](elements/with-examples.md) 互相连接。','','| 类别 | 数量 | 入口 |','|---|---:|---|']
  for c,f,l in SECTIONS:
+  if c in ('teaser','architecture'):lines.append('| '+l+' | '+str(counts[c])+' | [浏览]('+f+'/README.md) |')
+ lines+=['| Element 最小可复用元素 | '+str(counts['element'])+' | [按内容与来源浏览](elements/README.md) |','','完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。','']
+ for c,f,l in SECTIONS:
+  if c not in ('teaser','architecture'):continue
   lines+=['## '+l,'']
+  if c=='architecture':lines+=['辅助入口：[原生 AI / AIT 版式母版](templates/layouts/README.md)。','']
   for x in examples:
    if x['category']!=c:continue
    lines+=['### ['+x['title']+']('+x['readme_path']+')','',x['summary']+('\n\n'+publication_line(x) if publication_line(x) else ''),'','[<img src="'+x['preview_path']+'" width="760" alt="'+html.escape(x['title'],quote=True)+'">]('+x['primary_path']+')','','来源类型：'+KINDS[x['kind']]+'。许可：'+x['license']['name']+'。','[原文件]('+x['primary_path']+') · [来源记录]('+x['metadata_path']+')','']
+ lines+=['## Element','','[![元素选览](elements/preview.png)](elements/README.md)','','[元素分类目录](elements/README.md) · [范例与元素对照表](elements/with-examples.md) · [离线检索](elements/gallery.html)','','辅助入口：[完整机制参考](references/mechanisms/README.md)。这些完整机制图不计入最小元素数量。','']
  write(root,Path('CATALOG.md'),'\n'.join(lines))
- lines=['# 元素库','','**'+str(len(elements))+' 个独立 SVG**，全部为外部下载或现有原图节点的提取。','','[离线搜索与筛选](gallery.html)（下载仓库后直接打开） · [完整总览 SVG](all-elements.svg) · [逐项来源、许可与署名](catalog.json)','','![元素选览](preview.png)','','## 按内容浏览','','| 分类 | 数量 | 入口 |','|---|---:|---|']
+ lines=['# Element · 元素库','','[Teaser](../examples/teasers/README.md) · [Architecture](../examples/architectures/README.md) · [总目录](../CATALOG.md)','','**'+str(len(elements))+' 个独立 SVG**，全部为外部下载或现有原图节点的提取。','','[范例与元素对照表](with-examples.md)：从完整范例找部件，也可从各元素分类页反查关联范例。原图拆件与功能关联分别标明。','','[离线搜索与筛选](gallery.html)（下载仓库后直接打开） · [完整总览 SVG](all-elements.svg) · [逐项来源、许可与署名](catalog.json)','','![元素选览](preview.png)','','## 按内容浏览','','| 分类 | 数量 | 入口 |','|---|---:|---|']
  for c,l in LABELS.items():
   xs=[x for x in elements if x['category']==c]
   if not xs:continue
   lines.append('| '+l+' | '+str(len(xs))+' | [图文目录](by-category/'+c+'.md) |')
-  detail=['# '+l,'','[返回元素库](../README.md)','','| 预览 | 名称与 SVG | 来源与许可 |','|---|---|---|']
-  for x in xs:detail.append('| <img src="../../'+x['preview_path']+'" width="140"> | ['+x['title_zh']+'](../../'+x['svg_path']+') | '+x.get('collection',x['source'].get('author',x['source']['kind']))+' · '+x['license']['name']+' |')
+  page=root/'elements/by-category'/(c+'.md')
+  detail=['# '+l,'','[返回 Element](../README.md) · [Teaser](../../examples/teasers/README.md) · [Architecture](../../examples/architectures/README.md) · [范例与元素对照表](../with-examples.md)','','关联范例按表达功能互链；是否为原图拆件见对照表与元素来源记录。','','| 预览 | 名称与 SVG | 来源与许可 | 关联范例（最多列三项） |','|---|---|---|---|']
+  for x in xs:detail.append('| <img src="../../'+x['preview_path']+'" width="140"> | ['+x['title_zh']+'](../../'+x['svg_path']+') | '+x.get('collection',x['source'].get('author',x['source']['kind']))+' · '+x['license']['name']+' | '+(figure_links(page,reverse[x['id']][:3],figures) or '—')+' |')
   write(root,Path('elements/by-category')/(c+'.md'),'\n'.join(detail))
  lines+=['','## 按来源浏览','','| 来源 | 数量 | 说明 |','|---|---:|---|']
  sources={}

@@ -1,6 +1,8 @@
 # CUT3R · 静态、动态与稀疏照片三类场景
 
-[顶会精选图文目录](../../../collections/top-conference-figures.md) · [总目录](../../../CATALOG.md)
+<!-- CATEGORY NAV -->
+[Teaser](../README.md) · [Architecture](../../architectures/README.md) · [Element](../../../elements/README.md) · [总目录](../../../CATALOG.md)
+<!-- END CATEGORY NAV -->
 
 **CVPR 2025 · Oral · 原论文 Figure 1**
 
@@ -41,3 +43,15 @@ arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换�
 原文许可声明：https://creativecommons.org/licenses/by/4.0/
 
 只提取、裁剪与转换原图；没有重新绘制。
+
+<!-- BEGIN FIGURE LINKS -->
+## 关联范例与元素
+
+同论文的其他图：[CUT3R · 持久状态的更新、读取与未见视角推断](../../architectures/cut3r-architecture/README.md)
+
+**可搭配的现有元素：** [视频](../../../elements/svg/tabler-video.svg) · [图像](../../../elements/svg/tabler-photo.svg) · [相机](../../../elements/svg/tabler-camera.svg)
+
+这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
+
+[范例与元素对照表](../../../elements/with-examples.md) · [元素分类目录](../../../elements/README.md)
+<!-- END FIGURE LINKS -->

@@ -1,6 +1,8 @@
 # VAR · 从逐 token 到逐尺度生成的范式对照
 
-[顶会精选图文目录](../../../collections/top-conference-figures.md) · [总目录](../../../CATALOG.md)
+<!-- CATEGORY NAV -->
+[Teaser](../README.md) · [Architecture](../../architectures/README.md) · [Element](../../../elements/README.md) · [总目录](../../../CATALOG.md)
+<!-- END CATEGORY NAV -->
 
 **NeurIPS 2024 · Oral · 原论文 Figure 2**
 
@@ -41,3 +43,15 @@ arXiv 原文声明 CC0 1.0；仍保留论文来源和修改记录，第三方素
 原文许可声明：https://creativecommons.org/publicdomain/zero/1.0/
 
 只提取、裁剪与转换原图；没有重新绘制。
+
+<!-- BEGIN FIGURE LINKS -->
+## 关联范例与元素
+
+同论文的其他图：[VAR · 多尺度 VQVAE 与 VAR 两阶段训练](../../architectures/var-architecture/README.md)
+
+**可搭配的现有元素：** [多尺度特征堆叠](../../../elements/svg/task5-feature-pyramid.svg) · [多通道彩色张量](../../../elements/svg/task5-rgb-tensor.svg) · [拼接节点](../../../elements/svg/task5-concat.svg) · [上采样节点](../../../elements/svg/task5-upsample.svg) · [水平双向箭头](../../../elements/svg/tabler-arrows-right-left.svg)
+
+这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
+
+[范例与元素对照表](../../../elements/with-examples.md) · [元素分类目录](../../../elements/README.md)
+<!-- END FIGURE LINKS -->

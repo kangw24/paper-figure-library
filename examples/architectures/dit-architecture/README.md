@@ -1,6 +1,8 @@
 # DiT · 整体主干与三种条件注入模块
 
-[顶会精选图文目录](../../../collections/top-conference-figures.md) · [总目录](../../../CATALOG.md)
+<!-- CATEGORY NAV -->
+[Teaser](../../teasers/README.md) · [Architecture](../README.md) · [Element](../../../elements/README.md) · [总目录](../../../CATALOG.md)
+<!-- END CATEGORY NAV -->
 
 **ICCV 2023 · Oral · 原论文 Figure 3**
 
@@ -41,3 +43,13 @@ arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换�
 原文许可声明：https://creativecommons.org/licenses/by/4.0/
 
 只提取、裁剪与转换原图；没有重新绘制。
+
+<!-- BEGIN FIGURE LINKS -->
+## 关联范例与元素
+
+**可搭配的现有元素：** [Self attention 块](../../../elements/svg/lightglue-self-attention.svg) · [残差加法节点](../../../elements/svg/lightglue-residual-add.svg) · [匹配相似度矩阵](../../../elements/svg/lightglue-assignment-matrix.svg) · [单层特征块](../../../elements/svg/rust-feature-tile.svg) · [乘法节点](../../../elements/svg/task5-multiply.svg) · [加法节点](../../../elements/svg/task5-add.svg)
+
+这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
+
+[范例与元素对照表](../../../elements/with-examples.md) · [元素分类目录](../../../elements/README.md)
+<!-- END FIGURE LINKS -->

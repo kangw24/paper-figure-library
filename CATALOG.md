@@ -1,20 +1,16 @@
 # 素材总目录
 
-[仓库首页](README.md) · [顶会论文精选](collections/top-conference-figures.md) · [元素分类目录](elements/README.md) · [JSON 来源索引](catalog.json)
+[Teaser](examples/teasers/README.md) · [Architecture](examples/architectures/README.md) · [Element](elements/README.md) · [仓库首页](README.md) · [JSON 来源索引](catalog.json)
+
+按图的用途分类，会议、年份与 Oral 仅作为条目标签。完整范例与最小元素通过 [Markdown 对照表](elements/with-examples.md) 互相连接。
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
 | Teaser 范例 | 13 | [浏览](examples/teasers/README.md) |
 | Architecture 范例 | 35 | [浏览](examples/architectures/README.md) |
-| 机制参考图 | 17 | [浏览](references/mechanisms/README.md) |
-| 原生版式模板 | 11 | [浏览](templates/layouts/README.md) |
-| 最小可复用元素 | 317 | [按内容与来源浏览](elements/README.md) |
+| Element 最小可复用元素 | 317 | [按内容与来源浏览](elements/README.md) |
 
-## 元素入口
-
-[![元素选览](elements/preview.png)](elements/README.md)
-
-完整机制图、版式母版与完整架构图分别计数；它们不计入最小图元数量。
+完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。
 
 ## Teaser 范例
 
@@ -148,6 +144,8 @@ CVPR 2025 · Oral · 矢量 + 原有位图
 [原文件](examples/teasers/vggt-capabilities/source.svg) · [来源记录](examples/teasers/vggt-capabilities/metadata.json)
 
 ## Architecture 范例
+
+辅助入口：[原生 AI / AIT 版式母版](templates/layouts/README.md)。
 
 ### [CLIP Figure 1：训练到零样本预测](examples/architectures/clip/README.md)
 
@@ -488,258 +486,10 @@ ICLR 2021 · Oral · 矢量 + 原有位图
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](examples/architectures/vit-original-architecture/source.svg) · [来源记录](examples/architectures/vit-original-architecture/metadata.json)
 
-## 机制参考图
+## Element
 
-### [D2L · 注意力输出](references/mechanisms/d2l-attention-output/README.md)
+[![元素选览](elements/preview.png)](elements/README.md)
 
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
+[元素分类目录](elements/README.md) · [范例与元素对照表](elements/with-examples.md) · [离线检索](elements/gallery.html)
 
-[<img src="references/mechanisms/d2l-attention-output/preview.png" width="760" alt="D2L · 注意力输出">](references/mechanisms/d2l-attention-output/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-attention-output/source.svg) · [来源记录](references/mechanisms/d2l-attention-output/metadata.json)
-
-### [D2L · 1×1 卷积](references/mechanisms/d2l-conv-1x1/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-conv-1x1/preview.png" width="760" alt="D2L · 1×1 卷积">](references/mechanisms/d2l-conv-1x1/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-conv-1x1/source.svg) · [来源记录](references/mechanisms/d2l-conv-1x1/metadata.json)
-
-### [D2L · 多输入通道卷积](references/mechanisms/d2l-conv-multi-in/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-conv-multi-in/preview.png" width="760" alt="D2L · 多输入通道卷积">](references/mechanisms/d2l-conv-multi-in/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-conv-multi-in/source.svg) · [来源记录](references/mechanisms/d2l-conv-multi-in/metadata.json)
-
-### [D2L · 卷积填充](references/mechanisms/d2l-conv-pad/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-conv-pad/preview.png" width="760" alt="D2L · 卷积填充">](references/mechanisms/d2l-conv-pad/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-conv-pad/source.svg) · [来源记录](references/mechanisms/d2l-conv-pad/metadata.json)
-
-### [D2L · 卷积步幅](references/mechanisms/d2l-conv-stride/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-conv-stride/preview.png" width="760" alt="D2L · 卷积步幅">](references/mechanisms/d2l-conv-stride/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-conv-stride/source.svg) · [来源记录](references/mechanisms/d2l-conv-stride/metadata.json)
-
-### [D2L · 一维卷积](references/mechanisms/d2l-conv1d/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-conv1d/preview.png" width="760" alt="D2L · 一维卷积">](references/mechanisms/d2l-conv1d/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-conv1d/source.svg) · [来源记录](references/mechanisms/d2l-conv1d/metadata.json)
-
-### [D2L · 一维卷积与通道](references/mechanisms/d2l-conv1d-channel/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-conv1d-channel/preview.png" width="760" alt="D2L · 一维卷积与通道">](references/mechanisms/d2l-conv1d-channel/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-conv1d-channel/source.svg) · [来源记录](references/mechanisms/d2l-conv1d-channel/metadata.json)
-
-### [D2L · 二维互相关](references/mechanisms/d2l-correlation/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-correlation/preview.png" width="760" alt="D2L · 二维互相关">](references/mechanisms/d2l-correlation/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-correlation/source.svg) · [来源记录](references/mechanisms/d2l-correlation/metadata.json)
-
-### [D2L · 多头注意力](references/mechanisms/d2l-multi-head-attention/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-multi-head-attention/preview.png" width="760" alt="D2L · 多头注意力">](references/mechanisms/d2l-multi-head-attention/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-multi-head-attention/source.svg) · [来源记录](references/mechanisms/d2l-multi-head-attention/metadata.json)
-
-### [D2L · 神经元示意](references/mechanisms/d2l-neuron/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-neuron/preview.png" width="760" alt="D2L · 神经元示意">](references/mechanisms/d2l-neuron/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-neuron/source.svg) · [来源记录](references/mechanisms/d2l-neuron/metadata.json)
-
-### [D2L · 池化](references/mechanisms/d2l-pooling/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-pooling/preview.png" width="760" alt="D2L · 池化">](references/mechanisms/d2l-pooling/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-pooling/source.svg) · [来源记录](references/mechanisms/d2l-pooling/metadata.json)
-
-### [D2L · 查询、键与值](references/mechanisms/d2l-qkv/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-qkv/preview.png" width="760" alt="D2L · 查询、键与值">](references/mechanisms/d2l-qkv/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-qkv/source.svg) · [来源记录](references/mechanisms/d2l-qkv/metadata.json)
-
-### [D2L · 普通块与残差块对比](references/mechanisms/d2l-residual-block/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-residual-block/preview.png" width="760" alt="D2L · 普通块与残差块对比">](references/mechanisms/d2l-residual-block/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-residual-block/source.svg) · [来源记录](references/mechanisms/d2l-residual-block/metadata.json)
-
-### [D2L · 自注意力对照](references/mechanisms/d2l-self-attention/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-self-attention/preview.png" width="760" alt="D2L · 自注意力对照">](references/mechanisms/d2l-self-attention/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-self-attention/source.svg) · [来源记录](references/mechanisms/d2l-self-attention/metadata.json)
-
-### [D2L · 单神经元](references/mechanisms/d2l-singleneuron/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-singleneuron/preview.png" width="760" alt="D2L · 单神经元">](references/mechanisms/d2l-singleneuron/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-singleneuron/source.svg) · [来源记录](references/mechanisms/d2l-singleneuron/metadata.json)
-
-### [D2L · 转置卷积](references/mechanisms/d2l-trans-conv/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-trans-conv/preview.png" width="760" alt="D2L · 转置卷积">](references/mechanisms/d2l-trans-conv/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-trans-conv/source.svg) · [来源记录](references/mechanisms/d2l-trans-conv/metadata.json)
-
-### [D2L · 带步幅的转置卷积](references/mechanisms/d2l-trans-conv-stride2/README.md)
-
-完整机制示意，保留原标注供参考或拆取图形；这不是单个最小图元，不计入元素数量。
-
-[<img src="references/mechanisms/d2l-trans-conv-stride2/preview.png" width="760" alt="D2L · 带步幅的转置卷积">](references/mechanisms/d2l-trans-conv-stride2/source.svg)
-
-来源类型：教材或教程范例。许可：CC-BY-SA-4.0。
-[原文件](references/mechanisms/d2l-trans-conv-stride2/source.svg) · [来源记录](references/mechanisms/d2l-trans-conv-stride2/metadata.json)
-
-## 原生版式模板
-
-### [Nature 官方 · nature-figure-illustrator-template](templates/layouts/nature-official-nature-figure-illustrator-template/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/nature-official-nature-figure-illustrator-template/preview.png" width="760" alt="Nature 官方 · nature-figure-illustrator-template">](templates/layouts/nature-official-nature-figure-illustrator-template/nature-figure-illustrator-template.ait)
-
-来源类型：原生模板。许可：website-terms。
-[原文件](templates/layouts/nature-official-nature-figure-illustrator-template/nature-figure-illustrator-template.ait) · [来源记录](templates/layouts/nature-official-nature-figure-illustrator-template/metadata.json)
-
-### [Scientific Figure Templates · ICML](templates/layouts/scientific-figure-icml/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/scientific-figure-icml/preview.png" width="760" alt="Scientific Figure Templates · ICML">](templates/layouts/scientific-figure-icml/ICML.ai)
-
-来源类型：原生模板。许可：no-explicit-license。
-[原文件](templates/layouts/scientific-figure-icml/ICML.ai) · [来源记录](templates/layouts/scientific-figure-icml/metadata.json)
-
-### [Scientific Figure Templates · IEEE-ISBI](templates/layouts/scientific-figure-ieee-isbi/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/scientific-figure-ieee-isbi/preview.png" width="760" alt="Scientific Figure Templates · IEEE-ISBI">](templates/layouts/scientific-figure-ieee-isbi/IEEE-ISBI.ai)
-
-来源类型：原生模板。许可：no-explicit-license。
-[原文件](templates/layouts/scientific-figure-ieee-isbi/IEEE-ISBI.ai) · [来源记录](templates/layouts/scientific-figure-ieee-isbi/metadata.json)
-
-### [Scientific Figure Templates · Nature](templates/layouts/scientific-figure-nature/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/scientific-figure-nature/preview.png" width="760" alt="Scientific Figure Templates · Nature">](templates/layouts/scientific-figure-nature/Nature.ai)
-
-来源类型：原生模板。许可：no-explicit-license。
-[原文件](templates/layouts/scientific-figure-nature/Nature.ai) · [来源记录](templates/layouts/scientific-figure-nature/metadata.json)
-
-### [SciFigureTemplates · ACSFigureTemplate](templates/layouts/scifigure-acsfiguretemplate/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/scifigure-acsfiguretemplate/preview.png" width="760" alt="SciFigureTemplates · ACSFigureTemplate">](templates/layouts/scifigure-acsfiguretemplate/ACSFigureTemplate.ait)
-
-来源类型：原生模板。许可：MIT。
-[原文件](templates/layouts/scifigure-acsfiguretemplate/ACSFigureTemplate.ait) · [来源记录](templates/layouts/scifigure-acsfiguretemplate/metadata.json)
-
-### [SciFigureTemplates · AIPFigureTemplate](templates/layouts/scifigure-aipfiguretemplate/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/scifigure-aipfiguretemplate/preview.png" width="760" alt="SciFigureTemplates · AIPFigureTemplate">](templates/layouts/scifigure-aipfiguretemplate/AIPFigureTemplate.ait)
-
-来源类型：原生模板。许可：MIT。
-[原文件](templates/layouts/scifigure-aipfiguretemplate/AIPFigureTemplate.ait) · [来源记录](templates/layouts/scifigure-aipfiguretemplate/metadata.json)
-
-### [SciFigureTemplates · APSFigureTemplate](templates/layouts/scifigure-apsfiguretemplate/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/scifigure-apsfiguretemplate/preview.png" width="760" alt="SciFigureTemplates · APSFigureTemplate">](templates/layouts/scifigure-apsfiguretemplate/APSFigureTemplate.ait)
-
-来源类型：原生模板。许可：MIT。
-[原文件](templates/layouts/scifigure-apsfiguretemplate/APSFigureTemplate.ait) · [来源记录](templates/layouts/scifigure-apsfiguretemplate/metadata.json)
-
-### [SciFigureTemplates · IOPFigureTemplate](templates/layouts/scifigure-iopfiguretemplate/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/scifigure-iopfiguretemplate/preview.png" width="760" alt="SciFigureTemplates · IOPFigureTemplate">](templates/layouts/scifigure-iopfiguretemplate/IOPFigureTemplate.ait)
-
-来源类型：原生模板。许可：MIT。
-[原文件](templates/layouts/scifigure-iopfiguretemplate/IOPFigureTemplate.ait) · [来源记录](templates/layouts/scifigure-iopfiguretemplate/metadata.json)
-
-### [SciFigureTemplates · NatureFigureTemplate](templates/layouts/scifigure-naturefiguretemplate/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/scifigure-naturefiguretemplate/preview.png" width="760" alt="SciFigureTemplates · NatureFigureTemplate">](templates/layouts/scifigure-naturefiguretemplate/NatureFigureTemplate.ait)
-
-来源类型：原生模板。许可：MIT。
-[原文件](templates/layouts/scifigure-naturefiguretemplate/NatureFigureTemplate.ait) · [来源记录](templates/layouts/scifigure-naturefiguretemplate/metadata.json)
-
-### [SciFigureTemplates · SciAdvancesFigureTemplate_2026-08](templates/layouts/scifigure-sciadvancesfiguretemplate-2026-08/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/scifigure-sciadvancesfiguretemplate-2026-08/preview.png" width="760" alt="SciFigureTemplates · SciAdvancesFigureTemplate_2026-08">](templates/layouts/scifigure-sciadvancesfiguretemplate-2026-08/SciAdvancesFigureTemplate_2026-08.ait)
-
-来源类型：原生模板。许可：MIT。
-[原文件](templates/layouts/scifigure-sciadvancesfiguretemplate-2026-08/SciAdvancesFigureTemplate_2026-08.ait) · [来源记录](templates/layouts/scifigure-sciadvancesfiguretemplate-2026-08/metadata.json)
-
-### [SciFigureTemplates · ScienceFigureTemplate_2026-08](templates/layouts/scifigure-sciencefiguretemplate-2026-08/README.md)
-
-作者已有的画幅与版式母版，保留原生文件；不包含可直接替换内容的模型架构，不计入元素或 teaser 数量。
-
-[<img src="templates/layouts/scifigure-sciencefiguretemplate-2026-08/preview.png" width="760" alt="SciFigureTemplates · ScienceFigureTemplate_2026-08">](templates/layouts/scifigure-sciencefiguretemplate-2026-08/ScienceFigureTemplate_2026-08.ait)
-
-来源类型：原生模板。许可：MIT。
-[原文件](templates/layouts/scifigure-sciencefiguretemplate-2026-08/ScienceFigureTemplate_2026-08.ait) · [来源记录](templates/layouts/scifigure-sciencefiguretemplate-2026-08/metadata.json)
+辅助入口：[完整机制参考](references/mechanisms/README.md)。这些完整机制图不计入最小元素数量。

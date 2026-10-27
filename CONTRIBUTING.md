@@ -16,7 +16,7 @@
 原 AIT 可能只有提示文字的 PDF 层。遇到这种情况保留原生文件，改用原作者配套 PDF 或官方网页预览，并在元数据明确注明。预览文件变更后更新对应文件哈希。
 
 
-## 顶会精选原图
+## 论文图的分类与来源
 
 - 按图的作用分类：teaser 表达概念、差异或核心能力；architecture / framework 解释方法内部结构。Figure 1 编号本身不决定类别。
 - Oral 标签必须指向会议官网、作者项目页或官方代码仓库中的明确声明。奖项、候选奖、Poster、Spotlight、Oral 分开记录，不能互相推定。
@@ -24,4 +24,7 @@
 - PDF 摘图记录原文 URL 与 SHA256、页码、图号、裁剪坐标和转换步骤。提供 SVG 时说明文字是否为轮廓，以及哪些部分本来就是位图。
 - 作者本身只提供整张位图时，标为 `raster-reference`，保留真实图片；不将图片包在 SVG 中宣称可编辑。
 - 提取后同时检查原 PDF 裁剪、单图 PDF 和 SVG 的显示，特别核对底部标签、透明图片及边框。PDF 字体的边界框可能大于可见字形，删除外围正文时要保留文字边距再裁剪。
-- 更新 `collections/top-conference-figures.md` 与对应 JSON 来源索引；本轮索引按 2026-10-27 的核验结果保存。
+- 会议、年份、Oral 和奖项只作为条目标签，不单独建立会议文件夹或精选集合。来源批次记录保留在 sources，不作为浏览分类。
+- Teaser、Architecture、Element 三类通过各自 README 和条目 README 互链。同一论文的多张图互链；元素必须区分“从该原图拆出”和“功能相近的现有素材”。
+- 在 `examples/relationships.json` 维护按表达用途的二级分组、同论文关联及现有元素关联；分组覆盖每个范例且不重复。实际拆件关系从元素的 `source.local_original` / `source.native_original` 读取，不手工伪造。
+- 运行目录生成器后会更新两类范例目录、各条目的关联段落、Element 分类页和 `elements/with-examples.md`。不要只修改生成出的 Markdown 而漏改关联记录。

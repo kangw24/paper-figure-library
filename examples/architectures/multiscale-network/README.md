@@ -1,5 +1,9 @@
 # 多尺度网络总览与模块展开
 
+<!-- CATEGORY NAV -->
+[Teaser](../../teasers/README.md) · [Architecture](../README.md) · [Element](../../../elements/README.md) · [总目录](../../../CATALOG.md)
+<!-- END CATEGORY NAV -->
+
 ![预览](preview.png)
 
 作者 Illustrator 科研绘图教程中的多尺度网络案例：Backbone、高低层特征、SPPA／LFSA／GMFF 模块、预测结果，以及模块细节。原文件含 7 个画板。
@@ -40,3 +44,10 @@
 
 收录日期：2026-10-25。主文件与所有随附二进制文件的 SHA256 记录在 `metadata.json`。
 
+<!-- BEGIN FIGURE LINKS -->
+## 关联范例与元素
+
+**从本图拆出的部件：** [输入特征层](../../../elements/svg/task5-input-feature.svg) · [多尺度特征堆叠](../../../elements/svg/task5-feature-pyramid.svg) · [多通道彩色张量](../../../elements/svg/task5-rgb-tensor.svg) · [输出特征层](../../../elements/svg/task5-output-feature.svg) · [拼接节点](../../../elements/svg/task5-concat.svg) · [加法节点](../../../elements/svg/task5-add.svg) · [乘法节点](../../../elements/svg/task5-multiply.svg) · [上采样节点](../../../elements/svg/task5-upsample.svg) · [CBR 模块](../../../elements/svg/task5-cbr.svg) · [GAP 模块](../../../elements/svg/task5-gap.svg) · [FC + ReLU 模块](../../../elements/svg/task5-fc-relu.svg)
+
+[范例与元素对照表](../../../elements/with-examples.md) · [元素分类目录](../../../elements/README.md)
+<!-- END FIGURE LINKS -->

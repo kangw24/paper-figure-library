@@ -1,6 +1,8 @@
 # LGM · 非对称 U-Net 与跨视角注意力
 
-[顶会精选图文目录](../../../collections/top-conference-figures.md) · [总目录](../../../CATALOG.md)
+<!-- CATEGORY NAV -->
+[Teaser](../../teasers/README.md) · [Architecture](../README.md) · [Element](../../../elements/README.md) · [总目录](../../../CATALOG.md)
+<!-- END CATEGORY NAV -->
 
 **ECCV 2024 · Oral · 原论文 Figure 3**
 
@@ -41,3 +43,15 @@ arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形�
 原文许可声明：https://arxiv.org/licenses/nonexclusive-distrib/1.0/
 
 只提取、裁剪与转换原图；没有重新绘制。
+
+<!-- BEGIN FIGURE LINKS -->
+## 关联范例与元素
+
+同论文的其他图：[LGM · 从文本或图像到三维高斯和网格的流程](../lgm-pipeline/README.md)
+
+**可搭配的现有元素：** [多尺度特征堆叠](../../../elements/svg/task5-feature-pyramid.svg) · [多通道彩色张量](../../../elements/svg/task5-rgb-tensor.svg) · [拼接节点](../../../elements/svg/task5-concat.svg) · [上采样节点](../../../elements/svg/task5-upsample.svg) · [Self attention 块](../../../elements/svg/lightglue-self-attention.svg) · [相机](../../../elements/svg/tabler-camera.svg)
+
+这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
+
+[范例与元素对照表](../../../elements/with-examples.md) · [元素分类目录](../../../elements/README.md)
+<!-- END FIGURE LINKS -->

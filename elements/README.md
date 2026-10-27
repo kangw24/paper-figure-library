@@ -1,6 +1,10 @@
-# 元素库
+# Element · 元素库
+
+[Teaser](../examples/teasers/README.md) · [Architecture](../examples/architectures/README.md) · [总目录](../CATALOG.md)
 
 **317 个独立 SVG**，全部为外部下载或现有原图节点的提取。
+
+[范例与元素对照表](with-examples.md)：从完整范例找部件，也可从各元素分类页反查关联范例。原图拆件与功能关联分别标明。
 
 [离线搜索与筛选](gallery.html)（下载仓库后直接打开） · [完整总览 SVG](all-elements.svg) · [逐项来源、许可与署名](catalog.json)
 

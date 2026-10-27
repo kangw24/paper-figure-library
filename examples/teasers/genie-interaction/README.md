@@ -1,6 +1,8 @@
 # Genie · 不同提示生成可交互世界
 
-[顶会精选图文目录](../../../collections/top-conference-figures.md) · [总目录](../../../CATALOG.md)
+<!-- CATEGORY NAV -->
+[Teaser](../README.md) · [Architecture](../../architectures/README.md) · [Element](../../../elements/README.md) · [总目录](../../../CATALOG.md)
+<!-- END CATEGORY NAV -->
 
 **ICML 2024 · Oral · 原论文 Figure 1**
 
@@ -41,3 +43,15 @@ arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形�
 原文许可声明：https://arxiv.org/licenses/nonexclusive-distrib/1.0/
 
 只提取、裁剪与转换原图；没有重新绘制。
+
+<!-- BEGIN FIGURE LINKS -->
+## 关联范例与元素
+
+同论文的其他图：[Genie · 视频 tokenizer、潜在动作与动力学模型](../../architectures/genie-architecture/README.md)
+
+**可搭配的现有元素：** [图像](../../../elements/svg/tabler-photo.svg) · [视频](../../../elements/svg/tabler-video.svg) · [开始](../../../elements/svg/tabler-player-play.svg) · [右箭头](../../../elements/svg/tabler-arrow-right.svg)
+
+这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
+
+[范例与元素对照表](../../../elements/with-examples.md) · [元素分类目录](../../../elements/README.md)
+<!-- END FIGURE LINKS -->

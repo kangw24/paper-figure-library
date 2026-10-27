@@ -1,6 +1,8 @@
 # 3D Gaussian Splatting · 优化与光栅化双向流程
 
-[顶会精选图文目录](../../../collections/top-conference-figures.md) · [总目录](../../../CATALOG.md)
+<!-- CATEGORY NAV -->
+[Teaser](../../teasers/README.md) · [Architecture](../README.md) · [Element](../../../elements/README.md) · [总目录](../../../CATALOG.md)
+<!-- END CATEGORY NAV -->
 
 **SIGGRAPH 2023 · 会议论文；未核实 Oral · 原论文 Figure 2**
 
@@ -41,3 +43,13 @@ arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换�
 原文许可声明：https://creativecommons.org/licenses/by/4.0/
 
 只提取、裁剪与转换原图；没有重新绘制。
+
+<!-- BEGIN FIGURE LINKS -->
+## 关联范例与元素
+
+**可搭配的现有元素：** [相机](../../../elements/svg/tabler-camera.svg) · [回环箭头](../../../elements/svg/tabler-arrow-loop-right.svg) · [水平双向箭头](../../../elements/svg/tabler-arrows-right-left.svg) · [图像](../../../elements/svg/tabler-photo.svg)
+
+这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
+
+[范例与元素对照表](../../../elements/with-examples.md) · [元素分类目录](../../../elements/README.md)
+<!-- END FIGURE LINKS -->

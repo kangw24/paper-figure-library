@@ -1,5 +1,9 @@
 # ShaDDR：粗形状与示例驱动的成果展示
 
+<!-- CATEGORY NAV -->
+[Teaser](../README.md) · [Architecture](../../architectures/README.md) · [Element](../../../elements/README.md) · [总目录](../../../CATALOG.md)
+<!-- END CATEGORY NAV -->
+
 上排粗形状与风格示例，下排生成结果与局部放大，以成果直接展示任务和贡献。
 
 ![原图预览](preview.png)
@@ -15,3 +19,13 @@ SVG 对象：49 个 path，0 个 text，6 个 image。有 SVG 容器不代表每
 MIT（来源仓库）；渲染素材保留原论文出处。
 
 已检查预览；桌面 Illustrator 的字体与链接兼容性尚未逐项实测。
+
+<!-- BEGIN FIGURE LINKS -->
+## 关联范例与元素
+
+**可搭配的现有元素：** [三维坐标物体](../../../elements/svg/tabler-cube-3d-sphere.svg) · [图像](../../../elements/svg/tabler-photo.svg) · [参数设置](../../../elements/svg/tabler-adjustments.svg)
+
+这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
+
+[范例与元素对照表](../../../elements/with-examples.md) · [元素分类目录](../../../elements/README.md)
+<!-- END FIGURE LINKS -->

@@ -179,6 +179,13 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
         for name in ("README.md", "all-elements.svg", "preview.png"):
             local_file(root / "elements", name, "元素库总览")
 
+    if (root / "examples/relationships.json").exists():
+        from build_links import load as load_links
+        try:
+            load_links(root)
+        except (ValueError, KeyError, OSError) as exc:
+            error("examples/relationships.json", "范例与元素关联无效: " + str(exc))
+
     for path in sorted(root.rglob("*.svg")):
         if ".git" in path.parts:
             continue

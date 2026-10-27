@@ -1,6 +1,8 @@
 # DPO · RLHF 与直接偏好优化的流程简化
 
-[顶会精选图文目录](../../../collections/top-conference-figures.md) · [总目录](../../../CATALOG.md)
+<!-- CATEGORY NAV -->
+[Teaser](../README.md) · [Architecture](../../architectures/README.md) · [Element](../../../elements/README.md) · [总目录](../../../CATALOG.md)
+<!-- END CATEGORY NAV -->
 
 **NeurIPS 2023 · Oral · 原论文 Figure 1**
 
@@ -41,3 +43,13 @@ arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换�
 原文许可声明：https://creativecommons.org/licenses/by/4.0/
 
 只提取、裁剪与转换原图；没有重新绘制。
+
+<!-- BEGIN FIGURE LINKS -->
+## 关联范例与元素
+
+**可搭配的现有元素：** [多用户](../../../elements/svg/tabler-users.svg) · [对话](../../../elements/svg/tabler-message.svg) · [浅层神经网络](../../../elements/svg/towaki-neuralnetwork.svg) · [水平双向箭头](../../../elements/svg/tabler-arrows-right-left.svg)
+
+这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
+
+[范例与元素对照表](../../../elements/with-examples.md) · [元素分类目录](../../../elements/README.md)
+<!-- END FIGURE LINKS -->

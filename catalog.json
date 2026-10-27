@@ -107,7 +107,6 @@
       "category": "teaser",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "teaser",
         "cut3r",
@@ -333,7 +332,6 @@
       "category": "teaser",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "teaser",
         "dpo",
@@ -463,7 +461,6 @@
       "category": "teaser",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "teaser",
         "dreamgaussian",
@@ -607,7 +604,6 @@
       "category": "teaser",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "teaser",
         "genie",
@@ -1222,7 +1218,6 @@
       "category": "teaser",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "teaser",
         "var",
@@ -1366,7 +1361,6 @@
       "category": "teaser",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "teaser",
         "vggt",
@@ -1596,7 +1590,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "cut3r",
@@ -3149,7 +3142,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "dit",
@@ -3285,7 +3277,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "dreamgaussian",
@@ -3429,7 +3420,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "gaussian-splatting",
@@ -3568,7 +3558,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "genie",
@@ -3717,7 +3706,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "instant-ngp",
@@ -3952,7 +3940,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "lgm",
@@ -4097,7 +4084,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "lgm",
@@ -4706,7 +4692,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "sd3",
@@ -4856,7 +4841,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "var",
@@ -5000,7 +4984,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "vggt",
@@ -5145,7 +5128,6 @@
       "category": "architecture",
       "kind": "paper-example",
       "origin": "extracted-from-author-pdf",
-      "collection": "top-conference-figures-2026-10",
       "tags": [
         "architecture",
         "vit-paper",

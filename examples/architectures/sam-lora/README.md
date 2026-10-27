@@ -1,5 +1,9 @@
 # SAM / LoRA 总体流程与 Transformer 模块
 
+<!-- CATEGORY NAV -->
+[Teaser](../../teasers/README.md) · [Architecture](../README.md) · [Element](../../../elements/README.md) · [总目录](../../../CATALOG.md)
+<!-- END CATEGORY NAV -->
+
 ![预览](preview.png)
 
 作者 Illustrator 科研绘图教程中的 SAM / LoRA 案例，含总体方法流程与 Transformer／LoRA 模块结构，共 2 个画板；公开的 PNG、PDF 与 PPTX 配套素材一并保留。
@@ -54,3 +58,13 @@
 第二画板的模块预览：
 
 ![Transformer / LoRA 模块](module-preview.png)
+
+<!-- BEGIN FIGURE LINKS -->
+## 关联范例与元素
+
+**可搭配的现有元素：** [图像](../../../elements/svg/tabler-photo.svg) · [Self attention 块](../../../elements/svg/lightglue-self-attention.svg) · [锁定](../../../elements/svg/tabler-lock.svg) · [解锁](../../../elements/svg/tabler-lock-open.svg)
+
+这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
+
+[范例与元素对照表](../../../elements/with-examples.md) · [元素分类目录](../../../elements/README.md)
+<!-- END FIGURE LINKS -->

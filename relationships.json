@@ -7,6 +7,7 @@
         "id": "comparison",
         "title": "方法与范式对照",
         "figures": [
+          "survey-ai-pde-physics-data-paradigms",
           "var-paradigm",
           "dpo-comparison",
           "k-lora",
@@ -32,6 +33,7 @@
         "title": "领域全景、演进与综述路线图",
         "description": "条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。",
         "figures": [
+          "survey-ai-pde-scope-map",
           "survey-ai4science-domain-wheel",
           "survey-ai4science-scale-map",
           "survey-3d4d-world-overview",
@@ -230,6 +232,10 @@
     [
       "survey-foundation-model-adaptation",
       "survey-foundation-model-ecosystem"
+    ],
+    [
+      "survey-ai-pde-scope-map",
+      "survey-ai-pde-physics-data-paradigms"
     ]
   ],
   "suggested_elements": {
@@ -786,6 +792,20 @@
       "tabler-video",
       "tabler-users",
       "tabler-clock"
+    ],
+    "survey-ai-pde-scope-map": [
+      "tabler-sitemap",
+      "tabler-affiliate",
+      "tabler-atom",
+      "tabler-wave-sine",
+      "tabler-arrows-split"
+    ],
+    "survey-ai-pde-physics-data-paradigms": [
+      "towaki-neuralnetwork",
+      "tabler-database",
+      "tabler-wave-sine",
+      "tabler-arrows-right-left",
+      "tabler-arrow-loop-right"
     ]
   }
 }

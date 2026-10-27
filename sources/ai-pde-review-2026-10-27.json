@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-27",
+  "policy": "User-selected conceptual review figures; preserve author originals and record semantic structure and proposed visual refinements.",
+  "papers": [
+    {
+      "id": "ai-pde-mechanics",
+      "arxiv": "2410.19843v3",
+      "project": "https://arxiv.org/abs/2410.19843v3",
+      "evidence": "https://arxiv.org/abs/2410.19843v3",
+      "title": "Artificial intelligence for partial differential equations in computational mechanics: A review",
+      "authors": [
+        "Wang, Yizheng",
+        "Bai, Jinshuai",
+        "Lin, Zhongya",
+        "Wang, Qimin",
+        "Anitescu, Cosmin",
+        "Sun, Jia",
+        "Eshaghi, Mohammad Sadegh",
+        "Gu, Yuantong",
+        "Feng, Xi-Qiao",
+        "Zhuang, Xiaoying",
+        "Rabczuk, Timon",
+        "Liu, Yinghua"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "presentation": "preprint",
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "pdf": "https://arxiv.org/pdf/2410.19843v3",
+      "sha256": "1551705f4364b4f0f54caa9c2f43e2f69d653a4715fa05e6112c6aea5e86c81a",
+      "bytes": 24307556
+    }
+  ],
+  "items": [
+    {
+      "id": "survey-ai-pde-scope-map",
+      "path": "teaser/survey-ai-pde-scope-map",
+      "paper": "ai-pde-mechanics",
+      "archive_member": "relationship_AI_ML_DL.pdf",
+      "original_sha256": "435f8a72363bd19b9b47d3d732c838a38d513354baaaf4bdf1212bab376b0d8d",
+      "figure_number": 1,
+      "page_number": 2,
+      "panel_layout": {
+        "method_families": 3,
+        "application_domains": 3,
+        "problem_types": 2,
+        "task_labels": 18,
+        "summary": "领域定位圆环＋3 类方法＋3 类力学应用；按正问题与反问题展开 18 个任务标签。",
+        "counting_note": "方法分为 PINNs、算子学习和 PINO；应用分为固体力学、流体力学、生物力学。18 是末端任务标签数，不作为独立场景图片数。"
+      },
+      "editability": "vector"
+    },
+    {
+      "id": "survey-ai-pde-physics-data-paradigms",
+      "path": "teaser/survey-ai-pde-physics-data-paradigms",
+      "paper": "ai-pde-mechanics",
+      "archive_member": "PINNs_operator_PINO.pdf",
+      "original_sha256": "95366c9e64a777801321ecd8f41ba125e1f010bf5899b2616d6b377814448519",
+      "figure_number": 2,
+      "page_number": 5,
+      "panel_layout": {
+        "method_families": 3,
+        "condition_panels": 4,
+        "summary": "3 类方法＋4 种物理／数据条件；上层展示 PINNs 和算子学习，下层展开 PINO 的两种路径。",
+        "counting_note": "三类方法是 PINNs、算子学习和 PINO；四种条件来自图中重复使用的 Physical Laws／Data 图示。底层两条路径同属 PINO，不另算第四类方法。"
+      },
+      "editability": "vector-and-raster"
+    }
+  ]
+}

@@ -6,7 +6,7 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 40 | [浏览](teaser/README.md) |
+| Teaser 范例 | 42 | [浏览](teaser/README.md) |
 | Architecture 范例 | 45 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 341 | [按内容与来源浏览](element/README.md) |
 
@@ -252,6 +252,28 @@ arXiv 2023 · 预印本 · 综述 · 矢量 + 原有位图
 
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-agent-society-teaser/original.pdf) · [来源记录](teaser/survey-agent-society-teaser/metadata.json)
+
+### [AI for PDEs · 物理与数据条件下的三类方法对照](teaser/survey-ai-pde-physics-data-paradigms/README.md)
+
+同一套物理信息／数据条件标记贯穿多个子区，各区给出相应方法的科学示意和求解路径。子图围绕一个共同问题形成对照，能同时说明方法差异、适用条件及相互融合的关系。
+
+arXiv 2024 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-ai-pde-physics-data-paradigms/preview.png" width="760" alt="AI for PDEs · 物理与数据条件下的三类方法对照">](teaser/survey-ai-pde-physics-data-paradigms/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-ai-pde-physics-data-paradigms/original.pdf) · [来源记录](teaser/survey-ai-pde-physics-data-paradigms/metadata.json)
+
+### [AI for PDEs · 领域定位、方法与应用全景](teaser/survey-ai-pde-scope-map/README.md)
+
+从 AI4Science 中的领域位置出发，将三类 AI4PDE 方法连接到计算力学，再按三个应用领域及正反问题展开。分类、范围和研究对象形成一条完整主线，是内容充实的综述概念总览。
+
+arXiv 2024 · 预印本 · 综述 · 矢量结构
+
+[<img src="teaser/survey-ai-pde-scope-map/preview.png" width="760" alt="AI for PDEs · 领域定位、方法与应用全景">](teaser/survey-ai-pde-scope-map/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-ai-pde-scope-map/original.pdf) · [来源记录](teaser/survey-ai-pde-scope-map/metadata.json)
 
 ### [AI4Science 领域圆环 · 从量子到连续系统](teaser/survey-ai4science-domain-wheel/README.md)
 

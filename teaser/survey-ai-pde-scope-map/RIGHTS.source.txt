@@ -1,0 +1,9 @@
+Paper: Artificial intelligence for partial differential equations in computational mechanics: A review
+Authors: Wang, Yizheng, Bai, Jinshuai, Lin, Zhongya, Wang, Qimin, Anitescu, Cosmin, Sun, Jia, Eshaghi, Mohammad Sadegh, Gu, Yuantong, Feng, Xi-Qiao, Zhuang, Xiaoying, Rabczuk, Timon, Liu, Yinghua
+Source version: 2410.19843v3
+TeX archive: https://arxiv.org/src/2410.19843v3
+Archive member: relationship_AI_ML_DL.pdf
+Original SHA256: 435f8a72363bd19b9b47d3d732c838a38d513354baaaf4bdf1212bab376b0d8d
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。
+The original figure is byte-identical to its archive member. No redrawing.

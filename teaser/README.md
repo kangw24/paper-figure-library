@@ -6,9 +6,9 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 方法与范式对照 | 5 | [浏览](#comparison) |
+| 方法与范式对照 | 6 | [浏览](#comparison) |
 | 多子图主题与应用总览 | 6 | [浏览](#multi-panel) |
-| 领域全景、演进与综述路线图 | 17 | [浏览](#landscape) |
+| 领域全景、演进与综述路线图 | 18 | [浏览](#landscape) |
 | 任务、动机与能力展示 | 7 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
 | 速度与精度权衡 | 2 | [浏览](#tradeoff) |
@@ -16,6 +16,18 @@
 <a id="comparison"></a>
 
 ## 方法与范式对照
+
+### [AI for PDEs · 物理与数据条件下的三类方法对照](survey-ai-pde-physics-data-paradigms/README.md)
+
+同一套物理信息／数据条件标记贯穿多个子区，各区给出相应方法的科学示意和求解路径。子图围绕一个共同问题形成对照，能同时说明方法差异、适用条件及相互融合的关系。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 3 类方法＋4 种物理／数据条件；上层展示 PINNs 和算子学习，下层展开 PINO 的两种路径。 原论文 Figure 2。
+
+[![预览](survey-ai-pde-physics-data-paradigms/preview.png)](survey-ai-pde-physics-data-paradigms/README.md)
+
+[说明与源文件](survey-ai-pde-physics-data-paradigms/README.md) · [同论文：AI for PDEs · 领域定位、方法与应用全景](survey-ai-pde-scope-map/README.md) · [关联元素](survey-ai-pde-physics-data-paradigms/README.md#关联范例与元素)
 
 ### [VAR · 从逐 token 到逐尺度生成的范式对照](var-paradigm/README.md)
 
@@ -154,6 +166,18 @@ EUROGRAPHICS 2022 · STAR 报告 · 综述
 ## 领域全景、演进与综述路线图
 
 条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。
+
+### [AI for PDEs · 领域定位、方法与应用全景](survey-ai-pde-scope-map/README.md)
+
+从 AI4Science 中的领域位置出发，将三类 AI4PDE 方法连接到计算力学，再按三个应用领域及正反问题展开。分类、范围和研究对象形成一条完整主线，是内容充实的综述概念总览。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 领域定位圆环＋3 类方法＋3 类力学应用；按正问题与反问题展开 18 个任务标签。 原论文 Figure 1。
+
+[![预览](survey-ai-pde-scope-map/preview.png)](survey-ai-pde-scope-map/README.md)
+
+[说明与源文件](survey-ai-pde-scope-map/README.md) · [同论文：AI for PDEs · 物理与数据条件下的三类方法对照](survey-ai-pde-physics-data-paradigms/README.md) · [关联元素](survey-ai-pde-scope-map/README.md#关联范例与元素)
 
 ### [AI4Science 领域圆环 · 从量子到连续系统](survey-ai4science-domain-wheel/README.md)
 

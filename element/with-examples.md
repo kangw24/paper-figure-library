@@ -23,6 +23,7 @@
 
 | 范例 | 现有元素 |
 |---|---|
+| [AI for PDEs · 物理与数据条件下的三类方法对照](../teaser/survey-ai-pde-physics-data-paradigms/README.md) | [浅层神经网络](svg/towaki-neuralnetwork.svg) · [数据库](svg/tabler-database.svg) · [正弦信号](svg/tabler-wave-sine.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) · [回环箭头](svg/tabler-arrow-loop-right.svg) |
 | [VAR · 从逐 token 到逐尺度生成的范式对照](../teaser/var-paradigm/README.md) | [多尺度特征堆叠](svg/task5-feature-pyramid.svg) · [多通道彩色张量](svg/task5-rgb-tensor.svg) · [拼接节点](svg/task5-concat.svg) · [上采样节点](svg/task5-upsample.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
 | [DPO · RLHF 与直接偏好优化的流程简化](../teaser/dpo-comparison/README.md) | [多用户](svg/tabler-users.svg) · [对话](svg/tabler-message.svg) · [浅层神经网络](svg/towaki-neuralnetwork.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
 | [K-LoRA：主体风格组合与训练范式比较](../teaser/k-lora/README.md) | [图像](svg/tabler-photo.svg) · [锁定](svg/tabler-lock.svg) · [解锁](svg/tabler-lock-open.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
@@ -34,6 +35,7 @@
 | [3DGS 编辑应用 · 5 组子图与上下前后对照](../teaser/survey-3dgs-editing-operations/README.md) | [图像](svg/tabler-photo.svg) · [视频](svg/tabler-video.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
 | [Neural Rendering 2020 · 两排 11 组场景 teaser](../teaser/survey-neural-rendering-2020-gallery/README.md) | [相机](svg/tabler-camera.svg) · [图像](svg/tabler-photo.svg) · [多用户](svg/tabler-users.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) |
 | [Advances in Neural Rendering · 两排约 10 组主题 teaser](../teaser/survey-neural-rendering-2022-gallery/README.md) | [相机](svg/tabler-camera.svg) · [图像](svg/tabler-photo.svg) · [视频](svg/tabler-video.svg) · [多用户](svg/tabler-users.svg) · [时钟](svg/tabler-clock.svg) |
+| [AI for PDEs · 领域定位、方法与应用全景](../teaser/survey-ai-pde-scope-map/README.md) | [层级结构](svg/tabler-sitemap.svg) · [节点分支](svg/tabler-affiliate.svg) · [原子](svg/tabler-atom.svg) · [正弦信号](svg/tabler-wave-sine.svg) · [分流箭头](svg/tabler-arrows-split.svg) |
 | [AI4Science 领域圆环 · 从量子到连续系统](../teaser/survey-ai4science-domain-wheel/README.md) | [原子](svg/tabler-atom.svg) · [烧瓶](svg/tabler-flask.svg) · [正弦信号](svg/tabler-wave-sine.svg) · [网络](svg/tabler-network.svg) |
 | [AI4Science 时空尺度图 · 研究对象与共同挑战](../teaser/survey-ai4science-scale-map/README.md) | [散点图符号](svg/tabler-chart-scatter.svg) · [时钟](svg/tabler-clock.svg) · [原子](svg/tabler-atom.svg) |
 | [3D／4D 世界模型 · 场景与研究维度全景](../teaser/survey-3d4d-world-overview/README.md) | [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [相机](svg/tabler-camera.svg) · [汽车](svg/tabler-car.svg) · [层级结构](svg/tabler-sitemap.svg) |

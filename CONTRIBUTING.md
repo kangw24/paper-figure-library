@@ -33,6 +33,9 @@
 
 ## 综述原图
 
+- 用户指定的选图参照是《Artificial intelligence for partial differential equations in computational mechanics: A review》的 [Figure 1](teaser/survey-ai-pde-scope-map/README.md) 与 [Figure 2](teaser/survey-ai-pde-physics-data-paradigms/README.md)。优先收集有完整内容和组织主线的综述概念图：领域定位、方法与应用关系，或共同条件下的方法对照。子区应包含具体科学内容；子图多只是辅助标准。
+- 同一综述概念图可以包含网络、算子等局部结构。按整图用途判断分类：解释方法范式与适用条件的对照仍可放 Teaser；展开某个方法内部信息流的结构图放 Architecture。
+- 原图与改绘方案分别记录。可在条目添加字号、留白、配色和内容层级的美化建议，但没有实际修改的图不能标作已美化。
 - 多子图按主题、任务或场景组计数，另记录组内图片总数；不能直接把 PDF 的图像对象数当作子图数。标清原论文图号；非首图的应用或任务总览应说明借鉴用途。
 - 先按实际用途区分概念场景、领域全景、时间线、谱系和分类路线图；综述中的统一框架与模块分解仍放 Architecture。图号与具体子类型写入元数据。
 - 综述放在现有根目录分类中，使用 `survey` 标签和 `publication.article_type: survey`，不另建 survey 实体文件夹。期刊年份和所收录 arXiv 修订版本分别记录，不给期刊综述套 Oral 标签。

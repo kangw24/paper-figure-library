@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "survey-ai-pde-physics-data-paradigms",
+  "title": "AI for PDEs · 物理与数据条件下的三类方法对照",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "user-reference",
+    "conceptual-overview",
+    "method-comparison",
+    "ai4pde",
+    "ai-pde-mechanics",
+    "2024"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "同一套物理信息／数据条件标记贯穿多个子区，各区给出相应方法的科学示意和求解路径。子图围绕一个共同问题形成对照，能同时说明方法差异、适用条件及相互融合的关系。",
+  "publication": {
+    "title": "Artificial intelligence for partial differential equations in computational mechanics: A review",
+    "venue": "arXiv",
+    "year": 2024,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2410.19843v3",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2410.19843v3"
+  },
+  "curation": {
+    "figure_role": "用户指定的综述 teaser 选图参照，原论文 Figure 2。整图用于比较方法范式，含有网络和算子局部示意；按整体表达目的归入 Teaser。",
+    "figure_subtype": "physics-data-method-comparison",
+    "panel_layout": {
+      "method_families": 3,
+      "condition_panels": 4,
+      "summary": "3 类方法＋4 种物理／数据条件；上层展示 PINNs 和算子学习，下层展开 PINO 的两种路径。",
+      "counting_note": "三类方法是 PINNs、算子学习和 PINO；四种条件来自图中重复使用的 Physical Laws／Data 图示。底层两条路径同属 PINO，不另算第四类方法。"
+    },
+    "why_selected": "同一套物理信息／数据条件标记贯穿多个子区，各区给出相应方法的科学示意和求解路径。子图围绕一个共同问题形成对照，能同时说明方法差异、适用条件及相互融合的关系。",
+    "what_to_borrow": [
+      "复用同一组条件图示，让读者用统一规则理解不同方法。",
+      "每个子区包含方法内容，使用网络、算子、损失或求解路径解释概念。",
+      "上下两层分别呈现基础范式和融合范式，连接线说明它们的联系。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview",
+    "user_reference": true,
+    "design_notes": [
+      "为三类方法加上同级标题，并把物理／数据条件整理成位置一致的角标。",
+      "在 teaser 版本中适度收起训练循环与网络内部细节，保留约束来源、关键算子和主要关系。",
+      "统一箭头、字体、边框和留白；同类信息采用一致颜色，减少读者反复辨认。"
+    ]
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2410.19843v3",
+    "authors": [
+      "Wang, Yizheng",
+      "Bai, Jinshuai",
+      "Lin, Zhongya",
+      "Wang, Qimin",
+      "Anitescu, Cosmin",
+      "Sun, Jia",
+      "Eshaghi, Mohammad Sadegh",
+      "Gu, Yuantong",
+      "Feng, Xi-Qiao",
+      "Zhuang, Xiaoying",
+      "Rabczuk, Timon",
+      "Liu, Yinghua"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2410.19843v3",
+      "https://arxiv.org/abs/2410.19843v3",
+      "https://arxiv.org/pdf/2410.19843v3",
+      "https://arxiv.org/src/2410.19843v3"
+    ],
+    "arxiv_id": "2410.19843v3",
+    "full_pdf_url": "https://arxiv.org/pdf/2410.19843v3",
+    "full_pdf_sha256": "1551705f4364b4f0f54caa9c2f43e2f69d653a4715fa05e6112c6aea5e86c81a",
+    "full_pdf_bytes": 24307556,
+    "page_number": 5,
+    "figure_number": 2,
+    "original_sha256": "95366c9e64a777801321ecd8f41ba125e1f010bf5899b2616d6b377814448519",
+    "original_bytes": 347432,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2410.19843v3",
+    "archive_sha256": "d0053edc1c90316295e7ee8ecd4c3db9897f60ff3a555cc75717cb3d196d865b",
+    "archive_bytes": 23373104,
+    "archive_member": "PINNs_operator_PINO.pdf",
+    "inclusion_member": "AI4PDEs_CM.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 205,
+    "pdf_text_spans": 108,
+    "embedded_raster_images": 1,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 39,
+      "path": 441,
+      "mask": 1,
+      "g": 48,
+      "image": 2,
+      "use": 535
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。原图中的嵌入位图可移动或替换，不能按矢量节点编辑。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 919,
+      "sha256": "df8b67f2ba8777b01cb3e9818314d8a44bc4dd0dcba5beab4c33666b597c4182"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 798,
+      "sha256": "6b61113468d7bce49c801d93568de5646c161547806a2b994f7f7f4c5d19a25d"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 347432,
+      "sha256": "95366c9e64a777801321ecd8f41ba125e1f010bf5899b2616d6b377814448519"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 227719,
+      "sha256": "ed710d8ec0a810d2d790cdd3769dccb438a7dbc0494d9b32a40451d767c00ce7"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 350142,
+      "sha256": "976d01dcfbd58062c5a58106e3013ad1d1664f29f63ce752f4a697297cc8c145"
+    }
+  ]
+}

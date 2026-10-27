@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "counts": {
-    "teaser": 40,
+    "teaser": 42,
     "architecture": 45,
     "element": 341,
     "mechanism": 17,
@@ -3144,6 +3144,350 @@
       "readme_path": "teaser/survey-agent-society-teaser/README.md",
       "primary_path": "teaser/survey-agent-society-teaser/original.pdf",
       "preview_path": "teaser/survey-agent-society-teaser/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-ai-pde-physics-data-paradigms",
+      "title": "AI for PDEs · 物理与数据条件下的三类方法对照",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "user-reference",
+        "conceptual-overview",
+        "method-comparison",
+        "ai4pde",
+        "ai-pde-mechanics",
+        "2024"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "同一套物理信息／数据条件标记贯穿多个子区，各区给出相应方法的科学示意和求解路径。子图围绕一个共同问题形成对照，能同时说明方法差异、适用条件及相互融合的关系。",
+      "publication": {
+        "title": "Artificial intelligence for partial differential equations in computational mechanics: A review",
+        "venue": "arXiv",
+        "year": 2024,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2410.19843v3",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2410.19843v3"
+      },
+      "curation": {
+        "figure_role": "用户指定的综述 teaser 选图参照，原论文 Figure 2。整图用于比较方法范式，含有网络和算子局部示意；按整体表达目的归入 Teaser。",
+        "figure_subtype": "physics-data-method-comparison",
+        "panel_layout": {
+          "method_families": 3,
+          "condition_panels": 4,
+          "summary": "3 类方法＋4 种物理／数据条件；上层展示 PINNs 和算子学习，下层展开 PINO 的两种路径。",
+          "counting_note": "三类方法是 PINNs、算子学习和 PINO；四种条件来自图中重复使用的 Physical Laws／Data 图示。底层两条路径同属 PINO，不另算第四类方法。"
+        },
+        "why_selected": "同一套物理信息／数据条件标记贯穿多个子区，各区给出相应方法的科学示意和求解路径。子图围绕一个共同问题形成对照，能同时说明方法差异、适用条件及相互融合的关系。",
+        "what_to_borrow": [
+          "复用同一组条件图示，让读者用统一规则理解不同方法。",
+          "每个子区包含方法内容，使用网络、算子、损失或求解路径解释概念。",
+          "上下两层分别呈现基础范式和融合范式，连接线说明它们的联系。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview",
+        "user_reference": true,
+        "design_notes": [
+          "为三类方法加上同级标题，并把物理／数据条件整理成位置一致的角标。",
+          "在 teaser 版本中适度收起训练循环与网络内部细节，保留约束来源、关键算子和主要关系。",
+          "统一箭头、字体、边框和留白；同类信息采用一致颜色，减少读者反复辨认。"
+        ]
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2410.19843v3",
+        "authors": [
+          "Wang, Yizheng",
+          "Bai, Jinshuai",
+          "Lin, Zhongya",
+          "Wang, Qimin",
+          "Anitescu, Cosmin",
+          "Sun, Jia",
+          "Eshaghi, Mohammad Sadegh",
+          "Gu, Yuantong",
+          "Feng, Xi-Qiao",
+          "Zhuang, Xiaoying",
+          "Rabczuk, Timon",
+          "Liu, Yinghua"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2410.19843v3",
+          "https://arxiv.org/abs/2410.19843v3",
+          "https://arxiv.org/pdf/2410.19843v3",
+          "https://arxiv.org/src/2410.19843v3"
+        ],
+        "arxiv_id": "2410.19843v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2410.19843v3",
+        "full_pdf_sha256": "1551705f4364b4f0f54caa9c2f43e2f69d653a4715fa05e6112c6aea5e86c81a",
+        "full_pdf_bytes": 24307556,
+        "page_number": 5,
+        "figure_number": 2,
+        "original_sha256": "95366c9e64a777801321ecd8f41ba125e1f010bf5899b2616d6b377814448519",
+        "original_bytes": 347432,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2410.19843v3",
+        "archive_sha256": "d0053edc1c90316295e7ee8ecd4c3db9897f60ff3a555cc75717cb3d196d865b",
+        "archive_bytes": 23373104,
+        "archive_member": "PINNs_operator_PINO.pdf",
+        "inclusion_member": "AI4PDEs_CM.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text"
+        },
+        "pdf_drawing_objects": 205,
+        "pdf_text_spans": 108,
+        "embedded_raster_images": 1,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 39,
+          "path": 441,
+          "mask": 1,
+          "g": 48,
+          "image": 2,
+          "use": 535
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。原图中的嵌入位图可移动或替换，不能按矢量节点编辑。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 919,
+          "sha256": "df8b67f2ba8777b01cb3e9818314d8a44bc4dd0dcba5beab4c33666b597c4182"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 798,
+          "sha256": "6b61113468d7bce49c801d93568de5646c161547806a2b994f7f7f4c5d19a25d"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 347432,
+          "sha256": "95366c9e64a777801321ecd8f41ba125e1f010bf5899b2616d6b377814448519"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 227719,
+          "sha256": "ed710d8ec0a810d2d790cdd3769dccb438a7dbc0494d9b32a40451d767c00ce7"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 350142,
+          "sha256": "976d01dcfbd58062c5a58106e3013ad1d1664f29f63ce752f4a697297cc8c145"
+        }
+      ],
+      "path": "teaser/survey-ai-pde-physics-data-paradigms",
+      "metadata_path": "teaser/survey-ai-pde-physics-data-paradigms/metadata.json",
+      "readme_path": "teaser/survey-ai-pde-physics-data-paradigms/README.md",
+      "primary_path": "teaser/survey-ai-pde-physics-data-paradigms/original.pdf",
+      "preview_path": "teaser/survey-ai-pde-physics-data-paradigms/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-ai-pde-scope-map",
+      "title": "AI for PDEs · 领域定位、方法与应用全景",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "user-reference",
+        "conceptual-overview",
+        "scope-method-application-map",
+        "ai4pde",
+        "ai-pde-mechanics",
+        "2024"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "从 AI4Science 中的领域位置出发，将三类 AI4PDE 方法连接到计算力学，再按三个应用领域及正反问题展开。分类、范围和研究对象形成一条完整主线，是内容充实的综述概念总览。",
+      "publication": {
+        "title": "Artificial intelligence for partial differential equations in computational mechanics: A review",
+        "venue": "arXiv",
+        "year": 2024,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2410.19843v3",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-27",
+        "source_version": "2410.19843v3"
+      },
+      "curation": {
+        "figure_role": "用户指定的综述 teaser 选图参照，原论文 Figure 1。重点在领域定位与方法—应用关系；后续可在保留内容关系的基础上统一视觉设计。",
+        "figure_subtype": "scope-method-application-map",
+        "panel_layout": {
+          "method_families": 3,
+          "application_domains": 3,
+          "problem_types": 2,
+          "task_labels": 18,
+          "summary": "领域定位圆环＋3 类方法＋3 类力学应用；按正问题与反问题展开 18 个任务标签。",
+          "counting_note": "方法分为 PINNs、算子学习和 PINO；应用分为固体力学、流体力学、生物力学。18 是末端任务标签数，不作为独立场景图片数。"
+        },
+        "why_selected": "从 AI4Science 中的领域位置出发，将三类 AI4PDE 方法连接到计算力学，再按三个应用领域及正反问题展开。分类、范围和研究对象形成一条完整主线，是内容充实的综述概念总览。",
+        "what_to_borrow": [
+          "先回答研究位于哪个领域，再交代方法类别和应用范围。",
+          "领域圆环、方法汇合与应用树各承担一种信息层级，共用一个中心对象。",
+          "三个应用领域沿用正问题／反问题的相同组织规则，便于横向阅读。"
+        ],
+        "reviewed_from": "original paper page, native author figure, and final rendered preview",
+        "user_reference": true,
+        "design_notes": [
+          "统一领域圆环、方法块和应用分支的字号、线宽与配色层级。",
+          "压缩二级任务标签的视觉权重，为固体、流体和生物力学各配置有真实来源的代表性科学示意图。",
+          "调整圆环与树状区域的面积比例，让中心对象和主阅读路径更突出。"
+        ]
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2410.19843v3",
+        "authors": [
+          "Wang, Yizheng",
+          "Bai, Jinshuai",
+          "Lin, Zhongya",
+          "Wang, Qimin",
+          "Anitescu, Cosmin",
+          "Sun, Jia",
+          "Eshaghi, Mohammad Sadegh",
+          "Gu, Yuantong",
+          "Feng, Xi-Qiao",
+          "Zhuang, Xiaoying",
+          "Rabczuk, Timon",
+          "Liu, Yinghua"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2410.19843v3",
+          "https://arxiv.org/abs/2410.19843v3",
+          "https://arxiv.org/pdf/2410.19843v3",
+          "https://arxiv.org/src/2410.19843v3"
+        ],
+        "arxiv_id": "2410.19843v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2410.19843v3",
+        "full_pdf_sha256": "1551705f4364b4f0f54caa9c2f43e2f69d653a4715fa05e6112c6aea5e86c81a",
+        "full_pdf_bytes": 24307556,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "435f8a72363bd19b9b47d3d732c838a38d513354baaaf4bdf1212bab376b0d8d",
+        "original_bytes": 291953,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2410.19843v3",
+        "archive_sha256": "d0053edc1c90316295e7ee8ecd4c3db9897f60ff3a555cc75717cb3d196d865b",
+        "archive_bytes": 23373104,
+        "archive_member": "relationship_AI_ML_DL.pdf",
+        "inclusion_member": "AI4PDEs_CM.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录版本的 arXiv 非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用需核对原权利。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent vector-and-image PDF",
+        "level": "vector",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained where present",
+          "svg": "outlined text"
+        },
+        "pdf_drawing_objects": 80,
+        "pdf_text_spans": 97,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "path": 156,
+          "clipPath": 11,
+          "g": 12,
+          "use": 698
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "独立 PDF 保留作者原有矢量图形、连线和文本对象；SVG 文字转轮廓。此独立 PDF 未检测到嵌入位图。",
+          "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+        "保存原始插图定义、子图计数口径、来源和预览。",
+        "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 921,
+          "sha256": "9ee2165e2e506f67bbbcd9789ee15562a29545b88bf9ae4146a200b9dfc7ef96"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 321,
+          "sha256": "0a56279844d1c3553ae7377b108d7434f121bc8cfe122f69227a4237d87df3a6"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 291953,
+          "sha256": "435f8a72363bd19b9b47d3d732c838a38d513354baaaf4bdf1212bab376b0d8d"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 193037,
+          "sha256": "7070d750b3fdcfd67609f2d764049e96b7ab20839812367b7a6421532fcc50f5"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 125889,
+          "sha256": "eb215bfd4e5f19275c13a5a551bf1ddaeaa8200bc069ef49004c9c65195f38bc"
+        }
+      ],
+      "path": "teaser/survey-ai-pde-scope-map",
+      "metadata_path": "teaser/survey-ai-pde-scope-map/metadata.json",
+      "readme_path": "teaser/survey-ai-pde-scope-map/README.md",
+      "primary_path": "teaser/survey-ai-pde-scope-map/original.pdf",
+      "preview_path": "teaser/survey-ai-pde-scope-map/preview.png"
     },
     {
       "schema_version": 1,

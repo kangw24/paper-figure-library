@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "3detr-architecture",
+  "title": "3DETR · 点云编码器、查询嵌入与集合预测",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "architecture",
+    "3detr",
+    "ICCV",
+    "2021",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "左侧将点集到检测集合的主干压缩成一条水平线，右侧放大查询点、位置编码和查询嵌入的来源。",
+  "publication": {
+    "title": "An End-to-End Transformer Model for 3D Object Detection",
+    "venue": "ICCV",
+    "year": 2021,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://facebookresearch.github.io/3detr/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "点云 Transformer 的整体网络与查询构造。",
+    "why_selected": "左侧将点集到检测集合的主干压缩成一条水平线，右侧放大查询点、位置编码和查询嵌入的来源。",
+    "what_to_borrow": [
+      "整体主干与关键输入构造相邻呈现",
+      "用集合对象表达无序输入输出",
+      "查询嵌入通过统一颜色贯穿两部分"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://facebookresearch.github.io/3detr/",
+    "authors": [
+      "Misra, Ishan",
+      "Girdhar, Rohit",
+      "Joulin, Armand"
+    ],
+    "urls": [
+      "https://facebookresearch.github.io/3detr/",
+      "https://arxiv.org/abs/2109.08141",
+      "https://arxiv.org/pdf/2109.08141",
+      "https://facebookresearch.github.io/3detr/"
+    ],
+    "arxiv_id": "2109.08141",
+    "full_pdf_url": "https://arxiv.org/pdf/2109.08141",
+    "full_pdf_sha256": "bbffb16b2fbdf38aed66cd018783603379a47cd95b95f94c38a734dc9841dda5",
+    "full_pdf_bytes": 24592382,
+    "page_number": 3,
+    "figure_number": 2,
+    "crop_bbox_pt": [
+      48,
+      68,
+      547,
+      135
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 25,
+    "pdf_drawing_objects": 75,
+    "embedded_raster_images": 5,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 210,
+      "path": 139,
+      "clipPath": 15,
+      "image": 8,
+      "mask": 5,
+      "use": 218
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 转为自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 460,
+      "sha256": "76221ee9d04a2436ece36866c77463bf4895fd1cf0bffcb632cb934a7872111e"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 1033705,
+      "sha256": "99845ae975cb4cf5396d4352efcd5b72104399116f32b23d3c576cbd563183c3"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 59478,
+      "sha256": "4ef4acf3e879036581632b6d5c341bd769592cf5a05a73db9440f592061ca8b0"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1323283,
+      "sha256": "3db7109584d146befe909512858c9a8496576ea25a8a5aeec76825464b97bb97"
+    }
+  ]
+}

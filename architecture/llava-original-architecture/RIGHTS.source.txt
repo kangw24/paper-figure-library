@@ -1,0 +1,6 @@
+Paper: Visual Instruction Tuning
+Authors: Liu, Haotian, Li, Chunyuan, Wu, Qingyang, Lee, Yong Jae
+Paper URL: https://arxiv.org/abs/2304.08485
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。
+Figure excerpt and conversion only; no redrawing.

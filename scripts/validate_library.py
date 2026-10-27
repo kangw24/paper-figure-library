@@ -59,7 +59,7 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
         else:
             ids.add(value)
 
-    for category, directory in (("teaser", "examples/teasers"), ("architecture", "examples/architectures"), ("mechanism", "references/mechanisms"), ("layout-template", "templates/layouts")):
+    for category, directory in (("teaser", "teaser"), ("architecture", "architecture"), ("mechanism", "references/mechanisms"), ("layout-template", "templates/layouts")):
         folder = root / directory
         for entry in sorted(folder.iterdir()) if folder.is_dir() else []:
             if not entry.is_dir() or entry.name.startswith("."):
@@ -144,7 +144,7 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
                     if actual_blob != source['git_blob_sha']:
                         error(primary, '原始下载文件与上游 Git blob 不符')
 
-    element_file = root / "elements" / "catalog.json"
+    element_file = root / "element" / "catalog.json"
     elements = read_json(element_file)
     if elements is not None:
         items = elements.get("items", [])
@@ -177,14 +177,14 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
                 if not original.is_file() or hashlib.sha256(original.read_bytes()).hexdigest() != source.get('original_sha256'):
                     error(svg_file, '提取来源缺失或原图哈希不符')
         for name in ("README.md", "all-elements.svg", "preview.png"):
-            local_file(root / "elements", name, "元素库总览")
+            local_file(root / "element", name, "元素库总览")
 
-    if (root / "examples/relationships.json").exists():
+    if (root / "relationships.json").exists():
         from build_links import load as load_links
         try:
             load_links(root)
         except (ValueError, KeyError, OSError) as exc:
-            error("examples/relationships.json", "范例与元素关联无效: " + str(exc))
+            error("relationships.json", "范例与元素关联无效: " + str(exc))
 
     for path in sorted(root.rglob("*.svg")):
         if ".git" in path.parts:

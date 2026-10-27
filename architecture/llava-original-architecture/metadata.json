@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "id": "llava-original-architecture",
+  "title": "LLaVA · 视觉投影与语言 token 的统一输入",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "architecture",
+    "llava",
+    "NeurIPS",
+    "2023",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "用颜色和形状区分视觉 token、指令 token 与生成 token，投影层把图像特征接入语言模型的关系简洁清楚。",
+  "publication": {
+    "title": "Visual Instruction Tuning",
+    "venue": "NeurIPS",
+    "year": 2023,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://github.com/haotian-liu/LLaVA",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "视觉语言模型的精简整体架构。",
+    "why_selected": "用颜色和形状区分视觉 token、指令 token 与生成 token，投影层把图像特征接入语言模型的关系简洁清楚。",
+    "what_to_borrow": [
+      "少量模块即可交代多模态连接",
+      "输入与输出 token 保持可辨认的身份",
+      "斜向细连线表达自回归依赖"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://llava-vl.github.io/",
+    "authors": [
+      "Liu, Haotian",
+      "Li, Chunyuan",
+      "Wu, Qingyang",
+      "Lee, Yong Jae"
+    ],
+    "urls": [
+      "https://llava-vl.github.io/",
+      "https://arxiv.org/abs/2304.08485",
+      "https://arxiv.org/pdf/2304.08485",
+      "https://github.com/haotian-liu/LLaVA"
+    ],
+    "arxiv_id": "2304.08485",
+    "full_pdf_url": "https://arxiv.org/pdf/2304.08485",
+    "full_pdf_sha256": "dc8bace378a282ea78caa9b5959306202fbfa3b8cedaf8a66541a9af18f4d3bf",
+    "full_pdf_bytes": 5906135,
+    "page_number": 4,
+    "figure_number": 1,
+    "crop_bbox_pt": [
+      167,
+      284,
+      444,
+      382
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 25,
+    "pdf_drawing_objects": 45,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 142,
+      "path": 84,
+      "clipPath": 16,
+      "rect": 2,
+      "use": 96
+    },
+    "notes": [
+      "结构与文字轮廓均为矢量路径；另附 PDF 摘图保留原字体和结构。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 13
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 转为自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 415,
+      "sha256": "e16445d08964d34d5c94a76b8136bd13e2b954532898ec7c0dbcb482fcae8bd5"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 316812,
+      "sha256": "42d2e8318618577b5101b53e1c92c73794503e60a87c7314ca29e0883bf24ca3"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 25437,
+      "sha256": "b975900569044621f6e889ccd6b36d71dea382c287785c72b0ef664496b09d8b"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 57217,
+      "sha256": "dd70006b08fff9c8cd6f408a0ce1a4155d3148abb833dda9a35412ac900d5c4d"
+    }
+  ]
+}

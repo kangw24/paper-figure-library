@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "id": "sam2-memory-architecture",
+  "title": "SAM 2 · 流式编码、记忆注意力与记忆库",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "architecture",
+    "sam2",
+    "ICLR",
+    "2025",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "沿时间方向叠放帧和特征，主线保留当前帧的编码与解码，顶部多条回线单独表达历史记忆参与计算。",
+  "publication": {
+    "title": "SAM 2: Segment Anything in Images and Videos",
+    "venue": "ICLR",
+    "year": 2025,
+    "presentation": "oral",
+    "award": "Best Paper Honorable Mention",
+    "evidence_url": "https://feichtenhofer.github.io/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "有状态视频模型的网络架构与信息流。",
+    "why_selected": "沿时间方向叠放帧和特征，主线保留当前帧的编码与解码，顶部多条回线单独表达历史记忆参与计算。",
+    "what_to_borrow": [
+      "时间通过帧堆叠与透明度表达",
+      "主计算线与记忆回流分开走线",
+      "提示输入在解码器下方就地接入"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://github.com/facebookresearch/sam2",
+    "authors": [
+      "Ravi, Nikhila",
+      "Gabeur, Valentin",
+      "Hu, Yuan-Ting",
+      "Hu, Ronghang",
+      "Ryali, Chaitanya",
+      "Ma, Tengyu",
+      "Khedr, Haitham",
+      "Rädle, Roman",
+      "Rolland, Chloe",
+      "Gustafson, Laura",
+      "Mintun, Eric",
+      "Pan, Junting",
+      "Alwala, Kalyan Vasudev",
+      "Carion, Nicolas",
+      "Wu, Chao-Yuan",
+      "Girshick, Ross",
+      "Dollár, Piotr",
+      "Feichtenhofer, Christoph"
+    ],
+    "urls": [
+      "https://github.com/facebookresearch/sam2",
+      "https://arxiv.org/abs/2408.00714",
+      "https://arxiv.org/pdf/2408.00714",
+      "https://feichtenhofer.github.io/"
+    ],
+    "arxiv_id": "2408.00714",
+    "full_pdf_url": "https://arxiv.org/pdf/2408.00714",
+    "full_pdf_sha256": "664f5c4254db441569ecfe36a2a2fa91a1ecec5f4d31b3bcc5d451193efc2c0d",
+    "full_pdf_bytes": 12709657,
+    "page_number": 5,
+    "figure_number": 3,
+    "crop_bbox_pt": [
+      69,
+      45,
+      543,
+      165
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 14,
+    "pdf_drawing_objects": 92,
+    "embedded_raster_images": 8,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 182,
+      "clipPath": 27,
+      "path": 114,
+      "mask": 13,
+      "rect": 10,
+      "image": 16,
+      "use": 115
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 转为自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 702,
+      "sha256": "a9723f7bf0622b14f89c116712f51695ae1989102d7a69bae624af7cab675be5"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 242262,
+      "sha256": "066e9251d203814c117690a5a6c2613dd6748bf919a9494adc414f2de6b70862"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 118869,
+      "sha256": "69808e842649301e4ec8dbd4871c96ee50d5d41ae3d0ae7fe016ebb881d92c21"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 754705,
+      "sha256": "4eecd8818269e03392db47fc83d87e79bb7a4f3d10671a28aea55bf2d9756ec7"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "blip2-bridge-framework",
+  "title": "BLIP-2 · 冻结图像与语言模型的两阶段桥接",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "architecture",
+    "blip2",
+    "ICML",
+    "2023",
+    "poster"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "左右两块分别说明表示学习和生成学习，只让中间的 Q-Former 成为主要可训练连接，冻结标记紧邻对应基础模型。",
+  "publication": {
+    "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+    "venue": "ICML",
+    "year": 2023,
+    "presentation": "poster",
+    "award": null,
+    "evidence_url": "https://icml.cc/virtual/2023/poster/25182",
+    "evidence_type": "official-conference",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "两阶段预训练框架；Q-Former 内部结构另列。",
+    "why_selected": "左右两块分别说明表示学习和生成学习，只让中间的 Q-Former 成为主要可训练连接，冻结标记紧邻对应基础模型。",
+    "what_to_borrow": [
+      "两阶段分别给出输入与目标",
+      "突出轻量桥接模块",
+      "将冻结与训练标记放在实际模块旁"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://github.com/salesforce/LAVIS/tree/main/projects/blip2",
+    "authors": [
+      "Li, Junnan",
+      "Li, Dongxu",
+      "Savarese, Silvio",
+      "Hoi, Steven"
+    ],
+    "urls": [
+      "https://github.com/salesforce/LAVIS/tree/main/projects/blip2",
+      "https://arxiv.org/abs/2301.12597",
+      "https://arxiv.org/pdf/2301.12597",
+      "https://icml.cc/virtual/2023/poster/25182"
+    ],
+    "arxiv_id": "2301.12597",
+    "full_pdf_url": "https://arxiv.org/pdf/2301.12597",
+    "full_pdf_sha256": "6bc5d399d6127a64ace5167a2f0c00112a49725d2475d80322dbf0083f139e80",
+    "full_pdf_bytes": 6737540,
+    "page_number": 1,
+    "figure_number": 1,
+    "crop_bbox_pt": [
+      305,
+      215,
+      544,
+      324
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 24,
+    "pdf_drawing_objects": 34,
+    "embedded_raster_images": 3,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 317,
+      "path": 123,
+      "clipPath": 5,
+      "image": 5,
+      "mask": 3,
+      "use": 388
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 转为自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 490,
+      "sha256": "fb5a6af332c320ce5cb4254e8c8cc26ea0ff8e0990455f88a6824f9351a8ebd4"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 844860,
+      "sha256": "4670588d4a29f9d1e4e34ba07ed16c128e6a2e4a2fb145eb101324e232897e21"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 44695,
+      "sha256": "a5d7ad5928a7838df06c2af6df76ecbd72da4c11038a1178b359ced33ab77a42"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 687789,
+      "sha256": "02b1fdae2c7cb06fd6393c942925e7c9888557a74616dee5038687be4c5ee89d"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "id": "sam2-task-model-data",
+  "title": "SAM 2 · 任务、模型与数据引擎三联概念图",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "teaser",
+    "sam2",
+    "ICLR",
+    "2025",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "三个并列区域分别回答方法解决什么任务、依靠什么模型、数据如何形成闭环，任务、模型与数据之间还有明确的对应连线。",
+  "publication": {
+    "title": "SAM 2: Segment Anything in Images and Videos",
+    "venue": "ICLR",
+    "year": 2025,
+    "presentation": "oral",
+    "award": "Best Paper Honorable Mention",
+    "evidence_url": "https://feichtenhofer.github.io/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "任务与核心方案的概念总览 teaser；详细网络结构另列。",
+    "why_selected": "三个并列区域分别回答方法解决什么任务、依靠什么模型、数据如何形成闭环，任务、模型与数据之间还有明确的对应连线。",
+    "what_to_borrow": [
+      "按任务、模型、数据组织首图",
+      "局部保留必要结构，其余用大模块概括",
+      "用闭环说明数据与模型的共同改进"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://github.com/facebookresearch/sam2",
+    "authors": [
+      "Ravi, Nikhila",
+      "Gabeur, Valentin",
+      "Hu, Yuan-Ting",
+      "Hu, Ronghang",
+      "Ryali, Chaitanya",
+      "Ma, Tengyu",
+      "Khedr, Haitham",
+      "Rädle, Roman",
+      "Rolland, Chloe",
+      "Gustafson, Laura",
+      "Mintun, Eric",
+      "Pan, Junting",
+      "Alwala, Kalyan Vasudev",
+      "Carion, Nicolas",
+      "Wu, Chao-Yuan",
+      "Girshick, Ross",
+      "Dollár, Piotr",
+      "Feichtenhofer, Christoph"
+    ],
+    "urls": [
+      "https://github.com/facebookresearch/sam2",
+      "https://arxiv.org/abs/2408.00714",
+      "https://arxiv.org/pdf/2408.00714",
+      "https://feichtenhofer.github.io/"
+    ],
+    "arxiv_id": "2408.00714",
+    "full_pdf_url": "https://arxiv.org/pdf/2408.00714",
+    "full_pdf_sha256": "664f5c4254db441569ecfe36a2a2fa91a1ecec5f4d31b3bcc5d451193efc2c0d",
+    "full_pdf_bytes": 12709657,
+    "page_number": 2,
+    "figure_number": 1,
+    "crop_bbox_pt": [
+      70,
+      63,
+      543,
+      223
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 0,
+    "pdf_drawing_objects": 284,
+    "embedded_raster_images": 31,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 49,
+      "path": 333,
+      "image": 31,
+      "g": 49,
+      "use": 31
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 转为自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 702,
+      "sha256": "a9723f7bf0622b14f89c116712f51695ae1989102d7a69bae624af7cab675be5"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 299166,
+      "sha256": "6bfa888ddb7958b42c99fbbb60b15f8aabcf9017712ba7430212011e7ea141e8"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 143882,
+      "sha256": "99b89e794beaf5126395e31180fd84b0308098c04d5a9904f2c493803fb7fc58"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 910066,
+      "sha256": "3ac8dfd96e7584916010564bc39c6d2cde74b7264dbfcd824afaa3dddda3dbd8"
+    }
+  ]
+}

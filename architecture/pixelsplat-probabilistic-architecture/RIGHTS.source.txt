@@ -1,0 +1,6 @@
+Paper: pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction
+Authors: Charatan, David, Li, Sizhe, Tagliasacchi, Andrea, Sitzmann, Vincent
+Paper URL: https://arxiv.org/abs/2312.12337
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。
+Figure excerpt and conversion only; no redrawing.

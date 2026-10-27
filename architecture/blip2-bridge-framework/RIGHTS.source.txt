@@ -1,0 +1,6 @@
+Paper: BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models
+Authors: Li, Junnan, Li, Dongxu, Savarese, Silvio, Hoi, Steven
+Paper URL: https://arxiv.org/abs/2301.12597
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。
+Figure excerpt and conversion only; no redrawing.

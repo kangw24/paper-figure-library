@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "id": "3detr-attention-teaser",
+  "title": "3DETR · 输入点云、注意力与检测结果的对应",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "teaser",
+    "3detr",
+    "ICCV",
+    "2021",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "每一行沿输入点云、解码器注意力、检测结果排列，直接展示模型如何把空间关注区域与目标实例联系起来。",
+  "publication": {
+    "title": "An End-to-End Transformer Model for 3D Object Detection",
+    "venue": "ICCV",
+    "year": 2021,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://facebookresearch.github.io/3detr/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "能力与内部现象结合的 teaser，场景本身仍是原始位图。",
+    "why_selected": "每一行沿输入点云、解码器注意力、检测结果排列，直接展示模型如何把空间关注区域与目标实例联系起来。",
+    "what_to_borrow": [
+      "输入、中间解释与输出形成三列",
+      "同一实例的对应位置保持一致",
+      "用中间可视化支持核心观点"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://facebookresearch.github.io/3detr/",
+    "authors": [
+      "Misra, Ishan",
+      "Girdhar, Rohit",
+      "Joulin, Armand"
+    ],
+    "urls": [
+      "https://facebookresearch.github.io/3detr/",
+      "https://arxiv.org/abs/2109.08141",
+      "https://arxiv.org/pdf/2109.08141",
+      "https://facebookresearch.github.io/3detr/"
+    ],
+    "arxiv_id": "2109.08141",
+    "full_pdf_url": "https://arxiv.org/pdf/2109.08141",
+    "full_pdf_sha256": "bbffb16b2fbdf38aed66cd018783603379a47cd95b95f94c38a734dc9841dda5",
+    "full_pdf_bytes": 24592382,
+    "page_number": 1,
+    "figure_number": 1,
+    "crop_bbox_pt": [
+      299,
+      210,
+      560,
+      318
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 3,
+    "pdf_drawing_objects": 2,
+    "embedded_raster_images": 6,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 68,
+      "path": 26,
+      "clipPath": 7,
+      "image": 12,
+      "mask": 6,
+      "use": 56
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 转为自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 460,
+      "sha256": "76221ee9d04a2436ece36866c77463bf4895fd1cf0bffcb632cb934a7872111e"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 12096710,
+      "sha256": "25ea8b0f351458bdb84c38b132752c83d3c268287589edc5982a15efc86b79ec"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 133820,
+      "sha256": "25143f71149a9f0ca34ef5033add4bfa700503c0c2f1f904f2a37f91b1f33b64"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 18872839,
+      "sha256": "53b72ebc2ae357a341be4158d702a9cfdbd791889da2bb2e1e8bf7ae9763a878"
+    }
+  ]
+}

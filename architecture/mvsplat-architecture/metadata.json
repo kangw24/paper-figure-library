@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "mvsplat-architecture",
+  "title": "MVSplat · 多视图匹配、代价体与三维高斯预测",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "architecture",
+    "mvsplat",
+    "ECCV",
+    "2024",
+    "oral"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "输入视图、匹配特征、代价体、深度及三维表示沿一条阅读方向展开，两个视图始终保持上下对应关系。",
+  "publication": {
+    "title": "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images",
+    "venue": "ECCV",
+    "year": 2024,
+    "presentation": "oral",
+    "award": null,
+    "evidence_url": "https://donydchen.github.io/mvsplat/",
+    "evidence_type": "author-project",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "整体网络与几何重建框架。",
+    "why_selected": "输入视图、匹配特征、代价体、深度及三维表示沿一条阅读方向展开，两个视图始终保持上下对应关系。",
+    "what_to_borrow": [
+      "对应视图沿全流程保持位置一致",
+      "用堆叠平面表达代价体",
+      "把深度反投影与高斯融合明确画出"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://donydchen.github.io/mvsplat/",
+    "authors": [
+      "Chen, Yuedong",
+      "Xu, Haofei",
+      "Zheng, Chuanxia",
+      "Zhuang, Bohan",
+      "Pollefeys, Marc",
+      "Geiger, Andreas",
+      "Cham, Tat-Jen",
+      "Cai, Jianfei"
+    ],
+    "urls": [
+      "https://donydchen.github.io/mvsplat/",
+      "https://arxiv.org/abs/2403.14627",
+      "https://arxiv.org/pdf/2403.14627",
+      "https://donydchen.github.io/mvsplat/"
+    ],
+    "arxiv_id": "2403.14627",
+    "full_pdf_url": "https://arxiv.org/pdf/2403.14627",
+    "full_pdf_sha256": "d1becb5361d7d8aa6f2e47d1e9e257031120b4207834f5effca049a8df7e4bb9",
+    "full_pdf_bytes": 5467161,
+    "page_number": 4,
+    "figure_number": 2,
+    "crop_bbox_pt": [
+      134,
+      112,
+      482,
+      207
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 73,
+    "pdf_drawing_objects": 48,
+    "embedded_raster_images": 8,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 324,
+      "path": 185,
+      "clipPath": 63,
+      "image": 10,
+      "mask": 3,
+      "use": 229,
+      "rect": 3
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 11
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 转为自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 525,
+      "sha256": "61f21c5330d4f4aaa958dff4096c196aacb8dfd489bbe87ee02039f88c880a41"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 397925,
+      "sha256": "90e13240f0ccebe19a5d7fac7d73da66d9057f78bf36128bd28f7135200ffb5d"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 71536,
+      "sha256": "9d6619730b873e80281b816310e3c898d281c59f55df4a794543628165f644c1"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 251015,
+      "sha256": "b7ae135c4338419dd69b8971829eac0be10f9af2e519bd576fce1525a867424c"
+    }
+  ]
+}

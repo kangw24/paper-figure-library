@@ -1,0 +1,405 @@
+# Architecture 范例
+
+[Teaser](../teaser/README.md) · [Architecture](README.md) · [Element](../element/README.md) · [总目录](../CATALOG.md)
+
+按图的表达用途浏览。会议、年份、Oral 等信息保留在各条目，不另设会议分类。
+
+| 表达用途 | 数量 | 入口 |
+|---|---:|---|
+| 整体方法与训练流程 | 13 | [浏览](#framework) |
+| 网络主干与模块展开 | 13 | [浏览](#network) |
+| 基础结构与教材范例 | 16 | [浏览](#tutorial) |
+
+<a id="framework"></a>
+
+## 整体方法与训练流程
+
+### [CUT3R · 持久状态的更新、读取与未见视角推断](cut3r-architecture/README.md)
+
+左侧按时间展开状态更新，右侧用独立色块解释状态读取；重建结果紧邻对应计算步骤。
+
+CVPR 2025 · Oral
+
+[![预览](cut3r-architecture/preview.png)](cut3r-architecture/README.md)
+
+[说明与源文件](cut3r-architecture/README.md) · [同论文：CUT3R · 静态、动态与稀疏照片三类场景](../teaser/cut3r-capabilities/README.md) · [关联元素](cut3r-architecture/README.md#关联范例与元素)
+
+### [DreamGaussian · 高斯生成、网格提取与纹理细化](dreamgaussian-architecture/README.md)
+
+三个带编号的区域分别解释表示初始化、表示转换和后续细化，同时把不同损失放在对应优化回路内。
+
+ICLR 2024 · Oral
+
+[![预览](dreamgaussian-architecture/preview.png)](dreamgaussian-architecture/README.md)
+
+[说明与源文件](dreamgaussian-architecture/README.md) · [同论文：DreamGaussian · 生成能力与优化进程同图展示](../teaser/dreamgaussian-progress/README.md) · [关联元素](dreamgaussian-architecture/README.md#关联范例与元素)
+
+### [Genie · 视频 tokenizer、潜在动作与动力学模型](genie-architecture/README.md)
+
+只保留三个核心模块，视频 tokens 与潜在动作分别编码后汇入动力学模型；简单分支就讲清训练信息来源。
+
+ICML 2024 · Oral
+
+**整图位图，仅构图参考。**
+
+[![预览](genie-architecture/preview.png)](genie-architecture/README.md)
+
+[说明与源文件](genie-architecture/README.md) · [同论文：Genie · 不同提示生成可交互世界](../teaser/genie-interaction/README.md) · [关联元素](genie-architecture/README.md#关联范例与元素)
+
+### [VAR · 多尺度 VQVAE 与 VAR 两阶段训练](var-architecture/README.md)
+
+两块并列区域分别解释表示学习和自回归训练，尺度、token 序列和因果 mask 的对应关系可在图中追踪。
+
+NeurIPS 2024 · Oral
+
+[![预览](var-architecture/preview.png)](var-architecture/README.md)
+
+[说明与源文件](var-architecture/README.md) · [同论文：VAR · 从逐 token 到逐尺度生成的范式对照](../teaser/var-paradigm/README.md) · [关联元素](var-architecture/README.md#关联范例与元素)
+
+### [LGM · 从文本或图像到三维高斯和网格的流程](lgm-pipeline/README.md)
+
+用少量大模块完成端到端说明，同时把各阶段耗时直接放在阶段下方，适合紧凑的方法总览。
+
+ECCV 2024 · Oral
+
+[![预览](lgm-pipeline/preview.png)](lgm-pipeline/README.md)
+
+[说明与源文件](lgm-pipeline/README.md) · [同论文：LGM · 非对称 U-Net 与跨视角注意力](lgm-architecture/README.md) · [关联元素](lgm-pipeline/README.md#关联范例与元素)
+
+### [3D Gaussian Splatting · 优化与光栅化双向流程](gaussian-splatting-architecture/README.md)
+
+黑色实线和蓝色箭头分别表达正向操作与梯度回传，让自适应密度控制与可微渲染的关系无需依赖长图注。
+
+SIGGRAPH 2023 · 会议论文；未核实 Oral
+
+[![预览](gaussian-splatting-architecture/preview.png)](gaussian-splatting-architecture/README.md)
+
+[说明与源文件](gaussian-splatting-architecture/README.md) · [关联元素](gaussian-splatting-architecture/README.md#关联范例与元素)
+
+### [CLIP Figure 1：训练到零样本预测](clip/README.md)
+
+CLIP 的训练与零样本使用流程，按方法流程归入 architecture。
+
+[![预览](clip/preview.png)](clip/README.md)
+
+[说明与源文件](clip/README.md) · [关联元素](clip/README.md#关联范例与元素)
+
+### [RayDer：统一 Transformer 的两个使用阶段](rayder/README.md)
+
+左右并列相机估计与新视角合成，清楚标明共用模型与不同输入输出。
+
+[![预览](rayder/preview.png)](rayder/README.md)
+
+[说明与源文件](rayder/README.md) · [同论文：RayDer：数据瓶颈与新训练范式](../teaser/rayder-concept/README.md) · [关联元素](rayder/README.md#关联范例与元素)
+
+### [RUST：编码器、场景表示与位姿分支](rust/README.md)
+
+无位姿输入图像经 Encoder、场景表示、Decoder 输出新视角，训练时有 Pose Estimator 分支。按内容归入 architecture。
+
+[![预览](rust/preview.png)](rust/README.md)
+
+[说明与源文件](rust/README.md) · [关联元素](rust/README.md#关联范例与元素)
+
+### [LAV：感知、预测与驾驶控制流程](lav/README.md)
+
+多摄像头输入、语义分割、传感器融合、三维主干、运动预测与控制的整体数据流。原文件虽叫 teaser.svg，按内容归入 architecture。
+
+[![预览](lav/preview.png)](lav/README.md)
+
+[说明与源文件](lav/README.md) · [关联元素](lav/README.md#关联范例与元素)
+
+### [SAM / LoRA 总体流程与 Transformer 模块](sam-lora/README.md)
+
+作者 Illustrator 科研绘图教程中的 SAM / LoRA 案例，含总体方法流程与 Transformer／LoRA 模块结构，共 2 个画板；公开的 PNG、PDF 与 PPTX 配套素材一并保留。
+
+[![预览](sam-lora/preview.png)](sam-lora/README.md)
+
+[说明与源文件](sam-lora/README.md) · [关联元素](sam-lora/README.md#关联范例与元素)
+
+### [pixelSplat · 概率深度采样与像素对齐高斯](pixelsplat-probabilistic-architecture/README.md)
+
+用相机、射线、离散概率柱状图和连续高斯对应表达同一预测过程，抽象参数与几何对象能在图中逐一对上。
+
+CVPR 2024 · 会议论文；未核实 Oral
+
+[![预览](pixelsplat-probabilistic-architecture/preview.png)](pixelsplat-probabilistic-architecture/README.md)
+
+[说明与源文件](pixelsplat-probabilistic-architecture/README.md) · [关联元素](pixelsplat-probabilistic-architecture/README.md#关联范例与元素)
+
+### [BLIP-2 · 冻结图像与语言模型的两阶段桥接](blip2-bridge-framework/README.md)
+
+左右两块分别说明表示学习和生成学习，只让中间的 Q-Former 成为主要可训练连接，冻结标记紧邻对应基础模型。
+
+ICML 2023 · Poster
+
+[![预览](blip2-bridge-framework/preview.png)](blip2-bridge-framework/README.md)
+
+[说明与源文件](blip2-bridge-framework/README.md) · [同论文：BLIP-2 · Q-Former 与三种注意力掩码](blip2-qformer-architecture/README.md) · [关联元素](blip2-bridge-framework/README.md#关联范例与元素)
+
+
+<a id="network"></a>
+
+## 网络主干与模块展开
+
+### [DiT · 整体主干与三种条件注入模块](dit-architecture/README.md)
+
+左侧给完整主干，右侧展开 block 变体；推荐模块使用更高视觉对比，完整展示论文的结构选择。
+
+ICCV 2023 · Oral
+
+[![预览](dit-architecture/preview.png)](dit-architecture/README.md)
+
+[说明与源文件](dit-architecture/README.md) · [关联元素](dit-architecture/README.md#关联范例与元素)
+
+### [SD3 · 双模态主干与 MM-DiT block 展开](sd3-mmdit-architecture/README.md)
+
+左侧说明文本与图像条件如何进入主干，右侧以对称双路结构展开联合注意力，颜色和符号在两部分保持一致。
+
+ICML 2024 · Oral
+
+[![预览](sd3-mmdit-architecture/preview.png)](sd3-mmdit-architecture/README.md)
+
+[说明与源文件](sd3-mmdit-architecture/README.md) · [关联元素](sd3-mmdit-architecture/README.md#关联范例与元素)
+
+### [VGGT · 交替注意力主干与多任务输出头](vggt-architecture/README.md)
+
+整图始终沿左到右阅读；颜色区分 token，虚线框标出重复主干，右侧分组展开输出任务。
+
+CVPR 2025 · Oral
+
+[![预览](vggt-architecture/preview.png)](vggt-architecture/README.md)
+
+[说明与源文件](vggt-architecture/README.md) · [同论文：VGGT · 多视图输入与统一三维感知能力](../teaser/vggt-capabilities/README.md) · [关联元素](vggt-architecture/README.md#关联范例与元素)
+
+### [ViT 原论文 · 图像分块、token 序列与编码器展开](vit-original-architecture/README.md)
+
+输入图像、patch 序列、位置编码和分类 token 都有直观的对应关系；右侧独立展开重复的 Transformer 编码器。
+
+ICLR 2021 · Oral
+
+[![预览](vit-original-architecture/preview.png)](vit-original-architecture/README.md)
+
+[说明与源文件](vit-original-architecture/README.md) · [关联元素](vit-original-architecture/README.md#关联范例与元素)
+
+### [LGM · 非对称 U-Net 与跨视角注意力](lgm-architecture/README.md)
+
+把多视图输入、相机射线编码、U-Net、三维融合和监督闭环放在一张图里；顶部局部放大说明跨视角交互。
+
+ECCV 2024 · Oral
+
+[![预览](lgm-architecture/preview.png)](lgm-architecture/README.md)
+
+[说明与源文件](lgm-architecture/README.md) · [同论文：LGM · 从文本或图像到三维高斯和网格的流程](lgm-pipeline/README.md) · [关联元素](lgm-architecture/README.md#关联范例与元素)
+
+### [Instant NGP · 多分辨率哈希编码到 MLP](instant-ngp-hash-architecture/README.md)
+
+通过五个编号步骤，将空间采样、哈希查表、插值、拼接与网络连接起来；不同尺度的颜色可贯穿整张图。
+
+SIGGRAPH 2022 · 会议论文；未核实 Oral
+
+[![预览](instant-ngp-hash-architecture/preview.png)](instant-ngp-hash-architecture/README.md)
+
+[说明与源文件](instant-ngp-hash-architecture/README.md) · [关联元素](instant-ngp-hash-architecture/README.md#关联范例与元素)
+
+### [LightGlue：注意力、动态剪枝与匹配](lightglue/README.md)
+
+双分支局部特征经过 self/cross attention、置信度预测、剪枝和匹配分配。
+
+[![预览](lightglue/preview.png)](lightglue/README.md)
+
+[说明与源文件](lightglue/README.md) · [同论文：LightGlue：速度与精度权衡](../teaser/lightglue-tradeoff/README.md) · [关联元素](lightglue/README.md#关联范例与元素)
+
+### [多尺度网络总览与模块展开](multiscale-network/README.md)
+
+作者 Illustrator 科研绘图教程中的多尺度网络案例：Backbone、高低层特征、SPPA／LFSA／GMFF 模块、预测结果，以及模块细节。原文件含 7 个画板。
+
+[![预览](multiscale-network/preview.png)](multiscale-network/README.md)
+
+[说明与源文件](multiscale-network/README.md) · [关联元素](multiscale-network/README.md#关联范例与元素)
+
+### [MVSplat · 多视图匹配、代价体与三维高斯预测](mvsplat-architecture/README.md)
+
+输入视图、匹配特征、代价体、深度及三维表示沿一条阅读方向展开，两个视图始终保持上下对应关系。
+
+ECCV 2024 · Oral
+
+[![预览](mvsplat-architecture/preview.png)](mvsplat-architecture/README.md)
+
+[说明与源文件](mvsplat-architecture/README.md) · [同论文：MVSplat · 重建质量、速度与参数量的并列对照](../teaser/mvsplat-comparison/README.md) · [关联元素](mvsplat-architecture/README.md#关联范例与元素)
+
+### [SAM 2 · 流式编码、记忆注意力与记忆库](sam2-memory-architecture/README.md)
+
+沿时间方向叠放帧和特征，主线保留当前帧的编码与解码，顶部多条回线单独表达历史记忆参与计算。
+
+ICLR 2025 · Oral
+
+[![预览](sam2-memory-architecture/preview.png)](sam2-memory-architecture/README.md)
+
+[说明与源文件](sam2-memory-architecture/README.md) · [同论文：SAM 2 · 任务、模型与数据引擎三联概念图](../teaser/sam2-task-model-data/README.md) · [关联元素](sam2-memory-architecture/README.md#关联范例与元素)
+
+### [LLaVA · 视觉投影与语言 token 的统一输入](llava-original-architecture/README.md)
+
+用颜色和形状区分视觉 token、指令 token 与生成 token，投影层把图像特征接入语言模型的关系简洁清楚。
+
+NeurIPS 2023 · Oral
+
+[![预览](llava-original-architecture/preview.png)](llava-original-architecture/README.md)
+
+[说明与源文件](llava-original-architecture/README.md) · [关联元素](llava-original-architecture/README.md#关联范例与元素)
+
+### [BLIP-2 · Q-Former 与三种注意力掩码](blip2-qformer-architecture/README.md)
+
+左侧画共享查询模块和训练目标，右侧用同一种矩阵视觉语法比较三种注意力约束，结构与约束之间的关系很清楚。
+
+ICML 2023 · Poster
+
+[![预览](blip2-qformer-architecture/preview.png)](blip2-qformer-architecture/README.md)
+
+[说明与源文件](blip2-qformer-architecture/README.md) · [同论文：BLIP-2 · 冻结图像与语言模型的两阶段桥接](blip2-bridge-framework/README.md) · [关联元素](blip2-qformer-architecture/README.md#关联范例与元素)
+
+### [3DETR · 点云编码器、查询嵌入与集合预测](3detr-architecture/README.md)
+
+左侧将点集到检测集合的主干压缩成一条水平线，右侧放大查询点、位置编码和查询嵌入的来源。
+
+ICCV 2021 · Oral
+
+[![预览](3detr-architecture/preview.png)](3detr-architecture/README.md)
+
+[说明与源文件](3detr-architecture/README.md) · [同论文：3DETR · 输入点云、注意力与检测结果的对应](../teaser/3detr-attention-teaser/README.md) · [关联元素](3detr-architecture/README.md#关联范例与元素)
+
+
+<a id="tutorial"></a>
+
+## 基础结构与教材范例
+
+### [D2L · Transformer 编码器与解码器](d2l-transformer/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-transformer/preview.png)](d2l-transformer/README.md)
+
+[说明与源文件](d2l-transformer/README.md) · [关联元素](d2l-transformer/README.md#关联范例与元素)
+
+### [D2L · Vision Transformer](d2l-vit/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-vit/preview.png)](d2l-vit/README.md)
+
+[说明与源文件](d2l-vit/README.md) · [关联元素](d2l-vit/README.md#关联范例与元素)
+
+### [D2L · 编码器—解码器](d2l-encoder-decoder/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-encoder-decoder/preview.png)](d2l-encoder-decoder/README.md)
+
+[说明与源文件](d2l-encoder-decoder/README.md) · [关联元素](d2l-encoder-decoder/README.md#关联范例与元素)
+
+### [D2L · 带注意力的 Seq2Seq](d2l-seq2seq-attention/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-seq2seq-attention/preview.png)](d2l-seq2seq-attention/README.md)
+
+[说明与源文件](d2l-seq2seq-attention/README.md) · [关联元素](d2l-seq2seq-attention/README.md#关联范例与元素)
+
+### [D2L · ResNet 残差块](d2l-resnet-block/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-resnet-block/preview.png)](d2l-resnet-block/README.md)
+
+[说明与源文件](d2l-resnet-block/README.md) · [关联元素](d2l-resnet-block/README.md#关联范例与元素)
+
+### [D2L · ResNeXt 分组残差块](d2l-resnext-block/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-resnext-block/preview.png)](d2l-resnext-block/README.md)
+
+[说明与源文件](d2l-resnext-block/README.md) · [关联元素](d2l-resnext-block/README.md#关联范例与元素)
+
+### [D2L · DenseNet 密集连接块](d2l-densenet-block/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-densenet-block/preview.png)](d2l-densenet-block/README.md)
+
+[说明与源文件](d2l-densenet-block/README.md) · [关联元素](d2l-densenet-block/README.md#关联范例与元素)
+
+### [D2L · Inception 并行分支](d2l-inception/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-inception/preview.png)](d2l-inception/README.md)
+
+[说明与源文件](d2l-inception/README.md) · [关联元素](d2l-inception/README.md#关联范例与元素)
+
+### [D2L · LeNet](d2l-lenet/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-lenet/preview.png)](d2l-lenet/README.md)
+
+[说明与源文件](d2l-lenet/README.md) · [关联元素](d2l-lenet/README.md#关联范例与元素)
+
+### [D2L · AlexNet](d2l-alexnet/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-alexnet/preview.png)](d2l-alexnet/README.md)
+
+[说明与源文件](d2l-alexnet/README.md) · [关联元素](d2l-alexnet/README.md#关联范例与元素)
+
+### [D2L · VGG](d2l-vgg/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-vgg/preview.png)](d2l-vgg/README.md)
+
+[说明与源文件](d2l-vgg/README.md) · [关联元素](d2l-vgg/README.md#关联范例与元素)
+
+### [D2L · 全卷积网络](d2l-fcn/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-fcn/preview.png)](d2l-fcn/README.md)
+
+[说明与源文件](d2l-fcn/README.md) · [关联元素](d2l-fcn/README.md#关联范例与元素)
+
+### [D2L · 多层感知机](d2l-mlp/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-mlp/preview.png)](d2l-mlp/README.md)
+
+[说明与源文件](d2l-mlp/README.md) · [关联元素](d2l-mlp/README.md#关联范例与元素)
+
+### [D2L · LSTM 内部门控](d2l-lstm-3/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-lstm-3/preview.png)](d2l-lstm-3/README.md)
+
+[说明与源文件](d2l-lstm-3/README.md) · [关联元素](d2l-lstm-3/README.md#关联范例与元素)
+
+### [D2L · GRU 内部门控](d2l-gru-3/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-gru-3/preview.png)](d2l-gru-3/README.md)
+
+[说明与源文件](d2l-gru-3/README.md) · [关联元素](d2l-gru-3/README.md#关联范例与元素)
+
+### [D2L · 生成对抗网络](d2l-gan/README.md)
+
+D2L 教材作者提供的原始矢量图，适合借鉴结构与模块表达；明确作为教材范例收录。
+
+[![预览](d2l-gan/preview.png)](d2l-gan/README.md)
+
+[说明与源文件](d2l-gan/README.md) · [关联元素](d2l-gan/README.md#关联范例与元素)
+
+## 版式辅助
+
+[原生 AI / AIT 版式母版](../templates/layouts/README.md)，作为辅助素材单独计数。

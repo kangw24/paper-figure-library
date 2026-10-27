@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-27",
+  "papers": [
+    {
+      "id": "pixelsplat",
+      "title": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
+      "arxiv": "2312.12337",
+      "venue": "CVPR",
+      "year": 2024,
+      "presentation": "conference-paper",
+      "award": "Best Paper Runner-Up",
+      "evidence": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/32147.pdf",
+      "project": "https://davidcharatan.com/pixelsplat/",
+      "pdf": "https://arxiv.org/pdf/2312.12337",
+      "sha256": "606933b1f086ad92b5863b1b8d21a8af565bfb02b71ac47fb8c8f850d987f5b5",
+      "bytes": 11520262,
+      "authors": [
+        "Charatan, David",
+        "Li, Sizhe",
+        "Tagliasacchi, Andrea",
+        "Sitzmann, Vincent"
+      ],
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "ok": true
+    },
+    {
+      "id": "mvsplat",
+      "title": "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images",
+      "arxiv": "2403.14627",
+      "venue": "ECCV",
+      "year": 2024,
+      "presentation": "oral",
+      "evidence": "https://donydchen.github.io/mvsplat/",
+      "project": "https://donydchen.github.io/mvsplat/",
+      "pdf": "https://arxiv.org/pdf/2403.14627",
+      "sha256": "d1becb5361d7d8aa6f2e47d1e9e257031120b4207834f5effca049a8df7e4bb9",
+      "bytes": 5467161,
+      "authors": [
+        "Chen, Yuedong",
+        "Xu, Haofei",
+        "Zheng, Chuanxia",
+        "Zhuang, Bohan",
+        "Pollefeys, Marc",
+        "Geiger, Andreas",
+        "Cham, Tat-Jen",
+        "Cai, Jianfei"
+      ],
+      "arxiv_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "ok": true
+    },
+    {
+      "id": "sam2",
+      "title": "SAM 2: Segment Anything in Images and Videos",
+      "arxiv": "2408.00714",
+      "venue": "ICLR",
+      "year": 2025,
+      "presentation": "oral",
+      "award": "Best Paper Honorable Mention",
+      "evidence": "https://feichtenhofer.github.io/",
+      "project": "https://github.com/facebookresearch/sam2",
+      "pdf": "https://arxiv.org/pdf/2408.00714",
+      "sha256": "664f5c4254db441569ecfe36a2a2fa91a1ecec5f4d31b3bcc5d451193efc2c0d",
+      "bytes": 12709657,
+      "authors": [
+        "Ravi, Nikhila",
+        "Gabeur, Valentin",
+        "Hu, Yuan-Ting",
+        "Hu, Ronghang",
+        "Ryali, Chaitanya",
+        "Ma, Tengyu",
+        "Khedr, Haitham",
+        "Rädle, Roman",
+        "Rolland, Chloe",
+        "Gustafson, Laura",
+        "Mintun, Eric",
+        "Pan, Junting",
+        "Alwala, Kalyan Vasudev",
+        "Carion, Nicolas",
+        "Wu, Chao-Yuan",
+        "Girshick, Ross",
+        "Dollár, Piotr",
+        "Feichtenhofer, Christoph"
+      ],
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "ok": true
+    },
+    {
+      "id": "llava",
+      "title": "Visual Instruction Tuning",
+      "arxiv": "2304.08485",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "presentation": "oral",
+      "evidence": "https://github.com/haotian-liu/LLaVA",
+      "project": "https://llava-vl.github.io/",
+      "pdf": "https://arxiv.org/pdf/2304.08485",
+      "sha256": "dc8bace378a282ea78caa9b5959306202fbfa3b8cedaf8a66541a9af18f4d3bf",
+      "bytes": 5906135,
+      "authors": [
+        "Liu, Haotian",
+        "Li, Chunyuan",
+        "Wu, Qingyang",
+        "Lee, Yong Jae"
+      ],
+      "arxiv_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "ok": true
+    },
+    {
+      "id": "blip2",
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+      "arxiv": "2301.12597",
+      "venue": "ICML",
+      "year": 2023,
+      "presentation": "poster",
+      "evidence": "https://icml.cc/virtual/2023/poster/25182",
+      "project": "https://github.com/salesforce/LAVIS/tree/main/projects/blip2",
+      "pdf": "https://arxiv.org/pdf/2301.12597",
+      "sha256": "6bc5d399d6127a64ace5167a2f0c00112a49725d2475d80322dbf0083f139e80",
+      "bytes": 6737540,
+      "authors": [
+        "Li, Junnan",
+        "Li, Dongxu",
+        "Savarese, Silvio",
+        "Hoi, Steven"
+      ],
+      "arxiv_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "ok": true
+    },
+    {
+      "id": "3detr",
+      "title": "An End-to-End Transformer Model for 3D Object Detection",
+      "arxiv": "2109.08141",
+      "venue": "ICCV",
+      "year": 2021,
+      "presentation": "oral",
+      "evidence": "https://facebookresearch.github.io/3detr/",
+      "project": "https://facebookresearch.github.io/3detr/",
+      "pdf": "https://arxiv.org/pdf/2109.08141",
+      "sha256": "bbffb16b2fbdf38aed66cd018783603379a47cd95b95f94c38a734dc9841dda5",
+      "bytes": 24592382,
+      "authors": [
+        "Misra, Ishan",
+        "Girdhar, Rohit",
+        "Joulin, Armand"
+      ],
+      "arxiv_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "ok": true
+    }
+  ],
+  "items": [
+    {
+      "id": "mvsplat-comparison",
+      "path": "teaser/mvsplat-comparison",
+      "source_pdf_sha256": "d1becb5361d7d8aa6f2e47d1e9e257031120b4207834f5effca049a8df7e4bb9",
+      "page": 1,
+      "figure": 1
+    },
+    {
+      "id": "mvsplat-architecture",
+      "path": "architecture/mvsplat-architecture",
+      "source_pdf_sha256": "d1becb5361d7d8aa6f2e47d1e9e257031120b4207834f5effca049a8df7e4bb9",
+      "page": 4,
+      "figure": 2
+    },
+    {
+      "id": "pixelsplat-probabilistic-architecture",
+      "path": "architecture/pixelsplat-probabilistic-architecture",
+      "source_pdf_sha256": "606933b1f086ad92b5863b1b8d21a8af565bfb02b71ac47fb8c8f850d987f5b5",
+      "page": 4,
+      "figure": 3
+    },
+    {
+      "id": "sam2-task-model-data",
+      "path": "teaser/sam2-task-model-data",
+      "source_pdf_sha256": "664f5c4254db441569ecfe36a2a2fa91a1ecec5f4d31b3bcc5d451193efc2c0d",
+      "page": 2,
+      "figure": 1
+    },
+    {
+      "id": "sam2-memory-architecture",
+      "path": "architecture/sam2-memory-architecture",
+      "source_pdf_sha256": "664f5c4254db441569ecfe36a2a2fa91a1ecec5f4d31b3bcc5d451193efc2c0d",
+      "page": 5,
+      "figure": 3
+    },
+    {
+      "id": "llava-original-architecture",
+      "path": "architecture/llava-original-architecture",
+      "source_pdf_sha256": "dc8bace378a282ea78caa9b5959306202fbfa3b8cedaf8a66541a9af18f4d3bf",
+      "page": 4,
+      "figure": 1
+    },
+    {
+      "id": "blip2-bridge-framework",
+      "path": "architecture/blip2-bridge-framework",
+      "source_pdf_sha256": "6bc5d399d6127a64ace5167a2f0c00112a49725d2475d80322dbf0083f139e80",
+      "page": 1,
+      "figure": 1
+    },
+    {
+      "id": "blip2-qformer-architecture",
+      "path": "architecture/blip2-qformer-architecture",
+      "source_pdf_sha256": "6bc5d399d6127a64ace5167a2f0c00112a49725d2475d80322dbf0083f139e80",
+      "page": 3,
+      "figure": 2
+    },
+    {
+      "id": "3detr-attention-teaser",
+      "path": "teaser/3detr-attention-teaser",
+      "source_pdf_sha256": "bbffb16b2fbdf38aed66cd018783603379a47cd95b95f94c38a734dc9841dda5",
+      "page": 1,
+      "figure": 1
+    },
+    {
+      "id": "3detr-architecture",
+      "path": "architecture/3detr-architecture",
+      "source_pdf_sha256": "bbffb16b2fbdf38aed66cd018783603379a47cd95b95f94c38a734dc9841dda5",
+      "page": 3,
+      "figure": 2
+    }
+  ]
+}

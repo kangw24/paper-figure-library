@@ -32,13 +32,13 @@
           "id": "vggt-capabilities",
           "page": 1,
           "figure": 1,
-          "path": "examples/teasers/vggt-capabilities"
+          "path": "teaser/vggt-capabilities"
         },
         {
           "id": "vggt-architecture",
           "page": 3,
           "figure": 2,
-          "path": "examples/architectures/vggt-architecture"
+          "path": "architecture/vggt-architecture"
         }
       ]
     },
@@ -71,13 +71,13 @@
           "id": "cut3r-capabilities",
           "page": 1,
           "figure": 1,
-          "path": "examples/teasers/cut3r-capabilities"
+          "path": "teaser/cut3r-capabilities"
         },
         {
           "id": "cut3r-architecture",
           "page": 4,
           "figure": 3,
-          "path": "examples/architectures/cut3r-architecture"
+          "path": "architecture/cut3r-architecture"
         }
       ]
     },
@@ -107,7 +107,7 @@
           "id": "dit-architecture",
           "page": 3,
           "figure": 3,
-          "path": "examples/architectures/dit-architecture"
+          "path": "architecture/dit-architecture"
         }
       ]
     },
@@ -141,13 +141,13 @@
           "id": "lgm-pipeline",
           "page": 5,
           "figure": 2,
-          "path": "examples/architectures/lgm-pipeline"
+          "path": "architecture/lgm-pipeline"
         },
         {
           "id": "lgm-architecture",
           "page": 6,
           "figure": 3,
-          "path": "examples/architectures/lgm-architecture"
+          "path": "architecture/lgm-architecture"
         }
       ]
     },
@@ -181,13 +181,13 @@
           "id": "var-paradigm",
           "page": 2,
           "figure": 2,
-          "path": "examples/teasers/var-paradigm"
+          "path": "teaser/var-paradigm"
         },
         {
           "id": "var-architecture",
           "page": 5,
           "figure": 4,
-          "path": "examples/architectures/var-architecture"
+          "path": "architecture/var-architecture"
         }
       ]
     },
@@ -222,7 +222,7 @@
           "id": "dpo-comparison",
           "page": 2,
           "figure": 1,
-          "path": "examples/teasers/dpo-comparison"
+          "path": "teaser/dpo-comparison"
         }
       ]
     },
@@ -262,7 +262,7 @@
           "id": "vit-original-architecture",
           "page": 3,
           "figure": 1,
-          "path": "examples/architectures/vit-original-architecture"
+          "path": "architecture/vit-original-architecture"
         }
       ]
     },
@@ -295,13 +295,13 @@
           "id": "dreamgaussian-progress",
           "page": 1,
           "figure": 1,
-          "path": "examples/teasers/dreamgaussian-progress"
+          "path": "teaser/dreamgaussian-progress"
         },
         {
           "id": "dreamgaussian-architecture",
           "page": 4,
           "figure": 2,
-          "path": "examples/architectures/dreamgaussian-architecture"
+          "path": "architecture/dreamgaussian-architecture"
         }
       ]
     },
@@ -346,7 +346,7 @@
           "id": "sd3-mmdit-architecture",
           "page": 5,
           "figure": 2,
-          "path": "examples/architectures/sd3-mmdit-architecture"
+          "path": "architecture/sd3-mmdit-architecture"
         }
       ]
     },
@@ -399,13 +399,13 @@
           "id": "genie-interaction",
           "page": 1,
           "figure": 1,
-          "path": "examples/teasers/genie-interaction"
+          "path": "teaser/genie-interaction"
         },
         {
           "id": "genie-architecture",
           "page": 4,
           "figure": 3,
-          "path": "examples/architectures/genie-architecture"
+          "path": "architecture/genie-architecture"
         }
       ]
     },
@@ -437,7 +437,7 @@
           "id": "instant-ngp-hash-architecture",
           "page": 4,
           "figure": 3,
-          "path": "examples/architectures/instant-ngp-hash-architecture"
+          "path": "architecture/instant-ngp-hash-architecture"
         }
       ]
     },
@@ -469,7 +469,7 @@
           "id": "gaussian-splatting-architecture",
           "page": 5,
           "figure": 2,
-          "path": "examples/architectures/gaussian-splatting-architecture"
+          "path": "architecture/gaussian-splatting-architecture"
         }
       ]
     }

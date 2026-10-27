@@ -1,0 +1,6 @@
+Paper: SAM 2: Segment Anything in Images and Videos
+Authors: Ravi, Nikhila, Gabeur, Valentin, Hu, Yuan-Ting, Hu, Ronghang, Ryali, Chaitanya, Ma, Tengyu, Khedr, Haitham, Rädle, Roman, Rolland, Chloe, Gustafson, Laura, Mintun, Eric, Pan, Junting, Alwala, Kalyan Vasudev, Carion, Nicolas, Wu, Chao-Yuan, Girshick, Ross, Dollár, Piotr, Feichtenhofer, Christoph
+Paper URL: https://arxiv.org/abs/2408.00714
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。
+Figure excerpt and conversion only; no redrawing.

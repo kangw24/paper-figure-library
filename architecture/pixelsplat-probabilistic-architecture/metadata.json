@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "pixelsplat-probabilistic-architecture",
+  "title": "pixelSplat · 概率深度采样与像素对齐高斯",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "architecture",
+    "pixelsplat",
+    "CVPR",
+    "2024",
+    "conference-paper"
+  ],
+  "formats": [
+    "svg",
+    "pdf"
+  ],
+  "primary_file": "source.svg",
+  "preview": "preview.png",
+  "summary": "用相机、射线、离散概率柱状图和连续高斯对应表达同一预测过程，抽象参数与几何对象能在图中逐一对上。",
+  "publication": {
+    "title": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
+    "venue": "CVPR",
+    "year": 2024,
+    "presentation": "conference-paper",
+    "award": "Best Paper Runner-Up",
+    "evidence_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/32147.pdf",
+    "evidence_type": "official-conference",
+    "checked_date": "2026-10-27"
+  },
+  "curation": {
+    "figure_role": "概率表示与几何预测的算法架构；不是生成样例拼图。",
+    "why_selected": "用相机、射线、离散概率柱状图和连续高斯对应表达同一预测过程，抽象参数与几何对象能在图中逐一对上。",
+    "what_to_borrow": [
+      "统一颜色追踪不同像素与射线",
+      "将概率表示画在对应几何对象旁",
+      "用局部展开连接计算流程与空间意义"
+    ],
+    "reviewed_from": "original PDF page and final extracted preview"
+  },
+  "source": {
+    "project": "https://davidcharatan.com/pixelsplat/",
+    "authors": [
+      "Charatan, David",
+      "Li, Sizhe",
+      "Tagliasacchi, Andrea",
+      "Sitzmann, Vincent"
+    ],
+    "urls": [
+      "https://davidcharatan.com/pixelsplat/",
+      "https://arxiv.org/abs/2312.12337",
+      "https://arxiv.org/pdf/2312.12337",
+      "https://cvpr.thecvf.com/media/cvpr-2024/Slides/32147.pdf"
+    ],
+    "arxiv_id": "2312.12337",
+    "full_pdf_url": "https://arxiv.org/pdf/2312.12337",
+    "full_pdf_sha256": "606933b1f086ad92b5863b1b8d21a8af565bfb02b71ac47fb8c8f850d987f5b5",
+    "full_pdf_bytes": 11520262,
+    "page_number": 4,
+    "figure_number": 3,
+    "crop_bbox_pt": [
+      48,
+      65,
+      561,
+      280
+    ],
+    "coordinate_system": "PDF points from top-left, unrotated page",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 参考收录",
+    "note": "arXiv 标注的是授予 arXiv 的非独占分发许可，不是第三方图形重用许可。本条用于个人私有参考，改编或公开再用需核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author PDF vector excerpt exported as SVG",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_text_spans": 0,
+    "pdf_drawing_objects": 375,
+    "embedded_raster_images": 6,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "clipPath": 7,
+      "path": 382,
+      "image": 9,
+      "mask": 6,
+      "g": 19,
+      "use": 12
+    },
+    "notes": [
+      "原 PDF 的几何路径与线条保留，SVG 文字转为轮廓；照片、三维渲染与原有位图部件仍为嵌入图片。",
+      "源图按图框截取，图注写在说明中；未重绘或用生成图替代。",
+      "已核对原页与摘图预览。桌面 Illustrator 尚未逐项实测。"
+    ],
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0
+  },
+  "changes": [
+    "按记录的页码和坐标提取作者原图。",
+    "移除外围正文，在图框处裁剪并保留原矢量路径、字体和位图，生成单图 PDF。",
+    "使用 Poppler 转为自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 520,
+      "sha256": "b0b0b35aa3c409767baadd190e20c9f7c35e181b84eee660fdd77c26a1953eb5"
+    },
+    {
+      "path": "figure.pdf",
+      "bytes": 157755,
+      "sha256": "d5227e98040745b5a3aaf688b9140d6cf064f9ce9a115c65eac61757dabc5a2b"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 97952,
+      "sha256": "9f25fb57dddd4f50faa495afc133feb2b1091fb25019ddddf8fcccfcd194a9a1"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 404752,
+      "sha256": "c7eca7a982b9c29401f0b7115e8ece1c47527bb3f1efc9a1e7ab408cae4bc9a6"
+    }
+  ]
+}

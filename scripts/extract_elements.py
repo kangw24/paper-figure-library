@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 NS='http://www.w3.org/2000/svg'
 ET.register_namespace('',NS)
 ET.register_namespace('xlink','http://www.w3.org/1999/xlink')
-for spec in json.loads((ROOT/'elements/extraction-specs.json').read_text())['specs']:
+for spec in json.loads((ROOT/'element/extraction-specs.json').read_text())['specs']:
     source=ROOT/spec['source']
     assert hashlib.sha256(source.read_bytes()).hexdigest()==spec['source_sha256'],source
     parent=ET.parse(source).getroot()
@@ -20,11 +20,11 @@ for spec in json.loads((ROOT/'elements/extraction-specs.json').read_text())['spe
     for index in spec['selected_child_indices']:out.append(copy.deepcopy(parent[index]))
     for node in out.iter():
         if node.get('id')=='Layer-1':node.attrib.pop('id')
-    ET.ElementTree(out).write(ROOT/'elements/svg'/(spec['id']+'.svg'),encoding='utf-8',xml_declaration=True)
+    ET.ElementTree(out).write(ROOT/'element/svg'/(spec['id']+'.svg'),encoding='utf-8',xml_declaration=True)
 print('Copied existing source nodes for 11 components; no geometry generated.')
 
 # Additional exact-node extractions from the original task5 artboard SVG export.
-extra=ROOT/'elements/task5-extractions.json'
+extra=ROOT/'element/task5-extractions.json'
 if extra.is_file():
     data=json.loads(extra.read_text())
     source=ET.parse(ROOT/data['source']).getroot()
@@ -40,5 +40,9 @@ if extra.is_file():
                 node=ET.SubElement(parent,original.tag,original.attrib)
                 parent=node
             parent.append(copy.deepcopy(original[chain[-1]]))
-        ET.ElementTree(out).write(ROOT/'elements/svg'/(spec['id']+'.svg'),encoding='utf-8',xml_declaration=True)
+        ET.ElementTree(out).write(ROOT/'element/svg'/(spec['id']+'.svg'),encoding='utf-8',xml_declaration=True)
     print('Copied '+str(len(data['specs']))+' additional task5 components from recorded source node paths.')
+
+if (ROOT/'element/vector-parts.json').is_file():
+    from extract_vector_parts import extract
+    extract(ROOT)

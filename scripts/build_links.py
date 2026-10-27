@@ -19,13 +19,14 @@ def link(page, title, target):
 
 def load(root):
     figures = {}
-    for folder in ('examples/teasers', 'examples/architectures'):
+    for folder in ('teaser', 'architecture'):
         for path in sorted((root / folder).glob('*/metadata.json')):
             item = json.loads(path.read_text(encoding='utf-8'))
             item['_folder'] = path.parent
+            item['_relative_folder'] = path.parent.relative_to(root).as_posix()
             figures[item['id']] = item
-    elements = {x['id']: x for x in json.loads((root / 'elements/catalog.json').read_text())['items']}
-    config = json.loads((root / 'examples/relationships.json').read_text())
+    elements = {x['id']: x for x in json.loads((root / 'element/catalog.json').read_text())['items']}
+    config = json.loads((root / 'relationships.json').read_text())
     errors = []
     grouped = []
     for category, groups in config['groups'].items():
@@ -65,8 +66,7 @@ def related(figures, elements, config):
         for key in group:
             pairs[key].extend(other for other in group if other != key)
     for figure_id, figure in figures.items():
-        prefix = figure['_folder'].parts[-3:]
-        prefix = '/'.join(prefix) + '/'
+        prefix = figure['_relative_folder'] + '/'
         for element_id, element in elements.items():
             source = element['source']
             if source.get('kind') != 'extracted-existing-vectors':
@@ -89,9 +89,9 @@ def figure_links(page, ids, figures):
 
 def nav(root, page):
     return ' · '.join(link(page, title, root / target) for title, target in (
-        ('Teaser', 'examples/teasers/README.md'),
-        ('Architecture', 'examples/architectures/README.md'),
-        ('Element', 'elements/README.md'),
+        ('Teaser', 'teaser/README.md'),
+        ('Architecture', 'architecture/README.md'),
+        ('Element', 'element/README.md'),
         ('总目录', 'CATALOG.md'),
     ))
 
@@ -116,12 +116,12 @@ def build(root, figures, elements, config):
         if suggested:
             lines += ['**可搭配的现有元素：** ' + element_links(root, page, suggested, elements), '',
                       '这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。', '']
-        lines += [link(page, '范例与元素对照表', root / 'elements/with-examples.md') + ' · ' +
-                  link(page, '元素分类目录', root / 'elements/README.md'), END_MARKER]
+        lines += [link(page, '范例与元素对照表', root / 'element/with-examples.md') + ' · ' +
+                  link(page, '元素分类目录', root / 'element/README.md'), END_MARKER]
         page.write_text(body.rstrip() + '\n\n' + '\n'.join(lines) + '\n', encoding='utf-8')
 
     for category, groups in config['groups'].items():
-        folder = root / 'examples' / ('teasers' if category == 'teaser' else 'architectures')
+        folder = root / ('teaser' if category == 'teaser' else 'architecture')
         page = folder / 'README.md'
         title = 'Teaser 范例' if category == 'teaser' else 'Architecture 范例'
         lines = ['# ' + title, '', nav(root, page), '',
@@ -137,7 +137,7 @@ def build(root, figures, elements, config):
                 lines += ['### ' + link(page, figure['title'], detail), '', figure.get('summary', ''), '']
                 publication = figure.get('publication')
                 if publication:
-                    label = publication['venue'] + ' ' + str(publication['year']) + ' · ' + ('Oral' if publication['presentation'] == 'oral' else '会议论文；未核实 Oral')
+                    label = publication['venue'] + ' ' + str(publication['year']) + ' · ' + {'oral': 'Oral', 'poster': 'Poster'}.get(publication['presentation'], '会议论文；未核实 Oral')
                     lines += [label, '']
                 if figure.get('editability', {}).get('level') == 'raster-reference':
                     lines += ['**整图位图，仅构图参考。**', '']
@@ -150,7 +150,7 @@ def build(root, figures, elements, config):
             lines += ['## 版式辅助', '', link(page, '原生 AI / AIT 版式母版', root / 'templates/layouts/README.md') + '，作为辅助素材单独计数。', '']
         page.write_text('\n'.join(lines).rstrip() + '\n', encoding='utf-8')
 
-    page = root / 'elements/with-examples.md'
+    page = root / 'element/with-examples.md'
     lines = ['# 范例与元素对照', '', nav(root, page), '',
              '由 teaser 看表达思路，由 architecture 看信息流，再沿下列链接选元素。只有来源记录指向该原图的条目，才标作原图拆件。', '',
              '## 从原图拆出的部件', '', '| 原图 | 已有独立元素 |', '|---|---|']

@@ -1,0 +1,6 @@
+Paper: MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images
+Authors: Chen, Yuedong, Xu, Haofei, Zheng, Chuanxia, Zhuang, Bohan, Pollefeys, Marc, Geiger, Andreas, Cham, Tat-Jen, Cai, Jianfei
+Paper URL: https://arxiv.org/abs/2403.14627
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+arXiv 原文声明 CC BY 4.0；保留作者署名、论文链接和裁剪转换说明。第三方照片与模型若有独立声明，仍按原声明。
+Figure excerpt and conversion only; no redrawing.

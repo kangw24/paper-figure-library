@@ -64,6 +64,9 @@
 - [Informed ML · 知识来源—表示—融入位置全景](../survey-informed-ml-knowledge-map/README.md)：将多级分类串成完整的领域关系图，适合表达研究范围与组成。
 - [PIML · 物理先验、融入层级与任务的三维全景](../survey-piml-three-axis-landscape/README.md)：在同一全景中组织先验、方法与应用任务，形成有主线的综述概念图。
 
+- [机器人学习 · 物理先验融入架构的六类方法](../survey-robot-physics-six-families/README.md)：六个面板使用相同的色块、标题、中心图示和底部说明组织不同方法家族。每个面板包含公式、网络连接或机器人结构，既能独立阅读，也能共同构成有科学内容的方法全景。
+- [PBDL · 领域位置与方法空间的概念总览](../pbdl-field-method-space/README.md)：左侧用机器学习、数值方法与物理的交集定位领域，右侧展开正反问题以及数据驱动、物理损失和混合方法，形成从领域位置到方法空间的概念总览。
+
 <!-- END SIMILAR EXAMPLES -->
 
 <!-- BEGIN FIGURE LINKS -->

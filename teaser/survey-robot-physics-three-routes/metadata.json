@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "id": "survey-robot-physics-three-routes",
+  "title": "机器人学习 · 物理先验融入的三路对照",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "conceptual-overview",
+    "method-comparison",
+    "robot-learning",
+    "physics-priors",
+    "robot-physics-priors",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "三栏沿用相同的物理先验主题，分别用机器人观测、网络内部结构和物理损失方程解释三种融入位置。颜色分区和真实方法示意共同承担信息表达，与多方法对照 teaser 的结构接近。",
+  "publication": {
+    "title": "Embedding Physics Priors in Robot Learning: A Survey",
+    "venue": "arXiv",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2609.22319v1",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2609.22319v1"
+  },
+  "curation": {
+    "figure_role": "综述原论文 Figure 1。比较三种物理先验进入学习过程的方式，并提示它们可以组合使用；箭头不表示每种方法都必须经过全部三栏。",
+    "figure_subtype": "physics-prior-three-route-comparison",
+    "panel_layout": {
+      "panels": 3,
+      "summary": "三栏并列：输入／数据／表示、模型架构、训练损失。",
+      "counting_note": "按三种物理先验融入位置计三个面板；内部机器人实例、网络节点与方程是各面板的说明图元。"
+    },
+    "why_selected": "三栏沿用相同的物理先验主题，分别用机器人观测、网络内部结构和物理损失方程解释三种融入位置。颜色分区和真实方法示意共同承担信息表达，与多方法对照 teaser 的结构接近。",
+    "what_to_borrow": [
+      "每栏有明确标题和独立科学示意，整体以同一主题串联。",
+      "同类对象采用一致的颜色和线型，具体物理内容用方程和结构表达。",
+      "可与配套生命周期图对照，进一步区分数据准备、训练和推断阶段。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview",
+    "design_notes": [
+      "改编时可扩大栏间留白，统一三栏公式与标签的视觉层级。",
+      "保留图示的物理语义，不把三种互补方式误画成强制串行流程。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-physics-data-paradigms",
+      "reason": "同一物理学习主题下，用并列方法面板和具体科学示意解释不同融入方式。"
+    }
+  },
+  "source": {
+    "project": "https://github.com/TUM-AVS/survey-physics-embedded-robot-learning",
+    "authors": [
+      "Piccinini, Mattia",
+      "Schulze, Lucas",
+      "Plebe, Alice",
+      "Saveriano, Matteo",
+      "Beckers, Thomas",
+      "Gao, Yuan",
+      "Arenz, Oleg",
+      "Zarrouki, Baha",
+      "Wang, Dingrui",
+      "Schäfer, Finn Rasmus",
+      "Peters, Jan",
+      "Betz, Johannes",
+      "Papini, Gastone Pietro Rosati"
+    ],
+    "urls": [
+      "https://github.com/TUM-AVS/survey-physics-embedded-robot-learning",
+      "https://arxiv.org/abs/2609.22319v1",
+      "https://arxiv.org/pdf/2609.22319v1",
+      "https://arxiv.org/src/2609.22319v1"
+    ],
+    "arxiv_id": "2609.22319v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2609.22319v1",
+    "full_pdf_sha256": "1b29f3f46c16604b9cdcd30bc8be578e87a32fcf71691817f9bf5ba40a613a10",
+    "full_pdf_bytes": 5230909,
+    "page_number": 2,
+    "figure_number": 1,
+    "original_sha256": "77e48689b4a82f7ddf297199df24b0523039ea7ed4075adae91629989ac5e79f",
+    "original_bytes": 1628734,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2609.22319v1",
+    "archive_sha256": "9aa00491666bd8fc41c5d54ab4c2a878ef173a39b938cf357417536dfc6789f8",
+    "archive_bytes": 4600215,
+    "archive_member": "figures/overview_physics_injection.pdf",
+    "inclusion_member": "include/introduction.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "companion_figures": [
+      {
+        "archive_member": "figures/lifecycle.pdf",
+        "file": "context-lifecycle.pdf",
+        "original_sha256": "32b43766fe8342fbc0c261fc7ddc150767e7fe80940293beb4cc69ed8356c058",
+        "figure_number": 3,
+        "page_number": 5
+      }
+    ]
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 310,
+    "pdf_text_spans": 13,
+    "embedded_raster_images": 12,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 19,
+      "path": 401,
+      "mask": 12,
+      "g": 61,
+      "image": 24,
+      "use": 192
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。原图中的嵌入位图可移动或替换，不能按矢量节点编辑。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 846,
+      "sha256": "189d36070b95f5aba73f20b0aec6b41bd568b04daf3c5d03fee03e0541d8aa83"
+    },
+    {
+      "path": "context-lifecycle.pdf",
+      "bytes": 108181,
+      "sha256": "32b43766fe8342fbc0c261fc7ddc150767e7fe80940293beb4cc69ed8356c058"
+    },
+    {
+      "path": "context-lifecycle.png",
+      "bytes": 37543,
+      "sha256": "66852bd140ffe8b168b99870f1e27aa6c0a84c906731fa8776608c8fb2058e58"
+    },
+    {
+      "path": "context-lifecycle.svg",
+      "bytes": 69168,
+      "sha256": "724076648b597af8f42df88036e9a58a8fc5a7a3b0a629d351b81bcdbbd83cd3"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 574,
+      "sha256": "c4e25f53bc6e5c989e1b282ea14c8b28403fc04bbc0288f69b4085a15a9c6652"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1628734,
+      "sha256": "77e48689b4a82f7ddf297199df24b0523039ea7ed4075adae91629989ac5e79f"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 314027,
+      "sha256": "590d101318d8940632ffdd1d9b387d9a6c8ea7bbb804f3658482633352823dcf"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 2369192,
+      "sha256": "949376cc8c5a7a190a8bec6e0865f4d3580132861ba8d5a223d5da8aec456057"
+    }
+  ]
+}

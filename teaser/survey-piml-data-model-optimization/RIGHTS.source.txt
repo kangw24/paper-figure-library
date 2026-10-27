@@ -1,0 +1,5 @@
+出版商原文声明 CC BY 4.0。保留作者、期刊版本、原图链接和修改记录；第三方素材按其原声明。
+Authors: Chuizheng Meng, Sam Griesemer, Defu Cao, Sungyong Seo, Yan Liu
+Original URL: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs44379-025-00016-0/MediaObjects/44379_2025_16_Fig2_HTML.png
+Original SHA256: d950023c9e0c559d8cf060acefcc1e371d35344a52a9aa66f03bb5dd7d8afd0f
+Original image bytes preserved; no SVG wrapper or redrawing.

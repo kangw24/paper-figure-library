@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-27",
+  "collection_note": "Related conceptual overviews and method comparisons; author originals and figure-specific notes.",
+  "papers": [
+    {
+      "id": "robot-physics-priors",
+      "arxiv": "2609.22319v1",
+      "project": "https://github.com/TUM-AVS/survey-physics-embedded-robot-learning",
+      "title": "Embedding Physics Priors in Robot Learning: A Survey",
+      "authors": [
+        "Piccinini, Mattia",
+        "Schulze, Lucas",
+        "Plebe, Alice",
+        "Saveriano, Matteo",
+        "Beckers, Thomas",
+        "Gao, Yuan",
+        "Arenz, Oleg",
+        "Zarrouki, Baha",
+        "Wang, Dingrui",
+        "Schäfer, Finn Rasmus",
+        "Peters, Jan",
+        "Betz, Johannes",
+        "Papini, Gastone Pietro Rosati"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "presentation": "preprint",
+      "evidence": "https://arxiv.org/abs/2609.22319v1",
+      "arxiv_license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdf": "https://arxiv.org/pdf/2609.22319v1",
+      "sha256": "1b29f3f46c16604b9cdcd30bc8be578e87a32fcf71691817f9bf5ba40a613a10",
+      "bytes": 5230909,
+      "ok": true
+    }
+  ],
+  "items": [
+    {
+      "id": "survey-robot-physics-three-routes",
+      "path": "teaser/survey-robot-physics-three-routes",
+      "paper": "robot-physics-priors",
+      "archive_member": "figures/overview_physics_injection.pdf",
+      "original_sha256": "77e48689b4a82f7ddf297199df24b0523039ea7ed4075adae91629989ac5e79f",
+      "figure_number": 1,
+      "page_number": 2,
+      "panel_layout": {
+        "panels": 3,
+        "summary": "三栏并列：输入／数据／表示、模型架构、训练损失。",
+        "counting_note": "按三种物理先验融入位置计三个面板；内部机器人实例、网络节点与方程是各面板的说明图元。"
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "id": "survey-robot-physics-six-families",
+      "path": "teaser/survey-robot-physics-six-families",
+      "paper": "robot-physics-priors",
+      "archive_member": "figures/physics_encoded.pdf",
+      "original_sha256": "9987220ccd390c2290bbfce7fb8f71df8e77b37c3d7243e8b1df305bc00840e0",
+      "figure_number": 5,
+      "page_number": 6,
+      "panel_layout": {
+        "panels": 6,
+        "columns": 2,
+        "rows": 3,
+        "summary": "2 列 × 3 行：六类方法各配结构示意、公式或机器人例子。",
+        "counting_note": "六类为拉格朗日／哈密顿方法、模型结构方法、神经 ODE／变分积分网络、物理与学习混合方法、拓扑学习、神经算子。它们是综述中的方法家族，不是六个待比较的具体模型。"
+      },
+      "editability": "vector-and-raster"
+    }
+  ],
+  "additional_entries": [
+    {
+      "id": "survey-piml-data-model-optimization",
+      "primary_file": "source.png",
+      "source": {
+        "project": "https://link.springer.com/article/10.1007/s44379-025-00016-0",
+        "authors": [
+          "Chuizheng Meng",
+          "Sam Griesemer",
+          "Defu Cao",
+          "Sungyong Seo",
+          "Yan Liu"
+        ],
+        "urls": [
+          "https://link.springer.com/article/10.1007/s44379-025-00016-0",
+          "https://link.springer.com/article/10.1007/s44379-025-00016-0/figures/2",
+          "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs44379-025-00016-0/MediaObjects/44379_2025_16_Fig2_HTML.png",
+          "https://link.springer.com/content/pdf/10.1007/s44379-025-00016-0.pdf"
+        ],
+        "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs44379-025-00016-0/MediaObjects/44379_2025_16_Fig2_HTML.png",
+        "original_sha256": "d950023c9e0c559d8cf060acefcc1e371d35344a52a9aa66f03bb5dd7d8afd0f",
+        "original_bytes": 393609,
+        "full_pdf_url": "https://link.springer.com/content/pdf/10.1007/s44379-025-00016-0.pdf",
+        "full_pdf_sha256": "bd420cbe0e44bf3a43526b1b4690597e028757d19181e596517103cc261be6cb",
+        "full_pdf_bytes": 980866,
+        "figure_number": 2,
+        "page_number": 12,
+        "native_origin": "publisher-original-figure-PNG",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "kind": "paper-example"
+    },
+    {
+      "id": "pbdl-field-method-space",
+      "primary_file": "source.jpg",
+      "source": {
+        "project": "https://physicsbaseddeeplearning.org/overview.html",
+        "authors": [
+          "Nils Thuerey",
+          "Benjamin Holzschuh",
+          "Philipp Holl",
+          "Georg Kohl",
+          "Mario Lino",
+          "Qiang Liu",
+          "Patrick Schnell",
+          "Felix Trost"
+        ],
+        "urls": [
+          "https://physicsbaseddeeplearning.org/overview.html",
+          "https://github.com/tum-pbs/pbdl-book",
+          "https://raw.githubusercontent.com/tum-pbs/pbdl-book/45d2b6529eff3dacb0bec62c6ebee67ea807db33/resources/physics-based-deep-learning-overview.jpg",
+          "https://raw.githubusercontent.com/tum-pbs/pbdl-book/45d2b6529eff3dacb0bec62c6ebee67ea807db33/LICENSE"
+        ],
+        "original_url": "https://raw.githubusercontent.com/tum-pbs/pbdl-book/45d2b6529eff3dacb0bec62c6ebee67ea807db33/resources/physics-based-deep-learning-overview.jpg",
+        "original_sha256": "a3bb080a1266b9abd1b08f071057da46b6d916a6eb0dbe0c6dab6ad7c98e6ec0",
+        "original_bytes": 260575,
+        "git_blob_sha": "238d95d30c489777261fabffd80060e2ecce969b",
+        "commit": "45d2b6529eff3dacb0bec62c6ebee67ea807db33",
+        "upstream_path": "resources/physics-based-deep-learning-overview.jpg",
+        "native_origin": "author-repository-JPEG",
+        "retrieved_date": "2026-10-27"
+      },
+      "kind": "tutorial-example"
+    }
+  ],
+  "companion_figures": [
+    {
+      "entry": "survey-robot-physics-three-routes",
+      "archive_member": "figures/lifecycle.pdf",
+      "figure_number": 3,
+      "page_number": 5,
+      "sha256": "32b43766fe8342fbc0c261fc7ddc150767e7fe80940293beb4cc69ed8356c058"
+    }
+  ]
+}

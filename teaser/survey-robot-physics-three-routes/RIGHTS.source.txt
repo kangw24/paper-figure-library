@@ -1,0 +1,9 @@
+Paper: Embedding Physics Priors in Robot Learning: A Survey
+Authors: Piccinini, Mattia, Schulze, Lucas, Plebe, Alice, Saveriano, Matteo, Beckers, Thomas, Gao, Yuan, Arenz, Oleg, Zarrouki, Baha, Wang, Dingrui, Schäfer, Finn Rasmus, Peters, Jan, Betz, Johannes, Papini, Gastone Pietro Rosati
+Source version: 2609.22319v1
+TeX archive: https://arxiv.org/src/2609.22319v1
+Archive member: figures/overview_physics_injection.pdf
+Original SHA256: 77e48689b4a82f7ddf297199df24b0523039ea7ed4075adae91629989ac5e79f
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。
+The original figure is byte-identical to its archive member. No redrawing.

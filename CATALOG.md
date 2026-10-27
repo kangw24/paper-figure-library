@@ -6,7 +6,7 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 47 | [浏览](teaser/README.md) |
+| Teaser 范例 | 51 | [浏览](teaser/README.md) |
 | Architecture 范例 | 45 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 341 | [按内容与来源浏览](element/README.md) |
 
@@ -124,6 +124,15 @@ ECCV 2024 · Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：第三方图片与地图包含多种权利；图本身未见单独复用授权。。
 [原文件](teaser/orienternet/source.svg) · [来源记录](teaser/orienternet/metadata.json)
+
+### [PBDL · 领域位置与方法空间的概念总览](teaser/pbdl-field-method-space/README.md)
+
+左侧用机器学习、数值方法与物理的交集定位领域，右侧展开正反问题以及数据驱动、物理损失和混合方法，形成从领域位置到方法空间的概念总览。
+
+[<img src="teaser/pbdl-field-method-space/preview.png" width="760" alt="PBDL · 领域位置与方法空间的概念总览">](teaser/pbdl-field-method-space/source.jpg)
+
+来源类型：教材或教程范例。许可：Apache-2.0。
+[原文件](teaser/pbdl-field-method-space/source.jpg) · [来源记录](teaser/pbdl-field-method-space/metadata.json)
 
 ### [RayDer：数据瓶颈与新训练范式](teaser/rayder-concept/README.md)
 
@@ -473,6 +482,17 @@ TMLR 2025 · 期刊论文 · 综述 · 矢量结构
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-physics-knowledge-five-paradigms/original.pdf) · [来源记录](teaser/survey-physics-knowledge-five-paradigms/metadata.json)
 
+### [PIML · 数据、模型与优化的完整融合流程](teaser/survey-piml-data-model-optimization/README.md)
+
+三个并列区域分别展开数据、模型与优化；底部共享物理先验向三处提供约束，框内保留采样点、物理模块和损失方程。适合借鉴为内容充实的综述概念总览。
+
+Machine Learning for Computational Science and Engineering 2025 · 期刊论文 · 综述 · 整图位图，仅构图参考
+
+[<img src="teaser/survey-piml-data-model-optimization/preview.png" width="760" alt="PIML · 数据、模型与优化的完整融合流程">](teaser/survey-piml-data-model-optimization/source.png)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-piml-data-model-optimization/source.png) · [来源记录](teaser/survey-piml-data-model-optimization/metadata.json)
+
 ### [PIML · 物理先验、融入层级与任务的三维全景](teaser/survey-piml-three-axis-landscape/README.md)
 
 以物理先验、学习中的融入层级和任务为三个维度，再用两张二维图将代表方法放回同一分类空间。图形结构直接解释领域是如何被组织的。
@@ -483,6 +503,28 @@ arXiv 2022 · 预印本 · 综述 · 矢量 + 原有位图
 
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-piml-three-axis-landscape/original.pdf) · [来源记录](teaser/survey-piml-three-axis-landscape/metadata.json)
+
+### [机器人学习 · 物理先验融入架构的六类方法](teaser/survey-robot-physics-six-families/README.md)
+
+六个面板使用相同的色块、标题、中心图示和底部说明组织不同方法家族。每个面板包含公式、网络连接或机器人结构，既能独立阅读，也能共同构成有科学内容的方法全景。
+
+arXiv 2026 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-robot-physics-six-families/preview.png" width="760" alt="机器人学习 · 物理先验融入架构的六类方法">](teaser/survey-robot-physics-six-families/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-robot-physics-six-families/original.pdf) · [来源记录](teaser/survey-robot-physics-six-families/metadata.json)
+
+### [机器人学习 · 物理先验融入的三路对照](teaser/survey-robot-physics-three-routes/README.md)
+
+三栏沿用相同的物理先验主题，分别用机器人观测、网络内部结构和物理损失方程解释三种融入位置。颜色分区和真实方法示意共同承担信息表达，与多方法对照 teaser 的结构接近。
+
+arXiv 2026 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-robot-physics-three-routes/preview.png" width="760" alt="机器人学习 · 物理先验融入的三路对照">](teaser/survey-robot-physics-three-routes/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-robot-physics-three-routes/original.pdf) · [来源记录](teaser/survey-robot-physics-three-routes/metadata.json)
 
 ### [世界模型能力递进 · 可信预测、可控干预与决策收益](teaser/survey-world-model-capability-ladder/README.md)
 

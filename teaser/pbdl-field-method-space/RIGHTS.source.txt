@@ -1,0 +1,5 @@
+作者仓库根许可证为 Apache 2.0；保留原始文件、作者署名、固定版本和许可证副本。
+Authors: Nils Thuerey, Benjamin Holzschuh, Philipp Holl, Georg Kohl, Mario Lino, Qiang Liu, Patrick Schnell, Felix Trost
+Original URL: https://raw.githubusercontent.com/tum-pbs/pbdl-book/45d2b6529eff3dacb0bec62c6ebee67ea807db33/resources/physics-based-deep-learning-overview.jpg
+Original SHA256: a3bb080a1266b9abd1b08f071057da46b6d916a6eb0dbe0c6dab6ad7c98e6ec0
+Original image bytes preserved; no SVG wrapper or redrawing.

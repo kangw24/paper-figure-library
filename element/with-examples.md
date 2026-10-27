@@ -23,6 +23,8 @@
 
 | 范例 | 现有元素 |
 |---|---|
+| [机器人学习 · 物理先验融入的三路对照](../teaser/survey-robot-physics-three-routes/README.md) | [机器人](svg/tabler-robot.svg) · [浅层神经网络](svg/towaki-neuralnetwork.svg) · [数据库](svg/tabler-database.svg) · [文本文件](svg/tabler-file-text.svg) |
+| [PIML · 数据、模型与优化的完整融合流程](../teaser/survey-piml-data-model-optimization/README.md) | [数据库](svg/tabler-database.svg) · [浅层神经网络](svg/towaki-neuralnetwork.svg) · [文本文件](svg/tabler-file-text.svg) · [右箭头](svg/tabler-arrow-right.svg) |
 | [PDE 求解综述 · 物理—数据连续谱与两类方法全景](../teaser/survey-pde-physics-data-continuum/README.md) | [网络](svg/tabler-network.svg) · [大脑](svg/tabler-brain.svg) · [正弦信号](svg/tabler-wave-sine.svg) · [数据库](svg/tabler-database.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
 | [物理知识融入学习 · 五种方式的统一图元对照](../teaser/survey-physics-knowledge-five-paradigms/README.md) | [数据库](svg/tabler-database.svg) · [浅层神经网络](svg/towaki-neuralnetwork.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) · [文本文件](svg/tabler-file-text.svg) |
 | [Informed ML · 数据路径与先验知识路径的概念对照](../teaser/survey-informed-ml-information-flow/README.md) | [数据库](svg/tabler-database.svg) · [浅层神经网络](svg/towaki-neuralnetwork.svg) · [右箭头](svg/tabler-arrow-right.svg) · [节点分支](svg/tabler-affiliate.svg) |
@@ -38,6 +40,8 @@
 | [3DGS 编辑应用 · 5 组子图与上下前后对照](../teaser/survey-3dgs-editing-operations/README.md) | [图像](svg/tabler-photo.svg) · [视频](svg/tabler-video.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
 | [Neural Rendering 2020 · 两排 11 组场景 teaser](../teaser/survey-neural-rendering-2020-gallery/README.md) | [相机](svg/tabler-camera.svg) · [图像](svg/tabler-photo.svg) · [多用户](svg/tabler-users.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) |
 | [Advances in Neural Rendering · 两排约 10 组主题 teaser](../teaser/survey-neural-rendering-2022-gallery/README.md) | [相机](svg/tabler-camera.svg) · [图像](svg/tabler-photo.svg) · [视频](svg/tabler-video.svg) · [多用户](svg/tabler-users.svg) · [时钟](svg/tabler-clock.svg) |
+| [机器人学习 · 物理先验融入架构的六类方法](../teaser/survey-robot-physics-six-families/README.md) | [机器人](svg/tabler-robot.svg) · [网络](svg/tabler-network.svg) · [正弦信号](svg/tabler-wave-sine.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
+| [PBDL · 领域位置与方法空间的概念总览](../teaser/pbdl-field-method-space/README.md) | [原子](svg/tabler-atom.svg) · [网络](svg/tabler-network.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) · [层级结构](svg/tabler-sitemap.svg) |
 | [Informed ML · 知识来源—表示—融入位置全景](../teaser/survey-informed-ml-knowledge-map/README.md) | [层级结构](svg/tabler-sitemap.svg) · [节点分支](svg/tabler-affiliate.svg) · [大脑](svg/tabler-brain.svg) · [数据库](svg/tabler-database.svg) |
 | [PIML · 物理先验、融入层级与任务的三维全景](../teaser/survey-piml-three-axis-landscape/README.md) | [原子](svg/tabler-atom.svg) · [网络](svg/tabler-network.svg) · [散点图符号](svg/tabler-chart-scatter.svg) · [正弦信号](svg/tabler-wave-sine.svg) |
 | [AI for PDEs · 领域定位、方法与应用全景](../teaser/survey-ai-pde-scope-map/README.md) | [层级结构](svg/tabler-sitemap.svg) · [节点分支](svg/tabler-affiliate.svg) · [原子](svg/tabler-atom.svg) · [正弦信号](svg/tabler-wave-sine.svg) · [分流箭头](svg/tabler-arrows-split.svg) |

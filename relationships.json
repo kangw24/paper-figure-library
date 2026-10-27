@@ -7,6 +7,8 @@
         "id": "comparison",
         "title": "方法与范式对照",
         "figures": [
+          "survey-robot-physics-three-routes",
+          "survey-piml-data-model-optimization",
           "survey-pde-physics-data-continuum",
           "survey-physics-knowledge-five-paradigms",
           "survey-informed-ml-information-flow",
@@ -36,6 +38,8 @@
         "title": "领域全景、演进与综述路线图",
         "description": "条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。",
         "figures": [
+          "survey-robot-physics-six-families",
+          "pbdl-field-method-space",
           "survey-informed-ml-knowledge-map",
           "survey-piml-three-axis-landscape",
           "survey-ai-pde-scope-map",
@@ -245,6 +249,10 @@
     [
       "survey-informed-ml-information-flow",
       "survey-informed-ml-knowledge-map"
+    ],
+    [
+      "survey-robot-physics-three-routes",
+      "survey-robot-physics-six-families"
     ]
   ],
   "suggested_elements": {
@@ -846,6 +854,30 @@
       "tabler-network",
       "tabler-chart-scatter",
       "tabler-wave-sine"
+    ],
+    "survey-robot-physics-three-routes": [
+      "tabler-robot",
+      "towaki-neuralnetwork",
+      "tabler-database",
+      "tabler-file-text"
+    ],
+    "survey-robot-physics-six-families": [
+      "tabler-robot",
+      "tabler-network",
+      "tabler-wave-sine",
+      "tabler-arrows-right-left"
+    ],
+    "survey-piml-data-model-optimization": [
+      "tabler-database",
+      "towaki-neuralnetwork",
+      "tabler-file-text",
+      "tabler-arrow-right"
+    ],
+    "pbdl-field-method-space": [
+      "tabler-atom",
+      "tabler-network",
+      "tabler-arrows-right-left",
+      "tabler-sitemap"
     ]
   }
 }

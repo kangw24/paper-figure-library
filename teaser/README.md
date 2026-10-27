@@ -6,9 +6,9 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 方法与范式对照 | 9 | [浏览](#comparison) |
+| 方法与范式对照 | 11 | [浏览](#comparison) |
 | 多子图主题与应用总览 | 6 | [浏览](#multi-panel) |
-| 领域全景、演进与综述路线图 | 20 | [浏览](#landscape) |
+| 领域全景、演进与综述路线图 | 22 | [浏览](#landscape) |
 | 任务、动机与能力展示 | 7 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
 | 速度与精度权衡 | 2 | [浏览](#tradeoff) |
@@ -16,6 +16,30 @@
 <a id="comparison"></a>
 
 ## 方法与范式对照
+
+### [机器人学习 · 物理先验融入的三路对照](survey-robot-physics-three-routes/README.md)
+
+三栏沿用相同的物理先验主题，分别用机器人观测、网络内部结构和物理损失方程解释三种融入位置。颜色分区和真实方法示意共同承担信息表达，与多方法对照 teaser 的结构接近。
+
+arXiv 2026 · 预印本 · 综述
+
+**子图组织：** 三栏并列：输入／数据／表示、模型架构、训练损失。 原论文 Figure 1。
+
+[![预览](survey-robot-physics-three-routes/preview.png)](survey-robot-physics-three-routes/README.md)
+
+[说明与源文件](survey-robot-physics-three-routes/README.md) · [同论文：机器人学习 · 物理先验融入架构的六类方法](survey-robot-physics-six-families/README.md) · [关联元素](survey-robot-physics-three-routes/README.md#关联范例与元素)
+
+### [PIML · 数据、模型与优化的完整融合流程](survey-piml-data-model-optimization/README.md)
+
+三个并列区域分别展开数据、模型与优化；底部共享物理先验向三处提供约束，框内保留采样点、物理模块和损失方程。适合借鉴为内容充实的综述概念总览。
+
+Machine Learning for Computational Science and Engineering 2025 · 期刊论文 · 综述
+
+**整图位图，仅构图参考。**
+
+[![预览](survey-piml-data-model-optimization/preview.png)](survey-piml-data-model-optimization/README.md)
+
+[说明与源文件](survey-piml-data-model-optimization/README.md) · [关联元素](survey-piml-data-model-optimization/README.md#关联范例与元素)
 
 ### [PDE 求解综述 · 物理—数据连续谱与两类方法全景](survey-pde-physics-data-continuum/README.md)
 
@@ -202,6 +226,28 @@ EUROGRAPHICS 2022 · STAR 报告 · 综述
 ## 领域全景、演进与综述路线图
 
 条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。
+
+### [机器人学习 · 物理先验融入架构的六类方法](survey-robot-physics-six-families/README.md)
+
+六个面板使用相同的色块、标题、中心图示和底部说明组织不同方法家族。每个面板包含公式、网络连接或机器人结构，既能独立阅读，也能共同构成有科学内容的方法全景。
+
+arXiv 2026 · 预印本 · 综述
+
+**子图组织：** 2 列 × 3 行：六类方法各配结构示意、公式或机器人例子。 原论文 Figure 5。
+
+[![预览](survey-robot-physics-six-families/preview.png)](survey-robot-physics-six-families/README.md)
+
+[说明与源文件](survey-robot-physics-six-families/README.md) · [同论文：机器人学习 · 物理先验融入的三路对照](survey-robot-physics-three-routes/README.md) · [关联元素](survey-robot-physics-six-families/README.md#关联范例与元素)
+
+### [PBDL · 领域位置与方法空间的概念总览](pbdl-field-method-space/README.md)
+
+左侧用机器学习、数值方法与物理的交集定位领域，右侧展开正反问题以及数据驱动、物理损失和混合方法，形成从领域位置到方法空间的概念总览。
+
+**整图位图，仅构图参考。**
+
+[![预览](pbdl-field-method-space/preview.png)](pbdl-field-method-space/README.md)
+
+[说明与源文件](pbdl-field-method-space/README.md) · [关联元素](pbdl-field-method-space/README.md#关联范例与元素)
 
 ### [Informed ML · 知识来源—表示—融入位置全景](survey-informed-ml-knowledge-map/README.md)
 

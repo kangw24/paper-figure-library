@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "pbdl-field-method-space",
+  "title": "PBDL · 领域位置与方法空间的概念总览",
+  "category": "teaser",
+  "kind": "tutorial-example",
+  "origin": "downloaded",
+  "tags": [
+    "conceptual-overview",
+    "physics-based-deep-learning",
+    "tutorial",
+    "raster-reference"
+  ],
+  "formats": [
+    "jpg"
+  ],
+  "primary_file": "source.jpg",
+  "preview": "preview.png",
+  "summary": "左侧用机器学习、数值方法与物理的交集定位领域，右侧展开正反问题以及数据驱动、物理损失和混合方法，形成从领域位置到方法空间的概念总览。",
+  "curation": {
+    "figure_role": "作者教材 Physics-based Deep Learning 的 Overview 页面配图，非论文首图。作为领域定位与方法分类的构图参考。",
+    "layout_structure": "左侧三类领域交集，右侧正问题／反问题与三种物理融入方式。",
+    "why_selected": "左侧用机器学习、数值方法与物理的交集定位领域，右侧展开正反问题以及数据驱动、物理损失和混合方法，形成从领域位置到方法空间的概念总览。",
+    "what_to_borrow": [
+      "先交代领域交叉位置，再展开方法空间。",
+      "用一致颜色连接概念对象，避免将图形重叠误读为定量比例。",
+      "以箭头串联总览与局部展开。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-scope-map"
+    },
+    "reviewed_from": "original author/publisher figure and source page"
+  },
+  "source": {
+    "project": "https://physicsbaseddeeplearning.org/overview.html",
+    "authors": [
+      "Nils Thuerey",
+      "Benjamin Holzschuh",
+      "Philipp Holl",
+      "Georg Kohl",
+      "Mario Lino",
+      "Qiang Liu",
+      "Patrick Schnell",
+      "Felix Trost"
+    ],
+    "urls": [
+      "https://physicsbaseddeeplearning.org/overview.html",
+      "https://github.com/tum-pbs/pbdl-book",
+      "https://raw.githubusercontent.com/tum-pbs/pbdl-book/45d2b6529eff3dacb0bec62c6ebee67ea807db33/resources/physics-based-deep-learning-overview.jpg",
+      "https://raw.githubusercontent.com/tum-pbs/pbdl-book/45d2b6529eff3dacb0bec62c6ebee67ea807db33/LICENSE"
+    ],
+    "original_url": "https://raw.githubusercontent.com/tum-pbs/pbdl-book/45d2b6529eff3dacb0bec62c6ebee67ea807db33/resources/physics-based-deep-learning-overview.jpg",
+    "original_sha256": "a3bb080a1266b9abd1b08f071057da46b6d916a6eb0dbe0c6dab6ad7c98e6ec0",
+    "original_bytes": 260575,
+    "git_blob_sha": "238d95d30c489777261fabffd80060e2ecce969b",
+    "commit": "45d2b6529eff3dacb0bec62c6ebee67ea807db33",
+    "upstream_path": "resources/physics-based-deep-learning-overview.jpg",
+    "native_origin": "author-repository-JPEG",
+    "retrieved_date": "2026-10-27"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "Apache-2.0",
+    "note": "作者仓库根许可证为 Apache 2.0；保留原始文件、作者署名、固定版本和许可证副本。",
+    "file": "LICENSE.upstream"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "jpg",
+    "vector_shapes": false,
+    "editable_text": false,
+    "embedded_raster_images": 1,
+    "notes": [
+      "作者／出版商提供的整张位图，图元和文字已合并；只作构图参考，不提供伪矢量 SVG。"
+    ]
+  },
+  "changes": [
+    "原始图片按原字节保存。",
+    "生成 PNG 浏览预览并记录来源，未重绘或新增图形。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "LICENSE.upstream",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 533,
+      "sha256": "060b5283a1a73e29ce4b74159ad701b17b4673c2998552ff9935ece9b7ec78a1"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 218375,
+      "sha256": "72a27f517eb29c5258810a62b26e4144791756f8e6ecbc936a911442e51077b1"
+    },
+    {
+      "path": "source.jpg",
+      "bytes": 260575,
+      "sha256": "a3bb080a1266b9abd1b08f071057da46b6d916a6eb0dbe0c6dab6ad7c98e6ec0"
+    }
+  ]
+}

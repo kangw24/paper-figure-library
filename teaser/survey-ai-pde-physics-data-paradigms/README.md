@@ -65,6 +65,9 @@
 - [物理知识融入学习 · 五种方式的统一图元对照](../survey-physics-knowledge-five-paradigms/README.md)：以相同图元对照物理知识进入学习过程的不同方式。
 - [Informed ML · 数据路径与先验知识路径的概念对照](../survey-informed-ml-information-flow/README.md)：明确区分数据与先验知识，并解释两者如何进入学习过程。
 
+- [机器人学习 · 物理先验融入的三路对照](../survey-robot-physics-three-routes/README.md)：三栏沿用相同的物理先验主题，分别用机器人观测、网络内部结构和物理损失方程解释三种融入位置。颜色分区和真实方法示意共同承担信息表达，与多方法对照 teaser 的结构接近。
+- [PIML · 数据、模型与优化的完整融合流程](../survey-piml-data-model-optimization/README.md)：三个并列区域分别展开数据、模型与优化；底部共享物理先验向三处提供约束，框内保留采样点、物理模块和损失方程。适合借鉴为内容充实的综述概念总览。
+
 <!-- END SIMILAR EXAMPLES -->
 
 <!-- BEGIN FIGURE LINKS -->

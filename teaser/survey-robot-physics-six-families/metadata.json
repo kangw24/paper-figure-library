@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "survey-robot-physics-six-families",
+  "title": "机器人学习 · 物理先验融入架构的六类方法",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "conceptual-overview",
+    "multi-panel",
+    "method-taxonomy",
+    "robot-learning",
+    "robot-physics-priors",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "六个面板使用相同的色块、标题、中心图示和底部说明组织不同方法家族。每个面板包含公式、网络连接或机器人结构，既能独立阅读，也能共同构成有科学内容的方法全景。",
+  "publication": {
+    "title": "Embedding Physics Priors in Robot Learning: A Survey",
+    "venue": "arXiv",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2609.22319v1",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-27",
+    "source_version": "2609.22319v1"
+  },
+  "curation": {
+    "figure_role": "综述 Figure 5 的方法类别总览，原文并非首图；适合作为多子图综述 teaser 的构图参考。整图比较方法家族，归入 Teaser。",
+    "figure_subtype": "six-panel-method-family-overview",
+    "panel_layout": {
+      "panels": 6,
+      "columns": 2,
+      "rows": 3,
+      "summary": "2 列 × 3 行：六类方法各配结构示意、公式或机器人例子。",
+      "counting_note": "六类为拉格朗日／哈密顿方法、模型结构方法、神经 ODE／变分积分网络、物理与学习混合方法、拓扑学习、神经算子。它们是综述中的方法家族，不是六个待比较的具体模型。"
+    },
+    "why_selected": "六个面板使用相同的色块、标题、中心图示和底部说明组织不同方法家族。每个面板包含公式、网络连接或机器人结构，既能独立阅读，也能共同构成有科学内容的方法全景。",
+    "what_to_borrow": [
+      "统一面板结构，让多类方法保持可比较的阅读节奏。",
+      "每类只保留最有辨识度的科学对象，避免用大段文字替代示意。",
+      "标题、主要图示和短说明构成三个清楚层级。"
+    ],
+    "reviewed_from": "original paper page, native author figure, and final rendered preview",
+    "design_notes": [
+      "可根据论文画幅改成 3 列 × 2 行，但需保留各面板的完整科学关系。",
+      "统一面板内公式大小和短说明行数，保持主要示意的可读性。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-scope-map",
+      "reason": "将多个方法家族组织成一个完整全景，并用独立科学示意解释每个类别。"
+    }
+  },
+  "source": {
+    "project": "https://github.com/TUM-AVS/survey-physics-embedded-robot-learning",
+    "authors": [
+      "Piccinini, Mattia",
+      "Schulze, Lucas",
+      "Plebe, Alice",
+      "Saveriano, Matteo",
+      "Beckers, Thomas",
+      "Gao, Yuan",
+      "Arenz, Oleg",
+      "Zarrouki, Baha",
+      "Wang, Dingrui",
+      "Schäfer, Finn Rasmus",
+      "Peters, Jan",
+      "Betz, Johannes",
+      "Papini, Gastone Pietro Rosati"
+    ],
+    "urls": [
+      "https://github.com/TUM-AVS/survey-physics-embedded-robot-learning",
+      "https://arxiv.org/abs/2609.22319v1",
+      "https://arxiv.org/pdf/2609.22319v1",
+      "https://arxiv.org/src/2609.22319v1"
+    ],
+    "arxiv_id": "2609.22319v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2609.22319v1",
+    "full_pdf_sha256": "1b29f3f46c16604b9cdcd30bc8be578e87a32fcf71691817f9bf5ba40a613a10",
+    "full_pdf_bytes": 5230909,
+    "page_number": 6,
+    "figure_number": 5,
+    "original_sha256": "9987220ccd390c2290bbfce7fb8f71df8e77b37c3d7243e8b1df305bc00840e0",
+    "original_bytes": 2805924,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2609.22319v1",
+    "archive_sha256": "9aa00491666bd8fc41c5d54ab4c2a878ef173a39b938cf357417536dfc6789f8",
+    "archive_bytes": 4600215,
+    "archive_member": "figures/physics_encoded.pdf",
+    "inclusion_member": "include/physics_encoded.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录版本声明 CC BY 4.0；保留作者署名、原文链接与转换记录。 子图引用的第三方照片、截图、生成结果与原论文图例仍按其原始权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent vector-and-image PDF",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained where present",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 457,
+    "pdf_text_spans": 35,
+    "embedded_raster_images": 20,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 32,
+      "path": 676,
+      "mask": 20,
+      "g": 104,
+      "image": 40,
+      "use": 512
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "独立 PDF 保留作者原有图形和文本对象；SVG 文字转轮廓。原图中的嵌入位图可移动或替换，不能按矢量节点编辑。",
+      "已按原论文页、原始插图定义和源图核对图号与主题；未重绘或新增图像。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从固定版本作者 TeX 归档复制原件，未改原始字节。",
+    "保存原始插图定义、子图计数口径、来源和预览。",
+    "将原独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 835,
+      "sha256": "274d47e1d92e4b59b6a64a652083208e59f9aa76a61bdb261317bec121838915"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 264,
+      "sha256": "e129b003bfde2fa47f6d4dd8387fd0220b3942223efb9b4ee6870a3617b6fbf9"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 2805924,
+      "sha256": "9987220ccd390c2290bbfce7fb8f71df8e77b37c3d7243e8b1df305bc00840e0"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 407342,
+      "sha256": "84eb012436af917fc05538a633af388a5db33322d13654470c2fbad4375c1ec2"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 4125228,
+      "sha256": "afe9975710e3d3b317e3e7750740c37e50860e934e39885c6312103af04124d1"
+    }
+  ]
+}

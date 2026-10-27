@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "survey-piml-data-model-optimization",
+  "title": "PIML · 数据、模型与优化的完整融合流程",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "conceptual-overview",
+    "knowledge-integration",
+    "raster-reference"
+  ],
+  "formats": [
+    "png"
+  ],
+  "primary_file": "source.png",
+  "preview": "preview.png",
+  "summary": "三个并列区域分别展开数据、模型与优化；底部共享物理先验向三处提供约束，框内保留采样点、物理模块和损失方程。适合借鉴为内容充实的综述概念总览。",
+  "curation": {
+    "figure_role": "期刊综述 Figure 2，出版商 PDF 第 12 页。此图来自 2025 年期刊版本，作为融合流程的构图参考。",
+    "layout_structure": "三列流程＋底部共享物理先验；蓝色区域贯穿数据、模型和优化三列。",
+    "why_selected": "三个并列区域分别展开数据、模型与优化；底部共享物理先验向三处提供约束，框内保留采样点、物理模块和损失方程。适合借鉴为内容充实的综述概念总览。",
+    "what_to_borrow": [
+      "用同一物理先验连接多种融入位置。",
+      "各列保持统一阅读结构，又用公式和模块说明具体内容。",
+      "区分贯穿整图的主流程与局部方法展开。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-physics-data-paradigms"
+    },
+    "reviewed_from": "original author/publisher figure and source page"
+  },
+  "source": {
+    "project": "https://link.springer.com/article/10.1007/s44379-025-00016-0",
+    "authors": [
+      "Chuizheng Meng",
+      "Sam Griesemer",
+      "Defu Cao",
+      "Sungyong Seo",
+      "Yan Liu"
+    ],
+    "urls": [
+      "https://link.springer.com/article/10.1007/s44379-025-00016-0",
+      "https://link.springer.com/article/10.1007/s44379-025-00016-0/figures/2",
+      "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs44379-025-00016-0/MediaObjects/44379_2025_16_Fig2_HTML.png",
+      "https://link.springer.com/content/pdf/10.1007/s44379-025-00016-0.pdf"
+    ],
+    "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs44379-025-00016-0/MediaObjects/44379_2025_16_Fig2_HTML.png",
+    "original_sha256": "d950023c9e0c559d8cf060acefcc1e371d35344a52a9aa66f03bb5dd7d8afd0f",
+    "original_bytes": 393609,
+    "full_pdf_url": "https://link.springer.com/content/pdf/10.1007/s44379-025-00016-0.pdf",
+    "full_pdf_sha256": "bd420cbe0e44bf3a43526b1b4690597e028757d19181e596517103cc261be6cb",
+    "full_pdf_bytes": 980866,
+    "figure_number": 2,
+    "page_number": 12,
+    "native_origin": "publisher-original-figure-PNG",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "出版商原文声明 CC BY 4.0。保留作者、期刊版本、原图链接和修改记录；第三方素材按其原声明。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "png",
+    "vector_shapes": false,
+    "editable_text": false,
+    "embedded_raster_images": 1,
+    "notes": [
+      "作者／出版商提供的整张位图，图元和文字已合并；只作构图参考，不提供伪矢量 SVG。"
+    ]
+  },
+  "changes": [
+    "原始图片按原字节保存。",
+    "生成 PNG 浏览预览并记录来源，未重绘或新增图形。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "publication": {
+    "title": "When physics meets machine learning: a survey of physics-informed machine learning",
+    "venue": "Machine Learning for Computational Science and Engineering",
+    "year": 2025,
+    "article_type": "survey",
+    "presentation": "journal-article",
+    "evidence_url": "https://link.springer.com/article/10.1007/s44379-025-00016-0",
+    "evidence_type": "publisher-full-text-and-license",
+    "checked_date": "2026-10-27"
+  },
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 493,
+      "sha256": "5e4511f962b5973fc4af095f0151e2d0dc451ca45e09788f8ccef46ea543bd78"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 396846,
+      "sha256": "590272bf920806b260a352c853345b278f6eedff0ba6ce5b42252e7d9b4bfef8"
+    },
+    {
+      "path": "source.png",
+      "bytes": 393609,
+      "sha256": "d950023c9e0c559d8cf060acefcc1e371d35344a52a9aa66f03bb5dd7d8afd0f"
+    }
+  ]
+}

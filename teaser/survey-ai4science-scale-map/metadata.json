@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "id": "survey-ai4science-scale-map",
+  "title": "AI4Science 时空尺度图 · 研究对象与共同挑战",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "ai4science",
+    "scale-map",
+    "conceptual-overview",
+    "ai4science-survey",
+    "arXiv",
+    "2023"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "把研究方向放进时间与长度尺度坐标，再用斜向箭头表达跨尺度共性；同一画面包含应用对象、典型任务、对称性和共通研究挑战，信息量足而层级清楚。",
+  "publication": {
+    "title": "Artificial Intelligence for Science in Quantum, Atomistic, and Continuum Systems",
+    "venue": "arXiv",
+    "year": 2023,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2307.08423v6",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2307.08423v6"
+  },
+  "curation": {
+    "figure_role": "综述中的时空尺度概念地图，原文 Figure 3；以尺度和问题关系组织领域，适合作为开篇视角图参考。",
+    "figure_subtype": "scale-landscape",
+    "why_selected": "把研究方向放进时间与长度尺度坐标，再用斜向箭头表达跨尺度共性；同一画面包含应用对象、典型任务、对称性和共通研究挑战，信息量足而层级清楚。",
+    "what_to_borrow": [
+      "横纵轴承担有意义的领域坐标，色块承担研究范围，减少纯文字枚举。",
+      "用量子、原子和连续系统的不同区域建立整体框架。",
+      "斜向共享挑战与区域内具体任务分开表达；图中尺度布局是概括性示意。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2307.08423",
+    "authors": [
+      "Zhang, Xuan",
+      "Wang, Limei",
+      "Helwig, Jacob",
+      "Luo, Youzhi",
+      "Fu, Cong",
+      "Xie, Yaochen",
+      "Liu, Meng",
+      "Lin, Yuchao",
+      "Xu, Zhao",
+      "Yan, Keqiang",
+      "Adams, Keir",
+      "Weiler, Maurice",
+      "Li, Xiner",
+      "Fu, Tianfan",
+      "Wang, Yucheng",
+      "Strasser, Alex",
+      "Yu, Haiyang",
+      "Xie, YuQing",
+      "Fu, Xiang",
+      "Xu, Shenglong",
+      "Liu, Yi",
+      "Du, Yuanqi",
+      "Saxton, Alexandra",
+      "Ling, Hongyi",
+      "Lawrence, Hannah",
+      "Stärk, Hannes",
+      "Gui, Shurui",
+      "Edwards, Carl",
+      "Gao, Nicholas",
+      "Ladera, Adriana",
+      "Wu, Tailin",
+      "Hofgard, Elyssa F.",
+      "Tehrani, Aria Mansouri",
+      "Wang, Rui",
+      "Daigavane, Ameya",
+      "Bohde, Montgomery",
+      "Kurtin, Jerry",
+      "Huang, Qian",
+      "Phung, Tuong",
+      "Xu, Minkai",
+      "Joshi, Chaitanya K.",
+      "Mathis, Simon V.",
+      "Azizzadenesheli, Kamyar",
+      "Fang, Ada",
+      "Aspuru-Guzik, Alán",
+      "Bekkers, Erik",
+      "Bronstein, Michael",
+      "Zitnik, Marinka",
+      "Anandkumar, Anima",
+      "Ermon, Stefano",
+      "Liò, Pietro",
+      "Yu, Rose",
+      "Günnemann, Stephan",
+      "Leskovec, Jure",
+      "Ji, Heng",
+      "Sun, Jimeng",
+      "Barzilay, Regina",
+      "Jaakkola, Tommi",
+      "Coley, Connor W.",
+      "Qian, Xiaoning",
+      "Qian, Xiaofeng",
+      "Smidt, Tess",
+      "Ji, Shuiwang"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2307.08423",
+      "https://arxiv.org/abs/2307.08423v6",
+      "https://arxiv.org/pdf/2307.08423v6",
+      "https://arxiv.org/src/2307.08423v6"
+    ],
+    "arxiv_id": "2307.08423v6",
+    "full_pdf_url": "https://arxiv.org/pdf/2307.08423v6",
+    "full_pdf_sha256": "d3e70fefa3925531bb5b91a28cb9c3b7c964a04d6b36a1db26596c7007983c32",
+    "full_pdf_bytes": 24244755,
+    "page_number": 10,
+    "figure_number": 3,
+    "original_sha256": "03e96eff34ba832dc2a8a564bdc884141cb935363e18fc345bf9c500718919ff",
+    "original_bytes": 65197,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2307.08423v6",
+    "archive_sha256": "c11878cec440eded13498c931813f82a58399363896b35092bf3854b4168b47f",
+    "archive_bytes": 18429780,
+    "archive_member": "figs/AIRS_stair_gram.pdf",
+    "inclusion_member": "introduction.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 65,
+    "pdf_drawing_objects": 24,
+    "embedded_raster_images": 2,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 929,
+      "path": 181,
+      "clipPath": 4,
+      "linearGradient": 2,
+      "stop": 514,
+      "rect": 2,
+      "use": 1315
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 1482,
+      "sha256": "cc777bcc8f8994d08b491301c5b91ca64b8c841e07f4f2e94d17193364fa2644"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 808,
+      "sha256": "ce094175f9077d20b4a98603ae01f42587624840303b6c8d8e85bf495f06243a"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 65197,
+      "sha256": "03e96eff34ba832dc2a8a564bdc884141cb935363e18fc345bf9c500718919ff"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 282833,
+      "sha256": "35b97abff2455a52b70c9ffad06fcc31640e3479a08b89aab7d3f92349abd3aa"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 438705,
+      "sha256": "483d7f817a34ad02c6521cdee4c910a2a7040ed9f0970b8e3ef14fe5477cd1cd"
+    }
+  ]
+}

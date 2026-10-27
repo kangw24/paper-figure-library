@@ -1,0 +1,8 @@
+Paper: Graph Foundation Models: Concepts, Opportunities and Challenges
+Authors: Liu, Jiawei, Yang, Cheng, Lu, Zhiyuan, Chen, Junze, Li, Yibo, Zhang, Mengmei, Bai, Ting, Fang, Yuan, Sun, Lichao, Yu, Philip S., Shi, Chuan
+Source version: 2310.11829v4
+TeX archive: https://arxiv.org/src/2310.11829v4
+Archive member: images/intro.pdf
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。
+Original PDF is byte-identical to the archive member. SVG conversion only; no redrawing.

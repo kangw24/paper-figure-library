@@ -21,8 +21,8 @@
 | <img src="../../element/previews/tabler-satellite.png" width="140"> | [卫星](../../element/svg/tabler-satellite.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-drone.png" width="140"> | [无人机](../../element/svg/tabler-drone.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-camera.png" width="140"> | [相机](../../element/svg/tabler-camera.svg) | Tabler outline · MIT | [3DETR · 输入点云、注意力与检测结果的对应](../../teaser/3detr-attention-teaser/README.md) · [Uneven Double Refraction：原型与成像能力展示](../../teaser/birefractive-rgbd/README.md) · [CUT3R · 静态、动态与稀疏照片三类场景](../../teaser/cut3r-capabilities/README.md) |
-| <img src="../../element/previews/tabler-robot.png" width="140"> | [机器人](../../element/svg/tabler-robot.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-car.png" width="140"> | [汽车](../../element/svg/tabler-car.svg) | Tabler outline · MIT | [LAV：感知、预测与驾驶控制流程](../../architecture/lav/README.md) |
+| <img src="../../element/previews/tabler-robot.png" width="140"> | [机器人](../../element/svg/tabler-robot.svg) | Tabler outline · MIT | [世界模型能力递进 · 可信预测、可控干预与决策收益](../../teaser/survey-world-model-capability-ladder/README.md) |
+| <img src="../../element/previews/tabler-car.png" width="140"> | [汽车](../../element/svg/tabler-car.svg) | Tabler outline · MIT | [3D／4D 世界模型 · 场景与研究维度全景](../../teaser/survey-3d4d-world-overview/README.md) · [LAV：感知、预测与驾驶控制流程](../../architecture/lav/README.md) |
 | <img src="../../element/previews/tabler-plane.png" width="140"> | [飞机](../../element/svg/tabler-plane.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-world.png" width="140"> | [地球](../../element/svg/tabler-world.svg) | Tabler outline · MIT | [3DGS 应用全景 · 中心主题与场景分支](../../teaser/survey-3dgs-application-landscape/README.md) · [Agent 社会场景 · 综述概念 teaser](../../teaser/survey-agent-society-teaser/README.md) |
 | <img src="../../element/previews/tabler-map.png" width="140"> | [地图](../../element/svg/tabler-map.svg) | Tabler outline · MIT | [OrienterNet：用二维地图定位的任务与动机](../../teaser/orienternet/README.md) |

@@ -1,0 +1,8 @@
+Paper: 3D Generation for Embodied AI and Robotic Simulation: A Survey
+Authors: Ye, Tianwei, Mao, Yifan, Liao, Minwen, Liu, Jian, Guo, Chunchao, Du, Dazhao, Shou, Quanxin, Zhu, Fangqi, Guo, Song
+Source version: 2604.26509v4
+TeX archive: https://arxiv.org/src/2604.26509v4
+Archive member: imgs/3d-rep-genmethod.pdf
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。
+Original PDF is byte-identical to the archive member. SVG conversion only; no redrawing.

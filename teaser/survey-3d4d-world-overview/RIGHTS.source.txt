@@ -1,0 +1,8 @@
+Paper: 3D and 4D World Modeling: A Survey
+Authors: Kong, Lingdong, Yang, Yu, Mei, Jianbiao, Liu, Youquan, Liang, Ao, Zhu, Dekai, Lu, Dongyue, Yin, Wei, Hu, Xiaotao, Jia, Mingkai, Deng, Junyuan, Zhang, Kaiwen, Wu, Yang, Yan, Tianyi, Gao, Shenyuan, Wang, Song, Li, Linfeng, Pan, Liang, Liu, Yong, Zhu, Jianke, Ooi, Wei Tsang, Hoi, Steven C. H., Liu, Ziwei
+Source version: 2509.07996v4
+TeX archive: https://arxiv.org/src/2509.07996v4
+Archive member: figures/teaser.pdf
+Declared article license: https://creativecommons.org/licenses/by-sa/4.0/
+所收录 arXiv 版本声明 CC BY-SA 4.0；保留署名、来源和转换说明，改编件按相同许可分享。原有第三方图片、标识和引用素材的独立权利仍以原声明为准。
+Original PDF is byte-identical to the archive member. SVG conversion only; no redrawing.

@@ -6,8 +6,8 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 方法与范式对照 | 4 | [浏览](#comparison) |
-| 领域全景、演进与综述路线图 | 8 | [浏览](#landscape) |
+| 方法与范式对照 | 5 | [浏览](#comparison) |
+| 领域全景、演进与综述路线图 | 17 | [浏览](#landscape) |
 | 任务、动机与能力展示 | 7 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
 | 速度与精度权衡 | 2 | [浏览](#tradeoff) |
@@ -54,12 +54,112 @@ NeurIPS 2023 · Oral
 
 [说明与源文件](rayder-concept/README.md) · [同论文：RayDer：统一 Transformer 的两个使用阶段](../architecture/rayder/README.md) · [关联元素](rayder-concept/README.md#关联范例与元素)
 
+### [图基础模型范式对照 · 专用学习与共享预训练](survey-graph-foundation-paradigm/README.md)
+
+左右对照专用端到端学习与预训练加适配，复用同样的图节点和模型符号，底部再用示意曲线与能力列表补充两种范式的概念差异；几乎全靠结构和线条传递信息。
+
+arXiv 2023 · 预印本 · 综述
+
+[![预览](survey-graph-foundation-paradigm/preview.png)](survey-graph-foundation-paradigm/README.md)
+
+[说明与源文件](survey-graph-foundation-paradigm/README.md) · [关联元素](survey-graph-foundation-paradigm/README.md#关联范例与元素)
+
 
 <a id="landscape"></a>
 
 ## 领域全景、演进与综述路线图
 
 条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。
+
+### [AI4Science 领域圆环 · 从量子到连续系统](survey-ai4science-domain-wheel/README.md)
+
+用三层圆环把量子、原子与连续系统统一起来：外圈是研究对象的视觉实例，中圈是学科和任务，中心是对称性、泛化与不确定性等共同议题。领域覆盖与核心观点同时可见。
+
+arXiv 2023 · 预印本 · 综述
+
+[![预览](survey-ai4science-domain-wheel/preview.png)](survey-ai4science-domain-wheel/README.md)
+
+[说明与源文件](survey-ai4science-domain-wheel/README.md) · [同论文：AI4Science 时空尺度图 · 研究对象与共同挑战](survey-ai4science-scale-map/README.md) · [关联元素](survey-ai4science-domain-wheel/README.md#关联范例与元素)
+
+### [AI4Science 时空尺度图 · 研究对象与共同挑战](survey-ai4science-scale-map/README.md)
+
+把研究方向放进时间与长度尺度坐标，再用斜向箭头表达跨尺度共性；同一画面包含应用对象、典型任务、对称性和共通研究挑战，信息量足而层级清楚。
+
+arXiv 2023 · 预印本 · 综述
+
+[![预览](survey-ai4science-scale-map/preview.png)](survey-ai4science-scale-map/README.md)
+
+[说明与源文件](survey-ai4science-scale-map/README.md) · [同论文：AI4Science 领域圆环 · 从量子到连续系统](survey-ai4science-domain-wheel/README.md) · [关联元素](survey-ai4science-scale-map/README.md#关联范例与元素)
+
+### [3D／4D 世界模型 · 场景与研究维度全景](survey-3d4d-world-overview/README.md)
+
+左边用可识别的三维街景建立主题，右边用重复的窄栏展开定义、方法、数据与评估、应用和未来方向；VideoGen、OccGen、LiDARGen 的图标贯穿多个维度，视觉与内容都有明确对应。
+
+arXiv 2025 · 预印本 · 综述
+
+[![预览](survey-3d4d-world-overview/preview.png)](survey-3d4d-world-overview/README.md)
+
+[说明与源文件](survey-3d4d-world-overview/README.md) · [同论文：3D／4D 世界模型方法地图 · 三棵功能树](survey-3d4d-method-tree/README.md) · [同论文：世界模型数据集图谱 · 蛇形时间路与模态卡片](survey-3d4d-dataset-roadmap/README.md) · [关联元素](survey-3d4d-world-overview/README.md#关联范例与元素)
+
+### [3D／4D 世界模型方法地图 · 三棵功能树](survey-3d4d-method-tree/README.md)
+
+把 VideoGen、OccGen、LiDARGen 画成三组有主干和侧枝的研究地图，在分支处标出数据引擎、动作解释、场景表征和预测等功能，兼顾密集代表工作与整体方向。
+
+arXiv 2025 · 预印本 · 综述
+
+[![预览](survey-3d4d-method-tree/preview.png)](survey-3d4d-method-tree/README.md)
+
+[说明与源文件](survey-3d4d-method-tree/README.md) · [同论文：3D／4D 世界模型 · 场景与研究维度全景](survey-3d4d-world-overview/README.md) · [同论文：世界模型数据集图谱 · 蛇形时间路与模态卡片](survey-3d4d-dataset-roadmap/README.md) · [关联元素](survey-3d4d-method-tree/README.md#关联范例与元素)
+
+### [世界模型数据集图谱 · 蛇形时间路与模态卡片](survey-3d4d-dataset-roadmap/README.md)
+
+沿蛇形路线组织数据集年代，每张卡片复用名称、年份、模态图标和样例图四层信息；时间顺序、视觉差异和模态范围可以一起阅读。
+
+arXiv 2025 · 预印本 · 综述
+
+[![预览](survey-3d4d-dataset-roadmap/preview.png)](survey-3d4d-dataset-roadmap/README.md)
+
+[说明与源文件](survey-3d4d-dataset-roadmap/README.md) · [同论文：3D／4D 世界模型 · 场景与研究维度全景](survey-3d4d-world-overview/README.md) · [同论文：3D／4D 世界模型方法地图 · 三棵功能树](survey-3d4d-method-tree/README.md) · [关联元素](survey-3d4d-dataset-roadmap/README.md#关联范例与元素)
+
+### [3D 生成概念地图 · 表示、学习目标与生成范式](survey-3d-representation-generators/README.md)
+
+以表示与生成模型的双向关系为中心，左侧用同一兔子示例比较多种 3D 表示，右侧比较 VAE、GAN、扩散和自回归，上下分别列训练目标与采样方式，信息组织完整。
+
+arXiv 2026 · 预印本 · 综述
+
+[![预览](survey-3d-representation-generators/preview.png)](survey-3d-representation-generators/README.md)
+
+[说明与源文件](survey-3d-representation-generators/README.md) · [关联元素](survey-3d-representation-generators/README.md#关联范例与元素)
+
+### [世界模型能力递进 · 可信预测、可控干预与决策收益](survey-world-model-capability-ladder/README.md)
+
+用同一个机器人操作任务贯穿观察、未来预测、不同动作干预和决策执行，最后接入改进闭环；相同场景反复出现，使抽象能力差异变成可以直接对照的图像证据要求。
+
+arXiv 2026 · 预印本 · 综述
+
+[![预览](survey-world-model-capability-ladder/preview.png)](survey-world-model-capability-ladder/README.md)
+
+[说明与源文件](survey-world-model-capability-ladder/README.md) · [关联元素](survey-world-model-capability-ladder/README.md#关联范例与元素)
+
+### [基础模型概念总览 · 多源数据与多任务适配](survey-foundation-model-adaptation/README.md)
+
+左侧多模态数据汇入一个共享基础，右侧扇出多个下游任务；每个任务用短名称和具象图标表达，能快速讲清共同底座与任务适配的概念。
+
+arXiv 2021 · 预印本 · 综述
+
+[![预览](survey-foundation-model-adaptation/preview.png)](survey-foundation-model-adaptation/README.md)
+
+[说明与源文件](survey-foundation-model-adaptation/README.md) · [同论文：基础模型生态 · 数据、模型与人的完整链条](survey-foundation-model-ecosystem/README.md) · [关联元素](survey-foundation-model-adaptation/README.md#关联范例与元素)
+
+### [基础模型生态 · 数据、模型与人的完整链条](survey-foundation-model-ecosystem/README.md)
+
+用五个连续色带串起数据产生、整理、训练、适配与部署，并在两端放人、在中间放多路数据与模型，提示讨论模型影响时应同时看到上下游生态。
+
+arXiv 2021 · 预印本 · 综述
+
+[![预览](survey-foundation-model-ecosystem/preview.png)](survey-foundation-model-ecosystem/README.md)
+
+[说明与源文件](survey-foundation-model-ecosystem/README.md) · [同论文：基础模型概念总览 · 多源数据与多任务适配](survey-foundation-model-adaptation/README.md) · [关联元素](survey-foundation-model-ecosystem/README.md#关联范例与元素)
 
 ### [Agent 社会场景 · 综述概念 teaser](survey-agent-society-teaser/README.md)
 

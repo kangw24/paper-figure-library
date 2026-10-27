@@ -1,0 +1,8 @@
+Paper: Artificial Intelligence for Science in Quantum, Atomistic, and Continuum Systems
+Authors: Zhang, Xuan, Wang, Limei, Helwig, Jacob, Luo, Youzhi, Fu, Cong, Xie, Yaochen, Liu, Meng, Lin, Yuchao, Xu, Zhao, Yan, Keqiang, Adams, Keir, Weiler, Maurice, Li, Xiner, Fu, Tianfan, Wang, Yucheng, Strasser, Alex, Yu, Haiyang, Xie, YuQing, Fu, Xiang, Xu, Shenglong, Liu, Yi, Du, Yuanqi, Saxton, Alexandra, Ling, Hongyi, Lawrence, Hannah, Stärk, Hannes, Gui, Shurui, Edwards, Carl, Gao, Nicholas, Ladera, Adriana, Wu, Tailin, Hofgard, Elyssa F., Tehrani, Aria Mansouri, Wang, Rui, Daigavane, Ameya, Bohde, Montgomery, Kurtin, Jerry, Huang, Qian, Phung, Tuong, Xu, Minkai, Joshi, Chaitanya K., Mathis, Simon V., Azizzadenesheli, Kamyar, Fang, Ada, Aspuru-Guzik, Alán, Bekkers, Erik, Bronstein, Michael, Zitnik, Marinka, Anandkumar, Anima, Ermon, Stefano, Liò, Pietro, Yu, Rose, Günnemann, Stephan, Leskovec, Jure, Ji, Heng, Sun, Jimeng, Barzilay, Regina, Jaakkola, Tommi, Coley, Connor W., Qian, Xiaoning, Qian, Xiaofeng, Smidt, Tess, Ji, Shuiwang
+Source version: 2307.08423v6
+TeX archive: https://arxiv.org/src/2307.08423v6
+Archive member: figs/AIRS_Overview.pdf
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。
+Original PDF is byte-identical to the archive member. SVG conversion only; no redrawing.

@@ -2,7 +2,7 @@
 
 个人 CS / AI 论文配图素材库，按用途分为 **Teaser、Architecture、Element**。收集作者和已有素材库的源文件，用 Markdown 串联完整范例、方法结构与可复用部件。
 
-**24 个 teaser · 45 个 architecture · 341 个独立 element**。
+**34 个 teaser · 45 个 architecture · 341 个独立 element**。
 
 | 分类 | 用来找什么 | 入口 |
 |---|---|---|
@@ -20,7 +20,7 @@ element/       独立可复用部件
 
 会议、期刊、年份、综述类型、Oral 与奖项保留为条目标签。
 
-综述图从 [领域全景与发展脉络](teaser/README.md#landscape) 浏览：本批从 5 篇综述收录 8 张概念、场景、时间线、谱系与分类总览图，另有 3 张配套框架图放在 Architecture。优先看 [Agent 社会场景 teaser](teaser/survey-agent-society-teaser/README.md)、[语言模型能力演进](teaser/survey-lm-capability-evolution/README.md) 和 [LLaMA 家族关系](teaser/survey-llama-family-map/README.md)。
+综述与综合报告的概念图、领域地图和发展脉络从 [全景目录](teaser/README.md#landscape) 浏览。优先看 [AI4Science 领域圆环](teaser/survey-ai4science-domain-wheel/README.md)、[3D／4D 世界模型全景](teaser/survey-3d4d-world-overview/README.md)、[3D 表示与生成范式](teaser/survey-3d-representation-generators/README.md)，以及 [世界模型能力递进](teaser/survey-world-model-capability-ladder/README.md)。范式对照还可看 [图基础模型](teaser/survey-graph-foundation-paradigm/README.md)。
 
 ## 沿着范例找素材
 
@@ -49,7 +49,7 @@ element/       独立可复用部件
 
 ## 来源与编辑范围
 
-原始下载的 SVG、AI、AIT 保留原字节；本批综述还保留作者 TeX 归档中的独立 PDF 原件及插图定义，记录固定版本、归档哈希与成员路径。PDF 中的原文本对象保留，附带 SVG 的文字转为轮廓。3DGS 母图的章节与引文编号由原论文 LaTeX 叠加，独立文件保留作者的编号空槽。
+原始下载的 SVG、AI、AIT 保留原字节；综述条目优先保留作者 TeX 归档中的独立 PDF 原件及插图定义，记录固定版本、归档哈希与成员路径。PDF 中的原文本对象保留，附带 SVG 的文字转为轮廓。3DGS 母图的章节与引文编号由原论文 LaTeX 叠加，独立文件保留作者的编号空槽。CRFM 报告同时保留论文实际嵌入的 PNG 与作者归档中的矢量配套 PDF，注明版本对应关系。
 
 从整篇论文 PDF 摘取的 SVG 另记录原文哈希、页码、裁剪坐标与转换步骤。照片和渲染图仍为位图。DPO 对照图和 Genie 训练总览明确标为整图位图参考。
 
@@ -64,4 +64,4 @@ element/       独立可复用部件
     python scripts/build_catalog.py
     python scripts/validate_library.py
 
-[综述原图收录记录](sources/survey-figures-2026-10-27.json) · [论文原图收录记录](sources/top-conference-2026-10-27.json) · [元素下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)
+[综述原图收录记录](sources/survey-figures-2026-10-27.json) · [领域全景扩充记录](sources/survey-rich-2026-10-27.json) · [论文原图收录记录](sources/top-conference-2026-10-27.json) · [元素下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)

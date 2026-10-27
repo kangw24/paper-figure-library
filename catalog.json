@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "counts": {
-    "teaser": 24,
+    "teaser": 34,
     "architecture": 45,
     "element": 341,
     "mechanism": 17,
@@ -1648,6 +1648,690 @@
     },
     {
       "schema_version": 1,
+      "id": "survey-3d-representation-generators",
+      "title": "3D 生成概念地图 · 表示、学习目标与生成范式",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "3d-generation",
+        "embodied-ai",
+        "representation",
+        "paradigm-comparison",
+        "robot-3dgen-survey",
+        "arXiv",
+        "2026"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "以表示与生成模型的双向关系为中心，左侧用同一兔子示例比较多种 3D 表示，右侧比较 VAE、GAN、扩散和自回归，上下分别列训练目标与采样方式，信息组织完整。",
+      "publication": {
+        "title": "3D Generation for Embodied AI and Robotic Simulation: A Survey",
+        "venue": "arXiv",
+        "year": 2026,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2604.26509v4",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2604.26509v4"
+      },
+      "curation": {
+        "figure_role": "综述中的基础概念全景，原文 Figure 3；局部小结构用于比较生成范式，整体表达的是表示与建模关系。",
+        "figure_subtype": "representation-paradigm-map",
+        "why_selected": "以表示与生成模型的双向关系为中心，左侧用同一兔子示例比较多种 3D 表示，右侧比较 VAE、GAN、扩散和自回归，上下分别列训练目标与采样方式，信息组织完整。",
+        "what_to_borrow": [
+          "同一视觉对象贯穿体素、网格、点云、SDF 等表示，降低理解成本。",
+          "左右比较对象与模型，上下补充学习和生成过程，形成稳定的四向构图。",
+          "不同方法的局部示意保持相似尺度，方便横向比较。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://3dgen4robot.github.io/",
+        "authors": [
+          "Ye, Tianwei",
+          "Mao, Yifan",
+          "Liao, Minwen",
+          "Liu, Jian",
+          "Guo, Chunchao",
+          "Du, Dazhao",
+          "Shou, Quanxin",
+          "Zhu, Fangqi",
+          "Guo, Song"
+        ],
+        "urls": [
+          "https://3dgen4robot.github.io/",
+          "https://arxiv.org/abs/2604.26509v4",
+          "https://arxiv.org/pdf/2604.26509v4",
+          "https://arxiv.org/src/2604.26509v4"
+        ],
+        "arxiv_id": "2604.26509v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2604.26509v4",
+        "full_pdf_sha256": "48842ce79f47a8558570106b2ac052cd430b63fc7d9c6403756b5fc341d801b7",
+        "full_pdf_bytes": 12943662,
+        "page_number": 4,
+        "figure_number": 3,
+        "original_sha256": "f2a1a0b663bfe9630689c7132148068c4d207150fbf75afd3f29f14ebe43980b",
+        "original_bytes": 212289,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2604.26509v4",
+        "archive_sha256": "0f7cbc1f1475d1cbe36e875a496c1fe1ac2727fbace11b069b5dc299aae33ae5",
+        "archive_bytes": 12561216,
+        "archive_member": "imgs/3d-rep-genmethod.pdf",
+        "inclusion_member": "sec/prelim.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 57,
+        "pdf_drawing_objects": 39,
+        "embedded_raster_images": 23,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 114,
+          "path": 269,
+          "mask": 19,
+          "g": 172,
+          "image": 32,
+          "use": 424
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "使用 MuPDF 从作者独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 633,
+          "sha256": "c543aa8a55edb8d751caaf61df3de8cc1229eb1d95df88e2c539f026245075c2"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 493,
+          "sha256": "181e9abd2087ea8913fd6e98f67ed50ff1f31a0bf4442ed7d76d49e6d269d6fe"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 212289,
+          "sha256": "f2a1a0b663bfe9630689c7132148068c4d207150fbf75afd3f29f14ebe43980b"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 541707,
+          "sha256": "5da0fc027d38d503cb096b535b9d8acfd1ee3786e0bc559118a9fc9f05733431"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 326507,
+          "sha256": "d5925407df7db2b5444b97307592908c613a7719065249ecff376f60d61a79df"
+        }
+      ],
+      "path": "teaser/survey-3d-representation-generators",
+      "metadata_path": "teaser/survey-3d-representation-generators/metadata.json",
+      "readme_path": "teaser/survey-3d-representation-generators/README.md",
+      "primary_path": "teaser/survey-3d-representation-generators/original.pdf",
+      "preview_path": "teaser/survey-3d-representation-generators/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-3d4d-dataset-roadmap",
+      "title": "世界模型数据集图谱 · 蛇形时间路与模态卡片",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "world-model",
+        "datasets",
+        "timeline",
+        "card-layout",
+        "world-3d4d-survey",
+        "arXiv",
+        "2025"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "沿蛇形路线组织数据集年代，每张卡片复用名称、年份、模态图标和样例图四层信息；时间顺序、视觉差异和模态范围可以一起阅读。",
+      "publication": {
+        "title": "3D and 4D World Modeling: A Survey",
+        "venue": "arXiv",
+        "year": 2025,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2509.07996v4",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2509.07996v4"
+      },
+      "curation": {
+        "figure_role": "综述中的数据与基准发展概览，原文 Figure 3；作为综述背景全景的构图参考，具体数据集性能不由此图比较。",
+        "figure_subtype": "visual-dataset-timeline",
+        "why_selected": "沿蛇形路线组织数据集年代，每张卡片复用名称、年份、模态图标和样例图四层信息；时间顺序、视觉差异和模态范围可以一起阅读。",
+        "what_to_borrow": [
+          "折返路线减少横向宽度，同时让卡片保持统一尺寸。",
+          "年份与模态放在卡片顶部，代表样例与名称放在下方，信息顺序稳定。",
+          "保留转弯处的阅读方向；数据集覆盖以作者所选版本为准。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://worldbench.github.io/survey",
+        "authors": [
+          "Kong, Lingdong",
+          "Yang, Yu",
+          "Mei, Jianbiao",
+          "Liu, Youquan",
+          "Liang, Ao",
+          "Zhu, Dekai",
+          "Lu, Dongyue",
+          "Yin, Wei",
+          "Hu, Xiaotao",
+          "Jia, Mingkai",
+          "Deng, Junyuan",
+          "Zhang, Kaiwen",
+          "Wu, Yang",
+          "Yan, Tianyi",
+          "Gao, Shenyuan",
+          "Wang, Song",
+          "Li, Linfeng",
+          "Pan, Liang",
+          "Liu, Yong",
+          "Zhu, Jianke",
+          "Ooi, Wei Tsang",
+          "Hoi, Steven C. H.",
+          "Liu, Ziwei"
+        ],
+        "urls": [
+          "https://worldbench.github.io/survey",
+          "https://arxiv.org/abs/2509.07996v4",
+          "https://arxiv.org/pdf/2509.07996v4",
+          "https://arxiv.org/src/2509.07996v4"
+        ],
+        "arxiv_id": "2509.07996v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2509.07996v4",
+        "full_pdf_sha256": "5d57e4f659648e61e316e3a6bcad4c8c537b8bd33f882edb2fa7576ab361c5aa",
+        "full_pdf_bytes": 8464605,
+        "page_number": 5,
+        "figure_number": 3,
+        "original_sha256": "da2ed5ca7b24435097952ecd8e4167716f946a8b109739680b0acc40c6b4b852",
+        "original_bytes": 450795,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2509.07996v4",
+        "archive_sha256": "7b2092ab5eba9e2e30dacaed6cc336d0077efda1e1b2d8cb48de0dd890e9c5cc",
+        "archive_bytes": 8363514,
+        "archive_member": "figures/datasets.pdf",
+        "inclusion_member": "sections/2_pre.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-SA-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY-SA 4.0；保留署名、来源和转换说明，改编件按相同许可分享。原有第三方图片、标识和引用素材的独立权利仍以原声明为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 48,
+        "pdf_drawing_objects": 174,
+        "embedded_raster_images": 55,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 106,
+          "path": 375,
+          "mask": 20,
+          "g": 202,
+          "image": 61,
+          "use": 290
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 74,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "使用 MuPDF 从作者独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 832,
+          "sha256": "a465293617f63f06d31d3c7a73b8d23e6866baa8136af373169c204552c559bf"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 465,
+          "sha256": "4cc29c4de9502f8be7a04e3344a17d7cd89f6d5f03204af3989723dda61574e2"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 450795,
+          "sha256": "da2ed5ca7b24435097952ecd8e4167716f946a8b109739680b0acc40c6b4b852"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1274766,
+          "sha256": "449db13d006c3c60b261f952f783585f18ab27e1f42e64b77df62c04fed466f3"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 709398,
+          "sha256": "b747c151224f8b753a3770c348cbcf43b87424775421ae6ebb868a5e0c0c586f"
+        }
+      ],
+      "path": "teaser/survey-3d4d-dataset-roadmap",
+      "metadata_path": "teaser/survey-3d4d-dataset-roadmap/metadata.json",
+      "readme_path": "teaser/survey-3d4d-dataset-roadmap/README.md",
+      "primary_path": "teaser/survey-3d4d-dataset-roadmap/original.pdf",
+      "preview_path": "teaser/survey-3d4d-dataset-roadmap/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-3d4d-method-tree",
+      "title": "3D／4D 世界模型方法地图 · 三棵功能树",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "world-model",
+        "method-landscape",
+        "branch-layout",
+        "world-3d4d-survey",
+        "arXiv",
+        "2025"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "把 VideoGen、OccGen、LiDARGen 画成三组有主干和侧枝的研究地图，在分支处标出数据引擎、动作解释、场景表征和预测等功能，兼顾密集代表工作与整体方向。",
+      "publication": {
+        "title": "3D and 4D World Modeling: A Survey",
+        "venue": "arXiv",
+        "year": 2025,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2509.07996v4",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2509.07996v4"
+      },
+      "curation": {
+        "figure_role": "综述代表方法的分类地图，原文 Figure 2；分枝表达功能归类，不表示模型之间真实的技术继承。",
+        "figure_subtype": "method-landscape",
+        "why_selected": "把 VideoGen、OccGen、LiDARGen 画成三组有主干和侧枝的研究地图，在分支处标出数据引擎、动作解释、场景表征和预测等功能，兼顾密集代表工作与整体方向。",
+        "what_to_borrow": [
+          "用主干区分大范式、侧枝区分功能，把视觉拓扑和分类语义绑定。",
+          "模型标识与名称保持小而统一，方向名称在分枝末端放大。",
+          "角落的年度统计与主要分类地图分离；所列方法和统计是对应版本的历史快照。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://worldbench.github.io/survey",
+        "authors": [
+          "Kong, Lingdong",
+          "Yang, Yu",
+          "Mei, Jianbiao",
+          "Liu, Youquan",
+          "Liang, Ao",
+          "Zhu, Dekai",
+          "Lu, Dongyue",
+          "Yin, Wei",
+          "Hu, Xiaotao",
+          "Jia, Mingkai",
+          "Deng, Junyuan",
+          "Zhang, Kaiwen",
+          "Wu, Yang",
+          "Yan, Tianyi",
+          "Gao, Shenyuan",
+          "Wang, Song",
+          "Li, Linfeng",
+          "Pan, Liang",
+          "Liu, Yong",
+          "Zhu, Jianke",
+          "Ooi, Wei Tsang",
+          "Hoi, Steven C. H.",
+          "Liu, Ziwei"
+        ],
+        "urls": [
+          "https://worldbench.github.io/survey",
+          "https://arxiv.org/abs/2509.07996v4",
+          "https://arxiv.org/pdf/2509.07996v4",
+          "https://arxiv.org/src/2509.07996v4"
+        ],
+        "arxiv_id": "2509.07996v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2509.07996v4",
+        "full_pdf_sha256": "5d57e4f659648e61e316e3a6bcad4c8c537b8bd33f882edb2fa7576ab361c5aa",
+        "full_pdf_bytes": 8464605,
+        "page_number": 2,
+        "figure_number": 2,
+        "original_sha256": "7539a3c6a345c8dc554981df88f0e54d25122a8d16fe8a9d3f61ef5c1625c9be",
+        "original_bytes": 567936,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2509.07996v4",
+        "archive_sha256": "7b2092ab5eba9e2e30dacaed6cc336d0077efda1e1b2d8cb48de0dd890e9c5cc",
+        "archive_bytes": 8363514,
+        "archive_member": "figures/tree.pdf",
+        "inclusion_member": "sections/1_intro.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-SA-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY-SA 4.0；保留署名、来源和转换说明，改编件按相同许可分享。原有第三方图片、标识和引用素材的独立权利仍以原声明为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 150,
+        "pdf_drawing_objects": 98,
+        "embedded_raster_images": 63,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 140,
+          "path": 371,
+          "mask": 49,
+          "g": 302,
+          "image": 81,
+          "use": 1171
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 24,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "使用 MuPDF 从作者独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 828,
+          "sha256": "f6d49fc142fc10ff7116c6c51316e739946fc7d00aa5f6d722936b2ac24b546e"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 627,
+          "sha256": "c1ec9a4ce533160cb78396a9e9e980cdb04d9bbae03b0665f8c53b43842f88a5"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 567936,
+          "sha256": "7539a3c6a345c8dc554981df88f0e54d25122a8d16fe8a9d3f61ef5c1625c9be"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 436066,
+          "sha256": "316629d190c1d5b483fe7f0958f429dfe75799ee7e48656ccbc51461cfb70b3d"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 926874,
+          "sha256": "dc14f77a522c1a2d3ee833a15a3986a5e87eebbd84b6a88b93161ce66ab9713c"
+        }
+      ],
+      "path": "teaser/survey-3d4d-method-tree",
+      "metadata_path": "teaser/survey-3d4d-method-tree/metadata.json",
+      "readme_path": "teaser/survey-3d4d-method-tree/README.md",
+      "primary_path": "teaser/survey-3d4d-method-tree/original.pdf",
+      "preview_path": "teaser/survey-3d4d-method-tree/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-3d4d-world-overview",
+      "title": "3D／4D 世界模型 · 场景与研究维度全景",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "world-model",
+        "3d4d",
+        "illustrated-overview",
+        "world-3d4d-survey",
+        "arXiv",
+        "2025"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "左边用可识别的三维街景建立主题，右边用重复的窄栏展开定义、方法、数据与评估、应用和未来方向；VideoGen、OccGen、LiDARGen 的图标贯穿多个维度，视觉与内容都有明确对应。",
+      "publication": {
+        "title": "3D and 4D World Modeling: A Survey",
+        "venue": "arXiv",
+        "year": 2025,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2509.07996v4",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2509.07996v4"
+      },
+      "curation": {
+        "figure_role": "综述原论文首图，兼顾主题识别与研究范围总览；列间箭头表达组织顺序，不能当作一个模型的执行流水线。",
+        "figure_subtype": "illustrated-review-landscape",
+        "why_selected": "左边用可识别的三维街景建立主题，右边用重复的窄栏展开定义、方法、数据与评估、应用和未来方向；VideoGen、OccGen、LiDARGen 的图标贯穿多个维度，视觉与内容都有明确对应。",
+        "what_to_borrow": [
+          "用一个大的主题场景建立识别点，再让多个研究维度共享同一排版网格。",
+          "同一组模态图标在不同栏目重复出现，帮助读者保持对应。",
+          "颜色只分主层级，细节用短标签和图标承载。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://worldbench.github.io/survey",
+        "authors": [
+          "Kong, Lingdong",
+          "Yang, Yu",
+          "Mei, Jianbiao",
+          "Liu, Youquan",
+          "Liang, Ao",
+          "Zhu, Dekai",
+          "Lu, Dongyue",
+          "Yin, Wei",
+          "Hu, Xiaotao",
+          "Jia, Mingkai",
+          "Deng, Junyuan",
+          "Zhang, Kaiwen",
+          "Wu, Yang",
+          "Yan, Tianyi",
+          "Gao, Shenyuan",
+          "Wang, Song",
+          "Li, Linfeng",
+          "Pan, Liang",
+          "Liu, Yong",
+          "Zhu, Jianke",
+          "Ooi, Wei Tsang",
+          "Hoi, Steven C. H.",
+          "Liu, Ziwei"
+        ],
+        "urls": [
+          "https://worldbench.github.io/survey",
+          "https://arxiv.org/abs/2509.07996v4",
+          "https://arxiv.org/pdf/2509.07996v4",
+          "https://arxiv.org/src/2509.07996v4"
+        ],
+        "arxiv_id": "2509.07996v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2509.07996v4",
+        "full_pdf_sha256": "5d57e4f659648e61e316e3a6bcad4c8c537b8bd33f882edb2fa7576ab361c5aa",
+        "full_pdf_bytes": 8464605,
+        "page_number": 1,
+        "figure_number": 1,
+        "original_sha256": "07f021f281a3754fa84db9d0d3d7f4bf6f156c1e6f8377b1c25b0187f145ff2d",
+        "original_bytes": 725851,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2509.07996v4",
+        "archive_sha256": "7b2092ab5eba9e2e30dacaed6cc336d0077efda1e1b2d8cb48de0dd890e9c5cc",
+        "archive_bytes": 8363514,
+        "archive_member": "figures/teaser.pdf",
+        "inclusion_member": "main.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-SA-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY-SA 4.0；保留署名、来源和转换说明，改编件按相同许可分享。原有第三方图片、标识和引用素材的独立权利仍以原声明为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 97,
+        "pdf_drawing_objects": 132,
+        "embedded_raster_images": 55,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 78,
+          "path": 358,
+          "mask": 54,
+          "g": 242,
+          "image": 103,
+          "use": 441
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 44,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "使用 MuPDF 从作者独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 830,
+          "sha256": "189084d8a7fd2d9629782703f3bed06bce3851ca9d7d83e599ff822cecd8e587"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1050,
+          "sha256": "c6b320ea516c2837f0384918796958b096ad8c9327fa92c4dab094c44c92eab0"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 725851,
+          "sha256": "07f021f281a3754fa84db9d0d3d7f4bf6f156c1e6f8377b1c25b0187f145ff2d"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 465980,
+          "sha256": "e9adbc4d0cc6ad3044cec10080b1ff42cbead44151210f1efa33786b1bbf9dd6"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1000722,
+          "sha256": "a80b54a0a2d446a0e4375fcd34ff8a0c305c00a1f3fd95d47f728efb237971d0"
+        }
+      ],
+      "path": "teaser/survey-3d4d-world-overview",
+      "metadata_path": "teaser/survey-3d4d-world-overview/metadata.json",
+      "readme_path": "teaser/survey-3d4d-world-overview/README.md",
+      "primary_path": "teaser/survey-3d4d-world-overview/original.pdf",
+      "preview_path": "teaser/survey-3d4d-world-overview/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "survey-3dgs-application-landscape",
       "title": "3DGS 应用全景 · 中心主题与场景分支",
       "category": "teaser",
@@ -2297,6 +2981,1162 @@
       "readme_path": "teaser/survey-agent-society-teaser/README.md",
       "primary_path": "teaser/survey-agent-society-teaser/original.pdf",
       "preview_path": "teaser/survey-agent-society-teaser/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-ai4science-domain-wheel",
+      "title": "AI4Science 领域圆环 · 从量子到连续系统",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "ai4science",
+        "radial-layout",
+        "multiscale",
+        "ai4science-survey",
+        "arXiv",
+        "2023"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "用三层圆环把量子、原子与连续系统统一起来：外圈是研究对象的视觉实例，中圈是学科和任务，中心是对称性、泛化与不确定性等共同议题。领域覆盖与核心观点同时可见。",
+      "publication": {
+        "title": "Artificial Intelligence for Science in Quantum, Atomistic, and Continuum Systems",
+        "venue": "arXiv",
+        "year": 2023,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2307.08423v6",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2307.08423v6"
+      },
+      "curation": {
+        "figure_role": "综述概念总览，原文 Figure 1；适合借鉴中心观点与周围领域互相支撑的 teaser 构图。",
+        "figure_subtype": "radial-domain-landscape",
+        "why_selected": "用三层圆环把量子、原子与连续系统统一起来：外圈是研究对象的视觉实例，中圈是学科和任务，中心是对称性、泛化与不确定性等共同议题。领域覆盖与核心观点同时可见。",
+        "what_to_borrow": [
+          "中心放跨领域的共同问题，环形分区放具体研究方向，避免只做装饰性圆环。",
+          "用分子、蛋白、材料和流体等真实对象作为外侧视觉锚点。",
+          "大类、小类和共同议题分别使用不同空间层级，保留作者对本综述范围的限定。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2307.08423",
+        "authors": [
+          "Zhang, Xuan",
+          "Wang, Limei",
+          "Helwig, Jacob",
+          "Luo, Youzhi",
+          "Fu, Cong",
+          "Xie, Yaochen",
+          "Liu, Meng",
+          "Lin, Yuchao",
+          "Xu, Zhao",
+          "Yan, Keqiang",
+          "Adams, Keir",
+          "Weiler, Maurice",
+          "Li, Xiner",
+          "Fu, Tianfan",
+          "Wang, Yucheng",
+          "Strasser, Alex",
+          "Yu, Haiyang",
+          "Xie, YuQing",
+          "Fu, Xiang",
+          "Xu, Shenglong",
+          "Liu, Yi",
+          "Du, Yuanqi",
+          "Saxton, Alexandra",
+          "Ling, Hongyi",
+          "Lawrence, Hannah",
+          "Stärk, Hannes",
+          "Gui, Shurui",
+          "Edwards, Carl",
+          "Gao, Nicholas",
+          "Ladera, Adriana",
+          "Wu, Tailin",
+          "Hofgard, Elyssa F.",
+          "Tehrani, Aria Mansouri",
+          "Wang, Rui",
+          "Daigavane, Ameya",
+          "Bohde, Montgomery",
+          "Kurtin, Jerry",
+          "Huang, Qian",
+          "Phung, Tuong",
+          "Xu, Minkai",
+          "Joshi, Chaitanya K.",
+          "Mathis, Simon V.",
+          "Azizzadenesheli, Kamyar",
+          "Fang, Ada",
+          "Aspuru-Guzik, Alán",
+          "Bekkers, Erik",
+          "Bronstein, Michael",
+          "Zitnik, Marinka",
+          "Anandkumar, Anima",
+          "Ermon, Stefano",
+          "Liò, Pietro",
+          "Yu, Rose",
+          "Günnemann, Stephan",
+          "Leskovec, Jure",
+          "Ji, Heng",
+          "Sun, Jimeng",
+          "Barzilay, Regina",
+          "Jaakkola, Tommi",
+          "Coley, Connor W.",
+          "Qian, Xiaoning",
+          "Qian, Xiaofeng",
+          "Smidt, Tess",
+          "Ji, Shuiwang"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2307.08423",
+          "https://arxiv.org/abs/2307.08423v6",
+          "https://arxiv.org/pdf/2307.08423v6",
+          "https://arxiv.org/src/2307.08423v6"
+        ],
+        "arxiv_id": "2307.08423v6",
+        "full_pdf_url": "https://arxiv.org/pdf/2307.08423v6",
+        "full_pdf_sha256": "d3e70fefa3925531bb5b91a28cb9c3b7c964a04d6b36a1db26596c7007983c32",
+        "full_pdf_bytes": 24244755,
+        "page_number": 6,
+        "figure_number": 1,
+        "original_sha256": "e7c2b3c65a10b12bbfd5b398ee056abe4eaed098f14b8c4c4773574c449ebf7b",
+        "original_bytes": 1238983,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2307.08423v6",
+        "archive_sha256": "c11878cec440eded13498c931813f82a58399363896b35092bf3854b4168b47f",
+        "archive_bytes": 18429780,
+        "archive_member": "figs/AIRS_Overview.pdf",
+        "inclusion_member": "introduction.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 124,
+        "pdf_drawing_objects": 134,
+        "embedded_raster_images": 38,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "g": 524,
+          "path": 450,
+          "clipPath": 103,
+          "image": 8,
+          "radialGradient": 30,
+          "stop": 5538,
+          "rect": 4,
+          "use": 259
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 1480,
+          "sha256": "cc84d653e982bdfc5d55e6656c0f0e4849f4ba2d50d55dad2aa6e422eac4800a"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1050,
+          "sha256": "1e732d1e6c873de2262db47451948b2786132bfcb5302a82070fd2b502156438"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1238983,
+          "sha256": "e7c2b3c65a10b12bbfd5b398ee056abe4eaed098f14b8c4c4773574c449ebf7b"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1254656,
+          "sha256": "f53a7e79b397b58a48b48bdf1c3ff4519c6c080ad6516b865c8ec738b5cb174c"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 8135010,
+          "sha256": "73a4ebf811b156cc429b97e175e36687dd87a3739051a2fa66bd74b3adbe7a60"
+        }
+      ],
+      "path": "teaser/survey-ai4science-domain-wheel",
+      "metadata_path": "teaser/survey-ai4science-domain-wheel/metadata.json",
+      "readme_path": "teaser/survey-ai4science-domain-wheel/README.md",
+      "primary_path": "teaser/survey-ai4science-domain-wheel/original.pdf",
+      "preview_path": "teaser/survey-ai4science-domain-wheel/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-ai4science-scale-map",
+      "title": "AI4Science 时空尺度图 · 研究对象与共同挑战",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "ai4science",
+        "scale-map",
+        "conceptual-overview",
+        "ai4science-survey",
+        "arXiv",
+        "2023"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "把研究方向放进时间与长度尺度坐标，再用斜向箭头表达跨尺度共性；同一画面包含应用对象、典型任务、对称性和共通研究挑战，信息量足而层级清楚。",
+      "publication": {
+        "title": "Artificial Intelligence for Science in Quantum, Atomistic, and Continuum Systems",
+        "venue": "arXiv",
+        "year": 2023,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2307.08423v6",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2307.08423v6"
+      },
+      "curation": {
+        "figure_role": "综述中的时空尺度概念地图，原文 Figure 3；以尺度和问题关系组织领域，适合作为开篇视角图参考。",
+        "figure_subtype": "scale-landscape",
+        "why_selected": "把研究方向放进时间与长度尺度坐标，再用斜向箭头表达跨尺度共性；同一画面包含应用对象、典型任务、对称性和共通研究挑战，信息量足而层级清楚。",
+        "what_to_borrow": [
+          "横纵轴承担有意义的领域坐标，色块承担研究范围，减少纯文字枚举。",
+          "用量子、原子和连续系统的不同区域建立整体框架。",
+          "斜向共享挑战与区域内具体任务分开表达；图中尺度布局是概括性示意。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2307.08423",
+        "authors": [
+          "Zhang, Xuan",
+          "Wang, Limei",
+          "Helwig, Jacob",
+          "Luo, Youzhi",
+          "Fu, Cong",
+          "Xie, Yaochen",
+          "Liu, Meng",
+          "Lin, Yuchao",
+          "Xu, Zhao",
+          "Yan, Keqiang",
+          "Adams, Keir",
+          "Weiler, Maurice",
+          "Li, Xiner",
+          "Fu, Tianfan",
+          "Wang, Yucheng",
+          "Strasser, Alex",
+          "Yu, Haiyang",
+          "Xie, YuQing",
+          "Fu, Xiang",
+          "Xu, Shenglong",
+          "Liu, Yi",
+          "Du, Yuanqi",
+          "Saxton, Alexandra",
+          "Ling, Hongyi",
+          "Lawrence, Hannah",
+          "Stärk, Hannes",
+          "Gui, Shurui",
+          "Edwards, Carl",
+          "Gao, Nicholas",
+          "Ladera, Adriana",
+          "Wu, Tailin",
+          "Hofgard, Elyssa F.",
+          "Tehrani, Aria Mansouri",
+          "Wang, Rui",
+          "Daigavane, Ameya",
+          "Bohde, Montgomery",
+          "Kurtin, Jerry",
+          "Huang, Qian",
+          "Phung, Tuong",
+          "Xu, Minkai",
+          "Joshi, Chaitanya K.",
+          "Mathis, Simon V.",
+          "Azizzadenesheli, Kamyar",
+          "Fang, Ada",
+          "Aspuru-Guzik, Alán",
+          "Bekkers, Erik",
+          "Bronstein, Michael",
+          "Zitnik, Marinka",
+          "Anandkumar, Anima",
+          "Ermon, Stefano",
+          "Liò, Pietro",
+          "Yu, Rose",
+          "Günnemann, Stephan",
+          "Leskovec, Jure",
+          "Ji, Heng",
+          "Sun, Jimeng",
+          "Barzilay, Regina",
+          "Jaakkola, Tommi",
+          "Coley, Connor W.",
+          "Qian, Xiaoning",
+          "Qian, Xiaofeng",
+          "Smidt, Tess",
+          "Ji, Shuiwang"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2307.08423",
+          "https://arxiv.org/abs/2307.08423v6",
+          "https://arxiv.org/pdf/2307.08423v6",
+          "https://arxiv.org/src/2307.08423v6"
+        ],
+        "arxiv_id": "2307.08423v6",
+        "full_pdf_url": "https://arxiv.org/pdf/2307.08423v6",
+        "full_pdf_sha256": "d3e70fefa3925531bb5b91a28cb9c3b7c964a04d6b36a1db26596c7007983c32",
+        "full_pdf_bytes": 24244755,
+        "page_number": 10,
+        "figure_number": 3,
+        "original_sha256": "03e96eff34ba832dc2a8a564bdc884141cb935363e18fc345bf9c500718919ff",
+        "original_bytes": 65197,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2307.08423v6",
+        "archive_sha256": "c11878cec440eded13498c931813f82a58399363896b35092bf3854b4168b47f",
+        "archive_bytes": 18429780,
+        "archive_member": "figs/AIRS_stair_gram.pdf",
+        "inclusion_member": "introduction.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 65,
+        "pdf_drawing_objects": 24,
+        "embedded_raster_images": 2,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "g": 929,
+          "path": 181,
+          "clipPath": 4,
+          "linearGradient": 2,
+          "stop": 514,
+          "rect": 2,
+          "use": 1315
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 1482,
+          "sha256": "cc777bcc8f8994d08b491301c5b91ca64b8c841e07f4f2e94d17193364fa2644"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 808,
+          "sha256": "ce094175f9077d20b4a98603ae01f42587624840303b6c8d8e85bf495f06243a"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 65197,
+          "sha256": "03e96eff34ba832dc2a8a564bdc884141cb935363e18fc345bf9c500718919ff"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 282833,
+          "sha256": "35b97abff2455a52b70c9ffad06fcc31640e3479a08b89aab7d3f92349abd3aa"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 438705,
+          "sha256": "483d7f817a34ad02c6521cdee4c910a2a7040ed9f0970b8e3ef14fe5477cd1cd"
+        }
+      ],
+      "path": "teaser/survey-ai4science-scale-map",
+      "metadata_path": "teaser/survey-ai4science-scale-map/metadata.json",
+      "readme_path": "teaser/survey-ai4science-scale-map/README.md",
+      "primary_path": "teaser/survey-ai4science-scale-map/original.pdf",
+      "preview_path": "teaser/survey-ai4science-scale-map/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-foundation-model-adaptation",
+      "title": "基础模型概念总览 · 多源数据与多任务适配",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "survey-report",
+        "foundation-model",
+        "multimodal",
+        "shared-backbone",
+        "foundation-model-report",
+        "arXiv",
+        "2021"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "左侧多模态数据汇入一个共享基础，右侧扇出多个下游任务；每个任务用短名称和具象图标表达，能快速讲清共同底座与任务适配的概念。",
+      "publication": {
+        "title": "On the Opportunities and Risks of Foundation Models",
+        "venue": "arXiv",
+        "year": 2021,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2108.07258v3",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2108.07258v3"
+      },
+      "curation": {
+        "figure_role": "CRFM 综合报告中的概念图，原文 Figure 2；报告涵盖技术、应用与社会影响，按综述性报告收录。此图表达共同模型与多任务关系，不展开内部网络。",
+        "figure_subtype": "shared-foundation-concept",
+        "why_selected": "左侧多模态数据汇入一个共享基础，右侧扇出多个下游任务；每个任务用短名称和具象图标表达，能快速讲清共同底座与任务适配的概念。",
+        "what_to_borrow": [
+          "汇聚与扇出的非对称布局突出共享底座。",
+          "同一类模型符号在中心与任务侧复用，颜色说明适配差异。",
+          "用有限的典型输入和输出说明概念，不把它当作穷尽的任务清单。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://crfm.stanford.edu/report.html",
+        "authors": [
+          "Bommasani, Rishi",
+          "Hudson, Drew A.",
+          "Adeli, Ehsan",
+          "Altman, Russ",
+          "Arora, Simran",
+          "von Arx, Sydney",
+          "Bernstein, Michael S.",
+          "Bohg, Jeannette",
+          "Bosselut, Antoine",
+          "Brunskill, Emma",
+          "Brynjolfsson, Erik",
+          "Buch, Shyamal",
+          "Card, Dallas",
+          "Castellon, Rodrigo",
+          "Chatterji, Niladri",
+          "Chen, Annie",
+          "Creel, Kathleen",
+          "Davis, Jared Quincy",
+          "Demszky, Dora",
+          "Donahue, Chris",
+          "Doumbouya, Moussa",
+          "Durmus, Esin",
+          "Ermon, Stefano",
+          "Etchemendy, John",
+          "Ethayarajh, Kawin",
+          "Fei-Fei, Li",
+          "Finn, Chelsea",
+          "Gale, Trevor",
+          "Gillespie, Lauren",
+          "Goel, Karan",
+          "Goodman, Noah",
+          "Grossman, Shelby",
+          "Guha, Neel",
+          "Hashimoto, Tatsunori",
+          "Henderson, Peter",
+          "Hewitt, John",
+          "Ho, Daniel E.",
+          "Hong, Jenny",
+          "Hsu, Kyle",
+          "Huang, Jing",
+          "Icard, Thomas",
+          "Jain, Saahil",
+          "Jurafsky, Dan",
+          "Kalluri, Pratyusha",
+          "Karamcheti, Siddharth",
+          "Keeling, Geoff",
+          "Khani, Fereshte",
+          "Khattab, Omar",
+          "Koh, Pang Wei",
+          "Krass, Mark",
+          "Krishna, Ranjay",
+          "Kuditipudi, Rohith",
+          "Kumar, Ananya",
+          "Ladhak, Faisal",
+          "Lee, Mina",
+          "Lee, Tony",
+          "Leskovec, Jure",
+          "Levent, Isabelle",
+          "Li, Xiang Lisa",
+          "Li, Xuechen",
+          "Ma, Tengyu",
+          "Malik, Ali",
+          "Manning, Christopher D.",
+          "Mirchandani, Suvir",
+          "Mitchell, Eric",
+          "Munyikwa, Zanele",
+          "Nair, Suraj",
+          "Narayan, Avanika",
+          "Narayanan, Deepak",
+          "Newman, Ben",
+          "Nie, Allen",
+          "Niebles, Juan Carlos",
+          "Nilforoshan, Hamed",
+          "Nyarko, Julian",
+          "Ogut, Giray",
+          "Orr, Laurel",
+          "Papadimitriou, Isabel",
+          "Park, Joon Sung",
+          "Piech, Chris",
+          "Portelance, Eva",
+          "Potts, Christopher",
+          "Raghunathan, Aditi",
+          "Reich, Rob",
+          "Ren, Hongyu",
+          "Rong, Frieda",
+          "Roohani, Yusuf",
+          "Ruiz, Camilo",
+          "Ryan, Jack",
+          "Ré, Christopher",
+          "Sadigh, Dorsa",
+          "Sagawa, Shiori",
+          "Santhanam, Keshav",
+          "Shih, Andy",
+          "Srinivasan, Krishnan",
+          "Tamkin, Alex",
+          "Taori, Rohan",
+          "Thomas, Armin W.",
+          "Tramèr, Florian",
+          "Wang, Rose E.",
+          "Wang, William",
+          "Wu, Bohan",
+          "Wu, Jiajun",
+          "Wu, Yuhuai",
+          "Xie, Sang Michael",
+          "Yasunaga, Michihiro",
+          "You, Jiaxuan",
+          "Zaharia, Matei",
+          "Zhang, Michael",
+          "Zhang, Tianyi",
+          "Zhang, Xikun",
+          "Zhang, Yuhui",
+          "Zheng, Lucia",
+          "Zhou, Kaitlyn",
+          "Liang, Percy"
+        ],
+        "urls": [
+          "https://crfm.stanford.edu/report.html",
+          "https://arxiv.org/abs/2108.07258v3",
+          "https://arxiv.org/pdf/2108.07258v3",
+          "https://arxiv.org/src/2108.07258v3"
+        ],
+        "arxiv_id": "2108.07258v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2108.07258v3",
+        "full_pdf_sha256": "05e867e3c710a3b0c0e13eb372d013c3511f2ee114bace5ca5c402d6341e92dd",
+        "full_pdf_bytes": 14419820,
+        "page_number": 6,
+        "figure_number": 2,
+        "original_sha256": "221db5a8a8407b83880e993843c3c5e3f500f0a332f690f5933054a3cd8ab9fd",
+        "original_bytes": 1332492,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2108.07258v3",
+        "archive_sha256": "28fc585006ba57adb0f72bd7d89f7ed6840022d589774a052466127e26c1cd79",
+        "archive_bytes": 41376078,
+        "archive_member": "figures/intro_framework.pdf",
+        "inclusion_member": "introduction.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "embedded_paper_version": {
+          "archive_member": "figures/intro2.png",
+          "local_file": "paper-embedded.png",
+          "sha256": "3a03341300b428e8b68bee8c404b1f56ca477910d570e8dd791fb3d6709d9bd7",
+          "native_pdf_role": "author vector companion to paper-embedded PNG"
+        }
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 28,
+        "pdf_drawing_objects": 32,
+        "embedded_raster_images": 89,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 496,
+          "path": 126,
+          "image": 176,
+          "mask": 88,
+          "use": 441,
+          "clipPath": 2,
+          "linearGradient": 1,
+          "stop": 222,
+          "rect": 1
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "论文排版引用 intro2.png；同一作者源码归档另含 intro_framework.pdf 矢量配套版本。本条保存该 PDF 原件、由它转换的 SVG，以及论文实际引用的 PNG；两版有细小的排版差异。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。",
+          "部分图标及局部标签本来就是位图；PDF 保留的文本对象不代表所有可见字样均可直接编辑。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。",
+        "另存作者论文实际嵌入的 PNG 原件，保留其与矢量配套版本的区别。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 2372,
+          "sha256": "dac0efd98d88ed30e4b9190960152a022c6497a93f7af5ef0172c8de250a0dd5"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 296,
+          "sha256": "97b25782de679fbbea6a40adf130fb7ee336d68dcf4901eafd8db2e180176227"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1332492,
+          "sha256": "221db5a8a8407b83880e993843c3c5e3f500f0a332f690f5933054a3cd8ab9fd"
+        },
+        {
+          "path": "paper-embedded.png",
+          "bytes": 700246,
+          "sha256": "3a03341300b428e8b68bee8c404b1f56ca477910d570e8dd791fb3d6709d9bd7"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 408435,
+          "sha256": "36fe8289ada8ba3207f06e4078b11b7ee8325eacd50352f9e98493658df101a8"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1573291,
+          "sha256": "6361382dfa1e196d2d348b7c910ab446c97faee580b1d46b2e1be76c2e17b5a0"
+        }
+      ],
+      "path": "teaser/survey-foundation-model-adaptation",
+      "metadata_path": "teaser/survey-foundation-model-adaptation/metadata.json",
+      "readme_path": "teaser/survey-foundation-model-adaptation/README.md",
+      "primary_path": "teaser/survey-foundation-model-adaptation/original.pdf",
+      "preview_path": "teaser/survey-foundation-model-adaptation/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-foundation-model-ecosystem",
+      "title": "基础模型生态 · 数据、模型与人的完整链条",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "survey-report",
+        "foundation-model",
+        "ecosystem",
+        "lifecycle",
+        "foundation-model-report",
+        "arXiv",
+        "2021"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "用五个连续色带串起数据产生、整理、训练、适配与部署，并在两端放人、在中间放多路数据与模型，提示讨论模型影响时应同时看到上下游生态。",
+      "publication": {
+        "title": "On the Opportunities and Risks of Foundation Models",
+        "venue": "arXiv",
+        "year": 2021,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2108.07258v3",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2108.07258v3"
+      },
+      "curation": {
+        "figure_role": "CRFM 综合报告中的社会技术生态概念图，原文 Figure 3；关注数据和参与者关系，适合讨论综述范围及影响边界。",
+        "figure_subtype": "sociotechnical-ecosystem",
+        "why_selected": "用五个连续色带串起数据产生、整理、训练、适配与部署，并在两端放人、在中间放多路数据与模型，提示讨论模型影响时应同时看到上下游生态。",
+        "what_to_borrow": [
+          "阶段色带建立阅读顺序，跨阶段箭头表达多条路径。",
+          "把参与者放在流程两端，避免只画模型模块而遗漏数据和使用者。",
+          "图中的图标主要是作者原有嵌入位图，阶段标题和部分结构保留矢量对象。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://crfm.stanford.edu/report.html",
+        "authors": [
+          "Bommasani, Rishi",
+          "Hudson, Drew A.",
+          "Adeli, Ehsan",
+          "Altman, Russ",
+          "Arora, Simran",
+          "von Arx, Sydney",
+          "Bernstein, Michael S.",
+          "Bohg, Jeannette",
+          "Bosselut, Antoine",
+          "Brunskill, Emma",
+          "Brynjolfsson, Erik",
+          "Buch, Shyamal",
+          "Card, Dallas",
+          "Castellon, Rodrigo",
+          "Chatterji, Niladri",
+          "Chen, Annie",
+          "Creel, Kathleen",
+          "Davis, Jared Quincy",
+          "Demszky, Dora",
+          "Donahue, Chris",
+          "Doumbouya, Moussa",
+          "Durmus, Esin",
+          "Ermon, Stefano",
+          "Etchemendy, John",
+          "Ethayarajh, Kawin",
+          "Fei-Fei, Li",
+          "Finn, Chelsea",
+          "Gale, Trevor",
+          "Gillespie, Lauren",
+          "Goel, Karan",
+          "Goodman, Noah",
+          "Grossman, Shelby",
+          "Guha, Neel",
+          "Hashimoto, Tatsunori",
+          "Henderson, Peter",
+          "Hewitt, John",
+          "Ho, Daniel E.",
+          "Hong, Jenny",
+          "Hsu, Kyle",
+          "Huang, Jing",
+          "Icard, Thomas",
+          "Jain, Saahil",
+          "Jurafsky, Dan",
+          "Kalluri, Pratyusha",
+          "Karamcheti, Siddharth",
+          "Keeling, Geoff",
+          "Khani, Fereshte",
+          "Khattab, Omar",
+          "Koh, Pang Wei",
+          "Krass, Mark",
+          "Krishna, Ranjay",
+          "Kuditipudi, Rohith",
+          "Kumar, Ananya",
+          "Ladhak, Faisal",
+          "Lee, Mina",
+          "Lee, Tony",
+          "Leskovec, Jure",
+          "Levent, Isabelle",
+          "Li, Xiang Lisa",
+          "Li, Xuechen",
+          "Ma, Tengyu",
+          "Malik, Ali",
+          "Manning, Christopher D.",
+          "Mirchandani, Suvir",
+          "Mitchell, Eric",
+          "Munyikwa, Zanele",
+          "Nair, Suraj",
+          "Narayan, Avanika",
+          "Narayanan, Deepak",
+          "Newman, Ben",
+          "Nie, Allen",
+          "Niebles, Juan Carlos",
+          "Nilforoshan, Hamed",
+          "Nyarko, Julian",
+          "Ogut, Giray",
+          "Orr, Laurel",
+          "Papadimitriou, Isabel",
+          "Park, Joon Sung",
+          "Piech, Chris",
+          "Portelance, Eva",
+          "Potts, Christopher",
+          "Raghunathan, Aditi",
+          "Reich, Rob",
+          "Ren, Hongyu",
+          "Rong, Frieda",
+          "Roohani, Yusuf",
+          "Ruiz, Camilo",
+          "Ryan, Jack",
+          "Ré, Christopher",
+          "Sadigh, Dorsa",
+          "Sagawa, Shiori",
+          "Santhanam, Keshav",
+          "Shih, Andy",
+          "Srinivasan, Krishnan",
+          "Tamkin, Alex",
+          "Taori, Rohan",
+          "Thomas, Armin W.",
+          "Tramèr, Florian",
+          "Wang, Rose E.",
+          "Wang, William",
+          "Wu, Bohan",
+          "Wu, Jiajun",
+          "Wu, Yuhuai",
+          "Xie, Sang Michael",
+          "Yasunaga, Michihiro",
+          "You, Jiaxuan",
+          "Zaharia, Matei",
+          "Zhang, Michael",
+          "Zhang, Tianyi",
+          "Zhang, Xikun",
+          "Zhang, Yuhui",
+          "Zheng, Lucia",
+          "Zhou, Kaitlyn",
+          "Liang, Percy"
+        ],
+        "urls": [
+          "https://crfm.stanford.edu/report.html",
+          "https://arxiv.org/abs/2108.07258v3",
+          "https://arxiv.org/pdf/2108.07258v3",
+          "https://arxiv.org/src/2108.07258v3"
+        ],
+        "arxiv_id": "2108.07258v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2108.07258v3",
+        "full_pdf_sha256": "05e867e3c710a3b0c0e13eb372d013c3511f2ee114bace5ca5c402d6341e92dd",
+        "full_pdf_bytes": 14419820,
+        "page_number": 7,
+        "figure_number": 3,
+        "original_sha256": "626e3645a4b72ef77b80caea77e7e4d9fe8a73584e8a40f83c4020ebc7ce31d5",
+        "original_bytes": 1677021,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2108.07258v3",
+        "archive_sha256": "28fc585006ba57adb0f72bd7d89f7ed6840022d589774a052466127e26c1cd79",
+        "archive_bytes": 41376078,
+        "archive_member": "figures/intro_ecosystem.pdf",
+        "inclusion_member": "introduction.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "embedded_paper_version": {
+          "archive_member": "figures/intro3.png",
+          "local_file": "paper-embedded.png",
+          "sha256": "8d74efdb8226a482d9e23f6d6bcb414296a298d1c72e89c40de5c7994248d948",
+          "native_pdf_role": "author vector companion to paper-embedded PNG"
+        }
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 5,
+        "pdf_drawing_objects": 28,
+        "embedded_raster_images": 85,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 231,
+          "path": 45,
+          "image": 170,
+          "mask": 85,
+          "use": 222,
+          "rect": 1
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "论文排版引用 intro3.png；同一作者源码归档另含 intro_ecosystem.pdf 矢量配套版本。本条同时保存两份原件，SVG 从独立 PDF 转换。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。",
+          "部分图标及局部标签本来就是位图；PDF 保留的文本对象不代表所有可见字样均可直接编辑。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。",
+        "另存作者论文实际嵌入的 PNG 原件，保留其与矢量配套版本的区别。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 2372,
+          "sha256": "687c7f0b99445e93b7493856ab1befe83fd3ed95f7dc3b372a5f776516305a0b"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 738,
+          "sha256": "0c30ded22b51abaef379027c5c9256b9c6b786d43d5b9c719e1b83edf32c005e"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1677021,
+          "sha256": "626e3645a4b72ef77b80caea77e7e4d9fe8a73584e8a40f83c4020ebc7ce31d5"
+        },
+        {
+          "path": "paper-embedded.png",
+          "bytes": 578940,
+          "sha256": "8d74efdb8226a482d9e23f6d6bcb414296a298d1c72e89c40de5c7994248d948"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 365338,
+          "sha256": "c80aec479cebe7ce9a08fbb7d833a1e91ee7bdbd25378ecc89c7db6f47404ac3"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1774055,
+          "sha256": "e8b1a4f2f7c57997b0043d80acb123ef10b125680fb5941185845fee30b928f8"
+        }
+      ],
+      "path": "teaser/survey-foundation-model-ecosystem",
+      "metadata_path": "teaser/survey-foundation-model-ecosystem/metadata.json",
+      "readme_path": "teaser/survey-foundation-model-ecosystem/README.md",
+      "primary_path": "teaser/survey-foundation-model-ecosystem/original.pdf",
+      "preview_path": "teaser/survey-foundation-model-ecosystem/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-graph-foundation-paradigm",
+      "title": "图基础模型范式对照 · 专用学习与共享预训练",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "graph-foundation-model",
+        "paradigm-comparison",
+        "pretraining",
+        "graph-foundation-survey",
+        "arXiv",
+        "2023"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "左右对照专用端到端学习与预训练加适配，复用同样的图节点和模型符号，底部再用示意曲线与能力列表补充两种范式的概念差异；几乎全靠结构和线条传递信息。",
+      "publication": {
+        "title": "Graph Foundation Models: Concepts, Opportunities and Challenges",
+        "venue": "arXiv",
+        "year": 2023,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2310.11829v4",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2310.11829v4"
+      },
+      "curation": {
+        "figure_role": "综述原文 Figure 1 的范式对照 teaser。底部曲线是概念示意，不是可直接读取数值的实验结果。",
+        "figure_subtype": "paradigm-comparison",
+        "why_selected": "左右对照专用端到端学习与预训练加适配，复用同样的图节点和模型符号，底部再用示意曲线与能力列表补充两种范式的概念差异；几乎全靠结构和线条传递信息。",
+        "what_to_borrow": [
+          "左右两侧对齐共同要素，让变化集中在中间训练与适配组织。",
+          "同一组图节点符号从输入到任务反复出现，减少装饰。",
+          "把核心对照与附加能力分上下两层，保持主结论清楚。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2310.11829",
+        "authors": [
+          "Liu, Jiawei",
+          "Yang, Cheng",
+          "Lu, Zhiyuan",
+          "Chen, Junze",
+          "Li, Yibo",
+          "Zhang, Mengmei",
+          "Bai, Ting",
+          "Fang, Yuan",
+          "Sun, Lichao",
+          "Yu, Philip S.",
+          "Shi, Chuan"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2310.11829",
+          "https://arxiv.org/abs/2310.11829v4",
+          "https://arxiv.org/pdf/2310.11829v4",
+          "https://arxiv.org/src/2310.11829v4"
+        ],
+        "arxiv_id": "2310.11829v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2310.11829v4",
+        "full_pdf_sha256": "201c2c454865e63d9c4d8064c33c00137081eda842487a8bcd3f402cca54804e",
+        "full_pdf_bytes": 934302,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "5be30bde8e6a6a51d7a05c89234ace2ad9089a31c6b80da655a5c9fe43b7b41c",
+        "original_bytes": 810371,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2310.11829v4",
+        "archive_sha256": "85c1c2cbdb19b865605de681a94e86b0f27596a6a857c4c5b77518a71ab49270",
+        "archive_bytes": 7283419,
+        "archive_member": "images/intro.pdf",
+        "inclusion_member": "1_introduction.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 34,
+        "pdf_drawing_objects": 225,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 83,
+          "path": 432,
+          "g": 84,
+          "use": 340
+        },
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。这张独立原图未检出嵌入位图。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "使用 MuPDF 从作者独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 650,
+          "sha256": "7a040d3025aef12727661d0036303c96b7fb61a4644289e83d6b5cb7c65f3bef"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 887,
+          "sha256": "894eb7ba8177886b45573fcb1c429ff001b1714deb188b1799c17d0d89503c19"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 810371,
+          "sha256": "5be30bde8e6a6a51d7a05c89234ace2ad9089a31c6b80da655a5c9fe43b7b41c"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 157827,
+          "sha256": "92a00432f9a4f410e99b5b953455ac98bc2bdc57e3ed70d9bc0e33eebcd59c71"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 218962,
+          "sha256": "5a152ff580c96ad47fefc77336be5d48789528a2f3be67805e305832ef1cce00"
+        }
+      ],
+      "path": "teaser/survey-graph-foundation-paradigm",
+      "metadata_path": "teaser/survey-graph-foundation-paradigm/metadata.json",
+      "readme_path": "teaser/survey-graph-foundation-paradigm/README.md",
+      "primary_path": "teaser/survey-graph-foundation-paradigm/original.pdf",
+      "preview_path": "teaser/survey-graph-foundation-paradigm/preview.png"
     },
     {
       "schema_version": 1,
@@ -2976,6 +4816,174 @@
       "readme_path": "teaser/survey-mllm-timeline/README.md",
       "primary_path": "teaser/survey-mllm-timeline/original.pdf",
       "preview_path": "teaser/survey-mllm-timeline/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-world-model-capability-ladder",
+      "title": "世界模型能力递进 · 可信预测、可控干预与决策收益",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "teaser",
+        "survey",
+        "world-model",
+        "embodied-ai",
+        "capability-ladder",
+        "counterfactual",
+        "embodied-world-survey",
+        "arXiv",
+        "2026"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "用同一个机器人操作任务贯穿观察、未来预测、不同动作干预和决策执行，最后接入改进闭环；相同场景反复出现，使抽象能力差异变成可以直接对照的图像证据要求。",
+      "publication": {
+        "title": "World Models for Embodied Intelligence: From Plausible to Controllable to Actionable",
+        "venue": "arXiv",
+        "year": 2026,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2609.16697v1",
+        "evidence_type": "arxiv-and-author-project",
+        "checked_date": "2026-10-27",
+        "source_version": "2609.16697v1"
+      },
+      "curation": {
+        "figure_role": "综述原文 Figure 1，表达作者从 Plausible 到 Controllable 再到 Actionable 的能力框架；是综述观点示意，不是这些能力已在单一系统中全部实现的实验结论。",
+        "figure_subtype": "capability-comparison-teaser",
+        "why_selected": "用同一个机器人操作任务贯穿观察、未来预测、不同动作干预和决策执行，最后接入改进闭环；相同场景反复出现，使抽象能力差异变成可以直接对照的图像证据要求。",
+        "what_to_borrow": [
+          "相同当前状态分出不同动作及其后果，直观表达干预与反事实。",
+          "用跨栏的同一操作例子连接多个概念层级。",
+          "底部几何、物理与动作条件单列，和上面的能力递进互相对齐。"
+        ],
+        "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+      },
+      "source": {
+        "project": "https://3dagentworld.github.io/EmbodiedWM/",
+        "authors": [
+          "Yao, Nanjie",
+          "Wang, Hao",
+          "Cheng, Chong",
+          "Chen, Zhikang",
+          "Li, Wenzhe",
+          "Lyu, Jiafei",
+          "Shen, Li",
+          "Zhao, Peilin",
+          "Lu, Zongqing",
+          "Huang, Gao",
+          "Hoi, Steven",
+          "Tao, Dacheng",
+          "Ye, Deheng"
+        ],
+        "urls": [
+          "https://3dagentworld.github.io/EmbodiedWM/",
+          "https://arxiv.org/abs/2609.16697v1",
+          "https://arxiv.org/pdf/2609.16697v1",
+          "https://arxiv.org/src/2609.16697v1"
+        ],
+        "arxiv_id": "2609.16697v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2609.16697v1",
+        "full_pdf_sha256": "2a6011b3d8c261c89a870c4c48ec8ac6407048dbe3d34a5724b02431b61f0a65",
+        "full_pdf_bytes": 7034424,
+        "page_number": 3,
+        "figure_number": 1,
+        "original_sha256": "b6053bc4751ff217abefbf6c4ac0a047d6cddf31e885fa9a2a839f2395537c9f",
+        "original_bytes": 595243,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2609.16697v1",
+        "archive_sha256": "3b0838874c8546cb377db01b8e01bbe8117e2463c428046278b82ca8a6bef0e9",
+        "archive_bytes": 5803564,
+        "archive_member": "fig/teaser.pdf",
+        "inclusion_member": "fig/Sec1_teaser.tex",
+        "local_inclusion_definition": "figure-inclusion.tex",
+        "retrieved_date": "2026-10-27",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "native_format": "author independent PDF figure from arXiv TeX archive",
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects retained; import depends on fonts and editor",
+          "svg": "outlined glyphs; edit paths or replace text"
+        },
+        "pdf_text_spans": 123,
+        "pdf_drawing_objects": 128,
+        "embedded_raster_images": 54,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "filter": 2,
+          "feColorMatrix": 2,
+          "g": 1814,
+          "path": 1489,
+          "image": 78,
+          "mask": 24,
+          "use": 1487,
+          "clipPath": 60,
+          "rect": 1
+        },
+        "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+          "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+          "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+        ]
+      },
+      "changes": [
+        "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+        "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+        "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+        "由独立原图渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-27",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 733,
+          "sha256": "b5eda1735eebd2648adba356212711115c3b7518747b75dc055883d48dde94fc"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 668,
+          "sha256": "e07cabd6d1fc89a326c28f12724596ca86b9b417dc92aa9551771aaaf737efe0"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 595243,
+          "sha256": "b6053bc4751ff217abefbf6c4ac0a047d6cddf31e885fa9a2a839f2395537c9f"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 578412,
+          "sha256": "74053433fff8e8379a30bd75b3f46d30e7d8e7c235247b1f1121a30ae29fb129"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 3635179,
+          "sha256": "7f23a9639acbd8f36dead9a5680b8ec6891ba4fabc3593e96abab0010ec20e6a"
+        }
+      ],
+      "path": "teaser/survey-world-model-capability-ladder",
+      "metadata_path": "teaser/survey-world-model-capability-ladder/metadata.json",
+      "readme_path": "teaser/survey-world-model-capability-ladder/README.md",
+      "primary_path": "teaser/survey-world-model-capability-ladder/original.pdf",
+      "preview_path": "teaser/survey-world-model-capability-ladder/preview.png"
     },
     {
       "schema_version": 1,

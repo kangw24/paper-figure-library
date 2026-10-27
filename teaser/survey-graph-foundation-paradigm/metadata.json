@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "survey-graph-foundation-paradigm",
+  "title": "图基础模型范式对照 · 专用学习与共享预训练",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "graph-foundation-model",
+    "paradigm-comparison",
+    "pretraining",
+    "graph-foundation-survey",
+    "arXiv",
+    "2023"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "左右对照专用端到端学习与预训练加适配，复用同样的图节点和模型符号，底部再用示意曲线与能力列表补充两种范式的概念差异；几乎全靠结构和线条传递信息。",
+  "publication": {
+    "title": "Graph Foundation Models: Concepts, Opportunities and Challenges",
+    "venue": "arXiv",
+    "year": 2023,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2310.11829v4",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2310.11829v4"
+  },
+  "curation": {
+    "figure_role": "综述原文 Figure 1 的范式对照 teaser。底部曲线是概念示意，不是可直接读取数值的实验结果。",
+    "figure_subtype": "paradigm-comparison",
+    "why_selected": "左右对照专用端到端学习与预训练加适配，复用同样的图节点和模型符号，底部再用示意曲线与能力列表补充两种范式的概念差异；几乎全靠结构和线条传递信息。",
+    "what_to_borrow": [
+      "左右两侧对齐共同要素，让变化集中在中间训练与适配组织。",
+      "同一组图节点符号从输入到任务反复出现，减少装饰。",
+      "把核心对照与附加能力分上下两层，保持主结论清楚。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2310.11829",
+    "authors": [
+      "Liu, Jiawei",
+      "Yang, Cheng",
+      "Lu, Zhiyuan",
+      "Chen, Junze",
+      "Li, Yibo",
+      "Zhang, Mengmei",
+      "Bai, Ting",
+      "Fang, Yuan",
+      "Sun, Lichao",
+      "Yu, Philip S.",
+      "Shi, Chuan"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2310.11829",
+      "https://arxiv.org/abs/2310.11829v4",
+      "https://arxiv.org/pdf/2310.11829v4",
+      "https://arxiv.org/src/2310.11829v4"
+    ],
+    "arxiv_id": "2310.11829v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2310.11829v4",
+    "full_pdf_sha256": "201c2c454865e63d9c4d8064c33c00137081eda842487a8bcd3f402cca54804e",
+    "full_pdf_bytes": 934302,
+    "page_number": 2,
+    "figure_number": 1,
+    "original_sha256": "5be30bde8e6a6a51d7a05c89234ace2ad9089a31c6b80da655a5c9fe43b7b41c",
+    "original_bytes": 810371,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2310.11829v4",
+    "archive_sha256": "85c1c2cbdb19b865605de681a94e86b0f27596a6a857c4c5b77518a71ab49270",
+    "archive_bytes": 7283419,
+    "archive_member": "images/intro.pdf",
+    "inclusion_member": "1_introduction.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 34,
+    "pdf_drawing_objects": 225,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 83,
+      "path": 432,
+      "g": 84,
+      "use": 340
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。这张独立原图未检出嵌入位图。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "使用 MuPDF 从作者独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 650,
+      "sha256": "7a040d3025aef12727661d0036303c96b7fb61a4644289e83d6b5cb7c65f3bef"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 887,
+      "sha256": "894eb7ba8177886b45573fcb1c429ff001b1714deb188b1799c17d0d89503c19"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 810371,
+      "sha256": "5be30bde8e6a6a51d7a05c89234ace2ad9089a31c6b80da655a5c9fe43b7b41c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 157827,
+      "sha256": "92a00432f9a4f410e99b5b953455ac98bc2bdc57e3ed70d9bc0e33eebcd59c71"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 218962,
+      "sha256": "5a152ff580c96ad47fefc77336be5d48789528a2f3be67805e305832ef1cce00"
+    }
+  ]
+}

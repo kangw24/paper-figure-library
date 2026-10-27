@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "id": "survey-ai4science-domain-wheel",
+  "title": "AI4Science 领域圆环 · 从量子到连续系统",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "ai4science",
+    "radial-layout",
+    "multiscale",
+    "ai4science-survey",
+    "arXiv",
+    "2023"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "用三层圆环把量子、原子与连续系统统一起来：外圈是研究对象的视觉实例，中圈是学科和任务，中心是对称性、泛化与不确定性等共同议题。领域覆盖与核心观点同时可见。",
+  "publication": {
+    "title": "Artificial Intelligence for Science in Quantum, Atomistic, and Continuum Systems",
+    "venue": "arXiv",
+    "year": 2023,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2307.08423v6",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2307.08423v6"
+  },
+  "curation": {
+    "figure_role": "综述概念总览，原文 Figure 1；适合借鉴中心观点与周围领域互相支撑的 teaser 构图。",
+    "figure_subtype": "radial-domain-landscape",
+    "why_selected": "用三层圆环把量子、原子与连续系统统一起来：外圈是研究对象的视觉实例，中圈是学科和任务，中心是对称性、泛化与不确定性等共同议题。领域覆盖与核心观点同时可见。",
+    "what_to_borrow": [
+      "中心放跨领域的共同问题，环形分区放具体研究方向，避免只做装饰性圆环。",
+      "用分子、蛋白、材料和流体等真实对象作为外侧视觉锚点。",
+      "大类、小类和共同议题分别使用不同空间层级，保留作者对本综述范围的限定。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2307.08423",
+    "authors": [
+      "Zhang, Xuan",
+      "Wang, Limei",
+      "Helwig, Jacob",
+      "Luo, Youzhi",
+      "Fu, Cong",
+      "Xie, Yaochen",
+      "Liu, Meng",
+      "Lin, Yuchao",
+      "Xu, Zhao",
+      "Yan, Keqiang",
+      "Adams, Keir",
+      "Weiler, Maurice",
+      "Li, Xiner",
+      "Fu, Tianfan",
+      "Wang, Yucheng",
+      "Strasser, Alex",
+      "Yu, Haiyang",
+      "Xie, YuQing",
+      "Fu, Xiang",
+      "Xu, Shenglong",
+      "Liu, Yi",
+      "Du, Yuanqi",
+      "Saxton, Alexandra",
+      "Ling, Hongyi",
+      "Lawrence, Hannah",
+      "Stärk, Hannes",
+      "Gui, Shurui",
+      "Edwards, Carl",
+      "Gao, Nicholas",
+      "Ladera, Adriana",
+      "Wu, Tailin",
+      "Hofgard, Elyssa F.",
+      "Tehrani, Aria Mansouri",
+      "Wang, Rui",
+      "Daigavane, Ameya",
+      "Bohde, Montgomery",
+      "Kurtin, Jerry",
+      "Huang, Qian",
+      "Phung, Tuong",
+      "Xu, Minkai",
+      "Joshi, Chaitanya K.",
+      "Mathis, Simon V.",
+      "Azizzadenesheli, Kamyar",
+      "Fang, Ada",
+      "Aspuru-Guzik, Alán",
+      "Bekkers, Erik",
+      "Bronstein, Michael",
+      "Zitnik, Marinka",
+      "Anandkumar, Anima",
+      "Ermon, Stefano",
+      "Liò, Pietro",
+      "Yu, Rose",
+      "Günnemann, Stephan",
+      "Leskovec, Jure",
+      "Ji, Heng",
+      "Sun, Jimeng",
+      "Barzilay, Regina",
+      "Jaakkola, Tommi",
+      "Coley, Connor W.",
+      "Qian, Xiaoning",
+      "Qian, Xiaofeng",
+      "Smidt, Tess",
+      "Ji, Shuiwang"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2307.08423",
+      "https://arxiv.org/abs/2307.08423v6",
+      "https://arxiv.org/pdf/2307.08423v6",
+      "https://arxiv.org/src/2307.08423v6"
+    ],
+    "arxiv_id": "2307.08423v6",
+    "full_pdf_url": "https://arxiv.org/pdf/2307.08423v6",
+    "full_pdf_sha256": "d3e70fefa3925531bb5b91a28cb9c3b7c964a04d6b36a1db26596c7007983c32",
+    "full_pdf_bytes": 24244755,
+    "page_number": 6,
+    "figure_number": 1,
+    "original_sha256": "e7c2b3c65a10b12bbfd5b398ee056abe4eaed098f14b8c4c4773574c449ebf7b",
+    "original_bytes": 1238983,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2307.08423v6",
+    "archive_sha256": "c11878cec440eded13498c931813f82a58399363896b35092bf3854b4168b47f",
+    "archive_bytes": 18429780,
+    "archive_member": "figs/AIRS_Overview.pdf",
+    "inclusion_member": "introduction.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 124,
+    "pdf_drawing_objects": 134,
+    "embedded_raster_images": 38,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "g": 524,
+      "path": 450,
+      "clipPath": 103,
+      "image": 8,
+      "radialGradient": 30,
+      "stop": 5538,
+      "rect": 4,
+      "use": 259
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 1480,
+      "sha256": "cc84d653e982bdfc5d55e6656c0f0e4849f4ba2d50d55dad2aa6e422eac4800a"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1050,
+      "sha256": "1e732d1e6c873de2262db47451948b2786132bfcb5302a82070fd2b502156438"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1238983,
+      "sha256": "e7c2b3c65a10b12bbfd5b398ee056abe4eaed098f14b8c4c4773574c449ebf7b"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1254656,
+      "sha256": "f53a7e79b397b58a48b48bdf1c3ff4519c6c080ad6516b865c8ec738b5cb174c"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 8135010,
+      "sha256": "73a4ebf811b156cc429b97e175e36687dd87a3739051a2fa66bd74b3adbe7a60"
+    }
+  ]
+}

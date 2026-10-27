@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "id": "survey-3d-representation-generators",
+  "title": "3D 生成概念地图 · 表示、学习目标与生成范式",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "3d-generation",
+    "embodied-ai",
+    "representation",
+    "paradigm-comparison",
+    "robot-3dgen-survey",
+    "arXiv",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "以表示与生成模型的双向关系为中心，左侧用同一兔子示例比较多种 3D 表示，右侧比较 VAE、GAN、扩散和自回归，上下分别列训练目标与采样方式，信息组织完整。",
+  "publication": {
+    "title": "3D Generation for Embodied AI and Robotic Simulation: A Survey",
+    "venue": "arXiv",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2604.26509v4",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2604.26509v4"
+  },
+  "curation": {
+    "figure_role": "综述中的基础概念全景，原文 Figure 3；局部小结构用于比较生成范式，整体表达的是表示与建模关系。",
+    "figure_subtype": "representation-paradigm-map",
+    "why_selected": "以表示与生成模型的双向关系为中心，左侧用同一兔子示例比较多种 3D 表示，右侧比较 VAE、GAN、扩散和自回归，上下分别列训练目标与采样方式，信息组织完整。",
+    "what_to_borrow": [
+      "同一视觉对象贯穿体素、网格、点云、SDF 等表示，降低理解成本。",
+      "左右比较对象与模型，上下补充学习和生成过程，形成稳定的四向构图。",
+      "不同方法的局部示意保持相似尺度，方便横向比较。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://3dgen4robot.github.io/",
+    "authors": [
+      "Ye, Tianwei",
+      "Mao, Yifan",
+      "Liao, Minwen",
+      "Liu, Jian",
+      "Guo, Chunchao",
+      "Du, Dazhao",
+      "Shou, Quanxin",
+      "Zhu, Fangqi",
+      "Guo, Song"
+    ],
+    "urls": [
+      "https://3dgen4robot.github.io/",
+      "https://arxiv.org/abs/2604.26509v4",
+      "https://arxiv.org/pdf/2604.26509v4",
+      "https://arxiv.org/src/2604.26509v4"
+    ],
+    "arxiv_id": "2604.26509v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2604.26509v4",
+    "full_pdf_sha256": "48842ce79f47a8558570106b2ac052cd430b63fc7d9c6403756b5fc341d801b7",
+    "full_pdf_bytes": 12943662,
+    "page_number": 4,
+    "figure_number": 3,
+    "original_sha256": "f2a1a0b663bfe9630689c7132148068c4d207150fbf75afd3f29f14ebe43980b",
+    "original_bytes": 212289,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2604.26509v4",
+    "archive_sha256": "0f7cbc1f1475d1cbe36e875a496c1fe1ac2727fbace11b069b5dc299aae33ae5",
+    "archive_bytes": 12561216,
+    "archive_member": "imgs/3d-rep-genmethod.pdf",
+    "inclusion_member": "sec/prelim.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "该 arXiv 版本的非独占分发许可不是第三方图形重用许可；此条用于个人私有参考，公开改编或再用应核对原权利。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 57,
+    "pdf_drawing_objects": 39,
+    "embedded_raster_images": 23,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 114,
+      "path": 269,
+      "mask": 19,
+      "g": 172,
+      "image": 32,
+      "use": 424
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "使用 MuPDF 从作者独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 633,
+      "sha256": "c543aa8a55edb8d751caaf61df3de8cc1229eb1d95df88e2c539f026245075c2"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 493,
+      "sha256": "181e9abd2087ea8913fd6e98f67ed50ff1f31a0bf4442ed7d76d49e6d269d6fe"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 212289,
+      "sha256": "f2a1a0b663bfe9630689c7132148068c4d207150fbf75afd3f29f14ebe43980b"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 541707,
+      "sha256": "5da0fc027d38d503cb096b535b9d8acfd1ee3786e0bc559118a9fc9f05733431"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 326507,
+      "sha256": "d5925407df7db2b5444b97307592908c613a7719065249ecff376f60d61a79df"
+    }
+  ]
+}

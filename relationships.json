@@ -10,7 +10,8 @@
           "var-paradigm",
           "dpo-comparison",
           "k-lora",
-          "rayder-concept"
+          "rayder-concept",
+          "survey-graph-foundation-paradigm"
         ]
       },
       {
@@ -18,6 +19,15 @@
         "title": "领域全景、演进与综述路线图",
         "description": "条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。",
         "figures": [
+          "survey-ai4science-domain-wheel",
+          "survey-ai4science-scale-map",
+          "survey-3d4d-world-overview",
+          "survey-3d4d-method-tree",
+          "survey-3d4d-dataset-roadmap",
+          "survey-3d-representation-generators",
+          "survey-world-model-capability-ladder",
+          "survey-foundation-model-adaptation",
+          "survey-foundation-model-ecosystem",
           "survey-agent-society-teaser",
           "survey-lm-capability-evolution",
           "survey-llama-family-map",
@@ -194,6 +204,19 @@
     [
       "survey-mllm-timeline",
       "survey-mllm-connector-framework"
+    ],
+    [
+      "survey-ai4science-domain-wheel",
+      "survey-ai4science-scale-map"
+    ],
+    [
+      "survey-3d4d-world-overview",
+      "survey-3d4d-method-tree",
+      "survey-3d4d-dataset-roadmap"
+    ],
+    [
+      "survey-foundation-model-adaptation",
+      "survey-foundation-model-ecosystem"
     ]
   ],
   "suggested_elements": {
@@ -653,6 +676,64 @@
       "dit-self-attention",
       "tabler-photo",
       "tabler-file-text"
+    ],
+    "survey-ai4science-domain-wheel": [
+      "tabler-atom",
+      "tabler-flask",
+      "tabler-wave-sine",
+      "tabler-network"
+    ],
+    "survey-ai4science-scale-map": [
+      "tabler-chart-scatter",
+      "tabler-clock",
+      "tabler-atom"
+    ],
+    "survey-3d4d-world-overview": [
+      "tabler-cube-3d-sphere",
+      "tabler-camera",
+      "tabler-car",
+      "tabler-sitemap"
+    ],
+    "survey-3d4d-method-tree": [
+      "tabler-sitemap",
+      "tabler-affiliate",
+      "tabler-arrows-split"
+    ],
+    "survey-3d4d-dataset-roadmap": [
+      "tabler-route",
+      "tabler-clock",
+      "tabler-database",
+      "tabler-photo"
+    ],
+    "survey-3d-representation-generators": [
+      "tabler-cube-3d-sphere",
+      "tabler-cube",
+      "tabler-arrows-right-left",
+      "towaki-neuralnetwork"
+    ],
+    "survey-world-model-capability-ladder": [
+      "tabler-robot",
+      "tabler-arrow-loop-right",
+      "tabler-arrows-split",
+      "tabler-target"
+    ],
+    "survey-foundation-model-adaptation": [
+      "tabler-photo",
+      "tabler-file-text",
+      "tabler-arrows-split",
+      "tabler-brain"
+    ],
+    "survey-foundation-model-ecosystem": [
+      "tabler-users",
+      "tabler-database",
+      "tabler-network",
+      "tabler-arrow-right"
+    ],
+    "survey-graph-foundation-paradigm": [
+      "tabler-network",
+      "tabler-affiliate",
+      "tabler-chart-line",
+      "tabler-arrows-right-left"
     ]
   }
 }

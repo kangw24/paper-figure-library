@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "id": "survey-world-model-capability-ladder",
+  "title": "世界模型能力递进 · 可信预测、可控干预与决策收益",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "world-model",
+    "embodied-ai",
+    "capability-ladder",
+    "counterfactual",
+    "embodied-world-survey",
+    "arXiv",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "用同一个机器人操作任务贯穿观察、未来预测、不同动作干预和决策执行，最后接入改进闭环；相同场景反复出现，使抽象能力差异变成可以直接对照的图像证据要求。",
+  "publication": {
+    "title": "World Models for Embodied Intelligence: From Plausible to Controllable to Actionable",
+    "venue": "arXiv",
+    "year": 2026,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2609.16697v1",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2609.16697v1"
+  },
+  "curation": {
+    "figure_role": "综述原文 Figure 1，表达作者从 Plausible 到 Controllable 再到 Actionable 的能力框架；是综述观点示意，不是这些能力已在单一系统中全部实现的实验结论。",
+    "figure_subtype": "capability-comparison-teaser",
+    "why_selected": "用同一个机器人操作任务贯穿观察、未来预测、不同动作干预和决策执行，最后接入改进闭环；相同场景反复出现，使抽象能力差异变成可以直接对照的图像证据要求。",
+    "what_to_borrow": [
+      "相同当前状态分出不同动作及其后果，直观表达干预与反事实。",
+      "用跨栏的同一操作例子连接多个概念层级。",
+      "底部几何、物理与动作条件单列，和上面的能力递进互相对齐。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://3dagentworld.github.io/EmbodiedWM/",
+    "authors": [
+      "Yao, Nanjie",
+      "Wang, Hao",
+      "Cheng, Chong",
+      "Chen, Zhikang",
+      "Li, Wenzhe",
+      "Lyu, Jiafei",
+      "Shen, Li",
+      "Zhao, Peilin",
+      "Lu, Zongqing",
+      "Huang, Gao",
+      "Hoi, Steven",
+      "Tao, Dacheng",
+      "Ye, Deheng"
+    ],
+    "urls": [
+      "https://3dagentworld.github.io/EmbodiedWM/",
+      "https://arxiv.org/abs/2609.16697v1",
+      "https://arxiv.org/pdf/2609.16697v1",
+      "https://arxiv.org/src/2609.16697v1"
+    ],
+    "arxiv_id": "2609.16697v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2609.16697v1",
+    "full_pdf_sha256": "2a6011b3d8c261c89a870c4c48ec8ac6407048dbe3d34a5724b02431b61f0a65",
+    "full_pdf_bytes": 7034424,
+    "page_number": 3,
+    "figure_number": 1,
+    "original_sha256": "b6053bc4751ff217abefbf6c4ac0a047d6cddf31e885fa9a2a839f2395537c9f",
+    "original_bytes": 595243,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2609.16697v1",
+    "archive_sha256": "3b0838874c8546cb377db01b8e01bbe8117e2463c428046278b82ca8a6bef0e9",
+    "archive_bytes": 5803564,
+    "archive_member": "fig/teaser.pdf",
+    "inclusion_member": "fig/Sec1_teaser.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录 arXiv 版本声明 CC BY 4.0；保留作者署名、原文链接和格式转换说明。图中的第三方照片、标识、模型渲染与引用素材仍需按其原权利声明使用。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 123,
+    "pdf_drawing_objects": 128,
+    "embedded_raster_images": 54,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "filter": 2,
+      "feColorMatrix": 2,
+      "g": 1814,
+      "path": 1489,
+      "image": 78,
+      "mask": 24,
+      "use": 1487,
+      "clipPath": 60,
+      "rect": 1
+    },
+    "conversion_tool": "Poppler pdftocairo; font glyphs as paths",
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "从独立 PDF 转换自包含 SVG，文字转轮廓，等价展开超大坐标路径的统一缩放矩阵；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 733,
+      "sha256": "b5eda1735eebd2648adba356212711115c3b7518747b75dc055883d48dde94fc"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 668,
+      "sha256": "e07cabd6d1fc89a326c28f12724596ca86b9b417dc92aa9551771aaaf737efe0"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 595243,
+      "sha256": "b6053bc4751ff217abefbf6c4ac0a047d6cddf31e885fa9a2a839f2395537c9f"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 578412,
+      "sha256": "74053433fff8e8379a30bd75b3f46d30e7d8e7c235247b1f1121a30ae29fb129"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 3635179,
+      "sha256": "7f23a9639acbd8f36dead9a5680b8ec6891ba4fabc3593e96abab0010ec20e6a"
+    }
+  ]
+}

@@ -27,6 +27,16 @@
 | [DPO · RLHF 与直接偏好优化的流程简化](../teaser/dpo-comparison/README.md) | [多用户](svg/tabler-users.svg) · [对话](svg/tabler-message.svg) · [浅层神经网络](svg/towaki-neuralnetwork.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
 | [K-LoRA：主体风格组合与训练范式比较](../teaser/k-lora/README.md) | [图像](svg/tabler-photo.svg) · [锁定](svg/tabler-lock.svg) · [解锁](svg/tabler-lock-open.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
 | [RayDer：数据瓶颈与新训练范式](../teaser/rayder-concept/README.md) | [图像](svg/tabler-photo.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) · [锁定](svg/tabler-lock.svg) |
+| [图基础模型范式对照 · 专用学习与共享预训练](../teaser/survey-graph-foundation-paradigm/README.md) | [网络](svg/tabler-network.svg) · [节点分支](svg/tabler-affiliate.svg) · [折线图符号](svg/tabler-chart-line.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
+| [AI4Science 领域圆环 · 从量子到连续系统](../teaser/survey-ai4science-domain-wheel/README.md) | [原子](svg/tabler-atom.svg) · [烧瓶](svg/tabler-flask.svg) · [正弦信号](svg/tabler-wave-sine.svg) · [网络](svg/tabler-network.svg) |
+| [AI4Science 时空尺度图 · 研究对象与共同挑战](../teaser/survey-ai4science-scale-map/README.md) | [散点图符号](svg/tabler-chart-scatter.svg) · [时钟](svg/tabler-clock.svg) · [原子](svg/tabler-atom.svg) |
+| [3D／4D 世界模型 · 场景与研究维度全景](../teaser/survey-3d4d-world-overview/README.md) | [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [相机](svg/tabler-camera.svg) · [汽车](svg/tabler-car.svg) · [层级结构](svg/tabler-sitemap.svg) |
+| [3D／4D 世界模型方法地图 · 三棵功能树](../teaser/survey-3d4d-method-tree/README.md) | [层级结构](svg/tabler-sitemap.svg) · [节点分支](svg/tabler-affiliate.svg) · [分流箭头](svg/tabler-arrows-split.svg) |
+| [世界模型数据集图谱 · 蛇形时间路与模态卡片](../teaser/survey-3d4d-dataset-roadmap/README.md) | [路径](svg/tabler-route.svg) · [时钟](svg/tabler-clock.svg) · [数据库](svg/tabler-database.svg) · [图像](svg/tabler-photo.svg) |
+| [3D 生成概念地图 · 表示、学习目标与生成范式](../teaser/survey-3d-representation-generators/README.md) | [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [立方体](svg/tabler-cube.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) · [浅层神经网络](svg/towaki-neuralnetwork.svg) |
+| [世界模型能力递进 · 可信预测、可控干预与决策收益](../teaser/survey-world-model-capability-ladder/README.md) | [机器人](svg/tabler-robot.svg) · [回环箭头](svg/tabler-arrow-loop-right.svg) · [分流箭头](svg/tabler-arrows-split.svg) · [目标](svg/tabler-target.svg) |
+| [基础模型概念总览 · 多源数据与多任务适配](../teaser/survey-foundation-model-adaptation/README.md) | [图像](svg/tabler-photo.svg) · [文本文件](svg/tabler-file-text.svg) · [分流箭头](svg/tabler-arrows-split.svg) · [大脑](svg/tabler-brain.svg) |
+| [基础模型生态 · 数据、模型与人的完整链条](../teaser/survey-foundation-model-ecosystem/README.md) | [多用户](svg/tabler-users.svg) · [数据库](svg/tabler-database.svg) · [网络](svg/tabler-network.svg) · [右箭头](svg/tabler-arrow-right.svg) |
 | [Agent 社会场景 · 综述概念 teaser](../teaser/survey-agent-society-teaser/README.md) | [多用户](svg/tabler-users.svg) · [对话](svg/tabler-message.svg) · [地球](svg/tabler-world.svg) · [大脑](svg/tabler-brain.svg) |
 | [语言模型四代能力演进 · 阶梯式概念图](../teaser/survey-lm-capability-evolution/README.md) | [路径](svg/tabler-route.svg) · [时钟](svg/tabler-clock.svg) · [书籍](svg/tabler-book.svg) |
 | [LLaMA 家族关系 · 模型与数据继承图](../teaser/survey-llama-family-map/README.md) | [层级结构](svg/tabler-sitemap.svg) · [节点分支](svg/tabler-affiliate.svg) · [分流箭头](svg/tabler-arrows-split.svg) |

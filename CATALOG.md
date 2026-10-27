@@ -6,7 +6,7 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 24 | [浏览](teaser/README.md) |
+| Teaser 范例 | 34 | [浏览](teaser/README.md) |
 | Architecture 范例 | 45 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 341 | [按内容与来源浏览](element/README.md) |
 
@@ -154,6 +154,50 @@ ICLR 2025 · Oral · 矢量 + 原有位图
 来源类型：论文范例。许可：MIT（来源仓库）；渲染素材保留原论文出处。。
 [原文件](teaser/shaddr/source.svg) · [来源记录](teaser/shaddr/metadata.json)
 
+### [3D 生成概念地图 · 表示、学习目标与生成范式](teaser/survey-3d-representation-generators/README.md)
+
+以表示与生成模型的双向关系为中心，左侧用同一兔子示例比较多种 3D 表示，右侧比较 VAE、GAN、扩散和自回归，上下分别列训练目标与采样方式，信息组织完整。
+
+arXiv 2026 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-3d-representation-generators/preview.png" width="760" alt="3D 生成概念地图 · 表示、学习目标与生成范式">](teaser/survey-3d-representation-generators/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-3d-representation-generators/original.pdf) · [来源记录](teaser/survey-3d-representation-generators/metadata.json)
+
+### [世界模型数据集图谱 · 蛇形时间路与模态卡片](teaser/survey-3d4d-dataset-roadmap/README.md)
+
+沿蛇形路线组织数据集年代，每张卡片复用名称、年份、模态图标和样例图四层信息；时间顺序、视觉差异和模态范围可以一起阅读。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-3d4d-dataset-roadmap/preview.png" width="760" alt="世界模型数据集图谱 · 蛇形时间路与模态卡片">](teaser/survey-3d4d-dataset-roadmap/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-SA-4.0。
+[原文件](teaser/survey-3d4d-dataset-roadmap/original.pdf) · [来源记录](teaser/survey-3d4d-dataset-roadmap/metadata.json)
+
+### [3D／4D 世界模型方法地图 · 三棵功能树](teaser/survey-3d4d-method-tree/README.md)
+
+把 VideoGen、OccGen、LiDARGen 画成三组有主干和侧枝的研究地图，在分支处标出数据引擎、动作解释、场景表征和预测等功能，兼顾密集代表工作与整体方向。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-3d4d-method-tree/preview.png" width="760" alt="3D／4D 世界模型方法地图 · 三棵功能树">](teaser/survey-3d4d-method-tree/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-SA-4.0。
+[原文件](teaser/survey-3d4d-method-tree/original.pdf) · [来源记录](teaser/survey-3d4d-method-tree/metadata.json)
+
+### [3D／4D 世界模型 · 场景与研究维度全景](teaser/survey-3d4d-world-overview/README.md)
+
+左边用可识别的三维街景建立主题，右边用重复的窄栏展开定义、方法、数据与评估、应用和未来方向；VideoGen、OccGen、LiDARGen 的图标贯穿多个维度，视觉与内容都有明确对应。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-3d4d-world-overview/preview.png" width="760" alt="3D／4D 世界模型 · 场景与研究维度全景">](teaser/survey-3d4d-world-overview/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-SA-4.0。
+[原文件](teaser/survey-3d4d-world-overview/original.pdf) · [来源记录](teaser/survey-3d4d-world-overview/metadata.json)
+
 ### [3DGS 应用全景 · 中心主题与场景分支](teaser/survey-3dgs-application-landscape/README.md)
 
 以中心主题连接机器人、动态场景、生成编辑、化身、内窥镜、场景重建和物理等分支，并把少量视觉实例放进分支旁，兼顾分类和直观性。
@@ -198,6 +242,61 @@ arXiv 2023 · 预印本 · 综述 · 矢量 + 原有位图
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-agent-society-teaser/original.pdf) · [来源记录](teaser/survey-agent-society-teaser/metadata.json)
 
+### [AI4Science 领域圆环 · 从量子到连续系统](teaser/survey-ai4science-domain-wheel/README.md)
+
+用三层圆环把量子、原子与连续系统统一起来：外圈是研究对象的视觉实例，中圈是学科和任务，中心是对称性、泛化与不确定性等共同议题。领域覆盖与核心观点同时可见。
+
+arXiv 2023 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-ai4science-domain-wheel/preview.png" width="760" alt="AI4Science 领域圆环 · 从量子到连续系统">](teaser/survey-ai4science-domain-wheel/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-ai4science-domain-wheel/original.pdf) · [来源记录](teaser/survey-ai4science-domain-wheel/metadata.json)
+
+### [AI4Science 时空尺度图 · 研究对象与共同挑战](teaser/survey-ai4science-scale-map/README.md)
+
+把研究方向放进时间与长度尺度坐标，再用斜向箭头表达跨尺度共性；同一画面包含应用对象、典型任务、对称性和共通研究挑战，信息量足而层级清楚。
+
+arXiv 2023 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-ai4science-scale-map/preview.png" width="760" alt="AI4Science 时空尺度图 · 研究对象与共同挑战">](teaser/survey-ai4science-scale-map/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-ai4science-scale-map/original.pdf) · [来源记录](teaser/survey-ai4science-scale-map/metadata.json)
+
+### [基础模型概念总览 · 多源数据与多任务适配](teaser/survey-foundation-model-adaptation/README.md)
+
+左侧多模态数据汇入一个共享基础，右侧扇出多个下游任务；每个任务用短名称和具象图标表达，能快速讲清共同底座与任务适配的概念。
+
+arXiv 2021 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-foundation-model-adaptation/preview.png" width="760" alt="基础模型概念总览 · 多源数据与多任务适配">](teaser/survey-foundation-model-adaptation/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-foundation-model-adaptation/original.pdf) · [来源记录](teaser/survey-foundation-model-adaptation/metadata.json)
+
+### [基础模型生态 · 数据、模型与人的完整链条](teaser/survey-foundation-model-ecosystem/README.md)
+
+用五个连续色带串起数据产生、整理、训练、适配与部署，并在两端放人、在中间放多路数据与模型，提示讨论模型影响时应同时看到上下游生态。
+
+arXiv 2021 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-foundation-model-ecosystem/preview.png" width="760" alt="基础模型生态 · 数据、模型与人的完整链条">](teaser/survey-foundation-model-ecosystem/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-foundation-model-ecosystem/original.pdf) · [来源记录](teaser/survey-foundation-model-ecosystem/metadata.json)
+
+### [图基础模型范式对照 · 专用学习与共享预训练](teaser/survey-graph-foundation-paradigm/README.md)
+
+左右对照专用端到端学习与预训练加适配，复用同样的图节点和模型符号，底部再用示意曲线与能力列表补充两种范式的概念差异；几乎全靠结构和线条传递信息。
+
+arXiv 2023 · 预印本 · 综述 · 矢量结构
+
+[<img src="teaser/survey-graph-foundation-paradigm/preview.png" width="760" alt="图基础模型范式对照 · 专用学习与共享预训练">](teaser/survey-graph-foundation-paradigm/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-graph-foundation-paradigm/original.pdf) · [来源记录](teaser/survey-graph-foundation-paradigm/metadata.json)
+
 ### [LLaMA 家族关系 · 模型与数据继承图](teaser/survey-llama-family-map/README.md)
 
 把模型继承、数据继承与继续预训练画成不同颜色和线型的关系，从单一根节点展开出任务与领域分支，重点是关系而非枚举。
@@ -241,6 +340,17 @@ National Science Review 2024 · 期刊论文 · 综述 · 矢量 + 原有位图
 
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](teaser/survey-mllm-timeline/original.pdf) · [来源记录](teaser/survey-mllm-timeline/metadata.json)
+
+### [世界模型能力递进 · 可信预测、可控干预与决策收益](teaser/survey-world-model-capability-ladder/README.md)
+
+用同一个机器人操作任务贯穿观察、未来预测、不同动作干预和决策执行，最后接入改进闭环；相同场景反复出现，使抽象能力差异变成可以直接对照的图像证据要求。
+
+arXiv 2026 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-world-model-capability-ladder/preview.png" width="760" alt="世界模型能力递进 · 可信预测、可控干预与决策收益">](teaser/survey-world-model-capability-ladder/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-world-model-capability-ladder/original.pdf) · [来源记录](teaser/survey-world-model-capability-ladder/metadata.json)
 
 ### [VAR · 从逐 token 到逐尺度生成的范式对照](teaser/var-paradigm/README.md)
 

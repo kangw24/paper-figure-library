@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "survey-3d4d-dataset-roadmap",
+  "title": "世界模型数据集图谱 · 蛇形时间路与模态卡片",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "world-model",
+    "datasets",
+    "timeline",
+    "card-layout",
+    "world-3d4d-survey",
+    "arXiv",
+    "2025"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "沿蛇形路线组织数据集年代，每张卡片复用名称、年份、模态图标和样例图四层信息；时间顺序、视觉差异和模态范围可以一起阅读。",
+  "publication": {
+    "title": "3D and 4D World Modeling: A Survey",
+    "venue": "arXiv",
+    "year": 2025,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2509.07996v4",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2509.07996v4"
+  },
+  "curation": {
+    "figure_role": "综述中的数据与基准发展概览，原文 Figure 3；作为综述背景全景的构图参考，具体数据集性能不由此图比较。",
+    "figure_subtype": "visual-dataset-timeline",
+    "why_selected": "沿蛇形路线组织数据集年代，每张卡片复用名称、年份、模态图标和样例图四层信息；时间顺序、视觉差异和模态范围可以一起阅读。",
+    "what_to_borrow": [
+      "折返路线减少横向宽度，同时让卡片保持统一尺寸。",
+      "年份与模态放在卡片顶部，代表样例与名称放在下方，信息顺序稳定。",
+      "保留转弯处的阅读方向；数据集覆盖以作者所选版本为准。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://worldbench.github.io/survey",
+    "authors": [
+      "Kong, Lingdong",
+      "Yang, Yu",
+      "Mei, Jianbiao",
+      "Liu, Youquan",
+      "Liang, Ao",
+      "Zhu, Dekai",
+      "Lu, Dongyue",
+      "Yin, Wei",
+      "Hu, Xiaotao",
+      "Jia, Mingkai",
+      "Deng, Junyuan",
+      "Zhang, Kaiwen",
+      "Wu, Yang",
+      "Yan, Tianyi",
+      "Gao, Shenyuan",
+      "Wang, Song",
+      "Li, Linfeng",
+      "Pan, Liang",
+      "Liu, Yong",
+      "Zhu, Jianke",
+      "Ooi, Wei Tsang",
+      "Hoi, Steven C. H.",
+      "Liu, Ziwei"
+    ],
+    "urls": [
+      "https://worldbench.github.io/survey",
+      "https://arxiv.org/abs/2509.07996v4",
+      "https://arxiv.org/pdf/2509.07996v4",
+      "https://arxiv.org/src/2509.07996v4"
+    ],
+    "arxiv_id": "2509.07996v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2509.07996v4",
+    "full_pdf_sha256": "5d57e4f659648e61e316e3a6bcad4c8c537b8bd33f882edb2fa7576ab361c5aa",
+    "full_pdf_bytes": 8464605,
+    "page_number": 5,
+    "figure_number": 3,
+    "original_sha256": "da2ed5ca7b24435097952ecd8e4167716f946a8b109739680b0acc40c6b4b852",
+    "original_bytes": 450795,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2509.07996v4",
+    "archive_sha256": "7b2092ab5eba9e2e30dacaed6cc336d0077efda1e1b2d8cb48de0dd890e9c5cc",
+    "archive_bytes": 8363514,
+    "archive_member": "figures/datasets.pdf",
+    "inclusion_member": "sections/2_pre.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-SA-4.0",
+    "note": "所收录 arXiv 版本声明 CC BY-SA 4.0；保留署名、来源和转换说明，改编件按相同许可分享。原有第三方图片、标识和引用素材的独立权利仍以原声明为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 48,
+    "pdf_drawing_objects": 174,
+    "embedded_raster_images": 55,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 106,
+      "path": 375,
+      "mask": 20,
+      "g": 202,
+      "image": 61,
+      "use": 290
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 74,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "使用 MuPDF 从作者独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 832,
+      "sha256": "a465293617f63f06d31d3c7a73b8d23e6866baa8136af373169c204552c559bf"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 465,
+      "sha256": "4cc29c4de9502f8be7a04e3344a17d7cd89f6d5f03204af3989723dda61574e2"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 450795,
+      "sha256": "da2ed5ca7b24435097952ecd8e4167716f946a8b109739680b0acc40c6b4b852"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1274766,
+      "sha256": "449db13d006c3c60b261f952f783585f18ab27e1f42e64b77df62c04fed466f3"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 709398,
+      "sha256": "b747c151224f8b753a3770c348cbcf43b87424775421ae6ebb868a5e0c0c586f"
+    }
+  ]
+}

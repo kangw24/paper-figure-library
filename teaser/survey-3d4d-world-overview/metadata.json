@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "survey-3d4d-world-overview",
+  "title": "3D／4D 世界模型 · 场景与研究维度全景",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "teaser",
+    "survey",
+    "world-model",
+    "3d4d",
+    "illustrated-overview",
+    "world-3d4d-survey",
+    "arXiv",
+    "2025"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "左边用可识别的三维街景建立主题，右边用重复的窄栏展开定义、方法、数据与评估、应用和未来方向；VideoGen、OccGen、LiDARGen 的图标贯穿多个维度，视觉与内容都有明确对应。",
+  "publication": {
+    "title": "3D and 4D World Modeling: A Survey",
+    "venue": "arXiv",
+    "year": 2025,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2509.07996v4",
+    "evidence_type": "arxiv-and-author-project",
+    "checked_date": "2026-10-27",
+    "source_version": "2509.07996v4"
+  },
+  "curation": {
+    "figure_role": "综述原论文首图，兼顾主题识别与研究范围总览；列间箭头表达组织顺序，不能当作一个模型的执行流水线。",
+    "figure_subtype": "illustrated-review-landscape",
+    "why_selected": "左边用可识别的三维街景建立主题，右边用重复的窄栏展开定义、方法、数据与评估、应用和未来方向；VideoGen、OccGen、LiDARGen 的图标贯穿多个维度，视觉与内容都有明确对应。",
+    "what_to_borrow": [
+      "用一个大的主题场景建立识别点，再让多个研究维度共享同一排版网格。",
+      "同一组模态图标在不同栏目重复出现，帮助读者保持对应。",
+      "颜色只分主层级，细节用短标签和图标承载。"
+    ],
+    "reviewed_from": "original paper page, author native figure PDF, and SVG rendering"
+  },
+  "source": {
+    "project": "https://worldbench.github.io/survey",
+    "authors": [
+      "Kong, Lingdong",
+      "Yang, Yu",
+      "Mei, Jianbiao",
+      "Liu, Youquan",
+      "Liang, Ao",
+      "Zhu, Dekai",
+      "Lu, Dongyue",
+      "Yin, Wei",
+      "Hu, Xiaotao",
+      "Jia, Mingkai",
+      "Deng, Junyuan",
+      "Zhang, Kaiwen",
+      "Wu, Yang",
+      "Yan, Tianyi",
+      "Gao, Shenyuan",
+      "Wang, Song",
+      "Li, Linfeng",
+      "Pan, Liang",
+      "Liu, Yong",
+      "Zhu, Jianke",
+      "Ooi, Wei Tsang",
+      "Hoi, Steven C. H.",
+      "Liu, Ziwei"
+    ],
+    "urls": [
+      "https://worldbench.github.io/survey",
+      "https://arxiv.org/abs/2509.07996v4",
+      "https://arxiv.org/pdf/2509.07996v4",
+      "https://arxiv.org/src/2509.07996v4"
+    ],
+    "arxiv_id": "2509.07996v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2509.07996v4",
+    "full_pdf_sha256": "5d57e4f659648e61e316e3a6bcad4c8c537b8bd33f882edb2fa7576ab361c5aa",
+    "full_pdf_bytes": 8464605,
+    "page_number": 1,
+    "figure_number": 1,
+    "original_sha256": "07f021f281a3754fa84db9d0d3d7f4bf6f156c1e6f8377b1c25b0187f145ff2d",
+    "original_bytes": 725851,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2509.07996v4",
+    "archive_sha256": "7b2092ab5eba9e2e30dacaed6cc336d0077efda1e1b2d8cb48de0dd890e9c5cc",
+    "archive_bytes": 8363514,
+    "archive_member": "figures/teaser.pdf",
+    "inclusion_member": "main.tex",
+    "local_inclusion_definition": "figure-inclusion.tex",
+    "retrieved_date": "2026-10-27",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-SA-4.0",
+    "note": "所收录 arXiv 版本声明 CC BY-SA 4.0；保留署名、来源和转换说明，改编件按相同许可分享。原有第三方图片、标识和引用素材的独立权利仍以原声明为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "native_format": "author independent PDF figure from arXiv TeX archive",
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects retained; import depends on fonts and editor",
+      "svg": "outlined glyphs; edit paths or replace text"
+    },
+    "pdf_text_spans": 97,
+    "pdf_drawing_objects": 132,
+    "embedded_raster_images": 55,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 78,
+      "path": 358,
+      "mask": 54,
+      "g": 242,
+      "image": 103,
+      "use": 441
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "normalized_path_transforms": 44,
+    "notes": [
+      "作者独立 PDF 中的文字与图形对象保留；SVG 文字转为轮廓。原有照片、标识、人物或渲染仍为嵌入位图，可移动替换，不能按矢量节点编辑。",
+      "对照原论文页核实了图号和实际用途；独立 PDF 按作者提交的原文件保存。",
+      "已检查原 PDF 与 SVG 预览；桌面 Illustrator 未逐项实测，未取得原生 AI 工程。"
+    ]
+  },
+  "changes": [
+    "从固定版本的作者 TeX 归档复制独立 PDF 原件，原始字节未改动。",
+    "保留作者的 LaTeX 插图定义以核实图号、引用和章节编号叠加。",
+    "使用 MuPDF 从作者独立 PDF 转为自包含 SVG，文字转轮廓，按需等价展开超大坐标路径；未重绘。",
+    "由独立原图渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-27",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 830,
+      "sha256": "189084d8a7fd2d9629782703f3bed06bce3851ca9d7d83e599ff822cecd8e587"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1050,
+      "sha256": "c6b320ea516c2837f0384918796958b096ad8c9327fa92c4dab094c44c92eab0"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 725851,
+      "sha256": "07f021f281a3754fa84db9d0d3d7f4bf6f156c1e6f8377b1c25b0187f145ff2d"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 465980,
+      "sha256": "e9adbc4d0cc6ad3044cec10080b1ff42cbead44151210f1efa33786b1bbf9dd6"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1000722,
+      "sha256": "a80b54a0a2d446a0e4375fcd34ff8a0c305c00a1f3fd95d47f728efb237971d0"
+    }
+  ]
+}

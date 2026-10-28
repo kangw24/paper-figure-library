@@ -68,6 +68,10 @@
 - [机器人学习 · 物理先验融入的三路对照](../survey-robot-physics-three-routes/README.md)：三栏沿用相同的物理先验主题，分别用机器人观测、网络内部结构和物理损失方程解释三种融入位置。颜色分区和真实方法示意共同承担信息表达，与多方法对照 teaser 的结构接近。
 - [PIML · 数据、模型与优化的完整融合流程](../survey-piml-data-model-optimization/README.md)：三个并列区域分别展开数据、模型与优化；底部共享物理先验向三处提供约束，框内保留采样点、物理模块和损失方程。适合借鉴为内容充实的综述概念总览。
 
+- [生物医学 PIML · 六面板方法范式总览](../survey-biomedical-six-methods/README.md)：同一张图用六个面板解释不同表示模型、物理损失、连续时间建模与算子学习。蓝色表示模型、绿色表示数据或损失，适合借鉴为内容充实的方法范式总览。
+- [PINN 综述 · 导数、物理方程与残差三栏展开](../survey-piml-equations-residuals/README.md)：以导数、物理规律和残差为三条主线，将自动微分、有限差分、不同算子、无量纲化、方程改写与弱形式整合到一个有公式和科学示意的总览里。
+- [动力学学习 · 物理与数据依赖的四范式对照](../survey-dynamics-physics-learning-spectrum/README.md)：四个面板沿用相同的输入、输出和网络视觉语汇，通过物理模块进入网络的方式突出范式区别；下方的连续方向带概括物理先验与学习依赖的变化。
+
 <!-- END SIMILAR EXAMPLES -->
 
 <!-- BEGIN FIGURE LINKS -->

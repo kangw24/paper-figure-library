@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "id": "survey-biomedical-six-methods",
+  "title": "生物医学 PIML · 六面板方法范式总览",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "multi-panel",
+    "method-comparison",
+    "pinn",
+    "neural-operator",
+    "biomedicine"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "同一张图用六个面板解释不同表示模型、物理损失、连续时间建模与算子学习。蓝色表示模型、绿色表示数据或损失，适合借鉴为内容充实的方法范式总览。",
+  "publication": {
+    "title": "Physics-Informed Machine Learning in Biomedical Science and Engineering",
+    "venue": "arXiv",
+    "year": 2025,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2510.05433v1",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-28",
+    "source_version": "2510.05433v1",
+    "acceptance_note": "arXiv comments: accepted for publication in Annual Review of Biomedical Engineering on 2025-10-02; collected file is the 2025 arXiv version."
+  },
+  "curation": {
+    "figure_role": "综述预印本 Figure 1，PDF 第 5 页。虽然内部使用网络结构示意，整图的作用是比较多个方法家族，因此归入 Teaser。",
+    "panel_layout": {
+      "panels": 6,
+      "columns": 2,
+      "rows": 3,
+      "summary": "2 列 × 3 行，依次对照 NN、KAN、物理约束网络、Neural/KAN ODE、DeepONet、FNO/WNO/LNO。",
+      "counting_note": "按标注 (a)–(f) 计六个面板；最后一格内部还包含 Fourier、Wavelet、Laplace 三种算子的局部示意。"
+    },
+    "why_selected": "同一张图用六个面板解释不同表示模型、物理损失、连续时间建模与算子学习。蓝色表示模型、绿色表示数据或损失，适合借鉴为内容充实的方法范式总览。",
+    "what_to_borrow": [
+      "统一六个面板的尺寸和阅读顺序，每格保留一个主要科学关系。",
+      "相同颜色跨面板指向相同功能，便于比较方法差异。",
+      "用一层局部展开容纳算子变体，避免再增加整图层级。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-physics-data-paradigms"
+    },
+    "reviewed_from": "original author figure, paper page or publisher/PMC caption, final rendered preview"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2510.05433",
+    "authors": [
+      "Ahmadi, Nazanin",
+      "Cao, Qianying",
+      "Humphrey, Jay D.",
+      "Karniadakis, George Em"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2510.05433",
+      "https://arxiv.org/abs/2510.05433v1",
+      "https://arxiv.org/pdf/2510.05433v1",
+      "https://arxiv.org/src/2510.05433v1"
+    ],
+    "figure_number": 1,
+    "original_sha256": "9ba61f17b0cd9e9d9a56add674ed7da092ad6dd02c404d989bd655dabb6f4888",
+    "original_bytes": 327517,
+    "retrieved_date": "2026-10-28",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "arxiv_id": "2510.05433v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2510.05433v1",
+    "full_pdf_sha256": "ae248fc300eba3d5fd84d519563987761790e0f3277da4c4a981c6285246c3a3",
+    "full_pdf_bytes": 3593223,
+    "page_number": 5,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2510.05433v1",
+    "archive_sha256": "de0ef1840097a87d8cacdb2614f5e64f943d7344bcc5dc013849e025e0c23844",
+    "archive_bytes": 4277117,
+    "archive_member": "Figure/method.pdf",
+    "inclusion_member": "main.tex"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-NC-ND-4.0",
+    "note": "所收录版本声明 CC-BY-NC-ND-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。 该版本含 NC、ND 条款；本条保存作者原件和未改图意的显示转换件，作为私有参考。不能将可编辑格式理解为作者已授权任意改编。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 246,
+    "pdf_text_spans": 98,
+    "embedded_raster_images": 6,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 13,
+      "path": 474,
+      "g": 19,
+      "use": 533,
+      "image": 1
+    },
+    "normalized_path_transforms": 96,
+    "notes": [
+      "作者独立 PDF 保留原有矢量图形和文字对象；SVG 转换件文字为轮廓。原图含 6 个嵌入位图对象，可移动或替换，不能按矢量节点编辑。桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者源码归档或 PMC 原图链接复制原件，原始字节未变。",
+    "生成浏览预览、记录来源与图号；未重绘或新增图像。",
+    "将原 PDF 转为自包含 SVG，文字转轮廓，图意未改。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-28",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 766,
+      "sha256": "4e980575bb4000c2ac2658c47d56531d7c5f2c798d1ad24a9d3df16efe47e610"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1097,
+      "sha256": "47771da5ca33ba46fd5892d1e38d5c36b69e51c38208b05d4e8de6c688c5d8ca"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 327517,
+      "sha256": "9ba61f17b0cd9e9d9a56add674ed7da092ad6dd02c404d989bd655dabb6f4888"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 475288,
+      "sha256": "8b10cf59b965ad908a7e60b3fab56793098bef7001a1a5b0fc0a161d0e06dfe9"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 688267,
+      "sha256": "fb44920d3f808792380e2b8ebbbabfd1d1cb15f9af339975affacedf84724cf0"
+    }
+  ]
+}

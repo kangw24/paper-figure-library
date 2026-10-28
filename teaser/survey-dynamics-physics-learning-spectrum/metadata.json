@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "survey-dynamics-physics-learning-spectrum",
+  "title": "动力学学习 · 物理与数据依赖的四范式对照",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "perspective",
+    "method-comparison",
+    "multi-panel",
+    "physics-guided-learning",
+    "dynamical-systems",
+    "raster-reference"
+  ],
+  "formats": [
+    "jpg"
+  ],
+  "primary_file": "source.jpg",
+  "preview": "preview.png",
+  "summary": "四个面板沿用相同的输入、输出和网络视觉语汇，通过物理模块进入网络的方式突出范式区别；下方的连续方向带概括物理先验与学习依赖的变化。",
+  "publication": {
+    "title": "Learning dynamical systems from data: An introduction to physics-guided deep learning",
+    "venue": "PNAS",
+    "year": 2024,
+    "article_type": "perspective",
+    "presentation": "journal-article",
+    "evidence_url": "https://www.pnas.org/doi/10.1073/pnas.2311808121",
+    "evidence_type": "publisher-and-PMC",
+    "checked_date": "2026-10-28"
+  },
+  "curation": {
+    "figure_role": "PNAS 2024 观点文章 Figure 2，原文并非首图；概括四类物理引导动力学学习方法，适合借鉴为方法范式对照 teaser。",
+    "panel_layout": {
+      "panels": 4,
+      "columns": 4,
+      "rows": 1,
+      "summary": "四栏：残差模型、可训练算子、等变学习、解耦表示；下方用物理—学习方向带串联。",
+      "counting_note": "按四种方法范式计四个面板。方向带表示作者对物理先验与数据依赖的定性排序，不是定量坐标。"
+    },
+    "why_selected": "四个面板沿用相同的输入、输出和网络视觉语汇，通过物理模块进入网络的方式突出范式区别；下方的连续方向带概括物理先验与学习依赖的变化。",
+    "what_to_borrow": [
+      "对照面板复用相同输入、输出与网络骨架，突出变化部分。",
+      "用颜色标出物理模块或不同潜在因素。",
+      "用底部方向带概括定性排序，不把它画成未经验证的定量趋势。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-physics-data-paradigms"
+    },
+    "reviewed_from": "original author figure, paper page or publisher/PMC caption, final rendered preview"
+  },
+  "source": {
+    "project": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11228478/",
+    "authors": [
+      "Rose Yu",
+      "Rui Wang"
+    ],
+    "urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11228478/",
+      "https://www.pnas.org/doi/10.1073/pnas.2311808121",
+      "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3a3/11228478/2eafcbf48e5b/pnas.2311808121fig02.jpg"
+    ],
+    "figure_number": 2,
+    "original_sha256": "9e316eaae3374afe5f7f09d0a4831af530d98f50c23277bb4ddf2914678dad7c",
+    "original_bytes": 481975,
+    "retrieved_date": "2026-10-28",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "original_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3a3/11228478/2eafcbf48e5b/pnas.2311808121fig02.jpg",
+    "native_origin": "PMC-author-figure-JPEG"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-4.0",
+    "note": "所收录版本声明 CC-BY-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "jpg",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pdf_drawing_objects": 0,
+    "pdf_text_spans": 0,
+    "embedded_raster_images": 1,
+    "svg_object_counts": {},
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者原件是一张完整 JPG（4209 × 874）；文字与子图已经合并。本条保留原始图片作构图参考，不提供伪矢量 SVG。"
+    ]
+  },
+  "changes": [
+    "从作者源码归档或 PMC 原图链接复制原件，原始字节未变。",
+    "生成浏览预览、记录来源与图号；未重绘或新增图像。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-28",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 569,
+      "sha256": "edcdeb5c798175d21cb80f322ec484d04c8926ee5be0de1ac6cd941fd0c59823"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 393303,
+      "sha256": "ad1e01200a5988dcb8c1530e6181dcbd8ed692c0a356c09e8f984cd7df237e33"
+    },
+    {
+      "path": "source.jpg",
+      "bytes": 481975,
+      "sha256": "9e316eaae3374afe5f7f09d0a4831af530d98f50c23277bb4ddf2914678dad7c"
+    }
+  ]
+}

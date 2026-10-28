@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "counts": {
-    "teaser": 51,
+    "teaser": 55,
     "architecture": 45,
     "element": 341,
     "mechanism": 17,
@@ -4028,6 +4028,278 @@
     },
     {
       "schema_version": 1,
+      "id": "survey-biomedical-six-methods",
+      "title": "生物医学 PIML · 六面板方法范式总览",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "multi-panel",
+        "method-comparison",
+        "pinn",
+        "neural-operator",
+        "biomedicine"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "同一张图用六个面板解释不同表示模型、物理损失、连续时间建模与算子学习。蓝色表示模型、绿色表示数据或损失，适合借鉴为内容充实的方法范式总览。",
+      "publication": {
+        "title": "Physics-Informed Machine Learning in Biomedical Science and Engineering",
+        "venue": "arXiv",
+        "year": 2025,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2510.05433v1",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-28",
+        "source_version": "2510.05433v1",
+        "acceptance_note": "arXiv comments: accepted for publication in Annual Review of Biomedical Engineering on 2025-10-02; collected file is the 2025 arXiv version."
+      },
+      "curation": {
+        "figure_role": "综述预印本 Figure 1，PDF 第 5 页。虽然内部使用网络结构示意，整图的作用是比较多个方法家族，因此归入 Teaser。",
+        "panel_layout": {
+          "panels": 6,
+          "columns": 2,
+          "rows": 3,
+          "summary": "2 列 × 3 行，依次对照 NN、KAN、物理约束网络、Neural/KAN ODE、DeepONet、FNO/WNO/LNO。",
+          "counting_note": "按标注 (a)–(f) 计六个面板；最后一格内部还包含 Fourier、Wavelet、Laplace 三种算子的局部示意。"
+        },
+        "why_selected": "同一张图用六个面板解释不同表示模型、物理损失、连续时间建模与算子学习。蓝色表示模型、绿色表示数据或损失，适合借鉴为内容充实的方法范式总览。",
+        "what_to_borrow": [
+          "统一六个面板的尺寸和阅读顺序，每格保留一个主要科学关系。",
+          "相同颜色跨面板指向相同功能，便于比较方法差异。",
+          "用一层局部展开容纳算子变体，避免再增加整图层级。"
+        ],
+        "similar_example": {
+          "id": "survey-ai-pde-physics-data-paradigms"
+        },
+        "reviewed_from": "original author figure, paper page or publisher/PMC caption, final rendered preview"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2510.05433",
+        "authors": [
+          "Ahmadi, Nazanin",
+          "Cao, Qianying",
+          "Humphrey, Jay D.",
+          "Karniadakis, George Em"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2510.05433",
+          "https://arxiv.org/abs/2510.05433v1",
+          "https://arxiv.org/pdf/2510.05433v1",
+          "https://arxiv.org/src/2510.05433v1"
+        ],
+        "figure_number": 1,
+        "original_sha256": "9ba61f17b0cd9e9d9a56add674ed7da092ad6dd02c404d989bd655dabb6f4888",
+        "original_bytes": 327517,
+        "retrieved_date": "2026-10-28",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "arxiv_id": "2510.05433v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2510.05433v1",
+        "full_pdf_sha256": "ae248fc300eba3d5fd84d519563987761790e0f3277da4c4a981c6285246c3a3",
+        "full_pdf_bytes": 3593223,
+        "page_number": 5,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2510.05433v1",
+        "archive_sha256": "de0ef1840097a87d8cacdb2614f5e64f943d7344bcc5dc013849e025e0c23844",
+        "archive_bytes": 4277117,
+        "archive_member": "Figure/method.pdf",
+        "inclusion_member": "main.tex"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-NC-ND-4.0",
+        "note": "所收录版本声明 CC-BY-NC-ND-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。 该版本含 NC、ND 条款；本条保存作者原件和未改图意的显示转换件，作为私有参考。不能将可编辑格式理解为作者已授权任意改编。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 246,
+        "pdf_text_spans": 98,
+        "embedded_raster_images": 6,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 13,
+          "path": 474,
+          "g": 19,
+          "use": 533,
+          "image": 1
+        },
+        "normalized_path_transforms": 96,
+        "notes": [
+          "作者独立 PDF 保留原有矢量图形和文字对象；SVG 转换件文字为轮廓。原图含 6 个嵌入位图对象，可移动或替换，不能按矢量节点编辑。桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者源码归档或 PMC 原图链接复制原件，原始字节未变。",
+        "生成浏览预览、记录来源与图号；未重绘或新增图像。",
+        "将原 PDF 转为自包含 SVG，文字转轮廓，图意未改。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-28",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 766,
+          "sha256": "4e980575bb4000c2ac2658c47d56531d7c5f2c798d1ad24a9d3df16efe47e610"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1097,
+          "sha256": "47771da5ca33ba46fd5892d1e38d5c36b69e51c38208b05d4e8de6c688c5d8ca"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 327517,
+          "sha256": "9ba61f17b0cd9e9d9a56add674ed7da092ad6dd02c404d989bd655dabb6f4888"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 475288,
+          "sha256": "8b10cf59b965ad908a7e60b3fab56793098bef7001a1a5b0fc0a161d0e06dfe9"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 688267,
+          "sha256": "fb44920d3f808792380e2b8ebbbabfd1d1cb15f9af339975affacedf84724cf0"
+        }
+      ],
+      "path": "teaser/survey-biomedical-six-methods",
+      "metadata_path": "teaser/survey-biomedical-six-methods/metadata.json",
+      "readme_path": "teaser/survey-biomedical-six-methods/README.md",
+      "primary_path": "teaser/survey-biomedical-six-methods/original.pdf",
+      "preview_path": "teaser/survey-biomedical-six-methods/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-dynamics-physics-learning-spectrum",
+      "title": "动力学学习 · 物理与数据依赖的四范式对照",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "perspective",
+        "method-comparison",
+        "multi-panel",
+        "physics-guided-learning",
+        "dynamical-systems",
+        "raster-reference"
+      ],
+      "formats": [
+        "jpg"
+      ],
+      "primary_file": "source.jpg",
+      "preview": "preview.png",
+      "summary": "四个面板沿用相同的输入、输出和网络视觉语汇，通过物理模块进入网络的方式突出范式区别；下方的连续方向带概括物理先验与学习依赖的变化。",
+      "publication": {
+        "title": "Learning dynamical systems from data: An introduction to physics-guided deep learning",
+        "venue": "PNAS",
+        "year": 2024,
+        "article_type": "perspective",
+        "presentation": "journal-article",
+        "evidence_url": "https://www.pnas.org/doi/10.1073/pnas.2311808121",
+        "evidence_type": "publisher-and-PMC",
+        "checked_date": "2026-10-28"
+      },
+      "curation": {
+        "figure_role": "PNAS 2024 观点文章 Figure 2，原文并非首图；概括四类物理引导动力学学习方法，适合借鉴为方法范式对照 teaser。",
+        "panel_layout": {
+          "panels": 4,
+          "columns": 4,
+          "rows": 1,
+          "summary": "四栏：残差模型、可训练算子、等变学习、解耦表示；下方用物理—学习方向带串联。",
+          "counting_note": "按四种方法范式计四个面板。方向带表示作者对物理先验与数据依赖的定性排序，不是定量坐标。"
+        },
+        "why_selected": "四个面板沿用相同的输入、输出和网络视觉语汇，通过物理模块进入网络的方式突出范式区别；下方的连续方向带概括物理先验与学习依赖的变化。",
+        "what_to_borrow": [
+          "对照面板复用相同输入、输出与网络骨架，突出变化部分。",
+          "用颜色标出物理模块或不同潜在因素。",
+          "用底部方向带概括定性排序，不把它画成未经验证的定量趋势。"
+        ],
+        "similar_example": {
+          "id": "survey-ai-pde-physics-data-paradigms"
+        },
+        "reviewed_from": "original author figure, paper page or publisher/PMC caption, final rendered preview"
+      },
+      "source": {
+        "project": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11228478/",
+        "authors": [
+          "Rose Yu",
+          "Rui Wang"
+        ],
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11228478/",
+          "https://www.pnas.org/doi/10.1073/pnas.2311808121",
+          "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3a3/11228478/2eafcbf48e5b/pnas.2311808121fig02.jpg"
+        ],
+        "figure_number": 2,
+        "original_sha256": "9e316eaae3374afe5f7f09d0a4831af530d98f50c23277bb4ddf2914678dad7c",
+        "original_bytes": 481975,
+        "retrieved_date": "2026-10-28",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "original_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3a3/11228478/2eafcbf48e5b/pnas.2311808121fig02.jpg",
+        "native_origin": "PMC-author-figure-JPEG"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "note": "所收录版本声明 CC-BY-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "jpg",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pdf_drawing_objects": 0,
+        "pdf_text_spans": 0,
+        "embedded_raster_images": 1,
+        "svg_object_counts": {},
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者原件是一张完整 JPG（4209 × 874）；文字与子图已经合并。本条保留原始图片作构图参考，不提供伪矢量 SVG。"
+        ]
+      },
+      "changes": [
+        "从作者源码归档或 PMC 原图链接复制原件，原始字节未变。",
+        "生成浏览预览、记录来源与图号；未重绘或新增图像。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-28",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 569,
+          "sha256": "edcdeb5c798175d21cb80f322ec484d04c8926ee5be0de1ac6cd941fd0c59823"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 393303,
+          "sha256": "ad1e01200a5988dcb8c1530e6181dcbd8ed692c0a356c09e8f984cd7df237e33"
+        },
+        {
+          "path": "source.jpg",
+          "bytes": 481975,
+          "sha256": "9e316eaae3374afe5f7f09d0a4831af530d98f50c23277bb4ddf2914678dad7c"
+        }
+      ],
+      "path": "teaser/survey-dynamics-physics-learning-spectrum",
+      "metadata_path": "teaser/survey-dynamics-physics-learning-spectrum/metadata.json",
+      "readme_path": "teaser/survey-dynamics-physics-learning-spectrum/README.md",
+      "primary_path": "teaser/survey-dynamics-physics-learning-spectrum/source.jpg",
+      "preview_path": "teaser/survey-dynamics-physics-learning-spectrum/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "survey-foundation-model-adaptation",
       "title": "基础模型概念总览 · 多源数据与多任务适配",
       "category": "teaser",
@@ -7089,6 +7361,294 @@
       "readme_path": "teaser/survey-piml-data-model-optimization/README.md",
       "primary_path": "teaser/survey-piml-data-model-optimization/source.png",
       "preview_path": "teaser/survey-piml-data-model-optimization/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-piml-equations-residuals",
+      "title": "PINN 综述 · 导数、物理方程与残差三栏展开",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "multi-panel",
+        "conceptual-overview",
+        "governing-equations",
+        "pinn",
+        "raster-reference"
+      ],
+      "formats": [
+        "png"
+      ],
+      "primary_file": "source.png",
+      "preview": "preview.png",
+      "summary": "以导数、物理规律和残差为三条主线，将自动微分、有限差分、不同算子、无量纲化、方程改写与弱形式整合到一个有公式和科学示意的总览里。",
+      "publication": {
+        "title": "From PINNs to PIKANs: Recent Advances in Physics-Informed Machine Learning",
+        "venue": "arXiv",
+        "year": 2024,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2410.13228v2",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-28",
+        "source_version": "2410.13228v2",
+        "later_publication": {
+          "venue": "Machine Learning for Computational Science and Engineering",
+          "year": 2025,
+          "url": "https://link.springer.com/article/10.1007/s44379-025-00015-1"
+        }
+      },
+      "curation": {
+        "figure_role": "综述预印本 Figure 4，PDF 第 14 页，原文并非首图。适合参考其多栏目组织方法，把若干技术方向解释成一张概念总览。",
+        "panel_layout": {
+          "panels": 3,
+          "columns": 3,
+          "summary": "三个带 (a)–(c) 标记的主题区：导数求取、物理规律、强形式／弱形式残差。",
+          "counting_note": "按三个主题区计面板；自动微分网络、有限差分曲线、无量纲化方程和测试函数是区内的说明图元。"
+        },
+        "why_selected": "以导数、物理规律和残差为三条主线，将自动微分、有限差分、不同算子、无量纲化、方程改写与弱形式整合到一个有公式和科学示意的总览里。",
+        "what_to_borrow": [
+          "每栏先给主要关系，再向下展开代表性的技术分支。",
+          "直接用曲线、方程和网络说明差异，避免只列分类名。",
+          "用跨栏箭头保留导数、物理关系与残差之间的联系。"
+        ],
+        "similar_example": {
+          "id": "survey-ai-pde-physics-data-paradigms"
+        },
+        "reviewed_from": "original author figure, paper page or publisher/PMC caption, final rendered preview"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2410.13228",
+        "authors": [
+          "Toscano, Juan Diego",
+          "Oommen, Vivek",
+          "Varghese, Alan John",
+          "Zou, Zongren",
+          "Daryakenari, Nazanin Ahmadi",
+          "Wu, Chenxi",
+          "Karniadakis, George Em"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2410.13228",
+          "https://arxiv.org/abs/2410.13228v2",
+          "https://arxiv.org/pdf/2410.13228v2",
+          "https://arxiv.org/src/2410.13228v2"
+        ],
+        "figure_number": 4,
+        "original_sha256": "884ef117e79f17ea8879490c22fdf55fee302495cfeeb9aff02152cd4620be21",
+        "original_bytes": 411875,
+        "retrieved_date": "2026-10-28",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "arxiv_id": "2410.13228v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2410.13228v2",
+        "full_pdf_sha256": "345bcada08d3b0dbe2113641b7342093b19b18d5571335459ab263a30bfc9839",
+        "full_pdf_bytes": 38171640,
+        "page_number": 14,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2410.13228v2",
+        "archive_sha256": "ef9e7057cf1f7dbdfffeb9f107b74ab8dd943e5e8c1e01995392ebaa72590391",
+        "archive_bytes": 34856110,
+        "archive_member": "Images/GEq.png",
+        "inclusion_member": "main.tex"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-NC-SA-4.0",
+        "note": "所收录版本声明 CC-BY-NC-SA-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。 所收录的是 2024 年 arXiv 固定版本；2025 年期刊版本另附链接，不混用其许可或图号。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "png",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pdf_drawing_objects": 0,
+        "pdf_text_spans": 0,
+        "embedded_raster_images": 1,
+        "svg_object_counts": {},
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者原件是一张完整 PNG（2000 × 1136）；文字与子图已经合并。本条保留原始图片作构图参考，不提供伪矢量 SVG。"
+        ]
+      },
+      "changes": [
+        "从作者源码归档或 PMC 原图链接复制原件，原始字节未变。",
+        "生成浏览预览、记录来源与图号；未重绘或新增图像。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-28",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 765,
+          "sha256": "e66548a13c1a508b6d0e44a8910e8d6f385f0a96ac8396a235557b98d14fa558"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1161,
+          "sha256": "12c824d968482f1fd0781704e90dc0f15b2a423e066d9a92217898f64bf2571c"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 390691,
+          "sha256": "f73d1e259bb1fcec3f81370d159a21f79e35a604316f0e0db50a1268786f36f7"
+        },
+        {
+          "path": "source.png",
+          "bytes": 411875,
+          "sha256": "884ef117e79f17ea8879490c22fdf55fee302495cfeeb9aff02152cd4620be21"
+        }
+      ],
+      "path": "teaser/survey-piml-equations-residuals",
+      "metadata_path": "teaser/survey-piml-equations-residuals/metadata.json",
+      "readme_path": "teaser/survey-piml-equations-residuals/README.md",
+      "primary_path": "teaser/survey-piml-equations-residuals/source.png",
+      "preview_path": "teaser/survey-piml-equations-residuals/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-piml-optimization-landscape",
+      "title": "PINN 综述 · 问题、损失与优化的多子图全景",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "multi-panel",
+        "conceptual-overview",
+        "optimization",
+        "pinn",
+        "raster-reference"
+      ],
+      "formats": [
+        "png"
+      ],
+      "primary_file": "source.png",
+      "preview": "preview.png",
+      "summary": "上方主线串联问题、损失函数和优化器，下面用场分布、区域划分、采样点、梯度几何与 Pareto 前沿展开细节。是一张内容密度高、科学子图丰富的综述总览。",
+      "publication": {
+        "title": "From PINNs to PIKANs: Recent Advances in Physics-Informed Machine Learning",
+        "venue": "arXiv",
+        "year": 2024,
+        "article_type": "survey",
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2410.13228v2",
+        "evidence_type": "fixed-arxiv-version-and-author-TeX",
+        "checked_date": "2026-10-28",
+        "source_version": "2410.13228v2",
+        "later_publication": {
+          "venue": "Machine Learning for Computational Science and Engineering",
+          "year": 2025,
+          "url": "https://link.springer.com/article/10.1007/s44379-025-00015-1"
+        }
+      },
+      "curation": {
+        "figure_role": "综述预印本 Figure 5，PDF 第 18 页，原文并非首图。整图说明训练过程中的改进位置及方法家族，归入 Teaser 构图参考。",
+        "panel_layout": {
+          "panels": 3,
+          "columns": 3,
+          "summary": "三大区：PIML 问题、损失函数、优化器；各区下面并列多个场分布、区域划分、采样和几何子示意。",
+          "counting_note": "按 (a)–(c) 三个主题区计主面板。各组内部小图数量不同，不把每个公式、地图或采样点单独计作方法类别。"
+        },
+        "why_selected": "上方主线串联问题、损失函数和优化器，下面用场分布、区域划分、采样点、梯度几何与 Pareto 前沿展开细节。是一张内容密度高、科学子图丰富的综述总览。",
+        "what_to_borrow": [
+          "主线放在上方，技术细节在对应位置向下展开。",
+          "为公式中的关键项加颜色，并连接到具体可视化示例。",
+          "多组小图采用对齐的行列，同时保留统一的外围主题区。"
+        ],
+        "similar_example": {
+          "id": "survey-ai-pde-scope-map"
+        },
+        "reviewed_from": "original author figure, paper page or publisher/PMC caption, final rendered preview"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2410.13228",
+        "authors": [
+          "Toscano, Juan Diego",
+          "Oommen, Vivek",
+          "Varghese, Alan John",
+          "Zou, Zongren",
+          "Daryakenari, Nazanin Ahmadi",
+          "Wu, Chenxi",
+          "Karniadakis, George Em"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2410.13228",
+          "https://arxiv.org/abs/2410.13228v2",
+          "https://arxiv.org/pdf/2410.13228v2",
+          "https://arxiv.org/src/2410.13228v2"
+        ],
+        "figure_number": 5,
+        "original_sha256": "89dea58dddb42cbd9c9b9478f3e09f57556097791318cf84161f1fdf5bf49072",
+        "original_bytes": 947480,
+        "retrieved_date": "2026-10-28",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "arxiv_id": "2410.13228v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2410.13228v2",
+        "full_pdf_sha256": "345bcada08d3b0dbe2113641b7342093b19b18d5571335459ab263a30bfc9839",
+        "full_pdf_bytes": 38171640,
+        "page_number": 18,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2410.13228v2",
+        "archive_sha256": "ef9e7057cf1f7dbdfffeb9f107b74ab8dd943e5e8c1e01995392ebaa72590391",
+        "archive_bytes": 34856110,
+        "archive_member": "Images/Optimization.png",
+        "inclusion_member": "main.tex"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-NC-SA-4.0",
+        "note": "所收录版本声明 CC-BY-NC-SA-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。 所收录的是 2024 年 arXiv 固定版本；2025 年期刊版本另附链接，不混用其许可或图号。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "png",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pdf_drawing_objects": 0,
+        "pdf_text_spans": 0,
+        "embedded_raster_images": 1,
+        "svg_object_counts": {},
+        "normalized_path_transforms": 0,
+        "notes": [
+          "作者原件是一张完整 PNG（2000 × 1136）；文字与子图已经合并。本条保留原始图片作构图参考，不提供伪矢量 SVG。"
+        ]
+      },
+      "changes": [
+        "从作者源码归档或 PMC 原图链接复制原件，原始字节未变。",
+        "生成浏览预览、记录来源与图号；未重绘或新增图像。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-10-28",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 774,
+          "sha256": "f08e402ab54faa07ab0479f781bed8d87fc4f15b8a1776a0db11652a07552b5b"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1272,
+          "sha256": "60ac1651e82df36c4a226db306f4cbb40900fbfb58244569d0c0f467b2cac5ca"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 887658,
+          "sha256": "323c3e1458c6ae1d32f5294473e26e5712411abf3f0af5a661a59fa4e952f78d"
+        },
+        {
+          "path": "source.png",
+          "bytes": 947480,
+          "sha256": "89dea58dddb42cbd9c9b9478f3e09f57556097791318cf84161f1fdf5bf49072"
+        }
+      ],
+      "path": "teaser/survey-piml-optimization-landscape",
+      "metadata_path": "teaser/survey-piml-optimization-landscape/metadata.json",
+      "readme_path": "teaser/survey-piml-optimization-landscape/README.md",
+      "primary_path": "teaser/survey-piml-optimization-landscape/source.png",
+      "preview_path": "teaser/survey-piml-optimization-landscape/preview.png"
     },
     {
       "schema_version": 1,

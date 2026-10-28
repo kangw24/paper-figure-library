@@ -1,0 +1,8 @@
+Paper: From PINNs to PIKANs: Recent Advances in Physics-Informed Machine Learning
+Authors: Toscano, Juan Diego, Oommen, Vivek, Varghese, Alan John, Zou, Zongren, Daryakenari, Nazanin Ahmadi, Wu, Chenxi, Karniadakis, George Em
+Figure: 5
+Source: https://arxiv.org/src/2410.13228v2 member Images/Optimization.png
+Original SHA256: 89dea58dddb42cbd9c9b9478f3e09f57556097791318cf84161f1fdf5bf49072
+License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+所收录版本声明 CC-BY-NC-SA-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。 所收录的是 2024 年 arXiv 固定版本；2025 年期刊版本另附链接，不混用其许可或图号。
+Original bytes preserved. No redrawing or generated replacement content.

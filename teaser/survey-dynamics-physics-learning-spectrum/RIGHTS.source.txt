@@ -1,0 +1,8 @@
+Paper: Learning dynamical systems from data: An introduction to physics-guided deep learning
+Authors: Rose Yu, Rui Wang
+Figure: 2
+Source: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3a3/11228478/2eafcbf48e5b/pnas.2311808121fig02.jpg
+Original SHA256: 9e316eaae3374afe5f7f09d0a4831af530d98f50c23277bb4ddf2914678dad7c
+License: https://creativecommons.org/licenses/by/4.0/
+所收录版本声明 CC-BY-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。
+Original bytes preserved. No redrawing or generated replacement content.

@@ -18,7 +18,7 @@
 | <img src="../../element/previews/tabler-database-search.png" width="140"> | [数据库检索](../../element/svg/tabler-database-search.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-table.png" width="140"> | [表格](../../element/svg/tabler-table.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-file.png" width="140"> | [文件](../../element/svg/tabler-file.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-file-text.png" width="140"> | [文本文件](../../element/svg/tabler-file-text.svg) | Tabler outline · MIT | [基础模型概念总览 · 多源数据与多任务适配](../../teaser/survey-foundation-model-adaptation/README.md) · [指令式图像编辑 · 21 种任务的多子图总览](../../teaser/survey-instruction-editing-task-gallery/README.md) · [多模态大模型发展 · 分段曲线时间线](../../teaser/survey-mllm-timeline/README.md) |
+| <img src="../../element/previews/tabler-file-text.png" width="140"> | [文本文件](../../element/svg/tabler-file-text.svg) | Tabler outline · MIT | [生物医学 PIML · 六面板方法范式总览](../../teaser/survey-biomedical-six-methods/README.md) · [基础模型概念总览 · 多源数据与多任务适配](../../teaser/survey-foundation-model-adaptation/README.md) · [指令式图像编辑 · 21 种任务的多子图总览](../../teaser/survey-instruction-editing-task-gallery/README.md) |
 | <img src="../../element/previews/tabler-file-code.png" width="140"> | [代码文件](../../element/svg/tabler-file-code.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-file-type-pdf.png" width="140"> | [PDF 文件](../../element/svg/tabler-file-type-pdf.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-file-type-csv.png" width="140"> | [CSV 文件](../../element/svg/tabler-file-type-csv.svg) | Tabler outline · MIT | — |
@@ -32,7 +32,7 @@
 | <img src="../../element/previews/tabler-microphone.png" width="140"> | [麦克风](../../element/svg/tabler-microphone.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-wave-sine.png" width="140"> | [正弦信号](../../element/svg/tabler-wave-sine.svg) | Tabler outline · MIT | [AI for PDEs · 物理与数据条件下的三类方法对照](../../teaser/survey-ai-pde-physics-data-paradigms/README.md) · [AI for PDEs · 领域定位、方法与应用全景](../../teaser/survey-ai-pde-scope-map/README.md) · [AI4Science 领域圆环 · 从量子到连续系统](../../teaser/survey-ai4science-domain-wheel/README.md) |
 | <img src="../../element/previews/tabler-layout-grid.png" width="140"> | [四格网格](../../element/svg/tabler-layout-grid.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-grid-dots.png" width="140"> | [点阵](../../element/svg/tabler-grid-dots.svg) | Tabler outline · MIT | — |
+| <img src="../../element/previews/tabler-grid-dots.png" width="140"> | [点阵](../../element/svg/tabler-grid-dots.svg) | Tabler outline · MIT | [PINN 综述 · 问题、损失与优化的多子图全景](../../teaser/survey-piml-optimization-landscape/README.md) |
 | <img src="../../element/previews/tabler-binary.png" width="140"> | [二进制](../../element/svg/tabler-binary.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-barcode.png" width="140"> | [条形码](../../element/svg/tabler-barcode.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-qrcode.png" width="140"> | [二维码](../../element/svg/tabler-qrcode.svg) | Tabler outline · MIT | — |

@@ -1,0 +1,8 @@
+Paper: Physics-Informed Machine Learning in Biomedical Science and Engineering
+Authors: Ahmadi, Nazanin, Cao, Qianying, Humphrey, Jay D., Karniadakis, George Em
+Figure: 1
+Source: https://arxiv.org/src/2510.05433v1 member Figure/method.pdf
+Original SHA256: 9ba61f17b0cd9e9d9a56add674ed7da092ad6dd02c404d989bd655dabb6f4888
+License: https://creativecommons.org/licenses/by-nc-nd/4.0/
+所收录版本声明 CC-BY-NC-ND-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。 该版本含 NC、ND 条款；本条保存作者原件和未改图意的显示转换件，作为私有参考。不能将可编辑格式理解为作者已授权任意改编。
+Original bytes preserved. No redrawing or generated replacement content.

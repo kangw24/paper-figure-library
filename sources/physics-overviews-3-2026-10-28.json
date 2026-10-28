@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-28",
+  "collection_note": "Author-source conceptual overviews and qualitative paradigm comparisons; originals, licenses and editability recorded individually.",
+  "items": [
+    {
+      "id": "survey-biomedical-six-methods",
+      "source": {
+        "project": "https://arxiv.org/abs/2510.05433",
+        "authors": [
+          "Ahmadi, Nazanin",
+          "Cao, Qianying",
+          "Humphrey, Jay D.",
+          "Karniadakis, George Em"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2510.05433",
+          "https://arxiv.org/abs/2510.05433v1",
+          "https://arxiv.org/pdf/2510.05433v1",
+          "https://arxiv.org/src/2510.05433v1"
+        ],
+        "figure_number": 1,
+        "original_sha256": "9ba61f17b0cd9e9d9a56add674ed7da092ad6dd02c404d989bd655dabb6f4888",
+        "original_bytes": 327517,
+        "retrieved_date": "2026-10-28",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "arxiv_id": "2510.05433v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2510.05433v1",
+        "full_pdf_sha256": "ae248fc300eba3d5fd84d519563987761790e0f3277da4c4a981c6285246c3a3",
+        "full_pdf_bytes": 3593223,
+        "page_number": 5,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2510.05433v1",
+        "archive_sha256": "de0ef1840097a87d8cacdb2614f5e64f943d7344bcc5dc013849e025e0c23844",
+        "archive_bytes": 4277117,
+        "archive_member": "Figure/method.pdf",
+        "inclusion_member": "main.tex"
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "id": "survey-piml-equations-residuals",
+      "source": {
+        "project": "https://arxiv.org/abs/2410.13228",
+        "authors": [
+          "Toscano, Juan Diego",
+          "Oommen, Vivek",
+          "Varghese, Alan John",
+          "Zou, Zongren",
+          "Daryakenari, Nazanin Ahmadi",
+          "Wu, Chenxi",
+          "Karniadakis, George Em"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2410.13228",
+          "https://arxiv.org/abs/2410.13228v2",
+          "https://arxiv.org/pdf/2410.13228v2",
+          "https://arxiv.org/src/2410.13228v2"
+        ],
+        "figure_number": 4,
+        "original_sha256": "884ef117e79f17ea8879490c22fdf55fee302495cfeeb9aff02152cd4620be21",
+        "original_bytes": 411875,
+        "retrieved_date": "2026-10-28",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "arxiv_id": "2410.13228v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2410.13228v2",
+        "full_pdf_sha256": "345bcada08d3b0dbe2113641b7342093b19b18d5571335459ab263a30bfc9839",
+        "full_pdf_bytes": 38171640,
+        "page_number": 14,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2410.13228v2",
+        "archive_sha256": "ef9e7057cf1f7dbdfffeb9f107b74ab8dd943e5e8c1e01995392ebaa72590391",
+        "archive_bytes": 34856110,
+        "archive_member": "Images/GEq.png",
+        "inclusion_member": "main.tex"
+      },
+      "editability": "raster-reference"
+    },
+    {
+      "id": "survey-piml-optimization-landscape",
+      "source": {
+        "project": "https://arxiv.org/abs/2410.13228",
+        "authors": [
+          "Toscano, Juan Diego",
+          "Oommen, Vivek",
+          "Varghese, Alan John",
+          "Zou, Zongren",
+          "Daryakenari, Nazanin Ahmadi",
+          "Wu, Chenxi",
+          "Karniadakis, George Em"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2410.13228",
+          "https://arxiv.org/abs/2410.13228v2",
+          "https://arxiv.org/pdf/2410.13228v2",
+          "https://arxiv.org/src/2410.13228v2"
+        ],
+        "figure_number": 5,
+        "original_sha256": "89dea58dddb42cbd9c9b9478f3e09f57556097791318cf84161f1fdf5bf49072",
+        "original_bytes": 947480,
+        "retrieved_date": "2026-10-28",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "arxiv_id": "2410.13228v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2410.13228v2",
+        "full_pdf_sha256": "345bcada08d3b0dbe2113641b7342093b19b18d5571335459ab263a30bfc9839",
+        "full_pdf_bytes": 38171640,
+        "page_number": 18,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2410.13228v2",
+        "archive_sha256": "ef9e7057cf1f7dbdfffeb9f107b74ab8dd943e5e8c1e01995392ebaa72590391",
+        "archive_bytes": 34856110,
+        "archive_member": "Images/Optimization.png",
+        "inclusion_member": "main.tex"
+      },
+      "editability": "raster-reference"
+    },
+    {
+      "id": "survey-dynamics-physics-learning-spectrum",
+      "source": {
+        "project": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11228478/",
+        "authors": [
+          "Rose Yu",
+          "Rui Wang"
+        ],
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11228478/",
+          "https://www.pnas.org/doi/10.1073/pnas.2311808121",
+          "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3a3/11228478/2eafcbf48e5b/pnas.2311808121fig02.jpg"
+        ],
+        "figure_number": 2,
+        "original_sha256": "9e316eaae3374afe5f7f09d0a4831af530d98f50c23277bb4ddf2914678dad7c",
+        "original_bytes": 481975,
+        "retrieved_date": "2026-10-28",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "original_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3a3/11228478/2eafcbf48e5b/pnas.2311808121fig02.jpg",
+        "native_origin": "PMC-author-figure-JPEG"
+      },
+      "editability": "raster-reference"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 个人 CS / AI 论文配图素材库，按用途分为 **Teaser、Architecture、Element**。收集作者和已有素材库的源文件，用 Markdown 串联完整范例、方法结构与可复用部件。
 
-**51 个 teaser · 45 个 architecture · 341 个独立 element**。
+**55 个 teaser · 45 个 architecture · 341 个独立 element**。
 
 | 分类 | 用来找什么 | 入口 |
 |---|---|---|
@@ -25,6 +25,8 @@ AI4PDE 综述图：[Fig.1：领域定位、方法与应用全景](teaser/survey-
 相近的概念总览与方法对照：[PDE 物理—数据连续谱](teaser/survey-pde-physics-data-continuum/README.md)、[物理知识的五种融入方式](teaser/survey-physics-knowledge-five-paradigms/README.md)、[知识来源—表示—融入位置](teaser/survey-informed-ml-knowledge-map/README.md)、[数据与先验知识双路径](teaser/survey-informed-ml-information-flow/README.md)、[PIML 三维分类全景](teaser/survey-piml-three-axis-landscape/README.md)。
 
 其他相近构图：[机器人学习的三路先验对照](teaser/survey-robot-physics-three-routes/README.md)、[六类方法面板](teaser/survey-robot-physics-six-families/README.md)、[数据—模型—优化流程](teaser/survey-piml-data-model-optimization/README.md)、[PBDL 领域位置与方法空间](teaser/pbdl-field-method-space/README.md)。前两项提供矢量结构，后两项为作者／出版商原始位图参考。
+
+本次补充：[六面板神经方法总览](teaser/survey-biomedical-six-methods/README.md)提供作者独立 PDF 与 SVG；[导数—方程—残差](teaser/survey-piml-equations-residuals/README.md)、[优化过程的多子图全景](teaser/survey-piml-optimization-landscape/README.md)和[物理—学习四范式对照](teaser/survey-dynamics-physics-learning-spectrum/README.md)保留作者原始 PNG／JPEG，作为构图参考。
 
 综述与综合报告的概念图、领域地图和发展脉络从 [全景目录](teaser/README.md#landscape) 浏览。优先看 [AI4Science 领域圆环](teaser/survey-ai4science-domain-wheel/README.md)、[3D／4D 世界模型全景](teaser/survey-3d4d-world-overview/README.md)、[3D 表示与生成范式](teaser/survey-3d-representation-generators/README.md)，以及 [世界模型能力递进](teaser/survey-world-model-capability-ladder/README.md)。范式对照还可看 [图基础模型](teaser/survey-graph-foundation-paradigm/README.md)。
 
@@ -72,4 +74,4 @@ AI4PDE 综述图：[Fig.1：领域定位、方法与应用全景](teaser/survey-
     python scripts/build_catalog.py
     python scripts/validate_library.py
 
-[后续物理学习图收录记录](sources/physics-overviews-2-2026-10-27.json) · [物理与知识融合图收录记录](sources/physics-overviews-2026-10-27.json) · [AI4PDE 图收录记录](sources/ai-pde-review-2026-10-27.json) · [多子图综述收录记录](sources/survey-panels-2026-10-27.json) · [综述原图收录记录](sources/survey-figures-2026-10-27.json) · [领域全景扩充记录](sources/survey-rich-2026-10-27.json) · [论文原图收录记录](sources/top-conference-2026-10-27.json) · [元素下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)
+[方法面板与优化图收录记录](sources/physics-overviews-3-2026-10-28.json) · [后续物理学习图收录记录](sources/physics-overviews-2-2026-10-27.json) · [物理与知识融合图收录记录](sources/physics-overviews-2026-10-27.json) · [AI4PDE 图收录记录](sources/ai-pde-review-2026-10-27.json) · [多子图综述收录记录](sources/survey-panels-2026-10-27.json) · [综述原图收录记录](sources/survey-figures-2026-10-27.json) · [领域全景扩充记录](sources/survey-rich-2026-10-27.json) · [论文原图收录记录](sources/top-conference-2026-10-27.json) · [元素下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)

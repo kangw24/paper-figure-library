@@ -1,0 +1,12 @@
+\begin{figure*}[h]
+\includegraphics[width=\textwidth]{Figure/method.pdf}
+\caption{Overview of Methods.
+\textcolor{red}{(a)} Standard neural network (NN) architecture.
+\textcolor{red}{(b)} Kolmogorov–Arnold Networks (KANs), which use separable inner functions $\phi_{ij}(x_j)$ and outer functions $\Phi_i$ for improved spectral representation.
+\textcolor{red}{(c)} Physics-Informed Neural Networks (PINNs) and Physics-Informed Kolmogorov–Arnold Networks (PIKANs) that embed governing physical laws, initial/boundary conditions, and observed data into a unified loss function.
+\textcolor{red}{(d)} NODEs or KAN-based ODEs used to model dynamic systems by solving $\dot{u} = f_\theta(u, t)$, incorporating data loss.
+\textcolor{red}{(e)} DeepONet and PI-DeepONet architectures, where branch and trunk network (e.g., NN or KAN) represent operator inputs and evaluation coordinates, respectively.
+\textcolor{red}{(f)} Fourier Neural Operator (FNO), Wavelet Neural Operator (WNO), and Laplace Neural Operator (LNO), which learn mappings between function spaces.
+}
+\label{fig:networks}
+\end{figure*}

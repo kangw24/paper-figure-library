@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "survey-piml-optimization-landscape",
+  "title": "PINN 综述 · 问题、损失与优化的多子图全景",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "multi-panel",
+    "conceptual-overview",
+    "optimization",
+    "pinn",
+    "raster-reference"
+  ],
+  "formats": [
+    "png"
+  ],
+  "primary_file": "source.png",
+  "preview": "preview.png",
+  "summary": "上方主线串联问题、损失函数和优化器，下面用场分布、区域划分、采样点、梯度几何与 Pareto 前沿展开细节。是一张内容密度高、科学子图丰富的综述总览。",
+  "publication": {
+    "title": "From PINNs to PIKANs: Recent Advances in Physics-Informed Machine Learning",
+    "venue": "arXiv",
+    "year": 2024,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2410.13228v2",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-28",
+    "source_version": "2410.13228v2",
+    "later_publication": {
+      "venue": "Machine Learning for Computational Science and Engineering",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s44379-025-00015-1"
+    }
+  },
+  "curation": {
+    "figure_role": "综述预印本 Figure 5，PDF 第 18 页，原文并非首图。整图说明训练过程中的改进位置及方法家族，归入 Teaser 构图参考。",
+    "panel_layout": {
+      "panels": 3,
+      "columns": 3,
+      "summary": "三大区：PIML 问题、损失函数、优化器；各区下面并列多个场分布、区域划分、采样和几何子示意。",
+      "counting_note": "按 (a)–(c) 三个主题区计主面板。各组内部小图数量不同，不把每个公式、地图或采样点单独计作方法类别。"
+    },
+    "why_selected": "上方主线串联问题、损失函数和优化器，下面用场分布、区域划分、采样点、梯度几何与 Pareto 前沿展开细节。是一张内容密度高、科学子图丰富的综述总览。",
+    "what_to_borrow": [
+      "主线放在上方，技术细节在对应位置向下展开。",
+      "为公式中的关键项加颜色，并连接到具体可视化示例。",
+      "多组小图采用对齐的行列，同时保留统一的外围主题区。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-scope-map"
+    },
+    "reviewed_from": "original author figure, paper page or publisher/PMC caption, final rendered preview"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2410.13228",
+    "authors": [
+      "Toscano, Juan Diego",
+      "Oommen, Vivek",
+      "Varghese, Alan John",
+      "Zou, Zongren",
+      "Daryakenari, Nazanin Ahmadi",
+      "Wu, Chenxi",
+      "Karniadakis, George Em"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2410.13228",
+      "https://arxiv.org/abs/2410.13228v2",
+      "https://arxiv.org/pdf/2410.13228v2",
+      "https://arxiv.org/src/2410.13228v2"
+    ],
+    "figure_number": 5,
+    "original_sha256": "89dea58dddb42cbd9c9b9478f3e09f57556097791318cf84161f1fdf5bf49072",
+    "original_bytes": 947480,
+    "retrieved_date": "2026-10-28",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "arxiv_id": "2410.13228v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2410.13228v2",
+    "full_pdf_sha256": "345bcada08d3b0dbe2113641b7342093b19b18d5571335459ab263a30bfc9839",
+    "full_pdf_bytes": 38171640,
+    "page_number": 18,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2410.13228v2",
+    "archive_sha256": "ef9e7057cf1f7dbdfffeb9f107b74ab8dd943e5e8c1e01995392ebaa72590391",
+    "archive_bytes": 34856110,
+    "archive_member": "Images/Optimization.png",
+    "inclusion_member": "main.tex"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-NC-SA-4.0",
+    "note": "所收录版本声明 CC-BY-NC-SA-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。 所收录的是 2024 年 arXiv 固定版本；2025 年期刊版本另附链接，不混用其许可或图号。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "png",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pdf_drawing_objects": 0,
+    "pdf_text_spans": 0,
+    "embedded_raster_images": 1,
+    "svg_object_counts": {},
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者原件是一张完整 PNG（2000 × 1136）；文字与子图已经合并。本条保留原始图片作构图参考，不提供伪矢量 SVG。"
+    ]
+  },
+  "changes": [
+    "从作者源码归档或 PMC 原图链接复制原件，原始字节未变。",
+    "生成浏览预览、记录来源与图号；未重绘或新增图像。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-28",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 774,
+      "sha256": "f08e402ab54faa07ab0479f781bed8d87fc4f15b8a1776a0db11652a07552b5b"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1272,
+      "sha256": "60ac1651e82df36c4a226db306f4cbb40900fbfb58244569d0c0f467b2cac5ca"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 887658,
+      "sha256": "323c3e1458c6ae1d32f5294473e26e5712411abf3f0af5a661a59fa4e952f78d"
+    },
+    {
+      "path": "source.png",
+      "bytes": 947480,
+      "sha256": "89dea58dddb42cbd9c9b9478f3e09f57556097791318cf84161f1fdf5bf49072"
+    }
+  ]
+}

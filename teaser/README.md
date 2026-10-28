@@ -6,9 +6,9 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 方法与范式对照 | 11 | [浏览](#comparison) |
+| 方法与范式对照 | 13 | [浏览](#comparison) |
 | 多子图主题与应用总览 | 6 | [浏览](#multi-panel) |
-| 领域全景、演进与综述路线图 | 22 | [浏览](#landscape) |
+| 领域全景、演进与综述路线图 | 24 | [浏览](#landscape) |
 | 任务、动机与能力展示 | 7 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
 | 速度与精度权衡 | 2 | [浏览](#tradeoff) |
@@ -16,6 +16,32 @@
 <a id="comparison"></a>
 
 ## 方法与范式对照
+
+### [生物医学 PIML · 六面板方法范式总览](survey-biomedical-six-methods/README.md)
+
+同一张图用六个面板解释不同表示模型、物理损失、连续时间建模与算子学习。蓝色表示模型、绿色表示数据或损失，适合借鉴为内容充实的方法范式总览。
+
+arXiv 2025 · 预印本 · 综述
+
+**子图组织：** 2 列 × 3 行，依次对照 NN、KAN、物理约束网络、Neural/KAN ODE、DeepONet、FNO/WNO/LNO。 原论文 Figure 1。
+
+[![预览](survey-biomedical-six-methods/preview.png)](survey-biomedical-six-methods/README.md)
+
+[说明与源文件](survey-biomedical-six-methods/README.md) · [关联元素](survey-biomedical-six-methods/README.md#关联范例与元素)
+
+### [动力学学习 · 物理与数据依赖的四范式对照](survey-dynamics-physics-learning-spectrum/README.md)
+
+四个面板沿用相同的输入、输出和网络视觉语汇，通过物理模块进入网络的方式突出范式区别；下方的连续方向带概括物理先验与学习依赖的变化。
+
+PNAS 2024 · 期刊论文
+
+**子图组织：** 四栏：残差模型、可训练算子、等变学习、解耦表示；下方用物理—学习方向带串联。 原论文 Figure 2。
+
+**整图位图，仅构图参考。**
+
+[![预览](survey-dynamics-physics-learning-spectrum/preview.png)](survey-dynamics-physics-learning-spectrum/README.md)
+
+[说明与源文件](survey-dynamics-physics-learning-spectrum/README.md) · [关联元素](survey-dynamics-physics-learning-spectrum/README.md#关联范例与元素)
 
 ### [机器人学习 · 物理先验融入的三路对照](survey-robot-physics-three-routes/README.md)
 
@@ -226,6 +252,34 @@ EUROGRAPHICS 2022 · STAR 报告 · 综述
 ## 领域全景、演进与综述路线图
 
 条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。
+
+### [PINN 综述 · 导数、物理方程与残差三栏展开](survey-piml-equations-residuals/README.md)
+
+以导数、物理规律和残差为三条主线，将自动微分、有限差分、不同算子、无量纲化、方程改写与弱形式整合到一个有公式和科学示意的总览里。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 三个带 (a)–(c) 标记的主题区：导数求取、物理规律、强形式／弱形式残差。 原论文 Figure 4。
+
+**整图位图，仅构图参考。**
+
+[![预览](survey-piml-equations-residuals/preview.png)](survey-piml-equations-residuals/README.md)
+
+[说明与源文件](survey-piml-equations-residuals/README.md) · [同论文：PINN 综述 · 问题、损失与优化的多子图全景](survey-piml-optimization-landscape/README.md) · [关联元素](survey-piml-equations-residuals/README.md#关联范例与元素)
+
+### [PINN 综述 · 问题、损失与优化的多子图全景](survey-piml-optimization-landscape/README.md)
+
+上方主线串联问题、损失函数和优化器，下面用场分布、区域划分、采样点、梯度几何与 Pareto 前沿展开细节。是一张内容密度高、科学子图丰富的综述总览。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 三大区：PIML 问题、损失函数、优化器；各区下面并列多个场分布、区域划分、采样和几何子示意。 原论文 Figure 5。
+
+**整图位图，仅构图参考。**
+
+[![预览](survey-piml-optimization-landscape/preview.png)](survey-piml-optimization-landscape/README.md)
+
+[说明与源文件](survey-piml-optimization-landscape/README.md) · [同论文：PINN 综述 · 导数、物理方程与残差三栏展开](survey-piml-equations-residuals/README.md) · [关联元素](survey-piml-optimization-landscape/README.md#关联范例与元素)
 
 ### [机器人学习 · 物理先验融入架构的六类方法](survey-robot-physics-six-families/README.md)
 

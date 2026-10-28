@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "survey-piml-equations-residuals",
+  "title": "PINN 综述 · 导数、物理方程与残差三栏展开",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "multi-panel",
+    "conceptual-overview",
+    "governing-equations",
+    "pinn",
+    "raster-reference"
+  ],
+  "formats": [
+    "png"
+  ],
+  "primary_file": "source.png",
+  "preview": "preview.png",
+  "summary": "以导数、物理规律和残差为三条主线，将自动微分、有限差分、不同算子、无量纲化、方程改写与弱形式整合到一个有公式和科学示意的总览里。",
+  "publication": {
+    "title": "From PINNs to PIKANs: Recent Advances in Physics-Informed Machine Learning",
+    "venue": "arXiv",
+    "year": 2024,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2410.13228v2",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-28",
+    "source_version": "2410.13228v2",
+    "later_publication": {
+      "venue": "Machine Learning for Computational Science and Engineering",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s44379-025-00015-1"
+    }
+  },
+  "curation": {
+    "figure_role": "综述预印本 Figure 4，PDF 第 14 页，原文并非首图。适合参考其多栏目组织方法，把若干技术方向解释成一张概念总览。",
+    "panel_layout": {
+      "panels": 3,
+      "columns": 3,
+      "summary": "三个带 (a)–(c) 标记的主题区：导数求取、物理规律、强形式／弱形式残差。",
+      "counting_note": "按三个主题区计面板；自动微分网络、有限差分曲线、无量纲化方程和测试函数是区内的说明图元。"
+    },
+    "why_selected": "以导数、物理规律和残差为三条主线，将自动微分、有限差分、不同算子、无量纲化、方程改写与弱形式整合到一个有公式和科学示意的总览里。",
+    "what_to_borrow": [
+      "每栏先给主要关系，再向下展开代表性的技术分支。",
+      "直接用曲线、方程和网络说明差异，避免只列分类名。",
+      "用跨栏箭头保留导数、物理关系与残差之间的联系。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-physics-data-paradigms"
+    },
+    "reviewed_from": "original author figure, paper page or publisher/PMC caption, final rendered preview"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2410.13228",
+    "authors": [
+      "Toscano, Juan Diego",
+      "Oommen, Vivek",
+      "Varghese, Alan John",
+      "Zou, Zongren",
+      "Daryakenari, Nazanin Ahmadi",
+      "Wu, Chenxi",
+      "Karniadakis, George Em"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2410.13228",
+      "https://arxiv.org/abs/2410.13228v2",
+      "https://arxiv.org/pdf/2410.13228v2",
+      "https://arxiv.org/src/2410.13228v2"
+    ],
+    "figure_number": 4,
+    "original_sha256": "884ef117e79f17ea8879490c22fdf55fee302495cfeeb9aff02152cd4620be21",
+    "original_bytes": 411875,
+    "retrieved_date": "2026-10-28",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "arxiv_id": "2410.13228v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2410.13228v2",
+    "full_pdf_sha256": "345bcada08d3b0dbe2113641b7342093b19b18d5571335459ab263a30bfc9839",
+    "full_pdf_bytes": 38171640,
+    "page_number": 14,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2410.13228v2",
+    "archive_sha256": "ef9e7057cf1f7dbdfffeb9f107b74ab8dd943e5e8c1e01995392ebaa72590391",
+    "archive_bytes": 34856110,
+    "archive_member": "Images/GEq.png",
+    "inclusion_member": "main.tex"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-NC-SA-4.0",
+    "note": "所收录版本声明 CC-BY-NC-SA-4.0。保留作者署名、固定版本和原许可链接；第三方子图按其原始权利声明。 所收录的是 2024 年 arXiv 固定版本；2025 年期刊版本另附链接，不混用其许可或图号。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "png",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pdf_drawing_objects": 0,
+    "pdf_text_spans": 0,
+    "embedded_raster_images": 1,
+    "svg_object_counts": {},
+    "normalized_path_transforms": 0,
+    "notes": [
+      "作者原件是一张完整 PNG（2000 × 1136）；文字与子图已经合并。本条保留原始图片作构图参考，不提供伪矢量 SVG。"
+    ]
+  },
+  "changes": [
+    "从作者源码归档或 PMC 原图链接复制原件，原始字节未变。",
+    "生成浏览预览、记录来源与图号；未重绘或新增图像。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-28",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 765,
+      "sha256": "e66548a13c1a508b6d0e44a8910e8d6f385f0a96ac8396a235557b98d14fa558"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1161,
+      "sha256": "12c824d968482f1fd0781704e90dc0f15b2a423e066d9a92217898f64bf2571c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 390691,
+      "sha256": "f73d1e259bb1fcec3f81370d159a21f79e35a604316f0e0db50a1268786f36f7"
+    },
+    {
+      "path": "source.png",
+      "bytes": 411875,
+      "sha256": "884ef117e79f17ea8879490c22fdf55fee302495cfeeb9aff02152cd4620be21"
+    }
+  ]
+}

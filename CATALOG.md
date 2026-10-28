@@ -6,7 +6,7 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 51 | [浏览](teaser/README.md) |
+| Teaser 范例 | 55 | [浏览](teaser/README.md) |
 | Architecture 范例 | 45 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 341 | [按内容与来源浏览](element/README.md) |
 
@@ -306,6 +306,28 @@ arXiv 2023 · 预印本 · 综述 · 矢量 + 原有位图
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-ai4science-scale-map/original.pdf) · [来源记录](teaser/survey-ai4science-scale-map/metadata.json)
 
+### [生物医学 PIML · 六面板方法范式总览](teaser/survey-biomedical-six-methods/README.md)
+
+同一张图用六个面板解释不同表示模型、物理损失、连续时间建模与算子学习。蓝色表示模型、绿色表示数据或损失，适合借鉴为内容充实的方法范式总览。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-biomedical-six-methods/preview.png" width="760" alt="生物医学 PIML · 六面板方法范式总览">](teaser/survey-biomedical-six-methods/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-NC-ND-4.0。
+[原文件](teaser/survey-biomedical-six-methods/original.pdf) · [来源记录](teaser/survey-biomedical-six-methods/metadata.json)
+
+### [动力学学习 · 物理与数据依赖的四范式对照](teaser/survey-dynamics-physics-learning-spectrum/README.md)
+
+四个面板沿用相同的输入、输出和网络视觉语汇，通过物理模块进入网络的方式突出范式区别；下方的连续方向带概括物理先验与学习依赖的变化。
+
+PNAS 2024 · 期刊论文 · 整图位图，仅构图参考
+
+[<img src="teaser/survey-dynamics-physics-learning-spectrum/preview.png" width="760" alt="动力学学习 · 物理与数据依赖的四范式对照">](teaser/survey-dynamics-physics-learning-spectrum/source.jpg)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-dynamics-physics-learning-spectrum/source.jpg) · [来源记录](teaser/survey-dynamics-physics-learning-spectrum/metadata.json)
+
 ### [基础模型概念总览 · 多源数据与多任务适配](teaser/survey-foundation-model-adaptation/README.md)
 
 左侧多模态数据汇入一个共享基础，右侧扇出多个下游任务；每个任务用短名称和具象图标表达，能快速讲清共同底座与任务适配的概念。
@@ -492,6 +514,28 @@ Machine Learning for Computational Science and Engineering 2025 · 期刊论文 
 
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](teaser/survey-piml-data-model-optimization/source.png) · [来源记录](teaser/survey-piml-data-model-optimization/metadata.json)
+
+### [PINN 综述 · 导数、物理方程与残差三栏展开](teaser/survey-piml-equations-residuals/README.md)
+
+以导数、物理规律和残差为三条主线，将自动微分、有限差分、不同算子、无量纲化、方程改写与弱形式整合到一个有公式和科学示意的总览里。
+
+arXiv 2024 · 预印本 · 综述 · 整图位图，仅构图参考
+
+[<img src="teaser/survey-piml-equations-residuals/preview.png" width="760" alt="PINN 综述 · 导数、物理方程与残差三栏展开">](teaser/survey-piml-equations-residuals/source.png)
+
+来源类型：论文范例。许可：CC-BY-NC-SA-4.0。
+[原文件](teaser/survey-piml-equations-residuals/source.png) · [来源记录](teaser/survey-piml-equations-residuals/metadata.json)
+
+### [PINN 综述 · 问题、损失与优化的多子图全景](teaser/survey-piml-optimization-landscape/README.md)
+
+上方主线串联问题、损失函数和优化器，下面用场分布、区域划分、采样点、梯度几何与 Pareto 前沿展开细节。是一张内容密度高、科学子图丰富的综述总览。
+
+arXiv 2024 · 预印本 · 综述 · 整图位图，仅构图参考
+
+[<img src="teaser/survey-piml-optimization-landscape/preview.png" width="760" alt="PINN 综述 · 问题、损失与优化的多子图全景">](teaser/survey-piml-optimization-landscape/source.png)
+
+来源类型：论文范例。许可：CC-BY-NC-SA-4.0。
+[原文件](teaser/survey-piml-optimization-landscape/source.png) · [来源记录](teaser/survey-piml-optimization-landscape/metadata.json)
 
 ### [PIML · 物理先验、融入层级与任务的三维全景](teaser/survey-piml-three-axis-landscape/README.md)
 

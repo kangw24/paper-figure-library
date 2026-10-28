@@ -67,6 +67,8 @@
 - [机器人学习 · 物理先验融入架构的六类方法](../survey-robot-physics-six-families/README.md)：六个面板使用相同的色块、标题、中心图示和底部说明组织不同方法家族。每个面板包含公式、网络连接或机器人结构，既能独立阅读，也能共同构成有科学内容的方法全景。
 - [PBDL · 领域位置与方法空间的概念总览](../pbdl-field-method-space/README.md)：左侧用机器学习、数值方法与物理的交集定位领域，右侧展开正反问题以及数据驱动、物理损失和混合方法，形成从领域位置到方法空间的概念总览。
 
+- [PINN 综述 · 问题、损失与优化的多子图全景](../survey-piml-optimization-landscape/README.md)：上方主线串联问题、损失函数和优化器，下面用场分布、区域划分、采样点、梯度几何与 Pareto 前沿展开细节。是一张内容密度高、科学子图丰富的综述总览。
+
 <!-- END SIMILAR EXAMPLES -->
 
 <!-- BEGIN FIGURE LINKS -->

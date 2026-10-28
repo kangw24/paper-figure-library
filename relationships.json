@@ -27,6 +27,12 @@
         "title": "多子图主题与应用总览",
         "description": "按主题面板、任务组或场景组浏览，组内可包含多张图片。这里同时收录原论文 teaser 首图，以及适合借鉴为 teaser 的任务或应用总览；每项标明原图号和子图计数口径。",
         "figures": [
+          "survey-ai4research-five-activities",
+          "survey-ai4research-discovery-cycle",
+          "survey-ai4research-seven-domains",
+          "survey-scillm-six-domain-examples",
+          "survey-scillm-data-construction",
+          "survey-diffsim-twelve-scenes",
           "survey-instruction-editing-task-gallery",
           "survey-neural-fields-multipanel",
           "survey-multimodal-agent-applications",
@@ -40,6 +46,8 @@
         "title": "领域全景、演进与综述路线图",
         "description": "条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。",
         "figures": [
+          "survey-scillm-knowledge-levels",
+          "survey-fluid-ml-five-stages",
           "survey-piml-equations-residuals",
           "survey-piml-optimization-landscape",
           "survey-robot-physics-six-families",
@@ -261,6 +269,16 @@
     [
       "survey-piml-equations-residuals",
       "survey-piml-optimization-landscape"
+    ],
+    [
+      "survey-ai4research-five-activities",
+      "survey-ai4research-discovery-cycle",
+      "survey-ai4research-seven-domains"
+    ],
+    [
+      "survey-scillm-six-domain-examples",
+      "survey-scillm-data-construction",
+      "survey-scillm-knowledge-levels"
     ]
   ],
   "suggested_elements": {
@@ -910,6 +928,54 @@
       "tabler-atom",
       "tabler-arrow-right",
       "tabler-arrows-right-left"
+    ],
+    "survey-ai4research-five-activities": [
+      "tabler-sitemap",
+      "tabler-network",
+      "tabler-file-text",
+      "tabler-robot"
+    ],
+    "survey-ai4research-discovery-cycle": [
+      "tabler-arrow-right",
+      "tabler-file-text",
+      "tabler-network",
+      "tabler-robot"
+    ],
+    "survey-ai4research-seven-domains": [
+      "tabler-atom",
+      "tabler-robot",
+      "tabler-network",
+      "tabler-device-desktop"
+    ],
+    "survey-scillm-six-domain-examples": [
+      "tabler-atom",
+      "tabler-world",
+      "tabler-microscope",
+      "tabler-chart-scatter"
+    ],
+    "survey-scillm-data-construction": [
+      "tabler-database",
+      "tabler-arrow-right",
+      "tabler-file-text",
+      "tabler-network"
+    ],
+    "survey-scillm-knowledge-levels": [
+      "tabler-network",
+      "tabler-arrow-right",
+      "tabler-file-text",
+      "tabler-atom"
+    ],
+    "survey-diffsim-twelve-scenes": [
+      "tabler-network",
+      "tabler-robot",
+      "tabler-arrow-right",
+      "tabler-device-desktop"
+    ],
+    "survey-fluid-ml-five-stages": [
+      "towaki-neuralnetwork",
+      "tabler-wave-sine",
+      "tabler-arrow-right",
+      "tabler-file-text"
     ]
   }
 }

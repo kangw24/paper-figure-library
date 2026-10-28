@@ -1,0 +1,9 @@
+Paper: Applying Machine Learning to Study Fluid Mechanics
+Authors: Brunton, Steven L.
+Source version: 2110.02083v1
+Archive: https://arxiv.org/src/2110.02083v1
+Member: Figure01.pdf
+Original SHA256: 6408df8e6aa878966ab3a4ca67379767bd04bc1eedfcfc9de361e34175adcf3e
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录版本声明 CC-BY-4.0，保留作者署名、原文链接与转换记录。 第三方照片、Logo、截图或引用图按其原始声明核对；格式可编辑不代表授权可任意改编。
+Original figure bytes retained. No redrawing or generated replacement image.

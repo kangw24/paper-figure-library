@@ -18,7 +18,7 @@
 | <img src="../../element/previews/tabler-database-search.png" width="140"> | [数据库检索](../../element/svg/tabler-database-search.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-table.png" width="140"> | [表格](../../element/svg/tabler-table.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-file.png" width="140"> | [文件](../../element/svg/tabler-file.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-file-text.png" width="140"> | [文本文件](../../element/svg/tabler-file-text.svg) | Tabler outline · MIT | [生物医学 PIML · 六面板方法范式总览](../../teaser/survey-biomedical-six-methods/README.md) · [基础模型概念总览 · 多源数据与多任务适配](../../teaser/survey-foundation-model-adaptation/README.md) · [指令式图像编辑 · 21 种任务的多子图总览](../../teaser/survey-instruction-editing-task-gallery/README.md) |
+| <img src="../../element/previews/tabler-file-text.png" width="140"> | [文本文件](../../element/svg/tabler-file-text.svg) | Tabler outline · MIT | [AI4Research · 科学发现的五区流程总览](../../teaser/survey-ai4research-discovery-cycle/README.md) · [AI4Research · 五类科研活动的多区总览](../../teaser/survey-ai4research-five-activities/README.md) · [生物医学 PIML · 六面板方法范式总览](../../teaser/survey-biomedical-six-methods/README.md) |
 | <img src="../../element/previews/tabler-file-code.png" width="140"> | [代码文件](../../element/svg/tabler-file-code.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-file-type-pdf.png" width="140"> | [PDF 文件](../../element/svg/tabler-file-type-pdf.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-file-type-csv.png" width="140"> | [CSV 文件](../../element/svg/tabler-file-type-csv.svg) | Tabler outline · MIT | — |

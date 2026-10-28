@@ -7,7 +7,7 @@
 | 预览 | 名称与 SVG | 来源与许可 | 关联范例（最多列三项） |
 |---|---|---|---|
 | <img src="../../element/previews/tabler-cpu.png" width="140"> | [CPU](../../element/svg/tabler-cpu.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-device-desktop.png" width="140"> | [台式电脑](../../element/svg/tabler-device-desktop.svg) | Tabler outline · MIT | — |
+| <img src="../../element/previews/tabler-device-desktop.png" width="140"> | [台式电脑](../../element/svg/tabler-device-desktop.svg) | Tabler outline · MIT | [AI4Research · 三大领域、七类应用面板](../../teaser/survey-ai4research-seven-domains/README.md) · [可微仿真综述 · 十二个场景的双排时间线](../../teaser/survey-diffsim-twelve-scenes/README.md) |
 | <img src="../../element/previews/tabler-device-laptop.png" width="140"> | [笔记本电脑](../../element/svg/tabler-device-laptop.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-device-mobile.png" width="140"> | [手机](../../element/svg/tabler-device-mobile.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-server.png" width="140"> | [服务器](../../element/svg/tabler-server.svg) | Tabler outline · MIT | — |
@@ -21,10 +21,10 @@
 | <img src="../../element/previews/tabler-satellite.png" width="140"> | [卫星](../../element/svg/tabler-satellite.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-drone.png" width="140"> | [无人机](../../element/svg/tabler-drone.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-camera.png" width="140"> | [相机](../../element/svg/tabler-camera.svg) | Tabler outline · MIT | [3DETR · 输入点云、注意力与检测结果的对应](../../teaser/3detr-attention-teaser/README.md) · [Uneven Double Refraction：原型与成像能力展示](../../teaser/birefractive-rgbd/README.md) · [CUT3R · 静态、动态与稀疏照片三类场景](../../teaser/cut3r-capabilities/README.md) |
-| <img src="../../element/previews/tabler-robot.png" width="140"> | [机器人](../../element/svg/tabler-robot.svg) | Tabler outline · MIT | [多模态 Agent · 8 类应用与外围场景子图](../../teaser/survey-multimodal-agent-applications/README.md) · [Neural Fields · 5 类技术与 6 类应用的多子图 teaser](../../teaser/survey-neural-fields-multipanel/README.md) · [机器人学习 · 物理先验融入架构的六类方法](../../teaser/survey-robot-physics-six-families/README.md) |
+| <img src="../../element/previews/tabler-robot.png" width="140"> | [机器人](../../element/svg/tabler-robot.svg) | Tabler outline · MIT | [AI4Research · 科学发现的五区流程总览](../../teaser/survey-ai4research-discovery-cycle/README.md) · [AI4Research · 五类科研活动的多区总览](../../teaser/survey-ai4research-five-activities/README.md) · [AI4Research · 三大领域、七类应用面板](../../teaser/survey-ai4research-seven-domains/README.md) |
 | <img src="../../element/previews/tabler-car.png" width="140"> | [汽车](../../element/svg/tabler-car.svg) | Tabler outline · MIT | [3D／4D 世界模型 · 场景与研究维度全景](../../teaser/survey-3d4d-world-overview/README.md) · [LAV：感知、预测与驾驶控制流程](../../architecture/lav/README.md) |
 | <img src="../../element/previews/tabler-plane.png" width="140"> | [飞机](../../element/svg/tabler-plane.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-world.png" width="140"> | [地球](../../element/svg/tabler-world.svg) | Tabler outline · MIT | [3DGS 应用全景 · 中心主题与场景分支](../../teaser/survey-3dgs-application-landscape/README.md) · [Agent 社会场景 · 综述概念 teaser](../../teaser/survey-agent-society-teaser/README.md) |
+| <img src="../../element/previews/tabler-world.png" width="140"> | [地球](../../element/svg/tabler-world.svg) | Tabler outline · MIT | [3DGS 应用全景 · 中心主题与场景分支](../../teaser/survey-3dgs-application-landscape/README.md) · [Agent 社会场景 · 综述概念 teaser](../../teaser/survey-agent-society-teaser/README.md) · [科学大模型综述 · 六学科环形问答总览](../../teaser/survey-scillm-six-domain-examples/README.md) |
 | <img src="../../element/previews/tabler-map.png" width="140"> | [地图](../../element/svg/tabler-map.svg) | Tabler outline · MIT | [OrienterNet：用二维地图定位的任务与动机](../../teaser/orienternet/README.md) |
 | <img src="../../element/previews/tabler-map-pin.png" width="140"> | [定位](../../element/svg/tabler-map-pin.svg) | Tabler outline · MIT | [OrienterNet：用二维地图定位的任务与动机](../../teaser/orienternet/README.md) |
 | <img src="../../element/previews/tabler-temperature.png" width="140"> | [温度](../../element/svg/tabler-temperature.svg) | Tabler outline · MIT | — |

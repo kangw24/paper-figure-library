@@ -1,0 +1,9 @@
+Paper: AI4Research: A Survey of Artificial Intelligence for Scientific Research
+Authors: Chen, Qiguang, Yang, Mingda, Qin, Libo, Liu, Jinhao, Yan, Zheng, Guan, Jiannan, Peng, Dengyun, Ji, Yiyan, Li, Hanjing, Hu, Mengkang, Zhang, Yimeng, Liang, Yihao, Zhou, Yuhang, Wang, Jiaqi, Chen, Zhi, Che, Wanxiang
+Source version: 2507.01903v2
+Archive: https://arxiv.org/src/2507.01903v2
+Member: figures/application.pdf
+Original SHA256: 71cd8cae72add8db0e26ee264f18cbaeef4c080e122a90782c5d8a008464e6d8
+Declared article license: https://creativecommons.org/licenses/by-sa/4.0/
+所收录版本声明 CC-BY-SA-4.0，保留作者署名、原文链接与转换记录。 第三方照片、Logo、截图或引用图按其原始声明核对；格式可编辑不代表授权可任意改编。
+Original figure bytes retained. No redrawing or generated replacement image.

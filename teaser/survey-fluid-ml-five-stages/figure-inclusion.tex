@@ -1,0 +1,6 @@
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{Figure01.pdf}
+    \caption{{Schematic of the five stages of machine learning on an example of reduced-order modeling.  In this case, the goal is to learn a low dimensional coordinate system $\mathbf{z} = \boldsymbol{f}_1(\mathbf{x},\boldsymbol{\theta}_1)$ from data in a high-dimensional representation $\mathbf{x}$, along with a dynamical system model $\dot{\mathbf{z}} = \boldsymbol{f}_2(\mathbf{z},\boldsymbol{\theta}_2)$ for how the state $\mathbf{z}$ evolves in time.  Finally, this latent state derivative $\dot{\mathbf{z}}$ must be able to approximate the high dimensional derivative $\dot{\mathbf{x}}$ through the decoder $\dot{\mathbf{x}}\approx\boldsymbol{f}_3(\dot{\mathbf{z}},\boldsymbol{\theta}_3)$.  The loss function $\mathcal{L}(\boldsymbol{\theta},\mathbf{X})$ defines how well the model performs, averaged over the data $\mathbf{X}$.  Finally, the parameters $\boldsymbol{\theta} = \{\boldsymbol{\theta}_1,\boldsymbol{\theta}_2,\boldsymbol{\theta}_3\}$ are found through optimization.}}
+    \label{fig01}
+\end{figure}

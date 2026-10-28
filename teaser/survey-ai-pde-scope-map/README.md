@@ -69,6 +69,12 @@
 
 - [PINN 综述 · 问题、损失与优化的多子图全景](../survey-piml-optimization-landscape/README.md)：上方主线串联问题、损失函数和优化器，下面用场分布、区域划分、采样点、梯度几何与 Pareto 前沿展开细节。是一张内容密度高、科学子图丰富的综述总览。
 
+- [AI4Research · 五类科研活动的多区总览](../survey-ai4research-five-activities/README.md)：围绕中心科研协作场景布置五个任务区：科学理解、学术综述、科学发现、学术写作、同行评审。
+- [AI4Research · 三大领域、七类应用面板](../survey-ai4research-seven-domains/README.md)：三行大分区：自然科学三类、应用科学与工程两类、社会科学两类，共七个学科应用面板。
+- [科学大模型综述 · 六学科环形问答总览](../survey-scillm-six-domain-examples/README.md)：六个环形扇区，分别连接物理、化学、材料、生命科学、地球科学和天文学的模型与问题示例。
+- [科学大模型综述 · 五层知识阶梯与发现循环](../survey-scillm-knowledge-levels/README.md)：五级阶梯从事实数据上升到理论、方法、建模与仿真、科学洞见，底部补充四步迭代循环。
+- [可微仿真综述 · 十二个场景的双排时间线](../survey-diffsim-twelve-scenes/README.md)：十二个研究场景分置时间线上下两排，每排六个；彩色节点连接对应的研究与年份。
+
 <!-- END SIMILAR EXAMPLES -->
 
 <!-- BEGIN FIGURE LINKS -->

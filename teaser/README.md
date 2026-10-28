@@ -7,8 +7,8 @@
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
 | 方法与范式对照 | 13 | [浏览](#comparison) |
-| 多子图主题与应用总览 | 6 | [浏览](#multi-panel) |
-| 领域全景、演进与综述路线图 | 24 | [浏览](#landscape) |
+| 多子图主题与应用总览 | 12 | [浏览](#multi-panel) |
+| 领域全景、演进与综述路线图 | 26 | [浏览](#landscape) |
 | 任务、动机与能力展示 | 7 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
 | 速度与精度权衡 | 2 | [浏览](#tradeoff) |
@@ -170,6 +170,78 @@ arXiv 2023 · 预印本 · 综述
 
 按主题面板、任务组或场景组浏览，组内可包含多张图片。这里同时收录原论文 teaser 首图，以及适合借鉴为 teaser 的任务或应用总览；每项标明原图号和子图计数口径。
 
+### [AI4Research · 五类科研活动的多区总览](survey-ai4research-five-activities/README.md)
+
+五类科研活动各有独立底色、示意对象和细分任务，中心场景把它们连成一张完整概念图。局部可单独阅读，整体也有明确的视觉中心。
+
+arXiv 2025 · 预印本 · 综述
+
+**子图组织：** 围绕中心科研协作场景布置五个任务区：科学理解、学术综述、科学发现、学术写作、同行评审。 原论文 Figure 1。
+
+[![预览](survey-ai4research-five-activities/preview.png)](survey-ai4research-five-activities/README.md)
+
+[说明与源文件](survey-ai4research-five-activities/README.md) · [同论文：AI4Research · 科学发现的五区流程总览](survey-ai4research-discovery-cycle/README.md) · [同论文：AI4Research · 三大领域、七类应用面板](survey-ai4research-seven-domains/README.md) · [关联元素](survey-ai4research-five-activities/README.md#关联范例与元素)
+
+### [AI4Research · 科学发现的五区流程总览](survey-ai4research-discovery-cycle/README.md)
+
+将想法、评估、理论和实验的局部方法放在同一张总览里，并用闭环说明端到端发现。各区有任务细分和简短图示，适合借鉴为方法家族与研究流程结合的 teaser。
+
+arXiv 2025 · 预印本 · 综述
+
+**子图组织：** 五个功能区：想法挖掘、新颖性与意义评估、理论分析、实验执行、全自动发现。 原论文 Figure 5。
+
+[![预览](survey-ai4research-discovery-cycle/preview.png)](survey-ai4research-discovery-cycle/README.md)
+
+[说明与源文件](survey-ai4research-discovery-cycle/README.md) · [同论文：AI4Research · 五类科研活动的多区总览](survey-ai4research-five-activities/README.md) · [同论文：AI4Research · 三大领域、七类应用面板](survey-ai4research-seven-domains/README.md) · [关联元素](survey-ai4research-discovery-cycle/README.md#关联范例与元素)
+
+### [AI4Research · 三大领域、七类应用面板](survey-ai4research-seven-domains/README.md)
+
+同一视觉语汇覆盖七类学科应用，以三行组织较大的领域分组。各面板不只是学科名称，还列出模拟、发现、控制、开发或实验等具体用途。
+
+arXiv 2025 · 预印本 · 综述
+
+**子图组织：** 三行大分区：自然科学三类、应用科学与工程两类、社会科学两类，共七个学科应用面板。 原论文 Figure 8。
+
+[![预览](survey-ai4research-seven-domains/preview.png)](survey-ai4research-seven-domains/README.md)
+
+[说明与源文件](survey-ai4research-seven-domains/README.md) · [同论文：AI4Research · 五类科研活动的多区总览](survey-ai4research-five-activities/README.md) · [同论文：AI4Research · 科学发现的五区流程总览](survey-ai4research-discovery-cycle/README.md) · [关联元素](survey-ai4research-seven-domains/README.md#关联范例与元素)
+
+### [科学大模型综述 · 六学科环形问答总览](survey-scillm-six-domain-examples/README.md)
+
+中心概念连接六个学科扇区，外侧用模型名称、问题文本和科学图片补充实际含义。相比单纯的领域圆环，多了一层能够快速读懂的具体任务。
+
+arXiv 2025 · 预印本 · 综述
+
+**子图组织：** 六个环形扇区，分别连接物理、化学、材料、生命科学、地球科学和天文学的模型与问题示例。 原论文 Figure 15。
+
+[![预览](survey-scillm-six-domain-examples/preview.png)](survey-scillm-six-domain-examples/README.md)
+
+[说明与源文件](survey-scillm-six-domain-examples/README.md) · [同论文：科学大模型综述 · 数据获取、构建与审查全景](survey-scillm-data-construction/README.md) · [同论文：科学大模型综述 · 五层知识阶梯与发现循环](survey-scillm-knowledge-levels/README.md) · [关联元素](survey-scillm-six-domain-examples/README.md#关联范例与元素)
+
+### [科学大模型综述 · 数据获取、构建与审查全景](survey-scillm-data-construction/README.md)
+
+将数据来源、数据构建的三条路径和质量审查放在统一框架中。多行步骤、来源图标和右侧反馈形成有主次的复杂总览，适合借鉴为“上层来源＋中层处理＋侧边约束”的 teaser。
+
+arXiv 2025 · 预印本 · 综述
+
+**子图组织：** 三个主区：上方多源数据获取、下方三条数据构建路径、右侧质量审查与反馈。 原论文 Figure 28。
+
+[![预览](survey-scillm-data-construction/preview.png)](survey-scillm-data-construction/README.md)
+
+[说明与源文件](survey-scillm-data-construction/README.md) · [同论文：科学大模型综述 · 六学科环形问答总览](survey-scillm-six-domain-examples/README.md) · [同论文：科学大模型综述 · 五层知识阶梯与发现循环](survey-scillm-knowledge-levels/README.md) · [关联元素](survey-scillm-data-construction/README.md#关联范例与元素)
+
+### [可微仿真综述 · 十二个场景的双排时间线](survey-diffsim-twelve-scenes/README.md)
+
+软体、刚体、轨迹优化、形态优化和操作等研究场景共同组成一张总览。时间线、节点、标签与十二张独立图像保留为分离对象，适合借鉴为内容丰富的发展脉络 teaser。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 十二个研究场景分置时间线上下两排，每排六个；彩色节点连接对应的研究与年份。 原论文 Figure 1。
+
+[![预览](survey-diffsim-twelve-scenes/preview.png)](survey-diffsim-twelve-scenes/README.md)
+
+[说明与源文件](survey-diffsim-twelve-scenes/README.md) · [关联元素](survey-diffsim-twelve-scenes/README.md#关联范例与元素)
+
 ### [指令式图像编辑 · 21 种任务的多子图总览](survey-instruction-editing-task-gallery/README.md)
 
 21 个任务子图按五类操作组织，每个小面板保留输入、编辑结果和短标签；颜色只分大类，横排、竖排与底部长条配合，内容密集且层次清楚。
@@ -252,6 +324,30 @@ EUROGRAPHICS 2022 · STAR 报告 · 综述
 ## 领域全景、演进与综述路线图
 
 条目分别标明场景概念图、能力演进图、谱系图、时间线、应用全景或分类路线图。先看各图的实际表达用途；原图号与所收录版本单独记录。
+
+### [科学大模型综述 · 五层知识阶梯与发现循环](survey-scillm-knowledge-levels/README.md)
+
+用阶梯明确科学知识的层级，每层配简短含义和代表性图标，底部再展示跨层循环。适合表达“原始数据如何逐层走向科学发现”，与多面板平铺提供不同的组织方式。
+
+arXiv 2025 · 预印本 · 综述
+
+**子图组织：** 五级阶梯从事实数据上升到理论、方法、建模与仿真、科学洞见，底部补充四步迭代循环。 原论文 Figure 14。
+
+[![预览](survey-scillm-knowledge-levels/preview.png)](survey-scillm-knowledge-levels/README.md)
+
+[说明与源文件](survey-scillm-knowledge-levels/README.md) · [同论文：科学大模型综述 · 六学科环形问答总览](survey-scillm-six-domain-examples/README.md) · [同论文：科学大模型综述 · 数据获取、构建与审查全景](survey-scillm-data-construction/README.md) · [关联元素](survey-scillm-knowledge-levels/README.md#关联范例与元素)
+
+### [流体机器学习综述 · 五阶段与降阶模型总览](survey-fluid-ml-five-stages/README.md)
+
+用流体降阶建模这一具体例子解释通用机器学习流程。图中同时保留流场快照、网络结构、潜在空间动力学和目标函数，适合将一般概念落到一个科学任务上。
+
+arXiv 2021 · 预印本 · 综述
+
+**子图组织：** 五个编号环节：问题、数据、架构、损失、优化；流场快照与编码器—动力学—解码器提供具体例子。 原论文 Figure 1。
+
+[![预览](survey-fluid-ml-five-stages/preview.png)](survey-fluid-ml-five-stages/README.md)
+
+[说明与源文件](survey-fluid-ml-five-stages/README.md) · [关联元素](survey-fluid-ml-five-stages/README.md#关联范例与元素)
 
 ### [PINN 综述 · 导数、物理方程与残差三栏展开](survey-piml-equations-residuals/README.md)
 

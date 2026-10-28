@@ -17,8 +17,8 @@
 | <img src="../../element/previews/tabler-chart-ppf.png" width="140"> | [分布曲线符号](../../element/svg/tabler-chart-ppf.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-chart-infographic.png" width="140"> | [信息图符号](../../element/svg/tabler-chart-infographic.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-test-pipe.png" width="140"> | [试管](../../element/svg/tabler-test-pipe.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-microscope.png" width="140"> | [显微镜](../../element/svg/tabler-microscope.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-atom.png" width="140"> | [原子](../../element/svg/tabler-atom.svg) | Tabler outline · MIT | [PBDL · 领域位置与方法空间的概念总览](../../teaser/pbdl-field-method-space/README.md) · [AI for PDEs · 领域定位、方法与应用全景](../../teaser/survey-ai-pde-scope-map/README.md) · [AI4Science 领域圆环 · 从量子到连续系统](../../teaser/survey-ai4science-domain-wheel/README.md) |
+| <img src="../../element/previews/tabler-microscope.png" width="140"> | [显微镜](../../element/svg/tabler-microscope.svg) | Tabler outline · MIT | [科学大模型综述 · 六学科环形问答总览](../../teaser/survey-scillm-six-domain-examples/README.md) |
+| <img src="../../element/previews/tabler-atom.png" width="140"> | [原子](../../element/svg/tabler-atom.svg) | Tabler outline · MIT | [PBDL · 领域位置与方法空间的概念总览](../../teaser/pbdl-field-method-space/README.md) · [AI for PDEs · 领域定位、方法与应用全景](../../teaser/survey-ai-pde-scope-map/README.md) · [AI4Research · 三大领域、七类应用面板](../../teaser/survey-ai4research-seven-domains/README.md) |
 | <img src="../../element/previews/tabler-dna.png" width="140"> | [DNA](../../element/svg/tabler-dna.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-dna-2.png" width="140"> | [DNA 双螺旋](../../element/svg/tabler-dna-2.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-magnet.png" width="140"> | [磁体](../../element/svg/tabler-magnet.svg) | Tabler outline · MIT | — |

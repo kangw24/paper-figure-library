@@ -72,6 +72,10 @@
 - [PINN 综述 · 导数、物理方程与残差三栏展开](../survey-piml-equations-residuals/README.md)：以导数、物理规律和残差为三条主线，将自动微分、有限差分、不同算子、无量纲化、方程改写与弱形式整合到一个有公式和科学示意的总览里。
 - [动力学学习 · 物理与数据依赖的四范式对照](../survey-dynamics-physics-learning-spectrum/README.md)：四个面板沿用相同的输入、输出和网络视觉语汇，通过物理模块进入网络的方式突出范式区别；下方的连续方向带概括物理先验与学习依赖的变化。
 
+- [AI4Research · 科学发现的五区流程总览](../survey-ai4research-discovery-cycle/README.md)：五个功能区：想法挖掘、新颖性与意义评估、理论分析、实验执行、全自动发现。
+- [科学大模型综述 · 数据获取、构建与审查全景](../survey-scillm-data-construction/README.md)：三个主区：上方多源数据获取、下方三条数据构建路径、右侧质量审查与反馈。
+- [流体机器学习综述 · 五阶段与降阶模型总览](../survey-fluid-ml-five-stages/README.md)：五个编号环节：问题、数据、架构、损失、优化；流场快照与编码器—动力学—解码器提供具体例子。
+
 <!-- END SIMILAR EXAMPLES -->
 
 <!-- BEGIN FIGURE LINKS -->

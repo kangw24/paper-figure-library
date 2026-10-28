@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "id": "survey-ai4research-discovery-cycle",
+  "title": "AI4Research · 科学发现的五区流程总览",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "conceptual-overview",
+    "multi-panel",
+    "ai4research",
+    "2025"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "将想法、评估、理论和实验的局部方法放在同一张总览里，并用闭环说明端到端发现。各区有任务细分和简短图示，适合借鉴为方法家族与研究流程结合的 teaser。",
+  "publication": {
+    "title": "AI4Research: A Survey of Artificial Intelligence for Scientific Research",
+    "venue": "arXiv",
+    "year": 2025,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2507.01903v2",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-10-28",
+    "source_version": "2507.01903v2"
+  },
+  "curation": {
+    "figure_role": "综述所收录版本的 Figure 5，原文并非首图；作为综述 teaser 的构图参考。",
+    "panel_layout": {
+      "panels": 5,
+      "summary": "五个功能区：想法挖掘、新颖性与意义评估、理论分析、实验执行、全自动发现。",
+      "counting_note": "五区按原文方法分类计数；左上角的主题插画不额外计区。全自动发现区概括其他环节的组合，不是与另外四区无关的独立串行步骤。"
+    },
+    "why_selected": "将想法、评估、理论和实验的局部方法放在同一张总览里，并用闭环说明端到端发现。各区有任务细分和简短图示，适合借鉴为方法家族与研究流程结合的 teaser。",
+    "what_to_borrow": [
+      "按科研环节分区，再在区内展开具体方法。",
+      "把完整闭环与局部组件同时展示，并明确两者关系。",
+      "利用统一标题条、色块和小图保持高密度内容的可读性。"
+    ],
+    "similar_example": {
+      "id": "survey-ai-pde-physics-data-paradigms"
+    },
+    "reviewed_from": "original full paper page and caption, author independent PDF, final SVG rendering"
+  },
+  "source": {
+    "project": "https://ai-4-research.github.io/",
+    "authors": [
+      "Chen, Qiguang",
+      "Yang, Mingda",
+      "Qin, Libo",
+      "Liu, Jinhao",
+      "Yan, Zheng",
+      "Guan, Jiannan",
+      "Peng, Dengyun",
+      "Ji, Yiyan",
+      "Li, Hanjing",
+      "Hu, Mengkang",
+      "Zhang, Yimeng",
+      "Liang, Yihao",
+      "Zhou, Yuhang",
+      "Wang, Jiaqi",
+      "Chen, Zhi",
+      "Che, Wanxiang"
+    ],
+    "urls": [
+      "https://ai-4-research.github.io/",
+      "https://arxiv.org/abs/2507.01903v2",
+      "https://arxiv.org/pdf/2507.01903v2",
+      "https://arxiv.org/src/2507.01903v2"
+    ],
+    "arxiv_id": "2507.01903v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2507.01903v2",
+    "full_pdf_sha256": "72389a454a1a7f517f42c4fdbaaea50b896d6b445cbddaab84aa21dc1b1220f3",
+    "full_pdf_bytes": 7674951,
+    "page_number": 17,
+    "figure_number": 5,
+    "original_sha256": "83e010482463d4ae5d4b69842e6445931b5f1199dfa6cf0e84456eeac2067a1e",
+    "original_bytes": 753559,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2507.01903v2",
+    "archive_sha256": "0031816bc88e9b6e5861d05d13533c88a989b6cef33c2662676e3e8531a0909f",
+    "archive_bytes": 5983619,
+    "archive_member": "figures/scientific-discovery.pdf",
+    "inclusion_member": "sections/discovery.tex",
+    "retrieved_date": "2026-10-28",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC-BY-SA-4.0",
+    "note": "所收录版本声明 CC-BY-SA-4.0，保留作者署名、原文链接与转换记录。 第三方照片、Logo、截图或引用图按其原始声明核对；格式可编辑不代表授权可任意改编。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines preserved; see pdf_text_spans",
+      "svg": "outlined text"
+    },
+    "pdf_drawing_objects": 267,
+    "pdf_text_spans": 65,
+    "embedded_raster_images": 48,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 74,
+      "path": 524,
+      "mask": 48,
+      "g": 220,
+      "image": 84,
+      "use": 854
+    },
+    "normalized_path_transforms": 74,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path transform normalization where needed",
+    "notes": [
+      "作者独立 PDF 保留分离的矢量框线、连线、原有文字或文字轮廓；转换 SVG 的文字为轮廓。原图含 48 个嵌入位图对象，这些图片可移动或替换，不能按矢量节点编辑。位图对象数不等于子图数量。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 TeX 源码归档复制独立 PDF，未改原始字节。",
+    "保存插图定义、子图组织口径、来源、许可和预览。",
+    "将原 PDF 转成自包含 SVG，文字转轮廓；未重绘或生成替代图片。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-10-28",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 858,
+      "sha256": "57dc079232fdfdb97124199058ee4f89469297f2d051e7617525bafd4f34a434"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 460,
+      "sha256": "c180e0e7f838fee1c76f9a78c90013c843167a90d0a85588a5d65559840047a3"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 753559,
+      "sha256": "83e010482463d4ae5d4b69842e6445931b5f1199dfa6cf0e84456eeac2067a1e"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 704730,
+      "sha256": "ce8a1f29bc486d2f0074293514f3b70416726b795e658cd5ad93a30ff37d4230"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1293579,
+      "sha256": "4c42313706eaf24afd230c71e6c5ad9f3b02eb0e753733eac7b7e0bcd4158b90"
+    }
+  ]
+}

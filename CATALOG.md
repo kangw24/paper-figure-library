@@ -6,7 +6,7 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 55 | [浏览](teaser/README.md) |
+| Teaser 范例 | 63 | [浏览](teaser/README.md) |
 | Architecture 范例 | 45 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 341 | [按内容与来源浏览](element/README.md) |
 
@@ -284,6 +284,39 @@ arXiv 2024 · 预印本 · 综述 · 矢量结构
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-ai-pde-scope-map/original.pdf) · [来源记录](teaser/survey-ai-pde-scope-map/metadata.json)
 
+### [AI4Research · 科学发现的五区流程总览](teaser/survey-ai4research-discovery-cycle/README.md)
+
+将想法、评估、理论和实验的局部方法放在同一张总览里，并用闭环说明端到端发现。各区有任务细分和简短图示，适合借鉴为方法家族与研究流程结合的 teaser。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-ai4research-discovery-cycle/preview.png" width="760" alt="AI4Research · 科学发现的五区流程总览">](teaser/survey-ai4research-discovery-cycle/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-SA-4.0。
+[原文件](teaser/survey-ai4research-discovery-cycle/original.pdf) · [来源记录](teaser/survey-ai4research-discovery-cycle/metadata.json)
+
+### [AI4Research · 五类科研活动的多区总览](teaser/survey-ai4research-five-activities/README.md)
+
+五类科研活动各有独立底色、示意对象和细分任务，中心场景把它们连成一张完整概念图。局部可单独阅读，整体也有明确的视觉中心。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-ai4research-five-activities/preview.png" width="760" alt="AI4Research · 五类科研活动的多区总览">](teaser/survey-ai4research-five-activities/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-SA-4.0。
+[原文件](teaser/survey-ai4research-five-activities/original.pdf) · [来源记录](teaser/survey-ai4research-five-activities/metadata.json)
+
+### [AI4Research · 三大领域、七类应用面板](teaser/survey-ai4research-seven-domains/README.md)
+
+同一视觉语汇覆盖七类学科应用，以三行组织较大的领域分组。各面板不只是学科名称，还列出模拟、发现、控制、开发或实验等具体用途。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-ai4research-seven-domains/preview.png" width="760" alt="AI4Research · 三大领域、七类应用面板">](teaser/survey-ai4research-seven-domains/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-SA-4.0。
+[原文件](teaser/survey-ai4research-seven-domains/original.pdf) · [来源记录](teaser/survey-ai4research-seven-domains/metadata.json)
+
 ### [AI4Science 领域圆环 · 从量子到连续系统](teaser/survey-ai4science-domain-wheel/README.md)
 
 用三层圆环把量子、原子与连续系统统一起来：外圈是研究对象的视觉实例，中圈是学科和任务，中心是对称性、泛化与不确定性等共同议题。领域覆盖与核心观点同时可见。
@@ -317,6 +350,17 @@ arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
 来源类型：论文范例。许可：CC-BY-NC-ND-4.0。
 [原文件](teaser/survey-biomedical-six-methods/original.pdf) · [来源记录](teaser/survey-biomedical-six-methods/metadata.json)
 
+### [可微仿真综述 · 十二个场景的双排时间线](teaser/survey-diffsim-twelve-scenes/README.md)
+
+软体、刚体、轨迹优化、形态优化和操作等研究场景共同组成一张总览。时间线、节点、标签与十二张独立图像保留为分离对象，适合借鉴为内容丰富的发展脉络 teaser。
+
+arXiv 2024 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-diffsim-twelve-scenes/preview.png" width="760" alt="可微仿真综述 · 十二个场景的双排时间线">](teaser/survey-diffsim-twelve-scenes/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-diffsim-twelve-scenes/original.pdf) · [来源记录](teaser/survey-diffsim-twelve-scenes/metadata.json)
+
 ### [动力学学习 · 物理与数据依赖的四范式对照](teaser/survey-dynamics-physics-learning-spectrum/README.md)
 
 四个面板沿用相同的输入、输出和网络视觉语汇，通过物理模块进入网络的方式突出范式区别；下方的连续方向带概括物理先验与学习依赖的变化。
@@ -327,6 +371,17 @@ PNAS 2024 · 期刊论文 · 整图位图，仅构图参考
 
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](teaser/survey-dynamics-physics-learning-spectrum/source.jpg) · [来源记录](teaser/survey-dynamics-physics-learning-spectrum/metadata.json)
+
+### [流体机器学习综述 · 五阶段与降阶模型总览](teaser/survey-fluid-ml-five-stages/README.md)
+
+用流体降阶建模这一具体例子解释通用机器学习流程。图中同时保留流场快照、网络结构、潜在空间动力学和目标函数，适合将一般概念落到一个科学任务上。
+
+arXiv 2021 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-fluid-ml-five-stages/preview.png" width="760" alt="流体机器学习综述 · 五阶段与降阶模型总览">](teaser/survey-fluid-ml-five-stages/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-fluid-ml-five-stages/original.pdf) · [来源记录](teaser/survey-fluid-ml-five-stages/metadata.json)
 
 ### [基础模型概念总览 · 多源数据与多任务适配](teaser/survey-foundation-model-adaptation/README.md)
 
@@ -569,6 +624,39 @@ arXiv 2026 · 预印本 · 综述 · 矢量 + 原有位图
 
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](teaser/survey-robot-physics-three-routes/original.pdf) · [来源记录](teaser/survey-robot-physics-three-routes/metadata.json)
+
+### [科学大模型综述 · 数据获取、构建与审查全景](teaser/survey-scillm-data-construction/README.md)
+
+将数据来源、数据构建的三条路径和质量审查放在统一框架中。多行步骤、来源图标和右侧反馈形成有主次的复杂总览，适合借鉴为“上层来源＋中层处理＋侧边约束”的 teaser。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-scillm-data-construction/preview.png" width="760" alt="科学大模型综述 · 数据获取、构建与审查全景">](teaser/survey-scillm-data-construction/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-scillm-data-construction/original.pdf) · [来源记录](teaser/survey-scillm-data-construction/metadata.json)
+
+### [科学大模型综述 · 五层知识阶梯与发现循环](teaser/survey-scillm-knowledge-levels/README.md)
+
+用阶梯明确科学知识的层级，每层配简短含义和代表性图标，底部再展示跨层循环。适合表达“原始数据如何逐层走向科学发现”，与多面板平铺提供不同的组织方式。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-scillm-knowledge-levels/preview.png" width="760" alt="科学大模型综述 · 五层知识阶梯与发现循环">](teaser/survey-scillm-knowledge-levels/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-scillm-knowledge-levels/original.pdf) · [来源记录](teaser/survey-scillm-knowledge-levels/metadata.json)
+
+### [科学大模型综述 · 六学科环形问答总览](teaser/survey-scillm-six-domain-examples/README.md)
+
+中心概念连接六个学科扇区，外侧用模型名称、问题文本和科学图片补充实际含义。相比单纯的领域圆环，多了一层能够快速读懂的具体任务。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-scillm-six-domain-examples/preview.png" width="760" alt="科学大模型综述 · 六学科环形问答总览">](teaser/survey-scillm-six-domain-examples/original.pdf)
+
+来源类型：论文范例。许可：CC-BY-4.0。
+[原文件](teaser/survey-scillm-six-domain-examples/original.pdf) · [来源记录](teaser/survey-scillm-six-domain-examples/metadata.json)
 
 ### [世界模型能力递进 · 可信预测、可控干预与决策收益](teaser/survey-world-model-capability-ladder/README.md)
 

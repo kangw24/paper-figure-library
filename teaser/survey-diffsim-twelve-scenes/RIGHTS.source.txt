@@ -1,0 +1,9 @@
+Paper: A Review of Differentiable Simulators
+Authors: Newbury, Rhys, Collins, Jack, He, Kerry, Pan, Jiahe, Posner, Ingmar, Howard, David, Cosgun, Akansel
+Source version: 2407.05560v1
+Archive: https://arxiv.org/src/2407.05560v1
+Member: Images/collage/figure1new.pdf
+Original SHA256: ff00d2bfbc0fce42420a3dc95fe77f1db474d67215acdd4786162bca518f8510
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本标记非独占分发许可，该许可不等同于第三方图形重用授权；本条作为私有参考。 第三方照片、Logo、截图或引用图按其原始声明核对；格式可编辑不代表授权可任意改编。
+Original figure bytes retained. No redrawing or generated replacement image.

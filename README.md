@@ -67,6 +67,10 @@ AI4PDE 综述图：[Fig.1：领域定位、方法与应用全景](teaser/survey-
 
 每张图的 README 保留选图理由、使用范围和来源记录。完整机制参考通过 Element 页链接，版式母版通过 Architecture 页链接；它们分别计数，不充作最小元素。许可逐项保留，桌面 Illustrator 尚未逐项实测。
 
+## 科研制图 Skill
+
+[scientific-figure-workflow](skills/scientific-figure-workflow/SKILL.md) 总结了本项目从选参考、科学机制复审、紧凑排版、配色与 TeX，到 Illustrator 原生交付和汇报 PPT 的完整流程。附七份详细参考、图形简报与修订记录模板、只读 SVG 结构预检工具。区分通用原则、个人偏好与本次 AI4PDE 案例，不改变素材库收录规则。
+
 ## 维护
 
 [完整图文目录](CATALOG.md) · [来源 JSON 索引](catalog.json) · [收录与分类规则](CONTRIBUTING.md)

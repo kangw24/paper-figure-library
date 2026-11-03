@@ -1,0 +1,32 @@
+{
+  "figure_id": "",
+  "role": "",
+  "audience_and_medium": "",
+  "claim": "",
+  "current_version": "",
+  "canvas": {"width": null, "height": null, "unit": "", "reading_size": ""},
+  "references": [
+    {"source_url": "", "preview_reviewed": false, "borrowed_relationship": "", "not_borrowed": ""}
+  ],
+  "panels": [
+    {"id": "", "scientific_question": "", "new_information": "", "objects": [], "formula_ids": [], "region": null}
+  ],
+  "objects": [
+    {"id": "", "kind": "", "provenance": "", "data_file": "", "identity_label": "", "conditions": [], "editable_as": ""}
+  ],
+  "connections": [
+    {"from": "", "to": "", "meaning": "", "transmitted_quantity_or_operation": "", "style": ""}
+  ],
+  "colour_roles": [
+    {"role": "", "objects": [], "colour_or_map": "", "normalization": null, "locked": false}
+  ],
+  "formula_sources": [],
+  "allowed_changes": [],
+  "locked_objects": [],
+  "requires_computation": [],
+  "requires_training_or_external_evidence": [],
+  "excluded_unsupported_claims": [],
+  "external_caption": "",
+  "requested_deliverables": [],
+  "checks": {"science": "pending", "full_render": "pending", "reading_size": "pending", "target_app": "pending"}
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研制图工作流"
+  short_description: "从论文范例、科学机制与紧凑排版，到 Illustrator 和汇报交付"
+  default_prompt: "使用 $scientific-figure-workflow，根据参考图和研究内容制作或审查科研配图，先明确科学关系与图形身份，再落实排版、公式、配色和交付检查。"

@@ -1,0 +1,19 @@
+{
+  "from_version": "",
+  "to_version": "",
+  "backup_location": "",
+  "instruction_scope": "",
+  "figure_inventory": [],
+  "changes": [
+    {"figure": "", "object": "", "issue": "", "basis": "", "implemented_change": "", "verification": "pending"}
+  ],
+  "locked_objects": [
+    {"object": "", "check_method": "", "before": "", "after": "", "result": "pending"}
+  ],
+  "removed_content_not_to_restore": [],
+  "unresolved": [],
+  "delivered_files": [
+    {"path": "", "sha256": "", "editable_scope": "", "render_checked": false, "native_app_checked": false}
+  ],
+  "user_approval_status": "not_requested"
+}

@@ -1,0 +1,12 @@
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figures/HippoRAG_hook_fig_version_4.pdf}
+  \caption{
+  \textbf{Knowledge Integration \& RAG.} Tasks that require knowledge integration are particularly challenging for current RAG systems. In the above example, we want to find a \textit{Stanford} professor that does \textit{Alzheimer's} research from a pool of passages describing potentially thousands \textit{Stanford} professors and \textit{Alzheimer's} researchers.
+  Since current methods encode passages in isolation, they would struggle to identify \textit{Prof. Thomas} unless a passage mentions both characteristics at once.
+  In contrast, most people familiar with this professor would remember him quickly due to our brain's associative memory capabilities, thought to be driven by the index structure depicted in the C-shaped hippocampus above (in \textcolor{hippoblue}{blue}).
+  Inspired by this mechanism, \textbf{HippoRAG} allows LLMs to build and leverage a similar graph of associations to tackle knowledge integration tasks.
+  }
+  \label{fig:hook}
+  \vspace{-15pt}
+\end{figure}

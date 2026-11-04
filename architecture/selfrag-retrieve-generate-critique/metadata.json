@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "selfrag-retrieve-generate-critique",
+  "title": "Self-RAG · 检索、并行生成与自评选择",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "oral"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "左侧是固定检索 RAG，右侧完整展开按需检索、并行生成和自评选择，下方再用不需要检索的请求形成补充对照。",
+  "publication": {
+    "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+    "venue": "ICLR",
+    "year": 2024,
+    "presentation": "oral",
+    "article_type": "research",
+    "evidence_url": "https://github.com/AkariAsai/self-rag",
+    "source_version": "2310.11511v1",
+    "checked_date": "2026-11-05",
+    "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+  },
+  "curation": {
+    "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "左右方法对照；右侧包含三阶段和三条文档分支；底部额外对照非检索任务。",
+      "panel_groups": 3,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "左侧是固定检索 RAG，右侧完整展开按需检索、并行生成和自评选择，下方再用不需要检索的请求形成补充对照。",
+    "what_to_borrow": [
+      "用具体问题与文档片段承载流程，而不是只写模块名。",
+      "答案片段、文档编号和评估色块互相呼应。"
+    ],
+    "reference_neighbors": [
+      "speculative-rag-draft-verify"
+    ],
+    "version_notes": "原文件名包含 teaser，但本库按主要作用归入 Architecture：图中详细解释检索、生成、自评与选择的数据流。所收录为 2023 年 arXiv v1，会议身份为 ICLR 2024。",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://selfrag.github.io/",
+    "authors": [
+      "Asai, Akari",
+      "Wu, Zeqiu",
+      "Wang, Yizhong",
+      "Sil, Avirup",
+      "Hajishirzi, Hannaneh"
+    ],
+    "urls": [
+      "https://selfrag.github.io/",
+      "https://arxiv.org/abs/2310.11511v1",
+      "https://arxiv.org/pdf/2310.11511v1",
+      "https://arxiv.org/src/2310.11511v1",
+      "https://github.com/AkariAsai/self-rag"
+    ],
+    "arxiv_id": "2310.11511v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2310.11511v1",
+    "full_pdf_sha256": "d9eaa1398abac0df67a9d0933a5bf8b6d9d83d2e72da2a486073cd842dd52978",
+    "full_pdf_bytes": 1405127,
+    "page_number": 2,
+    "figure_number": 1,
+    "original_sha256": "b5cd85892820a32b101300fc759d1228549f83672a5e432abff8385080e4d27e",
+    "original_bytes": 480868,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2310.11511v1",
+    "archive_sha256": "7dd38f6eaf737152ee0bcba066a659bb37e87fced8ee741845f4e33a6e11ec79",
+    "archive_bytes": 917558,
+    "archive_member": "figs/teaser_self_rag_v8.pdf",
+    "inclusion_member": "sections/intro.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "attribution-required",
+    "name": "CC BY 4.0（所收录论文版本）",
+    "note": "所收录 arXiv 论文版本声明 CC BY 4.0，保留作者署名、版本与转换记录；图中的第三方照片、商标或引用素材仍按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 98,
+    "pdf_text_spans": 79,
+    "embedded_raster_images": 29,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 69,
+      "path": 345,
+      "mask": 29,
+      "g": 166,
+      "image": 12,
+      "use": 1617
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 98 个绘图对象、79 个文本片段和 29 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 691,
+      "sha256": "396499144051d9280a7ce009f026099eadf5f13f32d98f5a698e4a3af11dcc98"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 281,
+      "sha256": "73498361096bc96118a3f370bec368dea2c56372e23bb9afe4b66dfbdaed86d7"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 480868,
+      "sha256": "b5cd85892820a32b101300fc759d1228549f83672a5e432abff8385080e4d27e"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 514040,
+      "sha256": "078cd6c5659938fb8ea2739ffdc0b1afa059c22c33650bc71c185abd1e4eede7"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1277489,
+      "sha256": "1ee800f03002caa9f8da3f5e4b3163e1fda298d9e0a86290d94fda6b6acedf17"
+    }
+  ]
+}

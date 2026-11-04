@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "id": "memoryos-three-tier-memory-framework",
+  "title": "MemoryOS · 三层记忆、动态更新与回答生成",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "oral"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "短期、中期和长期个人记忆并排展开，包含队列、页面、热度、用户画像与检索回路；上下主线把存储、更新和生成串起来。",
+  "publication": {
+    "title": "Memory OS of AI Agent",
+    "venue": "EMNLP",
+    "year": 2025,
+    "presentation": "oral",
+    "article_type": "research",
+    "evidence_url": "https://github.com/BAI-LAB/MemoryOS",
+    "source_version": "2506.06326v1",
+    "checked_date": "2026-11-05",
+    "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+  },
+  "curation": {
+    "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "STM、MTM、LPM 三个记忆区及右侧回答区；上下检索和写回回路贯穿。",
+      "panel_groups": 4,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "短期、中期和长期个人记忆并排展开，包含队列、页面、热度、用户画像与检索回路；上下主线把存储、更新和生成串起来。",
+    "what_to_borrow": [
+      "用不同数据组织方式说明各层记忆差异。",
+      "粗主线负责跨层流动，局部细线负责内部更新。"
+    ],
+    "reference_neighbors": [
+      "memoryvla-cognition-memory-action",
+      "cortex-memory-consolidation"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/BAI-LAB/MemoryOS",
+    "authors": [
+      "Kang, Jiazheng",
+      "Ji, Mingming",
+      "Zhao, Zhe",
+      "Bai, Ting"
+    ],
+    "urls": [
+      "https://github.com/BAI-LAB/MemoryOS",
+      "https://arxiv.org/abs/2506.06326v1",
+      "https://arxiv.org/pdf/2506.06326v1",
+      "https://arxiv.org/src/2506.06326v1"
+    ],
+    "arxiv_id": "2506.06326v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2506.06326v1",
+    "full_pdf_sha256": "4b3cbeb6a94d6b5a996f7bbeabe651929fbf7dd15a5e00cd28e728530d9ff730",
+    "full_pdf_bytes": 849565,
+    "page_number": 3,
+    "figure_number": 1,
+    "original_sha256": "32313e9ce3ef789d06c961b4863877c5757ab5ec3cd8c07bdbef9351c3cd59b5",
+    "original_bytes": 182035,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2506.06326v1",
+    "archive_sha256": "e68071128f2ba4a73ede190912526b49c330682b0a2b98322b747a202f482b38",
+    "archive_bytes": 790452,
+    "archive_member": "latex/figure/mem_pipline.pdf",
+    "inclusion_member": "latex/acl_latex.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 68,
+    "pdf_text_spans": 39,
+    "embedded_raster_images": 31,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 2,
+      "path": 142,
+      "mask": 31,
+      "g": 96,
+      "image": 22,
+      "use": 337
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 68 个绘图对象、39 个文本片段和 31 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 653,
+      "sha256": "06636b52c5f58f311f1aeb2048c4aad739dd3ea74e9626945c302471e5c5cbc7"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 287,
+      "sha256": "0f821510bd5dd71f911e37b96081406ce285389e8aef11447547fb212cdad63c"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 182035,
+      "sha256": "32313e9ce3ef789d06c961b4863877c5757ab5ec3cd8c07bdbef9351c3cd59b5"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 258823,
+      "sha256": "a9b51a2f16cbf42c5fdb43189ff901692dd1dedeef3c584b094f80b3031899ab"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 292546,
+      "sha256": "cc68679c3966280a53d2b23f9d17a3eef932b48ab9e1762ecfd69efbc7151c5f"
+    }
+  ]
+}

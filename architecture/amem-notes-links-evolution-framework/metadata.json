@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "amem-notes-links-evolution-framework",
+  "title": "A-MEM · 笔记构建、关联、演化与检索四分区",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "四个相邻分区把对话写成笔记、为记忆建立关联、更新原有记忆和查询检索串联起来；笔记、分组和模型符号跨区复用。",
+  "publication": {
+    "title": "A-MEM: Agentic Memory for LLM Agents",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://papers.neurips.cc/paper_files/paper/2025/file/19909c36f51abc4856b4560aff3d36d6-Paper-Conference.pdf",
+    "source_version": "2502.12110v11",
+    "checked_date": "2026-11-05",
+    "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+  },
+  "curation": {
+    "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "四栏：Note Construction、Link Generation、Memory Evolution、Memory Retrieval。",
+      "panel_groups": 4,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "四个相邻分区把对话写成笔记、为记忆建立关联、更新原有记忆和查询检索串联起来；笔记、分组和模型符号跨区复用。",
+    "what_to_borrow": [
+      "用稳定的笔记符号贯穿存储与检索。",
+      "主流程与局部数据组织示意相邻，避免只剩抽象框。"
+    ],
+    "reference_neighbors": [
+      "speculative-rag-draft-verify",
+      "memoryvla-cognition-memory-action"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/WujiangXu/AgenticMemory",
+    "authors": [
+      "Xu, Wujiang",
+      "Liang, Zujie",
+      "Mei, Kai",
+      "Gao, Hang",
+      "Tan, Juntao",
+      "Zhang, Yongfeng"
+    ],
+    "urls": [
+      "https://github.com/WujiangXu/AgenticMemory",
+      "https://arxiv.org/abs/2502.12110v11",
+      "https://arxiv.org/pdf/2502.12110v11",
+      "https://arxiv.org/src/2502.12110v11",
+      "https://papers.neurips.cc/paper_files/paper/2025/file/19909c36f51abc4856b4560aff3d36d6-Paper-Conference.pdf"
+    ],
+    "arxiv_id": "2502.12110v11",
+    "full_pdf_url": "https://arxiv.org/pdf/2502.12110v11",
+    "full_pdf_sha256": "fec32b521c4a1f793442bf1aeb26139c583078350d1cd4ab8f4eccc54a0694f0",
+    "full_pdf_bytes": 1015164,
+    "page_number": 3,
+    "figure_number": 2,
+    "original_sha256": "626f742f89ed78992d2ac25c314d9597c3526d43a8c4c2464b6209b2df669636",
+    "original_bytes": 205482,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2502.12110v11",
+    "archive_sha256": "d112e92606a562a0369e2e8cddadad88ac8d448d66c24ee9b63e808c2c84e42b",
+    "archive_bytes": 621652,
+    "archive_member": "figure/framework.pdf",
+    "inclusion_member": "neurips_2025.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 98,
+    "pdf_text_spans": 92,
+    "embedded_raster_images": 47,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 101,
+      "path": 342,
+      "mask": 47,
+      "g": 243,
+      "image": 22,
+      "use": 703
+    },
+    "normalized_path_transforms": 27,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 98 个绘图对象、92 个文本片段和 47 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 688,
+      "sha256": "d99a3964990bf188ac54683ec07f4bf5331accdca16ec11ef595c8ade72b99d1"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1127,
+      "sha256": "1362229a4319a09b5968eb446e43daeff6bb705a643c1f05a2655cab61ce2fcb"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 205482,
+      "sha256": "626f742f89ed78992d2ac25c314d9597c3526d43a8c4c2464b6209b2df669636"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 322141,
+      "sha256": "00318b34bb5908f23770dda5dae10f7eb895fb3300d8cca6feaf09982ebed808"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 376515,
+      "sha256": "3ab6c73d6c0d497d37ee7e2b14dd83097d2f72b640f8d2e282124f73636255b7"
+    }
+  ]
+}

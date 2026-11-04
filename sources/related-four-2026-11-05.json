@@ -1,0 +1,1006 @@
+{
+  "date": "2026-11-05",
+  "scope": "Follow-up references around four user-selected figures; task-specific selection, no change to permanent curation rules.",
+  "counts": {
+    "teaser": 10,
+    "architecture": 10
+  },
+  "format_counts": {
+    "author_independent_pdf": 18,
+    "author_png_only": 2
+  },
+  "items": [
+    {
+      "id": "survey-genai-iot-layers-scenes",
+      "category": "teaser",
+      "path": "teaser/survey-genai-iot-layers-scenes",
+      "title": "GenAI × IoT · 分层技术栈与多场景应用",
+      "source": {
+        "project": "https://arxiv.org/abs/2405.20024v2",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "arxiv_id": "2405.20024v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+        "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+        "full_pdf_bytes": 12203487,
+        "page_number": 1,
+        "figure_number": 1,
+        "original_sha256": "92965b8cf600110a821480b26b326d5f0efd51811d472164ed7534cde0ddff1e",
+        "original_bytes": 359907,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.20024v2",
+        "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+        "archive_bytes": 11166377,
+        "archive_member": "Photo/GAI_operation.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "survey-genai-wireless-four-scenarios"
+      ]
+    },
+    {
+      "id": "survey-genai-history-model-mosaic",
+      "category": "teaser",
+      "path": "teaser/survey-genai-history-model-mosaic",
+      "title": "GenAI 综述 · 演进、生成模型与代表方法拼图",
+      "source": {
+        "project": "https://arxiv.org/abs/2405.20024v2",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "arxiv_id": "2405.20024v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+        "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+        "full_pdf_bytes": 12203487,
+        "page_number": 7,
+        "figure_number": 3,
+        "original_sha256": "0865fe82a58c1af4df28ed7534f4212280503d4ca3234a2253d6c03d684b2466",
+        "original_bytes": 370385,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.20024v2",
+        "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+        "archive_bytes": 11166377,
+        "archive_member": "Photo/GAI_preminilary.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "survey-genai-wireless-four-scenarios"
+      ]
+    },
+    {
+      "id": "survey-genai-network-management-scenes",
+      "category": "teaser",
+      "path": "teaser/survey-genai-network-management-scenes",
+      "title": "GenAI 网络管理 · 控制面、数据面与切片场景",
+      "source": {
+        "project": "https://arxiv.org/abs/2405.20024v2",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "arxiv_id": "2405.20024v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+        "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+        "full_pdf_bytes": 12203487,
+        "page_number": 9,
+        "figure_number": 5,
+        "original_sha256": "e5bde5e0e1afb85fffdbd03ac4cfb70dfd276cd5586fd60b3d83d497364d62c3",
+        "original_bytes": 1764110,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.20024v2",
+        "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+        "archive_bytes": 11166377,
+        "archive_member": "Photo/GAI_mangement.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "survey-genai-wireless-four-scenarios"
+      ]
+    },
+    {
+      "id": "survey-genai-wireless-security-four-panels",
+      "category": "teaser",
+      "path": "teaser/survey-genai-wireless-security-four-panels",
+      "title": "GenAI 无线安全 · 四场景与局部机制并列",
+      "source": {
+        "project": "https://arxiv.org/abs/2405.20024v2",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "arxiv_id": "2405.20024v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+        "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+        "full_pdf_bytes": 12203487,
+        "page_number": 11,
+        "figure_number": 6,
+        "original_sha256": "778684793de1eee99ce6d72b3a7a0a196d0ded27906491be2c73ae9a5d4a56e2",
+        "original_bytes": 505263,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.20024v2",
+        "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+        "archive_bytes": 11166377,
+        "archive_member": "Photo/GAI_security.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "survey-genai-wireless-four-scenarios"
+      ]
+    },
+    {
+      "id": "survey-genai-semantic-memory-framework",
+      "category": "architecture",
+      "path": "architecture/survey-genai-semantic-memory-framework",
+      "title": "GenAI 语义通信 · 语义记忆与物理信道双路框架",
+      "source": {
+        "project": "https://arxiv.org/abs/2405.20024v2",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "arxiv_id": "2405.20024v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+        "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+        "full_pdf_bytes": 12203487,
+        "page_number": 13,
+        "figure_number": 7,
+        "original_sha256": "5de6e7ee7ed0c5d0ad10ac46faad860e86bec9164755ee72f2e71d9559013f04",
+        "original_bytes": 765842,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.20024v2",
+        "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+        "archive_bytes": 11166377,
+        "archive_member": "Photo/FigureGAIApplication.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "survey-genai-wireless-four-scenarios",
+        "speculative-rag-draft-verify"
+      ]
+    },
+    {
+      "id": "hipporag-human-memory-comparison",
+      "category": "teaser",
+      "path": "teaser/hipporag-human-memory-comparison",
+      "title": "HippoRAG · 普通 RAG、人类记忆与海马索引对照",
+      "source": {
+        "project": "https://github.com/OSU-NLP-Group/HippoRAG",
+        "authors": [
+          "Gutiérrez, Bernal Jiménez",
+          "Shu, Yiheng",
+          "Gu, Yu",
+          "Yasunaga, Michihiro",
+          "Su, Yu"
+        ],
+        "urls": [
+          "https://github.com/OSU-NLP-Group/HippoRAG",
+          "https://arxiv.org/abs/2405.14831v3",
+          "https://arxiv.org/pdf/2405.14831v3",
+          "https://arxiv.org/src/2405.14831v3",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html"
+        ],
+        "arxiv_id": "2405.14831v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.14831v3",
+        "full_pdf_sha256": "14671c78fc7de99d83bb9e52e2d5b335d4756066925e67df1a25c0e272133aad",
+        "full_pdf_bytes": 3404698,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "fb41c28bfcbc857072bb9f0a953417d10393fae23c2185446c7921fe859cd16a",
+        "original_bytes": 1368538,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.14831v3",
+        "archive_sha256": "b581bf9cb90df4acb02585c5944fe84b95bfc30763a4dfb5f086de536ebe9683",
+        "archive_bytes": 2586441,
+        "archive_member": "figures/HippoRAG_hook_fig_version_4.pdf",
+        "inclusion_member": "neurips_2024.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "cortex-memory-consolidation",
+        "speculative-rag-draft-verify"
+      ]
+    },
+    {
+      "id": "hipporag-brain-region-framework",
+      "category": "architecture",
+      "path": "architecture/hipporag-brain-region-framework",
+      "title": "HippoRAG · 三脑区类比与索引检索框架",
+      "source": {
+        "project": "https://github.com/OSU-NLP-Group/HippoRAG",
+        "authors": [
+          "Gutiérrez, Bernal Jiménez",
+          "Shu, Yiheng",
+          "Gu, Yu",
+          "Yasunaga, Michihiro",
+          "Su, Yu"
+        ],
+        "urls": [
+          "https://github.com/OSU-NLP-Group/HippoRAG",
+          "https://arxiv.org/abs/2405.14831v3",
+          "https://arxiv.org/pdf/2405.14831v3",
+          "https://arxiv.org/src/2405.14831v3",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html"
+        ],
+        "arxiv_id": "2405.14831v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.14831v3",
+        "full_pdf_sha256": "14671c78fc7de99d83bb9e52e2d5b335d4756066925e67df1a25c0e272133aad",
+        "full_pdf_bytes": 3404698,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "bfccb124a2fdecf39cd88a16de13bf090eb1a0ca6213240621ca403b3cd024ec",
+        "original_bytes": 1061906,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.14831v3",
+        "archive_sha256": "b581bf9cb90df4acb02585c5944fe84b95bfc30763a4dfb5f086de536ebe9683",
+        "archive_bytes": 2586441,
+        "archive_member": "figures/HippoRAG_method_version_4.pdf",
+        "inclusion_member": "neurips_2024.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "cortex-memory-consolidation",
+        "memoryvla-cognition-memory-action",
+        "speculative-rag-draft-verify"
+      ]
+    },
+    {
+      "id": "hipporag2-indexing-retrieval-framework",
+      "category": "architecture",
+      "path": "architecture/hipporag2-indexing-retrieval-framework",
+      "title": "HippoRAG 2 · 图谱索引、筛选与检索双阶段",
+      "source": {
+        "project": "https://github.com/OSU-NLP-Group/HippoRAG",
+        "authors": [
+          "Gutiérrez, Bernal Jiménez",
+          "Shu, Yiheng",
+          "Qi, Weijian",
+          "Zhou, Sizhe",
+          "Su, Yu"
+        ],
+        "urls": [
+          "https://github.com/OSU-NLP-Group/HippoRAG",
+          "https://arxiv.org/abs/2502.14802v2",
+          "https://arxiv.org/pdf/2502.14802v2",
+          "https://arxiv.org/src/2502.14802v2",
+          "https://proceedings.mlr.press/v267/gutierrez25a.html"
+        ],
+        "arxiv_id": "2502.14802v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2502.14802v2",
+        "full_pdf_sha256": "90fa6af3ee8298a6c3abef6df0a9b0f092496cb7d6b1c3e8b55c5c8f5b552eb3",
+        "full_pdf_bytes": 2498688,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "ab1b52b0f6cab673ba84d0f1245685dbd69b6a8047d52cddb5509f63550132d6",
+        "original_bytes": 28598,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2502.14802v2",
+        "archive_sha256": "ea9a7e190e1225f4dcb922d1391bf9fe2050fa4e214b1ac1cf9f6f7626540fa9",
+        "archive_bytes": 11096031,
+        "archive_member": "figure/methodology.pdf",
+        "inclusion_member": "paper.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector",
+      "reference_neighbors": [
+        "speculative-rag-draft-verify",
+        "cortex-memory-consolidation"
+      ]
+    },
+    {
+      "id": "amem-notes-links-evolution-framework",
+      "category": "architecture",
+      "path": "architecture/amem-notes-links-evolution-framework",
+      "title": "A-MEM · 笔记构建、关联、演化与检索四分区",
+      "source": {
+        "project": "https://github.com/WujiangXu/AgenticMemory",
+        "authors": [
+          "Xu, Wujiang",
+          "Liang, Zujie",
+          "Mei, Kai",
+          "Gao, Hang",
+          "Tan, Juntao",
+          "Zhang, Yongfeng"
+        ],
+        "urls": [
+          "https://github.com/WujiangXu/AgenticMemory",
+          "https://arxiv.org/abs/2502.12110v11",
+          "https://arxiv.org/pdf/2502.12110v11",
+          "https://arxiv.org/src/2502.12110v11",
+          "https://papers.neurips.cc/paper_files/paper/2025/file/19909c36f51abc4856b4560aff3d36d6-Paper-Conference.pdf"
+        ],
+        "arxiv_id": "2502.12110v11",
+        "full_pdf_url": "https://arxiv.org/pdf/2502.12110v11",
+        "full_pdf_sha256": "fec32b521c4a1f793442bf1aeb26139c583078350d1cd4ab8f4eccc54a0694f0",
+        "full_pdf_bytes": 1015164,
+        "page_number": 3,
+        "figure_number": 2,
+        "original_sha256": "626f742f89ed78992d2ac25c314d9597c3526d43a8c4c2464b6209b2df669636",
+        "original_bytes": 205482,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2502.12110v11",
+        "archive_sha256": "d112e92606a562a0369e2e8cddadad88ac8d448d66c24ee9b63e808c2c84e42b",
+        "archive_bytes": 621652,
+        "archive_member": "figure/framework.pdf",
+        "inclusion_member": "neurips_2025.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "speculative-rag-draft-verify",
+        "memoryvla-cognition-memory-action"
+      ]
+    },
+    {
+      "id": "selfrag-retrieve-generate-critique",
+      "category": "architecture",
+      "path": "architecture/selfrag-retrieve-generate-critique",
+      "title": "Self-RAG · 检索、并行生成与自评选择",
+      "source": {
+        "project": "https://selfrag.github.io/",
+        "authors": [
+          "Asai, Akari",
+          "Wu, Zeqiu",
+          "Wang, Yizhong",
+          "Sil, Avirup",
+          "Hajishirzi, Hannaneh"
+        ],
+        "urls": [
+          "https://selfrag.github.io/",
+          "https://arxiv.org/abs/2310.11511v1",
+          "https://arxiv.org/pdf/2310.11511v1",
+          "https://arxiv.org/src/2310.11511v1",
+          "https://github.com/AkariAsai/self-rag"
+        ],
+        "arxiv_id": "2310.11511v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2310.11511v1",
+        "full_pdf_sha256": "d9eaa1398abac0df67a9d0933a5bf8b6d9d83d2e72da2a486073cd842dd52978",
+        "full_pdf_bytes": 1405127,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "b5cd85892820a32b101300fc759d1228549f83672a5e432abff8385080e4d27e",
+        "original_bytes": 480868,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2310.11511v1",
+        "archive_sha256": "7dd38f6eaf737152ee0bcba066a659bb37e87fced8ee741845f4e33a6e11ec79",
+        "archive_bytes": 917558,
+        "archive_member": "figs/teaser_self_rag_v8.pdf",
+        "inclusion_member": "sections/intro.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "speculative-rag-draft-verify"
+      ]
+    },
+    {
+      "id": "crag-evaluate-correct-generate",
+      "category": "architecture",
+      "path": "architecture/crag-evaluate-correct-generate",
+      "title": "CRAG · 评估分流、知识纠正与三路生成",
+      "source": {
+        "project": "https://github.com/HuskyInSalt/CRAG",
+        "authors": [
+          "Yan, Shi-Qi",
+          "Gu, Jia-Chen",
+          "Zhu, Yun",
+          "Ling, Zhen-Hua"
+        ],
+        "urls": [
+          "https://github.com/HuskyInSalt/CRAG",
+          "https://arxiv.org/abs/2401.15884v3",
+          "https://arxiv.org/pdf/2401.15884v3",
+          "https://arxiv.org/src/2401.15884v3"
+        ],
+        "arxiv_id": "2401.15884v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2401.15884v3",
+        "full_pdf_sha256": "975aa1fd3c1b603126e93ff99d6504858b61301bf1d34c9df88ebe53a0b026cb",
+        "full_pdf_bytes": 667756,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8",
+        "original_bytes": 210934,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2401.15884v3",
+        "archive_sha256": "01cb19acaf53a027b2fcccb2379dc3ce2bdedf1d45164b766472501fa686d8e6",
+        "archive_bytes": 329791,
+        "archive_member": "fig/method.pdf",
+        "inclusion_member": "3_Methods.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "speculative-rag-draft-verify"
+      ]
+    },
+    {
+      "id": "memoryos-three-tier-memory-framework",
+      "category": "architecture",
+      "path": "architecture/memoryos-three-tier-memory-framework",
+      "title": "MemoryOS · 三层记忆、动态更新与回答生成",
+      "source": {
+        "project": "https://github.com/BAI-LAB/MemoryOS",
+        "authors": [
+          "Kang, Jiazheng",
+          "Ji, Mingming",
+          "Zhao, Zhe",
+          "Bai, Ting"
+        ],
+        "urls": [
+          "https://github.com/BAI-LAB/MemoryOS",
+          "https://arxiv.org/abs/2506.06326v1",
+          "https://arxiv.org/pdf/2506.06326v1",
+          "https://arxiv.org/src/2506.06326v1"
+        ],
+        "arxiv_id": "2506.06326v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2506.06326v1",
+        "full_pdf_sha256": "4b3cbeb6a94d6b5a996f7bbeabe651929fbf7dd15a5e00cd28e728530d9ff730",
+        "full_pdf_bytes": 849565,
+        "page_number": 3,
+        "figure_number": 1,
+        "original_sha256": "32313e9ce3ef789d06c961b4863877c5757ab5ec3cd8c07bdbef9351c3cd59b5",
+        "original_bytes": 182035,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2506.06326v1",
+        "archive_sha256": "e68071128f2ba4a73ede190912526b49c330682b0a2b98322b747a202f482b38",
+        "archive_bytes": 790452,
+        "archive_member": "latex/figure/mem_pipline.pdf",
+        "inclusion_member": "latex/acl_latex.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "memoryvla-cognition-memory-action",
+        "cortex-memory-consolidation"
+      ]
+    },
+    {
+      "id": "memos-memory-evolution-three-stages",
+      "category": "teaser",
+      "path": "teaser/memos-memory-evolution-three-stages",
+      "title": "MemOS · LLM 记忆、人类类比与可管理记忆三阶段",
+      "source": {
+        "project": "https://github.com/MemTensor/MemOS",
+        "authors": [
+          "Li, Zhiyu",
+          "Xi, Chenyang",
+          "Li, Chunyu",
+          "Chen, Ding",
+          "Chen, Boyu",
+          "Song, Shichao",
+          "Niu, Simin",
+          "Wang, Hanyu",
+          "Yang, Jiawei",
+          "Tang, Chen",
+          "Yu, Qingchen",
+          "Zhao, Jihao",
+          "Wang, Yezhaohui",
+          "Liu, Peng",
+          "Lin, Zehao",
+          "Wang, Pengyuan",
+          "Huo, Jiahao",
+          "Chen, Tianyi",
+          "Chen, Kai",
+          "Li, Kehang",
+          "Tao, Zhen",
+          "Lai, Huayi",
+          "Wu, Hao",
+          "Tang, Bo",
+          "Wang, Zhengren",
+          "Fan, Zhaoxin",
+          "Zhang, Ningyu",
+          "Zhang, Linfeng",
+          "Yan, Junchi",
+          "Yang, Mingchuan",
+          "Xu, Tong",
+          "Xu, Wei",
+          "Chen, Huajun",
+          "Wang, Haofen",
+          "Yang, Hongkang",
+          "Zhang, Wentao",
+          "Xu, Zhi-Qin John",
+          "Chen, Siheng",
+          "Xiong, Feiyu"
+        ],
+        "urls": [
+          "https://github.com/MemTensor/MemOS",
+          "https://arxiv.org/abs/2507.03724v4",
+          "https://arxiv.org/pdf/2507.03724v4",
+          "https://arxiv.org/src/2507.03724v4"
+        ],
+        "arxiv_id": "2507.03724v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2507.03724v4",
+        "full_pdf_sha256": "9b9b71b61487ce9f01d2de014b80201d9a30c4fd43effa33e84ef7d2db824977",
+        "full_pdf_bytes": 4753104,
+        "page_number": 6,
+        "figure_number": 3,
+        "original_sha256": "84735d9907a272db655296371127410a038280c47259c6216af701e65e792cb5",
+        "original_bytes": 108428,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2507.03724v4",
+        "archive_sha256": "dafe95168ac2fdac4f046c22d87716b387347f5a1f49314cf8b48d6a2a416794",
+        "archive_bytes": 3972076,
+        "archive_member": "img/HumanVsLLM.pdf",
+        "inclusion_member": "paper.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "cortex-memory-consolidation",
+        "memoryvla-cognition-memory-action"
+      ]
+    },
+    {
+      "id": "memos-three-memory-consolidation-paths",
+      "category": "teaser",
+      "path": "teaser/memos-three-memory-consolidation-paths",
+      "title": "MemOS · 文本、激活与参数记忆的双向转化",
+      "source": {
+        "project": "https://github.com/MemTensor/MemOS",
+        "authors": [
+          "Li, Zhiyu",
+          "Xi, Chenyang",
+          "Li, Chunyu",
+          "Chen, Ding",
+          "Chen, Boyu",
+          "Song, Shichao",
+          "Niu, Simin",
+          "Wang, Hanyu",
+          "Yang, Jiawei",
+          "Tang, Chen",
+          "Yu, Qingchen",
+          "Zhao, Jihao",
+          "Wang, Yezhaohui",
+          "Liu, Peng",
+          "Lin, Zehao",
+          "Wang, Pengyuan",
+          "Huo, Jiahao",
+          "Chen, Tianyi",
+          "Chen, Kai",
+          "Li, Kehang",
+          "Tao, Zhen",
+          "Lai, Huayi",
+          "Wu, Hao",
+          "Tang, Bo",
+          "Wang, Zhengren",
+          "Fan, Zhaoxin",
+          "Zhang, Ningyu",
+          "Zhang, Linfeng",
+          "Yan, Junchi",
+          "Yang, Mingchuan",
+          "Xu, Tong",
+          "Xu, Wei",
+          "Chen, Huajun",
+          "Wang, Haofen",
+          "Yang, Hongkang",
+          "Zhang, Wentao",
+          "Xu, Zhi-Qin John",
+          "Chen, Siheng",
+          "Xiong, Feiyu"
+        ],
+        "urls": [
+          "https://github.com/MemTensor/MemOS",
+          "https://arxiv.org/abs/2507.03724v4",
+          "https://arxiv.org/pdf/2507.03724v4",
+          "https://arxiv.org/src/2507.03724v4"
+        ],
+        "arxiv_id": "2507.03724v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2507.03724v4",
+        "full_pdf_sha256": "9b9b71b61487ce9f01d2de014b80201d9a30c4fd43effa33e84ef7d2db824977",
+        "full_pdf_bytes": 4753104,
+        "page_number": 14,
+        "figure_number": 5,
+        "original_sha256": "0555d07d31f5c39c2f7141862fc1d114d07126148d4a2b89efa40bf9b2be8b56",
+        "original_bytes": 303048,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2507.03724v4",
+        "archive_sha256": "dafe95168ac2fdac4f046c22d87716b387347f5a1f49314cf8b48d6a2a416794",
+        "archive_bytes": 3972076,
+        "archive_member": "img/Memories.pdf",
+        "inclusion_member": "paper.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "cortex-memory-consolidation",
+        "speculative-rag-draft-verify"
+      ]
+    },
+    {
+      "id": "memoryvla-perceptual-cognitive-architecture",
+      "category": "architecture",
+      "path": "architecture/memoryvla-perceptual-cognitive-architecture",
+      "title": "MemoryVLA · 感知认知记忆库与扩散动作网络",
+      "source": {
+        "project": "https://shihao1895.github.io/MemoryVLA/",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "arxiv_id": "2508.19236v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2508.19236v1",
+        "full_pdf_sha256": "2f39262c7f270ec7c104defdaec11f7b6f21ace116d1fe1175ee228b54f57026",
+        "full_pdf_bytes": 11023858,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "original_bytes": 244717,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2508.19236v1",
+        "archive_sha256": "21d9ae4e287a9d41ec851044f66193186d5dcd37c7cb89ec136f8046b1f414f9",
+        "archive_bytes": 10386126,
+        "archive_member": "figures/fig_2_method.pdf",
+        "inclusion_member": "chapters/3_method.tex",
+        "retrieved_date": "2026-11-04",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "memoryvla-cognition-memory-action",
+        "cortex-memory-consolidation"
+      ]
+    },
+    {
+      "id": "lightmem-memory-construction-comparison",
+      "category": "teaser",
+      "path": "teaser/lightmem-memory-construction-comparison",
+      "title": "LightMem · 原始记忆流水线与主题过滤、睡眠更新对照",
+      "source": {
+        "project": "https://github.com/zjunlp/LightMem",
+        "authors": [
+          "Fang, Jizhan",
+          "Deng, Xinle",
+          "Xu, Haoming",
+          "Jiang, Ziyan",
+          "Tang, Yuqi",
+          "Xu, Ziwen",
+          "Deng, Shumin",
+          "Yao, Yunzhi",
+          "Wang, Mengru",
+          "Qiao, Shuofei",
+          "Chen, Huajun",
+          "Zhang, Ningyu"
+        ],
+        "urls": [
+          "https://github.com/zjunlp/LightMem",
+          "https://arxiv.org/abs/2510.18866v4",
+          "https://arxiv.org/pdf/2510.18866v4",
+          "https://arxiv.org/src/2510.18866v4"
+        ],
+        "arxiv_id": "2510.18866v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2510.18866v4",
+        "full_pdf_sha256": "7e9a8e9f39c616528d543ce8520606d47d56032eb004b55d452d0dce5725c23e",
+        "full_pdf_bytes": 4604558,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "2793e9ddca540644dcc699d737a12cd6a09f1912ea31466970a6fa66d62fe631",
+        "original_bytes": 1699278,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2510.18866v4",
+        "archive_sha256": "e24c5cbf57c1dae2f5904acf2be2920899697515768b0602ee37d5f985be495e",
+        "archive_bytes": 5229829,
+        "archive_member": "figure/motivation.png",
+        "inclusion_member": "section/introduction.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "raster-reference",
+      "reference_neighbors": [
+        "cortex-memory-consolidation",
+        "memoryvla-cognition-memory-action"
+      ]
+    },
+    {
+      "id": "lightmem-sensory-topic-sleep-framework",
+      "category": "architecture",
+      "path": "architecture/lightmem-sensory-topic-sleep-framework",
+      "title": "LightMem · 感觉过滤、主题记忆与睡眠更新三面板",
+      "source": {
+        "project": "https://github.com/zjunlp/LightMem",
+        "authors": [
+          "Fang, Jizhan",
+          "Deng, Xinle",
+          "Xu, Haoming",
+          "Jiang, Ziyan",
+          "Tang, Yuqi",
+          "Xu, Ziwen",
+          "Deng, Shumin",
+          "Yao, Yunzhi",
+          "Wang, Mengru",
+          "Qiao, Shuofei",
+          "Chen, Huajun",
+          "Zhang, Ningyu"
+        ],
+        "urls": [
+          "https://github.com/zjunlp/LightMem",
+          "https://arxiv.org/abs/2510.18866v4",
+          "https://arxiv.org/pdf/2510.18866v4",
+          "https://arxiv.org/src/2510.18866v4"
+        ],
+        "arxiv_id": "2510.18866v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2510.18866v4",
+        "full_pdf_sha256": "7e9a8e9f39c616528d543ce8520606d47d56032eb004b55d452d0dce5725c23e",
+        "full_pdf_bytes": 4604558,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "882bb733d810e93fb71ed995206ba8ec19206e5dad7480d73dd7564963aef302",
+        "original_bytes": 1699511,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2510.18866v4",
+        "archive_sha256": "e24c5cbf57c1dae2f5904acf2be2920899697515768b0602ee37d5f985be495e",
+        "archive_bytes": 5229829,
+        "archive_member": "figure/Lightmem.png",
+        "inclusion_member": "iclr2026_conference.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "raster-reference",
+      "reference_neighbors": [
+        "memoryvla-cognition-memory-action",
+        "cortex-memory-consolidation",
+        "speculative-rag-draft-verify"
+      ]
+    },
+    {
+      "id": "survey-memory-representations-operations-map",
+      "category": "teaser",
+      "path": "teaser/survey-memory-representations-operations-map",
+      "title": "记忆综述 · 表示、六类操作与研究主题总览",
+      "source": {
+        "project": "https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI",
+        "authors": [
+          "Du, Yiming",
+          "Huang, Wenyu",
+          "Zheng, Danna",
+          "Wang, Zhaowei",
+          "Montella, Sebastien",
+          "Lapata, Mirella",
+          "Wong, Kam-Fai",
+          "Pan, Jeff Z."
+        ],
+        "urls": [
+          "https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI",
+          "https://arxiv.org/abs/2505.00675v3",
+          "https://arxiv.org/pdf/2505.00675v3",
+          "https://arxiv.org/src/2505.00675v3"
+        ],
+        "arxiv_id": "2505.00675v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2505.00675v3",
+        "full_pdf_sha256": "23724df6e6a38bdffc97c8bccb132581bf1e21fa534d5c19f84c80d5ab0e741d",
+        "full_pdf_bytes": 7897565,
+        "page_number": 4,
+        "figure_number": 1,
+        "original_sha256": "d33cbb7337bc39e6aa1316d59dcaac541e2973b62eae00f6a05b4ac3cc4f0fe9",
+        "original_bytes": 216184,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2505.00675v3",
+        "archive_sha256": "86130ed1e4465363f5b64e248b0e6ac57be136edbaf96e88d9f7474ee4891467",
+        "archive_bytes": 8770488,
+        "archive_member": "figures_new/framework_1018.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "cortex-memory-consolidation",
+        "speculative-rag-draft-verify",
+        "memoryvla-cognition-memory-action"
+      ]
+    },
+    {
+      "id": "survey-ai-memory-video-task-panels",
+      "category": "teaser",
+      "path": "teaser/survey-ai-memory-video-task-panels",
+      "title": "AI 记忆综述 · 视频对象、动作、问答与生成四面板",
+      "source": {
+        "project": "https://github.com/bigai-nlco/LLM-Memory-Survey",
+        "authors": [
+          "Jia, Zixia",
+          "Li, Jiaqi",
+          "Kang, Yipeng",
+          "Wang, Yuxuan",
+          "Wu, Tong",
+          "Wang, Quansen",
+          "Wang, Xiaobo",
+          "Zhang, Shuyi",
+          "Shen, Junzhe",
+          "Li, Qing",
+          "Qi, Siyuan",
+          "Liang, Yitao",
+          "He, Di",
+          "Zheng, Zilong",
+          "Zhu, Song-Chun"
+        ],
+        "urls": [
+          "https://github.com/bigai-nlco/LLM-Memory-Survey",
+          "https://arxiv.org/abs/2601.09113v1",
+          "https://arxiv.org/pdf/2601.09113v1",
+          "https://arxiv.org/src/2601.09113v1"
+        ],
+        "arxiv_id": "2601.09113v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2601.09113v1",
+        "full_pdf_sha256": "87b6aa9c115cfc92820d82663f0ed67051b662bfc28cf5de607b054c14642895",
+        "full_pdf_bytes": 6627437,
+        "page_number": 38,
+        "figure_number": 14,
+        "original_sha256": "d1e25960c965e7a38135fbd42403afce4220c6741e8a62977588c325072b0f38",
+        "original_bytes": 1130302,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2601.09113v1",
+        "archive_sha256": "71cbdbe3eb492576baeca8270354d6f6d598097faa7b6d18e1ca08037e877b06",
+        "archive_bytes": 9628552,
+        "archive_member": "sections/mllm/memory_downstream.pdf",
+        "inclusion_member": "sections/mllm/mllm_memory.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "memoryvla-cognition-memory-action",
+        "survey-genai-wireless-four-scenarios"
+      ]
+    },
+    {
+      "id": "survey-ai-memory-agent-feedback-framework",
+      "category": "architecture",
+      "path": "architecture/survey-ai-memory-agent-feedback-framework",
+      "title": "AI 记忆综述 · 感觉、短期、长期记忆与行动闭环",
+      "source": {
+        "project": "https://github.com/bigai-nlco/LLM-Memory-Survey",
+        "authors": [
+          "Jia, Zixia",
+          "Li, Jiaqi",
+          "Kang, Yipeng",
+          "Wang, Yuxuan",
+          "Wu, Tong",
+          "Wang, Quansen",
+          "Wang, Xiaobo",
+          "Zhang, Shuyi",
+          "Shen, Junzhe",
+          "Li, Qing",
+          "Qi, Siyuan",
+          "Liang, Yitao",
+          "He, Di",
+          "Zheng, Zilong",
+          "Zhu, Song-Chun"
+        ],
+        "urls": [
+          "https://github.com/bigai-nlco/LLM-Memory-Survey",
+          "https://arxiv.org/abs/2601.09113v1",
+          "https://arxiv.org/pdf/2601.09113v1",
+          "https://arxiv.org/src/2601.09113v1"
+        ],
+        "arxiv_id": "2601.09113v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2601.09113v1",
+        "full_pdf_sha256": "87b6aa9c115cfc92820d82663f0ed67051b662bfc28cf5de607b054c14642895",
+        "full_pdf_bytes": 6627437,
+        "page_number": 24,
+        "figure_number": 9,
+        "original_sha256": "3e6e81721d232f6781ea559442e89217f3183efc6165d9e651897cab631b6e2b",
+        "original_bytes": 189348,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2601.09113v1",
+        "archive_sha256": "71cbdbe3eb492576baeca8270354d6f6d598097faa7b6d18e1ca08037e877b06",
+        "archive_bytes": 9628552,
+        "archive_member": "sections/llm_agent/agent_mem_newcolor.pdf",
+        "inclusion_member": "sections/llm_agent/llm_agent.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": "vector-and-raster",
+      "reference_neighbors": [
+        "memoryvla-cognition-memory-action",
+        "cortex-memory-consolidation"
+      ]
+    }
+  ]
+}

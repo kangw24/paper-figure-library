@@ -7,9 +7,9 @@
 | 预览 | 名称与 SVG | 来源与许可 | 关联范例（最多列三项） |
 |---|---|---|---|
 | <img src="../../element/previews/tabler-cpu.png" width="140"> | [CPU](../../element/svg/tabler-cpu.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-device-desktop.png" width="140"> | [台式电脑](../../element/svg/tabler-device-desktop.svg) | Tabler outline · MIT | [AI4Research · 三大领域、七类应用面板](../../teaser/survey-ai4research-seven-domains/README.md) · [可微仿真综述 · 十二个场景的双排时间线](../../teaser/survey-diffsim-twelve-scenes/README.md) |
+| <img src="../../element/previews/tabler-device-desktop.png" width="140"> | [台式电脑](../../element/svg/tabler-device-desktop.svg) | Tabler outline · MIT | [AI4Research · 三大领域、七类应用面板](../../teaser/survey-ai4research-seven-domains/README.md) · [可微仿真综述 · 十二个场景的双排时间线](../../teaser/survey-diffsim-twelve-scenes/README.md) · [GenAI 网络管理 · 控制面、数据面与切片场景](../../teaser/survey-genai-network-management-scenes/README.md) |
 | <img src="../../element/previews/tabler-device-laptop.png" width="140"> | [笔记本电脑](../../element/svg/tabler-device-laptop.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-device-mobile.png" width="140"> | [手机](../../element/svg/tabler-device-mobile.svg) | Tabler outline · MIT | [无线生成式 AI · 城市场景串联四类应用](../../teaser/survey-genai-wireless-four-scenarios/README.md) |
+| <img src="../../element/previews/tabler-device-mobile.png" width="140"> | [手机](../../element/svg/tabler-device-mobile.svg) | Tabler outline · MIT | [GenAI × IoT · 分层技术栈与多场景应用](../../teaser/survey-genai-iot-layers-scenes/README.md) · [无线生成式 AI · 城市场景串联四类应用](../../teaser/survey-genai-wireless-four-scenarios/README.md) |
 | <img src="../../element/previews/tabler-server.png" width="140"> | [服务器](../../element/svg/tabler-server.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-cloud.png" width="140"> | [云](../../element/svg/tabler-cloud.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-cloud-upload.png" width="140"> | [上传云端](../../element/svg/tabler-cloud-upload.svg) | Tabler outline · MIT | — |

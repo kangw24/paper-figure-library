@@ -1,0 +1,9 @@
+Paper: Applications of Generative AI (GAI) for Mobile and Wireless Networking: A Survey
+Authors: Vu, Thai-Hoc, Jagatheesaperumal, Senthil Kumar, Nguyen, Minh-Duong, Van Huynh, Nguyen, Kim, Sunghwan, Pham, Quoc-Viet
+Source version: 2405.20024v2
+Archive: https://arxiv.org/src/2405.20024v2
+Member: Photo/GAI_operation.pdf
+Original SHA256: 92965b8cf600110a821480b26b326d5f0efd51811d472164ed7534cde0ddff1e
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

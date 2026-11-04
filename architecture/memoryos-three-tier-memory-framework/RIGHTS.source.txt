@@ -1,0 +1,9 @@
+Paper: Memory OS of AI Agent
+Authors: Kang, Jiazheng, Ji, Mingming, Zhao, Zhe, Bai, Ting
+Source version: 2506.06326v1
+Archive: https://arxiv.org/src/2506.06326v1
+Member: latex/figure/mem_pipline.pdf
+Original SHA256: 32313e9ce3ef789d06c961b4863877c5757ab5ec3cd8c07bdbef9351c3cd59b5
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

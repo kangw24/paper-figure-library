@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "hipporag-brain-region-framework",
+  "title": "HippoRAG · 三脑区类比与索引检索框架",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "上方三个脑区与下方 LLM、检索编码器、知识图谱及 PageRank 一一对应，再按离线索引和在线检索两行展开。",
+  "publication": {
+    "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html",
+    "source_version": "2405.14831v3",
+    "checked_date": "2026-11-05",
+    "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+  },
+  "curation": {
+    "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "三列脑区及计算模块对应，下面两行展开离线与在线操作。",
+      "panel_groups": 3,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "上方三个脑区与下方 LLM、检索编码器、知识图谱及 PageRank 一一对应，再按离线索引和在线检索两行展开。",
+    "what_to_borrow": [
+      "用竖向对齐保持生物对象与计算模块的对应。",
+      "上下两行复用视觉对象，突出训练外索引与查询差别。"
+    ],
+    "reference_neighbors": [
+      "cortex-memory-consolidation",
+      "memoryvla-cognition-memory-action",
+      "speculative-rag-draft-verify"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/OSU-NLP-Group/HippoRAG",
+    "authors": [
+      "Gutiérrez, Bernal Jiménez",
+      "Shu, Yiheng",
+      "Gu, Yu",
+      "Yasunaga, Michihiro",
+      "Su, Yu"
+    ],
+    "urls": [
+      "https://github.com/OSU-NLP-Group/HippoRAG",
+      "https://arxiv.org/abs/2405.14831v3",
+      "https://arxiv.org/pdf/2405.14831v3",
+      "https://arxiv.org/src/2405.14831v3",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html"
+    ],
+    "arxiv_id": "2405.14831v3",
+    "full_pdf_url": "https://arxiv.org/pdf/2405.14831v3",
+    "full_pdf_sha256": "14671c78fc7de99d83bb9e52e2d5b335d4756066925e67df1a25c0e272133aad",
+    "full_pdf_bytes": 3404698,
+    "page_number": 4,
+    "figure_number": 2,
+    "original_sha256": "bfccb124a2fdecf39cd88a16de13bf090eb1a0ca6213240621ca403b3cd024ec",
+    "original_bytes": 1061906,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2405.14831v3",
+    "archive_sha256": "b581bf9cb90df4acb02585c5944fe84b95bfc30763a4dfb5f086de536ebe9683",
+    "archive_bytes": 2586441,
+    "archive_member": "figures/HippoRAG_method_version_4.pdf",
+    "inclusion_member": "neurips_2024.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 171,
+    "pdf_text_spans": 52,
+    "embedded_raster_images": 47,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 38,
+      "path": 332,
+      "mask": 47,
+      "g": 180,
+      "image": 32,
+      "use": 327
+    },
+    "normalized_path_transforms": 79,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 171 个绘图对象、52 个文本片段和 47 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 747,
+      "sha256": "02342efb9d257a003046f3e27ae0a8cc3954bbb16d1a6b365325fa7a978f33a2"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 967,
+      "sha256": "f4334ba38823c96483251c7d8aab1503b341ac6b4701ca136da07aa8171cba4c"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1061906,
+      "sha256": "bfccb124a2fdecf39cd88a16de13bf090eb1a0ca6213240621ca403b3cd024ec"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 917941,
+      "sha256": "e412b2329b799d8893a9887e1b39eb55918f5301d5f6610d81c8663eaa7cf5f3"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1435179,
+      "sha256": "cb42006f1ee92fb86e8d2c24d6859bcc18b89f2a1b88b52f6be6aa21c5f232be"
+    }
+  ]
+}

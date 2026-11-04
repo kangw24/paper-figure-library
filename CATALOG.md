@@ -6,8 +6,8 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 66 | [浏览](teaser/README.md) |
-| Architecture 范例 | 46 | [浏览](architecture/README.md) |
+| Teaser 范例 | 76 | [浏览](teaser/README.md) |
+| Architecture 范例 | 56 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 341 | [按内容与来源浏览](element/README.md) |
 
 完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。
@@ -98,6 +98,17 @@ ICML 2024 · Oral · 矢量 + 原有位图
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](teaser/genie-interaction/source.svg) · [来源记录](teaser/genie-interaction/metadata.json)
 
+### [HippoRAG · 普通 RAG、人类记忆与海马索引对照](teaser/hipporag-human-memory-comparison/README.md)
+
+三行共享同一索引与问答任务，比较普通 RAG、人类记忆和 HippoRAG；脑区高亮、知识关联和答案对错一起解释方法动机。
+
+NeurIPS 2024 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="teaser/hipporag-human-memory-comparison/preview.png" width="760" alt="HippoRAG · 普通 RAG、人类记忆与海马索引对照">](teaser/hipporag-human-memory-comparison/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/hipporag-human-memory-comparison/original.pdf) · [来源记录](teaser/hipporag-human-memory-comparison/metadata.json)
+
 ### [K-LoRA：主体风格组合与训练范式比较](teaser/k-lora/README.md)
 
 左侧主体与风格组合示例，右侧比较需要训练与免训练的融合方式。
@@ -116,6 +127,17 @@ ICML 2024 · Oral · 矢量 + 原有位图
 来源类型：论文范例。许可：Apache-2.0。
 [原文件](teaser/lightglue-tradeoff/source.svg) · [来源记录](teaser/lightglue-tradeoff/metadata.json)
 
+### [LightMem · 原始记忆流水线与主题过滤、睡眠更新对照](teaser/lightmem-memory-construction-comparison/README.md)
+
+上下对照展示冗余输入、反复构建与在线更新，以及先过滤、按主题组织、离线统一更新的改变；具体记忆项和动作贯穿对照。
+
+ICLR 2026 · 会议论文，未核实 Oral · 整图位图，仅构图参考
+
+[<img src="teaser/lightmem-memory-construction-comparison/preview.png" width="760" alt="LightMem · 原始记忆流水线与主题过滤、睡眠更新对照">](teaser/lightmem-memory-construction-comparison/original.png)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/lightmem-memory-construction-comparison/original.png) · [来源记录](teaser/lightmem-memory-construction-comparison/metadata.json)
+
 ### [MemoryVLA · 人类记忆类比、方法与性能首图](teaser/memoryvla-cognition-memory-action/README.md)
 
 以时间混淆问题为动机，对照人类的工作记忆与情景记忆、MemoryVLA 的感知—认知记忆机制，底部再放四组性能对照与机器人任务示例。
@@ -126,6 +148,28 @@ ICLR 2026 · 会议论文，未核实 Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/memoryvla-cognition-memory-action/original.pdf) · [来源记录](teaser/memoryvla-cognition-memory-action/metadata.json)
+
+### [MemOS · LLM 记忆、人类类比与可管理记忆三阶段](teaser/memos-memory-evolution-three-stages/README.md)
+
+弧形带状构图依次放入记忆类型坐标、人类脑区类比和记忆管理操作，用统一视线解释从记忆定义到系统管理的转变。
+
+arXiv 2025 · 预印本 · 矢量 + 原有位图
+
+[<img src="teaser/memos-memory-evolution-three-stages/preview.png" width="760" alt="MemOS · LLM 记忆、人类类比与可管理记忆三阶段">](teaser/memos-memory-evolution-three-stages/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
+[原文件](teaser/memos-memory-evolution-three-stages/original.pdf) · [来源记录](teaser/memos-memory-evolution-three-stages/metadata.json)
+
+### [MemOS · 文本、激活与参数记忆的双向转化](teaser/memos-three-memory-consolidation-paths/README.md)
+
+文本、激活和参数记忆采用同一医疗例子，三栏之间以不同路径说明编码、解码、缓存、微调和参数解码，上下长箭头概括巩固与激活方向。
+
+arXiv 2025 · 预印本 · 矢量 + 原有位图
+
+[<img src="teaser/memos-three-memory-consolidation-paths/preview.png" width="760" alt="MemOS · 文本、激活与参数记忆的双向转化">](teaser/memos-three-memory-consolidation-paths/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
+[原文件](teaser/memos-three-memory-consolidation-paths/original.pdf) · [来源记录](teaser/memos-three-memory-consolidation-paths/metadata.json)
 
 ### [MVSplat · 重建质量、速度与参数量的并列对照](teaser/mvsplat-comparison/README.md)
 
@@ -284,6 +328,17 @@ arXiv 2023 · 预印本 · 综述 · 矢量 + 原有位图
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-agent-society-teaser/original.pdf) · [来源记录](teaser/survey-agent-society-teaser/metadata.json)
 
+### [AI 记忆综述 · 视频对象、动作、问答与生成四面板](teaser/survey-ai-memory-video-task-panels/README.md)
+
+2×2 面板并列对象级跟踪、动作定位、综合视频问答和视频生成。每组使用连续帧、局部高亮或问答示例解释任务所需的时序信息。
+
+arXiv 2026 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-ai-memory-video-task-panels/preview.png" width="760" alt="AI 记忆综述 · 视频对象、动作、问答与生成四面板">](teaser/survey-ai-memory-video-task-panels/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-ai-memory-video-task-panels/original.pdf) · [来源记录](teaser/survey-ai-memory-video-task-panels/metadata.json)
+
 ### [AI for PDEs · 物理与数据条件下的三类方法对照](teaser/survey-ai-pde-physics-data-paradigms/README.md)
 
 同一套物理信息／数据条件标记贯穿多个子区，各区给出相应方法的科学示意和求解路径。子图围绕一个共同问题形成对照，能同时说明方法差异、适用条件及相互融合的关系。
@@ -427,6 +482,39 @@ arXiv 2021 · 预印本 · 综述 · 矢量 + 原有位图
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](teaser/survey-foundation-model-ecosystem/original.pdf) · [来源记录](teaser/survey-foundation-model-ecosystem/metadata.json)
 
+### [GenAI 综述 · 演进、生成模型与代表方法拼图](teaser/survey-genai-history-model-mosaic/README.md)
+
+将历史演进轴、三类生成结构、多任务与元学习，以及 GPT、DALL-E、CLIP 局部机制组合在一起；信息丰富且层次清楚。
+
+arXiv 2024 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-genai-history-model-mosaic/preview.png" width="760" alt="GenAI 综述 · 演进、生成模型与代表方法拼图">](teaser/survey-genai-history-model-mosaic/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-genai-history-model-mosaic/original.pdf) · [来源记录](teaser/survey-genai-history-model-mosaic/metadata.json)
+
+### [GenAI × IoT · 分层技术栈与多场景应用](teaser/survey-genai-iot-layers-scenes/README.md)
+
+上半部把技术栈和生成流程并排，下半部围绕通信节点展开感知、追踪、控制和远程应用，将层级、机制和场景放在同一画面。
+
+arXiv 2024 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-genai-iot-layers-scenes/preview.png" width="760" alt="GenAI × IoT · 分层技术栈与多场景应用">](teaser/survey-genai-iot-layers-scenes/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-genai-iot-layers-scenes/original.pdf) · [来源记录](teaser/survey-genai-iot-layers-scenes/metadata.json)
+
+### [GenAI 网络管理 · 控制面、数据面与切片场景](teaser/survey-genai-network-management-scenes/README.md)
+
+以控制面和数据面形成上下两层，用网络切片、设备和生成模型局部展开解释网络控制、资源配置与信道估计。
+
+arXiv 2024 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-genai-network-management-scenes/preview.png" width="760" alt="GenAI 网络管理 · 控制面、数据面与切片场景">](teaser/survey-genai-network-management-scenes/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-genai-network-management-scenes/original.pdf) · [来源记录](teaser/survey-genai-network-management-scenes/metadata.json)
+
 ### [无线生成式 AI · 城市场景串联四类应用](teaser/survey-genai-wireless-four-scenarios/README.md)
 
 四个方法场景围绕中心城市示意组织：信道估计、定位数据增强、雷达去噪、人体感知域适应。每区既有应用对象，也有局部模型或信号流程。
@@ -437,6 +525,17 @@ arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
 
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-genai-wireless-four-scenarios/original.pdf) · [来源记录](teaser/survey-genai-wireless-four-scenarios/metadata.json)
+
+### [GenAI 无线安全 · 四场景与局部机制并列](teaser/survey-genai-wireless-security-four-panels/README.md)
+
+四栏分别解释敏感数据隐藏、入侵检测、干扰攻击和生成式隐写。每栏都有场景或数据图标、局部网络与关键箭头，最接近参考图 1 的信息密度。
+
+arXiv 2024 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-genai-wireless-security-four-panels/preview.png" width="760" alt="GenAI 无线安全 · 四场景与局部机制并列">](teaser/survey-genai-wireless-security-four-panels/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-genai-wireless-security-four-panels/original.pdf) · [来源记录](teaser/survey-genai-wireless-security-four-panels/metadata.json)
 
 ### [图基础模型范式对照 · 专用学习与共享预训练](teaser/survey-graph-foundation-paradigm/README.md)
 
@@ -514,6 +613,17 @@ Frontiers of Computer Science 2026 · 期刊论文 · 综述 · 矢量结构
 
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](teaser/survey-lm-capability-evolution/original.pdf) · [来源记录](teaser/survey-lm-capability-evolution/metadata.json)
+
+### [记忆综述 · 表示、六类操作与研究主题总览](teaser/survey-memory-representations-operations-map/README.md)
+
+左侧操作与 Transformer 参数结构，中间上下文记忆及两个会话例子，右侧把四个研究主题映射到记忆类型与操作，兼有概念、例子和对应关系。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-memory-representations-operations-map/preview.png" width="760" alt="记忆综述 · 表示、六类操作与研究主题总览">](teaser/survey-memory-representations-operations-map/original.pdf)
+
+来源类型：论文范例。许可：CC0 1.0（所收录论文版本）。
+[原文件](teaser/survey-memory-representations-operations-map/original.pdf) · [来源记录](teaser/survey-memory-representations-operations-map/metadata.json)
 
 ### [多模态大模型发展 · 分段曲线时间线](teaser/survey-mllm-timeline/README.md)
 
@@ -739,6 +849,17 @@ ICCV 2021 · Oral · 矢量 + 原有位图
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/3detr-architecture/source.svg) · [来源记录](architecture/3detr-architecture/metadata.json)
 
+### [A-MEM · 笔记构建、关联、演化与检索四分区](architecture/amem-notes-links-evolution-framework/README.md)
+
+四个相邻分区把对话写成笔记、为记忆建立关联、更新原有记忆和查询检索串联起来；笔记、分组和模型符号跨区复用。
+
+NeurIPS 2025 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/amem-notes-links-evolution-framework/preview.png" width="760" alt="A-MEM · 笔记构建、关联、演化与检索四分区">](architecture/amem-notes-links-evolution-framework/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/amem-notes-links-evolution-framework/original.pdf) · [来源记录](architecture/amem-notes-links-evolution-framework/metadata.json)
+
 ### [BLIP-2 · 冻结图像与语言模型的两阶段桥接](architecture/blip2-bridge-framework/README.md)
 
 左右两块分别说明表示学习和生成学习，只让中间的 Q-Former 成为主要可训练连接，冻结标记紧邻对应基础模型。
@@ -769,6 +890,17 @@ CLIP 的训练与零样本使用流程，按方法流程归入 architecture。
 
 来源类型：论文范例。许可：arXiv non-exclusive distribution license。
 [原文件](architecture/clip/source.svg) · [来源记录](architecture/clip/metadata.json)
+
+### [CRAG · 评估分流、知识纠正与三路生成](architecture/crag-evaluate-correct-generate/README.md)
+
+检索质量分成正确、模糊和错误三路，分别触发知识精炼、网页搜索或两者结合；底部对照三类证据组合如何进入生成器。
+
+arXiv 2024 · 预印本 · 矢量 + 原有位图
+
+[<img src="architecture/crag-evaluate-correct-generate/preview.png" width="760" alt="CRAG · 评估分流、知识纠正与三路生成">](architecture/crag-evaluate-correct-generate/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/crag-evaluate-correct-generate/original.pdf) · [来源记录](architecture/crag-evaluate-correct-generate/metadata.json)
 
 ### [CUT3R · 持久状态的更新、读取与未见视角推断](architecture/cut3r-architecture/README.md)
 
@@ -969,6 +1101,28 @@ ICML 2024 · Oral · 整图位图，仅构图参考
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/genie-architecture/source.png) · [来源记录](architecture/genie-architecture/metadata.json)
 
+### [HippoRAG · 三脑区类比与索引检索框架](architecture/hipporag-brain-region-framework/README.md)
+
+上方三个脑区与下方 LLM、检索编码器、知识图谱及 PageRank 一一对应，再按离线索引和在线检索两行展开。
+
+NeurIPS 2024 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/hipporag-brain-region-framework/preview.png" width="760" alt="HippoRAG · 三脑区类比与索引检索框架">](architecture/hipporag-brain-region-framework/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/hipporag-brain-region-framework/original.pdf) · [来源记录](architecture/hipporag-brain-region-framework/metadata.json)
+
+### [HippoRAG 2 · 图谱索引、筛选与检索双阶段](architecture/hipporag2-indexing-retrieval-framework/README.md)
+
+两行分别展示离线知识图谱构建与在线问答。节点、边与颜色图例明确，局部图谱逐步变化，解释三元组筛选、种子权重与 PageRank。
+
+ICML 2025 · 会议论文，未核实 Oral · 矢量结构
+
+[<img src="architecture/hipporag2-indexing-retrieval-framework/preview.png" width="760" alt="HippoRAG 2 · 图谱索引、筛选与检索双阶段">](architecture/hipporag2-indexing-retrieval-framework/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/hipporag2-indexing-retrieval-framework/original.pdf) · [来源记录](architecture/hipporag2-indexing-retrieval-framework/metadata.json)
+
 ### [Instant NGP · 多分辨率哈希编码到 MLP](architecture/instant-ngp-hash-architecture/README.md)
 
 通过五个编号步骤，将空间采样、哈希查表、插值、拼接与网络连接起来；不同尺度的颜色可贯穿整张图。
@@ -1020,6 +1174,17 @@ ECCV 2024 · Oral · 矢量 + 原有位图
 来源类型：论文范例。许可：Apache-2.0（来源仓库）。。
 [原文件](architecture/lightglue/source.svg) · [来源记录](architecture/lightglue/metadata.json)
 
+### [LightMem · 感觉过滤、主题记忆与睡眠更新三面板](architecture/lightmem-sensory-topic-sleep-framework/README.md)
+
+三面板以实际对话和记忆项解释 token 过滤、主题切分、结构化摘要与离线合并；包含注意力矩阵、局部峰值及更新队列。
+
+ICLR 2026 · 会议论文，未核实 Oral · 整图位图，仅构图参考
+
+[<img src="architecture/lightmem-sensory-topic-sleep-framework/preview.png" width="760" alt="LightMem · 感觉过滤、主题记忆与睡眠更新三面板">](architecture/lightmem-sensory-topic-sleep-framework/original.png)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/lightmem-sensory-topic-sleep-framework/original.png) · [来源记录](architecture/lightmem-sensory-topic-sleep-framework/metadata.json)
+
 ### [LLaVA · 视觉投影与语言 token 的统一输入](architecture/llava-original-architecture/README.md)
 
 用颜色和形状区分视觉 token、指令 token 与生成 token，投影层把图像特征接入语言模型的关系简洁清楚。
@@ -1030,6 +1195,28 @@ NeurIPS 2023 · Oral · 矢量结构
 
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](architecture/llava-original-architecture/source.svg) · [来源记录](architecture/llava-original-architecture/metadata.json)
+
+### [MemoryOS · 三层记忆、动态更新与回答生成](architecture/memoryos-three-tier-memory-framework/README.md)
+
+短期、中期和长期个人记忆并排展开，包含队列、页面、热度、用户画像与检索回路；上下主线把存储、更新和生成串起来。
+
+EMNLP 2025 · Oral · 矢量 + 原有位图
+
+[<img src="architecture/memoryos-three-tier-memory-framework/preview.png" width="760" alt="MemoryOS · 三层记忆、动态更新与回答生成">](architecture/memoryos-three-tier-memory-framework/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/memoryos-three-tier-memory-framework/original.pdf) · [来源记录](architecture/memoryos-three-tier-memory-framework/metadata.json)
+
+### [MemoryVLA · 感知认知记忆库与扩散动作网络](architecture/memoryvla-perceptual-cognitive-architecture/README.md)
+
+左侧视觉与语言编码，中间感知认知记忆库、检索、门控融合和巩固回路，右侧展开动作专家的双路注意力与去噪结构。
+
+ICLR 2026 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/memoryvla-perceptual-cognitive-architecture/preview.png" width="760" alt="MemoryVLA · 感知认知记忆库与扩散动作网络">](architecture/memoryvla-perceptual-cognitive-architecture/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/memoryvla-perceptual-cognitive-architecture/original.pdf) · [来源记录](architecture/memoryvla-perceptual-cognitive-architecture/metadata.json)
 
 ### [多尺度网络总览与模块展开](architecture/multiscale-network/README.md)
 
@@ -1111,6 +1298,17 @@ ICML 2024 · Oral · 矢量结构
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/sd3-mmdit-architecture/source.svg) · [来源记录](architecture/sd3-mmdit-architecture/metadata.json)
 
+### [Self-RAG · 检索、并行生成与自评选择](architecture/selfrag-retrieve-generate-critique/README.md)
+
+左侧是固定检索 RAG，右侧完整展开按需检索、并行生成和自评选择，下方再用不需要检索的请求形成补充对照。
+
+ICLR 2024 · Oral · 矢量 + 原有位图
+
+[<img src="architecture/selfrag-retrieve-generate-critique/preview.png" width="760" alt="Self-RAG · 检索、并行生成与自评选择">](architecture/selfrag-retrieve-generate-critique/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
+[原文件](architecture/selfrag-retrieve-generate-critique/original.pdf) · [来源记录](architecture/selfrag-retrieve-generate-critique/metadata.json)
+
 ### [Speculative RAG · 并行起草与通用模型验证](architecture/speculative-rag-draft-verify/README.md)
 
 小型专用 RAG 模型对不同文档子集并行生成答案草稿和依据，再由大型通用模型验证并选择。图内明确展示查询、文档、答案、依据与两类模型之间的数据流。
@@ -1133,6 +1331,17 @@ arXiv 2023 · 预印本 · 综述 · 矢量 + 原有位图
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](architecture/survey-agent-perception-brain-action/original.pdf) · [来源记录](architecture/survey-agent-perception-brain-action/metadata.json)
 
+### [AI 记忆综述 · 感觉、短期、长期记忆与行动闭环](architecture/survey-ai-memory-agent-feedback-framework/README.md)
+
+层叠的感觉、短期和长期记忆与右侧策略推理相连，外圈串联环境、观测、行动与人类反馈；图内保留具体记忆内容和多模态输入。
+
+arXiv 2026 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="architecture/survey-ai-memory-agent-feedback-framework/preview.png" width="760" alt="AI 记忆综述 · 感觉、短期、长期记忆与行动闭环">](architecture/survey-ai-memory-agent-feedback-framework/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/survey-ai-memory-agent-feedback-framework/original.pdf) · [来源记录](architecture/survey-ai-memory-agent-feedback-framework/metadata.json)
+
 ### [自主 Agent 统一框架 · 四列模块分解](architecture/survey-autonomous-agent-modules/README.md)
 
 将 Profile、Memory、Planning、Action 并列成四列，列内再分子能力，顶部说明共享的 LLM 基础，适合综述比较多个系统的共同组成。
@@ -1143,6 +1352,17 @@ Frontiers of Computer Science 2024 · 期刊论文 · 综述 · 矢量 + 原有�
 
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](architecture/survey-autonomous-agent-modules/original.pdf) · [来源记录](architecture/survey-autonomous-agent-modules/metadata.json)
+
+### [GenAI 语义通信 · 语义记忆与物理信道双路框架](architecture/survey-genai-semantic-memory-framework/README.md)
+
+发送端先提取共同知识和变化数据，上路通过两端语义记忆共享知识，下路通过 DJSCC 编解码与无线信道重建数据，最后输出预测。
+
+arXiv 2024 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="architecture/survey-genai-semantic-memory-framework/preview.png" width="760" alt="GenAI 语义通信 · 语义记忆与物理信道双路框架">](architecture/survey-genai-semantic-memory-framework/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/survey-genai-semantic-memory-framework/original.pdf) · [来源记录](architecture/survey-genai-semantic-memory-framework/metadata.json)
 
 ### [MLLM 统一架构 · 模态接口与连接器对照](architecture/survey-mllm-connector-framework/README.md)
 

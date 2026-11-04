@@ -1,0 +1,9 @@
+Paper: Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection
+Authors: Asai, Akari, Wu, Zeqiu, Wang, Yizhong, Sil, Avirup, Hajishirzi, Hannaneh
+Source version: 2310.11511v1
+Archive: https://arxiv.org/src/2310.11511v1
+Member: figs/teaser_self_rag_v8.pdf
+Original SHA256: b5cd85892820a32b101300fc759d1228549f83672a5e432abff8385080e4d27e
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录 arXiv 论文版本声明 CC BY 4.0，保留作者署名、版本与转换记录；图中的第三方照片、商标或引用素材仍按原始权利核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

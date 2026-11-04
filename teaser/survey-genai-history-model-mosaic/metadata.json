@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "survey-genai-history-model-mosaic",
+  "title": "GenAI 综述 · 演进、生成模型与代表方法拼图",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "generative-ai",
+    "wireless",
+    "applications",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "将历史演进轴、三类生成结构、多任务与元学习，以及 GPT、DALL-E、CLIP 局部机制组合在一起；信息丰富且层次清楚。",
+  "publication": {
+    "title": "Applications of Generative AI (GAI) for Mobile and Wireless Networking: A Survey",
+    "venue": "arXiv",
+    "year": 2024,
+    "presentation": "preprint",
+    "article_type": "survey",
+    "evidence_url": "https://arxiv.org/abs/2405.20024v2",
+    "source_version": "2405.20024v2",
+    "checked_date": "2026-11-05"
+  },
+  "curation": {
+    "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+    "panel_layout": {
+      "summary": "上方历史轴与三类生成结构；下方多任务、元学习和三个代表模型栏目。",
+      "panel_groups": 7,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "将历史演进轴、三类生成结构、多任务与元学习，以及 GPT、DALL-E、CLIP 局部机制组合在一起；信息丰富且层次清楚。",
+    "what_to_borrow": [
+      "用长轴串起背景，机制框紧邻对应阶段。",
+      "在同一概念总览中嵌入多个可读的小结构图。"
+    ],
+    "reference_neighbors": [
+      "survey-genai-wireless-four-scenarios"
+    ],
+    "version_notes": "这是所收录 2024 年版本的历史快照；时间轴及代表模型没有更新到收录日期。原图内的各方法、商标与引用按作者原图保留。",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2405.20024v2",
+    "authors": [
+      "Vu, Thai-Hoc",
+      "Jagatheesaperumal, Senthil Kumar",
+      "Nguyen, Minh-Duong",
+      "Van Huynh, Nguyen",
+      "Kim, Sunghwan",
+      "Pham, Quoc-Viet"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2405.20024v2",
+      "https://arxiv.org/pdf/2405.20024v2",
+      "https://arxiv.org/src/2405.20024v2"
+    ],
+    "arxiv_id": "2405.20024v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+    "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+    "full_pdf_bytes": 12203487,
+    "page_number": 7,
+    "figure_number": 3,
+    "original_sha256": "0865fe82a58c1af4df28ed7534f4212280503d4ca3234a2253d6c03d684b2466",
+    "original_bytes": 370385,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2405.20024v2",
+    "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+    "archive_bytes": 11166377,
+    "archive_member": "Photo/GAI_preminilary.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 373,
+    "pdf_text_spans": 220,
+    "embedded_raster_images": 19,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 24,
+      "path": 641,
+      "mask": 6,
+      "g": 43,
+      "image": 25,
+      "use": 2691
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 373 个绘图对象、220 个文本片段和 19 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 776,
+      "sha256": "2c4e94d961f27f1268387e59bbc1461a885706681fcbf2f685b2305d4fdcfa65"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 307,
+      "sha256": "9e94d118fabf4603c541ed7f1a77e1939315b5f637ea0c9c10cc915e9537c2a7"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 370385,
+      "sha256": "0865fe82a58c1af4df28ed7534f4212280503d4ca3234a2253d6c03d684b2466"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 851576,
+      "sha256": "7f28ad118b277ce52ea04390062c541c612a27e7636201ae0cc71cd6210012bc"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 947994,
+      "sha256": "de9bf28f94e80ac55cb3e80976b9bb266cf12c79946ecef5ba781b9f248fad3c"
+    }
+  ]
+}

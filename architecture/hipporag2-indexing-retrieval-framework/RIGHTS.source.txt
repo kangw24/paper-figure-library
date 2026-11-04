@@ -1,0 +1,9 @@
+Paper: From RAG to Memory: Non-Parametric Continual Learning for Large Language Models
+Authors: Gutiérrez, Bernal Jiménez, Shu, Yiheng, Qi, Weijian, Zhou, Sizhe, Su, Yu
+Source version: 2502.14802v2
+Archive: https://arxiv.org/src/2502.14802v2
+Member: figure/methodology.pdf
+Original SHA256: ab1b52b0f6cab673ba84d0f1245685dbd69b6a8047d52cddb5509f63550132d6
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "survey-ai-memory-video-task-panels",
+  "title": "AI 记忆综述 · 视频对象、动作、问答与生成四面板",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "2×2 面板并列对象级跟踪、动作定位、综合视频问答和视频生成。每组使用连续帧、局部高亮或问答示例解释任务所需的时序信息。",
+  "publication": {
+    "title": "The AI Hippocampus: How Far are We From Human Memory?",
+    "venue": "arXiv",
+    "year": 2026,
+    "presentation": "preprint",
+    "article_type": "survey",
+    "evidence_url": "https://arxiv.org/abs/2601.09113v1",
+    "source_version": "2601.09113v1",
+    "checked_date": "2026-11-05"
+  },
+  "curation": {
+    "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+    "panel_layout": {
+      "summary": "2×2：Object level、Action level、General level、Generation；各面板再组合连续帧、问题或提示词。",
+      "panel_groups": 4,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "2×2 面板并列对象级跟踪、动作定位、综合视频问答和视频生成。每组使用连续帧、局部高亮或问答示例解释任务所需的时序信息。",
+    "what_to_borrow": [
+      "相同浅蓝底将每类任务的帧组与关键问题收在一起。",
+      "用帧组、边框高亮和局部文字共同表达任务差异。"
+    ],
+    "reference_neighbors": [
+      "memoryvla-cognition-memory-action",
+      "survey-genai-wireless-four-scenarios"
+    ],
+    "version_notes": "原文为 Figure 14（不是首图），本库将其作为多任务 teaser 的构图参考；连续帧与生成画面按作者原件保留为位图。",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/bigai-nlco/LLM-Memory-Survey",
+    "authors": [
+      "Jia, Zixia",
+      "Li, Jiaqi",
+      "Kang, Yipeng",
+      "Wang, Yuxuan",
+      "Wu, Tong",
+      "Wang, Quansen",
+      "Wang, Xiaobo",
+      "Zhang, Shuyi",
+      "Shen, Junzhe",
+      "Li, Qing",
+      "Qi, Siyuan",
+      "Liang, Yitao",
+      "He, Di",
+      "Zheng, Zilong",
+      "Zhu, Song-Chun"
+    ],
+    "urls": [
+      "https://github.com/bigai-nlco/LLM-Memory-Survey",
+      "https://arxiv.org/abs/2601.09113v1",
+      "https://arxiv.org/pdf/2601.09113v1",
+      "https://arxiv.org/src/2601.09113v1"
+    ],
+    "arxiv_id": "2601.09113v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2601.09113v1",
+    "full_pdf_sha256": "87b6aa9c115cfc92820d82663f0ed67051b662bfc28cf5de607b054c14642895",
+    "full_pdf_bytes": 6627437,
+    "page_number": 38,
+    "figure_number": 14,
+    "original_sha256": "d1e25960c965e7a38135fbd42403afce4220c6741e8a62977588c325072b0f38",
+    "original_bytes": 1130302,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2601.09113v1",
+    "archive_sha256": "71cbdbe3eb492576baeca8270354d6f6d598097faa7b6d18e1ca08037e877b06",
+    "archive_bytes": 9628552,
+    "archive_member": "sections/mllm/memory_downstream.pdf",
+    "inclusion_member": "sections/mllm/mllm_memory.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 13,
+    "pdf_text_spans": 33,
+    "embedded_raster_images": 22,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 45,
+      "path": 188,
+      "g": 67,
+      "use": 665,
+      "image": 14
+    },
+    "normalized_path_transforms": 7,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 13 个绘图对象、33 个文本片段和 22 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 833,
+      "sha256": "9d6bdc45a9bf2ac43b0c627229ea76ec2d082a9f4ad1904dcd493e5451686d89"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 221,
+      "sha256": "dd4362e659164694fbe6319227e52fa97ec6eea57e4838d848cbfc2aed884551"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1130302,
+      "sha256": "d1e25960c965e7a38135fbd42403afce4220c6741e8a62977588c325072b0f38"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 3083452,
+      "sha256": "5f30e2b57c86b08439dbc90aafbada54ae8578a6c379b45982313bc2e95e92a1"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1660802,
+      "sha256": "024185ae56e64c4f16b0376ac3a8cfeabb60dbbe1812920426271632d8e459b4"
+    }
+  ]
+}

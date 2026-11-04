@@ -7,6 +7,10 @@
         "id": "comparison",
         "title": "方法与范式对照",
         "figures": [
+          "hipporag-human-memory-comparison",
+          "memos-memory-evolution-three-stages",
+          "memos-three-memory-consolidation-paths",
+          "lightmem-memory-construction-comparison",
           "cortex-memory-consolidation",
           "survey-biomedical-six-methods",
           "survey-dynamics-physics-learning-spectrum",
@@ -28,6 +32,12 @@
         "title": "多子图主题与应用总览",
         "description": "按主题面板、任务组或场景组浏览，组内可包含多张图片。这里同时收录原论文 teaser 首图，以及适合借鉴为 teaser 的任务或应用总览；每项标明原图号和子图计数口径。",
         "figures": [
+          "survey-genai-iot-layers-scenes",
+          "survey-genai-history-model-mosaic",
+          "survey-genai-network-management-scenes",
+          "survey-genai-wireless-security-four-panels",
+          "survey-memory-representations-operations-map",
+          "survey-ai-memory-video-task-panels",
           "survey-genai-wireless-four-scenarios",
           "survey-ai4research-five-activities",
           "survey-ai4research-discovery-cycle",
@@ -113,6 +123,15 @@
         "id": "framework",
         "title": "整体方法与训练流程",
         "figures": [
+          "survey-genai-semantic-memory-framework",
+          "hipporag-brain-region-framework",
+          "hipporag2-indexing-retrieval-framework",
+          "amem-notes-links-evolution-framework",
+          "selfrag-retrieve-generate-critique",
+          "crag-evaluate-correct-generate",
+          "memoryos-three-tier-memory-framework",
+          "lightmem-sensory-topic-sleep-framework",
+          "survey-ai-memory-agent-feedback-framework",
           "speculative-rag-draft-verify",
           "cut3r-architecture",
           "dreamgaussian-architecture",
@@ -136,6 +155,7 @@
         "id": "network",
         "title": "网络主干与模块展开",
         "figures": [
+          "memoryvla-perceptual-cognitive-architecture",
           "dit-architecture",
           "sd3-mmdit-architecture",
           "vggt-architecture",
@@ -283,6 +303,33 @@
       "survey-scillm-six-domain-examples",
       "survey-scillm-data-construction",
       "survey-scillm-knowledge-levels"
+    ],
+    [
+      "survey-genai-iot-layers-scenes",
+      "survey-genai-history-model-mosaic",
+      "survey-genai-network-management-scenes",
+      "survey-genai-wireless-security-four-panels",
+      "survey-genai-semantic-memory-framework"
+    ],
+    [
+      "hipporag-human-memory-comparison",
+      "hipporag-brain-region-framework"
+    ],
+    [
+      "memos-memory-evolution-three-stages",
+      "memos-three-memory-consolidation-paths"
+    ],
+    [
+      "memoryvla-cognition-memory-action",
+      "memoryvla-perceptual-cognitive-architecture"
+    ],
+    [
+      "lightmem-memory-construction-comparison",
+      "lightmem-sensory-topic-sleep-framework"
+    ],
+    [
+      "survey-ai-memory-video-task-panels",
+      "survey-ai-memory-agent-feedback-framework"
     ]
   ],
   "suggested_elements": {
@@ -1004,6 +1051,126 @@
       "tabler-database",
       "tabler-network",
       "tabler-arrow-right"
+    ],
+    "survey-genai-iot-layers-scenes": [
+      "tabler-network",
+      "tabler-device-mobile",
+      "tabler-robot",
+      "tabler-arrow-right"
+    ],
+    "survey-genai-history-model-mosaic": [
+      "tabler-clock",
+      "tabler-network",
+      "tabler-photo",
+      "vit-encoder-block"
+    ],
+    "survey-genai-network-management-scenes": [
+      "tabler-network",
+      "tabler-device-desktop",
+      "tabler-arrows-split",
+      "tabler-wave-sine"
+    ],
+    "survey-genai-wireless-security-four-panels": [
+      "tabler-network",
+      "tabler-lock",
+      "towaki-neuralnetwork",
+      "tabler-wave-sine"
+    ],
+    "survey-genai-semantic-memory-framework": [
+      "tabler-database",
+      "rust-encoder",
+      "rust-decoder",
+      "tabler-arrows-split"
+    ],
+    "hipporag-human-memory-comparison": [
+      "tabler-brain",
+      "tabler-network",
+      "tabler-database",
+      "tabler-check"
+    ],
+    "hipporag-brain-region-framework": [
+      "tabler-brain",
+      "tabler-network",
+      "tabler-database",
+      "tabler-arrow-right"
+    ],
+    "hipporag2-indexing-retrieval-framework": [
+      "tabler-network",
+      "tabler-file-text",
+      "tabler-filter",
+      "tabler-arrow-right"
+    ],
+    "amem-notes-links-evolution-framework": [
+      "tabler-file-text",
+      "tabler-network",
+      "tabler-database",
+      "tabler-arrow-loop-right"
+    ],
+    "selfrag-retrieve-generate-critique": [
+      "tabler-file-text",
+      "tabler-network",
+      "tabler-check",
+      "tabler-arrows-split"
+    ],
+    "crag-evaluate-correct-generate": [
+      "tabler-filter",
+      "tabler-arrows-split",
+      "tabler-file-text",
+      "tabler-check"
+    ],
+    "memoryos-three-tier-memory-framework": [
+      "tabler-database",
+      "tabler-file-text",
+      "tabler-arrow-loop-right",
+      "tabler-user"
+    ],
+    "memos-memory-evolution-three-stages": [
+      "tabler-brain",
+      "tabler-database",
+      "tabler-arrow-loop-right",
+      "bioicons-pencil"
+    ],
+    "memos-three-memory-consolidation-paths": [
+      "tabler-database",
+      "tabler-brain",
+      "tabler-arrows-right-left",
+      "tabler-file-text"
+    ],
+    "memoryvla-perceptual-cognitive-architecture": [
+      "vit-encoder-block",
+      "dit-self-attention",
+      "tabler-database",
+      "tabler-arrow-loop-right"
+    ],
+    "lightmem-memory-construction-comparison": [
+      "tabler-database",
+      "tabler-file-text",
+      "tabler-clock",
+      "tabler-arrow-loop-right"
+    ],
+    "lightmem-sensory-topic-sleep-framework": [
+      "tabler-database",
+      "tabler-file-text",
+      "tabler-grid-dots",
+      "tabler-arrow-loop-right"
+    ],
+    "survey-memory-representations-operations-map": [
+      "tabler-database",
+      "tabler-network",
+      "tabler-file-text",
+      "tabler-arrow-loop-right"
+    ],
+    "survey-ai-memory-video-task-panels": [
+      "tabler-video",
+      "tabler-photo",
+      "tabler-target",
+      "tabler-clock"
+    ],
+    "survey-ai-memory-agent-feedback-framework": [
+      "tabler-brain",
+      "tabler-database",
+      "tabler-robot",
+      "tabler-arrow-loop-right"
     ]
   }
 }

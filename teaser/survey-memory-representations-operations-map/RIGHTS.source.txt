@@ -1,0 +1,9 @@
+Paper: Rethinking Memory in LLM based Agents: Representations, Operations, and Emerging Topics
+Authors: Du, Yiming, Huang, Wenyu, Zheng, Danna, Wang, Zhaowei, Montella, Sebastien, Lapata, Mirella, Wong, Kam-Fai, Pan, Jeff Z.
+Source version: 2505.00675v3
+Archive: https://arxiv.org/src/2505.00675v3
+Member: figures_new/framework_1018.pdf
+Original SHA256: d33cbb7337bc39e6aa1316d59dcaac541e2973b62eae00f6a05b4ac3cc4f0fe9
+Declared article license: https://creativecommons.org/publicdomain/zero/1.0/
+所收录 arXiv 版本声明 CC0 1.0；保留论文、作者与版本出处。图中第三方素材及商标不因该声明自动改变权利状态。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

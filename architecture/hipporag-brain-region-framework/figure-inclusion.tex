@@ -1,0 +1,7 @@
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figures/HippoRAG_method_version_4.pdf}
+  \caption{\textbf{Detailed HippoRAG Methodology.} We model the three components of human long-term memory to mimic its pattern separation and completion functions. For offline indexing \textbf{(Middle)}, we use an LLM to process passages into open KG triples, which are then added to our artificial hippocampal index, while our synthetic parahippocampal regions (PHR) detect synonymy. In the example above, triples involving Professor Thomas are extracted and integrated into the KG. For online retrieval \textbf{(Bottom)}, our LLM neocortex extracts named entities from a query while our parahippocampal retrieval encoders link them to our hippocampal index. We then leverage the Personalized PageRank algorithm to enable context-based retrieval and extract Professor Thomas.\protect\footnotemark}
+  \label{fig:detailed_method}
+  \vspace{-10pt}
+\end{figure}

@@ -2,7 +2,7 @@
 
 个人 CS / AI 论文配图素材库，按用途分为 **Teaser、Architecture、Element**。收集作者和已有素材库的源文件，用 Markdown 串联完整范例、方法结构与可复用部件。
 
-**66 个 teaser · 46 个 architecture · 341 个独立 element**。
+**76 个 teaser · 56 个 architecture · 341 个独立 element**。
 
 | 分类 | 用来找什么 | 入口 |
 |---|---|---|

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "survey-genai-network-management-scenes",
+  "title": "GenAI 网络管理 · 控制面、数据面与切片场景",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "generative-ai",
+    "wireless",
+    "applications",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "以控制面和数据面形成上下两层，用网络切片、设备和生成模型局部展开解释网络控制、资源配置与信道估计。",
+  "publication": {
+    "title": "Applications of Generative AI (GAI) for Mobile and Wireless Networking: A Survey",
+    "venue": "arXiv",
+    "year": 2024,
+    "presentation": "preprint",
+    "article_type": "survey",
+    "evidence_url": "https://arxiv.org/abs/2405.20024v2",
+    "source_version": "2405.20024v2",
+    "checked_date": "2026-11-05"
+  },
+  "curation": {
+    "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+    "panel_layout": {
+      "summary": "生成模型与网络状态在左；中间上下两平面；右侧三个切片及信道估计展开。",
+      "panel_groups": 3,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "以控制面和数据面形成上下两层，用网络切片、设备和生成模型局部展开解释网络控制、资源配置与信道估计。",
+    "what_to_borrow": [
+      "完整场景作为主视觉，局部机制放在关联位置。",
+      "上下平面让逻辑控制关系与真实网络对象同时可读。"
+    ],
+    "reference_neighbors": [
+      "survey-genai-wireless-four-scenarios"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2405.20024v2",
+    "authors": [
+      "Vu, Thai-Hoc",
+      "Jagatheesaperumal, Senthil Kumar",
+      "Nguyen, Minh-Duong",
+      "Van Huynh, Nguyen",
+      "Kim, Sunghwan",
+      "Pham, Quoc-Viet"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2405.20024v2",
+      "https://arxiv.org/pdf/2405.20024v2",
+      "https://arxiv.org/src/2405.20024v2"
+    ],
+    "arxiv_id": "2405.20024v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+    "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+    "full_pdf_bytes": 12203487,
+    "page_number": 9,
+    "figure_number": 5,
+    "original_sha256": "e5bde5e0e1afb85fffdbd03ac4cfb70dfd276cd5586fd60b3d83d497364d62c3",
+    "original_bytes": 1764110,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2405.20024v2",
+    "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+    "archive_bytes": 11166377,
+    "archive_member": "Photo/GAI_mangement.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 273,
+    "pdf_text_spans": 49,
+    "embedded_raster_images": 14,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 7,
+      "path": 448,
+      "mask": 10,
+      "g": 39,
+      "image": 22,
+      "use": 526
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 273 个绘图对象、49 个文本片段和 14 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 774,
+      "sha256": "320e4d1890ad480842c854877d4acb7c29b209d6e78ec2bd09649154dea33e13"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 303,
+      "sha256": "e5c714ba97cf0445ae66db1e1952e3b7f997dc59a11734935c3d155688e02ab9"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1764110,
+      "sha256": "e5bde5e0e1afb85fffdbd03ac4cfb70dfd276cd5586fd60b3d83d497364d62c3"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 435210,
+      "sha256": "64b3928226ecd07468c0072943abdd6f028138f409afccd8a0291052dc04531b"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 2521221,
+      "sha256": "263988c26d8f3f28b33f75f3bf8dafb282202b45d35a58947feecefeadd800fa"
+    }
+  ]
+}

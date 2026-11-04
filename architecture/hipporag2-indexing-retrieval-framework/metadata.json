@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "id": "hipporag2-indexing-retrieval-framework",
+  "title": "HippoRAG 2 · 图谱索引、筛选与检索双阶段",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "两行分别展示离线知识图谱构建与在线问答。节点、边与颜色图例明确，局部图谱逐步变化，解释三元组筛选、种子权重与 PageRank。",
+  "publication": {
+    "title": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models",
+    "venue": "ICML",
+    "year": 2025,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://proceedings.mlr.press/v267/gutierrez25a.html",
+    "source_version": "2502.14802v2",
+    "checked_date": "2026-11-05",
+    "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+  },
+  "curation": {
+    "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "上行三个索引步骤，下行五个检索问答步骤；右上统一图例。",
+      "panel_groups": 2,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "两行分别展示离线知识图谱构建与在线问答。节点、边与颜色图例明确，局部图谱逐步变化，解释三元组筛选、种子权重与 PageRank。",
+    "what_to_borrow": [
+      "重复使用图谱对象，通过着色变化显示中间状态。",
+      "阶段编号、图例和上下分路共同减轻长流程阅读负担。"
+    ],
+    "reference_neighbors": [
+      "speculative-rag-draft-verify",
+      "cortex-memory-consolidation"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/OSU-NLP-Group/HippoRAG",
+    "authors": [
+      "Gutiérrez, Bernal Jiménez",
+      "Shu, Yiheng",
+      "Qi, Weijian",
+      "Zhou, Sizhe",
+      "Su, Yu"
+    ],
+    "urls": [
+      "https://github.com/OSU-NLP-Group/HippoRAG",
+      "https://arxiv.org/abs/2502.14802v2",
+      "https://arxiv.org/pdf/2502.14802v2",
+      "https://arxiv.org/src/2502.14802v2",
+      "https://proceedings.mlr.press/v267/gutierrez25a.html"
+    ],
+    "arxiv_id": "2502.14802v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2502.14802v2",
+    "full_pdf_sha256": "90fa6af3ee8298a6c3abef6df0a9b0f092496cb7d6b1c3e8b55c5c8f5b552eb3",
+    "full_pdf_bytes": 2498688,
+    "page_number": 4,
+    "figure_number": 2,
+    "original_sha256": "ab1b52b0f6cab673ba84d0f1245685dbd69b6a8047d52cddb5509f63550132d6",
+    "original_bytes": 28598,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2502.14802v2",
+    "archive_sha256": "ea9a7e190e1225f4dcb922d1391bf9fe2050fa4e214b1ac1cf9f6f7626540fa9",
+    "archive_bytes": 11096031,
+    "archive_member": "figure/methodology.pdf",
+    "inclusion_member": "paper.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 191,
+    "pdf_text_spans": 41,
+    "embedded_raster_images": 0,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 57,
+      "path": 401,
+      "g": 58,
+      "use": 455
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 191 个绘图对象、41 个文本片段和 0 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 729,
+      "sha256": "47a22211a97fb00a811ac72bb9fb85fcbbc49d17c001a34e921ed380aa601992"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 911,
+      "sha256": "1e8b96a2536551f3396d484b040b445f36b3bc0afbd92c1eaf3d25227751b574"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 28598,
+      "sha256": "ab1b52b0f6cab673ba84d0f1245685dbd69b6a8047d52cddb5509f63550132d6"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 306844,
+      "sha256": "261dec46ac604de7d6a7b706374fef7fb662db162e1b08947d12b5e82dc4dd6d"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 186149,
+      "sha256": "87863567eac673057911c10a0d33a103d485540bd04174b289a3a688cd650d5c"
+    }
+  ]
+}

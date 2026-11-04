@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "id": "survey-ai-memory-agent-feedback-framework",
+  "title": "AI 记忆综述 · 感觉、短期、长期记忆与行动闭环",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "层叠的感觉、短期和长期记忆与右侧策略推理相连，外圈串联环境、观测、行动与人类反馈；图内保留具体记忆内容和多模态输入。",
+  "publication": {
+    "title": "The AI Hippocampus: How Far are We From Human Memory?",
+    "venue": "arXiv",
+    "year": 2026,
+    "presentation": "preprint",
+    "article_type": "survey",
+    "evidence_url": "https://arxiv.org/abs/2601.09113v1",
+    "source_version": "2601.09113v1",
+    "checked_date": "2026-11-05"
+  },
+  "curation": {
+    "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "三层记忆、右侧三类策略、顶部人类交互、底部环境构成闭环。",
+      "panel_groups": 4,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "层叠的感觉、短期和长期记忆与右侧策略推理相连，外圈串联环境、观测、行动与人类反馈；图内保留具体记忆内容和多模态输入。",
+    "what_to_borrow": [
+      "记忆层级占据主视觉，反馈闭环沿外边界流动。",
+      "用实际短期与长期记忆内容解释抽象存储层。"
+    ],
+    "reference_neighbors": [
+      "memoryvla-cognition-memory-action",
+      "cortex-memory-consolidation"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/bigai-nlco/LLM-Memory-Survey",
+    "authors": [
+      "Jia, Zixia",
+      "Li, Jiaqi",
+      "Kang, Yipeng",
+      "Wang, Yuxuan",
+      "Wu, Tong",
+      "Wang, Quansen",
+      "Wang, Xiaobo",
+      "Zhang, Shuyi",
+      "Shen, Junzhe",
+      "Li, Qing",
+      "Qi, Siyuan",
+      "Liang, Yitao",
+      "He, Di",
+      "Zheng, Zilong",
+      "Zhu, Song-Chun"
+    ],
+    "urls": [
+      "https://github.com/bigai-nlco/LLM-Memory-Survey",
+      "https://arxiv.org/abs/2601.09113v1",
+      "https://arxiv.org/pdf/2601.09113v1",
+      "https://arxiv.org/src/2601.09113v1"
+    ],
+    "arxiv_id": "2601.09113v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2601.09113v1",
+    "full_pdf_sha256": "87b6aa9c115cfc92820d82663f0ed67051b662bfc28cf5de607b054c14642895",
+    "full_pdf_bytes": 6627437,
+    "page_number": 24,
+    "figure_number": 9,
+    "original_sha256": "3e6e81721d232f6781ea559442e89217f3183efc6165d9e651897cab631b6e2b",
+    "original_bytes": 189348,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2601.09113v1",
+    "archive_sha256": "71cbdbe3eb492576baeca8270354d6f6d598097faa7b6d18e1ca08037e877b06",
+    "archive_bytes": 9628552,
+    "archive_member": "sections/llm_agent/agent_mem_newcolor.pdf",
+    "inclusion_member": "sections/llm_agent/llm_agent.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 31,
+    "pdf_text_spans": 44,
+    "embedded_raster_images": 8,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 65,
+      "path": 193,
+      "mask": 2,
+      "g": 79,
+      "image": 10,
+      "use": 611
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 31 个绘图对象、44 个文本片段和 8 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 839,
+      "sha256": "0e21c47968226a84025e1b7e956c24e03a62a8df7135da26b61db5f2e88c4781"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 537,
+      "sha256": "8583c7f979d2bfa8fe3eb480e6421375dfc35e6ed228070d53e613ea0b1f8ff5"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 189348,
+      "sha256": "3e6e81721d232f6781ea559442e89217f3183efc6165d9e651897cab631b6e2b"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 566311,
+      "sha256": "d8ae4cf864e812e2dc65ae8e3072787d65ba7a75ddfcfa65c52c01b2447ce907"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 295469,
+      "sha256": "d5755d21af4d33c61d76f58c97234f4cfd784e7b5459b63511c3f0b7a756856e"
+    }
+  ]
+}

@@ -6,8 +6,8 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 方法与范式对照 | 14 | [浏览](#comparison) |
-| 多子图主题与应用总览 | 13 | [浏览](#multi-panel) |
+| 方法与范式对照 | 18 | [浏览](#comparison) |
+| 多子图主题与应用总览 | 19 | [浏览](#multi-panel) |
 | 领域全景、演进与综述路线图 | 26 | [浏览](#landscape) |
 | 任务、动机与能力展示 | 8 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
@@ -16,6 +16,56 @@
 <a id="comparison"></a>
 
 ## 方法与范式对照
+
+### [HippoRAG · 普通 RAG、人类记忆与海马索引对照](hipporag-human-memory-comparison/README.md)
+
+三行共享同一索引与问答任务，比较普通 RAG、人类记忆和 HippoRAG；脑区高亮、知识关联和答案对错一起解释方法动机。
+
+NeurIPS 2024 · 会议论文；未核实 Oral
+
+**子图组织：** 三行方法 × 离线索引与在线检索两列；每行末端给出相同问题的答案状态。 原论文 Figure 1。
+
+[![预览](hipporag-human-memory-comparison/preview.png)](hipporag-human-memory-comparison/README.md)
+
+[说明与源文件](hipporag-human-memory-comparison/README.md) · [同论文：HippoRAG · 三脑区类比与索引检索框架](../architecture/hipporag-brain-region-framework/README.md) · [关联元素](hipporag-human-memory-comparison/README.md#关联范例与元素)
+
+### [MemOS · LLM 记忆、人类类比与可管理记忆三阶段](memos-memory-evolution-three-stages/README.md)
+
+弧形带状构图依次放入记忆类型坐标、人类脑区类比和记忆管理操作，用统一视线解释从记忆定义到系统管理的转变。
+
+arXiv 2025 · 预印本
+
+**子图组织：** 三个连续阶段：LLM Mem、Human-like LLM Mem、Mem Management。 原论文 Figure 3。
+
+[![预览](memos-memory-evolution-three-stages/preview.png)](memos-memory-evolution-three-stages/README.md)
+
+[说明与源文件](memos-memory-evolution-three-stages/README.md) · [同论文：MemOS · 文本、激活与参数记忆的双向转化](memos-three-memory-consolidation-paths/README.md) · [关联元素](memos-memory-evolution-three-stages/README.md#关联范例与元素)
+
+### [MemOS · 文本、激活与参数记忆的双向转化](memos-three-memory-consolidation-paths/README.md)
+
+文本、激活和参数记忆采用同一医疗例子，三栏之间以不同路径说明编码、解码、缓存、微调和参数解码，上下长箭头概括巩固与激活方向。
+
+arXiv 2025 · 预印本
+
+**子图组织：** 三个记忆形态并列，局部双向连接及上下两条总体路径。 原论文 Figure 5。
+
+[![预览](memos-three-memory-consolidation-paths/preview.png)](memos-three-memory-consolidation-paths/README.md)
+
+[说明与源文件](memos-three-memory-consolidation-paths/README.md) · [同论文：MemOS · LLM 记忆、人类类比与可管理记忆三阶段](memos-memory-evolution-three-stages/README.md) · [关联元素](memos-three-memory-consolidation-paths/README.md#关联范例与元素)
+
+### [LightMem · 原始记忆流水线与主题过滤、睡眠更新对照](lightmem-memory-construction-comparison/README.md)
+
+上下对照展示冗余输入、反复构建与在线更新，以及先过滤、按主题组织、离线统一更新的改变；具体记忆项和动作贯穿对照。
+
+ICLR 2026 · 会议论文；未核实 Oral
+
+**子图组织：** 上方既有流程及两类构建问题；下方 LightMem 过滤、主题记忆与睡眠更新。 原论文 Figure 1。
+
+**整图位图，仅构图参考。**
+
+[![预览](lightmem-memory-construction-comparison/preview.png)](lightmem-memory-construction-comparison/README.md)
+
+[说明与源文件](lightmem-memory-construction-comparison/README.md) · [同论文：LightMem · 感觉过滤、主题记忆与睡眠更新三面板](../architecture/lightmem-sensory-topic-sleep-framework/README.md) · [关联元素](lightmem-memory-construction-comparison/README.md#关联范例与元素)
 
 ### [Cortex · 生物系统巩固与模型记忆巩固类比](cortex-memory-consolidation/README.md)
 
@@ -181,6 +231,78 @@ arXiv 2023 · 预印本 · 综述
 ## 多子图主题与应用总览
 
 按主题面板、任务组或场景组浏览，组内可包含多张图片。这里同时收录原论文 teaser 首图，以及适合借鉴为 teaser 的任务或应用总览；每项标明原图号和子图计数口径。
+
+### [GenAI × IoT · 分层技术栈与多场景应用](survey-genai-iot-layers-scenes/README.md)
+
+上半部把技术栈和生成流程并排，下半部围绕通信节点展开感知、追踪、控制和远程应用，将层级、机制和场景放在同一画面。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 上方两块技术示意，下方四类应用围绕中央节点展开。 原论文 Figure 1。
+
+[![预览](survey-genai-iot-layers-scenes/preview.png)](survey-genai-iot-layers-scenes/README.md)
+
+[说明与源文件](survey-genai-iot-layers-scenes/README.md) · [同论文：GenAI 综述 · 演进、生成模型与代表方法拼图](survey-genai-history-model-mosaic/README.md) · [同论文：GenAI 网络管理 · 控制面、数据面与切片场景](survey-genai-network-management-scenes/README.md) · [同论文：GenAI 无线安全 · 四场景与局部机制并列](survey-genai-wireless-security-four-panels/README.md) · [同论文：GenAI 语义通信 · 语义记忆与物理信道双路框架](../architecture/survey-genai-semantic-memory-framework/README.md) · [关联元素](survey-genai-iot-layers-scenes/README.md#关联范例与元素)
+
+### [GenAI 综述 · 演进、生成模型与代表方法拼图](survey-genai-history-model-mosaic/README.md)
+
+将历史演进轴、三类生成结构、多任务与元学习，以及 GPT、DALL-E、CLIP 局部机制组合在一起；信息丰富且层次清楚。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 上方历史轴与三类生成结构；下方多任务、元学习和三个代表模型栏目。 原论文 Figure 3。
+
+[![预览](survey-genai-history-model-mosaic/preview.png)](survey-genai-history-model-mosaic/README.md)
+
+[说明与源文件](survey-genai-history-model-mosaic/README.md) · [同论文：GenAI × IoT · 分层技术栈与多场景应用](survey-genai-iot-layers-scenes/README.md) · [同论文：GenAI 网络管理 · 控制面、数据面与切片场景](survey-genai-network-management-scenes/README.md) · [同论文：GenAI 无线安全 · 四场景与局部机制并列](survey-genai-wireless-security-four-panels/README.md) · [同论文：GenAI 语义通信 · 语义记忆与物理信道双路框架](../architecture/survey-genai-semantic-memory-framework/README.md) · [关联元素](survey-genai-history-model-mosaic/README.md#关联范例与元素)
+
+### [GenAI 网络管理 · 控制面、数据面与切片场景](survey-genai-network-management-scenes/README.md)
+
+以控制面和数据面形成上下两层，用网络切片、设备和生成模型局部展开解释网络控制、资源配置与信道估计。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 生成模型与网络状态在左；中间上下两平面；右侧三个切片及信道估计展开。 原论文 Figure 5。
+
+[![预览](survey-genai-network-management-scenes/preview.png)](survey-genai-network-management-scenes/README.md)
+
+[说明与源文件](survey-genai-network-management-scenes/README.md) · [同论文：GenAI × IoT · 分层技术栈与多场景应用](survey-genai-iot-layers-scenes/README.md) · [同论文：GenAI 综述 · 演进、生成模型与代表方法拼图](survey-genai-history-model-mosaic/README.md) · [同论文：GenAI 无线安全 · 四场景与局部机制并列](survey-genai-wireless-security-four-panels/README.md) · [同论文：GenAI 语义通信 · 语义记忆与物理信道双路框架](../architecture/survey-genai-semantic-memory-framework/README.md) · [关联元素](survey-genai-network-management-scenes/README.md#关联范例与元素)
+
+### [GenAI 无线安全 · 四场景与局部机制并列](survey-genai-wireless-security-four-panels/README.md)
+
+四栏分别解释敏感数据隐藏、入侵检测、干扰攻击和生成式隐写。每栏都有场景或数据图标、局部网络与关键箭头，最接近参考图 1 的信息密度。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 四栏并列：数据隐私、入侵检测、干扰攻击、生成式隐写；第三栏再展开攻击步骤。 原论文 Figure 6。
+
+[![预览](survey-genai-wireless-security-four-panels/preview.png)](survey-genai-wireless-security-four-panels/README.md)
+
+[说明与源文件](survey-genai-wireless-security-four-panels/README.md) · [同论文：GenAI × IoT · 分层技术栈与多场景应用](survey-genai-iot-layers-scenes/README.md) · [同论文：GenAI 综述 · 演进、生成模型与代表方法拼图](survey-genai-history-model-mosaic/README.md) · [同论文：GenAI 网络管理 · 控制面、数据面与切片场景](survey-genai-network-management-scenes/README.md) · [同论文：GenAI 语义通信 · 语义记忆与物理信道双路框架](../architecture/survey-genai-semantic-memory-framework/README.md) · [关联元素](survey-genai-wireless-security-four-panels/README.md#关联范例与元素)
+
+### [记忆综述 · 表示、六类操作与研究主题总览](survey-memory-representations-operations-map/README.md)
+
+左侧操作与 Transformer 参数结构，中间上下文记忆及两个会话例子，右侧把四个研究主题映射到记忆类型与操作，兼有概念、例子和对应关系。
+
+arXiv 2025 · 预印本 · 综述
+
+**子图组织：** 左侧六类操作和参数记忆，中央上下文记忆与两例会话，右侧四主题映射表。 原论文 Figure 1。
+
+[![预览](survey-memory-representations-operations-map/preview.png)](survey-memory-representations-operations-map/README.md)
+
+[说明与源文件](survey-memory-representations-operations-map/README.md) · [关联元素](survey-memory-representations-operations-map/README.md#关联范例与元素)
+
+### [AI 记忆综述 · 视频对象、动作、问答与生成四面板](survey-ai-memory-video-task-panels/README.md)
+
+2×2 面板并列对象级跟踪、动作定位、综合视频问答和视频生成。每组使用连续帧、局部高亮或问答示例解释任务所需的时序信息。
+
+arXiv 2026 · 预印本 · 综述
+
+**子图组织：** 2×2：Object level、Action level、General level、Generation；各面板再组合连续帧、问题或提示词。 原论文 Figure 14。
+
+[![预览](survey-ai-memory-video-task-panels/preview.png)](survey-ai-memory-video-task-panels/README.md)
+
+[说明与源文件](survey-ai-memory-video-task-panels/README.md) · [同论文：AI 记忆综述 · 感觉、短期、长期记忆与行动闭环](../architecture/survey-ai-memory-agent-feedback-framework/README.md) · [关联元素](survey-ai-memory-video-task-panels/README.md#关联范例与元素)
 
 ### [无线生成式 AI · 城市场景串联四类应用](survey-genai-wireless-four-scenarios/README.md)
 
@@ -644,7 +766,7 @@ ICLR 2026 · 会议论文；未核实 Oral
 
 [![预览](memoryvla-cognition-memory-action/preview.png)](memoryvla-cognition-memory-action/README.md)
 
-[说明与源文件](memoryvla-cognition-memory-action/README.md) · [关联元素](memoryvla-cognition-memory-action/README.md#关联范例与元素)
+[说明与源文件](memoryvla-cognition-memory-action/README.md) · [同论文：MemoryVLA · 感知认知记忆库与扩散动作网络](../architecture/memoryvla-perceptual-cognitive-architecture/README.md) · [关联元素](memoryvla-cognition-memory-action/README.md#关联范例与元素)
 
 ### [Genie · 不同提示生成可交互世界](genie-interaction/README.md)
 

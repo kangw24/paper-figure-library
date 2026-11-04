@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "id": "memos-three-memory-consolidation-paths",
+  "title": "MemOS · 文本、激活与参数记忆的双向转化",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "文本、激活和参数记忆采用同一医疗例子，三栏之间以不同路径说明编码、解码、缓存、微调和参数解码，上下长箭头概括巩固与激活方向。",
+  "publication": {
+    "title": "MemOS: A Memory OS for AI System",
+    "venue": "arXiv",
+    "year": 2025,
+    "presentation": "preprint",
+    "article_type": "technical-report",
+    "evidence_url": "https://arxiv.org/abs/2507.03724v4",
+    "source_version": "2507.03724v4",
+    "checked_date": "2026-11-05"
+  },
+  "curation": {
+    "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+    "panel_layout": {
+      "summary": "三个记忆形态并列，局部双向连接及上下两条总体路径。",
+      "panel_groups": 3,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "文本、激活和参数记忆采用同一医疗例子，三栏之间以不同路径说明编码、解码、缓存、微调和参数解码，上下长箭头概括巩固与激活方向。",
+    "what_to_borrow": [
+      "统一领域例子帮助比较不同表示形态。",
+      "长程方向带与局部转换箭头分层表达。"
+    ],
+    "reference_neighbors": [
+      "cortex-memory-consolidation",
+      "speculative-rag-draft-verify"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/MemTensor/MemOS",
+    "authors": [
+      "Li, Zhiyu",
+      "Xi, Chenyang",
+      "Li, Chunyu",
+      "Chen, Ding",
+      "Chen, Boyu",
+      "Song, Shichao",
+      "Niu, Simin",
+      "Wang, Hanyu",
+      "Yang, Jiawei",
+      "Tang, Chen",
+      "Yu, Qingchen",
+      "Zhao, Jihao",
+      "Wang, Yezhaohui",
+      "Liu, Peng",
+      "Lin, Zehao",
+      "Wang, Pengyuan",
+      "Huo, Jiahao",
+      "Chen, Tianyi",
+      "Chen, Kai",
+      "Li, Kehang",
+      "Tao, Zhen",
+      "Lai, Huayi",
+      "Wu, Hao",
+      "Tang, Bo",
+      "Wang, Zhengren",
+      "Fan, Zhaoxin",
+      "Zhang, Ningyu",
+      "Zhang, Linfeng",
+      "Yan, Junchi",
+      "Yang, Mingchuan",
+      "Xu, Tong",
+      "Xu, Wei",
+      "Chen, Huajun",
+      "Wang, Haofen",
+      "Yang, Hongkang",
+      "Zhang, Wentao",
+      "Xu, Zhi-Qin John",
+      "Chen, Siheng",
+      "Xiong, Feiyu"
+    ],
+    "urls": [
+      "https://github.com/MemTensor/MemOS",
+      "https://arxiv.org/abs/2507.03724v4",
+      "https://arxiv.org/pdf/2507.03724v4",
+      "https://arxiv.org/src/2507.03724v4"
+    ],
+    "arxiv_id": "2507.03724v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2507.03724v4",
+    "full_pdf_sha256": "9b9b71b61487ce9f01d2de014b80201d9a30c4fd43effa33e84ef7d2db824977",
+    "full_pdf_bytes": 4753104,
+    "page_number": 14,
+    "figure_number": 5,
+    "original_sha256": "0555d07d31f5c39c2f7141862fc1d114d07126148d4a2b89efa40bf9b2be8b56",
+    "original_bytes": 303048,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2507.03724v4",
+    "archive_sha256": "dafe95168ac2fdac4f046c22d87716b387347f5a1f49314cf8b48d6a2a416794",
+    "archive_bytes": 3972076,
+    "archive_member": "img/Memories.pdf",
+    "inclusion_member": "paper.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "attribution-required",
+    "name": "CC BY 4.0（所收录论文版本）",
+    "note": "所收录 arXiv 论文版本声明 CC BY 4.0，保留作者署名、版本与转换记录；图中的第三方照片、商标或引用素材仍按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 21,
+    "pdf_text_spans": 37,
+    "embedded_raster_images": 9,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 10,
+      "path": 74,
+      "mask": 7,
+      "g": 33,
+      "image": 16,
+      "use": 400
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 21 个绘图对象、37 个文本片段和 9 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 1077,
+      "sha256": "b32946967c39ad182fca6f8617c3708dffd9928691fc76bf7b3ae34f43a9d242"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 258,
+      "sha256": "90550f43c00f282efa9a8cdf8adaca38f9ad3917d7c9aa3b91f4e7f05d808df4"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 303048,
+      "sha256": "0555d07d31f5c39c2f7141862fc1d114d07126148d4a2b89efa40bf9b2be8b56"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 245949,
+      "sha256": "87392ac04b99e7a57d29031dd567723459a9ed421e9b6c816a98a772fbfe78e7"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 331232,
+      "sha256": "4016e2f5eac4df6cecb14df2f1a00a525595e6e22ba9e470a0ac7d7639d2ae6c"
+    }
+  ]
+}

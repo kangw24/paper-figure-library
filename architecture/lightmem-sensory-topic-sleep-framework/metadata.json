@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "lightmem-sensory-topic-sleep-framework",
+  "title": "LightMem · 感觉过滤、主题记忆与睡眠更新三面板",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory",
+    "multi-panel",
+    "png",
+    "raster-reference"
+  ],
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "summary": "三面板以实际对话和记忆项解释 token 过滤、主题切分、结构化摘要与离线合并；包含注意力矩阵、局部峰值及更新队列。",
+  "publication": {
+    "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+    "venue": "ICLR",
+    "year": 2026,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://github.com/zjunlp/LightMem",
+    "source_version": "2510.18866v4",
+    "checked_date": "2026-11-05",
+    "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+  },
+  "curation": {
+    "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "(a) 上方长条感觉记忆过滤与切分；(b) 左下主题记忆构建；(c) 右下睡眠时间合并与更新。",
+      "panel_groups": 3,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "三面板以实际对话和记忆项解释 token 过滤、主题切分、结构化摘要与离线合并；包含注意力矩阵、局部峰值及更新队列。",
+    "what_to_borrow": [
+      "用不等宽面板为复杂过滤过程留足空间。",
+      "实际例子、矩阵和存储操作同时说明抽象模块。"
+    ],
+    "reference_neighbors": [
+      "memoryvla-cognition-memory-action",
+      "cortex-memory-consolidation",
+      "speculative-rag-draft-verify"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/zjunlp/LightMem",
+    "authors": [
+      "Fang, Jizhan",
+      "Deng, Xinle",
+      "Xu, Haoming",
+      "Jiang, Ziyan",
+      "Tang, Yuqi",
+      "Xu, Ziwen",
+      "Deng, Shumin",
+      "Yao, Yunzhi",
+      "Wang, Mengru",
+      "Qiao, Shuofei",
+      "Chen, Huajun",
+      "Zhang, Ningyu"
+    ],
+    "urls": [
+      "https://github.com/zjunlp/LightMem",
+      "https://arxiv.org/abs/2510.18866v4",
+      "https://arxiv.org/pdf/2510.18866v4",
+      "https://arxiv.org/src/2510.18866v4"
+    ],
+    "arxiv_id": "2510.18866v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2510.18866v4",
+    "full_pdf_sha256": "7e9a8e9f39c616528d543ce8520606d47d56032eb004b55d452d0dce5725c23e",
+    "full_pdf_bytes": 4604558,
+    "page_number": 4,
+    "figure_number": 2,
+    "original_sha256": "882bb733d810e93fb71ed995206ba8ec19206e5dad7480d73dd7564963aef302",
+    "original_bytes": 1699511,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2510.18866v4",
+    "archive_sha256": "e24c5cbf57c1dae2f5904acf2be2920899697515768b0602ee37d5f985be495e",
+    "archive_bytes": 5229829,
+    "archive_member": "figure/Lightmem.png",
+    "inclusion_member": "iclr2026_conference.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "author PNG",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pixel_dimensions": [
+      4094,
+      2227
+    ],
+    "notes": [
+      "作者 TeX 归档与已检查的作者 GitHub 仓库均提供整张 PNG。本条为位图构图参考，未取得这张图可逐对象编辑的 PDF、SVG 或 AI；未生成 SVG 外壳。预览将透明背景合成到白底，原 PNG 字节和透明度保留。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的 PNG。",
+    "原图缩放到浏览尺寸并在白底生成预览，保留原件透明度。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 796,
+      "sha256": "c883263816a0d089d966876d6b51d896068147e878d32fab2c563eff4ed93111"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 428,
+      "sha256": "966e798eb41d1c55762d478d245b6427df08b0335d45c53cb1062ed2befd0cc9"
+    },
+    {
+      "path": "original.png",
+      "bytes": 1699511,
+      "sha256": "882bb733d810e93fb71ed995206ba8ec19206e5dad7480d73dd7564963aef302"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1309815,
+      "sha256": "7beed67ce43ec4565e55f0e66e8a3857c2091c833c2420db4e71d1abc8630d2e"
+    }
+  ]
+}

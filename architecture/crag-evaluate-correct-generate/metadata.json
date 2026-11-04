@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "id": "crag-evaluate-correct-generate",
+  "title": "CRAG · 评估分流、知识纠正与三路生成",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "检索质量分成正确、模糊和错误三路，分别触发知识精炼、网页搜索或两者结合；底部对照三类证据组合如何进入生成器。",
+  "publication": {
+    "title": "Corrective Retrieval Augmented Generation",
+    "venue": "arXiv",
+    "year": 2024,
+    "presentation": "preprint",
+    "article_type": "research",
+    "evidence_url": "https://arxiv.org/abs/2401.15884v3",
+    "source_version": "2401.15884v3",
+    "checked_date": "2026-11-05"
+  },
+  "curation": {
+    "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "纵向三阶段：检索、知识纠正、生成；中间两种纠正机制，底部三路输入组合。",
+      "panel_groups": 3,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "检索质量分成正确、模糊和错误三路，分别触发知识精炼、网页搜索或两者结合；底部对照三类证据组合如何进入生成器。",
+    "what_to_borrow": [
+      "颜色在决策标签、分流箭头与最终组合中保持一致。",
+      "内部展开直接贴在分支旁，减少跨图寻找。"
+    ],
+    "reference_neighbors": [
+      "speculative-rag-draft-verify"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/HuskyInSalt/CRAG",
+    "authors": [
+      "Yan, Shi-Qi",
+      "Gu, Jia-Chen",
+      "Zhu, Yun",
+      "Ling, Zhen-Hua"
+    ],
+    "urls": [
+      "https://github.com/HuskyInSalt/CRAG",
+      "https://arxiv.org/abs/2401.15884v3",
+      "https://arxiv.org/pdf/2401.15884v3",
+      "https://arxiv.org/src/2401.15884v3"
+    ],
+    "arxiv_id": "2401.15884v3",
+    "full_pdf_url": "https://arxiv.org/pdf/2401.15884v3",
+    "full_pdf_sha256": "975aa1fd3c1b603126e93ff99d6504858b61301bf1d34c9df88ebe53a0b026cb",
+    "full_pdf_bytes": 667756,
+    "page_number": 4,
+    "figure_number": 2,
+    "original_sha256": "2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8",
+    "original_bytes": 210934,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2401.15884v3",
+    "archive_sha256": "01cb19acaf53a027b2fcccb2379dc3ce2bdedf1d45164b766472501fa686d8e6",
+    "archive_bytes": 329791,
+    "archive_member": "fig/method.pdf",
+    "inclusion_member": "3_Methods.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 84,
+    "pdf_text_spans": 84,
+    "embedded_raster_images": 3,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 8,
+      "path": 269,
+      "g": 11,
+      "use": 481,
+      "image": 2
+    },
+    "normalized_path_transforms": 40,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 84 个绘图对象、84 个文本片段和 3 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 660,
+      "sha256": "e321a32081be89f6b4b1fb882a50228ca2f0682216e8c230603b7177a29d3701"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 499,
+      "sha256": "88b454de22b40c07c4b9fe0534bd966aedf4aaa68da7acd27e525e4afae49369"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 210934,
+      "sha256": "2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 319237,
+      "sha256": "60985d75191ae321335a35883000b98623a80cf71e539082b8543e080c9769f3"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 483804,
+      "sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff"
+    }
+  ]
+}

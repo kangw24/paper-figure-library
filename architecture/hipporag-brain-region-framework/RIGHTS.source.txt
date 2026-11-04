@@ -1,0 +1,9 @@
+Paper: HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models
+Authors: Gutiérrez, Bernal Jiménez, Shu, Yiheng, Gu, Yu, Yasunaga, Michihiro, Su, Yu
+Source version: 2405.14831v3
+Archive: https://arxiv.org/src/2405.14831v3
+Member: figures/HippoRAG_method_version_4.pdf
+Original SHA256: bfccb124a2fdecf39cd88a16de13bf090eb1a0ca6213240621ca403b3cd024ec
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

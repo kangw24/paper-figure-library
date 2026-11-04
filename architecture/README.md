@@ -6,13 +6,123 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 整体方法与训练流程 | 17 | [浏览](#framework) |
-| 网络主干与模块展开 | 13 | [浏览](#network) |
+| 整体方法与训练流程 | 26 | [浏览](#framework) |
+| 网络主干与模块展开 | 14 | [浏览](#network) |
 | 基础结构与教材范例 | 16 | [浏览](#tutorial) |
 
 <a id="framework"></a>
 
 ## 整体方法与训练流程
+
+### [GenAI 语义通信 · 语义记忆与物理信道双路框架](survey-genai-semantic-memory-framework/README.md)
+
+发送端先提取共同知识和变化数据，上路通过两端语义记忆共享知识，下路通过 DJSCC 编解码与无线信道重建数据，最后输出预测。
+
+arXiv 2024 · 预印本 · 综述
+
+**子图组织：** 发送端、上下双路信道、接收端三大区域；生成模型的作用用浅蓝模块统一标示。 原论文 Figure 7。
+
+[![预览](survey-genai-semantic-memory-framework/preview.png)](survey-genai-semantic-memory-framework/README.md)
+
+[说明与源文件](survey-genai-semantic-memory-framework/README.md) · [同论文：GenAI × IoT · 分层技术栈与多场景应用](../teaser/survey-genai-iot-layers-scenes/README.md) · [同论文：GenAI 综述 · 演进、生成模型与代表方法拼图](../teaser/survey-genai-history-model-mosaic/README.md) · [同论文：GenAI 网络管理 · 控制面、数据面与切片场景](../teaser/survey-genai-network-management-scenes/README.md) · [同论文：GenAI 无线安全 · 四场景与局部机制并列](../teaser/survey-genai-wireless-security-four-panels/README.md) · [关联元素](survey-genai-semantic-memory-framework/README.md#关联范例与元素)
+
+### [HippoRAG · 三脑区类比与索引检索框架](hipporag-brain-region-framework/README.md)
+
+上方三个脑区与下方 LLM、检索编码器、知识图谱及 PageRank 一一对应，再按离线索引和在线检索两行展开。
+
+NeurIPS 2024 · 会议论文；未核实 Oral
+
+**子图组织：** 三列脑区及计算模块对应，下面两行展开离线与在线操作。 原论文 Figure 2。
+
+[![预览](hipporag-brain-region-framework/preview.png)](hipporag-brain-region-framework/README.md)
+
+[说明与源文件](hipporag-brain-region-framework/README.md) · [同论文：HippoRAG · 普通 RAG、人类记忆与海马索引对照](../teaser/hipporag-human-memory-comparison/README.md) · [关联元素](hipporag-brain-region-framework/README.md#关联范例与元素)
+
+### [HippoRAG 2 · 图谱索引、筛选与检索双阶段](hipporag2-indexing-retrieval-framework/README.md)
+
+两行分别展示离线知识图谱构建与在线问答。节点、边与颜色图例明确，局部图谱逐步变化，解释三元组筛选、种子权重与 PageRank。
+
+ICML 2025 · 会议论文；未核实 Oral
+
+**子图组织：** 上行三个索引步骤，下行五个检索问答步骤；右上统一图例。 原论文 Figure 2。
+
+[![预览](hipporag2-indexing-retrieval-framework/preview.png)](hipporag2-indexing-retrieval-framework/README.md)
+
+[说明与源文件](hipporag2-indexing-retrieval-framework/README.md) · [关联元素](hipporag2-indexing-retrieval-framework/README.md#关联范例与元素)
+
+### [A-MEM · 笔记构建、关联、演化与检索四分区](amem-notes-links-evolution-framework/README.md)
+
+四个相邻分区把对话写成笔记、为记忆建立关联、更新原有记忆和查询检索串联起来；笔记、分组和模型符号跨区复用。
+
+NeurIPS 2025 · 会议论文；未核实 Oral
+
+**子图组织：** 四栏：Note Construction、Link Generation、Memory Evolution、Memory Retrieval。 原论文 Figure 2。
+
+[![预览](amem-notes-links-evolution-framework/preview.png)](amem-notes-links-evolution-framework/README.md)
+
+[说明与源文件](amem-notes-links-evolution-framework/README.md) · [关联元素](amem-notes-links-evolution-framework/README.md#关联范例与元素)
+
+### [Self-RAG · 检索、并行生成与自评选择](selfrag-retrieve-generate-critique/README.md)
+
+左侧是固定检索 RAG，右侧完整展开按需检索、并行生成和自评选择，下方再用不需要检索的请求形成补充对照。
+
+ICLR 2024 · Oral
+
+**子图组织：** 左右方法对照；右侧包含三阶段和三条文档分支；底部额外对照非检索任务。 原论文 Figure 1。
+
+[![预览](selfrag-retrieve-generate-critique/preview.png)](selfrag-retrieve-generate-critique/README.md)
+
+[说明与源文件](selfrag-retrieve-generate-critique/README.md) · [关联元素](selfrag-retrieve-generate-critique/README.md#关联范例与元素)
+
+### [CRAG · 评估分流、知识纠正与三路生成](crag-evaluate-correct-generate/README.md)
+
+检索质量分成正确、模糊和错误三路，分别触发知识精炼、网页搜索或两者结合；底部对照三类证据组合如何进入生成器。
+
+arXiv 2024 · 预印本
+
+**子图组织：** 纵向三阶段：检索、知识纠正、生成；中间两种纠正机制，底部三路输入组合。 原论文 Figure 2。
+
+[![预览](crag-evaluate-correct-generate/preview.png)](crag-evaluate-correct-generate/README.md)
+
+[说明与源文件](crag-evaluate-correct-generate/README.md) · [关联元素](crag-evaluate-correct-generate/README.md#关联范例与元素)
+
+### [MemoryOS · 三层记忆、动态更新与回答生成](memoryos-three-tier-memory-framework/README.md)
+
+短期、中期和长期个人记忆并排展开，包含队列、页面、热度、用户画像与检索回路；上下主线把存储、更新和生成串起来。
+
+EMNLP 2025 · Oral
+
+**子图组织：** STM、MTM、LPM 三个记忆区及右侧回答区；上下检索和写回回路贯穿。 原论文 Figure 1。
+
+[![预览](memoryos-three-tier-memory-framework/preview.png)](memoryos-three-tier-memory-framework/README.md)
+
+[说明与源文件](memoryos-three-tier-memory-framework/README.md) · [关联元素](memoryos-three-tier-memory-framework/README.md#关联范例与元素)
+
+### [LightMem · 感觉过滤、主题记忆与睡眠更新三面板](lightmem-sensory-topic-sleep-framework/README.md)
+
+三面板以实际对话和记忆项解释 token 过滤、主题切分、结构化摘要与离线合并；包含注意力矩阵、局部峰值及更新队列。
+
+ICLR 2026 · 会议论文；未核实 Oral
+
+**子图组织：** (a) 上方长条感觉记忆过滤与切分；(b) 左下主题记忆构建；(c) 右下睡眠时间合并与更新。 原论文 Figure 2。
+
+**整图位图，仅构图参考。**
+
+[![预览](lightmem-sensory-topic-sleep-framework/preview.png)](lightmem-sensory-topic-sleep-framework/README.md)
+
+[说明与源文件](lightmem-sensory-topic-sleep-framework/README.md) · [同论文：LightMem · 原始记忆流水线与主题过滤、睡眠更新对照](../teaser/lightmem-memory-construction-comparison/README.md) · [关联元素](lightmem-sensory-topic-sleep-framework/README.md#关联范例与元素)
+
+### [AI 记忆综述 · 感觉、短期、长期记忆与行动闭环](survey-ai-memory-agent-feedback-framework/README.md)
+
+层叠的感觉、短期和长期记忆与右侧策略推理相连，外圈串联环境、观测、行动与人类反馈；图内保留具体记忆内容和多模态输入。
+
+arXiv 2026 · 预印本 · 综述
+
+**子图组织：** 三层记忆、右侧三类策略、顶部人类交互、底部环境构成闭环。 原论文 Figure 9。
+
+[![预览](survey-ai-memory-agent-feedback-framework/preview.png)](survey-ai-memory-agent-feedback-framework/README.md)
+
+[说明与源文件](survey-ai-memory-agent-feedback-framework/README.md) · [同论文：AI 记忆综述 · 视频对象、动作、问答与生成四面板](../teaser/survey-ai-memory-video-task-panels/README.md) · [关联元素](survey-ai-memory-agent-feedback-framework/README.md#关联范例与元素)
 
 ### [Speculative RAG · 并行起草与通用模型验证](speculative-rag-draft-verify/README.md)
 
@@ -182,6 +292,18 @@ National Science Review 2024 · 期刊论文 · 综述
 <a id="network"></a>
 
 ## 网络主干与模块展开
+
+### [MemoryVLA · 感知认知记忆库与扩散动作网络](memoryvla-perceptual-cognitive-architecture/README.md)
+
+左侧视觉与语言编码，中间感知认知记忆库、检索、门控融合和巩固回路，右侧展开动作专家的双路注意力与去噪结构。
+
+ICLR 2026 · 会议论文；未核实 Oral
+
+**子图组织：** 输入编码、记忆管理、动作专家三个区域；最后一个区域展示内部网络层。 原论文 Figure 2。
+
+[![预览](memoryvla-perceptual-cognitive-architecture/preview.png)](memoryvla-perceptual-cognitive-architecture/README.md)
+
+[说明与源文件](memoryvla-perceptual-cognitive-architecture/README.md) · [同论文：MemoryVLA · 人类记忆类比、方法与性能首图](../teaser/memoryvla-cognition-memory-action/README.md) · [关联元素](memoryvla-perceptual-cognitive-architecture/README.md#关联范例与元素)
 
 ### [DiT · 整体主干与三种条件注入模块](dit-architecture/README.md)
 

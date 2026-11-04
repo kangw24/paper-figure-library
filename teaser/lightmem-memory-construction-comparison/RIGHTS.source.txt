@@ -1,0 +1,9 @@
+Paper: LightMem: Lightweight and Efficient Memory-Augmented Generation
+Authors: Fang, Jizhan, Deng, Xinle, Xu, Haoming, Jiang, Ziyan, Tang, Yuqi, Xu, Ziwen, Deng, Shumin, Yao, Yunzhi, Wang, Mengru, Qiao, Shuofei, Chen, Huajun, Zhang, Ningyu
+Source version: 2510.18866v4
+Archive: https://arxiv.org/src/2510.18866v4
+Member: figure/motivation.png
+Original SHA256: 2793e9ddca540644dcc699d737a12cd6a09f1912ea31466970a6fa66d62fe631
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

@@ -1,0 +1,9 @@
+Paper: Corrective Retrieval Augmented Generation
+Authors: Yan, Shi-Qi, Gu, Jia-Chen, Zhu, Yun, Ling, Zhen-Hua
+Source version: 2401.15884v3
+Archive: https://arxiv.org/src/2401.15884v3
+Member: fig/method.pdf
+Original SHA256: 2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

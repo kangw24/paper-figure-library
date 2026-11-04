@@ -1,0 +1,10 @@
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=1\linewidth]{figures/fig_2_method.pdf}
+    \caption{\textbf{Overall architecture of~\method.}
+    RGB observation and language instruction are encoded by a 7B VLM into perceptual and cognitive tokens, forming short-term working memory.
+    The working memory queries a perceptual-cognitive memory bank (PCMB) to retrieve relevant historical context, including high-level semantics and low-level visual details, adaptively fuses it with current tokens, and consolidates the PCMB by merging the most similar neighbors.
+    The memory-augmented tokens then condition a diffusion transformer to predict a sequence of future actions.}
+    \label{fig:overall}
+    \vspace{-0.4cm}
+\end{figure}

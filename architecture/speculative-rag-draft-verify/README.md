@@ -62,6 +62,27 @@
 
 作者原件按原字节保存；只作格式转换、预览和来源整理。
 
+<!-- BEGIN RELATED FOUR 2026-11-05 -->
+## 沿这张图继续找相近构图
+
+本批继续收录的相近参考，仍分别存放在 Teaser 和 Architecture：
+
+| 新增参考 | 用途 | 文件 |
+|---|---|---|
+| [GenAI 语义通信 · 语义记忆与物理信道双路框架](../../architecture/survey-genai-semantic-memory-framework/README.md) | Architecture | 作者 PDF + SVG 转换件 |
+| [HippoRAG · 普通 RAG、人类记忆与海马索引对照](../../teaser/hipporag-human-memory-comparison/README.md) | Teaser | 作者 PDF + SVG 转换件 |
+| [HippoRAG · 三脑区类比与索引检索框架](../../architecture/hipporag-brain-region-framework/README.md) | Architecture | 作者 PDF + SVG 转换件 |
+| [HippoRAG 2 · 图谱索引、筛选与检索双阶段](../../architecture/hipporag2-indexing-retrieval-framework/README.md) | Architecture | 作者 PDF + SVG 转换件 |
+| [A-MEM · 笔记构建、关联、演化与检索四分区](../../architecture/amem-notes-links-evolution-framework/README.md) | Architecture | 作者 PDF + SVG 转换件 |
+| [Self-RAG · 检索、并行生成与自评选择](../../architecture/selfrag-retrieve-generate-critique/README.md) | Architecture | 作者 PDF + SVG 转换件 |
+| [CRAG · 评估分流、知识纠正与三路生成](../../architecture/crag-evaluate-correct-generate/README.md) | Architecture | 作者 PDF + SVG 转换件 |
+| [MemOS · 文本、激活与参数记忆的双向转化](../../teaser/memos-three-memory-consolidation-paths/README.md) | Teaser | 作者 PDF + SVG 转换件 |
+| [LightMem · 感觉过滤、主题记忆与睡眠更新三面板](../../architecture/lightmem-sensory-topic-sleep-framework/README.md) | Architecture | 作者 PNG，仅位图参考 |
+| [记忆综述 · 表示、六类操作与研究主题总览](../../teaser/survey-memory-representations-operations-map/README.md) | Teaser | 作者 PDF + SVG 转换件 |
+
+[本批 20 张图的来源与分类对照](../../docs/related-four-2026-11-05.md)
+<!-- END RELATED FOUR 2026-11-05 -->
+
 <!-- BEGIN FIGURE LINKS -->
 ## 关联范例与元素
 

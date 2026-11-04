@@ -1,0 +1,9 @@
+Paper: The AI Hippocampus: How Far are We From Human Memory?
+Authors: Jia, Zixia, Li, Jiaqi, Kang, Yipeng, Wang, Yuxuan, Wu, Tong, Wang, Quansen, Wang, Xiaobo, Zhang, Shuyi, Shen, Junzhe, Li, Qing, Qi, Siyuan, Liang, Yitao, He, Di, Zheng, Zilong, Zhu, Song-Chun
+Source version: 2601.09113v1
+Archive: https://arxiv.org/src/2601.09113v1
+Member: sections/llm_agent/agent_mem_newcolor.pdf
+Original SHA256: 3e6e81721d232f6781ea559442e89217f3183efc6165d9e651897cab631b6e2b
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

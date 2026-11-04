@@ -57,6 +57,23 @@
 
 作者原件按原字节保存；只作格式转换、预览和来源整理。
 
+<!-- BEGIN RELATED FOUR 2026-11-05 -->
+## 沿这张图继续找相近构图
+
+本批继续收录的相近参考，仍分别存放在 Teaser 和 Architecture：
+
+| 新增参考 | 用途 | 文件 |
+|---|---|---|
+| [GenAI × IoT · 分层技术栈与多场景应用](../../teaser/survey-genai-iot-layers-scenes/README.md) | Teaser | 作者 PDF + SVG 转换件 |
+| [GenAI 综述 · 演进、生成模型与代表方法拼图](../../teaser/survey-genai-history-model-mosaic/README.md) | Teaser | 作者 PDF + SVG 转换件 |
+| [GenAI 网络管理 · 控制面、数据面与切片场景](../../teaser/survey-genai-network-management-scenes/README.md) | Teaser | 作者 PDF + SVG 转换件 |
+| [GenAI 无线安全 · 四场景与局部机制并列](../../teaser/survey-genai-wireless-security-four-panels/README.md) | Teaser | 作者 PDF + SVG 转换件 |
+| [GenAI 语义通信 · 语义记忆与物理信道双路框架](../../architecture/survey-genai-semantic-memory-framework/README.md) | Architecture | 作者 PDF + SVG 转换件 |
+| [AI 记忆综述 · 视频对象、动作、问答与生成四面板](../../teaser/survey-ai-memory-video-task-panels/README.md) | Teaser | 作者 PDF + SVG 转换件 |
+
+[本批 20 张图的来源与分类对照](../../docs/related-four-2026-11-05.md)
+<!-- END RELATED FOUR 2026-11-05 -->
+
 <!-- BEGIN FIGURE LINKS -->
 ## 关联范例与元素
 

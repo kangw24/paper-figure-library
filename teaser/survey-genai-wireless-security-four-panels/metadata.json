@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "survey-genai-wireless-security-four-panels",
+  "title": "GenAI 无线安全 · 四场景与局部机制并列",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "generative-ai",
+    "wireless",
+    "applications",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "四栏分别解释敏感数据隐藏、入侵检测、干扰攻击和生成式隐写。每栏都有场景或数据图标、局部网络与关键箭头，最接近参考图 1 的信息密度。",
+  "publication": {
+    "title": "Applications of Generative AI (GAI) for Mobile and Wireless Networking: A Survey",
+    "venue": "arXiv",
+    "year": 2024,
+    "presentation": "preprint",
+    "article_type": "survey",
+    "evidence_url": "https://arxiv.org/abs/2405.20024v2",
+    "source_version": "2405.20024v2",
+    "checked_date": "2026-11-05"
+  },
+  "curation": {
+    "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+    "panel_layout": {
+      "summary": "四栏并列：数据隐私、入侵检测、干扰攻击、生成式隐写；第三栏再展开攻击步骤。",
+      "panel_groups": 4,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "四栏分别解释敏感数据隐藏、入侵检测、干扰攻击和生成式隐写。每栏都有场景或数据图标、局部网络与关键箭头，最接近参考图 1 的信息密度。",
+    "what_to_borrow": [
+      "每个主题由场景、机制、输入输出共同构成。",
+      "用栏底色带定位主题，主体内容保留白底与细节。"
+    ],
+    "reference_neighbors": [
+      "survey-genai-wireless-four-scenarios"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2405.20024v2",
+    "authors": [
+      "Vu, Thai-Hoc",
+      "Jagatheesaperumal, Senthil Kumar",
+      "Nguyen, Minh-Duong",
+      "Van Huynh, Nguyen",
+      "Kim, Sunghwan",
+      "Pham, Quoc-Viet"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2405.20024v2",
+      "https://arxiv.org/pdf/2405.20024v2",
+      "https://arxiv.org/src/2405.20024v2"
+    ],
+    "arxiv_id": "2405.20024v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+    "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+    "full_pdf_bytes": 12203487,
+    "page_number": 11,
+    "figure_number": 6,
+    "original_sha256": "778684793de1eee99ce6d72b3a7a0a196d0ded27906491be2c73ae9a5d4a56e2",
+    "original_bytes": 505263,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2405.20024v2",
+    "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+    "archive_bytes": 11166377,
+    "archive_member": "Photo/GAI_security.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 260,
+    "pdf_text_spans": 100,
+    "embedded_raster_images": 41,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 7,
+      "path": 513,
+      "mask": 40,
+      "g": 132,
+      "image": 31,
+      "use": 951
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 260 个绘图对象、100 个文本片段和 41 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 773,
+      "sha256": "b5d2a628f6bc3974b1bce2006c6f5c876afdbdc158dcc44f3569bee7a6fe7161"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 312,
+      "sha256": "8f2b7b2a1f9f1eeae0acbf548e8875581447ce5c25db4c427b1b44ae1d5dc496"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 505263,
+      "sha256": "778684793de1eee99ce6d72b3a7a0a196d0ded27906491be2c73ae9a5d4a56e2"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 543559,
+      "sha256": "4f3bd94b7b4bea582e767c091c4803630035d8c0a2dea39108ce38161f69b826"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 964589,
+      "sha256": "02b383426fcdf2eda5fc7ab7e01ef70f1797fa3e45d8b8af98f00515c97b4718"
+    }
+  ]
+}

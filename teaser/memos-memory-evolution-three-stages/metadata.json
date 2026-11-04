@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "id": "memos-memory-evolution-three-stages",
+  "title": "MemOS · LLM 记忆、人类类比与可管理记忆三阶段",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "弧形带状构图依次放入记忆类型坐标、人类脑区类比和记忆管理操作，用统一视线解释从记忆定义到系统管理的转变。",
+  "publication": {
+    "title": "MemOS: A Memory OS for AI System",
+    "venue": "arXiv",
+    "year": 2025,
+    "presentation": "preprint",
+    "article_type": "technical-report",
+    "evidence_url": "https://arxiv.org/abs/2507.03724v4",
+    "source_version": "2507.03724v4",
+    "checked_date": "2026-11-05"
+  },
+  "curation": {
+    "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+    "panel_layout": {
+      "summary": "三个连续阶段：LLM Mem、Human-like LLM Mem、Mem Management。",
+      "panel_groups": 3,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "弧形带状构图依次放入记忆类型坐标、人类脑区类比和记忆管理操作，用统一视线解释从记忆定义到系统管理的转变。",
+    "what_to_borrow": [
+      "连续带状结构连接不同表达类型的子图。",
+      "每个阶段采用适合自身关系的图形，不强求重复框图。"
+    ],
+    "reference_neighbors": [
+      "cortex-memory-consolidation",
+      "memoryvla-cognition-memory-action"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/MemTensor/MemOS",
+    "authors": [
+      "Li, Zhiyu",
+      "Xi, Chenyang",
+      "Li, Chunyu",
+      "Chen, Ding",
+      "Chen, Boyu",
+      "Song, Shichao",
+      "Niu, Simin",
+      "Wang, Hanyu",
+      "Yang, Jiawei",
+      "Tang, Chen",
+      "Yu, Qingchen",
+      "Zhao, Jihao",
+      "Wang, Yezhaohui",
+      "Liu, Peng",
+      "Lin, Zehao",
+      "Wang, Pengyuan",
+      "Huo, Jiahao",
+      "Chen, Tianyi",
+      "Chen, Kai",
+      "Li, Kehang",
+      "Tao, Zhen",
+      "Lai, Huayi",
+      "Wu, Hao",
+      "Tang, Bo",
+      "Wang, Zhengren",
+      "Fan, Zhaoxin",
+      "Zhang, Ningyu",
+      "Zhang, Linfeng",
+      "Yan, Junchi",
+      "Yang, Mingchuan",
+      "Xu, Tong",
+      "Xu, Wei",
+      "Chen, Huajun",
+      "Wang, Haofen",
+      "Yang, Hongkang",
+      "Zhang, Wentao",
+      "Xu, Zhi-Qin John",
+      "Chen, Siheng",
+      "Xiong, Feiyu"
+    ],
+    "urls": [
+      "https://github.com/MemTensor/MemOS",
+      "https://arxiv.org/abs/2507.03724v4",
+      "https://arxiv.org/pdf/2507.03724v4",
+      "https://arxiv.org/src/2507.03724v4"
+    ],
+    "arxiv_id": "2507.03724v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2507.03724v4",
+    "full_pdf_sha256": "9b9b71b61487ce9f01d2de014b80201d9a30c4fd43effa33e84ef7d2db824977",
+    "full_pdf_bytes": 4753104,
+    "page_number": 6,
+    "figure_number": 3,
+    "original_sha256": "84735d9907a272db655296371127410a038280c47259c6216af701e65e792cb5",
+    "original_bytes": 108428,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2507.03724v4",
+    "archive_sha256": "dafe95168ac2fdac4f046c22d87716b387347f5a1f49314cf8b48d6a2a416794",
+    "archive_bytes": 3972076,
+    "archive_member": "img/HumanVsLLM.pdf",
+    "inclusion_member": "paper.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "attribution-required",
+    "name": "CC BY 4.0（所收录论文版本）",
+    "note": "所收录 arXiv 论文版本声明 CC BY 4.0，保留作者署名、版本与转换记录；图中的第三方照片、商标或引用素材仍按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 120,
+    "pdf_text_spans": 37,
+    "embedded_raster_images": 14,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 71,
+      "path": 237,
+      "g": 84,
+      "rect": 3,
+      "image": 15,
+      "mask": 4,
+      "use": 185
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 120 个绘图对象、37 个文本片段和 14 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 1079,
+      "sha256": "1f9f2389c5871de525a9fb90b82f6e8c8050a2922311800a5f7a570c933b42b2"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 362,
+      "sha256": "4624f01ebfbfc2ee2056fc54f5d8c2b4a263ab58362c215a634a12a748bc2859"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 108428,
+      "sha256": "84735d9907a272db655296371127410a038280c47259c6216af701e65e792cb5"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 237139,
+      "sha256": "aef46eed21b35986fe72eb34759692adf266b63a1e3bf8b46a2ea78b9ba1c4af"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 208948,
+      "sha256": "6d4e84001d730d7028f81be23e3950a4ba5d5ce4c56f496436c2084a100ba5d1"
+    }
+  ]
+}

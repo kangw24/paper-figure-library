@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "id": "survey-memory-representations-operations-map",
+  "title": "记忆综述 · 表示、六类操作与研究主题总览",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "左侧操作与 Transformer 参数结构，中间上下文记忆及两个会话例子，右侧把四个研究主题映射到记忆类型与操作，兼有概念、例子和对应关系。",
+  "publication": {
+    "title": "Rethinking Memory in LLM based Agents: Representations, Operations, and Emerging Topics",
+    "venue": "arXiv",
+    "year": 2025,
+    "presentation": "preprint",
+    "article_type": "survey",
+    "evidence_url": "https://arxiv.org/abs/2505.00675v3",
+    "source_version": "2505.00675v3",
+    "checked_date": "2026-11-05"
+  },
+  "curation": {
+    "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+    "panel_layout": {
+      "summary": "左侧六类操作和参数记忆，中央上下文记忆与两例会话，右侧四主题映射表。",
+      "panel_groups": 3,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "左侧操作与 Transformer 参数结构，中间上下文记忆及两个会话例子，右侧把四个研究主题映射到记忆类型与操作，兼有概念、例子和对应关系。",
+    "what_to_borrow": [
+      "操作符号在图例与主题映射中复用。",
+      "抽象分类中嵌入具体会话，让研究主题有对象可指。"
+    ],
+    "reference_neighbors": [
+      "cortex-memory-consolidation",
+      "speculative-rag-draft-verify",
+      "memoryvla-cognition-memory-action"
+    ],
+    "version_notes": "原图中的分类、时间戳与例子属于所收录的 2025 年 arXiv v3；本次只收集图形参考，不把历史分类改为永久选图标准。",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI",
+    "authors": [
+      "Du, Yiming",
+      "Huang, Wenyu",
+      "Zheng, Danna",
+      "Wang, Zhaowei",
+      "Montella, Sebastien",
+      "Lapata, Mirella",
+      "Wong, Kam-Fai",
+      "Pan, Jeff Z."
+    ],
+    "urls": [
+      "https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI",
+      "https://arxiv.org/abs/2505.00675v3",
+      "https://arxiv.org/pdf/2505.00675v3",
+      "https://arxiv.org/src/2505.00675v3"
+    ],
+    "arxiv_id": "2505.00675v3",
+    "full_pdf_url": "https://arxiv.org/pdf/2505.00675v3",
+    "full_pdf_sha256": "23724df6e6a38bdffc97c8bccb132581bf1e21fa534d5c19f84c80d5ab0e741d",
+    "full_pdf_bytes": 7897565,
+    "page_number": 4,
+    "figure_number": 1,
+    "original_sha256": "d33cbb7337bc39e6aa1316d59dcaac541e2973b62eae00f6a05b4ac3cc4f0fe9",
+    "original_bytes": 216184,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2505.00675v3",
+    "archive_sha256": "86130ed1e4465363f5b64e248b0e6ac57be136edbaf96e88d9f7474ee4891467",
+    "archive_bytes": 8770488,
+    "archive_member": "figures_new/framework_1018.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "license": {
+    "status": "public-domain-dedication",
+    "name": "CC0 1.0（所收录论文版本）",
+    "note": "所收录 arXiv 版本声明 CC0 1.0；保留论文、作者与版本出处。图中第三方素材及商标不因该声明自动改变权利状态。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 24,
+    "pdf_text_spans": 43,
+    "embedded_raster_images": 41,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 130,
+      "path": 268,
+      "mask": 40,
+      "g": 252,
+      "image": 39,
+      "use": 591
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 24 个绘图对象、43 个文本片段和 41 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 740,
+      "sha256": "8b2db009f34597fc008c6005cd3c55b3d6c944279dec3c8026f22be80c6fe27e"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 261,
+      "sha256": "9a019981b26a2bbf5cf4dfc75584dd06397a52630729f03c11c0f372920b8ca4"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 216184,
+      "sha256": "d33cbb7337bc39e6aa1316d59dcaac541e2973b62eae00f6a05b4ac3cc4f0fe9"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 299045,
+      "sha256": "8ab8b6e9966f4095210d819e22410b2c03311ba7da9e550ba4e69e1da1388786"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 260666,
+      "sha256": "6b03a9cc69c7b9ee3de636a8279fe42a1268001e6d6208d91c3fe1622f9e2091"
+    }
+  ]
+}

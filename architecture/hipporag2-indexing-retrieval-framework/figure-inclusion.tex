@@ -1,0 +1,11 @@
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{figure/methodology.pdf}
+      \vskip -0.1in
+    \caption{\textbf{\ours methodology}.
+    For offline indexing, we use an LLM to extract open KG triples from passages, with synonym detection applied to phrase nodes. Together, these phrases and passages form the open KG.
+    For online retrieval, an embedding model scores both the passages and triples to identify the seed nodes of both types for the Personalized PageRank (PPR) algorithm. Recognition memory filters the top triples using an LLM. The PPR algorithm then performs context-based retrieval on the KG to provide the most relevant passages for the final QA task. The different colors shown in the KG nodes above reflect their probability mass; darker shades indicate higher probabilities induced by the PPR process.
+    }
+    \label{fig:methodology}
+  \vskip -0.1in
+\end{figure*}

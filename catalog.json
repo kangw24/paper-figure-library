@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "counts": {
-    "teaser": 66,
-    "architecture": 46,
+    "teaser": 76,
+    "architecture": 56,
     "element": 341,
     "mechanism": 17,
     "layout-template": 11
@@ -1064,6 +1064,165 @@
     },
     {
       "schema_version": 1,
+      "id": "hipporag-human-memory-comparison",
+      "title": "HippoRAG · 普通 RAG、人类记忆与海马索引对照",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "三行共享同一索引与问答任务，比较普通 RAG、人类记忆和 HippoRAG；脑区高亮、知识关联和答案对错一起解释方法动机。",
+      "publication": {
+        "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+        "venue": "NeurIPS",
+        "year": 2024,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html",
+        "source_version": "2405.14831v3",
+        "checked_date": "2026-11-05",
+        "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+      },
+      "curation": {
+        "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+        "panel_layout": {
+          "summary": "三行方法 × 离线索引与在线检索两列；每行末端给出相同问题的答案状态。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "三行共享同一索引与问答任务，比较普通 RAG、人类记忆和 HippoRAG；脑区高亮、知识关联和答案对错一起解释方法动机。",
+        "what_to_borrow": [
+          "共享问题和图例，让生物类比与方法差异直接对应。",
+          "把关联路径直接画在脑区或海马图上。"
+        ],
+        "reference_neighbors": [
+          "cortex-memory-consolidation",
+          "speculative-rag-draft-verify"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/OSU-NLP-Group/HippoRAG",
+        "authors": [
+          "Gutiérrez, Bernal Jiménez",
+          "Shu, Yiheng",
+          "Gu, Yu",
+          "Yasunaga, Michihiro",
+          "Su, Yu"
+        ],
+        "urls": [
+          "https://github.com/OSU-NLP-Group/HippoRAG",
+          "https://arxiv.org/abs/2405.14831v3",
+          "https://arxiv.org/pdf/2405.14831v3",
+          "https://arxiv.org/src/2405.14831v3",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html"
+        ],
+        "arxiv_id": "2405.14831v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.14831v3",
+        "full_pdf_sha256": "14671c78fc7de99d83bb9e52e2d5b335d4756066925e67df1a25c0e272133aad",
+        "full_pdf_bytes": 3404698,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "fb41c28bfcbc857072bb9f0a953417d10393fae23c2185446c7921fe859cd16a",
+        "original_bytes": 1368538,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.14831v3",
+        "archive_sha256": "b581bf9cb90df4acb02585c5944fe84b95bfc30763a4dfb5f086de536ebe9683",
+        "archive_bytes": 2586441,
+        "archive_member": "figures/HippoRAG_hook_fig_version_4.pdf",
+        "inclusion_member": "neurips_2024.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 162,
+        "pdf_text_spans": 36,
+        "embedded_raster_images": 91,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 91,
+          "path": 334,
+          "mask": 91,
+          "g": 365,
+          "image": 92,
+          "use": 272
+        },
+        "normalized_path_transforms": 70,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 162 个绘图对象、36 个文本片段和 91 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 749,
+          "sha256": "7a6953664d4391357e556446807974b819c34dfb397d041906bc323ca1628003"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1115,
+          "sha256": "becd3809cf5b9cc3d4a3207af6306c2df8513ba3c35d62c0d986b17d0a672032"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1368538,
+          "sha256": "fb41c28bfcbc857072bb9f0a953417d10393fae23c2185446c7921fe859cd16a"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 914758,
+          "sha256": "0f38312b4c8c53fb2f78b1d091fd2930d6313d5757d969505878351765186aff"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1720216,
+          "sha256": "286110d0a24ad769bafc6b7d6852b643638c014c583ade7a7a98945d7e7ea799"
+        }
+      ],
+      "path": "teaser/hipporag-human-memory-comparison",
+      "metadata_path": "teaser/hipporag-human-memory-comparison/metadata.json",
+      "readme_path": "teaser/hipporag-human-memory-comparison/README.md",
+      "primary_path": "teaser/hipporag-human-memory-comparison/original.pdf",
+      "preview_path": "teaser/hipporag-human-memory-comparison/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "k-lora",
       "title": "K-LoRA：主体风格组合与训练范式比较",
       "category": "teaser",
@@ -1239,6 +1398,149 @@
     },
     {
       "schema_version": 1,
+      "id": "lightmem-memory-construction-comparison",
+      "title": "LightMem · 原始记忆流水线与主题过滤、睡眠更新对照",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "png",
+        "raster-reference"
+      ],
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "summary": "上下对照展示冗余输入、反复构建与在线更新，以及先过滤、按主题组织、离线统一更新的改变；具体记忆项和动作贯穿对照。",
+      "publication": {
+        "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+        "venue": "ICLR",
+        "year": 2026,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://github.com/zjunlp/LightMem",
+        "source_version": "2510.18866v4",
+        "checked_date": "2026-11-05",
+        "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+      },
+      "curation": {
+        "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+        "panel_layout": {
+          "summary": "上方既有流程及两类构建问题；下方 LightMem 过滤、主题记忆与睡眠更新。",
+          "panel_groups": 2,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "上下对照展示冗余输入、反复构建与在线更新，以及先过滤、按主题组织、离线统一更新的改变；具体记忆项和动作贯穿对照。",
+        "what_to_borrow": [
+          "沿用相同存储符号，以内容组织和更新时机显示差别。",
+          "问题直接标在发生位置，最后用时间带对照代价。"
+        ],
+        "reference_neighbors": [
+          "cortex-memory-consolidation",
+          "memoryvla-cognition-memory-action"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/zjunlp/LightMem",
+        "authors": [
+          "Fang, Jizhan",
+          "Deng, Xinle",
+          "Xu, Haoming",
+          "Jiang, Ziyan",
+          "Tang, Yuqi",
+          "Xu, Ziwen",
+          "Deng, Shumin",
+          "Yao, Yunzhi",
+          "Wang, Mengru",
+          "Qiao, Shuofei",
+          "Chen, Huajun",
+          "Zhang, Ningyu"
+        ],
+        "urls": [
+          "https://github.com/zjunlp/LightMem",
+          "https://arxiv.org/abs/2510.18866v4",
+          "https://arxiv.org/pdf/2510.18866v4",
+          "https://arxiv.org/src/2510.18866v4"
+        ],
+        "arxiv_id": "2510.18866v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2510.18866v4",
+        "full_pdf_sha256": "7e9a8e9f39c616528d543ce8520606d47d56032eb004b55d452d0dce5725c23e",
+        "full_pdf_bytes": 4604558,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "2793e9ddca540644dcc699d737a12cd6a09f1912ea31466970a6fa66d62fe631",
+        "original_bytes": 1699278,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2510.18866v4",
+        "archive_sha256": "e24c5cbf57c1dae2f5904acf2be2920899697515768b0602ee37d5f985be495e",
+        "archive_bytes": 5229829,
+        "archive_member": "figure/motivation.png",
+        "inclusion_member": "section/introduction.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "author PNG",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pixel_dimensions": [
+          2122,
+          1769
+        ],
+        "notes": [
+          "作者 TeX 归档与已检查的作者 GitHub 仓库均提供整张 PNG。本条为位图构图参考，未取得这张图可逐对象编辑的 PDF、SVG 或 AI；未生成 SVG 外壳。预览将透明背景合成到白底，原 PNG 字节和透明度保留。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的 PNG。",
+        "原图缩放到浏览尺寸并在白底生成预览，保留原件透明度。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 798,
+          "sha256": "2031af746daadc16202bdf69daa440dddcd2b3dfee337e0cb78205a5142f0c89"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 283,
+          "sha256": "302df7596770b10ac0bab446de649a8dd204a8144311752358613c84ef775b60"
+        },
+        {
+          "path": "original.png",
+          "bytes": 1699278,
+          "sha256": "2793e9ddca540644dcc699d737a12cd6a09f1912ea31466970a6fa66d62fe631"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1392299,
+          "sha256": "27cbdb10860ab565b6180aa155ba5bb70afee3170a074c2fe109993ff593a71d"
+        }
+      ],
+      "path": "teaser/lightmem-memory-construction-comparison",
+      "metadata_path": "teaser/lightmem-memory-construction-comparison/metadata.json",
+      "readme_path": "teaser/lightmem-memory-construction-comparison/README.md",
+      "primary_path": "teaser/lightmem-memory-construction-comparison/original.png",
+      "preview_path": "teaser/lightmem-memory-construction-comparison/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "memoryvla-cognition-memory-action",
       "title": "MemoryVLA · 人类记忆类比、方法与性能首图",
       "category": "teaser",
@@ -1411,6 +1713,389 @@
       "readme_path": "teaser/memoryvla-cognition-memory-action/README.md",
       "primary_path": "teaser/memoryvla-cognition-memory-action/original.pdf",
       "preview_path": "teaser/memoryvla-cognition-memory-action/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "memos-memory-evolution-three-stages",
+      "title": "MemOS · LLM 记忆、人类类比与可管理记忆三阶段",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "弧形带状构图依次放入记忆类型坐标、人类脑区类比和记忆管理操作，用统一视线解释从记忆定义到系统管理的转变。",
+      "publication": {
+        "title": "MemOS: A Memory OS for AI System",
+        "venue": "arXiv",
+        "year": 2025,
+        "presentation": "preprint",
+        "article_type": "technical-report",
+        "evidence_url": "https://arxiv.org/abs/2507.03724v4",
+        "source_version": "2507.03724v4",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+        "panel_layout": {
+          "summary": "三个连续阶段：LLM Mem、Human-like LLM Mem、Mem Management。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "弧形带状构图依次放入记忆类型坐标、人类脑区类比和记忆管理操作，用统一视线解释从记忆定义到系统管理的转变。",
+        "what_to_borrow": [
+          "连续带状结构连接不同表达类型的子图。",
+          "每个阶段采用适合自身关系的图形，不强求重复框图。"
+        ],
+        "reference_neighbors": [
+          "cortex-memory-consolidation",
+          "memoryvla-cognition-memory-action"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/MemTensor/MemOS",
+        "authors": [
+          "Li, Zhiyu",
+          "Xi, Chenyang",
+          "Li, Chunyu",
+          "Chen, Ding",
+          "Chen, Boyu",
+          "Song, Shichao",
+          "Niu, Simin",
+          "Wang, Hanyu",
+          "Yang, Jiawei",
+          "Tang, Chen",
+          "Yu, Qingchen",
+          "Zhao, Jihao",
+          "Wang, Yezhaohui",
+          "Liu, Peng",
+          "Lin, Zehao",
+          "Wang, Pengyuan",
+          "Huo, Jiahao",
+          "Chen, Tianyi",
+          "Chen, Kai",
+          "Li, Kehang",
+          "Tao, Zhen",
+          "Lai, Huayi",
+          "Wu, Hao",
+          "Tang, Bo",
+          "Wang, Zhengren",
+          "Fan, Zhaoxin",
+          "Zhang, Ningyu",
+          "Zhang, Linfeng",
+          "Yan, Junchi",
+          "Yang, Mingchuan",
+          "Xu, Tong",
+          "Xu, Wei",
+          "Chen, Huajun",
+          "Wang, Haofen",
+          "Yang, Hongkang",
+          "Zhang, Wentao",
+          "Xu, Zhi-Qin John",
+          "Chen, Siheng",
+          "Xiong, Feiyu"
+        ],
+        "urls": [
+          "https://github.com/MemTensor/MemOS",
+          "https://arxiv.org/abs/2507.03724v4",
+          "https://arxiv.org/pdf/2507.03724v4",
+          "https://arxiv.org/src/2507.03724v4"
+        ],
+        "arxiv_id": "2507.03724v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2507.03724v4",
+        "full_pdf_sha256": "9b9b71b61487ce9f01d2de014b80201d9a30c4fd43effa33e84ef7d2db824977",
+        "full_pdf_bytes": 4753104,
+        "page_number": 6,
+        "figure_number": 3,
+        "original_sha256": "84735d9907a272db655296371127410a038280c47259c6216af701e65e792cb5",
+        "original_bytes": 108428,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2507.03724v4",
+        "archive_sha256": "dafe95168ac2fdac4f046c22d87716b387347f5a1f49314cf8b48d6a2a416794",
+        "archive_bytes": 3972076,
+        "archive_member": "img/HumanVsLLM.pdf",
+        "inclusion_member": "paper.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "attribution-required",
+        "name": "CC BY 4.0（所收录论文版本）",
+        "note": "所收录 arXiv 论文版本声明 CC BY 4.0，保留作者署名、版本与转换记录；图中的第三方照片、商标或引用素材仍按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 120,
+        "pdf_text_spans": 37,
+        "embedded_raster_images": 14,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 71,
+          "path": 237,
+          "g": 84,
+          "rect": 3,
+          "image": 15,
+          "mask": 4,
+          "use": 185
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 120 个绘图对象、37 个文本片段和 14 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 1079,
+          "sha256": "1f9f2389c5871de525a9fb90b82f6e8c8050a2922311800a5f7a570c933b42b2"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 362,
+          "sha256": "4624f01ebfbfc2ee2056fc54f5d8c2b4a263ab58362c215a634a12a748bc2859"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 108428,
+          "sha256": "84735d9907a272db655296371127410a038280c47259c6216af701e65e792cb5"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 237139,
+          "sha256": "aef46eed21b35986fe72eb34759692adf266b63a1e3bf8b46a2ea78b9ba1c4af"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 208948,
+          "sha256": "6d4e84001d730d7028f81be23e3950a4ba5d5ce4c56f496436c2084a100ba5d1"
+        }
+      ],
+      "path": "teaser/memos-memory-evolution-three-stages",
+      "metadata_path": "teaser/memos-memory-evolution-three-stages/metadata.json",
+      "readme_path": "teaser/memos-memory-evolution-three-stages/README.md",
+      "primary_path": "teaser/memos-memory-evolution-three-stages/original.pdf",
+      "preview_path": "teaser/memos-memory-evolution-three-stages/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "memos-three-memory-consolidation-paths",
+      "title": "MemOS · 文本、激活与参数记忆的双向转化",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "文本、激活和参数记忆采用同一医疗例子，三栏之间以不同路径说明编码、解码、缓存、微调和参数解码，上下长箭头概括巩固与激活方向。",
+      "publication": {
+        "title": "MemOS: A Memory OS for AI System",
+        "venue": "arXiv",
+        "year": 2025,
+        "presentation": "preprint",
+        "article_type": "technical-report",
+        "evidence_url": "https://arxiv.org/abs/2507.03724v4",
+        "source_version": "2507.03724v4",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+        "panel_layout": {
+          "summary": "三个记忆形态并列，局部双向连接及上下两条总体路径。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "文本、激活和参数记忆采用同一医疗例子，三栏之间以不同路径说明编码、解码、缓存、微调和参数解码，上下长箭头概括巩固与激活方向。",
+        "what_to_borrow": [
+          "统一领域例子帮助比较不同表示形态。",
+          "长程方向带与局部转换箭头分层表达。"
+        ],
+        "reference_neighbors": [
+          "cortex-memory-consolidation",
+          "speculative-rag-draft-verify"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/MemTensor/MemOS",
+        "authors": [
+          "Li, Zhiyu",
+          "Xi, Chenyang",
+          "Li, Chunyu",
+          "Chen, Ding",
+          "Chen, Boyu",
+          "Song, Shichao",
+          "Niu, Simin",
+          "Wang, Hanyu",
+          "Yang, Jiawei",
+          "Tang, Chen",
+          "Yu, Qingchen",
+          "Zhao, Jihao",
+          "Wang, Yezhaohui",
+          "Liu, Peng",
+          "Lin, Zehao",
+          "Wang, Pengyuan",
+          "Huo, Jiahao",
+          "Chen, Tianyi",
+          "Chen, Kai",
+          "Li, Kehang",
+          "Tao, Zhen",
+          "Lai, Huayi",
+          "Wu, Hao",
+          "Tang, Bo",
+          "Wang, Zhengren",
+          "Fan, Zhaoxin",
+          "Zhang, Ningyu",
+          "Zhang, Linfeng",
+          "Yan, Junchi",
+          "Yang, Mingchuan",
+          "Xu, Tong",
+          "Xu, Wei",
+          "Chen, Huajun",
+          "Wang, Haofen",
+          "Yang, Hongkang",
+          "Zhang, Wentao",
+          "Xu, Zhi-Qin John",
+          "Chen, Siheng",
+          "Xiong, Feiyu"
+        ],
+        "urls": [
+          "https://github.com/MemTensor/MemOS",
+          "https://arxiv.org/abs/2507.03724v4",
+          "https://arxiv.org/pdf/2507.03724v4",
+          "https://arxiv.org/src/2507.03724v4"
+        ],
+        "arxiv_id": "2507.03724v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2507.03724v4",
+        "full_pdf_sha256": "9b9b71b61487ce9f01d2de014b80201d9a30c4fd43effa33e84ef7d2db824977",
+        "full_pdf_bytes": 4753104,
+        "page_number": 14,
+        "figure_number": 5,
+        "original_sha256": "0555d07d31f5c39c2f7141862fc1d114d07126148d4a2b89efa40bf9b2be8b56",
+        "original_bytes": 303048,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2507.03724v4",
+        "archive_sha256": "dafe95168ac2fdac4f046c22d87716b387347f5a1f49314cf8b48d6a2a416794",
+        "archive_bytes": 3972076,
+        "archive_member": "img/Memories.pdf",
+        "inclusion_member": "paper.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "attribution-required",
+        "name": "CC BY 4.0（所收录论文版本）",
+        "note": "所收录 arXiv 论文版本声明 CC BY 4.0，保留作者署名、版本与转换记录；图中的第三方照片、商标或引用素材仍按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 21,
+        "pdf_text_spans": 37,
+        "embedded_raster_images": 9,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 10,
+          "path": 74,
+          "mask": 7,
+          "g": 33,
+          "image": 16,
+          "use": 400
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 21 个绘图对象、37 个文本片段和 9 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 1077,
+          "sha256": "b32946967c39ad182fca6f8617c3708dffd9928691fc76bf7b3ae34f43a9d242"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 258,
+          "sha256": "90550f43c00f282efa9a8cdf8adaca38f9ad3917d7c9aa3b91f4e7f05d808df4"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 303048,
+          "sha256": "0555d07d31f5c39c2f7141862fc1d114d07126148d4a2b89efa40bf9b2be8b56"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 245949,
+          "sha256": "87392ac04b99e7a57d29031dd567723459a9ed421e9b6c816a98a772fbfe78e7"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 331232,
+          "sha256": "4016e2f5eac4df6cecb14df2f1a00a525595e6e22ba9e470a0ac7d7639d2ae6c"
+        }
+      ],
+      "path": "teaser/memos-three-memory-consolidation-paths",
+      "metadata_path": "teaser/memos-three-memory-consolidation-paths/metadata.json",
+      "readme_path": "teaser/memos-three-memory-consolidation-paths/README.md",
+      "primary_path": "teaser/memos-three-memory-consolidation-paths/original.pdf",
+      "preview_path": "teaser/memos-three-memory-consolidation-paths/preview.png"
     },
     {
       "schema_version": 1,
@@ -3592,6 +4277,173 @@
       "readme_path": "teaser/survey-agent-society-teaser/README.md",
       "primary_path": "teaser/survey-agent-society-teaser/original.pdf",
       "preview_path": "teaser/survey-agent-society-teaser/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-ai-memory-video-task-panels",
+      "title": "AI 记忆综述 · 视频对象、动作、问答与生成四面板",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "2×2 面板并列对象级跟踪、动作定位、综合视频问答和视频生成。每组使用连续帧、局部高亮或问答示例解释任务所需的时序信息。",
+      "publication": {
+        "title": "The AI Hippocampus: How Far are We From Human Memory?",
+        "venue": "arXiv",
+        "year": 2026,
+        "presentation": "preprint",
+        "article_type": "survey",
+        "evidence_url": "https://arxiv.org/abs/2601.09113v1",
+        "source_version": "2601.09113v1",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+        "panel_layout": {
+          "summary": "2×2：Object level、Action level、General level、Generation；各面板再组合连续帧、问题或提示词。",
+          "panel_groups": 4,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "2×2 面板并列对象级跟踪、动作定位、综合视频问答和视频生成。每组使用连续帧、局部高亮或问答示例解释任务所需的时序信息。",
+        "what_to_borrow": [
+          "相同浅蓝底将每类任务的帧组与关键问题收在一起。",
+          "用帧组、边框高亮和局部文字共同表达任务差异。"
+        ],
+        "reference_neighbors": [
+          "memoryvla-cognition-memory-action",
+          "survey-genai-wireless-four-scenarios"
+        ],
+        "version_notes": "原文为 Figure 14（不是首图），本库将其作为多任务 teaser 的构图参考；连续帧与生成画面按作者原件保留为位图。",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/bigai-nlco/LLM-Memory-Survey",
+        "authors": [
+          "Jia, Zixia",
+          "Li, Jiaqi",
+          "Kang, Yipeng",
+          "Wang, Yuxuan",
+          "Wu, Tong",
+          "Wang, Quansen",
+          "Wang, Xiaobo",
+          "Zhang, Shuyi",
+          "Shen, Junzhe",
+          "Li, Qing",
+          "Qi, Siyuan",
+          "Liang, Yitao",
+          "He, Di",
+          "Zheng, Zilong",
+          "Zhu, Song-Chun"
+        ],
+        "urls": [
+          "https://github.com/bigai-nlco/LLM-Memory-Survey",
+          "https://arxiv.org/abs/2601.09113v1",
+          "https://arxiv.org/pdf/2601.09113v1",
+          "https://arxiv.org/src/2601.09113v1"
+        ],
+        "arxiv_id": "2601.09113v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2601.09113v1",
+        "full_pdf_sha256": "87b6aa9c115cfc92820d82663f0ed67051b662bfc28cf5de607b054c14642895",
+        "full_pdf_bytes": 6627437,
+        "page_number": 38,
+        "figure_number": 14,
+        "original_sha256": "d1e25960c965e7a38135fbd42403afce4220c6741e8a62977588c325072b0f38",
+        "original_bytes": 1130302,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2601.09113v1",
+        "archive_sha256": "71cbdbe3eb492576baeca8270354d6f6d598097faa7b6d18e1ca08037e877b06",
+        "archive_bytes": 9628552,
+        "archive_member": "sections/mllm/memory_downstream.pdf",
+        "inclusion_member": "sections/mllm/mllm_memory.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 13,
+        "pdf_text_spans": 33,
+        "embedded_raster_images": 22,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 45,
+          "path": 188,
+          "g": 67,
+          "use": 665,
+          "image": 14
+        },
+        "normalized_path_transforms": 7,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 13 个绘图对象、33 个文本片段和 22 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 833,
+          "sha256": "9d6bdc45a9bf2ac43b0c627229ea76ec2d082a9f4ad1904dcd493e5451686d89"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 221,
+          "sha256": "dd4362e659164694fbe6319227e52fa97ec6eea57e4838d848cbfc2aed884551"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1130302,
+          "sha256": "d1e25960c965e7a38135fbd42403afce4220c6741e8a62977588c325072b0f38"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 3083452,
+          "sha256": "5f30e2b57c86b08439dbc90aafbada54ae8578a6c379b45982313bc2e95e92a1"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1660802,
+          "sha256": "024185ae56e64c4f16b0376ac3a8cfeabb60dbbe1812920426271632d8e459b4"
+        }
+      ],
+      "path": "teaser/survey-ai-memory-video-task-panels",
+      "metadata_path": "teaser/survey-ai-memory-video-task-panels/metadata.json",
+      "readme_path": "teaser/survey-ai-memory-video-task-panels/README.md",
+      "primary_path": "teaser/survey-ai-memory-video-task-panels/original.pdf",
+      "preview_path": "teaser/survey-ai-memory-video-task-panels/preview.png"
     },
     {
       "schema_version": 1,
@@ -6026,6 +6878,483 @@
     },
     {
       "schema_version": 1,
+      "id": "survey-genai-history-model-mosaic",
+      "title": "GenAI 综述 · 演进、生成模型与代表方法拼图",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "generative-ai",
+        "wireless",
+        "applications",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "将历史演进轴、三类生成结构、多任务与元学习，以及 GPT、DALL-E、CLIP 局部机制组合在一起；信息丰富且层次清楚。",
+      "publication": {
+        "title": "Applications of Generative AI (GAI) for Mobile and Wireless Networking: A Survey",
+        "venue": "arXiv",
+        "year": 2024,
+        "presentation": "preprint",
+        "article_type": "survey",
+        "evidence_url": "https://arxiv.org/abs/2405.20024v2",
+        "source_version": "2405.20024v2",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+        "panel_layout": {
+          "summary": "上方历史轴与三类生成结构；下方多任务、元学习和三个代表模型栏目。",
+          "panel_groups": 7,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "将历史演进轴、三类生成结构、多任务与元学习，以及 GPT、DALL-E、CLIP 局部机制组合在一起；信息丰富且层次清楚。",
+        "what_to_borrow": [
+          "用长轴串起背景，机制框紧邻对应阶段。",
+          "在同一概念总览中嵌入多个可读的小结构图。"
+        ],
+        "reference_neighbors": [
+          "survey-genai-wireless-four-scenarios"
+        ],
+        "version_notes": "这是所收录 2024 年版本的历史快照；时间轴及代表模型没有更新到收录日期。原图内的各方法、商标与引用按作者原图保留。",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2405.20024v2",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "arxiv_id": "2405.20024v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+        "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+        "full_pdf_bytes": 12203487,
+        "page_number": 7,
+        "figure_number": 3,
+        "original_sha256": "0865fe82a58c1af4df28ed7534f4212280503d4ca3234a2253d6c03d684b2466",
+        "original_bytes": 370385,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.20024v2",
+        "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+        "archive_bytes": 11166377,
+        "archive_member": "Photo/GAI_preminilary.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 373,
+        "pdf_text_spans": 220,
+        "embedded_raster_images": 19,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 24,
+          "path": 641,
+          "mask": 6,
+          "g": 43,
+          "image": 25,
+          "use": 2691
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 373 个绘图对象、220 个文本片段和 19 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 776,
+          "sha256": "2c4e94d961f27f1268387e59bbc1461a885706681fcbf2f685b2305d4fdcfa65"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 307,
+          "sha256": "9e94d118fabf4603c541ed7f1a77e1939315b5f637ea0c9c10cc915e9537c2a7"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 370385,
+          "sha256": "0865fe82a58c1af4df28ed7534f4212280503d4ca3234a2253d6c03d684b2466"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 851576,
+          "sha256": "7f28ad118b277ce52ea04390062c541c612a27e7636201ae0cc71cd6210012bc"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 947994,
+          "sha256": "de9bf28f94e80ac55cb3e80976b9bb266cf12c79946ecef5ba781b9f248fad3c"
+        }
+      ],
+      "path": "teaser/survey-genai-history-model-mosaic",
+      "metadata_path": "teaser/survey-genai-history-model-mosaic/metadata.json",
+      "readme_path": "teaser/survey-genai-history-model-mosaic/README.md",
+      "primary_path": "teaser/survey-genai-history-model-mosaic/original.pdf",
+      "preview_path": "teaser/survey-genai-history-model-mosaic/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-genai-iot-layers-scenes",
+      "title": "GenAI × IoT · 分层技术栈与多场景应用",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "generative-ai",
+        "wireless",
+        "applications",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "上半部把技术栈和生成流程并排，下半部围绕通信节点展开感知、追踪、控制和远程应用，将层级、机制和场景放在同一画面。",
+      "publication": {
+        "title": "Applications of Generative AI (GAI) for Mobile and Wireless Networking: A Survey",
+        "venue": "arXiv",
+        "year": 2024,
+        "presentation": "preprint",
+        "article_type": "survey",
+        "evidence_url": "https://arxiv.org/abs/2405.20024v2",
+        "source_version": "2405.20024v2",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+        "panel_layout": {
+          "summary": "上方两块技术示意，下方四类应用围绕中央节点展开。",
+          "panel_groups": 6,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "上半部把技术栈和生成流程并排，下半部围绕通信节点展开感知、追踪、控制和远程应用，将层级、机制和场景放在同一画面。",
+        "what_to_borrow": [
+          "上方抽象层级与下方具体场景共享中心对象。",
+          "不同箭头颜色连接生成机制和应用用途。"
+        ],
+        "reference_neighbors": [
+          "survey-genai-wireless-four-scenarios"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2405.20024v2",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "arxiv_id": "2405.20024v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+        "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+        "full_pdf_bytes": 12203487,
+        "page_number": 1,
+        "figure_number": 1,
+        "original_sha256": "92965b8cf600110a821480b26b326d5f0efd51811d472164ed7534cde0ddff1e",
+        "original_bytes": 359907,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.20024v2",
+        "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+        "archive_bytes": 11166377,
+        "archive_member": "Photo/GAI_operation.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 82,
+        "pdf_text_spans": 21,
+        "embedded_raster_images": 12,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 6,
+          "path": 179,
+          "mask": 11,
+          "g": 41,
+          "image": 23,
+          "use": 266
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 82 个绘图对象、21 个文本片段和 12 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 774,
+          "sha256": "71b14a67693d707e94317dadba1c6108127a2c74bbdc870cd175ecf4f3ea6858"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 226,
+          "sha256": "0da2d8a794b21139143096a5548bf33cdec1d7413c9295e6314c30813ad92a23"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 359907,
+          "sha256": "92965b8cf600110a821480b26b326d5f0efd51811d472164ed7534cde0ddff1e"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 271334,
+          "sha256": "b4a9f62fbe17fb0ad56a3dd2c2f052c75026356a7dc43ad791b9279cc62f5e29"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 541857,
+          "sha256": "12e79d35c7e583b459cfc75be24d75d6c2fa7198b2a1db8d084cad878893b8df"
+        }
+      ],
+      "path": "teaser/survey-genai-iot-layers-scenes",
+      "metadata_path": "teaser/survey-genai-iot-layers-scenes/metadata.json",
+      "readme_path": "teaser/survey-genai-iot-layers-scenes/README.md",
+      "primary_path": "teaser/survey-genai-iot-layers-scenes/original.pdf",
+      "preview_path": "teaser/survey-genai-iot-layers-scenes/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-genai-network-management-scenes",
+      "title": "GenAI 网络管理 · 控制面、数据面与切片场景",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "generative-ai",
+        "wireless",
+        "applications",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "以控制面和数据面形成上下两层，用网络切片、设备和生成模型局部展开解释网络控制、资源配置与信道估计。",
+      "publication": {
+        "title": "Applications of Generative AI (GAI) for Mobile and Wireless Networking: A Survey",
+        "venue": "arXiv",
+        "year": 2024,
+        "presentation": "preprint",
+        "article_type": "survey",
+        "evidence_url": "https://arxiv.org/abs/2405.20024v2",
+        "source_version": "2405.20024v2",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+        "panel_layout": {
+          "summary": "生成模型与网络状态在左；中间上下两平面；右侧三个切片及信道估计展开。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "以控制面和数据面形成上下两层，用网络切片、设备和生成模型局部展开解释网络控制、资源配置与信道估计。",
+        "what_to_borrow": [
+          "完整场景作为主视觉，局部机制放在关联位置。",
+          "上下平面让逻辑控制关系与真实网络对象同时可读。"
+        ],
+        "reference_neighbors": [
+          "survey-genai-wireless-four-scenarios"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2405.20024v2",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "arxiv_id": "2405.20024v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+        "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+        "full_pdf_bytes": 12203487,
+        "page_number": 9,
+        "figure_number": 5,
+        "original_sha256": "e5bde5e0e1afb85fffdbd03ac4cfb70dfd276cd5586fd60b3d83d497364d62c3",
+        "original_bytes": 1764110,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.20024v2",
+        "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+        "archive_bytes": 11166377,
+        "archive_member": "Photo/GAI_mangement.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 273,
+        "pdf_text_spans": 49,
+        "embedded_raster_images": 14,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 7,
+          "path": 448,
+          "mask": 10,
+          "g": 39,
+          "image": 22,
+          "use": 526
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 273 个绘图对象、49 个文本片段和 14 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 774,
+          "sha256": "320e4d1890ad480842c854877d4acb7c29b209d6e78ec2bd09649154dea33e13"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 303,
+          "sha256": "e5c714ba97cf0445ae66db1e1952e3b7f997dc59a11734935c3d155688e02ab9"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1764110,
+          "sha256": "e5bde5e0e1afb85fffdbd03ac4cfb70dfd276cd5586fd60b3d83d497364d62c3"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 435210,
+          "sha256": "64b3928226ecd07468c0072943abdd6f028138f409afccd8a0291052dc04531b"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 2521221,
+          "sha256": "263988c26d8f3f28b33f75f3bf8dafb282202b45d35a58947feecefeadd800fa"
+        }
+      ],
+      "path": "teaser/survey-genai-network-management-scenes",
+      "metadata_path": "teaser/survey-genai-network-management-scenes/metadata.json",
+      "readme_path": "teaser/survey-genai-network-management-scenes/README.md",
+      "primary_path": "teaser/survey-genai-network-management-scenes/original.pdf",
+      "preview_path": "teaser/survey-genai-network-management-scenes/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "survey-genai-wireless-four-scenarios",
       "title": "无线生成式 AI · 城市场景串联四类应用",
       "category": "teaser",
@@ -6193,6 +7522,165 @@
       "readme_path": "teaser/survey-genai-wireless-four-scenarios/README.md",
       "primary_path": "teaser/survey-genai-wireless-four-scenarios/original.pdf",
       "preview_path": "teaser/survey-genai-wireless-four-scenarios/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-genai-wireless-security-four-panels",
+      "title": "GenAI 无线安全 · 四场景与局部机制并列",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "generative-ai",
+        "wireless",
+        "applications",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "四栏分别解释敏感数据隐藏、入侵检测、干扰攻击和生成式隐写。每栏都有场景或数据图标、局部网络与关键箭头，最接近参考图 1 的信息密度。",
+      "publication": {
+        "title": "Applications of Generative AI (GAI) for Mobile and Wireless Networking: A Survey",
+        "venue": "arXiv",
+        "year": 2024,
+        "presentation": "preprint",
+        "article_type": "survey",
+        "evidence_url": "https://arxiv.org/abs/2405.20024v2",
+        "source_version": "2405.20024v2",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+        "panel_layout": {
+          "summary": "四栏并列：数据隐私、入侵检测、干扰攻击、生成式隐写；第三栏再展开攻击步骤。",
+          "panel_groups": 4,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "四栏分别解释敏感数据隐藏、入侵检测、干扰攻击和生成式隐写。每栏都有场景或数据图标、局部网络与关键箭头，最接近参考图 1 的信息密度。",
+        "what_to_borrow": [
+          "每个主题由场景、机制、输入输出共同构成。",
+          "用栏底色带定位主题，主体内容保留白底与细节。"
+        ],
+        "reference_neighbors": [
+          "survey-genai-wireless-four-scenarios"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2405.20024v2",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "arxiv_id": "2405.20024v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+        "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+        "full_pdf_bytes": 12203487,
+        "page_number": 11,
+        "figure_number": 6,
+        "original_sha256": "778684793de1eee99ce6d72b3a7a0a196d0ded27906491be2c73ae9a5d4a56e2",
+        "original_bytes": 505263,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.20024v2",
+        "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+        "archive_bytes": 11166377,
+        "archive_member": "Photo/GAI_security.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 260,
+        "pdf_text_spans": 100,
+        "embedded_raster_images": 41,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 7,
+          "path": 513,
+          "mask": 40,
+          "g": 132,
+          "image": 31,
+          "use": 951
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 260 个绘图对象、100 个文本片段和 41 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 773,
+          "sha256": "b5d2a628f6bc3974b1bce2006c6f5c876afdbdc158dcc44f3569bee7a6fe7161"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 312,
+          "sha256": "8f2b7b2a1f9f1eeae0acbf548e8875581447ce5c25db4c427b1b44ae1d5dc496"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 505263,
+          "sha256": "778684793de1eee99ce6d72b3a7a0a196d0ded27906491be2c73ae9a5d4a56e2"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 543559,
+          "sha256": "4f3bd94b7b4bea582e767c091c4803630035d8c0a2dea39108ce38161f69b826"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 964589,
+          "sha256": "02b383426fcdf2eda5fc7ab7e01ef70f1797fa3e45d8b8af98f00515c97b4718"
+        }
+      ],
+      "path": "teaser/survey-genai-wireless-security-four-panels",
+      "metadata_path": "teaser/survey-genai-wireless-security-four-panels/metadata.json",
+      "readme_path": "teaser/survey-genai-wireless-security-four-panels/README.md",
+      "primary_path": "teaser/survey-genai-wireless-security-four-panels/original.pdf",
+      "preview_path": "teaser/survey-genai-wireless-security-four-panels/preview.png"
     },
     {
       "schema_version": 1,
@@ -7386,6 +8874,168 @@
       "readme_path": "teaser/survey-lm-capability-evolution/README.md",
       "primary_path": "teaser/survey-lm-capability-evolution/original.pdf",
       "preview_path": "teaser/survey-lm-capability-evolution/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-memory-representations-operations-map",
+      "title": "记忆综述 · 表示、六类操作与研究主题总览",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "左侧操作与 Transformer 参数结构，中间上下文记忆及两个会话例子，右侧把四个研究主题映射到记忆类型与操作，兼有概念、例子和对应关系。",
+      "publication": {
+        "title": "Rethinking Memory in LLM based Agents: Representations, Operations, and Emerging Topics",
+        "venue": "arXiv",
+        "year": 2025,
+        "presentation": "preprint",
+        "article_type": "survey",
+        "evidence_url": "https://arxiv.org/abs/2505.00675v3",
+        "source_version": "2505.00675v3",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "概念、方法差异或能力的总览，按主要表达用途归入 Teaser。",
+        "panel_layout": {
+          "summary": "左侧六类操作和参数记忆，中央上下文记忆与两例会话，右侧四主题映射表。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "左侧操作与 Transformer 参数结构，中间上下文记忆及两个会话例子，右侧把四个研究主题映射到记忆类型与操作，兼有概念、例子和对应关系。",
+        "what_to_borrow": [
+          "操作符号在图例与主题映射中复用。",
+          "抽象分类中嵌入具体会话，让研究主题有对象可指。"
+        ],
+        "reference_neighbors": [
+          "cortex-memory-consolidation",
+          "speculative-rag-draft-verify",
+          "memoryvla-cognition-memory-action"
+        ],
+        "version_notes": "原图中的分类、时间戳与例子属于所收录的 2025 年 arXiv v3；本次只收集图形参考，不把历史分类改为永久选图标准。",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI",
+        "authors": [
+          "Du, Yiming",
+          "Huang, Wenyu",
+          "Zheng, Danna",
+          "Wang, Zhaowei",
+          "Montella, Sebastien",
+          "Lapata, Mirella",
+          "Wong, Kam-Fai",
+          "Pan, Jeff Z."
+        ],
+        "urls": [
+          "https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI",
+          "https://arxiv.org/abs/2505.00675v3",
+          "https://arxiv.org/pdf/2505.00675v3",
+          "https://arxiv.org/src/2505.00675v3"
+        ],
+        "arxiv_id": "2505.00675v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2505.00675v3",
+        "full_pdf_sha256": "23724df6e6a38bdffc97c8bccb132581bf1e21fa534d5c19f84c80d5ab0e741d",
+        "full_pdf_bytes": 7897565,
+        "page_number": 4,
+        "figure_number": 1,
+        "original_sha256": "d33cbb7337bc39e6aa1316d59dcaac541e2973b62eae00f6a05b4ac3cc4f0fe9",
+        "original_bytes": 216184,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2505.00675v3",
+        "archive_sha256": "86130ed1e4465363f5b64e248b0e6ac57be136edbaf96e88d9f7474ee4891467",
+        "archive_bytes": 8770488,
+        "archive_member": "figures_new/framework_1018.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "license": {
+        "status": "public-domain-dedication",
+        "name": "CC0 1.0（所收录论文版本）",
+        "note": "所收录 arXiv 版本声明 CC0 1.0；保留论文、作者与版本出处。图中第三方素材及商标不因该声明自动改变权利状态。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 24,
+        "pdf_text_spans": 43,
+        "embedded_raster_images": 41,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 130,
+          "path": 268,
+          "mask": 40,
+          "g": 252,
+          "image": 39,
+          "use": 591
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 24 个绘图对象、43 个文本片段和 41 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 740,
+          "sha256": "8b2db009f34597fc008c6005cd3c55b3d6c944279dec3c8026f22be80c6fe27e"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 261,
+          "sha256": "9a019981b26a2bbf5cf4dfc75584dd06397a52630729f03c11c0f372920b8ca4"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 216184,
+          "sha256": "d33cbb7337bc39e6aa1316d59dcaac541e2973b62eae00f6a05b4ac3cc4f0fe9"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 299045,
+          "sha256": "8ab8b6e9966f4095210d819e22410b2c03311ba7da9e550ba4e69e1da1388786"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 260666,
+          "sha256": "6b03a9cc69c7b9ee3de636a8279fe42a1268001e6d6208d91c3fe1622f9e2091"
+        }
+      ],
+      "path": "teaser/survey-memory-representations-operations-map",
+      "metadata_path": "teaser/survey-memory-representations-operations-map/metadata.json",
+      "readme_path": "teaser/survey-memory-representations-operations-map/README.md",
+      "primary_path": "teaser/survey-memory-representations-operations-map/original.pdf",
+      "preview_path": "teaser/survey-memory-representations-operations-map/preview.png"
     },
     {
       "schema_version": 1,
@@ -10937,6 +12587,166 @@
     },
     {
       "schema_version": 1,
+      "id": "amem-notes-links-evolution-framework",
+      "title": "A-MEM · 笔记构建、关联、演化与检索四分区",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "四个相邻分区把对话写成笔记、为记忆建立关联、更新原有记忆和查询检索串联起来；笔记、分组和模型符号跨区复用。",
+      "publication": {
+        "title": "A-MEM: Agentic Memory for LLM Agents",
+        "venue": "NeurIPS",
+        "year": 2025,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://papers.neurips.cc/paper_files/paper/2025/file/19909c36f51abc4856b4560aff3d36d6-Paper-Conference.pdf",
+        "source_version": "2502.12110v11",
+        "checked_date": "2026-11-05",
+        "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+      },
+      "curation": {
+        "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+        "panel_layout": {
+          "summary": "四栏：Note Construction、Link Generation、Memory Evolution、Memory Retrieval。",
+          "panel_groups": 4,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "四个相邻分区把对话写成笔记、为记忆建立关联、更新原有记忆和查询检索串联起来；笔记、分组和模型符号跨区复用。",
+        "what_to_borrow": [
+          "用稳定的笔记符号贯穿存储与检索。",
+          "主流程与局部数据组织示意相邻，避免只剩抽象框。"
+        ],
+        "reference_neighbors": [
+          "speculative-rag-draft-verify",
+          "memoryvla-cognition-memory-action"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/WujiangXu/AgenticMemory",
+        "authors": [
+          "Xu, Wujiang",
+          "Liang, Zujie",
+          "Mei, Kai",
+          "Gao, Hang",
+          "Tan, Juntao",
+          "Zhang, Yongfeng"
+        ],
+        "urls": [
+          "https://github.com/WujiangXu/AgenticMemory",
+          "https://arxiv.org/abs/2502.12110v11",
+          "https://arxiv.org/pdf/2502.12110v11",
+          "https://arxiv.org/src/2502.12110v11",
+          "https://papers.neurips.cc/paper_files/paper/2025/file/19909c36f51abc4856b4560aff3d36d6-Paper-Conference.pdf"
+        ],
+        "arxiv_id": "2502.12110v11",
+        "full_pdf_url": "https://arxiv.org/pdf/2502.12110v11",
+        "full_pdf_sha256": "fec32b521c4a1f793442bf1aeb26139c583078350d1cd4ab8f4eccc54a0694f0",
+        "full_pdf_bytes": 1015164,
+        "page_number": 3,
+        "figure_number": 2,
+        "original_sha256": "626f742f89ed78992d2ac25c314d9597c3526d43a8c4c2464b6209b2df669636",
+        "original_bytes": 205482,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2502.12110v11",
+        "archive_sha256": "d112e92606a562a0369e2e8cddadad88ac8d448d66c24ee9b63e808c2c84e42b",
+        "archive_bytes": 621652,
+        "archive_member": "figure/framework.pdf",
+        "inclusion_member": "neurips_2025.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 98,
+        "pdf_text_spans": 92,
+        "embedded_raster_images": 47,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 101,
+          "path": 342,
+          "mask": 47,
+          "g": 243,
+          "image": 22,
+          "use": 703
+        },
+        "normalized_path_transforms": 27,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 98 个绘图对象、92 个文本片段和 47 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 688,
+          "sha256": "d99a3964990bf188ac54683ec07f4bf5331accdca16ec11ef595c8ade72b99d1"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 1127,
+          "sha256": "1362229a4319a09b5968eb446e43daeff6bb705a643c1f05a2655cab61ce2fcb"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 205482,
+          "sha256": "626f742f89ed78992d2ac25c314d9597c3526d43a8c4c2464b6209b2df669636"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 322141,
+          "sha256": "00318b34bb5908f23770dda5dae10f7eb895fb3300d8cca6feaf09982ebed808"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 376515,
+          "sha256": "3ab6c73d6c0d497d37ee7e2b14dd83097d2f72b640f8d2e282124f73636255b7"
+        }
+      ],
+      "path": "architecture/amem-notes-links-evolution-framework",
+      "metadata_path": "architecture/amem-notes-links-evolution-framework/metadata.json",
+      "readme_path": "architecture/amem-notes-links-evolution-framework/README.md",
+      "primary_path": "architecture/amem-notes-links-evolution-framework/original.pdf",
+      "preview_path": "architecture/amem-notes-links-evolution-framework/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "blip2-bridge-framework",
       "title": "BLIP-2 · 冻结图像与语言模型的两阶段桥接",
       "category": "architecture",
@@ -11299,6 +13109,160 @@
       "readme_path": "architecture/clip/README.md",
       "primary_path": "architecture/clip/source.svg",
       "preview_path": "architecture/clip/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "crag-evaluate-correct-generate",
+      "title": "CRAG · 评估分流、知识纠正与三路生成",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "检索质量分成正确、模糊和错误三路，分别触发知识精炼、网页搜索或两者结合；底部对照三类证据组合如何进入生成器。",
+      "publication": {
+        "title": "Corrective Retrieval Augmented Generation",
+        "venue": "arXiv",
+        "year": 2024,
+        "presentation": "preprint",
+        "article_type": "research",
+        "evidence_url": "https://arxiv.org/abs/2401.15884v3",
+        "source_version": "2401.15884v3",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+        "panel_layout": {
+          "summary": "纵向三阶段：检索、知识纠正、生成；中间两种纠正机制，底部三路输入组合。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "检索质量分成正确、模糊和错误三路，分别触发知识精炼、网页搜索或两者结合；底部对照三类证据组合如何进入生成器。",
+        "what_to_borrow": [
+          "颜色在决策标签、分流箭头与最终组合中保持一致。",
+          "内部展开直接贴在分支旁，减少跨图寻找。"
+        ],
+        "reference_neighbors": [
+          "speculative-rag-draft-verify"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/HuskyInSalt/CRAG",
+        "authors": [
+          "Yan, Shi-Qi",
+          "Gu, Jia-Chen",
+          "Zhu, Yun",
+          "Ling, Zhen-Hua"
+        ],
+        "urls": [
+          "https://github.com/HuskyInSalt/CRAG",
+          "https://arxiv.org/abs/2401.15884v3",
+          "https://arxiv.org/pdf/2401.15884v3",
+          "https://arxiv.org/src/2401.15884v3"
+        ],
+        "arxiv_id": "2401.15884v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2401.15884v3",
+        "full_pdf_sha256": "975aa1fd3c1b603126e93ff99d6504858b61301bf1d34c9df88ebe53a0b026cb",
+        "full_pdf_bytes": 667756,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8",
+        "original_bytes": 210934,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2401.15884v3",
+        "archive_sha256": "01cb19acaf53a027b2fcccb2379dc3ce2bdedf1d45164b766472501fa686d8e6",
+        "archive_bytes": 329791,
+        "archive_member": "fig/method.pdf",
+        "inclusion_member": "3_Methods.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 84,
+        "pdf_text_spans": 84,
+        "embedded_raster_images": 3,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 8,
+          "path": 269,
+          "g": 11,
+          "use": 481,
+          "image": 2
+        },
+        "normalized_path_transforms": 40,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 84 个绘图对象、84 个文本片段和 3 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 660,
+          "sha256": "e321a32081be89f6b4b1fb882a50228ca2f0682216e8c230603b7177a29d3701"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 499,
+          "sha256": "88b454de22b40c07c4b9fe0534bd966aedf4aaa68da7acd27e525e4afae49369"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 210934,
+          "sha256": "2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 319237,
+          "sha256": "60985d75191ae321335a35883000b98623a80cf71e539082b8543e080c9769f3"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 483804,
+          "sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff"
+        }
+      ],
+      "path": "architecture/crag-evaluate-correct-generate",
+      "metadata_path": "architecture/crag-evaluate-correct-generate/metadata.json",
+      "readme_path": "architecture/crag-evaluate-correct-generate/README.md",
+      "primary_path": "architecture/crag-evaluate-correct-generate/original.pdf",
+      "preview_path": "architecture/crag-evaluate-correct-generate/preview.png"
     },
     {
       "schema_version": 1,
@@ -13418,6 +15382,323 @@
     },
     {
       "schema_version": 1,
+      "id": "hipporag-brain-region-framework",
+      "title": "HippoRAG · 三脑区类比与索引检索框架",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "上方三个脑区与下方 LLM、检索编码器、知识图谱及 PageRank 一一对应，再按离线索引和在线检索两行展开。",
+      "publication": {
+        "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+        "venue": "NeurIPS",
+        "year": 2024,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html",
+        "source_version": "2405.14831v3",
+        "checked_date": "2026-11-05",
+        "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+      },
+      "curation": {
+        "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+        "panel_layout": {
+          "summary": "三列脑区及计算模块对应，下面两行展开离线与在线操作。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "上方三个脑区与下方 LLM、检索编码器、知识图谱及 PageRank 一一对应，再按离线索引和在线检索两行展开。",
+        "what_to_borrow": [
+          "用竖向对齐保持生物对象与计算模块的对应。",
+          "上下两行复用视觉对象，突出训练外索引与查询差别。"
+        ],
+        "reference_neighbors": [
+          "cortex-memory-consolidation",
+          "memoryvla-cognition-memory-action",
+          "speculative-rag-draft-verify"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/OSU-NLP-Group/HippoRAG",
+        "authors": [
+          "Gutiérrez, Bernal Jiménez",
+          "Shu, Yiheng",
+          "Gu, Yu",
+          "Yasunaga, Michihiro",
+          "Su, Yu"
+        ],
+        "urls": [
+          "https://github.com/OSU-NLP-Group/HippoRAG",
+          "https://arxiv.org/abs/2405.14831v3",
+          "https://arxiv.org/pdf/2405.14831v3",
+          "https://arxiv.org/src/2405.14831v3",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6ddc001d07ca4f319af96a3024f6dbd1-Abstract-Conference.html"
+        ],
+        "arxiv_id": "2405.14831v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.14831v3",
+        "full_pdf_sha256": "14671c78fc7de99d83bb9e52e2d5b335d4756066925e67df1a25c0e272133aad",
+        "full_pdf_bytes": 3404698,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "bfccb124a2fdecf39cd88a16de13bf090eb1a0ca6213240621ca403b3cd024ec",
+        "original_bytes": 1061906,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.14831v3",
+        "archive_sha256": "b581bf9cb90df4acb02585c5944fe84b95bfc30763a4dfb5f086de536ebe9683",
+        "archive_bytes": 2586441,
+        "archive_member": "figures/HippoRAG_method_version_4.pdf",
+        "inclusion_member": "neurips_2024.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 171,
+        "pdf_text_spans": 52,
+        "embedded_raster_images": 47,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 38,
+          "path": 332,
+          "mask": 47,
+          "g": 180,
+          "image": 32,
+          "use": 327
+        },
+        "normalized_path_transforms": 79,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 171 个绘图对象、52 个文本片段和 47 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 747,
+          "sha256": "02342efb9d257a003046f3e27ae0a8cc3954bbb16d1a6b365325fa7a978f33a2"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 967,
+          "sha256": "f4334ba38823c96483251c7d8aab1503b341ac6b4701ca136da07aa8171cba4c"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1061906,
+          "sha256": "bfccb124a2fdecf39cd88a16de13bf090eb1a0ca6213240621ca403b3cd024ec"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 917941,
+          "sha256": "e412b2329b799d8893a9887e1b39eb55918f5301d5f6610d81c8663eaa7cf5f3"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1435179,
+          "sha256": "cb42006f1ee92fb86e8d2c24d6859bcc18b89f2a1b88b52f6be6aa21c5f232be"
+        }
+      ],
+      "path": "architecture/hipporag-brain-region-framework",
+      "metadata_path": "architecture/hipporag-brain-region-framework/metadata.json",
+      "readme_path": "architecture/hipporag-brain-region-framework/README.md",
+      "primary_path": "architecture/hipporag-brain-region-framework/original.pdf",
+      "preview_path": "architecture/hipporag-brain-region-framework/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "hipporag2-indexing-retrieval-framework",
+      "title": "HippoRAG 2 · 图谱索引、筛选与检索双阶段",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "两行分别展示离线知识图谱构建与在线问答。节点、边与颜色图例明确，局部图谱逐步变化，解释三元组筛选、种子权重与 PageRank。",
+      "publication": {
+        "title": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models",
+        "venue": "ICML",
+        "year": 2025,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://proceedings.mlr.press/v267/gutierrez25a.html",
+        "source_version": "2502.14802v2",
+        "checked_date": "2026-11-05",
+        "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+      },
+      "curation": {
+        "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+        "panel_layout": {
+          "summary": "上行三个索引步骤，下行五个检索问答步骤；右上统一图例。",
+          "panel_groups": 2,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "两行分别展示离线知识图谱构建与在线问答。节点、边与颜色图例明确，局部图谱逐步变化，解释三元组筛选、种子权重与 PageRank。",
+        "what_to_borrow": [
+          "重复使用图谱对象，通过着色变化显示中间状态。",
+          "阶段编号、图例和上下分路共同减轻长流程阅读负担。"
+        ],
+        "reference_neighbors": [
+          "speculative-rag-draft-verify",
+          "cortex-memory-consolidation"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/OSU-NLP-Group/HippoRAG",
+        "authors": [
+          "Gutiérrez, Bernal Jiménez",
+          "Shu, Yiheng",
+          "Qi, Weijian",
+          "Zhou, Sizhe",
+          "Su, Yu"
+        ],
+        "urls": [
+          "https://github.com/OSU-NLP-Group/HippoRAG",
+          "https://arxiv.org/abs/2502.14802v2",
+          "https://arxiv.org/pdf/2502.14802v2",
+          "https://arxiv.org/src/2502.14802v2",
+          "https://proceedings.mlr.press/v267/gutierrez25a.html"
+        ],
+        "arxiv_id": "2502.14802v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2502.14802v2",
+        "full_pdf_sha256": "90fa6af3ee8298a6c3abef6df0a9b0f092496cb7d6b1c3e8b55c5c8f5b552eb3",
+        "full_pdf_bytes": 2498688,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "ab1b52b0f6cab673ba84d0f1245685dbd69b6a8047d52cddb5509f63550132d6",
+        "original_bytes": 28598,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2502.14802v2",
+        "archive_sha256": "ea9a7e190e1225f4dcb922d1391bf9fe2050fa4e214b1ac1cf9f6f7626540fa9",
+        "archive_bytes": 11096031,
+        "archive_member": "figure/methodology.pdf",
+        "inclusion_member": "paper.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 191,
+        "pdf_text_spans": 41,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 57,
+          "path": 401,
+          "g": 58,
+          "use": 455
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 191 个绘图对象、41 个文本片段和 0 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 729,
+          "sha256": "47a22211a97fb00a811ac72bb9fb85fcbbc49d17c001a34e921ed380aa601992"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 911,
+          "sha256": "1e8b96a2536551f3396d484b040b445f36b3bc0afbd92c1eaf3d25227751b574"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 28598,
+          "sha256": "ab1b52b0f6cab673ba84d0f1245685dbd69b6a8047d52cddb5509f63550132d6"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 306844,
+          "sha256": "261dec46ac604de7d6a7b706374fef7fb662db162e1b08947d12b5e82dc4dd6d"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 186149,
+          "sha256": "87863567eac673057911c10a0d33a103d485540bd04174b289a3a688cd650d5c"
+        }
+      ],
+      "path": "architecture/hipporag2-indexing-retrieval-framework",
+      "metadata_path": "architecture/hipporag2-indexing-retrieval-framework/metadata.json",
+      "readme_path": "architecture/hipporag2-indexing-retrieval-framework/README.md",
+      "primary_path": "architecture/hipporag2-indexing-retrieval-framework/original.pdf",
+      "preview_path": "architecture/hipporag2-indexing-retrieval-framework/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "instant-ngp-hash-architecture",
       "title": "Instant NGP · 多分辨率哈希编码到 MLP",
       "category": "architecture",
@@ -14032,6 +16313,150 @@
     },
     {
       "schema_version": 1,
+      "id": "lightmem-sensory-topic-sleep-framework",
+      "title": "LightMem · 感觉过滤、主题记忆与睡眠更新三面板",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "png",
+        "raster-reference"
+      ],
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "summary": "三面板以实际对话和记忆项解释 token 过滤、主题切分、结构化摘要与离线合并；包含注意力矩阵、局部峰值及更新队列。",
+      "publication": {
+        "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+        "venue": "ICLR",
+        "year": 2026,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://github.com/zjunlp/LightMem",
+        "source_version": "2510.18866v4",
+        "checked_date": "2026-11-05",
+        "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+      },
+      "curation": {
+        "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+        "panel_layout": {
+          "summary": "(a) 上方长条感觉记忆过滤与切分；(b) 左下主题记忆构建；(c) 右下睡眠时间合并与更新。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "三面板以实际对话和记忆项解释 token 过滤、主题切分、结构化摘要与离线合并；包含注意力矩阵、局部峰值及更新队列。",
+        "what_to_borrow": [
+          "用不等宽面板为复杂过滤过程留足空间。",
+          "实际例子、矩阵和存储操作同时说明抽象模块。"
+        ],
+        "reference_neighbors": [
+          "memoryvla-cognition-memory-action",
+          "cortex-memory-consolidation",
+          "speculative-rag-draft-verify"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/zjunlp/LightMem",
+        "authors": [
+          "Fang, Jizhan",
+          "Deng, Xinle",
+          "Xu, Haoming",
+          "Jiang, Ziyan",
+          "Tang, Yuqi",
+          "Xu, Ziwen",
+          "Deng, Shumin",
+          "Yao, Yunzhi",
+          "Wang, Mengru",
+          "Qiao, Shuofei",
+          "Chen, Huajun",
+          "Zhang, Ningyu"
+        ],
+        "urls": [
+          "https://github.com/zjunlp/LightMem",
+          "https://arxiv.org/abs/2510.18866v4",
+          "https://arxiv.org/pdf/2510.18866v4",
+          "https://arxiv.org/src/2510.18866v4"
+        ],
+        "arxiv_id": "2510.18866v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2510.18866v4",
+        "full_pdf_sha256": "7e9a8e9f39c616528d543ce8520606d47d56032eb004b55d452d0dce5725c23e",
+        "full_pdf_bytes": 4604558,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "882bb733d810e93fb71ed995206ba8ec19206e5dad7480d73dd7564963aef302",
+        "original_bytes": 1699511,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2510.18866v4",
+        "archive_sha256": "e24c5cbf57c1dae2f5904acf2be2920899697515768b0602ee37d5f985be495e",
+        "archive_bytes": 5229829,
+        "archive_member": "figure/Lightmem.png",
+        "inclusion_member": "iclr2026_conference.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "author PNG",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pixel_dimensions": [
+          4094,
+          2227
+        ],
+        "notes": [
+          "作者 TeX 归档与已检查的作者 GitHub 仓库均提供整张 PNG。本条为位图构图参考，未取得这张图可逐对象编辑的 PDF、SVG 或 AI；未生成 SVG 外壳。预览将透明背景合成到白底，原 PNG 字节和透明度保留。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的 PNG。",
+        "原图缩放到浏览尺寸并在白底生成预览，保留原件透明度。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 796,
+          "sha256": "c883263816a0d089d966876d6b51d896068147e878d32fab2c563eff4ed93111"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 428,
+          "sha256": "966e798eb41d1c55762d478d245b6427df08b0335d45c53cb1062ed2befd0cc9"
+        },
+        {
+          "path": "original.png",
+          "bytes": 1699511,
+          "sha256": "882bb733d810e93fb71ed995206ba8ec19206e5dad7480d73dd7564963aef302"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1309815,
+          "sha256": "7beed67ce43ec4565e55f0e66e8a3857c2091c833c2420db4e71d1abc8630d2e"
+        }
+      ],
+      "path": "architecture/lightmem-sensory-topic-sleep-framework",
+      "metadata_path": "architecture/lightmem-sensory-topic-sleep-framework/metadata.json",
+      "readme_path": "architecture/lightmem-sensory-topic-sleep-framework/README.md",
+      "primary_path": "architecture/lightmem-sensory-topic-sleep-framework/original.png",
+      "preview_path": "architecture/lightmem-sensory-topic-sleep-framework/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "llava-original-architecture",
       "title": "LLaVA · 视觉投影与语言 token 的统一输入",
       "category": "architecture",
@@ -14166,6 +16591,328 @@
       "readme_path": "architecture/llava-original-architecture/README.md",
       "primary_path": "architecture/llava-original-architecture/source.svg",
       "preview_path": "architecture/llava-original-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "memoryos-three-tier-memory-framework",
+      "title": "MemoryOS · 三层记忆、动态更新与回答生成",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "oral"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "短期、中期和长期个人记忆并排展开，包含队列、页面、热度、用户画像与检索回路；上下主线把存储、更新和生成串起来。",
+      "publication": {
+        "title": "Memory OS of AI Agent",
+        "venue": "EMNLP",
+        "year": 2025,
+        "presentation": "oral",
+        "article_type": "research",
+        "evidence_url": "https://github.com/BAI-LAB/MemoryOS",
+        "source_version": "2506.06326v1",
+        "checked_date": "2026-11-05",
+        "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+      },
+      "curation": {
+        "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+        "panel_layout": {
+          "summary": "STM、MTM、LPM 三个记忆区及右侧回答区；上下检索和写回回路贯穿。",
+          "panel_groups": 4,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "短期、中期和长期个人记忆并排展开，包含队列、页面、热度、用户画像与检索回路；上下主线把存储、更新和生成串起来。",
+        "what_to_borrow": [
+          "用不同数据组织方式说明各层记忆差异。",
+          "粗主线负责跨层流动，局部细线负责内部更新。"
+        ],
+        "reference_neighbors": [
+          "memoryvla-cognition-memory-action",
+          "cortex-memory-consolidation"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/BAI-LAB/MemoryOS",
+        "authors": [
+          "Kang, Jiazheng",
+          "Ji, Mingming",
+          "Zhao, Zhe",
+          "Bai, Ting"
+        ],
+        "urls": [
+          "https://github.com/BAI-LAB/MemoryOS",
+          "https://arxiv.org/abs/2506.06326v1",
+          "https://arxiv.org/pdf/2506.06326v1",
+          "https://arxiv.org/src/2506.06326v1"
+        ],
+        "arxiv_id": "2506.06326v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2506.06326v1",
+        "full_pdf_sha256": "4b3cbeb6a94d6b5a996f7bbeabe651929fbf7dd15a5e00cd28e728530d9ff730",
+        "full_pdf_bytes": 849565,
+        "page_number": 3,
+        "figure_number": 1,
+        "original_sha256": "32313e9ce3ef789d06c961b4863877c5757ab5ec3cd8c07bdbef9351c3cd59b5",
+        "original_bytes": 182035,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2506.06326v1",
+        "archive_sha256": "e68071128f2ba4a73ede190912526b49c330682b0a2b98322b747a202f482b38",
+        "archive_bytes": 790452,
+        "archive_member": "latex/figure/mem_pipline.pdf",
+        "inclusion_member": "latex/acl_latex.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 68,
+        "pdf_text_spans": 39,
+        "embedded_raster_images": 31,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 2,
+          "path": 142,
+          "mask": 31,
+          "g": 96,
+          "image": 22,
+          "use": 337
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 68 个绘图对象、39 个文本片段和 31 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 653,
+          "sha256": "06636b52c5f58f311f1aeb2048c4aad739dd3ea74e9626945c302471e5c5cbc7"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 287,
+          "sha256": "0f821510bd5dd71f911e37b96081406ce285389e8aef11447547fb212cdad63c"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 182035,
+          "sha256": "32313e9ce3ef789d06c961b4863877c5757ab5ec3cd8c07bdbef9351c3cd59b5"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 258823,
+          "sha256": "a9b51a2f16cbf42c5fdb43189ff901692dd1dedeef3c584b094f80b3031899ab"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 292546,
+          "sha256": "cc68679c3966280a53d2b23f9d17a3eef932b48ab9e1762ecfd69efbc7151c5f"
+        }
+      ],
+      "path": "architecture/memoryos-three-tier-memory-framework",
+      "metadata_path": "architecture/memoryos-three-tier-memory-framework/metadata.json",
+      "readme_path": "architecture/memoryos-three-tier-memory-framework/README.md",
+      "primary_path": "architecture/memoryos-three-tier-memory-framework/original.pdf",
+      "preview_path": "architecture/memoryos-three-tier-memory-framework/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "memoryvla-perceptual-cognitive-architecture",
+      "title": "MemoryVLA · 感知认知记忆库与扩散动作网络",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "左侧视觉与语言编码，中间感知认知记忆库、检索、门控融合和巩固回路，右侧展开动作专家的双路注意力与去噪结构。",
+      "publication": {
+        "title": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+        "venue": "ICLR",
+        "year": 2026,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://openreview.net/forum?id=54U3XHf7qq",
+        "source_version": "2508.19236v1",
+        "checked_date": "2026-11-05",
+        "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+      },
+      "curation": {
+        "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+        "panel_layout": {
+          "summary": "输入编码、记忆管理、动作专家三个区域；最后一个区域展示内部网络层。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "左侧视觉与语言编码，中间感知认知记忆库、检索、门控融合和巩固回路，右侧展开动作专家的双路注意力与去噪结构。",
+        "what_to_borrow": [
+          "总体流程与单个网络的内部展开共处同一张图。",
+          "用稳定颜色区分感知 token、认知 token 与动作分支。"
+        ],
+        "reference_neighbors": [
+          "memoryvla-cognition-memory-action",
+          "cortex-memory-consolidation"
+        ],
+        "version_notes": "与已收录 MemoryVLA teaser 使用同一 2025 年 arXiv v1；不混入后续版本新增结构或评测。",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://shihao1895.github.io/MemoryVLA/",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "arxiv_id": "2508.19236v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2508.19236v1",
+        "full_pdf_sha256": "2f39262c7f270ec7c104defdaec11f7b6f21ace116d1fe1175ee228b54f57026",
+        "full_pdf_bytes": 11023858,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "original_bytes": 244717,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2508.19236v1",
+        "archive_sha256": "21d9ae4e287a9d41ec851044f66193186d5dcd37c7cb89ec136f8046b1f414f9",
+        "archive_bytes": 10386126,
+        "archive_member": "figures/fig_2_method.pdf",
+        "inclusion_member": "chapters/3_method.tex",
+        "retrieved_date": "2026-11-04",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 140,
+        "pdf_text_spans": 41,
+        "embedded_raster_images": 115,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 121,
+          "path": 362,
+          "mask": 115,
+          "g": 468,
+          "image": 78,
+          "use": 555
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 140 个绘图对象、41 个文本片段和 115 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 802,
+          "sha256": "5089e7f02a661a5f8ed17f4d6930ab3626ec8767d671560b22adf93725ce9c5f"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 747,
+          "sha256": "7b4319a588f82af6f1c3f4282a3f24ae56aa44b2f20efe1566d1fefe76ae2bc2"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 244717,
+          "sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 496056,
+          "sha256": "1a8148f92d656634ef5a7bb2ec455890eb4e60b97724aa3689227877ee342f27"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 344335,
+          "sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078"
+        }
+      ],
+      "path": "architecture/memoryvla-perceptual-cognitive-architecture",
+      "metadata_path": "architecture/memoryvla-perceptual-cognitive-architecture/metadata.json",
+      "readme_path": "architecture/memoryvla-perceptual-cognitive-architecture/README.md",
+      "primary_path": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+      "preview_path": "architecture/memoryvla-perceptual-cognitive-architecture/preview.png"
     },
     {
       "schema_version": 1,
@@ -15130,6 +17877,165 @@
     },
     {
       "schema_version": 1,
+      "id": "selfrag-retrieve-generate-critique",
+      "title": "Self-RAG · 检索、并行生成与自评选择",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "oral"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "左侧是固定检索 RAG，右侧完整展开按需检索、并行生成和自评选择，下方再用不需要检索的请求形成补充对照。",
+      "publication": {
+        "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+        "venue": "ICLR",
+        "year": 2024,
+        "presentation": "oral",
+        "article_type": "research",
+        "evidence_url": "https://github.com/AkariAsai/self-rag",
+        "source_version": "2310.11511v1",
+        "checked_date": "2026-11-05",
+        "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+      },
+      "curation": {
+        "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+        "panel_layout": {
+          "summary": "左右方法对照；右侧包含三阶段和三条文档分支；底部额外对照非检索任务。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "左侧是固定检索 RAG，右侧完整展开按需检索、并行生成和自评选择，下方再用不需要检索的请求形成补充对照。",
+        "what_to_borrow": [
+          "用具体问题与文档片段承载流程，而不是只写模块名。",
+          "答案片段、文档编号和评估色块互相呼应。"
+        ],
+        "reference_neighbors": [
+          "speculative-rag-draft-verify"
+        ],
+        "version_notes": "原文件名包含 teaser，但本库按主要作用归入 Architecture：图中详细解释检索、生成、自评与选择的数据流。所收录为 2023 年 arXiv v1，会议身份为 ICLR 2024。",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://selfrag.github.io/",
+        "authors": [
+          "Asai, Akari",
+          "Wu, Zeqiu",
+          "Wang, Yizhong",
+          "Sil, Avirup",
+          "Hajishirzi, Hannaneh"
+        ],
+        "urls": [
+          "https://selfrag.github.io/",
+          "https://arxiv.org/abs/2310.11511v1",
+          "https://arxiv.org/pdf/2310.11511v1",
+          "https://arxiv.org/src/2310.11511v1",
+          "https://github.com/AkariAsai/self-rag"
+        ],
+        "arxiv_id": "2310.11511v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2310.11511v1",
+        "full_pdf_sha256": "d9eaa1398abac0df67a9d0933a5bf8b6d9d83d2e72da2a486073cd842dd52978",
+        "full_pdf_bytes": 1405127,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "b5cd85892820a32b101300fc759d1228549f83672a5e432abff8385080e4d27e",
+        "original_bytes": 480868,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2310.11511v1",
+        "archive_sha256": "7dd38f6eaf737152ee0bcba066a659bb37e87fced8ee741845f4e33a6e11ec79",
+        "archive_bytes": 917558,
+        "archive_member": "figs/teaser_self_rag_v8.pdf",
+        "inclusion_member": "sections/intro.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "attribution-required",
+        "name": "CC BY 4.0（所收录论文版本）",
+        "note": "所收录 arXiv 论文版本声明 CC BY 4.0，保留作者署名、版本与转换记录；图中的第三方照片、商标或引用素材仍按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 98,
+        "pdf_text_spans": 79,
+        "embedded_raster_images": 29,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 69,
+          "path": 345,
+          "mask": 29,
+          "g": 166,
+          "image": 12,
+          "use": 1617
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 98 个绘图对象、79 个文本片段和 29 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 691,
+          "sha256": "396499144051d9280a7ce009f026099eadf5f13f32d98f5a698e4a3af11dcc98"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 281,
+          "sha256": "73498361096bc96118a3f370bec368dea2c56372e23bb9afe4b66dfbdaed86d7"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 480868,
+          "sha256": "b5cd85892820a32b101300fc759d1228549f83672a5e432abff8385080e4d27e"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 514040,
+          "sha256": "078cd6c5659938fb8ea2739ffdc0b1afa059c22c33650bc71c185abd1e4eede7"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1277489,
+          "sha256": "1ee800f03002caa9f8da3f5e4b3163e1fda298d9e0a86290d94fda6b6acedf17"
+        }
+      ],
+      "path": "architecture/selfrag-retrieve-generate-critique",
+      "metadata_path": "architecture/selfrag-retrieve-generate-critique/metadata.json",
+      "readme_path": "architecture/selfrag-retrieve-generate-critique/README.md",
+      "primary_path": "architecture/selfrag-retrieve-generate-critique/original.pdf",
+      "preview_path": "architecture/selfrag-retrieve-generate-critique/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "speculative-rag-draft-verify",
       "title": "Speculative RAG · 并行起草与通用模型验证",
       "category": "architecture",
@@ -15506,6 +18412,174 @@
     },
     {
       "schema_version": 1,
+      "id": "survey-ai-memory-agent-feedback-framework",
+      "title": "AI 记忆综述 · 感觉、短期、长期记忆与行动闭环",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "memory",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "层叠的感觉、短期和长期记忆与右侧策略推理相连，外圈串联环境、观测、行动与人类反馈；图内保留具体记忆内容和多模态输入。",
+      "publication": {
+        "title": "The AI Hippocampus: How Far are We From Human Memory?",
+        "venue": "arXiv",
+        "year": 2026,
+        "presentation": "preprint",
+        "article_type": "survey",
+        "evidence_url": "https://arxiv.org/abs/2601.09113v1",
+        "source_version": "2601.09113v1",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+        "panel_layout": {
+          "summary": "三层记忆、右侧三类策略、顶部人类交互、底部环境构成闭环。",
+          "panel_groups": 4,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "层叠的感觉、短期和长期记忆与右侧策略推理相连，外圈串联环境、观测、行动与人类反馈；图内保留具体记忆内容和多模态输入。",
+        "what_to_borrow": [
+          "记忆层级占据主视觉，反馈闭环沿外边界流动。",
+          "用实际短期与长期记忆内容解释抽象存储层。"
+        ],
+        "reference_neighbors": [
+          "memoryvla-cognition-memory-action",
+          "cortex-memory-consolidation"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://github.com/bigai-nlco/LLM-Memory-Survey",
+        "authors": [
+          "Jia, Zixia",
+          "Li, Jiaqi",
+          "Kang, Yipeng",
+          "Wang, Yuxuan",
+          "Wu, Tong",
+          "Wang, Quansen",
+          "Wang, Xiaobo",
+          "Zhang, Shuyi",
+          "Shen, Junzhe",
+          "Li, Qing",
+          "Qi, Siyuan",
+          "Liang, Yitao",
+          "He, Di",
+          "Zheng, Zilong",
+          "Zhu, Song-Chun"
+        ],
+        "urls": [
+          "https://github.com/bigai-nlco/LLM-Memory-Survey",
+          "https://arxiv.org/abs/2601.09113v1",
+          "https://arxiv.org/pdf/2601.09113v1",
+          "https://arxiv.org/src/2601.09113v1"
+        ],
+        "arxiv_id": "2601.09113v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2601.09113v1",
+        "full_pdf_sha256": "87b6aa9c115cfc92820d82663f0ed67051b662bfc28cf5de607b054c14642895",
+        "full_pdf_bytes": 6627437,
+        "page_number": 24,
+        "figure_number": 9,
+        "original_sha256": "3e6e81721d232f6781ea559442e89217f3183efc6165d9e651897cab631b6e2b",
+        "original_bytes": 189348,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2601.09113v1",
+        "archive_sha256": "71cbdbe3eb492576baeca8270354d6f6d598097faa7b6d18e1ca08037e877b06",
+        "archive_bytes": 9628552,
+        "archive_member": "sections/llm_agent/agent_mem_newcolor.pdf",
+        "inclusion_member": "sections/llm_agent/llm_agent.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 31,
+        "pdf_text_spans": 44,
+        "embedded_raster_images": 8,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 65,
+          "path": 193,
+          "mask": 2,
+          "g": 79,
+          "image": 10,
+          "use": 611
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 31 个绘图对象、44 个文本片段和 8 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 839,
+          "sha256": "0e21c47968226a84025e1b7e956c24e03a62a8df7135da26b61db5f2e88c4781"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 537,
+          "sha256": "8583c7f979d2bfa8fe3eb480e6421375dfc35e6ed228070d53e613ea0b1f8ff5"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 189348,
+          "sha256": "3e6e81721d232f6781ea559442e89217f3183efc6165d9e651897cab631b6e2b"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 566311,
+          "sha256": "d8ae4cf864e812e2dc65ae8e3072787d65ba7a75ddfcfa65c52c01b2447ce907"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 295469,
+          "sha256": "d5755d21af4d33c61d76f58c97234f4cfd784e7b5459b63511c3f0b7a756856e"
+        }
+      ],
+      "path": "architecture/survey-ai-memory-agent-feedback-framework",
+      "metadata_path": "architecture/survey-ai-memory-agent-feedback-framework/metadata.json",
+      "readme_path": "architecture/survey-ai-memory-agent-feedback-framework/README.md",
+      "primary_path": "architecture/survey-ai-memory-agent-feedback-framework/original.pdf",
+      "preview_path": "architecture/survey-ai-memory-agent-feedback-framework/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "survey-autonomous-agent-modules",
       "title": "自主 Agent 统一框架 · 四列模块分解",
       "category": "architecture",
@@ -15669,6 +18743,166 @@
       "readme_path": "architecture/survey-autonomous-agent-modules/README.md",
       "primary_path": "architecture/survey-autonomous-agent-modules/original.pdf",
       "preview_path": "architecture/survey-autonomous-agent-modules/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "survey-genai-semantic-memory-framework",
+      "title": "GenAI 语义通信 · 语义记忆与物理信道双路框架",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "survey",
+        "generative-ai",
+        "wireless",
+        "applications",
+        "multi-panel",
+        "pdf",
+        "svg"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "发送端先提取共同知识和变化数据，上路通过两端语义记忆共享知识，下路通过 DJSCC 编解码与无线信道重建数据，最后输出预测。",
+      "publication": {
+        "title": "Applications of Generative AI (GAI) for Mobile and Wireless Networking: A Survey",
+        "venue": "arXiv",
+        "year": 2024,
+        "presentation": "preprint",
+        "article_type": "survey",
+        "evidence_url": "https://arxiv.org/abs/2405.20024v2",
+        "source_version": "2405.20024v2",
+        "checked_date": "2026-11-05"
+      },
+      "curation": {
+        "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+        "panel_layout": {
+          "summary": "发送端、上下双路信道、接收端三大区域；生成模型的作用用浅蓝模块统一标示。",
+          "panel_groups": 3,
+          "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+        },
+        "why_selected": "发送端先提取共同知识和变化数据，上路通过两端语义记忆共享知识，下路通过 DJSCC 编解码与无线信道重建数据，最后输出预测。",
+        "what_to_borrow": [
+          "用上下通路区分共享知识与传输数据。",
+          "浅色连通背景标出跨模块语义关系。"
+        ],
+        "reference_neighbors": [
+          "survey-genai-wireless-four-scenarios",
+          "speculative-rag-draft-verify"
+        ],
+        "version_notes": "",
+        "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+      },
+      "source": {
+        "project": "https://arxiv.org/abs/2405.20024v2",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "arxiv_id": "2405.20024v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+        "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+        "full_pdf_bytes": 12203487,
+        "page_number": 13,
+        "figure_number": 7,
+        "original_sha256": "5de6e7ee7ed0c5d0ad10ac46faad860e86bec9164755ee72f2e71d9559013f04",
+        "original_bytes": 765842,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2405.20024v2",
+        "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+        "archive_bytes": 11166377,
+        "archive_member": "Photo/FigureGAIApplication.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-05",
+        "checked_date": "2026-11-05",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects or outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 54,
+        "pdf_text_spans": 26,
+        "embedded_raster_images": 5,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 6,
+          "path": 125,
+          "mask": 1,
+          "g": 10,
+          "image": 6,
+          "use": 226
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+        "notes": [
+          "作者独立 PDF 含 54 个绘图对象、26 个文本片段和 5 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+          "桌面 Illustrator 尚未逐项实测。"
+        ]
+      },
+      "changes": [
+        "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+        "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+        "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-05",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 781,
+          "sha256": "d080b578e688cae0d668df885c539de95cd51196cb1cb9345e22e4b9cd72f216"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 498,
+          "sha256": "5994417bd1a35bc17d065b8a449f0de0d82fd5174324ed12973c62d8ee2c58e0"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 765842,
+          "sha256": "5de6e7ee7ed0c5d0ad10ac46faad860e86bec9164755ee72f2e71d9559013f04"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 261718,
+          "sha256": "e637a508916538d6269de6cb5933a46f11f2f89a22a82c04de7ddbe6d6c4a92a"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 688162,
+          "sha256": "84f5c9b4bbfb3f960dcf0dcd739f524a908b3ffe52032b68a70785c2039d64de"
+        }
+      ],
+      "path": "architecture/survey-genai-semantic-memory-framework",
+      "metadata_path": "architecture/survey-genai-semantic-memory-framework/metadata.json",
+      "readme_path": "architecture/survey-genai-semantic-memory-framework/README.md",
+      "primary_path": "architecture/survey-genai-semantic-memory-framework/original.pdf",
+      "preview_path": "architecture/survey-genai-semantic-memory-framework/preview.png"
     },
     {
       "schema_version": 1,

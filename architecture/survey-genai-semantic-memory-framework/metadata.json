@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "survey-genai-semantic-memory-framework",
+  "title": "GenAI 语义通信 · 语义记忆与物理信道双路框架",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "generative-ai",
+    "wireless",
+    "applications",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "发送端先提取共同知识和变化数据，上路通过两端语义记忆共享知识，下路通过 DJSCC 编解码与无线信道重建数据，最后输出预测。",
+  "publication": {
+    "title": "Applications of Generative AI (GAI) for Mobile and Wireless Networking: A Survey",
+    "venue": "arXiv",
+    "year": 2024,
+    "presentation": "preprint",
+    "article_type": "survey",
+    "evidence_url": "https://arxiv.org/abs/2405.20024v2",
+    "source_version": "2405.20024v2",
+    "checked_date": "2026-11-05"
+  },
+  "curation": {
+    "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "发送端、上下双路信道、接收端三大区域；生成模型的作用用浅蓝模块统一标示。",
+      "panel_groups": 3,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "发送端先提取共同知识和变化数据，上路通过两端语义记忆共享知识，下路通过 DJSCC 编解码与无线信道重建数据，最后输出预测。",
+    "what_to_borrow": [
+      "用上下通路区分共享知识与传输数据。",
+      "浅色连通背景标出跨模块语义关系。"
+    ],
+    "reference_neighbors": [
+      "survey-genai-wireless-four-scenarios",
+      "speculative-rag-draft-verify"
+    ],
+    "version_notes": "",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2405.20024v2",
+    "authors": [
+      "Vu, Thai-Hoc",
+      "Jagatheesaperumal, Senthil Kumar",
+      "Nguyen, Minh-Duong",
+      "Van Huynh, Nguyen",
+      "Kim, Sunghwan",
+      "Pham, Quoc-Viet"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2405.20024v2",
+      "https://arxiv.org/pdf/2405.20024v2",
+      "https://arxiv.org/src/2405.20024v2"
+    ],
+    "arxiv_id": "2405.20024v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2405.20024v2",
+    "full_pdf_sha256": "32d6986561c7aa3470de5fd9747fc25a11ae9f14e231600e3286cb072649c4aa",
+    "full_pdf_bytes": 12203487,
+    "page_number": 13,
+    "figure_number": 7,
+    "original_sha256": "5de6e7ee7ed0c5d0ad10ac46faad860e86bec9164755ee72f2e71d9559013f04",
+    "original_bytes": 765842,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2405.20024v2",
+    "archive_sha256": "730cb54f5be8ca32242dd001f519f1a6dfc1813c438721bf654d857b408dac13",
+    "archive_bytes": 11166377,
+    "archive_member": "Photo/FigureGAIApplication.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-11-05",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 54,
+    "pdf_text_spans": 26,
+    "embedded_raster_images": 5,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 6,
+      "path": 125,
+      "mask": 1,
+      "g": 10,
+      "image": 6,
+      "use": 226
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 54 个绘图对象、26 个文本片段和 5 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 781,
+      "sha256": "d080b578e688cae0d668df885c539de95cd51196cb1cb9345e22e4b9cd72f216"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 498,
+      "sha256": "5994417bd1a35bc17d065b8a449f0de0d82fd5174324ed12973c62d8ee2c58e0"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 765842,
+      "sha256": "5de6e7ee7ed0c5d0ad10ac46faad860e86bec9164755ee72f2e71d9559013f04"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 261718,
+      "sha256": "e637a508916538d6269de6cb5933a46f11f2f89a22a82c04de7ddbe6d6c4a92a"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 688162,
+      "sha256": "84f5c9b4bbfb3f960dcf0dcd739f524a908b3ffe52032b68a70785c2039d64de"
+    }
+  ]
+}

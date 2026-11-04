@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "memoryvla-perceptual-cognitive-architecture",
+  "title": "MemoryVLA · 感知认知记忆库与扩散动作网络",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory",
+    "multi-panel",
+    "pdf",
+    "svg"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "左侧视觉与语言编码，中间感知认知记忆库、检索、门控融合和巩固回路，右侧展开动作专家的双路注意力与去噪结构。",
+  "publication": {
+    "title": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+    "venue": "ICLR",
+    "year": 2026,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://openreview.net/forum?id=54U3XHf7qq",
+    "source_version": "2508.19236v1",
+    "checked_date": "2026-11-05",
+    "source_version_note": "The figure is from the fixed arXiv source version; venue and year describe the verified conference publication."
+  },
+  "curation": {
+    "figure_role": "解释模型内部结构、处理步骤或数据流，按主要表达用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "输入编码、记忆管理、动作专家三个区域；最后一个区域展示内部网络层。",
+      "panel_groups": 3,
+      "counting_note": "按主题、处理阶段或比较分区计数；嵌入图像对象数不代表子图数。"
+    },
+    "why_selected": "左侧视觉与语言编码，中间感知认知记忆库、检索、门控融合和巩固回路，右侧展开动作专家的双路注意力与去噪结构。",
+    "what_to_borrow": [
+      "总体流程与单个网络的内部展开共处同一张图。",
+      "用稳定颜色区分感知 token、认知 token 与动作分支。"
+    ],
+    "reference_neighbors": [
+      "memoryvla-cognition-memory-action",
+      "cortex-memory-consolidation"
+    ],
+    "version_notes": "与已收录 MemoryVLA teaser 使用同一 2025 年 arXiv v1；不混入后续版本新增结构或评测。",
+    "reviewed_from": "fixed-version paper and caption; original author figure and inclusion source; rendered PDF/PNG and SVG where available"
+  },
+  "source": {
+    "project": "https://shihao1895.github.io/MemoryVLA/",
+    "authors": [
+      "Shi, Hao",
+      "Xie, Bin",
+      "Liu, Yingfei",
+      "Sun, Lin",
+      "Liu, Fengrong",
+      "Wang, Tiancai",
+      "Zhou, Erjin",
+      "Fan, Haoqiang",
+      "Zhang, Xiangyu",
+      "Huang, Gao"
+    ],
+    "urls": [
+      "https://shihao1895.github.io/MemoryVLA/",
+      "https://arxiv.org/abs/2508.19236v1",
+      "https://arxiv.org/pdf/2508.19236v1",
+      "https://arxiv.org/src/2508.19236v1",
+      "https://openreview.net/forum?id=54U3XHf7qq"
+    ],
+    "arxiv_id": "2508.19236v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2508.19236v1",
+    "full_pdf_sha256": "2f39262c7f270ec7c104defdaec11f7b6f21ace116d1fe1175ee228b54f57026",
+    "full_pdf_bytes": 11023858,
+    "page_number": 4,
+    "figure_number": 2,
+    "original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+    "original_bytes": 244717,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2508.19236v1",
+    "archive_sha256": "21d9ae4e287a9d41ec851044f66193186d5dcd37c7cb89ec136f8046b1f414f9",
+    "archive_bytes": 10386126,
+    "archive_member": "figures/fig_2_method.pdf",
+    "inclusion_member": "chapters/3_method.tex",
+    "retrieved_date": "2026-11-04",
+    "checked_date": "2026-11-05",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects or outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 140,
+    "pdf_text_spans": 41,
+    "embedded_raster_images": 115,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 121,
+      "path": 362,
+      "mask": 115,
+      "g": 468,
+      "image": 78,
+      "use": 555
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 含 140 个绘图对象、41 个文本片段和 115 个嵌入位图对象；保留原有矢量、文字或轮廓。SVG 是 PDF 转换件，文字转轮廓，嵌入图片保持。位图对象数不代表子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "按原字节复制作者固定版本 TeX 归档中的独立 PDF。",
+    "生成预览与自包含 SVG 转换件；SVG 文字转轮廓，原有位图保留。",
+    "按用途分类并与相近范例、同论文图和现有元素互链；未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-05",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 802,
+      "sha256": "5089e7f02a661a5f8ed17f4d6930ab3626ec8767d671560b22adf93725ce9c5f"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 747,
+      "sha256": "7b4319a588f82af6f1c3f4282a3f24ae56aa44b2f20efe1566d1fefe76ae2bc2"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 244717,
+      "sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 496056,
+      "sha256": "1a8148f92d656634ef5a7bb2ec455890eb4e60b97724aa3689227877ee342f27"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 344335,
+      "sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078"
+    }
+  ]
+}

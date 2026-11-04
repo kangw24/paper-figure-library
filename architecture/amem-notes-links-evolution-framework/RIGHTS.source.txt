@@ -1,0 +1,9 @@
+Paper: A-MEM: Agentic Memory for LLM Agents
+Authors: Xu, Wujiang, Liang, Zujie, Mei, Kai, Gao, Hang, Tan, Juntao, Zhang, Yongfeng
+Source version: 2502.12110v11
+Archive: https://arxiv.org/src/2502.12110v11
+Member: figure/framework.pdf
+Original SHA256: 626f742f89ed78992d2ac25c314d9597c3526d43a8c4c2464b6209b2df669636
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

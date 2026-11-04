@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="26.38029" height="16.03002" viewBox="591.7649 132.73343 26.38029 16.03002">
+<defs>
+<clipPath id="clip_2">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H3112.4998V1197.1154H0Z" clip-rule="evenodd" />
+</clipPath>
+</defs>
+<g>
+<g clip-path="url(#clip_2)">
+<path transform="matrix(.71826919,0,0,.71826919,.35913459,.35913459)" d="M824.49 185.41H854.99V201.5H824.49Z" fill="#e1d5e7" />
+<path transform="matrix(.71826919,0,0,.71826919,.35913459,.35913459)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#9673a6" d="M824.49 185.41H854.99V201.5H824.49Z" />
+<path transform="matrix(.71826919,0,0,.71826919,.35913459,.35913459)" d="M826.49 187.41H856.99V203.5H826.49Z" fill="#e1d5e7" />
+<path transform="matrix(.71826919,0,0,.71826919,.35913459,.35913459)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#9673a6" d="M826.49 187.41H856.99V203.5H826.49Z" />
+<path transform="matrix(.71826919,0,0,.71826919,.35913459,.35913459)" d="M828.49 189.41H858.99V205.5H828.49Z" fill="#e1d5e7" />
+<path transform="matrix(.71826919,0,0,.71826919,.35913459,.35913459)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#9673a6" d="M828.49 189.41H858.99V205.5H828.49Z" />
+</g>
+</g>
+</svg>

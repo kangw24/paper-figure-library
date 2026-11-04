@@ -54,6 +54,8 @@ PDF 的框线、箭头和原有文字对象或轮廓可按实际对象修改；�
 
 同论文的其他图：[GenAI × IoT · 分层技术栈与多场景应用](../survey-genai-iot-layers-scenes/README.md) · [GenAI 综述 · 演进、生成模型与代表方法拼图](../survey-genai-history-model-mosaic/README.md) · [GenAI 网络管理 · 控制面、数据面与切片场景](../survey-genai-network-management-scenes/README.md) · [GenAI 语义通信 · 语义记忆与物理信道双路框架](../../architecture/survey-genai-semantic-memory-framework/README.md)
 
+**从本图拆出的部件：** [带信号的文档符号](../../element/svg/security-signal-document.svg) · [多层特征图堆叠](../../element/svg/security-feature-stack.svg) · [生成器层结构](../../element/svg/security-generator-network.svg) · [损失计算模块](../../element/svg/security-loss-calculation.svg)
+
 **可搭配的现有元素：** [网络](../../element/svg/tabler-network.svg) · [锁定](../../element/svg/tabler-lock.svg) · [浅层神经网络](../../element/svg/towaki-neuralnetwork.svg) · [正弦信号](../../element/svg/tabler-wave-sine.svg)
 
 这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。

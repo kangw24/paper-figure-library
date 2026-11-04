@@ -1032,25 +1032,40 @@
       "tabler-wave-sine",
       "tabler-network",
       "tabler-device-mobile",
-      "tabler-arrow-right"
+      "tabler-arrow-right",
+      "security-feature-stack",
+      "security-signal-document"
     ],
     "speculative-rag-draft-verify": [
       "tabler-file-text",
       "tabler-network",
       "tabler-arrow-right",
-      "tabler-check"
+      "tabler-check",
+      "hipporag2-passage",
+      "crag-evaluation-statuses"
     ],
     "memoryvla-cognition-memory-action": [
       "tabler-brain",
       "tabler-robot",
       "tabler-database",
-      "tabler-network"
+      "tabler-network",
+      "bioicons-brain-servier-1",
+      "bioicons-brain-servier-2",
+      "bioicons-brain-hippocampus",
+      "bioicons-pyramidal-neuron",
+      "memoryvla-working-memory",
+      "memoryvla-memory-stack",
+      "memoryvla-memory-retrieval"
     ],
     "cortex-memory-consolidation": [
       "tabler-brain",
       "tabler-database",
       "tabler-network",
-      "tabler-arrow-right"
+      "tabler-arrow-right",
+      "bioicons-brain-servier-1",
+      "bioicons-brain-servier-2",
+      "bioicons-brain-hippocampus",
+      "bioicons-pyramidal-neuron"
     ],
     "survey-genai-iot-layers-scenes": [
       "tabler-network",
@@ -1086,13 +1101,21 @@
       "tabler-brain",
       "tabler-network",
       "tabler-database",
-      "tabler-check"
+      "tabler-check",
+      "bioicons-brain-servier-1",
+      "bioicons-brain-servier-2",
+      "bioicons-brain-hippocampus",
+      "bioicons-pyramidal-neuron"
     ],
     "hipporag-brain-region-framework": [
       "tabler-brain",
       "tabler-network",
       "tabler-database",
-      "tabler-arrow-right"
+      "tabler-arrow-right",
+      "bioicons-brain-servier-1",
+      "bioicons-brain-servier-2",
+      "bioicons-brain-hippocampus",
+      "bioicons-pyramidal-neuron"
     ],
     "hipporag2-indexing-retrieval-framework": [
       "tabler-network",
@@ -1128,7 +1151,11 @@
       "tabler-brain",
       "tabler-database",
       "tabler-arrow-loop-right",
-      "bioicons-pencil"
+      "bioicons-pencil",
+      "bioicons-brain-servier-1",
+      "bioicons-brain-servier-2",
+      "bioicons-brain-hippocampus",
+      "bioicons-pyramidal-neuron"
     ],
     "memos-three-memory-consolidation-paths": [
       "tabler-database",

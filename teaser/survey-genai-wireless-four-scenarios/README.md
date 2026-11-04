@@ -77,7 +77,9 @@
 <!-- BEGIN FIGURE LINKS -->
 ## 关联范例与元素
 
-**可搭配的现有元素：** [正弦信号](../../element/svg/tabler-wave-sine.svg) · [网络](../../element/svg/tabler-network.svg) · [手机](../../element/svg/tabler-device-mobile.svg) · [右箭头](../../element/svg/tabler-arrow-right.svg)
+**从本图拆出的部件：** [生成模型双梯形符号](../../element/svg/wireless-generative-bowtie.svg) · [雷达编码器梯形](../../element/svg/wireless-radar-encoder.svg) · [雷达解码器梯形](../../element/svg/wireless-radar-decoder.svg) · [特征提取梯形](../../element/svg/wireless-feature-extractor.svg) · [判别器梯形](../../element/svg/wireless-discriminator.svg) · [CSI 菱形输入序列](../../element/svg/wireless-csi-input.svg)
+
+**可搭配的现有元素：** [正弦信号](../../element/svg/tabler-wave-sine.svg) · [网络](../../element/svg/tabler-network.svg) · [手机](../../element/svg/tabler-device-mobile.svg) · [右箭头](../../element/svg/tabler-arrow-right.svg) · [多层特征图堆叠](../../element/svg/security-feature-stack.svg) · [带信号的文档符号](../../element/svg/security-signal-document.svg)
 
 这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
 

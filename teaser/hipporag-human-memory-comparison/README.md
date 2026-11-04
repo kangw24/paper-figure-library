@@ -55,7 +55,7 @@ PDF 的框线、箭头和原有文字对象或轮廓可按实际对象修改；�
 
 同论文的其他图：[HippoRAG · 三脑区类比与索引检索框架](../../architecture/hipporag-brain-region-framework/README.md)
 
-**可搭配的现有元素：** [大脑](../../element/svg/tabler-brain.svg) · [网络](../../element/svg/tabler-network.svg) · [数据库](../../element/svg/tabler-database.svg) · [勾选](../../element/svg/tabler-check.svg)
+**可搭配的现有元素：** [大脑](../../element/svg/tabler-brain.svg) · [网络](../../element/svg/tabler-network.svg) · [数据库](../../element/svg/tabler-database.svg) · [勾选](../../element/svg/tabler-check.svg) · [大脑侧视图（Servier）](../../element/svg/bioicons-brain-servier-1.svg) · [大脑与脑干（Servier）](../../element/svg/bioicons-brain-servier-2.svg) · [脑冠状面与海马定位](../../element/svg/bioicons-brain-hippocampus.svg) · [锥体神经元](../../element/svg/bioicons-pyramidal-neuron.svg)
 
 这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
 

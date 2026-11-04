@@ -40,6 +40,13 @@ def build(root,items,labels):
  if spec.is_file():
   ids={x['id'] for x in json.loads(spec.read_text())['specs']}
   compose(root,[x for x in items if x['id'] in ids],root/'element/overviews/paper-parts.svg')
+ latest=root/'element/latest-additions.json'
+ if latest.is_file():
+  update=json.loads(latest.read_text());lookup={x['id']:x for x in items}
+  for key in ('items','featured'):
+   if not set(update[key])<=set(lookup):raise ValueError('新增元素清单引用了不存在的 ID')
+  compose(root,[lookup[key] for key in update['items']],root/'element/overviews/latest-additions.svg')
+  compose(root,[lookup[key] for key in update['featured']],root/'element/overviews/latest-featured.svg')
  data=[]
  for x in items:data.append({'id':x['id'],'name':x['title_zh'],'en':x.get('title_en',''),'category':x['category'],'collection':x.get('collection','原有作者图元'),'svg':x['svg_path'].removeprefix('element/'),'preview':x['preview_path'].removeprefix('element/'),'source':x['source']['urls'][-1],'license':x['license']['name'],'tags':x.get('tags',[]),'attribution':x.get('attribution',x['rights'])})
  payload=json.dumps({'items':data,'labels':labels},ensure_ascii=False).replace('</','<\\/')

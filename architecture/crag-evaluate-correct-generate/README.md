@@ -52,6 +52,8 @@ PDF 的框线、箭头和原有文字对象或轮廓可按实际对象修改；�
 <!-- BEGIN FIGURE LINKS -->
 ## 关联范例与元素
 
+**从本图拆出的部件：** [检索评估思考气泡轮廓](../../element/svg/crag-thought-cloud.svg) · [检索评估状态标记（三种变体）](../../element/svg/crag-evaluation-statuses.svg) · [分解后的文档条带](../../element/svg/crag-document-strips.svg) · [内部知识块 k-in](../../element/svg/crag-internal-knowledge.svg) · [空心流程箭头](../../element/svg/crag-hollow-arrow.svg)
+
 **可搭配的现有元素：** [过滤](../../element/svg/tabler-filter.svg) · [分流箭头](../../element/svg/tabler-arrows-split.svg) · [文本文件](../../element/svg/tabler-file-text.svg) · [勾选](../../element/svg/tabler-check.svg)
 
 这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。

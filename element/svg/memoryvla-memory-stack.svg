@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="23.3626" height="17.45777" viewBox="333.4606 67.18934 23.3626 17.45777">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-70,636.4)" d="M70 345.9H878V636.4H70Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="clip_261">
+<path transform="matrix(1,0,0,-1,-70,636.4)" d="M0 0H960V935.4H0Z" />
+</clipPath>
+<clipPath id="clip_266">
+<path transform="matrix(1,0,0,-1,-70,636.4)" d="M0 0H960V935.4H0Z" />
+</clipPath>
+<clipPath id="clip_269">
+<path transform="matrix(1,0,0,-1,-70,636.4)" d="M0 0H960V935.4H0Z" />
+</clipPath>
+</defs>
+<g>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_261)">
+<path transform="matrix(1,0,0,-1,334.2606,69.75134)" d="M0 0C0 .973 .789 1.762 1.762 1.762H14.612C15.585 1.762 16.374 .973 16.374 0V-7.048C16.374-8.021 15.585-8.81 14.612-8.81H1.762C.789-8.81 0-8.021 0-7.048Z" fill="#bdd7ee" fill-rule="evenodd" />
+<path transform="matrix(1,0,0,-1,334.2606,69.75134)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#172c51" d="M0 0C0 .973 .789 1.762 1.762 1.762H14.612C15.585 1.762 16.374 .973 16.374 0V-7.048C16.374-8.021 15.585-8.81 14.612-8.81H1.762C.789-8.81 0-8.021 0-7.048Z" />
+</g>
+<g clip-path="url(#clip_266)">
+<path transform="matrix(1,0,0,-1,337.0461,72.39435)" d="M0 0C0 .973 .789 1.762 1.762 1.762H14.612C15.585 1.762 16.374 .973 16.374 0V-7.048C16.374-8.021 15.585-8.81 14.612-8.81H1.762C.789-8.81 0-8.021 0-7.048Z" fill="#bdd7ee" fill-rule="evenodd" />
+<path transform="matrix(1,0,0,-1,337.0461,72.39435)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#172c51" d="M0 0C0 .973 .789 1.762 1.762 1.762H14.612C15.585 1.762 16.374 .973 16.374 0V-7.048C16.374-8.021 15.585-8.81 14.612-8.81H1.762C.789-8.81 0-8.021 0-7.048Z" />
+</g>
+<g clip-path="url(#clip_269)">
+<path transform="matrix(1,0,0,-1,339.6492,75.03711)" d="M0 0C0 .973 .789 1.762 1.762 1.762H14.612C15.585 1.762 16.374 .973 16.374 0V-7.048C16.374-8.021 15.585-8.81 14.612-8.81H1.762C.789-8.81 0-8.021 0-7.048Z" fill="#bdd7ee" fill-rule="evenodd" />
+<path transform="matrix(1,0,0,-1,339.6492,75.03711)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="8" stroke-linejoin="miter" fill="none" stroke="#172c51" d="M0 0C0 .973 .789 1.762 1.762 1.762H14.612C15.585 1.762 16.374 .973 16.374 0V-7.048C16.374-8.021 15.585-8.81 14.612-8.81H1.762C.789-8.81 0-8.021 0-7.048Z" />
+</g>
+</g>
+</g>
+</svg>

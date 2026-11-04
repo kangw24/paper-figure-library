@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 341,
+  "count": 392,
   "policy": "external-downloads-or-exact-source-extractions-only",
   "items": [
     {
@@ -17840,6 +17840,6358 @@
       "sha256": "b6201a191b817b7d0febca8dea7948cb9504e0ba4fa0ec23c3d1037e8359a8df",
       "visual_reviewed": true,
       "added_date": "2026-10-27"
+    },
+    {
+      "id": "memoryvla-vision-encoder",
+      "title_zh": "MemoryVLA 视觉编码器",
+      "title_en": "Vision Encoder",
+      "category": "modules",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-vision-encoder.svg",
+      "preview_path": "element/previews/memoryvla-vision-encoder.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              25,
+              0
+            ],
+            [
+              1,
+              0,
+              25,
+              1
+            ],
+            [
+              1,
+              0,
+              26
+            ],
+            [
+              1,
+              0,
+              27
+            ],
+            [
+              1,
+              0,
+              28
+            ],
+            [
+              1,
+              0,
+              29
+            ],
+            [
+              1,
+              0,
+              30
+            ],
+            [
+              1,
+              0,
+              31
+            ],
+            [
+              1,
+              0,
+              33
+            ],
+            [
+              1,
+              0,
+              34
+            ],
+            [
+              1,
+              0,
+              35
+            ],
+            [
+              1,
+              0,
+              36
+            ],
+            [
+              1,
+              0,
+              37
+            ],
+            [
+              1,
+              0,
+              38
+            ],
+            [
+              1,
+              0,
+              39
+            ]
+          ],
+          "viewBox": [
+            18.03493,
+            81.30268,
+            137.83014,
+            28.99914
+          ],
+          "selection_regions": [
+            [
+              17,
+              79,
+              157,
+              112
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 2,
+        "path": 14,
+        "g": 3,
+        "use": 13
+      },
+      "sha256": "485ad3a33c03bbec5e6c840438d077f1b3df80196e05d151e32d78376db49462",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-projector",
+      "title_zh": "MemoryVLA 投影模块",
+      "title_en": "Projector",
+      "category": "modules",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-projector.svg",
+      "preview_path": "element/previews/memoryvla-projector.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              40,
+              0
+            ],
+            [
+              1,
+              0,
+              40,
+              1
+            ],
+            [
+              1,
+              0,
+              41
+            ],
+            [
+              1,
+              0,
+              42
+            ],
+            [
+              1,
+              0,
+              43
+            ],
+            [
+              1,
+              0,
+              44
+            ],
+            [
+              1,
+              0,
+              45
+            ],
+            [
+              1,
+              0,
+              46
+            ],
+            [
+              1,
+              0,
+              47
+            ],
+            [
+              1,
+              0,
+              48
+            ],
+            [
+              1,
+              0,
+              49
+            ]
+          ],
+          "viewBox": [
+            18.03493,
+            117.67475,
+            137.83014,
+            28.99914
+          ],
+          "selection_regions": [
+            [
+              17,
+              116,
+              157,
+              148
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 2,
+        "path": 11,
+        "g": 3,
+        "use": 9
+      },
+      "sha256": "491a0657974d6d91fcce0db72a3531a5f2202b324c48b9930fb1749bca783690",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-text-tokenizer",
+      "title_zh": "文本 Tokenizer 模块",
+      "title_en": "Text Tokenizer",
+      "category": "modules",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-text-tokenizer.svg",
+      "preview_path": "element/previews/memoryvla-text-tokenizer.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              50,
+              0
+            ],
+            [
+              1,
+              0,
+              50,
+              1
+            ],
+            [
+              1,
+              0,
+              51
+            ],
+            [
+              1,
+              0,
+              52
+            ],
+            [
+              1,
+              0,
+              53
+            ],
+            [
+              1,
+              0,
+              54
+            ],
+            [
+              1,
+              0,
+              56
+            ],
+            [
+              1,
+              0,
+              57
+            ],
+            [
+              1,
+              0,
+              58
+            ],
+            [
+              1,
+              0,
+              59
+            ],
+            [
+              1,
+              0,
+              60
+            ],
+            [
+              1,
+              0,
+              61
+            ],
+            [
+              1,
+              0,
+              62
+            ],
+            [
+              1,
+              0,
+              63
+            ],
+            [
+              1,
+              0,
+              64
+            ]
+          ],
+          "viewBox": [
+            170.11766,
+            117.58966,
+            129.29107,
+            29.53307
+          ],
+          "selection_regions": [
+            [
+              167,
+              116,
+              302,
+              148
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 2,
+        "path": 14,
+        "g": 3,
+        "use": 13
+      },
+      "sha256": "6adf513e9fd1806db16dc6caf1abe44cb00ad23143298b1c1fb4a68b2eff15da",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-language-model",
+      "title_zh": "MemoryVLA 语言模型块",
+      "title_en": "Large Language Model",
+      "category": "modules",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-language-model.svg",
+      "preview_path": "element/previews/memoryvla-language-model.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              4,
+              0
+            ],
+            [
+              1,
+              0,
+              4,
+              1
+            ],
+            [
+              1,
+              0,
+              5
+            ],
+            [
+              1,
+              0,
+              6
+            ],
+            [
+              1,
+              0,
+              7
+            ],
+            [
+              1,
+              0,
+              8
+            ],
+            [
+              1,
+              0,
+              9
+            ],
+            [
+              1,
+              0,
+              11
+            ],
+            [
+              1,
+              0,
+              12
+            ],
+            [
+              1,
+              0,
+              13
+            ],
+            [
+              1,
+              0,
+              14
+            ],
+            [
+              1,
+              0,
+              15
+            ],
+            [
+              1,
+              0,
+              16
+            ],
+            [
+              1,
+              0,
+              17
+            ],
+            [
+              1,
+              0,
+              18
+            ],
+            [
+              1,
+              0,
+              20
+            ],
+            [
+              1,
+              0,
+              21
+            ],
+            [
+              1,
+              0,
+              22
+            ],
+            [
+              1,
+              0,
+              23
+            ],
+            [
+              1,
+              0,
+              24
+            ]
+          ],
+          "viewBox": [
+            13.58052,
+            180.56466,
+            304.99835,
+            46.87135
+          ],
+          "selection_regions": [
+            [
+              10,
+              178,
+              320,
+              228
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 2,
+        "path": 15,
+        "g": 3,
+        "use": 18
+      },
+      "sha256": "633b17f6122098ffb9b19d9d51a88a28fcd8bcb22d2a7b6a84d59a21ab2481fd",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-perceptual-compression",
+      "title_zh": "感知压缩模块",
+      "title_en": "Perceptual Compression",
+      "category": "modules",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-perceptual-compression.svg",
+      "preview_path": "element/previews/memoryvla-perceptual-compression.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              91,
+              0
+            ],
+            [
+              1,
+              0,
+              91,
+              1
+            ],
+            [
+              1,
+              0,
+              92
+            ],
+            [
+              1,
+              0,
+              93
+            ],
+            [
+              1,
+              0,
+              94
+            ],
+            [
+              1,
+              0,
+              95
+            ],
+            [
+              1,
+              0,
+              96
+            ],
+            [
+              1,
+              0,
+              97
+            ],
+            [
+              1,
+              0,
+              98
+            ],
+            [
+              1,
+              0,
+              99
+            ],
+            [
+              1,
+              0,
+              100
+            ],
+            [
+              1,
+              0,
+              101
+            ],
+            [
+              1,
+              0,
+              103
+            ],
+            [
+              1,
+              0,
+              104
+            ],
+            [
+              1,
+              0,
+              105
+            ],
+            [
+              1,
+              0,
+              106
+            ],
+            [
+              1,
+              0,
+              107
+            ],
+            [
+              1,
+              0,
+              108
+            ],
+            [
+              1,
+              0,
+              109
+            ],
+            [
+              1,
+              0,
+              110
+            ],
+            [
+              1,
+              0,
+              111
+            ],
+            [
+              1,
+              0,
+              112
+            ],
+            [
+              1,
+              0,
+              113
+            ]
+          ],
+          "viewBox": [
+            28.3478,
+            236.58553,
+            106.66919,
+            46.24219
+          ],
+          "selection_regions": [
+            [
+              28,
+              234,
+              135,
+              284
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 2,
+        "path": 19,
+        "g": 3,
+        "use": 21
+      },
+      "sha256": "bbf40d25292eac5672fef0832578a9a9804be8ca2db5db8df5c78f8595dceb10",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-working-memory",
+      "title_zh": "工作记忆与 Token 组",
+      "title_en": "Working Memory",
+      "category": "data",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-working-memory.svg",
+      "preview_path": "element/previews/memoryvla-working-memory.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              3,
+              0
+            ],
+            [
+              1,
+              0,
+              121,
+              0
+            ],
+            [
+              1,
+              0,
+              121,
+              1
+            ],
+            [
+              1,
+              0,
+              123,
+              0
+            ],
+            [
+              1,
+              0,
+              123,
+              1
+            ],
+            [
+              1,
+              0,
+              125,
+              0
+            ],
+            [
+              1,
+              0,
+              125,
+              1
+            ],
+            [
+              1,
+              0,
+              127,
+              0
+            ],
+            [
+              1,
+              0,
+              127,
+              1
+            ],
+            [
+              1,
+              0,
+              128
+            ],
+            [
+              1,
+              0,
+              129
+            ],
+            [
+              1,
+              0,
+              130
+            ],
+            [
+              1,
+              0,
+              131
+            ],
+            [
+              1,
+              0,
+              132
+            ],
+            [
+              1,
+              0,
+              133
+            ],
+            [
+              1,
+              0,
+              134
+            ],
+            [
+              1,
+              0,
+              136
+            ],
+            [
+              1,
+              0,
+              137
+            ],
+            [
+              1,
+              0,
+              138
+            ],
+            [
+              1,
+              0,
+              139
+            ],
+            [
+              1,
+              0,
+              140
+            ],
+            [
+              1,
+              0,
+              141
+            ]
+          ],
+          "viewBox": [
+            158.06588,
+            236.04541,
+            130.17185,
+            35.04785
+          ],
+          "selection_regions": [
+            [
+              155,
+              233,
+              289,
+              273
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 4
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点；不包含位图图标或阴影。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 6,
+        "path": 26,
+        "g": 7,
+        "use": 13
+      },
+      "sha256": "e544bea703c673f9479d667b2238cff16f0648095852ecc3dd09e6ee81f26806",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-memory-retrieval",
+      "title_zh": "记忆检索模块",
+      "title_en": "Memory Retrieval",
+      "category": "modules",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-memory-retrieval.svg",
+      "preview_path": "element/previews/memoryvla-memory-retrieval.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              382,
+              0
+            ],
+            [
+              1,
+              0,
+              382,
+              1
+            ],
+            [
+              1,
+              0,
+              383
+            ],
+            [
+              1,
+              0,
+              384
+            ],
+            [
+              1,
+              0,
+              385
+            ],
+            [
+              1,
+              0,
+              386
+            ],
+            [
+              1,
+              0,
+              387
+            ],
+            [
+              1,
+              0,
+              388
+            ],
+            [
+              1,
+              0,
+              390
+            ],
+            [
+              1,
+              0,
+              391
+            ],
+            [
+              1,
+              0,
+              392
+            ],
+            [
+              1,
+              0,
+              393
+            ],
+            [
+              1,
+              0,
+              394
+            ],
+            [
+              1,
+              0,
+              395
+            ],
+            [
+              1,
+              0,
+              396
+            ],
+            [
+              1,
+              0,
+              397
+            ],
+            [
+              1,
+              0,
+              398
+            ]
+          ],
+          "viewBox": [
+            343.27248,
+            212.50151,
+            106.96864,
+            45.53064
+          ],
+          "selection_regions": [
+            [
+              341,
+              209,
+              450,
+              259
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 2,
+        "path": 16,
+        "g": 3,
+        "use": 15
+      },
+      "sha256": "3de58234b659494934e00fb4dc79dd1963103497b31e20145be0f11c1a9e6580",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-gated-fusion",
+      "title_zh": "记忆门控融合模块",
+      "title_en": "Memory Gate Fusion",
+      "category": "modules",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-gated-fusion.svg",
+      "preview_path": "element/previews/memoryvla-gated-fusion.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              422,
+              0
+            ],
+            [
+              1,
+              0,
+              422,
+              1
+            ],
+            [
+              1,
+              0,
+              423
+            ],
+            [
+              1,
+              0,
+              424
+            ],
+            [
+              1,
+              0,
+              425
+            ],
+            [
+              1,
+              0,
+              426
+            ],
+            [
+              1,
+              0,
+              427
+            ],
+            [
+              1,
+              0,
+              428
+            ],
+            [
+              1,
+              0,
+              430
+            ],
+            [
+              1,
+              0,
+              431
+            ],
+            [
+              1,
+              0,
+              432
+            ],
+            [
+              1,
+              0,
+              433
+            ],
+            [
+              1,
+              0,
+              435
+            ],
+            [
+              1,
+              0,
+              436
+            ],
+            [
+              1,
+              0,
+              437
+            ],
+            [
+              1,
+              0,
+              438
+            ],
+            [
+              1,
+              0,
+              439
+            ],
+            [
+              1,
+              0,
+              440
+            ]
+          ],
+          "viewBox": [
+            482.05278,
+            212.5016,
+            102.35264,
+            45.53064
+          ],
+          "selection_regions": [
+            [
+              479,
+              209,
+              583,
+              259
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 2,
+        "path": 18,
+        "g": 3,
+        "use": 16
+      },
+      "sha256": "adabbfbf7ba4727ba6cbf9a7c7fe07e3e35cd7cdfaa7ac917feebd8dfe6bfbfe",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-consolidation",
+      "title_zh": "记忆巩固模块",
+      "title_en": "Memory Consolidation",
+      "category": "modules",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-consolidation.svg",
+      "preview_path": "element/previews/memoryvla-consolidation.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              401,
+              0
+            ],
+            [
+              1,
+              0,
+              401,
+              1
+            ],
+            [
+              1,
+              0,
+              402
+            ],
+            [
+              1,
+              0,
+              403
+            ],
+            [
+              1,
+              0,
+              404
+            ],
+            [
+              1,
+              0,
+              405
+            ],
+            [
+              1,
+              0,
+              406
+            ],
+            [
+              1,
+              0,
+              407
+            ],
+            [
+              1,
+              0,
+              409
+            ],
+            [
+              1,
+              0,
+              410
+            ],
+            [
+              1,
+              0,
+              411
+            ],
+            [
+              1,
+              0,
+              412
+            ],
+            [
+              1,
+              0,
+              413
+            ],
+            [
+              1,
+              0,
+              414
+            ],
+            [
+              1,
+              0,
+              415
+            ],
+            [
+              1,
+              0,
+              416
+            ],
+            [
+              1,
+              0,
+              417
+            ],
+            [
+              1,
+              0,
+              418
+            ],
+            [
+              1,
+              0,
+              419
+            ],
+            [
+              1,
+              0,
+              420
+            ],
+            [
+              1,
+              0,
+              421
+            ]
+          ],
+          "viewBox": [
+            483.53531,
+            61.54434,
+            99.18578,
+            43.82078
+          ],
+          "selection_regions": [
+            [
+              482,
+              59,
+              583,
+              107
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 2,
+        "path": 18,
+        "g": 3,
+        "use": 19
+      },
+      "sha256": "3ba0b874b59831590d72bb1ea3aa2f1efdf94dea6627ae0d0cffda044889fea3",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-cognition-attention",
+      "title_zh": "认知注意力模块",
+      "title_en": "Cognition Attention",
+      "category": "modules",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-cognition-attention.svg",
+      "preview_path": "element/previews/memoryvla-cognition-attention.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              253,
+              0
+            ],
+            [
+              1,
+              0,
+              253,
+              1
+            ],
+            [
+              1,
+              0,
+              254
+            ],
+            [
+              1,
+              0,
+              255
+            ],
+            [
+              1,
+              0,
+              256
+            ],
+            [
+              1,
+              0,
+              257
+            ],
+            [
+              1,
+              0,
+              258
+            ],
+            [
+              1,
+              0,
+              259
+            ],
+            [
+              1,
+              0,
+              260
+            ],
+            [
+              1,
+              0,
+              261
+            ],
+            [
+              1,
+              0,
+              262
+            ],
+            [
+              1,
+              0,
+              264
+            ],
+            [
+              1,
+              0,
+              265
+            ],
+            [
+              1,
+              0,
+              266
+            ],
+            [
+              1,
+              0,
+              267
+            ],
+            [
+              1,
+              0,
+              268
+            ],
+            [
+              1,
+              0,
+              269
+            ],
+            [
+              1,
+              0,
+              270
+            ],
+            [
+              1,
+              0,
+              271
+            ],
+            [
+              1,
+              0,
+              272
+            ]
+          ],
+          "viewBox": [
+            612.9137,
+            39.07435,
+            149.328,
+            22.331
+          ],
+          "selection_regions": [
+            [
+              610,
+              37,
+              762,
+              64
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 2,
+        "path": 12,
+        "g": 3,
+        "use": 18
+      },
+      "sha256": "6acc653c98b137522374368556e993c6ef93efee0896b1fdaee7a677a21e42f7",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-perception-attention",
+      "title_zh": "感知注意力模块",
+      "title_en": "Perception Attention",
+      "category": "modules",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-perception-attention.svg",
+      "preview_path": "element/previews/memoryvla-perception-attention.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              273,
+              0
+            ],
+            [
+              1,
+              0,
+              273,
+              1
+            ],
+            [
+              1,
+              0,
+              274
+            ],
+            [
+              1,
+              0,
+              275
+            ],
+            [
+              1,
+              0,
+              276
+            ],
+            [
+              1,
+              0,
+              277
+            ],
+            [
+              1,
+              0,
+              278
+            ],
+            [
+              1,
+              0,
+              279
+            ],
+            [
+              1,
+              0,
+              280
+            ],
+            [
+              1,
+              0,
+              281
+            ],
+            [
+              1,
+              0,
+              282
+            ],
+            [
+              1,
+              0,
+              283
+            ],
+            [
+              1,
+              0,
+              285
+            ],
+            [
+              1,
+              0,
+              286
+            ],
+            [
+              1,
+              0,
+              287
+            ],
+            [
+              1,
+              0,
+              288
+            ],
+            [
+              1,
+              0,
+              289
+            ],
+            [
+              1,
+              0,
+              290
+            ],
+            [
+              1,
+              0,
+              291
+            ],
+            [
+              1,
+              0,
+              292
+            ],
+            [
+              1,
+              0,
+              293
+            ]
+          ],
+          "viewBox": [
+            612.9126,
+            107.05134,
+            152.2551,
+            22.331
+          ],
+          "selection_regions": [
+            [
+              612,
+              107,
+              766,
+              131
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 2,
+        "path": 14,
+        "g": 3,
+        "use": 19
+      },
+      "sha256": "2b36a14b9ff9606464c5367d7256a45d9977de4c1e8c5ab81885535374172d47",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-memory-stack",
+      "title_zh": "层叠记忆条目",
+      "title_en": "Memory stack",
+      "category": "data",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-memory-stack.svg",
+      "preview_path": "element/previews/memoryvla-memory-stack.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              457,
+              0
+            ],
+            [
+              1,
+              0,
+              457,
+              1
+            ],
+            [
+              1,
+              0,
+              460,
+              0
+            ],
+            [
+              1,
+              0,
+              460,
+              1
+            ],
+            [
+              1,
+              0,
+              462,
+              0
+            ],
+            [
+              1,
+              0,
+              462,
+              1
+            ]
+          ],
+          "viewBox": [
+            333.4606,
+            67.18934,
+            23.3626,
+            17.45777
+          ],
+          "selection_regions": [
+            [
+              330,
+              63,
+              357,
+              86
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 4,
+        "path": 10,
+        "g": 5
+      },
+      "sha256": "c4b98ce0b20f06b412a6c022f60a76a91added06c86317dedc54c8872509292f",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "memoryvla-timestep-diamond",
+      "title_zh": "时间步嵌入菱形",
+      "title_en": "Timestep embedding diamond",
+      "category": "data",
+      "collection": "MemoryVLA 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "memoryvla-perceptual-cognitive-architecture"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/memoryvla-timestep-diamond.svg",
+      "preview_path": "element/previews/memoryvla-timestep-diamond.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "local_original": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+        "original_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+        "native_original": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
+        "native_original_sha256": "90fd31592321c23d7524318d10ca8ba0e7876236255babf85b839c0796fff7e0",
+        "figure_id": "memoryvla-perceptual-cognitive-architecture",
+        "arxiv_id": "2508.19236v1",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              531
+            ],
+            [
+              1,
+              0,
+              532
+            ],
+            [
+              1,
+              0,
+              533
+            ]
+          ],
+          "viewBox": [
+            430.17149,
+            163.42983,
+            26.508,
+            13.03709
+          ],
+          "selection_regions": [
+            [
+              426,
+              161,
+              458,
+              177
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/memoryvla-perceptual-cognitive-architecture/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 4,
+        "g": 2
+      },
+      "sha256": "d1fadf3c5139313cc1497f1a611deeb6924f12077db310b8acfc767a5e98e24e",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "wireless-generative-bowtie",
+      "title_zh": "生成模型双梯形符号",
+      "title_en": "Generative model bow-tie",
+      "category": "modules",
+      "collection": "无线感知综述原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "survey-genai-wireless-four-scenarios"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/wireless-generative-bowtie.svg",
+      "preview_path": "element/previews/wireless-generative-bowtie.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yang, Zheng",
+          "Chi, Guoxuan",
+          "Wu, Chenshu",
+          "Liu, Hanyu",
+          "Gao, Yuchong",
+          "Liu, Yunhao",
+          "Xu, Jie",
+          "Han, Tony Xiao"
+        ],
+        "urls": [
+          "https://www.weizmann.ac.il/math/yonina/sites/math.yonina/files/GenAI_Survey_TCOM.pdf",
+          "https://arxiv.org/abs/2509.15258v1",
+          "https://arxiv.org/pdf/2509.15258v1",
+          "https://arxiv.org/src/2509.15258v1"
+        ],
+        "local_original": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+        "original_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+        "native_original": "teaser/survey-genai-wireless-four-scenarios/original.pdf",
+        "native_original_sha256": "2a7d56e6de483f32847de244a97bd72c9783c9700e69f2685c91fe227136d16b",
+        "figure_id": "survey-genai-wireless-four-scenarios",
+        "arxiv_id": "2509.15258v1",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              894
+            ],
+            [
+              1,
+              895
+            ],
+            [
+              1,
+              896
+            ],
+            [
+              1,
+              897
+            ]
+          ],
+          "viewBox": [
+            41.07395,
+            49.85665,
+            32.94541,
+            34.7157
+          ],
+          "selection_regions": [
+            [
+              38,
+              47,
+              75,
+              85
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+        "file": "teaser/survey-genai-wireless-four-scenarios/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "g": 1,
+        "path": 4
+      },
+      "sha256": "61028a8be8b42b69cec65a910631c4e5286b65b0bc1badd7f8bafebb64bbc258",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "wireless-radar-encoder",
+      "title_zh": "雷达编码器梯形",
+      "title_en": "Radar encoder",
+      "category": "modules",
+      "collection": "无线感知综述原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "survey-genai-wireless-four-scenarios"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/wireless-radar-encoder.svg",
+      "preview_path": "element/previews/wireless-radar-encoder.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yang, Zheng",
+          "Chi, Guoxuan",
+          "Wu, Chenshu",
+          "Liu, Hanyu",
+          "Gao, Yuchong",
+          "Liu, Yunhao",
+          "Xu, Jie",
+          "Han, Tony Xiao"
+        ],
+        "urls": [
+          "https://www.weizmann.ac.il/math/yonina/sites/math.yonina/files/GenAI_Survey_TCOM.pdf",
+          "https://arxiv.org/abs/2509.15258v1",
+          "https://arxiv.org/pdf/2509.15258v1",
+          "https://arxiv.org/src/2509.15258v1"
+        ],
+        "local_original": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+        "original_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+        "native_original": "teaser/survey-genai-wireless-four-scenarios/original.pdf",
+        "native_original_sha256": "2a7d56e6de483f32847de244a97bd72c9783c9700e69f2685c91fe227136d16b",
+        "figure_id": "survey-genai-wireless-four-scenarios",
+        "arxiv_id": "2509.15258v1",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              546
+            ],
+            [
+              1,
+              547
+            ],
+            [
+              1,
+              550
+            ],
+            [
+              1,
+              551
+            ],
+            [
+              1,
+              552
+            ],
+            [
+              1,
+              553
+            ],
+            [
+              1,
+              554
+            ],
+            [
+              1,
+              555
+            ],
+            [
+              1,
+              556
+            ]
+          ],
+          "viewBox": [
+            78.93912,
+            255.85692,
+            36.17456,
+            43.56656
+          ],
+          "selection_regions": [
+            [
+              78,
+              254,
+              115,
+              300
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+        "file": "teaser/survey-genai-wireless-four-scenarios/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "path": 9,
+        "g": 1,
+        "use": 7
+      },
+      "sha256": "1dfeb95814d500bf19d813c6ca406b1f7187106392d1946c9ffc1e65c9c8c958",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "wireless-radar-decoder",
+      "title_zh": "雷达解码器梯形",
+      "title_en": "Radar decoder",
+      "category": "modules",
+      "collection": "无线感知综述原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "survey-genai-wireless-four-scenarios"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/wireless-radar-decoder.svg",
+      "preview_path": "element/previews/wireless-radar-decoder.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yang, Zheng",
+          "Chi, Guoxuan",
+          "Wu, Chenshu",
+          "Liu, Hanyu",
+          "Gao, Yuchong",
+          "Liu, Yunhao",
+          "Xu, Jie",
+          "Han, Tony Xiao"
+        ],
+        "urls": [
+          "https://www.weizmann.ac.il/math/yonina/sites/math.yonina/files/GenAI_Survey_TCOM.pdf",
+          "https://arxiv.org/abs/2509.15258v1",
+          "https://arxiv.org/pdf/2509.15258v1",
+          "https://arxiv.org/src/2509.15258v1"
+        ],
+        "local_original": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+        "original_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+        "native_original": "teaser/survey-genai-wireless-four-scenarios/original.pdf",
+        "native_original_sha256": "2a7d56e6de483f32847de244a97bd72c9783c9700e69f2685c91fe227136d16b",
+        "figure_id": "survey-genai-wireless-four-scenarios",
+        "arxiv_id": "2509.15258v1",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              548
+            ],
+            [
+              1,
+              549
+            ],
+            [
+              1,
+              557
+            ],
+            [
+              1,
+              558
+            ],
+            [
+              1,
+              559
+            ],
+            [
+              1,
+              560
+            ],
+            [
+              1,
+              561
+            ],
+            [
+              1,
+              562
+            ],
+            [
+              1,
+              563
+            ]
+          ],
+          "viewBox": [
+            117.53762,
+            255.8569,
+            36.17456,
+            43.56656
+          ],
+          "selection_regions": [
+            [
+              116,
+              254,
+              154,
+              300
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+        "file": "teaser/survey-genai-wireless-four-scenarios/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "path": 8,
+        "g": 1,
+        "use": 7
+      },
+      "sha256": "5c8b767b4aa51845cbcd083d3e0ac0c714fb3f98e23cbf05ee0b354b36ed6d4c",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "wireless-feature-extractor",
+      "title_zh": "特征提取梯形",
+      "title_en": "Feature extractor",
+      "category": "modules",
+      "collection": "无线感知综述原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "survey-genai-wireless-four-scenarios"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/wireless-feature-extractor.svg",
+      "preview_path": "element/previews/wireless-feature-extractor.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yang, Zheng",
+          "Chi, Guoxuan",
+          "Wu, Chenshu",
+          "Liu, Hanyu",
+          "Gao, Yuchong",
+          "Liu, Yunhao",
+          "Xu, Jie",
+          "Han, Tony Xiao"
+        ],
+        "urls": [
+          "https://www.weizmann.ac.il/math/yonina/sites/math.yonina/files/GenAI_Survey_TCOM.pdf",
+          "https://arxiv.org/abs/2509.15258v1",
+          "https://arxiv.org/pdf/2509.15258v1",
+          "https://arxiv.org/src/2509.15258v1"
+        ],
+        "local_original": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+        "original_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+        "native_original": "teaser/survey-genai-wireless-four-scenarios/original.pdf",
+        "native_original_sha256": "2a7d56e6de483f32847de244a97bd72c9783c9700e69f2685c91fe227136d16b",
+        "figure_id": "survey-genai-wireless-four-scenarios",
+        "arxiv_id": "2509.15258v1",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              446
+            ],
+            [
+              1,
+              447
+            ]
+          ],
+          "viewBox": [
+            369.7081,
+            274.20068,
+            21.334,
+            20.174
+          ],
+          "selection_regions": [
+            [
+              367,
+              272,
+              391,
+              295
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+        "file": "teaser/survey-genai-wireless-four-scenarios/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "g": 1,
+        "path": 2
+      },
+      "sha256": "1451d9d8b0dd8bd6ca6bb32a5b27266601db866deab988f43e601bb19889ac8d",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "wireless-discriminator",
+      "title_zh": "判别器梯形",
+      "title_en": "Discriminator",
+      "category": "modules",
+      "collection": "无线感知综述原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "survey-genai-wireless-four-scenarios"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/wireless-discriminator.svg",
+      "preview_path": "element/previews/wireless-discriminator.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yang, Zheng",
+          "Chi, Guoxuan",
+          "Wu, Chenshu",
+          "Liu, Hanyu",
+          "Gao, Yuchong",
+          "Liu, Yunhao",
+          "Xu, Jie",
+          "Han, Tony Xiao"
+        ],
+        "urls": [
+          "https://www.weizmann.ac.il/math/yonina/sites/math.yonina/files/GenAI_Survey_TCOM.pdf",
+          "https://arxiv.org/abs/2509.15258v1",
+          "https://arxiv.org/pdf/2509.15258v1",
+          "https://arxiv.org/src/2509.15258v1"
+        ],
+        "local_original": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+        "original_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+        "native_original": "teaser/survey-genai-wireless-four-scenarios/original.pdf",
+        "native_original_sha256": "2a7d56e6de483f32847de244a97bd72c9783c9700e69f2685c91fe227136d16b",
+        "figure_id": "survey-genai-wireless-four-scenarios",
+        "arxiv_id": "2509.15258v1",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              508
+            ],
+            [
+              1,
+              509
+            ]
+          ],
+          "viewBox": [
+            430.8698,
+            273.28869,
+            21.334,
+            20.174
+          ],
+          "selection_regions": [
+            [
+              430,
+              273,
+              453,
+              294
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+        "file": "teaser/survey-genai-wireless-four-scenarios/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "g": 1,
+        "path": 2
+      },
+      "sha256": "901259a406ade1b52a8f566920b9fbfa1f3624ce4b276ceef71ed1cb7dc304c5",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "wireless-csi-input",
+      "title_zh": "CSI 菱形输入序列",
+      "title_en": "CSI input sequence",
+      "category": "data",
+      "collection": "无线感知综述原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "survey-genai-wireless-four-scenarios"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/wireless-csi-input.svg",
+      "preview_path": "element/previews/wireless-csi-input.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yang, Zheng",
+          "Chi, Guoxuan",
+          "Wu, Chenshu",
+          "Liu, Hanyu",
+          "Gao, Yuchong",
+          "Liu, Yunhao",
+          "Xu, Jie",
+          "Han, Tony Xiao"
+        ],
+        "urls": [
+          "https://www.weizmann.ac.il/math/yonina/sites/math.yonina/files/GenAI_Survey_TCOM.pdf",
+          "https://arxiv.org/abs/2509.15258v1",
+          "https://arxiv.org/pdf/2509.15258v1",
+          "https://arxiv.org/src/2509.15258v1"
+        ],
+        "local_original": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+        "original_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+        "native_original": "teaser/survey-genai-wireless-four-scenarios/original.pdf",
+        "native_original_sha256": "2a7d56e6de483f32847de244a97bd72c9783c9700e69f2685c91fe227136d16b",
+        "figure_id": "survey-genai-wireless-four-scenarios",
+        "arxiv_id": "2509.15258v1",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              425
+            ],
+            [
+              1,
+              426
+            ],
+            [
+              1,
+              427
+            ],
+            [
+              1,
+              428
+            ],
+            [
+              1,
+              429
+            ],
+            [
+              1,
+              430
+            ],
+            [
+              1,
+              431
+            ],
+            [
+              1,
+              432
+            ],
+            [
+              1,
+              433
+            ],
+            [
+              1,
+              434
+            ],
+            [
+              1,
+              435
+            ],
+            [
+              1,
+              436
+            ]
+          ],
+          "viewBox": [
+            328.1891,
+            281.19969,
+            22.7772,
+            6.92189
+          ],
+          "selection_regions": [
+            [
+              324,
+              277,
+              353,
+              289
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+        "file": "teaser/survey-genai-wireless-four-scenarios/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "g": 1,
+        "path": 12
+      },
+      "sha256": "0eb35cc25cddba111624a5a892c9e510b7f2511f9a1c386f7b1f022fe07e10d1",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "spec-rag-query",
+      "title_zh": "知识查询 Q 标记",
+      "title_en": "Query token Q",
+      "category": "data",
+      "collection": "Speculative RAG 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "speculative-rag-draft-verify"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/spec-rag-query.svg",
+      "preview_path": "element/previews/spec-rag-query.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Wang, Zilong",
+          "Wang, Zifeng",
+          "Le, Long",
+          "Zheng, Huaixiu Steven",
+          "Mishra, Swaroop",
+          "Perot, Vincent",
+          "Zhang, Yuwei",
+          "Mattapalli, Anush",
+          "Taly, Ankur",
+          "Shang, Jingbo",
+          "Lee, Chen-Yu",
+          "Pfister, Tomas"
+        ],
+        "urls": [
+          "https://research.google/pubs/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting-2/",
+          "https://arxiv.org/abs/2407.08223v2",
+          "https://arxiv.org/pdf/2407.08223v2",
+          "https://arxiv.org/src/2407.08223v2",
+          "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+          "https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img1.width-1250.png"
+        ],
+        "local_original": "architecture/speculative-rag-draft-verify/source.svg",
+        "original_sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800",
+        "native_original": "architecture/speculative-rag-draft-verify/original.pdf",
+        "native_original_sha256": "ad43b1bbbe63d357310814b13ea7f37462f53a69831097ff3a203b6f2d52dc91",
+        "figure_id": "speculative-rag-draft-verify",
+        "arxiv_id": "2407.08223v2",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              24,
+              160
+            ],
+            [
+              1,
+              24,
+              161
+            ],
+            [
+              1,
+              24,
+              162
+            ]
+          ],
+          "viewBox": [
+            0.02,
+            6.1404,
+            39.96,
+            29.96
+          ],
+          "selection_regions": [
+            [
+              0,
+              3,
+              42,
+              37
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+        "file": "architecture/speculative-rag-draft-verify/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "path": 4,
+        "clipPath": 1,
+        "g": 2,
+        "use": 1
+      },
+      "sha256": "0bd90884c5660938b4bdfe5c3d4b2b127387f4c8aefde0ea9b88f9297aa73b4e",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "spec-rag-answer",
+      "title_zh": "证据支持答案 A 标记",
+      "title_en": "Evidence-supported answer A",
+      "category": "data",
+      "collection": "Speculative RAG 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "speculative-rag-draft-verify"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/spec-rag-answer.svg",
+      "preview_path": "element/previews/spec-rag-answer.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Wang, Zilong",
+          "Wang, Zifeng",
+          "Le, Long",
+          "Zheng, Huaixiu Steven",
+          "Mishra, Swaroop",
+          "Perot, Vincent",
+          "Zhang, Yuwei",
+          "Mattapalli, Anush",
+          "Taly, Ankur",
+          "Shang, Jingbo",
+          "Lee, Chen-Yu",
+          "Pfister, Tomas"
+        ],
+        "urls": [
+          "https://research.google/pubs/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting-2/",
+          "https://arxiv.org/abs/2407.08223v2",
+          "https://arxiv.org/pdf/2407.08223v2",
+          "https://arxiv.org/src/2407.08223v2",
+          "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+          "https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img1.width-1250.png"
+        ],
+        "local_original": "architecture/speculative-rag-draft-verify/source.svg",
+        "original_sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800",
+        "native_original": "architecture/speculative-rag-draft-verify/original.pdf",
+        "native_original_sha256": "ad43b1bbbe63d357310814b13ea7f37462f53a69831097ff3a203b6f2d52dc91",
+        "figure_id": "speculative-rag-draft-verify",
+        "arxiv_id": "2407.08223v2",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              24,
+              104
+            ],
+            [
+              1,
+              24,
+              105
+            ],
+            [
+              1,
+              24,
+              106
+            ]
+          ],
+          "viewBox": [
+            420.62,
+            6.1404,
+            39.96,
+            29.96
+          ],
+          "selection_regions": [
+            [
+              420,
+              3,
+              463,
+              37
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+        "file": "architecture/speculative-rag-draft-verify/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "path": 4,
+        "clipPath": 1,
+        "g": 2,
+        "use": 1
+      },
+      "sha256": "efb414d7341b8ce8832f4db15b67d89f8c0d84c660b706f1601cef1d7ae2af3e",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "spec-rag-topic-documents",
+      "title_zh": "同主题检索文档组",
+      "title_en": "Topic document group",
+      "category": "data",
+      "collection": "Speculative RAG 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "speculative-rag-draft-verify"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/spec-rag-topic-documents.svg",
+      "preview_path": "element/previews/spec-rag-topic-documents.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Wang, Zilong",
+          "Wang, Zifeng",
+          "Le, Long",
+          "Zheng, Huaixiu Steven",
+          "Mishra, Swaroop",
+          "Perot, Vincent",
+          "Zhang, Yuwei",
+          "Mattapalli, Anush",
+          "Taly, Ankur",
+          "Shang, Jingbo",
+          "Lee, Chen-Yu",
+          "Pfister, Tomas"
+        ],
+        "urls": [
+          "https://research.google/pubs/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting-2/",
+          "https://arxiv.org/abs/2407.08223v2",
+          "https://arxiv.org/pdf/2407.08223v2",
+          "https://arxiv.org/src/2407.08223v2",
+          "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+          "https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img1.width-1250.png"
+        ],
+        "local_original": "architecture/speculative-rag-draft-verify/source.svg",
+        "original_sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800",
+        "native_original": "architecture/speculative-rag-draft-verify/original.pdf",
+        "native_original_sha256": "ad43b1bbbe63d357310814b13ea7f37462f53a69831097ff3a203b6f2d52dc91",
+        "figure_id": "speculative-rag-draft-verify",
+        "arxiv_id": "2407.08223v2",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              12,
+              74
+            ],
+            [
+              1,
+              12,
+              75
+            ],
+            [
+              1,
+              12,
+              76
+            ],
+            [
+              1,
+              12,
+              77
+            ],
+            [
+              1,
+              12,
+              78
+            ],
+            [
+              1,
+              12,
+              79
+            ],
+            [
+              1,
+              12,
+              80
+            ],
+            [
+              1,
+              12,
+              81
+            ]
+          ],
+          "viewBox": [
+            409.36673,
+            330.33803,
+            67.36865,
+            30.51865
+          ],
+          "selection_regions": [
+            [
+              410,
+              327,
+              476,
+              362
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+        "file": "architecture/speculative-rag-draft-verify/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "path": 9,
+        "clipPath": 1,
+        "g": 2,
+        "use": 2
+      },
+      "sha256": "ad5d32100175ceab6e31d5d364a772d805878bff6ba77759e5f0950f76f25e5b",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "spec-rag-answer-rationale",
+      "title_zh": "答案与依据配对标记",
+      "title_en": "Answer and rationale pair",
+      "category": "data",
+      "collection": "Speculative RAG 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "speculative-rag-draft-verify"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/spec-rag-answer-rationale.svg",
+      "preview_path": "element/previews/spec-rag-answer-rationale.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Wang, Zilong",
+          "Wang, Zifeng",
+          "Le, Long",
+          "Zheng, Huaixiu Steven",
+          "Mishra, Swaroop",
+          "Perot, Vincent",
+          "Zhang, Yuwei",
+          "Mattapalli, Anush",
+          "Taly, Ankur",
+          "Shang, Jingbo",
+          "Lee, Chen-Yu",
+          "Pfister, Tomas"
+        ],
+        "urls": [
+          "https://research.google/pubs/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting-2/",
+          "https://arxiv.org/abs/2407.08223v2",
+          "https://arxiv.org/pdf/2407.08223v2",
+          "https://arxiv.org/src/2407.08223v2",
+          "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+          "https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img1.width-1250.png"
+        ],
+        "local_original": "architecture/speculative-rag-draft-verify/source.svg",
+        "original_sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800",
+        "native_original": "architecture/speculative-rag-draft-verify/original.pdf",
+        "native_original_sha256": "ad43b1bbbe63d357310814b13ea7f37462f53a69831097ff3a203b6f2d52dc91",
+        "figure_id": "speculative-rag-draft-verify",
+        "arxiv_id": "2407.08223v2",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              14,
+              208
+            ],
+            [
+              1,
+              14,
+              209
+            ],
+            [
+              1,
+              14,
+              210
+            ],
+            [
+              1,
+              14,
+              211
+            ],
+            [
+              1,
+              14,
+              212
+            ],
+            [
+              1,
+              14,
+              213
+            ],
+            [
+              1,
+              14,
+              214
+            ],
+            [
+              1,
+              14,
+              215
+            ]
+          ],
+          "viewBox": [
+            500.9265,
+            332.7574,
+            59.2807,
+            25.68
+          ],
+          "selection_regions": [
+            [
+              496,
+              329,
+              560,
+              362
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+        "file": "architecture/speculative-rag-draft-verify/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 8,
+        "g": 2,
+        "use": 4
+      },
+      "sha256": "106d93945827622b0fd9e746497260bcb328928e663295661506c821b58a4a80",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "spec-rag-stage-chevron",
+      "title_zh": "方法阶段箭头带",
+      "title_en": "Pipeline stage chevron",
+      "category": "connections",
+      "collection": "Speculative RAG 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "speculative-rag-draft-verify"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/spec-rag-stage-chevron.svg",
+      "preview_path": "element/previews/spec-rag-stage-chevron.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Wang, Zilong",
+          "Wang, Zifeng",
+          "Le, Long",
+          "Zheng, Huaixiu Steven",
+          "Mishra, Swaroop",
+          "Perot, Vincent",
+          "Zhang, Yuwei",
+          "Mattapalli, Anush",
+          "Taly, Ankur",
+          "Shang, Jingbo",
+          "Lee, Chen-Yu",
+          "Pfister, Tomas"
+        ],
+        "urls": [
+          "https://research.google/pubs/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting-2/",
+          "https://arxiv.org/abs/2407.08223v2",
+          "https://arxiv.org/pdf/2407.08223v2",
+          "https://arxiv.org/src/2407.08223v2",
+          "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+          "https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img1.width-1250.png"
+        ],
+        "local_original": "architecture/speculative-rag-draft-verify/source.svg",
+        "original_sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800",
+        "native_original": "architecture/speculative-rag-draft-verify/original.pdf",
+        "native_original_sha256": "ad43b1bbbe63d357310814b13ea7f37462f53a69831097ff3a203b6f2d52dc91",
+        "figure_id": "speculative-rag-draft-verify",
+        "arxiv_id": "2407.08223v2",
+        "figure_number": 1,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              20,
+              0
+            ],
+            [
+              1,
+              20,
+              1
+            ],
+            [
+              1,
+              20,
+              2
+            ],
+            [
+              1,
+              20,
+              3
+            ],
+            [
+              1,
+              20,
+              4
+            ],
+            [
+              1,
+              20,
+              5
+            ],
+            [
+              1,
+              20,
+              6
+            ],
+            [
+              1,
+              20,
+              7
+            ],
+            [
+              1,
+              20,
+              9
+            ],
+            [
+              1,
+              20,
+              10
+            ],
+            [
+              1,
+              20,
+              11
+            ],
+            [
+              1,
+              20,
+              12
+            ],
+            [
+              1,
+              20,
+              13
+            ],
+            [
+              1,
+              20,
+              14
+            ],
+            [
+              1,
+              20,
+              15
+            ],
+            [
+              1,
+              20,
+              16
+            ],
+            [
+              1,
+              20,
+              17
+            ],
+            [
+              1,
+              20,
+              18
+            ],
+            [
+              1,
+              20,
+              20
+            ],
+            [
+              1,
+              20,
+              21
+            ]
+          ],
+          "viewBox": [
+            11.65768,
+            512.27916,
+            197.08014,
+            25.75097
+          ],
+          "selection_regions": [
+            [
+              7,
+              507,
+              211,
+              542
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+        "file": "architecture/speculative-rag-draft-verify/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "path": 20,
+        "clipPath": 1,
+        "g": 2,
+        "use": 17
+      },
+      "sha256": "2fa2244349e0ad5c323396aef10c9f2e96d38731a69d95f296276eeca3e30238",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "hipporag2-passage",
+      "title_zh": "图谱检索文档图标",
+      "title_en": "Passage document",
+      "category": "data",
+      "collection": "HippoRAG 2 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "hipporag2-indexing-retrieval-framework"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/hipporag2-passage.svg",
+      "preview_path": "element/previews/hipporag2-passage.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Gutiérrez, Bernal Jiménez",
+          "Shu, Yiheng",
+          "Qi, Weijian",
+          "Zhou, Sizhe",
+          "Su, Yu"
+        ],
+        "urls": [
+          "https://github.com/OSU-NLP-Group/HippoRAG",
+          "https://arxiv.org/abs/2502.14802v2",
+          "https://arxiv.org/pdf/2502.14802v2",
+          "https://arxiv.org/src/2502.14802v2",
+          "https://proceedings.mlr.press/v267/gutierrez25a.html"
+        ],
+        "local_original": "architecture/hipporag2-indexing-retrieval-framework/source.svg",
+        "original_sha256": "87863567eac673057911c10a0d33a103d485540bd04174b289a3a688cd650d5c",
+        "native_original": "architecture/hipporag2-indexing-retrieval-framework/original.pdf",
+        "native_original_sha256": "ab1b52b0f6cab673ba84d0f1245685dbd69b6a8047d52cddb5509f63550132d6",
+        "figure_id": "hipporag2-indexing-retrieval-framework",
+        "arxiv_id": "2502.14802v2",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              90
+            ],
+            [
+              1,
+              0,
+              91
+            ],
+            [
+              1,
+              0,
+              92
+            ],
+            [
+              1,
+              0,
+              93
+            ],
+            [
+              1,
+              0,
+              94
+            ],
+            [
+              1,
+              0,
+              95
+            ]
+          ],
+          "viewBox": [
+            146.77785,
+            109.99325,
+            47.3475,
+            58.5975
+          ],
+          "selection_regions": [
+            [
+              144,
+              108,
+              194,
+              170
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/hipporag2-indexing-retrieval-framework/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 7,
+        "g": 2
+      },
+      "sha256": "48940a0a75f7c34daa1645c1e42ac3c7e6a0699736b923819989bc87d36c2f65",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "hipporag2-triples",
+      "title_zh": "三元组关系表",
+      "title_en": "Relation triples",
+      "category": "data",
+      "collection": "HippoRAG 2 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "hipporag2-indexing-retrieval-framework"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/hipporag2-triples.svg",
+      "preview_path": "element/previews/hipporag2-triples.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Gutiérrez, Bernal Jiménez",
+          "Shu, Yiheng",
+          "Qi, Weijian",
+          "Zhou, Sizhe",
+          "Su, Yu"
+        ],
+        "urls": [
+          "https://github.com/OSU-NLP-Group/HippoRAG",
+          "https://arxiv.org/abs/2502.14802v2",
+          "https://arxiv.org/pdf/2502.14802v2",
+          "https://arxiv.org/src/2502.14802v2",
+          "https://proceedings.mlr.press/v267/gutierrez25a.html"
+        ],
+        "local_original": "architecture/hipporag2-indexing-retrieval-framework/source.svg",
+        "original_sha256": "87863567eac673057911c10a0d33a103d485540bd04174b289a3a688cd650d5c",
+        "native_original": "architecture/hipporag2-indexing-retrieval-framework/original.pdf",
+        "native_original_sha256": "ab1b52b0f6cab673ba84d0f1245685dbd69b6a8047d52cddb5509f63550132d6",
+        "figure_id": "hipporag2-indexing-retrieval-framework",
+        "arxiv_id": "2502.14802v2",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              11
+            ],
+            [
+              1,
+              0,
+              12
+            ],
+            [
+              1,
+              0,
+              13
+            ],
+            [
+              1,
+              0,
+              14
+            ],
+            [
+              1,
+              0,
+              15
+            ],
+            [
+              1,
+              0,
+              16
+            ],
+            [
+              1,
+              0,
+              17
+            ],
+            [
+              1,
+              0,
+              18
+            ],
+            [
+              1,
+              0,
+              19
+            ],
+            [
+              1,
+              0,
+              20
+            ],
+            [
+              1,
+              0,
+              21
+            ],
+            [
+              1,
+              0,
+              22
+            ],
+            [
+              1,
+              0,
+              23
+            ],
+            [
+              1,
+              0,
+              24
+            ],
+            [
+              1,
+              0,
+              25
+            ],
+            [
+              1,
+              0,
+              26
+            ]
+          ],
+          "viewBox": [
+            299.8341,
+            95.7995,
+            93.735,
+            91.485
+          ],
+          "selection_regions": [
+            [
+              297,
+              97,
+              391,
+              186
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/hipporag2-indexing-retrieval-framework/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 17,
+        "g": 2
+      },
+      "sha256": "143a288448562a9da431af1a6269fc2b5cd32a689e3c0d11fbf340120a2f1a78",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "hipporag2-knowledge-graph",
+      "title_zh": "单层知识图谱节点组",
+      "title_en": "Knowledge graph primitive",
+      "category": "data",
+      "collection": "HippoRAG 2 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "hipporag2-indexing-retrieval-framework"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/hipporag2-knowledge-graph.svg",
+      "preview_path": "element/previews/hipporag2-knowledge-graph.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Gutiérrez, Bernal Jiménez",
+          "Shu, Yiheng",
+          "Qi, Weijian",
+          "Zhou, Sizhe",
+          "Su, Yu"
+        ],
+        "urls": [
+          "https://github.com/OSU-NLP-Group/HippoRAG",
+          "https://arxiv.org/abs/2502.14802v2",
+          "https://arxiv.org/pdf/2502.14802v2",
+          "https://arxiv.org/src/2502.14802v2",
+          "https://proceedings.mlr.press/v267/gutierrez25a.html"
+        ],
+        "local_original": "architecture/hipporag2-indexing-retrieval-framework/source.svg",
+        "original_sha256": "87863567eac673057911c10a0d33a103d485540bd04174b289a3a688cd650d5c",
+        "native_original": "architecture/hipporag2-indexing-retrieval-framework/original.pdf",
+        "native_original_sha256": "ab1b52b0f6cab673ba84d0f1245685dbd69b6a8047d52cddb5509f63550132d6",
+        "figure_id": "hipporag2-indexing-retrieval-framework",
+        "arxiv_id": "2502.14802v2",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              273
+            ],
+            [
+              1,
+              0,
+              274
+            ],
+            [
+              1,
+              0,
+              277
+            ],
+            [
+              1,
+              0,
+              278
+            ],
+            [
+              1,
+              0,
+              279
+            ],
+            [
+              1,
+              0,
+              280
+            ],
+            [
+              1,
+              0,
+              281
+            ],
+            [
+              1,
+              0,
+              282
+            ],
+            [
+              1,
+              0,
+              283
+            ],
+            [
+              1,
+              0,
+              284
+            ],
+            [
+              1,
+              0,
+              285
+            ],
+            [
+              1,
+              0,
+              286
+            ],
+            [
+              1,
+              0,
+              287
+            ],
+            [
+              1,
+              0,
+              288
+            ],
+            [
+              1,
+              0,
+              289
+            ],
+            [
+              1,
+              0,
+              290
+            ],
+            [
+              1,
+              0,
+              291
+            ],
+            [
+              1,
+              0,
+              292
+            ],
+            [
+              1,
+              0,
+              293
+            ],
+            [
+              1,
+              0,
+              294
+            ],
+            [
+              1,
+              0,
+              295
+            ],
+            [
+              1,
+              0,
+              296
+            ]
+          ],
+          "viewBox": [
+            489.9066,
+            49.622,
+            173.34,
+            174.09
+          ],
+          "selection_regions": [
+            [
+              491,
+              53,
+              659,
+              222
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/hipporag2-indexing-retrieval-framework/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 23,
+        "g": 2
+      },
+      "sha256": "fa82dee62adbb71c4c4ee78b2dd42562c794fb99da2e3c28659695ad707ec4fb",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "hipporag2-heterogeneous-graph",
+      "title_zh": "短语与文档双层图谱",
+      "title_en": "Phrase-passage graph",
+      "category": "data",
+      "collection": "HippoRAG 2 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "hipporag2-indexing-retrieval-framework"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/hipporag2-heterogeneous-graph.svg",
+      "preview_path": "element/previews/hipporag2-heterogeneous-graph.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Gutiérrez, Bernal Jiménez",
+          "Shu, Yiheng",
+          "Qi, Weijian",
+          "Zhou, Sizhe",
+          "Su, Yu"
+        ],
+        "urls": [
+          "https://github.com/OSU-NLP-Group/HippoRAG",
+          "https://arxiv.org/abs/2502.14802v2",
+          "https://arxiv.org/pdf/2502.14802v2",
+          "https://arxiv.org/src/2502.14802v2",
+          "https://proceedings.mlr.press/v267/gutierrez25a.html"
+        ],
+        "local_original": "architecture/hipporag2-indexing-retrieval-framework/source.svg",
+        "original_sha256": "87863567eac673057911c10a0d33a103d485540bd04174b289a3a688cd650d5c",
+        "native_original": "architecture/hipporag2-indexing-retrieval-framework/original.pdf",
+        "native_original_sha256": "ab1b52b0f6cab673ba84d0f1245685dbd69b6a8047d52cddb5509f63550132d6",
+        "figure_id": "hipporag2-indexing-retrieval-framework",
+        "arxiv_id": "2502.14802v2",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              0,
+              223
+            ],
+            [
+              1,
+              0,
+              224
+            ],
+            [
+              1,
+              0,
+              225
+            ],
+            [
+              1,
+              0,
+              226
+            ],
+            [
+              1,
+              0,
+              227
+            ],
+            [
+              1,
+              0,
+              228
+            ],
+            [
+              1,
+              0,
+              229
+            ],
+            [
+              1,
+              0,
+              230
+            ],
+            [
+              1,
+              0,
+              231
+            ],
+            [
+              1,
+              0,
+              232
+            ],
+            [
+              1,
+              0,
+              233
+            ],
+            [
+              1,
+              0,
+              234
+            ],
+            [
+              1,
+              0,
+              235
+            ],
+            [
+              1,
+              0,
+              236
+            ],
+            [
+              1,
+              0,
+              237
+            ],
+            [
+              1,
+              0,
+              238
+            ],
+            [
+              1,
+              0,
+              239
+            ],
+            [
+              1,
+              0,
+              240
+            ],
+            [
+              1,
+              0,
+              241
+            ],
+            [
+              1,
+              0,
+              242
+            ],
+            [
+              1,
+              0,
+              243
+            ],
+            [
+              1,
+              0,
+              244
+            ],
+            [
+              1,
+              0,
+              245
+            ],
+            [
+              1,
+              0,
+              246
+            ],
+            [
+              1,
+              0,
+              247
+            ],
+            [
+              1,
+              0,
+              248
+            ],
+            [
+              1,
+              0,
+              249
+            ],
+            [
+              1,
+              0,
+              250
+            ],
+            [
+              1,
+              0,
+              251
+            ],
+            [
+              1,
+              0,
+              252
+            ],
+            [
+              1,
+              0,
+              253
+            ],
+            [
+              1,
+              0,
+              254
+            ],
+            [
+              1,
+              0,
+              255
+            ],
+            [
+              1,
+              0,
+              256
+            ],
+            [
+              1,
+              0,
+              257
+            ],
+            [
+              1,
+              0,
+              258
+            ],
+            [
+              1,
+              0,
+              259
+            ],
+            [
+              1,
+              0,
+              260
+            ],
+            [
+              1,
+              0,
+              261
+            ],
+            [
+              1,
+              0,
+              262
+            ],
+            [
+              1,
+              0,
+              263
+            ],
+            [
+              1,
+              0,
+              264
+            ],
+            [
+              1,
+              0,
+              265
+            ],
+            [
+              1,
+              0,
+              266
+            ],
+            [
+              1,
+              0,
+              267
+            ],
+            [
+              1,
+              0,
+              268
+            ],
+            [
+              1,
+              0,
+              269
+            ],
+            [
+              1,
+              0,
+              270
+            ],
+            [
+              1,
+              0,
+              271
+            ],
+            [
+              1,
+              0,
+              272
+            ]
+          ],
+          "viewBox": [
+            753.4641,
+            25.9295,
+            232.725,
+            232.725
+          ],
+          "selection_regions": [
+            [
+              758,
+              31,
+              987,
+              252
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/hipporag2-indexing-retrieval-framework/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 51,
+        "g": 2
+      },
+      "sha256": "4bd0df27b125b8731e5a082b7bc910f9cb917b7edbf4101eb64f566934b0e42a",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "crag-thought-cloud",
+      "title_zh": "检索评估思考气泡轮廓",
+      "title_en": "Evaluation thought cloud",
+      "category": "connections",
+      "collection": "CRAG 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "crag-evaluate-correct-generate"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/crag-thought-cloud.svg",
+      "preview_path": "element/previews/crag-thought-cloud.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yan, Shi-Qi",
+          "Gu, Jia-Chen",
+          "Zhu, Yun",
+          "Ling, Zhen-Hua"
+        ],
+        "urls": [
+          "https://github.com/HuskyInSalt/CRAG",
+          "https://arxiv.org/abs/2401.15884v3",
+          "https://arxiv.org/pdf/2401.15884v3",
+          "https://arxiv.org/src/2401.15884v3"
+        ],
+        "local_original": "architecture/crag-evaluate-correct-generate/source.svg",
+        "original_sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff",
+        "native_original": "architecture/crag-evaluate-correct-generate/original.pdf",
+        "native_original_sha256": "2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8",
+        "figure_id": "crag-evaluate-correct-generate",
+        "arxiv_id": "2401.15884v3",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              170
+            ],
+            [
+              1,
+              171
+            ],
+            [
+              1,
+              172
+            ],
+            [
+              1,
+              173
+            ],
+            [
+              1,
+              174
+            ]
+          ],
+          "viewBox": [
+            296.14782,
+            99.77925,
+            251.86385,
+            175.35831
+          ],
+          "selection_regions": [
+            [
+              299,
+              104,
+              544,
+              271
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/crag-evaluate-correct-generate/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 6,
+        "g": 1
+      },
+      "sha256": "0c3fff678e4393e0e587e9fd669363a074342982807f0aaa3e8ba5ad8a2341f0",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "crag-evaluation-statuses",
+      "title_zh": "检索评估状态标记（三种变体）",
+      "title_en": "Retrieval evaluation statuses",
+      "category": "training",
+      "collection": "CRAG 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "crag-evaluate-correct-generate"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/crag-evaluation-statuses.svg",
+      "preview_path": "element/previews/crag-evaluation-statuses.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yan, Shi-Qi",
+          "Gu, Jia-Chen",
+          "Zhu, Yun",
+          "Ling, Zhen-Hua"
+        ],
+        "urls": [
+          "https://github.com/HuskyInSalt/CRAG",
+          "https://arxiv.org/abs/2401.15884v3",
+          "https://arxiv.org/pdf/2401.15884v3",
+          "https://arxiv.org/src/2401.15884v3"
+        ],
+        "local_original": "architecture/crag-evaluate-correct-generate/source.svg",
+        "original_sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff",
+        "native_original": "architecture/crag-evaluate-correct-generate/original.pdf",
+        "native_original_sha256": "2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8",
+        "figure_id": "crag-evaluate-correct-generate",
+        "arxiv_id": "2401.15884v3",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              142
+            ],
+            [
+              1,
+              143
+            ],
+            [
+              1,
+              144
+            ],
+            [
+              1,
+              145
+            ],
+            [
+              1,
+              146
+            ],
+            [
+              1,
+              147
+            ],
+            [
+              1,
+              148
+            ],
+            [
+              1,
+              149
+            ],
+            [
+              1,
+              150
+            ],
+            [
+              1,
+              221
+            ],
+            [
+              1,
+              222
+            ],
+            [
+              1,
+              223
+            ],
+            [
+              1,
+              224
+            ],
+            [
+              1,
+              225
+            ],
+            [
+              1,
+              226
+            ],
+            [
+              1,
+              227
+            ],
+            [
+              1,
+              228
+            ],
+            [
+              1,
+              229
+            ],
+            [
+              1,
+              230
+            ],
+            [
+              1,
+              231
+            ],
+            [
+              1,
+              233
+            ],
+            [
+              1,
+              234
+            ],
+            [
+              1,
+              235
+            ],
+            [
+              1,
+              236
+            ],
+            [
+              1,
+              237
+            ],
+            [
+              1,
+              238
+            ],
+            [
+              1,
+              239
+            ],
+            [
+              1,
+              240
+            ],
+            [
+              1,
+              241
+            ],
+            [
+              1,
+              242
+            ],
+            [
+              1,
+              243
+            ]
+          ],
+          "viewBox": [
+            317.45384,
+            307.87724,
+            165.85195,
+            263.91476
+          ],
+          "selection_regions": [
+            [
+              320,
+              310,
+              482,
+              369
+            ],
+            [
+              320,
+              406,
+              482,
+              467
+            ],
+            [
+              320,
+              506,
+              482,
+              568
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/crag-evaluate-correct-generate/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 22,
+        "g": 1,
+        "use": 25
+      },
+      "sha256": "cf13028c1050e1d8d90b934e91f1d9877b235eb3f735a9089adc7a31fdf43bb1",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "crag-document-strips",
+      "title_zh": "分解后的文档条带",
+      "title_en": "Document strips",
+      "category": "data",
+      "collection": "CRAG 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "crag-evaluate-correct-generate"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/crag-document-strips.svg",
+      "preview_path": "element/previews/crag-document-strips.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yan, Shi-Qi",
+          "Gu, Jia-Chen",
+          "Zhu, Yun",
+          "Ling, Zhen-Hua"
+        ],
+        "urls": [
+          "https://github.com/HuskyInSalt/CRAG",
+          "https://arxiv.org/abs/2401.15884v3",
+          "https://arxiv.org/pdf/2401.15884v3",
+          "https://arxiv.org/src/2401.15884v3"
+        ],
+        "local_original": "architecture/crag-evaluate-correct-generate/source.svg",
+        "original_sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff",
+        "native_original": "architecture/crag-evaluate-correct-generate/original.pdf",
+        "native_original_sha256": "2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8",
+        "figure_id": "crag-evaluate-correct-generate",
+        "arxiv_id": "2401.15884v3",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              272
+            ],
+            [
+              1,
+              273
+            ],
+            [
+              1,
+              274
+            ],
+            [
+              1,
+              275
+            ],
+            [
+              1,
+              276
+            ],
+            [
+              1,
+              277
+            ],
+            [
+              1,
+              278
+            ],
+            [
+              1,
+              279
+            ],
+            [
+              1,
+              280
+            ],
+            [
+              1,
+              281
+            ],
+            [
+              1,
+              282
+            ],
+            [
+              1,
+              283
+            ],
+            [
+              1,
+              284
+            ],
+            [
+              1,
+              285
+            ],
+            [
+              1,
+              286
+            ],
+            [
+              1,
+              287
+            ],
+            [
+              1,
+              288
+            ],
+            [
+              1,
+              289
+            ],
+            [
+              1,
+              290
+            ],
+            [
+              1,
+              291
+            ],
+            [
+              1,
+              292
+            ],
+            [
+              1,
+              293
+            ],
+            [
+              1,
+              294
+            ],
+            [
+              1,
+              295
+            ],
+            [
+              1,
+              305
+            ]
+          ],
+          "viewBox": [
+            751.22198,
+            188.73338,
+            80.59294,
+            145.34137
+          ],
+          "selection_regions": [
+            [
+              750,
+              184,
+              834,
+              333
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/crag-evaluate-correct-generate/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 16,
+        "g": 1,
+        "use": 19
+      },
+      "sha256": "0049291bfa4aa398944283e730d011c43b8175ce20619fef024d5b451eee06c9",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "crag-internal-knowledge",
+      "title_zh": "内部知识块 k-in",
+      "title_en": "Internal knowledge block",
+      "category": "data",
+      "collection": "CRAG 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "crag-evaluate-correct-generate"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/crag-internal-knowledge.svg",
+      "preview_path": "element/previews/crag-internal-knowledge.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yan, Shi-Qi",
+          "Gu, Jia-Chen",
+          "Zhu, Yun",
+          "Ling, Zhen-Hua"
+        ],
+        "urls": [
+          "https://github.com/HuskyInSalt/CRAG",
+          "https://arxiv.org/abs/2401.15884v3",
+          "https://arxiv.org/pdf/2401.15884v3",
+          "https://arxiv.org/src/2401.15884v3"
+        ],
+        "local_original": "architecture/crag-evaluate-correct-generate/source.svg",
+        "original_sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff",
+        "native_original": "architecture/crag-evaluate-correct-generate/original.pdf",
+        "native_original_sha256": "2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8",
+        "figure_id": "crag-evaluate-correct-generate",
+        "arxiv_id": "2401.15884v3",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              339
+            ],
+            [
+              1,
+              340
+            ],
+            [
+              1,
+              341
+            ],
+            [
+              1,
+              342
+            ],
+            [
+              1,
+              343
+            ]
+          ],
+          "viewBox": [
+            1151.66792,
+            210.39922,
+            51.88216,
+            96.85064
+          ],
+          "selection_regions": [
+            [
+              1150,
+              208,
+              1202,
+              311
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/crag-evaluate-correct-generate/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 6,
+        "g": 1,
+        "use": 3
+      },
+      "sha256": "5b3ac5cca5f83cabda72ac4072ac4a20ab79d7e39a1c45f9774ddff627ba1bac",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "crag-hollow-arrow",
+      "title_zh": "空心流程箭头",
+      "title_en": "Hollow process arrow",
+      "category": "connections",
+      "collection": "CRAG 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "crag-evaluate-correct-generate"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/crag-hollow-arrow.svg",
+      "preview_path": "element/previews/crag-hollow-arrow.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Yan, Shi-Qi",
+          "Gu, Jia-Chen",
+          "Zhu, Yun",
+          "Ling, Zhen-Hua"
+        ],
+        "urls": [
+          "https://github.com/HuskyInSalt/CRAG",
+          "https://arxiv.org/abs/2401.15884v3",
+          "https://arxiv.org/pdf/2401.15884v3",
+          "https://arxiv.org/src/2401.15884v3"
+        ],
+        "local_original": "architecture/crag-evaluate-correct-generate/source.svg",
+        "original_sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff",
+        "native_original": "architecture/crag-evaluate-correct-generate/original.pdf",
+        "native_original_sha256": "2397ebe77ee2d5012199d6a77a0b60978b64be9e2156065d0fe79bd027f1afb8",
+        "figure_id": "crag-evaluate-correct-generate",
+        "arxiv_id": "2401.15884v3",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              271
+            ]
+          ],
+          "viewBox": [
+            655.66422,
+            236.70912,
+            88.31915,
+            49.26836
+          ],
+          "selection_regions": [
+            [
+              652,
+              233,
+              747,
+              292
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/crag-evaluate-correct-generate/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 2,
+        "g": 1
+      },
+      "sha256": "6ed821dcc51967bbfa46d11baacd77189adeff5f5d1f0144b319e38090e38519",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "amem-embedding-vector",
+      "title_zh": "查询嵌入向量条",
+      "title_en": "Query embedding vector",
+      "category": "data",
+      "collection": "A-MEM 原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "amem-notes-links-evolution-framework"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/amem-embedding-vector.svg",
+      "preview_path": "element/previews/amem-embedding-vector.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Xu, Wujiang",
+          "Liang, Zujie",
+          "Mei, Kai",
+          "Gao, Hang",
+          "Tan, Juntao",
+          "Zhang, Yongfeng"
+        ],
+        "urls": [
+          "https://github.com/WujiangXu/AgenticMemory",
+          "https://arxiv.org/abs/2502.12110v11",
+          "https://arxiv.org/pdf/2502.12110v11",
+          "https://arxiv.org/src/2502.12110v11",
+          "https://papers.neurips.cc/paper_files/paper/2025/file/19909c36f51abc4856b4560aff3d36d6-Paper-Conference.pdf"
+        ],
+        "local_original": "architecture/amem-notes-links-evolution-framework/source.svg",
+        "original_sha256": "3ab6c73d6c0d497d37ee7e2b14dd83097d2f72b640f8d2e282124f73636255b7",
+        "native_original": "architecture/amem-notes-links-evolution-framework/original.pdf",
+        "native_original_sha256": "626f742f89ed78992d2ac25c314d9597c3526d43a8c4c2464b6209b2df669636",
+        "figure_id": "amem-notes-links-evolution-framework",
+        "arxiv_id": "2502.12110v11",
+        "figure_number": 2,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              704
+            ],
+            [
+              1,
+              705
+            ],
+            [
+              1,
+              706
+            ],
+            [
+              1,
+              707
+            ],
+            [
+              1,
+              708
+            ],
+            [
+              1,
+              709
+            ],
+            [
+              1,
+              710
+            ],
+            [
+              1,
+              711
+            ],
+            [
+              1,
+              712
+            ],
+            [
+              1,
+              713
+            ],
+            [
+              1,
+              714
+            ],
+            [
+              1,
+              715
+            ]
+          ],
+          "viewBox": [
+            733.1328,
+            66.9139,
+            46.42803,
+            13.08819
+          ],
+          "selection_regions": [
+            [
+              729,
+              65,
+              781,
+              81
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "architecture/amem-notes-links-evolution-framework/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "g": 1,
+        "path": 12
+      },
+      "sha256": "9004626d7677ee125949bf01d0047028fb200301bc99c3fdcceabffffb4d335c",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "security-signal-document",
+      "title_zh": "带信号的文档符号",
+      "title_en": "Signal document",
+      "category": "data",
+      "collection": "无线安全综述原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "survey-genai-wireless-security-four-panels"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/security-signal-document.svg",
+      "preview_path": "element/previews/security-signal-document.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "local_original": "teaser/survey-genai-wireless-security-four-panels/source.svg",
+        "original_sha256": "02b383426fcdf2eda5fc7ab7e01ef70f1797fa3e45d8b8af98f00515c97b4718",
+        "native_original": "teaser/survey-genai-wireless-security-four-panels/original.pdf",
+        "native_original_sha256": "778684793de1eee99ce6d72b3a7a0a196d0ded27906491be2c73ae9a5d4a56e2",
+        "figure_id": "survey-genai-wireless-security-four-panels",
+        "arxiv_id": "2405.20024v2",
+        "figure_number": 6,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              1,
+              1110
+            ],
+            [
+              1,
+              1,
+              1111
+            ],
+            [
+              1,
+              1,
+              1112
+            ],
+            [
+              1,
+              1,
+              1113
+            ],
+            [
+              1,
+              1,
+              1114
+            ],
+            [
+              1,
+              1,
+              1115
+            ]
+          ],
+          "viewBox": [
+            580.60571,
+            23.58796,
+            30.74192,
+            37.92461
+          ],
+          "selection_regions": [
+            [
+              575,
+              20,
+              614,
+              62
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "teaser/survey-genai-wireless-security-four-panels/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 7,
+        "g": 2
+      },
+      "sha256": "572150832f064b7ed53e4981116be7cb0c808471b137b008021dba67769afbfc",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "security-feature-stack",
+      "title_zh": "多层特征图堆叠",
+      "title_en": "Feature stack",
+      "category": "data",
+      "collection": "无线安全综述原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "survey-genai-wireless-security-four-panels"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/security-feature-stack.svg",
+      "preview_path": "element/previews/security-feature-stack.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "local_original": "teaser/survey-genai-wireless-security-four-panels/source.svg",
+        "original_sha256": "02b383426fcdf2eda5fc7ab7e01ef70f1797fa3e45d8b8af98f00515c97b4718",
+        "native_original": "teaser/survey-genai-wireless-security-four-panels/original.pdf",
+        "native_original_sha256": "778684793de1eee99ce6d72b3a7a0a196d0ded27906491be2c73ae9a5d4a56e2",
+        "figure_id": "survey-genai-wireless-security-four-panels",
+        "arxiv_id": "2405.20024v2",
+        "figure_number": 6,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              1,
+              1221
+            ],
+            [
+              1,
+              1,
+              1222
+            ],
+            [
+              1,
+              1,
+              1223
+            ],
+            [
+              1,
+              1,
+              1224
+            ],
+            [
+              1,
+              1,
+              1225
+            ],
+            [
+              1,
+              1,
+              1226
+            ]
+          ],
+          "viewBox": [
+            591.7649,
+            132.73343,
+            26.38029,
+            16.03002
+          ],
+          "selection_regions": [
+            [
+              580,
+              126,
+              621,
+              150
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "teaser/survey-genai-wireless-security-four-panels/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 7,
+        "g": 2
+      },
+      "sha256": "bdc058d4032736f24bf33481806e195816c7d891d6c7727497b8c31c0cb89c08",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "security-generator-network",
+      "title_zh": "生成器层结构",
+      "title_en": "Generator network",
+      "category": "modules",
+      "collection": "无线安全综述原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "survey-genai-wireless-security-four-panels"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/security-generator-network.svg",
+      "preview_path": "element/previews/security-generator-network.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "local_original": "teaser/survey-genai-wireless-security-four-panels/source.svg",
+        "original_sha256": "02b383426fcdf2eda5fc7ab7e01ef70f1797fa3e45d8b8af98f00515c97b4718",
+        "native_original": "teaser/survey-genai-wireless-security-four-panels/original.pdf",
+        "native_original_sha256": "778684793de1eee99ce6d72b3a7a0a196d0ded27906491be2c73ae9a5d4a56e2",
+        "figure_id": "survey-genai-wireless-security-four-panels",
+        "arxiv_id": "2405.20024v2",
+        "figure_number": 6,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              1,
+              1141
+            ],
+            [
+              1,
+              1,
+              1142
+            ],
+            [
+              1,
+              1,
+              1143
+            ],
+            [
+              1,
+              1,
+              1175
+            ],
+            [
+              1,
+              1,
+              1176
+            ],
+            [
+              1,
+              1,
+              1177
+            ],
+            [
+              1,
+              1,
+              1178
+            ],
+            [
+              1,
+              1,
+              1179
+            ],
+            [
+              1,
+              1,
+              1180
+            ],
+            [
+              1,
+              1,
+              1181
+            ],
+            [
+              1,
+              1,
+              1182
+            ],
+            [
+              1,
+              1,
+              1183
+            ],
+            [
+              1,
+              1,
+              1184
+            ],
+            [
+              1,
+              1,
+              1185
+            ],
+            [
+              1,
+              1,
+              1186
+            ],
+            [
+              1,
+              1,
+              1187
+            ],
+            [
+              1,
+              1,
+              1188
+            ],
+            [
+              1,
+              1,
+              1189
+            ],
+            [
+              1,
+              1,
+              1190
+            ],
+            [
+              1,
+              1,
+              1191
+            ],
+            [
+              1,
+              1,
+              1192
+            ],
+            [
+              1,
+              1,
+              1193
+            ],
+            [
+              1,
+              1,
+              1194
+            ],
+            [
+              1,
+              1,
+              1195
+            ],
+            [
+              1,
+              1,
+              1196
+            ],
+            [
+              1,
+              1,
+              1343
+            ],
+            [
+              1,
+              1,
+              1344
+            ],
+            [
+              1,
+              1,
+              1345
+            ],
+            [
+              1,
+              1,
+              1346
+            ],
+            [
+              1,
+              1,
+              1347
+            ],
+            [
+              1,
+              1,
+              1348
+            ],
+            [
+              1,
+              1,
+              1349
+            ],
+            [
+              1,
+              1,
+              1350
+            ],
+            [
+              1,
+              1,
+              1351
+            ]
+          ],
+          "viewBox": [
+            619.92543,
+            41.17997,
+            76.9952,
+            47.38147
+          ],
+          "selection_regions": [
+            [
+              616,
+              25,
+              696,
+              104
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "teaser/survey-genai-wireless-security-four-panels/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 33,
+        "g": 2,
+        "use": 9
+      },
+      "sha256": "2e08e406d64987ed058720949fa899126b4eb9533443e41ab07d7e427e5d14c3",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "security-loss-calculation",
+      "title_zh": "损失计算模块",
+      "title_en": "Loss calculation",
+      "category": "training",
+      "collection": "无线安全综述原图部件",
+      "tags": [
+        "paper-component",
+        "exact-source-nodes",
+        "memory-rag-wireless",
+        "survey-genai-wireless-security-four-panels"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/security-loss-calculation.svg",
+      "preview_path": "element/previews/security-loss-calculation.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "authors": [
+          "Vu, Thai-Hoc",
+          "Jagatheesaperumal, Senthil Kumar",
+          "Nguyen, Minh-Duong",
+          "Van Huynh, Nguyen",
+          "Kim, Sunghwan",
+          "Pham, Quoc-Viet"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2405.20024v2",
+          "https://arxiv.org/pdf/2405.20024v2",
+          "https://arxiv.org/src/2405.20024v2"
+        ],
+        "local_original": "teaser/survey-genai-wireless-security-four-panels/source.svg",
+        "original_sha256": "02b383426fcdf2eda5fc7ab7e01ef70f1797fa3e45d8b8af98f00515c97b4718",
+        "native_original": "teaser/survey-genai-wireless-security-four-panels/original.pdf",
+        "native_original_sha256": "778684793de1eee99ce6d72b3a7a0a196d0ded27906491be2c73ae9a5d4a56e2",
+        "figure_id": "survey-genai-wireless-security-four-panels",
+        "arxiv_id": "2405.20024v2",
+        "figure_number": 6,
+        "selector": {
+          "selected_node_paths": [
+            [
+              1,
+              1,
+              474
+            ],
+            [
+              1,
+              1,
+              475
+            ],
+            [
+              1,
+              1,
+              476
+            ],
+            [
+              1,
+              1,
+              477
+            ],
+            [
+              1,
+              1,
+              478
+            ],
+            [
+              1,
+              1,
+              479
+            ],
+            [
+              1,
+              1,
+              481
+            ],
+            [
+              1,
+              1,
+              482
+            ],
+            [
+              1,
+              1,
+              483
+            ],
+            [
+              1,
+              1,
+              484
+            ],
+            [
+              1,
+              1,
+              485
+            ],
+            [
+              1,
+              1,
+              486
+            ],
+            [
+              1,
+              1,
+              487
+            ],
+            [
+              1,
+              1,
+              488
+            ],
+            [
+              1,
+              1,
+              489
+            ],
+            [
+              1,
+              1,
+              490
+            ],
+            [
+              1,
+              1,
+              491
+            ]
+          ],
+          "viewBox": [
+            213.60335,
+            199.3098,
+            69.11731,
+            15.96538
+          ],
+          "selection_regions": [
+            [
+              213,
+              199,
+              283,
+              216
+            ]
+          ],
+          "index_base": 0,
+          "omitted_raster_nodes": 0
+        }
+      },
+      "rights": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+      "license": {
+        "status": "reference-only",
+        "name": "作者保留权利 / 私有参考",
+        "note": "所收录 arXiv 版本采用非独占分发许可，该许可不等同第三方重用授权。本条用于私有参考，保留署名与来源；图中第三方插图和照片按原始权利核对。",
+        "file": "teaser/survey-genai-wireless-security-four-panels/RIGHTS.source.txt"
+      },
+      "editability": "复制现有 SVG 中的矢量路径、字形与变换；该 SVG 来自作者独立 PDF。只调整画布并保留所需定义，文字为轮廓。复制现有矢量节点，未重绘。",
+      "svg_object_counts": {
+        "svg": 1,
+        "defs": 1,
+        "clipPath": 1,
+        "path": 13,
+        "g": 2,
+        "use": 15
+      },
+      "sha256": "5780a8444953bf680c452b3bbfd607e6afacf8e872522710864901260336f2df",
+      "visual_reviewed": true,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-pyramidal-neuron",
+      "title_zh": "锥体神经元",
+      "title_en": "Pyramidal neuron",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Pyramidal neuron",
+        "Fabian-Mikulasch"
+      ],
+      "origin": "downloaded",
+      "svg_path": "element/svg/bioicons-pyramidal-neuron.svg",
+      "preview_path": "element/previews/bioicons-pyramidal-neuron.png",
+      "source": {
+        "kind": "external-download",
+        "author": "Fabian-Mikulasch",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Human_physiology/Fabian-Mikulasch/Pyramidal_Neuron.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-0/Human_physiology/Fabian-Mikulasch/Pyramidal_Neuron.svg",
+        "original_sha256": "128551d2aa862550a5a099aafa41496fe3de6fd0089303318c4e87daceb265c3",
+        "git_blob_sha": "2ced077f02f8a86c43aa570640f09769889c2e8e",
+        "retrieved_date": "2026-11-05"
+      },
+      "rights": "CC0-1.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC0-1.0",
+        "file": "element/sources/Bioicons-CC0.txt"
+      },
+      "editability": "作者原始 SVG，下载字节未修改；包含独立矢量对象，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 1,
+        "rect": 0,
+        "circle": 0,
+        "ellipse": 0,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "128551d2aa862550a5a099aafa41496fe3de6fd0089303318c4e87daceb265c3",
+      "visual_reviewed": true,
+      "attribution": "Pyramidal neuron — Fabian-Mikulasch / Bioicons / CC0-1.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-brain-servier-1",
+      "title_zh": "大脑侧视图（Servier）",
+      "title_en": "Brain, Servier 1",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Brain, Servier 1",
+        "Servier"
+      ],
+      "origin": "downloaded",
+      "svg_path": "element/svg/bioicons-brain-servier-1.svg",
+      "preview_path": "element/previews/bioicons-brain-servier-1.png",
+      "source": {
+        "kind": "external-download",
+        "author": "Servier",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-3.0/Human_physiology/Servier/brain-1.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-3.0/Human_physiology/Servier/brain-1.svg",
+        "original_sha256": "c495518cd1dfac90750c3d9e3c49149b1e150250efa139522e68068849a6051e",
+        "git_blob_sha": "1e6b6ceda169fdc6a413a34a319a3b9483fa302e",
+        "retrieved_date": "2026-11-05"
+      },
+      "rights": "CC-BY-3.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-3.0",
+        "file": "element/sources/Bioicons-CC-BY-3.0.txt"
+      },
+      "editability": "作者原始 SVG，下载字节未修改；包含独立矢量对象，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 33,
+        "rect": 0,
+        "circle": 0,
+        "ellipse": 0,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "c495518cd1dfac90750c3d9e3c49149b1e150250efa139522e68068849a6051e",
+      "visual_reviewed": true,
+      "attribution": "Brain, Servier 1 — Servier / Bioicons / CC-BY-3.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-brain-servier-2",
+      "title_zh": "大脑与脑干（Servier）",
+      "title_en": "Brain, Servier 2",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Brain, Servier 2",
+        "Servier"
+      ],
+      "origin": "downloaded",
+      "svg_path": "element/svg/bioicons-brain-servier-2.svg",
+      "preview_path": "element/previews/bioicons-brain-servier-2.png",
+      "source": {
+        "kind": "external-download",
+        "author": "Servier",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-3.0/Human_physiology/Servier/brain-2.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-3.0/Human_physiology/Servier/brain-2.svg",
+        "original_sha256": "c64d7ac978caf91eafe159ea77a5b044da1de48b60754deab910998ea2be889d",
+        "git_blob_sha": "c285e5d334502d516ac753a8a994d730999667ba",
+        "retrieved_date": "2026-11-05"
+      },
+      "rights": "CC-BY-3.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-3.0",
+        "file": "element/sources/Bioicons-CC-BY-3.0.txt"
+      },
+      "editability": "作者原始 SVG，下载字节未修改；包含独立矢量对象，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 183,
+        "rect": 0,
+        "circle": 0,
+        "ellipse": 0,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "c64d7ac978caf91eafe159ea77a5b044da1de48b60754deab910998ea2be889d",
+      "visual_reviewed": true,
+      "attribution": "Brain, Servier 2 — Servier / Bioicons / CC-BY-3.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-neuron-dbcls",
+      "title_zh": "神经元（DBCLS）",
+      "title_en": "Neuron",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Neuron",
+        "DBCLS"
+      ],
+      "origin": "downloaded",
+      "svg_path": "element/svg/bioicons-neuron-dbcls.svg",
+      "preview_path": "element/previews/bioicons-neuron-dbcls.png",
+      "source": {
+        "kind": "external-download",
+        "author": "DBCLS",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Cell_culture/DBCLS/neuron.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-4.0/Cell_culture/DBCLS/neuron.svg",
+        "original_sha256": "d37209d5e49102950270cc81a9dd0e3dbbbefa730b6fbc2b40c7788546990926",
+        "git_blob_sha": "1611870efad6965e8ca554135b100481b190018d",
+        "retrieved_date": "2026-11-05"
+      },
+      "rights": "CC-BY-4.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "file": "element/sources/Bioicons-CC-BY-4.0.txt"
+      },
+      "editability": "作者原始 SVG，下载字节未修改；包含独立矢量对象，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 2,
+        "rect": 0,
+        "circle": 0,
+        "ellipse": 1,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "d37209d5e49102950270cc81a9dd0e3dbbbefa730b6fbc2b40c7788546990926",
+      "visual_reviewed": true,
+      "attribution": "Neuron — DBCLS / Bioicons / CC-BY-4.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-sensory-neuron-maddock",
+      "title_zh": "感觉神经元（Maddock）",
+      "title_en": "Sensory neuron",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Sensory neuron",
+        "Marnie-Maddock"
+      ],
+      "origin": "downloaded",
+      "svg_path": "element/svg/bioicons-sensory-neuron-maddock.svg",
+      "preview_path": "element/previews/bioicons-sensory-neuron-maddock.png",
+      "source": {
+        "kind": "external-download",
+        "author": "Marnie-Maddock",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Cell_types/Marnie-Maddock/sensory_neuron.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-4.0/Cell_types/Marnie-Maddock/sensory_neuron.svg",
+        "original_sha256": "9e6b6dcf83da89d811744f486e5b49be3cea262f73761e4e52f6dc6dec6f6d8e",
+        "git_blob_sha": "71d291b32f64db3a54210638c33a26614bc8515e",
+        "retrieved_date": "2026-11-05"
+      },
+      "rights": "CC-BY-4.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "file": "element/sources/Bioicons-CC-BY-4.0.txt"
+      },
+      "editability": "作者原始 SVG，下载字节未修改；包含独立矢量对象，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 188,
+        "rect": 0,
+        "circle": 0,
+        "ellipse": 0,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "9e6b6dcf83da89d811744f486e5b49be3cea262f73761e4e52f6dc6dec6f6d8e",
+      "visual_reviewed": true,
+      "attribution": "Sensory neuron — Marnie-Maddock / Bioicons / CC-BY-4.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-cerebellum-dorsal",
+      "title_zh": "小脑背侧视图",
+      "title_en": "Cerebellum dorsal view",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Cerebellum dorsal view",
+        "DBCLS"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/bioicons-cerebellum-dorsal.svg",
+      "preview_path": "element/previews/bioicons-cerebellum-dorsal.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "author": "DBCLS",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Human_physiology/DBCLS/Cerebellum_dorsal_view.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-4.0/Human_physiology/DBCLS/Cerebellum_dorsal_view.svg",
+        "original_sha256": "301205ec8aa1cab0b11a2c1815d0883b3a1168c78f325689fb174427dd0842f6",
+        "retrieved_date": "2026-11-05",
+        "local_original": "element/sources/bioicons-neuroscience/bioicons-cerebellum-dorsal.svg.source",
+        "original_git_blob_sha": "efcf4e9322d1e5d503b089030c64ca6416b12ad2",
+        "selector": {
+          "kind": "entire-existing-svg-tree",
+          "operation": "expand-legacy-Illustrator-namespace-entities-and-remove-non-rendering-PGF-reference",
+          "geometry_modified": false
+        }
+      },
+      "rights": "CC-BY-4.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "file": "element/sources/Bioicons-CC-BY-4.0.txt"
+      },
+      "editability": "原生 SVG 的兼容副本：展开旧版 Illustrator 的 XML 命名空间实体，移除非显示用的 1×1 PGF 扩展引用。全部矢量几何与样式不变。原始下载字节另存 .svg.source；未重绘，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 707,
+        "rect": 0,
+        "circle": 0,
+        "ellipse": 0,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "49568b8c4f209a7577ed335f958bcda9a08d6b89565278db59cb8826f54fd166",
+      "visual_reviewed": true,
+      "attribution": "Cerebellum dorsal view — DBCLS / Bioicons / CC-BY-4.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-cerebellum-divisions",
+      "title_zh": "小脑分区",
+      "title_en": "Division of the cerebellum",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Division of the cerebellum",
+        "DBCLS"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/bioicons-cerebellum-divisions.svg",
+      "preview_path": "element/previews/bioicons-cerebellum-divisions.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "author": "DBCLS",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Human_physiology/DBCLS/Division_of_the_cerebellum.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-4.0/Human_physiology/DBCLS/Division_of_the_cerebellum.svg",
+        "original_sha256": "43b1ac0d60264b1ec375c89c8191587ceb96615f87756622dee7ff0f8283158a",
+        "retrieved_date": "2026-11-05",
+        "local_original": "element/sources/bioicons-neuroscience/bioicons-cerebellum-divisions.svg.source",
+        "original_git_blob_sha": "52a3d0400e0913ed42ae69f1799d8160a75bc503",
+        "selector": {
+          "kind": "entire-existing-svg-tree",
+          "operation": "expand-legacy-Illustrator-namespace-entities-and-remove-non-rendering-PGF-reference",
+          "geometry_modified": false
+        }
+      },
+      "rights": "CC-BY-4.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "file": "element/sources/Bioicons-CC-BY-4.0.txt"
+      },
+      "editability": "原生 SVG 的兼容副本：展开旧版 Illustrator 的 XML 命名空间实体，移除非显示用的 1×1 PGF 扩展引用。全部矢量几何与样式不变。原始下载字节另存 .svg.source；未重绘，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 26,
+        "rect": 0,
+        "circle": 0,
+        "ellipse": 0,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "e59947c9c42d6e63d7dd7388ed8a9625262e6d0d30d4c1484a3926cb5557166b",
+      "visual_reviewed": true,
+      "attribution": "Division of the cerebellum — DBCLS / Bioicons / CC-BY-4.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-brain-amygdala",
+      "title_zh": "脑冠状面与杏仁核定位",
+      "title_en": "Brain frontal plane, amygdala",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Brain frontal plane, amygdala",
+        "DBCLS"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/bioicons-brain-amygdala.svg",
+      "preview_path": "element/previews/bioicons-brain-amygdala.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "author": "DBCLS",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Human_physiology/DBCLS/Frontal_plane_of_the_brain_amygdala.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-4.0/Human_physiology/DBCLS/Frontal_plane_of_the_brain_amygdala.svg",
+        "original_sha256": "3b61a4c72ec401fa64d0b65f86bc9a772cc1b55349453bb3f8407e68c5f0eb12",
+        "retrieved_date": "2026-11-05",
+        "local_original": "element/sources/bioicons-neuroscience/bioicons-brain-amygdala.svg.source",
+        "original_git_blob_sha": "7a3ec05db17597081cb6b7bce6941bdd90322f0a",
+        "selector": {
+          "kind": "entire-existing-svg-tree",
+          "operation": "expand-legacy-Illustrator-namespace-entities-and-remove-non-rendering-PGF-reference",
+          "geometry_modified": false
+        }
+      },
+      "rights": "CC-BY-4.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "file": "element/sources/Bioicons-CC-BY-4.0.txt"
+      },
+      "editability": "原生 SVG 的兼容副本：展开旧版 Illustrator 的 XML 命名空间实体，移除非显示用的 1×1 PGF 扩展引用。全部矢量几何与样式不变。原始下载字节另存 .svg.source；未重绘，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 23,
+        "rect": 0,
+        "circle": 0,
+        "ellipse": 2,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "82d0acf464ce80652299452275534f65f213d01cd12a971437df8199310a736a",
+      "visual_reviewed": true,
+      "attribution": "Brain frontal plane, amygdala — DBCLS / Bioicons / CC-BY-4.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-brain-hippocampus",
+      "title_zh": "脑冠状面与海马定位",
+      "title_en": "Brain frontal plane, hippocampus",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Brain frontal plane, hippocampus",
+        "DBCLS"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/bioicons-brain-hippocampus.svg",
+      "preview_path": "element/previews/bioicons-brain-hippocampus.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "author": "DBCLS",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Human_physiology/DBCLS/Frontal_plane_of_the_brain_hippocampus.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-4.0/Human_physiology/DBCLS/Frontal_plane_of_the_brain_hippocampus.svg",
+        "original_sha256": "46a8949a366a39d2576329cff4f0e2b245d773e88a2d7a304c7aee61ec1542d1",
+        "retrieved_date": "2026-11-05",
+        "local_original": "element/sources/bioicons-neuroscience/bioicons-brain-hippocampus.svg.source",
+        "original_git_blob_sha": "4f1824c4d613bb617cf287dc65f700b21b815a5a",
+        "selector": {
+          "kind": "entire-existing-svg-tree",
+          "operation": "expand-legacy-Illustrator-namespace-entities-and-remove-non-rendering-PGF-reference",
+          "geometry_modified": false
+        }
+      },
+      "rights": "CC-BY-4.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "file": "element/sources/Bioicons-CC-BY-4.0.txt"
+      },
+      "editability": "原生 SVG 的兼容副本：展开旧版 Illustrator 的 XML 命名空间实体，移除非显示用的 1×1 PGF 扩展引用。全部矢量几何与样式不变。原始下载字节另存 .svg.source；未重绘，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 32,
+        "rect": 0,
+        "circle": 0,
+        "ellipse": 0,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "89f2450304da6529a6ceae270a7a8994649e1a64d0f64401d41d87dfd46a54e3",
+      "visual_reviewed": true,
+      "attribution": "Brain frontal plane, hippocampus — DBCLS / Bioicons / CC-BY-4.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-brain-horizontal",
+      "title_zh": "大脑水平切面",
+      "title_en": "Horizontal plane of brain",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Horizontal plane of brain",
+        "DBCLS"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/bioicons-brain-horizontal.svg",
+      "preview_path": "element/previews/bioicons-brain-horizontal.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "author": "DBCLS",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Human_physiology/DBCLS/Horizontal_plane_of_the_brain.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-4.0/Human_physiology/DBCLS/Horizontal_plane_of_the_brain.svg",
+        "original_sha256": "b8920402bc80eaaa22ccd5c28493bca362db085ee0c11f7a4a8a4a174b9e07b4",
+        "retrieved_date": "2026-11-05",
+        "local_original": "element/sources/bioicons-neuroscience/bioicons-brain-horizontal.svg.source",
+        "original_git_blob_sha": "5047c5a78ea067e939ed13dd590ccd1b46454ef1",
+        "selector": {
+          "kind": "entire-existing-svg-tree",
+          "operation": "expand-legacy-Illustrator-namespace-entities-and-remove-non-rendering-PGF-reference",
+          "geometry_modified": false
+        }
+      },
+      "rights": "CC-BY-4.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "file": "element/sources/Bioicons-CC-BY-4.0.txt"
+      },
+      "editability": "原生 SVG 的兼容副本：展开旧版 Illustrator 的 XML 命名空间实体，移除非显示用的 1×1 PGF 扩展引用。全部矢量几何与样式不变。原始下载字节另存 .svg.source；未重绘，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 16,
+        "rect": 0,
+        "circle": 0,
+        "ellipse": 0,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "4efab54b3990106f01e1e894d6982cab12dbbe01b57af743feda11e81d84716c",
+      "visual_reviewed": true,
+      "attribution": "Horizontal plane of brain — DBCLS / Bioicons / CC-BY-4.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-interneuron",
+      "title_zh": "中间神经元",
+      "title_en": "Interneuron",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Interneuron",
+        "DBCLS"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/bioicons-interneuron.svg",
+      "preview_path": "element/previews/bioicons-interneuron.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "author": "DBCLS",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Human_physiology/DBCLS/Interneuron.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-4.0/Human_physiology/DBCLS/Interneuron.svg",
+        "original_sha256": "d1663a0377c2f3aa8604c8ac7014073df5585380c33c0750f8aee940064ade1d",
+        "retrieved_date": "2026-11-05",
+        "local_original": "element/sources/bioicons-neuroscience/bioicons-interneuron.svg.source",
+        "original_git_blob_sha": "e4bb871386da2957bcda1c230e5f79d7c5cf8105",
+        "selector": {
+          "kind": "entire-existing-svg-tree",
+          "operation": "expand-legacy-Illustrator-namespace-entities-and-remove-non-rendering-PGF-reference",
+          "geometry_modified": false
+        }
+      },
+      "rights": "CC-BY-4.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "file": "element/sources/Bioicons-CC-BY-4.0.txt"
+      },
+      "editability": "原生 SVG 的兼容副本：展开旧版 Illustrator 的 XML 命名空间实体，移除非显示用的 1×1 PGF 扩展引用。全部矢量几何与样式不变。原始下载字节另存 .svg.source；未重绘，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 481,
+        "rect": 0,
+        "circle": 25,
+        "ellipse": 4,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "9000cd9cfc40b2c94d1e2ae6a0304b02f525d18d0baf2846e489dd39217e6dc8",
+      "visual_reviewed": true,
+      "attribution": "Interneuron — DBCLS / Bioicons / CC-BY-4.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-motor-neuron",
+      "title_zh": "运动神经元",
+      "title_en": "Motor neuron",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Motor neuron",
+        "DBCLS"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/bioicons-motor-neuron.svg",
+      "preview_path": "element/previews/bioicons-motor-neuron.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "author": "DBCLS",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Human_physiology/DBCLS/Motor_neuron.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-4.0/Human_physiology/DBCLS/Motor_neuron.svg",
+        "original_sha256": "43af216ca57b504842a8cac2c3f26e90e085cc618948fc9fefd62a666f14f6df",
+        "retrieved_date": "2026-11-05",
+        "local_original": "element/sources/bioicons-neuroscience/bioicons-motor-neuron.svg.source",
+        "original_git_blob_sha": "6f0819c75e28ec12892b2af49088f58a1c0ca3a8",
+        "selector": {
+          "kind": "entire-existing-svg-tree",
+          "operation": "expand-legacy-Illustrator-namespace-entities-and-remove-non-rendering-PGF-reference",
+          "geometry_modified": false
+        }
+      },
+      "rights": "CC-BY-4.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "file": "element/sources/Bioicons-CC-BY-4.0.txt"
+      },
+      "editability": "原生 SVG 的兼容副本：展开旧版 Illustrator 的 XML 命名空间实体，移除非显示用的 1×1 PGF 扩展引用。全部矢量几何与样式不变。原始下载字节另存 .svg.source；未重绘，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 722,
+        "rect": 0,
+        "circle": 57,
+        "ellipse": 48,
+        "image": 0,
+        "text": 0,
+        "use": 3
+      },
+      "sha256": "fe15eacd11d8fefc3967315ef510c551dcd0eb157cf2e629bf7d306b868f62d3",
+      "visual_reviewed": true,
+      "attribution": "Motor neuron — DBCLS / Bioicons / CC-BY-4.0",
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "bioicons-sensory-neuron-dbcls",
+      "title_zh": "感觉神经元（DBCLS）",
+      "title_en": "Sensory neuron",
+      "category": "science",
+      "collection": "Bioicons",
+      "tags": [
+        "neuroscience",
+        "brain",
+        "memory-analogy",
+        "Sensory neuron",
+        "DBCLS"
+      ],
+      "origin": "extracted",
+      "svg_path": "element/svg/bioicons-sensory-neuron-dbcls.svg",
+      "preview_path": "element/previews/bioicons-sensory-neuron-dbcls.png",
+      "source": {
+        "kind": "extracted-existing-vectors",
+        "author": "DBCLS",
+        "urls": [
+          "https://github.com/duerrsimon/bioicons",
+          "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Human_physiology/DBCLS/Sensory_neuron.svg"
+        ],
+        "commit": "d29e766ea7580b8063c4f47b29e872db40a4d979",
+        "original_file": "static/icons/cc-by-4.0/Human_physiology/DBCLS/Sensory_neuron.svg",
+        "original_sha256": "a29334ca7c361e8fd41fe5662365486b72768e5dd1879255e8a0209232525569",
+        "retrieved_date": "2026-11-05",
+        "local_original": "element/sources/bioicons-neuroscience/bioicons-sensory-neuron-dbcls.svg.source",
+        "original_git_blob_sha": "45fa8bc3af5e0f1381b66177dda3e7b3b2b64847",
+        "selector": {
+          "kind": "entire-existing-svg-tree",
+          "operation": "expand-legacy-Illustrator-namespace-entities-and-remove-non-rendering-PGF-reference",
+          "geometry_modified": false
+        }
+      },
+      "rights": "CC-BY-4.0；保留上游原文件、作者与署名。",
+      "license": {
+        "status": "source-license",
+        "name": "CC-BY-4.0",
+        "file": "element/sources/Bioicons-CC-BY-4.0.txt"
+      },
+      "editability": "原生 SVG 的兼容副本：展开旧版 Illustrator 的 XML 命名空间实体，移除非显示用的 1×1 PGF 扩展引用。全部矢量几何与样式不变。原始下载字节另存 .svg.source；未重绘，无嵌入位图。",
+      "svg_object_counts": {
+        "path": 489,
+        "rect": 0,
+        "circle": 12,
+        "ellipse": 5,
+        "image": 0,
+        "text": 0,
+        "use": 0
+      },
+      "sha256": "1106bfde3fc5bb0af99ababadd72d8e88f1ddde419c334cc99ae4da1564809ed",
+      "visual_reviewed": true,
+      "attribution": "Sensory neuron — DBCLS / Bioicons / CC-BY-4.0",
+      "added_date": "2026-11-05"
     }
   ]
 }

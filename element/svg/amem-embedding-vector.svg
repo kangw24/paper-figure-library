@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="46.42803" height="13.08819" viewBox="733.1328 66.9139 46.42803 13.08819">
+<defs>
+</defs>
+<g>
+<path transform="matrix(1,0,0,-1,0,414)" d="M734.4328 335.298H778.2608V345.7862H734.4328Z" fill="#ffb6d7" fill-rule="evenodd" />
+<path transform="matrix(1,0,0,-1,0,414)" d="M734.4328 335.298H745.38986V345.7862H734.4328Z" fill="#ffc7c9" fill-rule="evenodd" />
+<path transform="matrix(1,0,0,-1,0,414)" d="M745.3898 335.298H756.3468V345.7862H745.3898Z" fill="#ffc7c9" fill-rule="evenodd" />
+<path transform="matrix(1,0,0,-1,0,414)" d="M756.3468 335.298H767.30386V345.7862H756.3468Z" fill="#ffc7c9" fill-rule="evenodd" />
+<path transform="matrix(1,0,0,-1,0,414)" d="M767.3038 335.298H778.2608V345.7862H767.3038Z" fill="#ffc7c9" fill-rule="evenodd" />
+<path stroke-width="1.00000003" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M745.389808 67.7139V79.2020893" />
+<path stroke-width="1.00000003" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M756.346816 67.7139V79.2020893" />
+<path stroke-width="1.00000003" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M767.303825 67.7139V79.2020893" />
+<path stroke-width="1.00000003" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M734.4328 67.7139V79.2020893" />
+<path stroke-width="1.00000003" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M778.260833 67.7139V79.2020893" />
+<path stroke-width="1.00000003" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M733.9328 68.2139H778.760833" />
+<path stroke-width="1.00000003" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M733.9328 78.7020893H778.760833" />
+</g>
+</svg>

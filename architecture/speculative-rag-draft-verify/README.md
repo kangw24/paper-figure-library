@@ -86,7 +86,9 @@
 <!-- BEGIN FIGURE LINKS -->
 ## 关联范例与元素
 
-**可搭配的现有元素：** [文本文件](../../element/svg/tabler-file-text.svg) · [网络](../../element/svg/tabler-network.svg) · [右箭头](../../element/svg/tabler-arrow-right.svg) · [勾选](../../element/svg/tabler-check.svg)
+**从本图拆出的部件：** [知识查询 Q 标记](../../element/svg/spec-rag-query.svg) · [证据支持答案 A 标记](../../element/svg/spec-rag-answer.svg) · [同主题检索文档组](../../element/svg/spec-rag-topic-documents.svg) · [答案与依据配对标记](../../element/svg/spec-rag-answer-rationale.svg) · [方法阶段箭头带](../../element/svg/spec-rag-stage-chevron.svg)
+
+**可搭配的现有元素：** [文本文件](../../element/svg/tabler-file-text.svg) · [网络](../../element/svg/tabler-network.svg) · [右箭头](../../element/svg/tabler-arrow-right.svg) · [勾选](../../element/svg/tabler-check.svg) · [图谱检索文档图标](../../element/svg/hipporag2-passage.svg) · [检索评估状态标记（三种变体）](../../element/svg/crag-evaluation-statuses.svg)
 
 这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
 

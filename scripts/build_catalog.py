@@ -54,7 +54,12 @@ def build(root):
  write(root,Path('CATALOG.md'),'\n'.join(lines))
  lines=['# Element · 元素库','','[Teaser](../teaser/README.md) · [Architecture](../architecture/README.md) · [总目录](../CATALOG.md)','','**'+str(len(elements))+' 个独立 SVG**，全部为外部下载或现有原图节点的提取。','','[范例与元素对照表](with-examples.md)：从完整范例找部件，也可从各元素分类页反查关联范例。原图拆件与功能关联分别标明。','','[离线搜索与筛选](gallery.html)（下载仓库后直接打开） · [完整总览 SVG](all-elements.svg) · [逐项来源、许可与署名](catalog.json)','','![元素选览](preview.png)','','## 按内容浏览','','| 分类 | 数量 | 入口 |','|---|---:|---|']
  if (root/'element/vector-parts.json').is_file():
-  lines[lines.index('## 按内容浏览'):lines.index('## 按内容浏览')]=['## 论文原图网络部件','','[![DiT、ViT、SD3 原图部件](overviews/paper-parts.png)](overviews/paper-parts.svg)','','注意力、嵌入、归一化、前馈、残差与条件调制等独立节点，保留各自原图及精确提取记录。','']
+  lines[lines.index('## 按内容浏览'):lines.index('## 按内容浏览')]=['## 论文原图矢量部件','','[![论文原图矢量部件](overviews/paper-parts.png)](overviews/paper-parts.svg)','','注意力、嵌入、记忆、检索、文档和连接等独立部件，保留各自原图及精确提取记录。','']
+ latest=root/'element/latest-additions.json'
+ if latest.is_file():
+  update=json.loads(latest.read_text())
+  pos=lines.index('## 论文原图矢量部件') if '## 论文原图矢量部件' in lines else lines.index('## 按内容浏览')
+  lines[pos:pos]=['## '+update['date']+' · '+update['title'],'',update['summary'],'','[![新增元素选览](overviews/latest-additions.png)](overviews/latest-additions.svg)','','[本批部件与出处](../docs/element-update-'+update['date']+'.md) · [全部新增元素 SVG](overviews/latest-additions.svg)','']
  for c,l in LABELS.items():
   xs=[x for x in elements if x['category']==c]
   if not xs:continue

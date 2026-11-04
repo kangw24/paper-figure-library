@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "policy": "只复制作者原 SVG 已有节点；记录精确节点路径，不重绘。",
+  "policy": "只复制来源 SVG 的已有节点（含作者 PDF 的转换件）；记录精确节点路径，不重绘。",
   "specs": [
     {
       "id": "dit-patchify",
@@ -1529,6 +1529,3602 @@
         60,
         12
       ]
+    },
+    {
+      "id": "memoryvla-vision-encoder",
+      "title_zh": "MemoryVLA 视觉编码器",
+      "title_en": "Vision Encoder",
+      "category": "modules",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          25,
+          0
+        ],
+        [
+          1,
+          0,
+          25,
+          1
+        ],
+        [
+          1,
+          0,
+          26
+        ],
+        [
+          1,
+          0,
+          27
+        ],
+        [
+          1,
+          0,
+          28
+        ],
+        [
+          1,
+          0,
+          29
+        ],
+        [
+          1,
+          0,
+          30
+        ],
+        [
+          1,
+          0,
+          31
+        ],
+        [
+          1,
+          0,
+          33
+        ],
+        [
+          1,
+          0,
+          34
+        ],
+        [
+          1,
+          0,
+          35
+        ],
+        [
+          1,
+          0,
+          36
+        ],
+        [
+          1,
+          0,
+          37
+        ],
+        [
+          1,
+          0,
+          38
+        ],
+        [
+          1,
+          0,
+          39
+        ]
+      ],
+      "viewBox": [
+        18.03493,
+        81.30268,
+        137.83014,
+        28.99914
+      ],
+      "selection_regions": [
+        [
+          17,
+          79,
+          157,
+          112
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-projector",
+      "title_zh": "MemoryVLA 投影模块",
+      "title_en": "Projector",
+      "category": "modules",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          40,
+          0
+        ],
+        [
+          1,
+          0,
+          40,
+          1
+        ],
+        [
+          1,
+          0,
+          41
+        ],
+        [
+          1,
+          0,
+          42
+        ],
+        [
+          1,
+          0,
+          43
+        ],
+        [
+          1,
+          0,
+          44
+        ],
+        [
+          1,
+          0,
+          45
+        ],
+        [
+          1,
+          0,
+          46
+        ],
+        [
+          1,
+          0,
+          47
+        ],
+        [
+          1,
+          0,
+          48
+        ],
+        [
+          1,
+          0,
+          49
+        ]
+      ],
+      "viewBox": [
+        18.03493,
+        117.67475,
+        137.83014,
+        28.99914
+      ],
+      "selection_regions": [
+        [
+          17,
+          116,
+          157,
+          148
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-text-tokenizer",
+      "title_zh": "文本 Tokenizer 模块",
+      "title_en": "Text Tokenizer",
+      "category": "modules",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          50,
+          0
+        ],
+        [
+          1,
+          0,
+          50,
+          1
+        ],
+        [
+          1,
+          0,
+          51
+        ],
+        [
+          1,
+          0,
+          52
+        ],
+        [
+          1,
+          0,
+          53
+        ],
+        [
+          1,
+          0,
+          54
+        ],
+        [
+          1,
+          0,
+          56
+        ],
+        [
+          1,
+          0,
+          57
+        ],
+        [
+          1,
+          0,
+          58
+        ],
+        [
+          1,
+          0,
+          59
+        ],
+        [
+          1,
+          0,
+          60
+        ],
+        [
+          1,
+          0,
+          61
+        ],
+        [
+          1,
+          0,
+          62
+        ],
+        [
+          1,
+          0,
+          63
+        ],
+        [
+          1,
+          0,
+          64
+        ]
+      ],
+      "viewBox": [
+        170.11766,
+        117.58966,
+        129.29107,
+        29.53307
+      ],
+      "selection_regions": [
+        [
+          167,
+          116,
+          302,
+          148
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-language-model",
+      "title_zh": "MemoryVLA 语言模型块",
+      "title_en": "Large Language Model",
+      "category": "modules",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          4,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          1
+        ],
+        [
+          1,
+          0,
+          5
+        ],
+        [
+          1,
+          0,
+          6
+        ],
+        [
+          1,
+          0,
+          7
+        ],
+        [
+          1,
+          0,
+          8
+        ],
+        [
+          1,
+          0,
+          9
+        ],
+        [
+          1,
+          0,
+          11
+        ],
+        [
+          1,
+          0,
+          12
+        ],
+        [
+          1,
+          0,
+          13
+        ],
+        [
+          1,
+          0,
+          14
+        ],
+        [
+          1,
+          0,
+          15
+        ],
+        [
+          1,
+          0,
+          16
+        ],
+        [
+          1,
+          0,
+          17
+        ],
+        [
+          1,
+          0,
+          18
+        ],
+        [
+          1,
+          0,
+          20
+        ],
+        [
+          1,
+          0,
+          21
+        ],
+        [
+          1,
+          0,
+          22
+        ],
+        [
+          1,
+          0,
+          23
+        ],
+        [
+          1,
+          0,
+          24
+        ]
+      ],
+      "viewBox": [
+        13.58052,
+        180.56466,
+        304.99835,
+        46.87135
+      ],
+      "selection_regions": [
+        [
+          10,
+          178,
+          320,
+          228
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-perceptual-compression",
+      "title_zh": "感知压缩模块",
+      "title_en": "Perceptual Compression",
+      "category": "modules",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          91,
+          0
+        ],
+        [
+          1,
+          0,
+          91,
+          1
+        ],
+        [
+          1,
+          0,
+          92
+        ],
+        [
+          1,
+          0,
+          93
+        ],
+        [
+          1,
+          0,
+          94
+        ],
+        [
+          1,
+          0,
+          95
+        ],
+        [
+          1,
+          0,
+          96
+        ],
+        [
+          1,
+          0,
+          97
+        ],
+        [
+          1,
+          0,
+          98
+        ],
+        [
+          1,
+          0,
+          99
+        ],
+        [
+          1,
+          0,
+          100
+        ],
+        [
+          1,
+          0,
+          101
+        ],
+        [
+          1,
+          0,
+          103
+        ],
+        [
+          1,
+          0,
+          104
+        ],
+        [
+          1,
+          0,
+          105
+        ],
+        [
+          1,
+          0,
+          106
+        ],
+        [
+          1,
+          0,
+          107
+        ],
+        [
+          1,
+          0,
+          108
+        ],
+        [
+          1,
+          0,
+          109
+        ],
+        [
+          1,
+          0,
+          110
+        ],
+        [
+          1,
+          0,
+          111
+        ],
+        [
+          1,
+          0,
+          112
+        ],
+        [
+          1,
+          0,
+          113
+        ]
+      ],
+      "viewBox": [
+        28.3478,
+        236.58553,
+        106.66919,
+        46.24219
+      ],
+      "selection_regions": [
+        [
+          28,
+          234,
+          135,
+          284
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-working-memory",
+      "title_zh": "工作记忆与 Token 组",
+      "title_en": "Working Memory",
+      "category": "data",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          3,
+          0
+        ],
+        [
+          1,
+          0,
+          121,
+          0
+        ],
+        [
+          1,
+          0,
+          121,
+          1
+        ],
+        [
+          1,
+          0,
+          123,
+          0
+        ],
+        [
+          1,
+          0,
+          123,
+          1
+        ],
+        [
+          1,
+          0,
+          125,
+          0
+        ],
+        [
+          1,
+          0,
+          125,
+          1
+        ],
+        [
+          1,
+          0,
+          127,
+          0
+        ],
+        [
+          1,
+          0,
+          127,
+          1
+        ],
+        [
+          1,
+          0,
+          128
+        ],
+        [
+          1,
+          0,
+          129
+        ],
+        [
+          1,
+          0,
+          130
+        ],
+        [
+          1,
+          0,
+          131
+        ],
+        [
+          1,
+          0,
+          132
+        ],
+        [
+          1,
+          0,
+          133
+        ],
+        [
+          1,
+          0,
+          134
+        ],
+        [
+          1,
+          0,
+          136
+        ],
+        [
+          1,
+          0,
+          137
+        ],
+        [
+          1,
+          0,
+          138
+        ],
+        [
+          1,
+          0,
+          139
+        ],
+        [
+          1,
+          0,
+          140
+        ],
+        [
+          1,
+          0,
+          141
+        ]
+      ],
+      "viewBox": [
+        158.06588,
+        236.04541,
+        130.17185,
+        35.04785
+      ],
+      "selection_regions": [
+        [
+          155,
+          233,
+          289,
+          273
+        ]
+      ],
+      "omitted_raster_nodes": 4,
+      "notes": "复制现有矢量节点；不包含位图图标或阴影。"
+    },
+    {
+      "id": "memoryvla-memory-retrieval",
+      "title_zh": "记忆检索模块",
+      "title_en": "Memory Retrieval",
+      "category": "modules",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          382,
+          0
+        ],
+        [
+          1,
+          0,
+          382,
+          1
+        ],
+        [
+          1,
+          0,
+          383
+        ],
+        [
+          1,
+          0,
+          384
+        ],
+        [
+          1,
+          0,
+          385
+        ],
+        [
+          1,
+          0,
+          386
+        ],
+        [
+          1,
+          0,
+          387
+        ],
+        [
+          1,
+          0,
+          388
+        ],
+        [
+          1,
+          0,
+          390
+        ],
+        [
+          1,
+          0,
+          391
+        ],
+        [
+          1,
+          0,
+          392
+        ],
+        [
+          1,
+          0,
+          393
+        ],
+        [
+          1,
+          0,
+          394
+        ],
+        [
+          1,
+          0,
+          395
+        ],
+        [
+          1,
+          0,
+          396
+        ],
+        [
+          1,
+          0,
+          397
+        ],
+        [
+          1,
+          0,
+          398
+        ]
+      ],
+      "viewBox": [
+        343.27248,
+        212.50151,
+        106.96864,
+        45.53064
+      ],
+      "selection_regions": [
+        [
+          341,
+          209,
+          450,
+          259
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-gated-fusion",
+      "title_zh": "记忆门控融合模块",
+      "title_en": "Memory Gate Fusion",
+      "category": "modules",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          422,
+          0
+        ],
+        [
+          1,
+          0,
+          422,
+          1
+        ],
+        [
+          1,
+          0,
+          423
+        ],
+        [
+          1,
+          0,
+          424
+        ],
+        [
+          1,
+          0,
+          425
+        ],
+        [
+          1,
+          0,
+          426
+        ],
+        [
+          1,
+          0,
+          427
+        ],
+        [
+          1,
+          0,
+          428
+        ],
+        [
+          1,
+          0,
+          430
+        ],
+        [
+          1,
+          0,
+          431
+        ],
+        [
+          1,
+          0,
+          432
+        ],
+        [
+          1,
+          0,
+          433
+        ],
+        [
+          1,
+          0,
+          435
+        ],
+        [
+          1,
+          0,
+          436
+        ],
+        [
+          1,
+          0,
+          437
+        ],
+        [
+          1,
+          0,
+          438
+        ],
+        [
+          1,
+          0,
+          439
+        ],
+        [
+          1,
+          0,
+          440
+        ]
+      ],
+      "viewBox": [
+        482.05278,
+        212.5016,
+        102.35264,
+        45.53064
+      ],
+      "selection_regions": [
+        [
+          479,
+          209,
+          583,
+          259
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-consolidation",
+      "title_zh": "记忆巩固模块",
+      "title_en": "Memory Consolidation",
+      "category": "modules",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          401,
+          0
+        ],
+        [
+          1,
+          0,
+          401,
+          1
+        ],
+        [
+          1,
+          0,
+          402
+        ],
+        [
+          1,
+          0,
+          403
+        ],
+        [
+          1,
+          0,
+          404
+        ],
+        [
+          1,
+          0,
+          405
+        ],
+        [
+          1,
+          0,
+          406
+        ],
+        [
+          1,
+          0,
+          407
+        ],
+        [
+          1,
+          0,
+          409
+        ],
+        [
+          1,
+          0,
+          410
+        ],
+        [
+          1,
+          0,
+          411
+        ],
+        [
+          1,
+          0,
+          412
+        ],
+        [
+          1,
+          0,
+          413
+        ],
+        [
+          1,
+          0,
+          414
+        ],
+        [
+          1,
+          0,
+          415
+        ],
+        [
+          1,
+          0,
+          416
+        ],
+        [
+          1,
+          0,
+          417
+        ],
+        [
+          1,
+          0,
+          418
+        ],
+        [
+          1,
+          0,
+          419
+        ],
+        [
+          1,
+          0,
+          420
+        ],
+        [
+          1,
+          0,
+          421
+        ]
+      ],
+      "viewBox": [
+        483.53531,
+        61.54434,
+        99.18578,
+        43.82078
+      ],
+      "selection_regions": [
+        [
+          482,
+          59,
+          583,
+          107
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-cognition-attention",
+      "title_zh": "认知注意力模块",
+      "title_en": "Cognition Attention",
+      "category": "modules",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          253,
+          0
+        ],
+        [
+          1,
+          0,
+          253,
+          1
+        ],
+        [
+          1,
+          0,
+          254
+        ],
+        [
+          1,
+          0,
+          255
+        ],
+        [
+          1,
+          0,
+          256
+        ],
+        [
+          1,
+          0,
+          257
+        ],
+        [
+          1,
+          0,
+          258
+        ],
+        [
+          1,
+          0,
+          259
+        ],
+        [
+          1,
+          0,
+          260
+        ],
+        [
+          1,
+          0,
+          261
+        ],
+        [
+          1,
+          0,
+          262
+        ],
+        [
+          1,
+          0,
+          264
+        ],
+        [
+          1,
+          0,
+          265
+        ],
+        [
+          1,
+          0,
+          266
+        ],
+        [
+          1,
+          0,
+          267
+        ],
+        [
+          1,
+          0,
+          268
+        ],
+        [
+          1,
+          0,
+          269
+        ],
+        [
+          1,
+          0,
+          270
+        ],
+        [
+          1,
+          0,
+          271
+        ],
+        [
+          1,
+          0,
+          272
+        ]
+      ],
+      "viewBox": [
+        612.9137,
+        39.07435,
+        149.328,
+        22.331
+      ],
+      "selection_regions": [
+        [
+          610,
+          37,
+          762,
+          64
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-perception-attention",
+      "title_zh": "感知注意力模块",
+      "title_en": "Perception Attention",
+      "category": "modules",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          273,
+          0
+        ],
+        [
+          1,
+          0,
+          273,
+          1
+        ],
+        [
+          1,
+          0,
+          274
+        ],
+        [
+          1,
+          0,
+          275
+        ],
+        [
+          1,
+          0,
+          276
+        ],
+        [
+          1,
+          0,
+          277
+        ],
+        [
+          1,
+          0,
+          278
+        ],
+        [
+          1,
+          0,
+          279
+        ],
+        [
+          1,
+          0,
+          280
+        ],
+        [
+          1,
+          0,
+          281
+        ],
+        [
+          1,
+          0,
+          282
+        ],
+        [
+          1,
+          0,
+          283
+        ],
+        [
+          1,
+          0,
+          285
+        ],
+        [
+          1,
+          0,
+          286
+        ],
+        [
+          1,
+          0,
+          287
+        ],
+        [
+          1,
+          0,
+          288
+        ],
+        [
+          1,
+          0,
+          289
+        ],
+        [
+          1,
+          0,
+          290
+        ],
+        [
+          1,
+          0,
+          291
+        ],
+        [
+          1,
+          0,
+          292
+        ],
+        [
+          1,
+          0,
+          293
+        ]
+      ],
+      "viewBox": [
+        612.9126,
+        107.05134,
+        152.2551,
+        22.331
+      ],
+      "selection_regions": [
+        [
+          612,
+          107,
+          766,
+          131
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-memory-stack",
+      "title_zh": "层叠记忆条目",
+      "title_en": "Memory stack",
+      "category": "data",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          457,
+          0
+        ],
+        [
+          1,
+          0,
+          457,
+          1
+        ],
+        [
+          1,
+          0,
+          460,
+          0
+        ],
+        [
+          1,
+          0,
+          460,
+          1
+        ],
+        [
+          1,
+          0,
+          462,
+          0
+        ],
+        [
+          1,
+          0,
+          462,
+          1
+        ]
+      ],
+      "viewBox": [
+        333.4606,
+        67.18934,
+        23.3626,
+        17.45777
+      ],
+      "selection_regions": [
+        [
+          330,
+          63,
+          357,
+          86
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "memoryvla-timestep-diamond",
+      "title_zh": "时间步嵌入菱形",
+      "title_en": "Timestep embedding diamond",
+      "category": "data",
+      "source_figure_id": "memoryvla-perceptual-cognitive-architecture",
+      "source_file": "architecture/memoryvla-perceptual-cognitive-architecture/source.svg",
+      "source_sha256": "db6bf50afefdc5ac92c6e80fcab72ca79c48d97ee567cbc087ffad8fe9de7078",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          531
+        ],
+        [
+          1,
+          0,
+          532
+        ],
+        [
+          1,
+          0,
+          533
+        ]
+      ],
+      "viewBox": [
+        430.17149,
+        163.42983,
+        26.508,
+        13.03709
+      ],
+      "selection_regions": [
+        [
+          426,
+          161,
+          458,
+          177
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "wireless-generative-bowtie",
+      "title_zh": "生成模型双梯形符号",
+      "title_en": "Generative model bow-tie",
+      "category": "modules",
+      "source_figure_id": "survey-genai-wireless-four-scenarios",
+      "source_file": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+      "source_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+      "selected_node_paths": [
+        [
+          1,
+          894
+        ],
+        [
+          1,
+          895
+        ],
+        [
+          1,
+          896
+        ],
+        [
+          1,
+          897
+        ]
+      ],
+      "viewBox": [
+        41.07395,
+        49.85665,
+        32.94541,
+        34.7157
+      ],
+      "selection_regions": [
+        [
+          38,
+          47,
+          75,
+          85
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "wireless-radar-encoder",
+      "title_zh": "雷达编码器梯形",
+      "title_en": "Radar encoder",
+      "category": "modules",
+      "source_figure_id": "survey-genai-wireless-four-scenarios",
+      "source_file": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+      "source_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+      "selected_node_paths": [
+        [
+          1,
+          546
+        ],
+        [
+          1,
+          547
+        ],
+        [
+          1,
+          550
+        ],
+        [
+          1,
+          551
+        ],
+        [
+          1,
+          552
+        ],
+        [
+          1,
+          553
+        ],
+        [
+          1,
+          554
+        ],
+        [
+          1,
+          555
+        ],
+        [
+          1,
+          556
+        ]
+      ],
+      "viewBox": [
+        78.93912,
+        255.85692,
+        36.17456,
+        43.56656
+      ],
+      "selection_regions": [
+        [
+          78,
+          254,
+          115,
+          300
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "wireless-radar-decoder",
+      "title_zh": "雷达解码器梯形",
+      "title_en": "Radar decoder",
+      "category": "modules",
+      "source_figure_id": "survey-genai-wireless-four-scenarios",
+      "source_file": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+      "source_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+      "selected_node_paths": [
+        [
+          1,
+          548
+        ],
+        [
+          1,
+          549
+        ],
+        [
+          1,
+          557
+        ],
+        [
+          1,
+          558
+        ],
+        [
+          1,
+          559
+        ],
+        [
+          1,
+          560
+        ],
+        [
+          1,
+          561
+        ],
+        [
+          1,
+          562
+        ],
+        [
+          1,
+          563
+        ]
+      ],
+      "viewBox": [
+        117.53762,
+        255.8569,
+        36.17456,
+        43.56656
+      ],
+      "selection_regions": [
+        [
+          116,
+          254,
+          154,
+          300
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "wireless-feature-extractor",
+      "title_zh": "特征提取梯形",
+      "title_en": "Feature extractor",
+      "category": "modules",
+      "source_figure_id": "survey-genai-wireless-four-scenarios",
+      "source_file": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+      "source_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+      "selected_node_paths": [
+        [
+          1,
+          446
+        ],
+        [
+          1,
+          447
+        ]
+      ],
+      "viewBox": [
+        369.7081,
+        274.20068,
+        21.334,
+        20.174
+      ],
+      "selection_regions": [
+        [
+          367,
+          272,
+          391,
+          295
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "wireless-discriminator",
+      "title_zh": "判别器梯形",
+      "title_en": "Discriminator",
+      "category": "modules",
+      "source_figure_id": "survey-genai-wireless-four-scenarios",
+      "source_file": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+      "source_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+      "selected_node_paths": [
+        [
+          1,
+          508
+        ],
+        [
+          1,
+          509
+        ]
+      ],
+      "viewBox": [
+        430.8698,
+        273.28869,
+        21.334,
+        20.174
+      ],
+      "selection_regions": [
+        [
+          430,
+          273,
+          453,
+          294
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "wireless-csi-input",
+      "title_zh": "CSI 菱形输入序列",
+      "title_en": "CSI input sequence",
+      "category": "data",
+      "source_figure_id": "survey-genai-wireless-four-scenarios",
+      "source_file": "teaser/survey-genai-wireless-four-scenarios/source.svg",
+      "source_sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1",
+      "selected_node_paths": [
+        [
+          1,
+          425
+        ],
+        [
+          1,
+          426
+        ],
+        [
+          1,
+          427
+        ],
+        [
+          1,
+          428
+        ],
+        [
+          1,
+          429
+        ],
+        [
+          1,
+          430
+        ],
+        [
+          1,
+          431
+        ],
+        [
+          1,
+          432
+        ],
+        [
+          1,
+          433
+        ],
+        [
+          1,
+          434
+        ],
+        [
+          1,
+          435
+        ],
+        [
+          1,
+          436
+        ]
+      ],
+      "viewBox": [
+        328.1891,
+        281.19969,
+        22.7772,
+        6.92189
+      ],
+      "selection_regions": [
+        [
+          324,
+          277,
+          353,
+          289
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "spec-rag-query",
+      "title_zh": "知识查询 Q 标记",
+      "title_en": "Query token Q",
+      "category": "data",
+      "source_figure_id": "speculative-rag-draft-verify",
+      "source_file": "architecture/speculative-rag-draft-verify/source.svg",
+      "source_sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800",
+      "selected_node_paths": [
+        [
+          1,
+          24,
+          160
+        ],
+        [
+          1,
+          24,
+          161
+        ],
+        [
+          1,
+          24,
+          162
+        ]
+      ],
+      "viewBox": [
+        0.02,
+        6.1404,
+        39.96,
+        29.96
+      ],
+      "selection_regions": [
+        [
+          0,
+          3,
+          42,
+          37
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "spec-rag-answer",
+      "title_zh": "证据支持答案 A 标记",
+      "title_en": "Evidence-supported answer A",
+      "category": "data",
+      "source_figure_id": "speculative-rag-draft-verify",
+      "source_file": "architecture/speculative-rag-draft-verify/source.svg",
+      "source_sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800",
+      "selected_node_paths": [
+        [
+          1,
+          24,
+          104
+        ],
+        [
+          1,
+          24,
+          105
+        ],
+        [
+          1,
+          24,
+          106
+        ]
+      ],
+      "viewBox": [
+        420.62,
+        6.1404,
+        39.96,
+        29.96
+      ],
+      "selection_regions": [
+        [
+          420,
+          3,
+          463,
+          37
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "spec-rag-topic-documents",
+      "title_zh": "同主题检索文档组",
+      "title_en": "Topic document group",
+      "category": "data",
+      "source_figure_id": "speculative-rag-draft-verify",
+      "source_file": "architecture/speculative-rag-draft-verify/source.svg",
+      "source_sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800",
+      "selected_node_paths": [
+        [
+          1,
+          12,
+          74
+        ],
+        [
+          1,
+          12,
+          75
+        ],
+        [
+          1,
+          12,
+          76
+        ],
+        [
+          1,
+          12,
+          77
+        ],
+        [
+          1,
+          12,
+          78
+        ],
+        [
+          1,
+          12,
+          79
+        ],
+        [
+          1,
+          12,
+          80
+        ],
+        [
+          1,
+          12,
+          81
+        ]
+      ],
+      "viewBox": [
+        409.36673,
+        330.33803,
+        67.36865,
+        30.51865
+      ],
+      "selection_regions": [
+        [
+          410,
+          327,
+          476,
+          362
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "spec-rag-answer-rationale",
+      "title_zh": "答案与依据配对标记",
+      "title_en": "Answer and rationale pair",
+      "category": "data",
+      "source_figure_id": "speculative-rag-draft-verify",
+      "source_file": "architecture/speculative-rag-draft-verify/source.svg",
+      "source_sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800",
+      "selected_node_paths": [
+        [
+          1,
+          14,
+          208
+        ],
+        [
+          1,
+          14,
+          209
+        ],
+        [
+          1,
+          14,
+          210
+        ],
+        [
+          1,
+          14,
+          211
+        ],
+        [
+          1,
+          14,
+          212
+        ],
+        [
+          1,
+          14,
+          213
+        ],
+        [
+          1,
+          14,
+          214
+        ],
+        [
+          1,
+          14,
+          215
+        ]
+      ],
+      "viewBox": [
+        500.9265,
+        332.7574,
+        59.2807,
+        25.68
+      ],
+      "selection_regions": [
+        [
+          496,
+          329,
+          560,
+          362
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "spec-rag-stage-chevron",
+      "title_zh": "方法阶段箭头带",
+      "title_en": "Pipeline stage chevron",
+      "category": "connections",
+      "source_figure_id": "speculative-rag-draft-verify",
+      "source_file": "architecture/speculative-rag-draft-verify/source.svg",
+      "source_sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800",
+      "selected_node_paths": [
+        [
+          1,
+          20,
+          0
+        ],
+        [
+          1,
+          20,
+          1
+        ],
+        [
+          1,
+          20,
+          2
+        ],
+        [
+          1,
+          20,
+          3
+        ],
+        [
+          1,
+          20,
+          4
+        ],
+        [
+          1,
+          20,
+          5
+        ],
+        [
+          1,
+          20,
+          6
+        ],
+        [
+          1,
+          20,
+          7
+        ],
+        [
+          1,
+          20,
+          9
+        ],
+        [
+          1,
+          20,
+          10
+        ],
+        [
+          1,
+          20,
+          11
+        ],
+        [
+          1,
+          20,
+          12
+        ],
+        [
+          1,
+          20,
+          13
+        ],
+        [
+          1,
+          20,
+          14
+        ],
+        [
+          1,
+          20,
+          15
+        ],
+        [
+          1,
+          20,
+          16
+        ],
+        [
+          1,
+          20,
+          17
+        ],
+        [
+          1,
+          20,
+          18
+        ],
+        [
+          1,
+          20,
+          20
+        ],
+        [
+          1,
+          20,
+          21
+        ]
+      ],
+      "viewBox": [
+        11.65768,
+        512.27916,
+        197.08014,
+        25.75097
+      ],
+      "selection_regions": [
+        [
+          7,
+          507,
+          211,
+          542
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "hipporag2-passage",
+      "title_zh": "图谱检索文档图标",
+      "title_en": "Passage document",
+      "category": "data",
+      "source_figure_id": "hipporag2-indexing-retrieval-framework",
+      "source_file": "architecture/hipporag2-indexing-retrieval-framework/source.svg",
+      "source_sha256": "87863567eac673057911c10a0d33a103d485540bd04174b289a3a688cd650d5c",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          90
+        ],
+        [
+          1,
+          0,
+          91
+        ],
+        [
+          1,
+          0,
+          92
+        ],
+        [
+          1,
+          0,
+          93
+        ],
+        [
+          1,
+          0,
+          94
+        ],
+        [
+          1,
+          0,
+          95
+        ]
+      ],
+      "viewBox": [
+        146.77785,
+        109.99325,
+        47.3475,
+        58.5975
+      ],
+      "selection_regions": [
+        [
+          144,
+          108,
+          194,
+          170
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "hipporag2-triples",
+      "title_zh": "三元组关系表",
+      "title_en": "Relation triples",
+      "category": "data",
+      "source_figure_id": "hipporag2-indexing-retrieval-framework",
+      "source_file": "architecture/hipporag2-indexing-retrieval-framework/source.svg",
+      "source_sha256": "87863567eac673057911c10a0d33a103d485540bd04174b289a3a688cd650d5c",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          11
+        ],
+        [
+          1,
+          0,
+          12
+        ],
+        [
+          1,
+          0,
+          13
+        ],
+        [
+          1,
+          0,
+          14
+        ],
+        [
+          1,
+          0,
+          15
+        ],
+        [
+          1,
+          0,
+          16
+        ],
+        [
+          1,
+          0,
+          17
+        ],
+        [
+          1,
+          0,
+          18
+        ],
+        [
+          1,
+          0,
+          19
+        ],
+        [
+          1,
+          0,
+          20
+        ],
+        [
+          1,
+          0,
+          21
+        ],
+        [
+          1,
+          0,
+          22
+        ],
+        [
+          1,
+          0,
+          23
+        ],
+        [
+          1,
+          0,
+          24
+        ],
+        [
+          1,
+          0,
+          25
+        ],
+        [
+          1,
+          0,
+          26
+        ]
+      ],
+      "viewBox": [
+        299.8341,
+        95.7995,
+        93.735,
+        91.485
+      ],
+      "selection_regions": [
+        [
+          297,
+          97,
+          391,
+          186
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "hipporag2-knowledge-graph",
+      "title_zh": "单层知识图谱节点组",
+      "title_en": "Knowledge graph primitive",
+      "category": "data",
+      "source_figure_id": "hipporag2-indexing-retrieval-framework",
+      "source_file": "architecture/hipporag2-indexing-retrieval-framework/source.svg",
+      "source_sha256": "87863567eac673057911c10a0d33a103d485540bd04174b289a3a688cd650d5c",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          273
+        ],
+        [
+          1,
+          0,
+          274
+        ],
+        [
+          1,
+          0,
+          277
+        ],
+        [
+          1,
+          0,
+          278
+        ],
+        [
+          1,
+          0,
+          279
+        ],
+        [
+          1,
+          0,
+          280
+        ],
+        [
+          1,
+          0,
+          281
+        ],
+        [
+          1,
+          0,
+          282
+        ],
+        [
+          1,
+          0,
+          283
+        ],
+        [
+          1,
+          0,
+          284
+        ],
+        [
+          1,
+          0,
+          285
+        ],
+        [
+          1,
+          0,
+          286
+        ],
+        [
+          1,
+          0,
+          287
+        ],
+        [
+          1,
+          0,
+          288
+        ],
+        [
+          1,
+          0,
+          289
+        ],
+        [
+          1,
+          0,
+          290
+        ],
+        [
+          1,
+          0,
+          291
+        ],
+        [
+          1,
+          0,
+          292
+        ],
+        [
+          1,
+          0,
+          293
+        ],
+        [
+          1,
+          0,
+          294
+        ],
+        [
+          1,
+          0,
+          295
+        ],
+        [
+          1,
+          0,
+          296
+        ]
+      ],
+      "viewBox": [
+        489.9066,
+        49.622,
+        173.34,
+        174.09
+      ],
+      "selection_regions": [
+        [
+          491,
+          53,
+          659,
+          222
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "hipporag2-heterogeneous-graph",
+      "title_zh": "短语与文档双层图谱",
+      "title_en": "Phrase-passage graph",
+      "category": "data",
+      "source_figure_id": "hipporag2-indexing-retrieval-framework",
+      "source_file": "architecture/hipporag2-indexing-retrieval-framework/source.svg",
+      "source_sha256": "87863567eac673057911c10a0d33a103d485540bd04174b289a3a688cd650d5c",
+      "selected_node_paths": [
+        [
+          1,
+          0,
+          223
+        ],
+        [
+          1,
+          0,
+          224
+        ],
+        [
+          1,
+          0,
+          225
+        ],
+        [
+          1,
+          0,
+          226
+        ],
+        [
+          1,
+          0,
+          227
+        ],
+        [
+          1,
+          0,
+          228
+        ],
+        [
+          1,
+          0,
+          229
+        ],
+        [
+          1,
+          0,
+          230
+        ],
+        [
+          1,
+          0,
+          231
+        ],
+        [
+          1,
+          0,
+          232
+        ],
+        [
+          1,
+          0,
+          233
+        ],
+        [
+          1,
+          0,
+          234
+        ],
+        [
+          1,
+          0,
+          235
+        ],
+        [
+          1,
+          0,
+          236
+        ],
+        [
+          1,
+          0,
+          237
+        ],
+        [
+          1,
+          0,
+          238
+        ],
+        [
+          1,
+          0,
+          239
+        ],
+        [
+          1,
+          0,
+          240
+        ],
+        [
+          1,
+          0,
+          241
+        ],
+        [
+          1,
+          0,
+          242
+        ],
+        [
+          1,
+          0,
+          243
+        ],
+        [
+          1,
+          0,
+          244
+        ],
+        [
+          1,
+          0,
+          245
+        ],
+        [
+          1,
+          0,
+          246
+        ],
+        [
+          1,
+          0,
+          247
+        ],
+        [
+          1,
+          0,
+          248
+        ],
+        [
+          1,
+          0,
+          249
+        ],
+        [
+          1,
+          0,
+          250
+        ],
+        [
+          1,
+          0,
+          251
+        ],
+        [
+          1,
+          0,
+          252
+        ],
+        [
+          1,
+          0,
+          253
+        ],
+        [
+          1,
+          0,
+          254
+        ],
+        [
+          1,
+          0,
+          255
+        ],
+        [
+          1,
+          0,
+          256
+        ],
+        [
+          1,
+          0,
+          257
+        ],
+        [
+          1,
+          0,
+          258
+        ],
+        [
+          1,
+          0,
+          259
+        ],
+        [
+          1,
+          0,
+          260
+        ],
+        [
+          1,
+          0,
+          261
+        ],
+        [
+          1,
+          0,
+          262
+        ],
+        [
+          1,
+          0,
+          263
+        ],
+        [
+          1,
+          0,
+          264
+        ],
+        [
+          1,
+          0,
+          265
+        ],
+        [
+          1,
+          0,
+          266
+        ],
+        [
+          1,
+          0,
+          267
+        ],
+        [
+          1,
+          0,
+          268
+        ],
+        [
+          1,
+          0,
+          269
+        ],
+        [
+          1,
+          0,
+          270
+        ],
+        [
+          1,
+          0,
+          271
+        ],
+        [
+          1,
+          0,
+          272
+        ]
+      ],
+      "viewBox": [
+        753.4641,
+        25.9295,
+        232.725,
+        232.725
+      ],
+      "selection_regions": [
+        [
+          758,
+          31,
+          987,
+          252
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "crag-thought-cloud",
+      "title_zh": "检索评估思考气泡轮廓",
+      "title_en": "Evaluation thought cloud",
+      "category": "connections",
+      "source_figure_id": "crag-evaluate-correct-generate",
+      "source_file": "architecture/crag-evaluate-correct-generate/source.svg",
+      "source_sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff",
+      "selected_node_paths": [
+        [
+          1,
+          170
+        ],
+        [
+          1,
+          171
+        ],
+        [
+          1,
+          172
+        ],
+        [
+          1,
+          173
+        ],
+        [
+          1,
+          174
+        ]
+      ],
+      "viewBox": [
+        296.14782,
+        99.77925,
+        251.86385,
+        175.35831
+      ],
+      "selection_regions": [
+        [
+          299,
+          104,
+          544,
+          271
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "crag-evaluation-statuses",
+      "title_zh": "检索评估状态标记（三种变体）",
+      "title_en": "Retrieval evaluation statuses",
+      "category": "training",
+      "source_figure_id": "crag-evaluate-correct-generate",
+      "source_file": "architecture/crag-evaluate-correct-generate/source.svg",
+      "source_sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff",
+      "selected_node_paths": [
+        [
+          1,
+          142
+        ],
+        [
+          1,
+          143
+        ],
+        [
+          1,
+          144
+        ],
+        [
+          1,
+          145
+        ],
+        [
+          1,
+          146
+        ],
+        [
+          1,
+          147
+        ],
+        [
+          1,
+          148
+        ],
+        [
+          1,
+          149
+        ],
+        [
+          1,
+          150
+        ],
+        [
+          1,
+          221
+        ],
+        [
+          1,
+          222
+        ],
+        [
+          1,
+          223
+        ],
+        [
+          1,
+          224
+        ],
+        [
+          1,
+          225
+        ],
+        [
+          1,
+          226
+        ],
+        [
+          1,
+          227
+        ],
+        [
+          1,
+          228
+        ],
+        [
+          1,
+          229
+        ],
+        [
+          1,
+          230
+        ],
+        [
+          1,
+          231
+        ],
+        [
+          1,
+          233
+        ],
+        [
+          1,
+          234
+        ],
+        [
+          1,
+          235
+        ],
+        [
+          1,
+          236
+        ],
+        [
+          1,
+          237
+        ],
+        [
+          1,
+          238
+        ],
+        [
+          1,
+          239
+        ],
+        [
+          1,
+          240
+        ],
+        [
+          1,
+          241
+        ],
+        [
+          1,
+          242
+        ],
+        [
+          1,
+          243
+        ]
+      ],
+      "viewBox": [
+        317.45384,
+        307.87724,
+        165.85195,
+        263.91476
+      ],
+      "selection_regions": [
+        [
+          320,
+          310,
+          482,
+          369
+        ],
+        [
+          320,
+          406,
+          482,
+          467
+        ],
+        [
+          320,
+          506,
+          482,
+          568
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "crag-document-strips",
+      "title_zh": "分解后的文档条带",
+      "title_en": "Document strips",
+      "category": "data",
+      "source_figure_id": "crag-evaluate-correct-generate",
+      "source_file": "architecture/crag-evaluate-correct-generate/source.svg",
+      "source_sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff",
+      "selected_node_paths": [
+        [
+          1,
+          272
+        ],
+        [
+          1,
+          273
+        ],
+        [
+          1,
+          274
+        ],
+        [
+          1,
+          275
+        ],
+        [
+          1,
+          276
+        ],
+        [
+          1,
+          277
+        ],
+        [
+          1,
+          278
+        ],
+        [
+          1,
+          279
+        ],
+        [
+          1,
+          280
+        ],
+        [
+          1,
+          281
+        ],
+        [
+          1,
+          282
+        ],
+        [
+          1,
+          283
+        ],
+        [
+          1,
+          284
+        ],
+        [
+          1,
+          285
+        ],
+        [
+          1,
+          286
+        ],
+        [
+          1,
+          287
+        ],
+        [
+          1,
+          288
+        ],
+        [
+          1,
+          289
+        ],
+        [
+          1,
+          290
+        ],
+        [
+          1,
+          291
+        ],
+        [
+          1,
+          292
+        ],
+        [
+          1,
+          293
+        ],
+        [
+          1,
+          294
+        ],
+        [
+          1,
+          295
+        ],
+        [
+          1,
+          305
+        ]
+      ],
+      "viewBox": [
+        751.22198,
+        188.73338,
+        80.59294,
+        145.34137
+      ],
+      "selection_regions": [
+        [
+          750,
+          184,
+          834,
+          333
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "crag-internal-knowledge",
+      "title_zh": "内部知识块 k-in",
+      "title_en": "Internal knowledge block",
+      "category": "data",
+      "source_figure_id": "crag-evaluate-correct-generate",
+      "source_file": "architecture/crag-evaluate-correct-generate/source.svg",
+      "source_sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff",
+      "selected_node_paths": [
+        [
+          1,
+          339
+        ],
+        [
+          1,
+          340
+        ],
+        [
+          1,
+          341
+        ],
+        [
+          1,
+          342
+        ],
+        [
+          1,
+          343
+        ]
+      ],
+      "viewBox": [
+        1151.66792,
+        210.39922,
+        51.88216,
+        96.85064
+      ],
+      "selection_regions": [
+        [
+          1150,
+          208,
+          1202,
+          311
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "crag-hollow-arrow",
+      "title_zh": "空心流程箭头",
+      "title_en": "Hollow process arrow",
+      "category": "connections",
+      "source_figure_id": "crag-evaluate-correct-generate",
+      "source_file": "architecture/crag-evaluate-correct-generate/source.svg",
+      "source_sha256": "766364fd9384588dbe38fe4157e7ed8e691ee4c4d637d76828e69080bdab93ff",
+      "selected_node_paths": [
+        [
+          1,
+          271
+        ]
+      ],
+      "viewBox": [
+        655.66422,
+        236.70912,
+        88.31915,
+        49.26836
+      ],
+      "selection_regions": [
+        [
+          652,
+          233,
+          747,
+          292
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "amem-embedding-vector",
+      "title_zh": "查询嵌入向量条",
+      "title_en": "Query embedding vector",
+      "category": "data",
+      "source_figure_id": "amem-notes-links-evolution-framework",
+      "source_file": "architecture/amem-notes-links-evolution-framework/source.svg",
+      "source_sha256": "3ab6c73d6c0d497d37ee7e2b14dd83097d2f72b640f8d2e282124f73636255b7",
+      "selected_node_paths": [
+        [
+          1,
+          704
+        ],
+        [
+          1,
+          705
+        ],
+        [
+          1,
+          706
+        ],
+        [
+          1,
+          707
+        ],
+        [
+          1,
+          708
+        ],
+        [
+          1,
+          709
+        ],
+        [
+          1,
+          710
+        ],
+        [
+          1,
+          711
+        ],
+        [
+          1,
+          712
+        ],
+        [
+          1,
+          713
+        ],
+        [
+          1,
+          714
+        ],
+        [
+          1,
+          715
+        ]
+      ],
+      "viewBox": [
+        733.1328,
+        66.9139,
+        46.42803,
+        13.08819
+      ],
+      "selection_regions": [
+        [
+          729,
+          65,
+          781,
+          81
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "security-signal-document",
+      "title_zh": "带信号的文档符号",
+      "title_en": "Signal document",
+      "category": "data",
+      "source_figure_id": "survey-genai-wireless-security-four-panels",
+      "source_file": "teaser/survey-genai-wireless-security-four-panels/source.svg",
+      "source_sha256": "02b383426fcdf2eda5fc7ab7e01ef70f1797fa3e45d8b8af98f00515c97b4718",
+      "selected_node_paths": [
+        [
+          1,
+          1,
+          1110
+        ],
+        [
+          1,
+          1,
+          1111
+        ],
+        [
+          1,
+          1,
+          1112
+        ],
+        [
+          1,
+          1,
+          1113
+        ],
+        [
+          1,
+          1,
+          1114
+        ],
+        [
+          1,
+          1,
+          1115
+        ]
+      ],
+      "viewBox": [
+        580.60571,
+        23.58796,
+        30.74192,
+        37.92461
+      ],
+      "selection_regions": [
+        [
+          575,
+          20,
+          614,
+          62
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "security-feature-stack",
+      "title_zh": "多层特征图堆叠",
+      "title_en": "Feature stack",
+      "category": "data",
+      "source_figure_id": "survey-genai-wireless-security-four-panels",
+      "source_file": "teaser/survey-genai-wireless-security-four-panels/source.svg",
+      "source_sha256": "02b383426fcdf2eda5fc7ab7e01ef70f1797fa3e45d8b8af98f00515c97b4718",
+      "selected_node_paths": [
+        [
+          1,
+          1,
+          1221
+        ],
+        [
+          1,
+          1,
+          1222
+        ],
+        [
+          1,
+          1,
+          1223
+        ],
+        [
+          1,
+          1,
+          1224
+        ],
+        [
+          1,
+          1,
+          1225
+        ],
+        [
+          1,
+          1,
+          1226
+        ]
+      ],
+      "viewBox": [
+        591.7649,
+        132.73343,
+        26.38029,
+        16.03002
+      ],
+      "selection_regions": [
+        [
+          580,
+          126,
+          621,
+          150
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "security-generator-network",
+      "title_zh": "生成器层结构",
+      "title_en": "Generator network",
+      "category": "modules",
+      "source_figure_id": "survey-genai-wireless-security-four-panels",
+      "source_file": "teaser/survey-genai-wireless-security-four-panels/source.svg",
+      "source_sha256": "02b383426fcdf2eda5fc7ab7e01ef70f1797fa3e45d8b8af98f00515c97b4718",
+      "selected_node_paths": [
+        [
+          1,
+          1,
+          1141
+        ],
+        [
+          1,
+          1,
+          1142
+        ],
+        [
+          1,
+          1,
+          1143
+        ],
+        [
+          1,
+          1,
+          1175
+        ],
+        [
+          1,
+          1,
+          1176
+        ],
+        [
+          1,
+          1,
+          1177
+        ],
+        [
+          1,
+          1,
+          1178
+        ],
+        [
+          1,
+          1,
+          1179
+        ],
+        [
+          1,
+          1,
+          1180
+        ],
+        [
+          1,
+          1,
+          1181
+        ],
+        [
+          1,
+          1,
+          1182
+        ],
+        [
+          1,
+          1,
+          1183
+        ],
+        [
+          1,
+          1,
+          1184
+        ],
+        [
+          1,
+          1,
+          1185
+        ],
+        [
+          1,
+          1,
+          1186
+        ],
+        [
+          1,
+          1,
+          1187
+        ],
+        [
+          1,
+          1,
+          1188
+        ],
+        [
+          1,
+          1,
+          1189
+        ],
+        [
+          1,
+          1,
+          1190
+        ],
+        [
+          1,
+          1,
+          1191
+        ],
+        [
+          1,
+          1,
+          1192
+        ],
+        [
+          1,
+          1,
+          1193
+        ],
+        [
+          1,
+          1,
+          1194
+        ],
+        [
+          1,
+          1,
+          1195
+        ],
+        [
+          1,
+          1,
+          1196
+        ],
+        [
+          1,
+          1,
+          1343
+        ],
+        [
+          1,
+          1,
+          1344
+        ],
+        [
+          1,
+          1,
+          1345
+        ],
+        [
+          1,
+          1,
+          1346
+        ],
+        [
+          1,
+          1,
+          1347
+        ],
+        [
+          1,
+          1,
+          1348
+        ],
+        [
+          1,
+          1,
+          1349
+        ],
+        [
+          1,
+          1,
+          1350
+        ],
+        [
+          1,
+          1,
+          1351
+        ]
+      ],
+      "viewBox": [
+        619.92543,
+        41.17997,
+        76.9952,
+        47.38147
+      ],
+      "selection_regions": [
+        [
+          616,
+          25,
+          696,
+          104
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
+    },
+    {
+      "id": "security-loss-calculation",
+      "title_zh": "损失计算模块",
+      "title_en": "Loss calculation",
+      "category": "training",
+      "source_figure_id": "survey-genai-wireless-security-four-panels",
+      "source_file": "teaser/survey-genai-wireless-security-four-panels/source.svg",
+      "source_sha256": "02b383426fcdf2eda5fc7ab7e01ef70f1797fa3e45d8b8af98f00515c97b4718",
+      "selected_node_paths": [
+        [
+          1,
+          1,
+          474
+        ],
+        [
+          1,
+          1,
+          475
+        ],
+        [
+          1,
+          1,
+          476
+        ],
+        [
+          1,
+          1,
+          477
+        ],
+        [
+          1,
+          1,
+          478
+        ],
+        [
+          1,
+          1,
+          479
+        ],
+        [
+          1,
+          1,
+          481
+        ],
+        [
+          1,
+          1,
+          482
+        ],
+        [
+          1,
+          1,
+          483
+        ],
+        [
+          1,
+          1,
+          484
+        ],
+        [
+          1,
+          1,
+          485
+        ],
+        [
+          1,
+          1,
+          486
+        ],
+        [
+          1,
+          1,
+          487
+        ],
+        [
+          1,
+          1,
+          488
+        ],
+        [
+          1,
+          1,
+          489
+        ],
+        [
+          1,
+          1,
+          490
+        ],
+        [
+          1,
+          1,
+          491
+        ]
+      ],
+      "viewBox": [
+        213.60335,
+        199.3098,
+        69.11731,
+        15.96538
+      ],
+      "selection_regions": [
+        [
+          213,
+          199,
+          283,
+          216
+        ]
+      ],
+      "omitted_raster_nodes": 0,
+      "notes": "复制现有矢量节点，未重绘。"
     }
   ]
 }

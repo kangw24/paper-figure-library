@@ -83,7 +83,7 @@
 
 同论文的其他图：[MemoryVLA · 感知认知记忆库与扩散动作网络](../../architecture/memoryvla-perceptual-cognitive-architecture/README.md)
 
-**可搭配的现有元素：** [大脑](../../element/svg/tabler-brain.svg) · [机器人](../../element/svg/tabler-robot.svg) · [数据库](../../element/svg/tabler-database.svg) · [网络](../../element/svg/tabler-network.svg)
+**可搭配的现有元素：** [大脑](../../element/svg/tabler-brain.svg) · [机器人](../../element/svg/tabler-robot.svg) · [数据库](../../element/svg/tabler-database.svg) · [网络](../../element/svg/tabler-network.svg) · [大脑侧视图（Servier）](../../element/svg/bioicons-brain-servier-1.svg) · [大脑与脑干（Servier）](../../element/svg/bioicons-brain-servier-2.svg) · [脑冠状面与海马定位](../../element/svg/bioicons-brain-hippocampus.svg) · [锥体神经元](../../element/svg/bioicons-pyramidal-neuron.svg) · [工作记忆与 Token 组](../../element/svg/memoryvla-working-memory.svg) · [层叠记忆条目](../../element/svg/memoryvla-memory-stack.svg) · [记忆检索模块](../../element/svg/memoryvla-memory-retrieval.svg)
 
 这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。
 

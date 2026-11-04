@@ -57,6 +57,8 @@ PDF 的框线、箭头和原有文字对象或轮廓可按实际对象修改；�
 
 同论文的其他图：[MemoryVLA · 人类记忆类比、方法与性能首图](../../teaser/memoryvla-cognition-memory-action/README.md)
 
+**从本图拆出的部件：** [MemoryVLA 视觉编码器](../../element/svg/memoryvla-vision-encoder.svg) · [MemoryVLA 投影模块](../../element/svg/memoryvla-projector.svg) · [文本 Tokenizer 模块](../../element/svg/memoryvla-text-tokenizer.svg) · [MemoryVLA 语言模型块](../../element/svg/memoryvla-language-model.svg) · [感知压缩模块](../../element/svg/memoryvla-perceptual-compression.svg) · [工作记忆与 Token 组](../../element/svg/memoryvla-working-memory.svg) · [记忆检索模块](../../element/svg/memoryvla-memory-retrieval.svg) · [记忆门控融合模块](../../element/svg/memoryvla-gated-fusion.svg) · [记忆巩固模块](../../element/svg/memoryvla-consolidation.svg) · [认知注意力模块](../../element/svg/memoryvla-cognition-attention.svg) · [感知注意力模块](../../element/svg/memoryvla-perception-attention.svg) · [层叠记忆条目](../../element/svg/memoryvla-memory-stack.svg) · [时间步嵌入菱形](../../element/svg/memoryvla-timestep-diamond.svg)
+
 **可搭配的现有元素：** [ViT 编码器块](../../element/svg/vit-encoder-block.svg) · [DiT 多头自注意力模块](../../element/svg/dit-self-attention.svg) · [数据库](../../element/svg/tabler-database.svg) · [回环箭头](../../element/svg/tabler-arrow-loop-right.svg)
 
 这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。

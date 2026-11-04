@@ -53,6 +53,8 @@ PDF 的框线、箭头和原有文字对象或轮廓可按实际对象修改；�
 <!-- BEGIN FIGURE LINKS -->
 ## 关联范例与元素
 
+**从本图拆出的部件：** [图谱检索文档图标](../../element/svg/hipporag2-passage.svg) · [三元组关系表](../../element/svg/hipporag2-triples.svg) · [单层知识图谱节点组](../../element/svg/hipporag2-knowledge-graph.svg) · [短语与文档双层图谱](../../element/svg/hipporag2-heterogeneous-graph.svg)
+
 **可搭配的现有元素：** [网络](../../element/svg/tabler-network.svg) · [文本文件](../../element/svg/tabler-file-text.svg) · [过滤](../../element/svg/tabler-filter.svg) · [右箭头](../../element/svg/tabler-arrow-right.svg)
 
 这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。

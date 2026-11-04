@@ -53,6 +53,8 @@ PDF 的框线、箭头和原有文字对象或轮廓可按实际对象修改；�
 <!-- BEGIN FIGURE LINKS -->
 ## 关联范例与元素
 
+**从本图拆出的部件：** [查询嵌入向量条](../../element/svg/amem-embedding-vector.svg)
+
 **可搭配的现有元素：** [文本文件](../../element/svg/tabler-file-text.svg) · [网络](../../element/svg/tabler-network.svg) · [数据库](../../element/svg/tabler-database.svg) · [回环箭头](../../element/svg/tabler-arrow-loop-right.svg)
 
 这些元素按表达功能关联，并非从本论文原图拆出；来源和许可仍以各元素记录为准。

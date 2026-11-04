@@ -69,3 +69,6 @@
 | <img src="../../element/previews/bioicons-arrow3d-clockwise-2.png" width="140"> | [arrow3d-clockwise-2](../../element/svg/bioicons-arrow3d-clockwise-2.svg) | Bioicons · CC-BY-3.0 | — |
 | <img src="../../element/previews/bioicons-arrow3d-clockwise-3.png" width="140"> | [arrow3d-clockwise-3](../../element/svg/bioicons-arrow3d-clockwise-3.svg) | Bioicons · CC-BY-3.0 | — |
 | <img src="../../element/previews/bioicons-arrow3d-counterclockwise-1.png" width="140"> | [arrow3d-counterclockwise-1](../../element/svg/bioicons-arrow3d-counterclockwise-1.svg) | Bioicons · CC-BY-3.0 | — |
+| <img src="../../element/previews/spec-rag-stage-chevron.png" width="140"> | [方法阶段箭头带](../../element/svg/spec-rag-stage-chevron.svg) | Speculative RAG 原图部件 · 作者保留权利 / 私有参考 | [Speculative RAG · 并行起草与通用模型验证](../../architecture/speculative-rag-draft-verify/README.md) |
+| <img src="../../element/previews/crag-thought-cloud.png" width="140"> | [检索评估思考气泡轮廓](../../element/svg/crag-thought-cloud.svg) | CRAG 原图部件 · 作者保留权利 / 私有参考 | [CRAG · 评估分流、知识纠正与三路生成](../../architecture/crag-evaluate-correct-generate/README.md) |
+| <img src="../../element/previews/crag-hollow-arrow.png" width="140"> | [空心流程箭头](../../element/svg/crag-hollow-arrow.svg) | CRAG 原图部件 · 作者保留权利 / 私有参考 | [CRAG · 评估分流、知识纠正与三路生成](../../architecture/crag-evaluate-correct-generate/README.md) |

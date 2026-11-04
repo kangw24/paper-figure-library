@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="47.3475" height="58.5975" viewBox="146.77785 109.99325 47.3475 58.5975">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-746.0534,2747.412)" d="M746.0534 2163.253H2353.827V2747.412H746.0534Z" clip-rule="evenodd" />
+</clipPath>
+</defs>
+<g>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,-746.0534,2747.412)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M894.38 2635.87H921.73L938.63 2618.98V2580.37H894.38Z" />
+<path transform="matrix(1,0,0,-1,-746.0534,2747.412)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M921.38 2618.62V2635.87L938.63 2618.62Z" />
+<path transform="matrix(1,0,0,-1,-746.0534,2747.412)" stroke-width="2.25" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M902.63 2613.37H913.96" />
+<path transform="matrix(1,0,0,-1,-746.0534,2747.412)" stroke-width="2.25" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M902.63 2605.87H930.97" />
+<path transform="matrix(1,0,0,-1,-746.0534,2747.412)" stroke-width="2.25" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M902.63 2597.62H930.97" />
+<path transform="matrix(1,0,0,-1,-746.0534,2747.412)" stroke-width="2.25" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M902.63 2590.12H930.97" />
+</g>
+</g>
+</svg>

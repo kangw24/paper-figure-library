@@ -1,0 +1,9 @@
+Paper: Generative AI Meets Wireless Sensing: Towards Wireless Foundation Model
+Authors: Yang, Zheng, Chi, Guoxuan, Wu, Chenshu, Liu, Hanyu, Gao, Yuchong, Liu, Yunhao, Xu, Jie, Han, Tony Xiao
+Source version: 2509.15258v1
+Archive: https://arxiv.org/src/2509.15258v1
+Member: fig/1-Motivation-application.pdf
+Original SHA256: 2a7d56e6de483f32847de244a97bd72c9783c9700e69f2685c91fe227136d16b
+Declared license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

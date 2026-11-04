@@ -6,8 +6,8 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 63 | [浏览](teaser/README.md) |
-| Architecture 范例 | 45 | [浏览](architecture/README.md) |
+| Teaser 范例 | 66 | [浏览](teaser/README.md) |
+| Architecture 范例 | 46 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 341 | [按内容与来源浏览](element/README.md) |
 
 完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。
@@ -33,6 +33,17 @@ ICCV 2021 · Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：MIT（来源仓库）；照片与实验结果按原来源保留。。
 [原文件](teaser/birefractive-rgbd/source.svg) · [来源记录](teaser/birefractive-rgbd/metadata.json)
+
+### [Cortex · 生物系统巩固与模型记忆巩固类比](teaser/cortex-memory-consolidation/README.md)
+
+左侧用海马体、睡眠与新皮层说明生物系统巩固；右侧并列展示带上下文的模型与巩固后的模型，以高亮 FFN／MoE 变化解释将上下文收益写入参数的目标。
+
+arXiv 2026 · 预印本 · 矢量 + 原有位图
+
+[<img src="teaser/cortex-memory-consolidation/preview.png" width="760" alt="Cortex · 生物系统巩固与模型记忆巩固类比">](teaser/cortex-memory-consolidation/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/cortex-memory-consolidation/original.pdf) · [来源记录](teaser/cortex-memory-consolidation/metadata.json)
 
 ### [CUT3R · 静态、动态与稀疏照片三类场景](teaser/cut3r-capabilities/README.md)
 
@@ -104,6 +115,17 @@ ICML 2024 · Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：Apache-2.0。
 [原文件](teaser/lightglue-tradeoff/source.svg) · [来源记录](teaser/lightglue-tradeoff/metadata.json)
+
+### [MemoryVLA · 人类记忆类比、方法与性能首图](teaser/memoryvla-cognition-memory-action/README.md)
+
+以时间混淆问题为动机，对照人类的工作记忆与情景记忆、MemoryVLA 的感知—认知记忆机制，底部再放四组性能对照与机器人任务示例。
+
+ICLR 2026 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="teaser/memoryvla-cognition-memory-action/preview.png" width="760" alt="MemoryVLA · 人类记忆类比、方法与性能首图">](teaser/memoryvla-cognition-memory-action/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/memoryvla-cognition-memory-action/original.pdf) · [来源记录](teaser/memoryvla-cognition-memory-action/metadata.json)
 
 ### [MVSplat · 重建质量、速度与参数量的并列对照](teaser/mvsplat-comparison/README.md)
 
@@ -404,6 +426,17 @@ arXiv 2021 · 预印本 · 综述 · 矢量 + 原有位图
 
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](teaser/survey-foundation-model-ecosystem/original.pdf) · [来源记录](teaser/survey-foundation-model-ecosystem/metadata.json)
+
+### [无线生成式 AI · 城市场景串联四类应用](teaser/survey-genai-wireless-four-scenarios/README.md)
+
+四个方法场景围绕中心城市示意组织：信道估计、定位数据增强、雷达去噪、人体感知域适应。每区既有应用对象，也有局部模型或信号流程。
+
+arXiv 2025 · 预印本 · 综述 · 矢量 + 原有位图
+
+[<img src="teaser/survey-genai-wireless-four-scenarios/preview.png" width="760" alt="无线生成式 AI · 城市场景串联四类应用">](teaser/survey-genai-wireless-four-scenarios/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](teaser/survey-genai-wireless-four-scenarios/original.pdf) · [来源记录](teaser/survey-genai-wireless-four-scenarios/metadata.json)
 
 ### [图基础模型范式对照 · 专用学习与共享预训练](teaser/survey-graph-foundation-paradigm/README.md)
 
@@ -1077,6 +1110,17 @@ ICML 2024 · Oral · 矢量结构
 
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/sd3-mmdit-architecture/source.svg) · [来源记录](architecture/sd3-mmdit-architecture/metadata.json)
+
+### [Speculative RAG · 并行起草与通用模型验证](architecture/speculative-rag-draft-verify/README.md)
+
+小型专用 RAG 模型对不同文档子集并行生成答案草稿和依据，再由大型通用模型验证并选择。图内明确展示查询、文档、答案、依据与两类模型之间的数据流。
+
+ICLR 2025 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/speculative-rag-draft-verify/preview.png" width="760" alt="Speculative RAG · 并行起草与通用模型验证">](architecture/speculative-rag-draft-verify/original.pdf)
+
+来源类型：论文范例。许可：作者保留权利 / 私有参考。
+[原文件](architecture/speculative-rag-draft-verify/original.pdf) · [来源记录](architecture/speculative-rag-draft-verify/metadata.json)
 
 ### [Agent 概念框架 · 感知、大脑与行动](architecture/survey-agent-perception-brain-action/README.md)
 

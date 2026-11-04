@@ -1,0 +1,9 @@
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.9\linewidth]{figures/main_figure-5-21.pdf}
+    \vspace{-3mm}
+    \caption{Illustration of different RAG approaches. Given a knowledge-intensive query $Q$ and retrieved documents, (a) Standard RAG incorporates all documents into the prompt, increasing input length and slowing inference; (b) Self-Reflective RAG~\citep{asai2023self} requires specialized instruction-tuning of the general-purpose language model (LM) to generate specific tags for self-reflection; (c) Corrective RAG~\citep{yan2024corrective} employs an external retrieval evaluator to refine document quality, focusing solely on contextual information without enhancing reasoning capabilities; (d) In contrast, our proposed \method leverages a larger generalist LM to efficiently verify multiple RAG drafts produced in parallel by a smaller, specialized LM. Each draft is generated from a distinct subset of retrieved documents, providing diverse perspectives on the evidence while minimizing the number of input tokens per draft.
+}
+    \vspace{-4mm}
+    \label{fig:main_figure}
+\end{figure}

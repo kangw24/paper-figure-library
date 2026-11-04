@@ -24,7 +24,7 @@
 | <img src="../../element/previews/tabler-alert-triangle.png" width="140"> | [警告](../../element/svg/tabler-alert-triangle.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-help.png" width="140"> | [问号](../../element/svg/tabler-help.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-info-circle.png" width="140"> | [信息](../../element/svg/tabler-info-circle.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-check.png" width="140"> | [勾选](../../element/svg/tabler-check.svg) | Tabler outline · MIT | — |
+| <img src="../../element/previews/tabler-check.png" width="140"> | [勾选](../../element/svg/tabler-check.svg) | Tabler outline · MIT | [Speculative RAG · 并行起草与通用模型验证](../../architecture/speculative-rag-draft-verify/README.md) |
 | <img src="../../element/previews/tabler-star.png" width="140"> | [星标](../../element/svg/tabler-star.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-flag.png" width="140"> | [旗帜](../../element/svg/tabler-flag.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-pin.png" width="140"> | [图钉](../../element/svg/tabler-pin.svg) | Tabler outline · MIT | — |

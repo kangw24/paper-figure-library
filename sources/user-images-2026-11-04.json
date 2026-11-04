@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-04",
+  "note": "Four user-supplied reference images traced to author figures and the official Google Research blog; original files preserved.",
+  "items": [
+    {
+      "image_number": 1,
+      "id": "survey-genai-wireless-four-scenarios",
+      "category": "teaser",
+      "path": "teaser/survey-genai-wireless-four-scenarios",
+      "reference_sha256": "b6e875f45fc53ca4dd5bd59e1a0c333e971d159ba193b1903dab996ebca28fab",
+      "match": "用户图 1 对应作者原 Figure 1 的整图；布局、四个场景标题、信号流程和中心城市图一致。",
+      "source": {
+        "project": "https://www.weizmann.ac.il/math/yonina/sites/math.yonina/files/GenAI_Survey_TCOM.pdf",
+        "authors": [
+          "Yang, Zheng",
+          "Chi, Guoxuan",
+          "Wu, Chenshu",
+          "Liu, Hanyu",
+          "Gao, Yuchong",
+          "Liu, Yunhao",
+          "Xu, Jie",
+          "Han, Tony Xiao"
+        ],
+        "urls": [
+          "https://www.weizmann.ac.il/math/yonina/sites/math.yonina/files/GenAI_Survey_TCOM.pdf",
+          "https://arxiv.org/abs/2509.15258v1",
+          "https://arxiv.org/pdf/2509.15258v1",
+          "https://arxiv.org/src/2509.15258v1"
+        ],
+        "arxiv_id": "2509.15258v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2509.15258v1",
+        "full_pdf_sha256": "48624f37829b8e94f9df1a131b1eabd43bac21373d515e2165a4db43232adb1d",
+        "full_pdf_bytes": 3674193,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "2a7d56e6de483f32847de244a97bd72c9783c9700e69f2685c91fe227136d16b",
+        "original_bytes": 325566,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2509.15258v1",
+        "archive_sha256": "13406bd45a2abead865623dc9e88df2f60d10b800a97dc05a18b2d69a618c9d6",
+        "archive_bytes": 1689708,
+        "archive_member": "fig/1-Motivation-application.pdf",
+        "inclusion_member": "content/1-intro.tex",
+        "retrieved_date": "2026-11-04",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "submitted_image_match": {
+          "image_number": 1,
+          "submitted_sha256": "b6e875f45fc53ca4dd5bd59e1a0c333e971d159ba193b1903dab996ebca28fab",
+          "description": "用户图 1 对应作者原 Figure 1 的整图；布局、四个场景标题、信号流程和中心城市图一致。"
+        }
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "image_number": 2,
+      "id": "speculative-rag-draft-verify",
+      "category": "architecture",
+      "path": "architecture/speculative-rag-draft-verify",
+      "reference_sha256": "f6938fadd898a37e68fc4f91f74ca2d49332fbb043e433a095fee62e146072c2",
+      "match": "用户图 2 与 Google Research 官方博客 Speculative_RAG_img1 原图一致，包括 LLM 方框图标。论文 Figure 1(d) 是同一方法的另一图形版本，使用机器人图标，并与 (a)–(c) 对照面板组合；两版均收录。",
+      "source": {
+        "project": "https://research.google/pubs/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting-2/",
+        "authors": [
+          "Wang, Zilong",
+          "Wang, Zifeng",
+          "Le, Long",
+          "Zheng, Huaixiu Steven",
+          "Mishra, Swaroop",
+          "Perot, Vincent",
+          "Zhang, Yuwei",
+          "Mattapalli, Anush",
+          "Taly, Ankur",
+          "Shang, Jingbo",
+          "Lee, Chen-Yu",
+          "Pfister, Tomas"
+        ],
+        "urls": [
+          "https://research.google/pubs/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting-2/",
+          "https://arxiv.org/abs/2407.08223v2",
+          "https://arxiv.org/pdf/2407.08223v2",
+          "https://arxiv.org/src/2407.08223v2",
+          "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+          "https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img1.width-1250.png"
+        ],
+        "arxiv_id": "2407.08223v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2407.08223v2",
+        "full_pdf_sha256": "663cfcee6f23e02db33dddeb735678394ca4bdb574f02aaea4b70e4b08da16cf",
+        "full_pdf_bytes": 925187,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "ad43b1bbbe63d357310814b13ea7f37462f53a69831097ff3a203b6f2d52dc91",
+        "original_bytes": 290067,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2407.08223v2",
+        "archive_sha256": "401dedeaa38eec4547006d884d1f71b0a02fd6903f1800d34f982ce839f563a9",
+        "archive_bytes": 1199179,
+        "archive_member": "figures/main_figure-5-21.pdf",
+        "inclusion_member": "contents/1-introduction.tex",
+        "retrieved_date": "2026-11-04",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "submitted_image_match": {
+          "image_number": 2,
+          "submitted_sha256": "f6938fadd898a37e68fc4f91f74ca2d49332fbb043e433a095fee62e146072c2",
+          "description": "用户图 2 与 Google Research 官方博客 Speculative_RAG_img1 原图一致，包括 LLM 方框图标。论文 Figure 1(d) 是同一方法的另一图形版本，使用机器人图标，并与 (a)–(c) 对照面板组合；两版均收录。",
+          "matched_file": "original-blog.png"
+        },
+        "matched_subfigures": [
+          "d"
+        ],
+        "blog_companion": {
+          "file": "original-blog.png",
+          "url": "https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img1.width-1250.png",
+          "page_url": "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+          "bytes": 444024,
+          "sha256": "aa7d1bd642bd1a1cdb37baff627d0d2536e7a77a9422d9cddb40f2d543c04b4a",
+          "published_date": "2024-08-21",
+          "license_status": "not-stated; private reference"
+        }
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "image_number": 3,
+      "id": "memoryvla-cognition-memory-action",
+      "category": "teaser",
+      "path": "teaser/memoryvla-cognition-memory-action",
+      "reference_sha256": "92476babf261064f78b43ac6e2b47dedf1b699cce1c36f7bcd1bfbe88225af04",
+      "match": "用户图 3 对应 arXiv 2508.19236v1 的 Figure 1(b)–(d)。已按 SimplerEnv、LIBERO、Real-world-General、Real-world-Temporal 四组结果及布局核对；收录完整首图并补回 (a)。v2 的首图布局和评测内容有所增加，本条不混用。",
+      "source": {
+        "project": "https://shihao1895.github.io/MemoryVLA/",
+        "authors": [
+          "Shi, Hao",
+          "Xie, Bin",
+          "Liu, Yingfei",
+          "Sun, Lin",
+          "Liu, Fengrong",
+          "Wang, Tiancai",
+          "Zhou, Erjin",
+          "Fan, Haoqiang",
+          "Zhang, Xiangyu",
+          "Huang, Gao"
+        ],
+        "urls": [
+          "https://shihao1895.github.io/MemoryVLA/",
+          "https://arxiv.org/abs/2508.19236v1",
+          "https://arxiv.org/pdf/2508.19236v1",
+          "https://arxiv.org/src/2508.19236v1",
+          "https://openreview.net/forum?id=54U3XHf7qq"
+        ],
+        "arxiv_id": "2508.19236v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2508.19236v1",
+        "full_pdf_sha256": "2f39262c7f270ec7c104defdaec11f7b6f21ace116d1fe1175ee228b54f57026",
+        "full_pdf_bytes": 11023858,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "600f0f21cfc8bf634a518f337e5b08590010662856c08b7676dacfa6455a4fd4",
+        "original_bytes": 712928,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2508.19236v1",
+        "archive_sha256": "21d9ae4e287a9d41ec851044f66193186d5dcd37c7cb89ec136f8046b1f414f9",
+        "archive_bytes": 10386126,
+        "archive_member": "figures/fig_1_intro.pdf",
+        "inclusion_member": "chapters/1_intro.tex",
+        "retrieved_date": "2026-11-04",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "submitted_image_match": {
+          "image_number": 3,
+          "submitted_sha256": "92476babf261064f78b43ac6e2b47dedf1b699cce1c36f7bcd1bfbe88225af04",
+          "description": "用户图 3 对应 arXiv 2508.19236v1 的 Figure 1(b)–(d)。已按 SimplerEnv、LIBERO、Real-world-General、Real-world-Temporal 四组结果及布局核对；收录完整首图并补回 (a)。v2 的首图布局和评测内容有所增加，本条不混用。"
+        },
+        "matched_subfigures": [
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "editability": "vector-and-raster"
+    },
+    {
+      "image_number": 4,
+      "id": "cortex-memory-consolidation",
+      "category": "teaser",
+      "path": "teaser/cortex-memory-consolidation",
+      "reference_sha256": "82f14198cccf3e0403365c7c8f05d4ff87ae4096b1d9a6513bf4525f92845411",
+      "match": "用户图 4 对应 arXiv 2610.20399v1 第 1 页 Figure 1；生物类比、儿童场景、睡眠图标、上下文 token 和 FFN／MoE 高亮一致。",
+      "source": {
+        "project": "https://arxiv.org/abs/2610.20399",
+        "authors": [
+          "Zhang, Jintian",
+          "He, Feng",
+          "Liang, Xinnian",
+          "Xu, Ziwen",
+          "Xu, Haoming",
+          "Huang, Haojing",
+          "Wu, Shuangzhi",
+          "Zhang, Ningyu"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2610.20399",
+          "https://arxiv.org/abs/2610.20399v1",
+          "https://arxiv.org/pdf/2610.20399v1",
+          "https://arxiv.org/src/2610.20399v1"
+        ],
+        "arxiv_id": "2610.20399v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2610.20399v1",
+        "full_pdf_sha256": "6123bd40b6572a520050e8af36982e1d3471a5fb2f85e168aa313d549b93752c",
+        "full_pdf_bytes": 6072810,
+        "page_number": 1,
+        "figure_number": 1,
+        "original_sha256": "1435a27d11a3626a30a0a4b4137554b991d014474da0bdd014e08af2913fd313",
+        "original_bytes": 1951646,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2610.20399v1",
+        "archive_sha256": "8ff7b05ecf75da1dabfaddff8d3b90a39144a6cb1f970e24ca1ce89d424f6269",
+        "archive_bytes": 5376507,
+        "archive_member": "figures/intro-v5.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-04",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "submitted_image_match": {
+          "image_number": 4,
+          "submitted_sha256": "82f14198cccf3e0403365c7c8f05d4ff87ae4096b1d9a6513bf4525f92845411",
+          "description": "用户图 4 对应 arXiv 2610.20399v1 第 1 页 Figure 1；生物类比、儿童场景、睡眠图标、上下文 token 和 FFN／MoE 高亮一致。"
+        }
+      },
+      "editability": "vector-and-raster"
+    }
+  ]
+}

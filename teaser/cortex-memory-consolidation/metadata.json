@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "cortex-memory-consolidation",
+  "title": "Cortex · 生物系统巩固与模型记忆巩固类比",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "memory-consolidation",
+    "parametric-memory",
+    "biological-inspiration",
+    "conceptual-comparison",
+    "large-language-models"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "左侧用海马体、睡眠与新皮层说明生物系统巩固；右侧并列展示带上下文的模型与巩固后的模型，以高亮 FFN／MoE 变化解释将上下文收益写入参数的目标。",
+  "publication": {
+    "title": "Cortex: Consolidating Context into Parametric Memory",
+    "venue": "arXiv",
+    "year": 2026,
+    "article_type": "technical-report",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2610.20399v1",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-11-04",
+    "source_version": "2610.20399v1"
+  },
+  "curation": {
+    "figure_role": "以生物类比解释研究目标与核心想法，归入 Teaser。右侧是目标示意，不是 Cortex 训练算法的完整架构。",
+    "panel_layout": {
+      "panels": 2,
+      "summary": "(a) 生物系统巩固的阶段式叙事；(b) LLM 巩固前后的结构并列。",
+      "counting_note": "按 (a)、(b) 计两个主面板。左侧包含三个时间阶段，右侧包含两列模型块，均为主面板内部展开。"
+    },
+    "why_selected": "左侧用海马体、睡眠与新皮层说明生物系统巩固；右侧并列展示带上下文的模型与巩固后的模型，以高亮 FFN／MoE 变化解释将上下文收益写入参数的目标。",
+    "what_to_borrow": [
+      "在两个领域间建立同颜色、同角色的视觉对应。",
+      "通过巩固前后对照突出真正发生变化的位置。",
+      "把叙事场景、科学标注与结构图放在邻近区域。"
+    ],
+    "submitted_reference": "用户图 4 对应 arXiv 2610.20399v1 第 1 页 Figure 1；生物类比、儿童场景、睡眠图标、上下文 token 和 FFN／MoE 高亮一致。",
+    "reviewed_from": "supplied reference image; fixed paper page and caption; author independent PDF; official blog image where relevant; rendered SVG"
+  },
+  "source": {
+    "project": "https://arxiv.org/abs/2610.20399",
+    "authors": [
+      "Zhang, Jintian",
+      "He, Feng",
+      "Liang, Xinnian",
+      "Xu, Ziwen",
+      "Xu, Haoming",
+      "Huang, Haojing",
+      "Wu, Shuangzhi",
+      "Zhang, Ningyu"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2610.20399",
+      "https://arxiv.org/abs/2610.20399v1",
+      "https://arxiv.org/pdf/2610.20399v1",
+      "https://arxiv.org/src/2610.20399v1"
+    ],
+    "arxiv_id": "2610.20399v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2610.20399v1",
+    "full_pdf_sha256": "6123bd40b6572a520050e8af36982e1d3471a5fb2f85e168aa313d549b93752c",
+    "full_pdf_bytes": 6072810,
+    "page_number": 1,
+    "figure_number": 1,
+    "original_sha256": "1435a27d11a3626a30a0a4b4137554b991d014474da0bdd014e08af2913fd313",
+    "original_bytes": 1951646,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2610.20399v1",
+    "archive_sha256": "8ff7b05ecf75da1dabfaddff8d3b90a39144a6cb1f970e24ca1ce89d424f6269",
+    "archive_bytes": 5376507,
+    "archive_member": "figures/intro-v5.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-11-04",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "submitted_image_match": {
+      "image_number": 4,
+      "submitted_sha256": "82f14198cccf3e0403365c7c8f05d4ff87ae4096b1d9a6513bf4525f92845411",
+      "description": "用户图 4 对应 arXiv 2610.20399v1 第 1 页 Figure 1；生物类比、儿童场景、睡眠图标、上下文 token 和 FFN／MoE 高亮一致。"
+    }
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original vector objects and text objects or outlines retained",
+      "svg": "PDF conversion; text outlined"
+    },
+    "pdf_drawing_objects": 9246,
+    "pdf_text_spans": 61,
+    "embedded_raster_images": 6,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 43,
+      "path": 9427,
+      "mask": 5,
+      "g": 69,
+      "image": 10,
+      "use": 402
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 保留矢量结构及原有文字对象或轮廓；SVG 为 PDF 转换件，文字转轮廓。原 PDF 含 6 个嵌入位图对象，可移动或替换，不能按矢量节点编辑。位图对象数不等于子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本源码归档复制独立 PDF，原始字节未变。",
+    "原图生成浏览预览，并将 PDF 转为自包含 SVG；文字转轮廓，原有位图保持。",
+    "记录与用户参考图的对应范围及版本差异，未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-04",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 786,
+      "sha256": "54a4f69d98b4282093638b03caaf8f2402dd5d8ba70adb8e706cb8157f9cab8f"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 654,
+      "sha256": "8237f10fb923379edfc8b6428fa41ea97188e19f552df465463a9389f221d74d"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1951646,
+      "sha256": "1435a27d11a3626a30a0a4b4137554b991d014474da0bdd014e08af2913fd313"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 645486,
+      "sha256": "5b6cb15e2c67c53ca625336ff283d601afe134e5340e0d4e0f023924391ec09a"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 3535806,
+      "sha256": "f30bd3fe874724e09104e98b7ed4941d68ee88a853256216e3c010549a2106c5"
+    }
+  ]
+}

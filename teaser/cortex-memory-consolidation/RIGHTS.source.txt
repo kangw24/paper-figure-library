@@ -1,0 +1,9 @@
+Paper: Cortex: Consolidating Context into Parametric Memory
+Authors: Zhang, Jintian, He, Feng, Liang, Xinnian, Xu, Ziwen, Xu, Haoming, Huang, Haojing, Wu, Shuangzhi, Zhang, Ningyu
+Source version: 2610.20399v1
+Archive: https://arxiv.org/src/2610.20399v1
+Member: figures/intro-v5.pdf
+Original SHA256: 1435a27d11a3626a30a0a4b4137554b991d014474da0bdd014e08af2913fd313
+Declared license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

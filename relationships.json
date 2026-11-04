@@ -7,6 +7,7 @@
         "id": "comparison",
         "title": "方法与范式对照",
         "figures": [
+          "cortex-memory-consolidation",
           "survey-biomedical-six-methods",
           "survey-dynamics-physics-learning-spectrum",
           "survey-robot-physics-three-routes",
@@ -27,6 +28,7 @@
         "title": "多子图主题与应用总览",
         "description": "按主题面板、任务组或场景组浏览，组内可包含多张图片。这里同时收录原论文 teaser 首图，以及适合借鉴为 teaser 的任务或应用总览；每项标明原图号和子图计数口径。",
         "figures": [
+          "survey-genai-wireless-four-scenarios",
           "survey-ai4research-five-activities",
           "survey-ai4research-discovery-cycle",
           "survey-ai4research-seven-domains",
@@ -78,6 +80,7 @@
         "id": "capabilities",
         "title": "任务、动机与能力展示",
         "figures": [
+          "memoryvla-cognition-memory-action",
           "genie-interaction",
           "vggt-capabilities",
           "cut3r-capabilities",
@@ -110,6 +113,7 @@
         "id": "framework",
         "title": "整体方法与训练流程",
         "figures": [
+          "speculative-rag-draft-verify",
           "cut3r-architecture",
           "dreamgaussian-architecture",
           "genie-architecture",
@@ -976,6 +980,30 @@
       "tabler-wave-sine",
       "tabler-arrow-right",
       "tabler-file-text"
+    ],
+    "survey-genai-wireless-four-scenarios": [
+      "tabler-wave-sine",
+      "tabler-network",
+      "tabler-device-mobile",
+      "tabler-arrow-right"
+    ],
+    "speculative-rag-draft-verify": [
+      "tabler-file-text",
+      "tabler-network",
+      "tabler-arrow-right",
+      "tabler-check"
+    ],
+    "memoryvla-cognition-memory-action": [
+      "tabler-brain",
+      "tabler-robot",
+      "tabler-database",
+      "tabler-network"
+    ],
+    "cortex-memory-consolidation": [
+      "tabler-brain",
+      "tabler-database",
+      "tabler-network",
+      "tabler-arrow-right"
     ]
   }
 }

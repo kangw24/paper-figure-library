@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "survey-genai-wireless-four-scenarios",
+  "title": "无线生成式 AI · 城市场景串联四类应用",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "survey",
+    "multi-panel",
+    "wireless-sensing",
+    "generative-models",
+    "application-overview"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "四个方法场景围绕中心城市示意组织：信道估计、定位数据增强、雷达去噪、人体感知域适应。每区既有应用对象，也有局部模型或信号流程。",
+  "publication": {
+    "title": "Generative AI Meets Wireless Sensing: Towards Wireless Foundation Model",
+    "venue": "arXiv",
+    "year": 2025,
+    "article_type": "survey",
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2509.15258v1",
+    "evidence_type": "fixed-arxiv-version-and-author-TeX",
+    "checked_date": "2026-11-04",
+    "source_version": "2509.15258v1",
+    "later_publication": {
+      "title": "Generative AI for Wireless Communication and Sensing: Toward Unified Foundation Models",
+      "venue": "IEEE Transactions on Communications",
+      "year": 2026,
+      "doi": "10.1109/TCOMM.2026.3704192",
+      "evidence_url": "https://weizmann.elsevierpure.com/en/publications/generative-ai-for-wireless-communication-and-sensing-toward-unifi/"
+    }
+  },
+  "curation": {
+    "figure_role": "综述首图，用场景与局部方法共同解释研究覆盖范围，归入 Teaser。",
+    "panel_layout": {
+      "panels": 4,
+      "summary": "2×2 应用分区＋跨区的城市、道路与室内场景；局部模型与应用位置相互连接。",
+      "counting_note": "按四个明确命名的任务区计四个主面板；城市建筑、车辆、信号波形和网络图是区内或跨区的说明对象。"
+    },
+    "why_selected": "四个方法场景围绕中心城市示意组织：信道估计、定位数据增强、雷达去噪、人体感知域适应。每区既有应用对象，也有局部模型或信号流程。",
+    "what_to_borrow": [
+      "用跨面板场景作为视觉中心，把多个应用放回同一环境。",
+      "每个任务区同时包含科学对象、简短说明和方法流程。",
+      "用分区颜色和虚线连接任务与具体应用位置。"
+    ],
+    "submitted_reference": "用户图 1 对应作者原 Figure 1 的整图；布局、四个场景标题、信号流程和中心城市图一致。",
+    "reviewed_from": "supplied reference image; fixed paper page and caption; author independent PDF; official blog image where relevant; rendered SVG"
+  },
+  "source": {
+    "project": "https://www.weizmann.ac.il/math/yonina/sites/math.yonina/files/GenAI_Survey_TCOM.pdf",
+    "authors": [
+      "Yang, Zheng",
+      "Chi, Guoxuan",
+      "Wu, Chenshu",
+      "Liu, Hanyu",
+      "Gao, Yuchong",
+      "Liu, Yunhao",
+      "Xu, Jie",
+      "Han, Tony Xiao"
+    ],
+    "urls": [
+      "https://www.weizmann.ac.il/math/yonina/sites/math.yonina/files/GenAI_Survey_TCOM.pdf",
+      "https://arxiv.org/abs/2509.15258v1",
+      "https://arxiv.org/pdf/2509.15258v1",
+      "https://arxiv.org/src/2509.15258v1"
+    ],
+    "arxiv_id": "2509.15258v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2509.15258v1",
+    "full_pdf_sha256": "48624f37829b8e94f9df1a131b1eabd43bac21373d515e2165a4db43232adb1d",
+    "full_pdf_bytes": 3674193,
+    "page_number": 2,
+    "figure_number": 1,
+    "original_sha256": "2a7d56e6de483f32847de244a97bd72c9783c9700e69f2685c91fe227136d16b",
+    "original_bytes": 325566,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2509.15258v1",
+    "archive_sha256": "13406bd45a2abead865623dc9e88df2f60d10b800a97dc05a18b2d69a618c9d6",
+    "archive_bytes": 1689708,
+    "archive_member": "fig/1-Motivation-application.pdf",
+    "inclusion_member": "content/1-intro.tex",
+    "retrieved_date": "2026-11-04",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "submitted_image_match": {
+      "image_number": 1,
+      "submitted_sha256": "b6e875f45fc53ca4dd5bd59e1a0c333e971d159ba193b1903dab996ebca28fab",
+      "description": "用户图 1 对应作者原 Figure 1 的整图；布局、四个场景标题、信号流程和中心城市图一致。"
+    }
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original vector objects and text objects or outlines retained",
+      "svg": "PDF conversion; text outlined"
+    },
+    "pdf_drawing_objects": 121,
+    "pdf_text_spans": 44,
+    "embedded_raster_images": 21,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 26,
+      "path": 194,
+      "mask": 20,
+      "g": 87,
+      "image": 39,
+      "use": 900
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 保留矢量结构及原有文字对象或轮廓；SVG 为 PDF 转换件，文字转轮廓。原 PDF 含 21 个嵌入位图对象，可移动或替换，不能按矢量节点编辑。位图对象数不等于子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本源码归档复制独立 PDF，原始字节未变。",
+    "原图生成浏览预览，并将 PDF 转为自包含 SVG；文字转轮廓，原有位图保持。",
+    "记录与用户参考图的对应范围及版本差异，未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-04",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 809,
+      "sha256": "560a67cd6146d39deda33f0539c9c8e7594ba4711b678058fa90893fe911ab1c"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 577,
+      "sha256": "9c1d923610195d4fe39c1af724c95186d9675a86da72b2b06e00c72e1ab8f65b"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 325566,
+      "sha256": "2a7d56e6de483f32847de244a97bd72c9783c9700e69f2685c91fe227136d16b"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1319477,
+      "sha256": "5cd83110fc6d4f80ffcbfae4b8ca5e2674ba6dbdd41a823338cd899400428772"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 593588,
+      "sha256": "b2d10f86911217f30b0c8055a0d306f72593b6b5128e0e194f385cfd62abcec1"
+    }
+  ]
+}

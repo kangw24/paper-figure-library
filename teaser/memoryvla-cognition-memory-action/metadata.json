@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "memoryvla-cognition-memory-action",
+  "title": "MemoryVLA · 人类记忆类比、方法与性能首图",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "vision-language-action",
+    "memory",
+    "robotics",
+    "biological-inspiration",
+    "multi-panel",
+    "ICLR",
+    "2026"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "以时间混淆问题为动机，对照人类的工作记忆与情景记忆、MemoryVLA 的感知—认知记忆机制，底部再放四组性能对照与机器人任务示例。",
+  "publication": {
+    "title": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+    "venue": "ICLR",
+    "year": 2026,
+    "article_type": "research",
+    "presentation": "conference-paper",
+    "evidence_url": "https://shihao1895.github.io/MemoryVLA/",
+    "evidence_type": "author-project-and-official-ICLR-version",
+    "checked_date": "2026-11-04",
+    "source_version": "2508.19236v1",
+    "arxiv_first_year": 2025,
+    "source_version_note": "Figure from 2025 arXiv v1, matching the supplied screenshot; venue/year describe the later accepted paper."
+  },
+  "curation": {
+    "figure_role": "将问题动机、生物类比、方法概念与效果放在同一首图中，归入 Teaser。图中 (c) 是简化结构，但并非本条的唯一内容。",
+    "panel_layout": {
+      "panels": 4,
+      "summary": "(a) 时间混淆任务；(b) 人类认知—记忆—动作；(c) MemoryVLA；(d) 四组性能图与机器人实例。",
+      "counting_note": "按原作者 (a)–(d) 计四个主面板。用户截图截去了顶部 (a)，只保留 (b)、(c)、(d)。性能区内四组柱图和八张场景图不另计为独立主面板。"
+    },
+    "why_selected": "以时间混淆问题为动机，对照人类的工作记忆与情景记忆、MemoryVLA 的感知—认知记忆机制，底部再放四组性能对照与机器人任务示例。",
+    "what_to_borrow": [
+      "用同一套配色连接生物类比和模型机制。",
+      "让问题示例、概念对照和结果在同图形成完整论证。",
+      "用底部紧凑结果区支撑主要观点，同时明确原实验来源。"
+    ],
+    "submitted_reference": "用户图 3 对应 arXiv 2508.19236v1 的 Figure 1(b)–(d)。已按 SimplerEnv、LIBERO、Real-world-General、Real-world-Temporal 四组结果及布局核对；收录完整首图并补回 (a)。v2 的首图布局和评测内容有所增加，本条不混用。",
+    "reviewed_from": "supplied reference image; fixed paper page and caption; author independent PDF; official blog image where relevant; rendered SVG"
+  },
+  "source": {
+    "project": "https://shihao1895.github.io/MemoryVLA/",
+    "authors": [
+      "Shi, Hao",
+      "Xie, Bin",
+      "Liu, Yingfei",
+      "Sun, Lin",
+      "Liu, Fengrong",
+      "Wang, Tiancai",
+      "Zhou, Erjin",
+      "Fan, Haoqiang",
+      "Zhang, Xiangyu",
+      "Huang, Gao"
+    ],
+    "urls": [
+      "https://shihao1895.github.io/MemoryVLA/",
+      "https://arxiv.org/abs/2508.19236v1",
+      "https://arxiv.org/pdf/2508.19236v1",
+      "https://arxiv.org/src/2508.19236v1",
+      "https://openreview.net/forum?id=54U3XHf7qq"
+    ],
+    "arxiv_id": "2508.19236v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2508.19236v1",
+    "full_pdf_sha256": "2f39262c7f270ec7c104defdaec11f7b6f21ace116d1fe1175ee228b54f57026",
+    "full_pdf_bytes": 11023858,
+    "page_number": 2,
+    "figure_number": 1,
+    "original_sha256": "600f0f21cfc8bf634a518f337e5b08590010662856c08b7676dacfa6455a4fd4",
+    "original_bytes": 712928,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2508.19236v1",
+    "archive_sha256": "21d9ae4e287a9d41ec851044f66193186d5dcd37c7cb89ec136f8046b1f414f9",
+    "archive_bytes": 10386126,
+    "archive_member": "figures/fig_1_intro.pdf",
+    "inclusion_member": "chapters/1_intro.tex",
+    "retrieved_date": "2026-11-04",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "submitted_image_match": {
+      "image_number": 3,
+      "submitted_sha256": "92476babf261064f78b43ac6e2b47dedf1b699cce1c36f7bcd1bfbe88225af04",
+      "description": "用户图 3 对应 arXiv 2508.19236v1 的 Figure 1(b)–(d)。已按 SimplerEnv、LIBERO、Real-world-General、Real-world-Temporal 四组结果及布局核对；收录完整首图并补回 (a)。v2 的首图布局和评测内容有所增加，本条不混用。"
+    },
+    "matched_subfigures": [
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original vector objects and text objects or outlines retained",
+      "svg": "PDF conversion; text outlined"
+    },
+    "pdf_drawing_objects": 126,
+    "pdf_text_spans": 107,
+    "embedded_raster_images": 84,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 168,
+      "path": 453,
+      "mask": 76,
+      "g": 398,
+      "image": 134,
+      "use": 764
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 保留矢量结构及原有文字对象或轮廓；SVG 为 PDF 转换件，文字转轮廓。原 PDF 含 84 个嵌入位图对象，可移动或替换，不能按矢量节点编辑。位图对象数不等于子图数。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本源码归档复制独立 PDF，原始字节未变。",
+    "原图生成浏览预览，并将 PDF 转为自包含 SVG；文字转轮廓，原有位图保持。",
+    "记录与用户参考图的对应范围及版本差异，未重绘。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-04",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 851,
+      "sha256": "044eb8ed1c0a0348e4add152f494fe40cc43b89de081ff8296d3d51d8e8564ec"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 747,
+      "sha256": "060e84dcf55d9f460784a710379f094e78b2067b89006ba4baf5824a018540e5"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 712928,
+      "sha256": "600f0f21cfc8bf634a518f337e5b08590010662856c08b7676dacfa6455a4fd4"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1641563,
+      "sha256": "dc5038660c4b36f26f258d121b57cf5acd71f7669329c7b7dac8dcec5221e312"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1086956,
+      "sha256": "b89b6bdc412640b8905a54ea2efed1fe04b42b47fcefcdcdfcec7cd6bf63ccfc"
+    }
+  ]
+}

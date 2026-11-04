@@ -23,6 +23,7 @@
 
 | 范例 | 现有元素 |
 |---|---|
+| [Cortex · 生物系统巩固与模型记忆巩固类比](../teaser/cortex-memory-consolidation/README.md) | [大脑](svg/tabler-brain.svg) · [数据库](svg/tabler-database.svg) · [网络](svg/tabler-network.svg) · [右箭头](svg/tabler-arrow-right.svg) |
 | [生物医学 PIML · 六面板方法范式总览](../teaser/survey-biomedical-six-methods/README.md) | [浅层神经网络](svg/towaki-neuralnetwork.svg) · [网络](svg/tabler-network.svg) · [正弦信号](svg/tabler-wave-sine.svg) · [文本文件](svg/tabler-file-text.svg) |
 | [动力学学习 · 物理与数据依赖的四范式对照](../teaser/survey-dynamics-physics-learning-spectrum/README.md) | [浅层神经网络](svg/towaki-neuralnetwork.svg) · [原子](svg/tabler-atom.svg) · [右箭头](svg/tabler-arrow-right.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
 | [机器人学习 · 物理先验融入的三路对照](../teaser/survey-robot-physics-three-routes/README.md) | [机器人](svg/tabler-robot.svg) · [浅层神经网络](svg/towaki-neuralnetwork.svg) · [数据库](svg/tabler-database.svg) · [文本文件](svg/tabler-file-text.svg) |
@@ -36,6 +37,7 @@
 | [K-LoRA：主体风格组合与训练范式比较](../teaser/k-lora/README.md) | [图像](svg/tabler-photo.svg) · [锁定](svg/tabler-lock.svg) · [解锁](svg/tabler-lock-open.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
 | [RayDer：数据瓶颈与新训练范式](../teaser/rayder-concept/README.md) | [图像](svg/tabler-photo.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) · [锁定](svg/tabler-lock.svg) |
 | [图基础模型范式对照 · 专用学习与共享预训练](../teaser/survey-graph-foundation-paradigm/README.md) | [网络](svg/tabler-network.svg) · [节点分支](svg/tabler-affiliate.svg) · [折线图符号](svg/tabler-chart-line.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) |
+| [无线生成式 AI · 城市场景串联四类应用](../teaser/survey-genai-wireless-four-scenarios/README.md) | [正弦信号](svg/tabler-wave-sine.svg) · [网络](svg/tabler-network.svg) · [手机](svg/tabler-device-mobile.svg) · [右箭头](svg/tabler-arrow-right.svg) |
 | [AI4Research · 五类科研活动的多区总览](../teaser/survey-ai4research-five-activities/README.md) | [层级结构](svg/tabler-sitemap.svg) · [网络](svg/tabler-network.svg) · [文本文件](svg/tabler-file-text.svg) · [机器人](svg/tabler-robot.svg) |
 | [AI4Research · 科学发现的五区流程总览](../teaser/survey-ai4research-discovery-cycle/README.md) | [右箭头](svg/tabler-arrow-right.svg) · [文本文件](svg/tabler-file-text.svg) · [网络](svg/tabler-network.svg) · [机器人](svg/tabler-robot.svg) |
 | [AI4Research · 三大领域、七类应用面板](../teaser/survey-ai4research-seven-domains/README.md) | [原子](svg/tabler-atom.svg) · [机器人](svg/tabler-robot.svg) · [网络](svg/tabler-network.svg) · [台式电脑](svg/tabler-device-desktop.svg) |
@@ -74,6 +76,7 @@
 | [多模态大模型发展 · 分段曲线时间线](../teaser/survey-mllm-timeline/README.md) | [路径](svg/tabler-route.svg) · [图像](svg/tabler-photo.svg) · [文本文件](svg/tabler-file-text.svg) · [时钟](svg/tabler-clock.svg) |
 | [自主 Agent 发展 · 趋势曲线与代表场景](../teaser/survey-agent-growth-landscape/README.md) | [散点图符号](svg/tabler-chart-scatter.svg) · [时钟](svg/tabler-clock.svg) · [多用户](svg/tabler-users.svg) |
 | [3DGS 综述路线图 · 双侧分类地图](../teaser/survey-3dgs-review-map/README.md) | [层级结构](svg/tabler-sitemap.svg) · [网络](svg/tabler-network.svg) · [书籍](svg/tabler-book.svg) |
+| [MemoryVLA · 人类记忆类比、方法与性能首图](../teaser/memoryvla-cognition-memory-action/README.md) | [大脑](svg/tabler-brain.svg) · [机器人](svg/tabler-robot.svg) · [数据库](svg/tabler-database.svg) · [网络](svg/tabler-network.svg) |
 | [Genie · 不同提示生成可交互世界](../teaser/genie-interaction/README.md) | [图像](svg/tabler-photo.svg) · [视频](svg/tabler-video.svg) · [开始](svg/tabler-player-play.svg) · [右箭头](svg/tabler-arrow-right.svg) |
 | [VGGT · 多视图输入与统一三维感知能力](../teaser/vggt-capabilities/README.md) | [相机](svg/tabler-camera.svg) · [图像](svg/tabler-photo.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) |
 | [CUT3R · 静态、动态与稀疏照片三类场景](../teaser/cut3r-capabilities/README.md) | [视频](svg/tabler-video.svg) · [图像](svg/tabler-photo.svg) · [相机](svg/tabler-camera.svg) |
@@ -91,6 +94,7 @@
 
 | 范例 | 现有元素 |
 |---|---|
+| [Speculative RAG · 并行起草与通用模型验证](../architecture/speculative-rag-draft-verify/README.md) | [文本文件](svg/tabler-file-text.svg) · [网络](svg/tabler-network.svg) · [右箭头](svg/tabler-arrow-right.svg) · [勾选](svg/tabler-check.svg) |
 | [CUT3R · 持久状态的更新、读取与未见视角推断](../architecture/cut3r-architecture/README.md) | [编码器块](svg/rust-encoder.svg) · [解码器块](svg/rust-decoder.svg) · [特征表示堆叠](svg/rust-feature-stack.svg) · [回环箭头](svg/tabler-arrow-loop-right.svg) · [相机](svg/tabler-camera.svg) |
 | [DreamGaussian · 高斯生成、网格提取与纹理细化](../architecture/dreamgaussian-architecture/README.md) | [图像](svg/tabler-photo.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) · [时钟](svg/tabler-clock.svg) · [回环箭头](svg/tabler-arrow-loop-right.svg) |
 | [Genie · 视频 tokenizer、潜在动作与动力学模型](../architecture/genie-architecture/README.md) | [视频](svg/tabler-video.svg) · [编码器块](svg/rust-encoder.svg) · [特征表示堆叠](svg/rust-feature-stack.svg) · [分流箭头](svg/tabler-arrows-split.svg) |

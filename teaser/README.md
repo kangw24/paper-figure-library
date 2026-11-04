@@ -6,16 +6,28 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 方法与范式对照 | 13 | [浏览](#comparison) |
-| 多子图主题与应用总览 | 12 | [浏览](#multi-panel) |
+| 方法与范式对照 | 14 | [浏览](#comparison) |
+| 多子图主题与应用总览 | 13 | [浏览](#multi-panel) |
 | 领域全景、演进与综述路线图 | 26 | [浏览](#landscape) |
-| 任务、动机与能力展示 | 7 | [浏览](#capabilities) |
+| 任务、动机与能力展示 | 8 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
 | 速度与精度权衡 | 2 | [浏览](#tradeoff) |
 
 <a id="comparison"></a>
 
 ## 方法与范式对照
+
+### [Cortex · 生物系统巩固与模型记忆巩固类比](cortex-memory-consolidation/README.md)
+
+左侧用海马体、睡眠与新皮层说明生物系统巩固；右侧并列展示带上下文的模型与巩固后的模型，以高亮 FFN／MoE 变化解释将上下文收益写入参数的目标。
+
+arXiv 2026 · 预印本
+
+**子图组织：** (a) 生物系统巩固的阶段式叙事；(b) LLM 巩固前后的结构并列。 原论文 Figure 1。
+
+[![预览](cortex-memory-consolidation/preview.png)](cortex-memory-consolidation/README.md)
+
+[说明与源文件](cortex-memory-consolidation/README.md) · [关联元素](cortex-memory-consolidation/README.md#关联范例与元素)
 
 ### [生物医学 PIML · 六面板方法范式总览](survey-biomedical-six-methods/README.md)
 
@@ -169,6 +181,18 @@ arXiv 2023 · 预印本 · 综述
 ## 多子图主题与应用总览
 
 按主题面板、任务组或场景组浏览，组内可包含多张图片。这里同时收录原论文 teaser 首图，以及适合借鉴为 teaser 的任务或应用总览；每项标明原图号和子图计数口径。
+
+### [无线生成式 AI · 城市场景串联四类应用](survey-genai-wireless-four-scenarios/README.md)
+
+四个方法场景围绕中心城市示意组织：信道估计、定位数据增强、雷达去噪、人体感知域适应。每区既有应用对象，也有局部模型或信号流程。
+
+arXiv 2025 · 预印本 · 综述
+
+**子图组织：** 2×2 应用分区＋跨区的城市、道路与室内场景；局部模型与应用位置相互连接。 原论文 Figure 1。
+
+[![预览](survey-genai-wireless-four-scenarios/preview.png)](survey-genai-wireless-four-scenarios/README.md)
+
+[说明与源文件](survey-genai-wireless-four-scenarios/README.md) · [关联元素](survey-genai-wireless-four-scenarios/README.md#关联范例与元素)
 
 ### [AI4Research · 五类科研活动的多区总览](survey-ai4research-five-activities/README.md)
 
@@ -609,6 +633,18 @@ ACM Computing Surveys 2026 · 期刊论文 · 综述
 <a id="capabilities"></a>
 
 ## 任务、动机与能力展示
+
+### [MemoryVLA · 人类记忆类比、方法与性能首图](memoryvla-cognition-memory-action/README.md)
+
+以时间混淆问题为动机，对照人类的工作记忆与情景记忆、MemoryVLA 的感知—认知记忆机制，底部再放四组性能对照与机器人任务示例。
+
+ICLR 2026 · 会议论文；未核实 Oral
+
+**子图组织：** (a) 时间混淆任务；(b) 人类认知—记忆—动作；(c) MemoryVLA；(d) 四组性能图与机器人实例。 原论文 Figure 1。
+
+[![预览](memoryvla-cognition-memory-action/preview.png)](memoryvla-cognition-memory-action/README.md)
+
+[说明与源文件](memoryvla-cognition-memory-action/README.md) · [关联元素](memoryvla-cognition-memory-action/README.md#关联范例与元素)
 
 ### [Genie · 不同提示生成可交互世界](genie-interaction/README.md)
 

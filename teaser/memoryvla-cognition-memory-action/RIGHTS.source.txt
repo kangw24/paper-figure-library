@@ -1,0 +1,9 @@
+Paper: MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation
+Authors: Shi, Hao, Xie, Bin, Liu, Yingfei, Sun, Lin, Liu, Fengrong, Wang, Tiancai, Zhou, Erjin, Fan, Haoqiang, Zhang, Xiangyu, Huang, Gao
+Source version: 2508.19236v1
+Archive: https://arxiv.org/src/2508.19236v1
+Member: figures/fig_1_intro.pdf
+Original SHA256: 600f0f21cfc8bf634a518f337e5b08590010662856c08b7676dacfa6455a4fd4
+Declared license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

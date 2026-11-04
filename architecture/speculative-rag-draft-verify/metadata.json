@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "id": "speculative-rag-draft-verify",
+  "title": "Speculative RAG · 并行起草与通用模型验证",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "retrieval-augmented-generation",
+    "parallel-drafting",
+    "verification",
+    "framework",
+    "ICLR",
+    "2025"
+  ],
+  "formats": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "小型专用 RAG 模型对不同文档子集并行生成答案草稿和依据，再由大型通用模型验证并选择。图内明确展示查询、文档、答案、依据与两类模型之间的数据流。",
+  "publication": {
+    "title": "Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting",
+    "venue": "ICLR",
+    "year": 2025,
+    "article_type": "research",
+    "presentation": "conference-paper",
+    "evidence_url": "https://research.google/pubs/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting-2/",
+    "evidence_type": "Google-Research-publication-and-fixed-arxiv",
+    "checked_date": "2026-11-04",
+    "source_version": "2407.08223v2"
+  },
+  "curation": {
+    "figure_role": "用户参考的主体解释方法分工、并行分支和验证数据流，归入 Architecture／Framework。保留论文完整 Figure 1 作为上下文。",
+    "panel_layout": {
+      "stages": 3,
+      "summary": "官方博客图分为查询通用模型、专用模型起草、通用模型验证三个阶段。论文完整 Figure 1 另保留 (a)–(c) 三类既有方法及 (d) 本方法。",
+      "counting_note": "三阶段是用户截图对应的官方博客方法流程，不将它们计作三个独立模型。完整论文图的四个面板是方法对照，两版对应关系分别记录。"
+    },
+    "why_selected": "小型专用 RAG 模型对不同文档子集并行生成答案草稿和依据，再由大型通用模型验证并选择。图内明确展示查询、文档、答案、依据与两类模型之间的数据流。",
+    "what_to_borrow": [
+      "先以图例建立查询、文档、草稿与依据的视觉语汇。",
+      "将并行分支聚拢在一个任务区，用汇合表达验证与选择。",
+      "底部阶段条负责阅读顺序，内部箭头负责实际数据关系。"
+    ],
+    "submitted_reference": "用户图 2 与 Google Research 官方博客 Speculative_RAG_img1 原图一致，包括 LLM 方框图标。论文 Figure 1(d) 是同一方法的另一图形版本，使用机器人图标，并与 (a)–(c) 对照面板组合；两版均收录。",
+    "reviewed_from": "supplied reference image; fixed paper page and caption; author independent PDF; official blog image where relevant; rendered SVG"
+  },
+  "source": {
+    "project": "https://research.google/pubs/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting-2/",
+    "authors": [
+      "Wang, Zilong",
+      "Wang, Zifeng",
+      "Le, Long",
+      "Zheng, Huaixiu Steven",
+      "Mishra, Swaroop",
+      "Perot, Vincent",
+      "Zhang, Yuwei",
+      "Mattapalli, Anush",
+      "Taly, Ankur",
+      "Shang, Jingbo",
+      "Lee, Chen-Yu",
+      "Pfister, Tomas"
+    ],
+    "urls": [
+      "https://research.google/pubs/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting-2/",
+      "https://arxiv.org/abs/2407.08223v2",
+      "https://arxiv.org/pdf/2407.08223v2",
+      "https://arxiv.org/src/2407.08223v2",
+      "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+      "https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img1.width-1250.png"
+    ],
+    "arxiv_id": "2407.08223v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2407.08223v2",
+    "full_pdf_sha256": "663cfcee6f23e02db33dddeb735678394ca4bdb574f02aaea4b70e4b08da16cf",
+    "full_pdf_bytes": 925187,
+    "page_number": 2,
+    "figure_number": 1,
+    "original_sha256": "ad43b1bbbe63d357310814b13ea7f37462f53a69831097ff3a203b6f2d52dc91",
+    "original_bytes": 290067,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2407.08223v2",
+    "archive_sha256": "401dedeaa38eec4547006d884d1f71b0a02fd6903f1800d34f982ce839f563a9",
+    "archive_bytes": 1199179,
+    "archive_member": "figures/main_figure-5-21.pdf",
+    "inclusion_member": "contents/1-introduction.tex",
+    "retrieved_date": "2026-11-04",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "submitted_image_match": {
+      "image_number": 2,
+      "submitted_sha256": "f6938fadd898a37e68fc4f91f74ca2d49332fbb043e433a095fee62e146072c2",
+      "description": "用户图 2 与 Google Research 官方博客 Speculative_RAG_img1 原图一致，包括 LLM 方框图标。论文 Figure 1(d) 是同一方法的另一图形版本，使用机器人图标，并与 (a)–(c) 对照面板组合；两版均收录。",
+      "matched_file": "original-blog.png"
+    },
+    "matched_subfigures": [
+      "d"
+    ],
+    "blog_companion": {
+      "file": "original-blog.png",
+      "url": "https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img1.width-1250.png",
+      "page_url": "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+      "bytes": 444024,
+      "sha256": "aa7d1bd642bd1a1cdb37baff627d0d2536e7a77a9422d9cddb40f2d543c04b4a",
+      "published_date": "2024-08-21",
+      "license_status": "not-stated; private reference"
+    }
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "作者保留权利 / 私有参考",
+    "note": "所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original vector objects and text objects or outlines retained",
+      "svg": "PDF conversion; text outlined",
+      "original-blog.png": "flattened official blog image, not separately editable"
+    },
+    "pdf_drawing_objects": 230,
+    "pdf_text_spans": 174,
+    "embedded_raster_images": 18,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 29,
+      "path": 406,
+      "mask": 18,
+      "g": 84,
+      "image": 24,
+      "use": 1439
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path transform normalization when needed",
+    "notes": [
+      "作者独立 PDF 保留矢量结构及原有文字对象或轮廓；SVG 为 PDF 转换件，文字转轮廓。原 PDF 含 18 个嵌入位图对象，可移动或替换，不能按矢量节点编辑。位图对象数不等于子图数。 与用户截图一致的官方博客 PNG 是整张位图；论文 PDF／SVG 是图标和排版略有差异的矢量配套版。",
+      "桌面 Illustrator 尚未逐项实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本源码归档复制独立 PDF，原始字节未变。",
+    "原图生成浏览预览，并将 PDF 转为自包含 SVG；文字转轮廓，原有位图保持。",
+    "记录与用户参考图的对应范围及版本差异，未重绘。",
+    "复制官方博客 PNG 原件并保留论文配套版；未将整张 PNG 包装为 SVG。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-04",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 1182,
+      "sha256": "75a454f81e84a14c29e6da6e0f825a367c058e108e2b614bd4008b481ea21834"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 1119,
+      "sha256": "b2cdb0531f38b99a581a691c20e6c69032fee121b8d933db4c82d02e8ec36fea"
+    },
+    {
+      "path": "original-blog.png",
+      "bytes": 444024,
+      "sha256": "aa7d1bd642bd1a1cdb37baff627d0d2536e7a77a9422d9cddb40f2d543c04b4a"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 290067,
+      "sha256": "ad43b1bbbe63d357310814b13ea7f37462f53a69831097ff3a203b6f2d52dc91"
+    },
+    {
+      "path": "paper-preview.png",
+      "bytes": 577746,
+      "sha256": "6d9bda81d82fc4536a11a1530a0aa552d274d1eb0a4b17ad0d75922215dc60e3"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 444024,
+      "sha256": "aa7d1bd642bd1a1cdb37baff627d0d2536e7a77a9422d9cddb40f2d543c04b4a"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 603731,
+      "sha256": "c3d23dbc4efbda92ef167394ce5b9748e2656fd400c1571d201393c804bed800"
+    }
+  ]
+}

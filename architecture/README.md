@@ -6,13 +6,25 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 整体方法与训练流程 | 16 | [浏览](#framework) |
+| 整体方法与训练流程 | 17 | [浏览](#framework) |
 | 网络主干与模块展开 | 13 | [浏览](#network) |
 | 基础结构与教材范例 | 16 | [浏览](#tutorial) |
 
 <a id="framework"></a>
 
 ## 整体方法与训练流程
+
+### [Speculative RAG · 并行起草与通用模型验证](speculative-rag-draft-verify/README.md)
+
+小型专用 RAG 模型对不同文档子集并行生成答案草稿和依据，再由大型通用模型验证并选择。图内明确展示查询、文档、答案、依据与两类模型之间的数据流。
+
+ICLR 2025 · 会议论文；未核实 Oral
+
+**子图组织：** 官方博客图分为查询通用模型、专用模型起草、通用模型验证三个阶段。论文完整 Figure 1 另保留 (a)–(c) 三类既有方法及 (d) 本方法。 原论文 Figure 1。
+
+[![预览](speculative-rag-draft-verify/preview.png)](speculative-rag-draft-verify/README.md)
+
+[说明与源文件](speculative-rag-draft-verify/README.md) · [关联元素](speculative-rag-draft-verify/README.md#关联范例与元素)
 
 ### [CUT3R · 持久状态的更新、读取与未见视角推断](cut3r-architecture/README.md)
 

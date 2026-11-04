@@ -1,0 +1,11 @@
+Paper: Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting
+Authors: Wang, Zilong, Wang, Zifeng, Le, Long, Zheng, Huaixiu Steven, Mishra, Swaroop, Perot, Vincent, Zhang, Yuwei, Mattapalli, Anush, Taly, Ankur, Shang, Jingbo, Lee, Chen-Yu, Pfister, Tomas
+Source version: 2407.08223v2
+Archive: https://arxiv.org/src/2407.08223v2
+Member: figures/main_figure-5-21.pdf
+Original SHA256: ad43b1bbbe63d357310814b13ea7f37462f53a69831097ff3a203b6f2d52dc91
+Declared license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本采用非独占分发许可，此许可不是第三方图形重用授权；本条用于私有参考。保留作者署名、固定版本与转换记录。图中第三方插画、Logo、照片或引用素材按原始权利声明核对。 Google Research 博客原图未发现单独的图像重用许可，另按官方原图保留来源。
+Official blog image: https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img1.width-1250.png
+SHA256: aa7d1bd642bd1a1cdb37baff627d0d2536e7a77a9422d9cddb40f2d543c04b4a
+Author originals retain their exact source bytes. No redrawing or generated replacement art.

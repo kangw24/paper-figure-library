@@ -2,7 +2,7 @@
   "schema_version": 2,
   "counts": {
     "teaser": 76,
-    "architecture": 57,
+    "architecture": 62,
     "element": 392,
     "mechanism": 17,
     "layout-template": 11
@@ -15096,6 +15096,172 @@
     },
     {
       "schema_version": 1,
+      "id": "eagle-visual-language-attribution",
+      "title": "EAGLE · 图像子区搜索与模态归因",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "vision-language",
+        "greedy-search",
+        "modality"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "用一张海滩照片串起超像素分区、贪心搜索和逐步揭示图像子区。输出同时展示词元对视觉或语言的依赖，以及图像上的归因热图。",
+      "publication": {
+        "title": "Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation",
+        "venue": "CVPR",
+        "year": 2026,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://github.com/RuoyuChen10/EAGLE",
+        "source_version": "2509.22496v5",
+        "checked_date": "2026-11-08",
+        "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "四栏依次展示输入与图像分区、生成归因、视觉与语言影响、最终解释。",
+          "panel_groups": 4,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "用一张海滩照片串起超像素分区、贪心搜索和逐步揭示图像子区。输出同时展示词元对视觉或语言的依赖，以及图像上的归因热图。",
+        "what_to_borrow": [
+          "将候选图像子区按排名并排展示，再用同一批子区解释逐步揭示过程。",
+          "把中间影响曲线贴在对应词元旁，末栏将词元着色与空间热图上下配对。"
+        ],
+        "reference_neighbors": [
+          "flashtrace-span-recursive-attribution"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://github.com/RuoyuChen10/EAGLE",
+        "authors": [
+          "Ruoyu Chen",
+          "Xiaoqing Guo",
+          "Kangwei Liu",
+          "Siyuan Liang",
+          "Shiming Liu",
+          "Qunli Zhang",
+          "Laiyuan Wang",
+          "Hua Zhang",
+          "Xiaochun Cao"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2509.22496v5",
+          "https://arxiv.org/pdf/2509.22496v5",
+          "https://arxiv.org/src/2509.22496v5",
+          "https://github.com/RuoyuChen10/EAGLE"
+        ],
+        "arxiv_id": "2509.22496v5",
+        "full_pdf_url": "https://arxiv.org/pdf/2509.22496v5",
+        "full_pdf_sha256": "665b0d82d05a6bf16dd6c58c0f9c872f55da0cfdee39b329004e27964e570122",
+        "full_pdf_bytes": 33852963,
+        "page_number": 3,
+        "figure_number": 2,
+        "original_sha256": "4a796320b3bd0d6e30e6ef5b589c704cafd99b6529aa909fc85007ca1fb00b58",
+        "original_bytes": 727517,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2509.22496v5",
+        "archive_sha256": "c5dafff122dc55a179a60bb6e4b2baf81812e0f47c28e41570e8dff7963565bf",
+        "archive_bytes": 31963369,
+        "archive_member": "images/framework.pdf",
+        "inclusion_member": "sec/2_related_work.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC BY 4.0（所收录论文版本）",
+        "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 92,
+        "pdf_text_spans": 109,
+        "embedded_raster_images": 37,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 33,
+          "path": 376,
+          "mask": 21,
+          "g": 104,
+          "image": 55,
+          "use": 923
+        },
+        "normalized_path_transforms": 39,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 文字转轮廓，原图中的位图内容保留。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 FlashTrace 与现有元素。",
+        "等价展开 39 个 SVG 路径变换矩阵，并重新核对渲染。",
+        "移除 LaTeX 插图片段中的行尾空格。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 596,
+          "sha256": "eb2f1a517c14bcf263af94f7b12d126936ca22d6fd3117428586e05a7c69fb9b"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 459,
+          "sha256": "d5ac8ed698ffb6d75f9a90109cb4914fdeeefaa8ad6a2ba8934e32b56ef7f4f9"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 727517,
+          "sha256": "4a796320b3bd0d6e30e6ef5b589c704cafd99b6529aa909fc85007ca1fb00b58"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 369956,
+          "sha256": "24cfde873318e66d0dd1dda82767a59b92e94b02263726606e289e9762b54e4c"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1173388,
+          "sha256": "6172c409d8c45ad1c68e4a6c37a8088b1f0178a8e3369edacdcd5618347498cb"
+        }
+      ],
+      "path": "architecture/eagle-visual-language-attribution",
+      "metadata_path": "architecture/eagle-visual-language-attribution/metadata.json",
+      "readme_path": "architecture/eagle-visual-language-attribution/README.md",
+      "primary_path": "architecture/eagle-visual-language-attribution/original.pdf",
+      "preview_path": "architecture/eagle-visual-language-attribution/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "flashtrace-span-recursive-attribution",
       "title": "FlashTrace · 片段归因与多跳递归追踪",
       "category": "architecture",
@@ -15535,6 +15701,167 @@
       "readme_path": "architecture/genie-architecture/README.md",
       "primary_path": "architecture/genie-architecture/source.png",
       "preview_path": "architecture/genie-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "grains-attribution-steering-pipeline",
+      "title": "GrAInS · 归因、PCA 与推理时引导",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "vision-language",
+        "integrated-gradients",
+        "steering"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "以交通灯计数为例，依次展开对比积分梯度、正负掩码、PCA 构造引导向量及其在 Transformer 层的注入位置。",
+      "publication": {
+        "title": "GrAInS: Gradient-based Attribution for Inference-Time Steering of LLMs and VLMs",
+        "venue": "ACL",
+        "year": 2026,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://aclanthology.org/2026.acl-long.2159/",
+        "source_version": "2507.18043v2",
+        "checked_date": "2026-11-08",
+        "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "A 计算词元归因，B 由掩码样本构造引导向量，C 把向量加到 Transformer 层。",
+          "panel_groups": 3,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "以交通灯计数为例，依次展开对比积分梯度、正负掩码、PCA 构造引导向量及其在 Transformer 层的注入位置。",
+        "what_to_borrow": [
+          "用一张照片和红绿两色贯穿正负回答、归因高亮、掩码与 PCA 分支。",
+          "用三个编号面板明确阶段边界，并在最后一格单独画出向量进入残差流的位置。"
+        ],
+        "reference_neighbors": [
+          "flashtrace-span-recursive-attribution"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://github.com/duykhuongnguyen/GrAInS",
+        "authors": [
+          "Duy Nguyen",
+          "Archiki Prasad",
+          "Elias Stengel-Eskin",
+          "Mohit Bansal"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2507.18043v2",
+          "https://arxiv.org/pdf/2507.18043v2",
+          "https://arxiv.org/src/2507.18043v2",
+          "https://github.com/duykhuongnguyen/GrAInS",
+          "https://aclanthology.org/2026.acl-long.2159/"
+        ],
+        "arxiv_id": "2507.18043v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2507.18043v2",
+        "full_pdf_sha256": "120f9390f6deefdf3fc88d2be46bc4f1db920540ddf0fe9c4a6b51ffcd5ec743",
+        "full_pdf_bytes": 24625763,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "2b745dca00d6139cb77dcb5f7c67a2f1f9eed178afa64ff1af1e9173ff3b0e87",
+        "original_bytes": 4559165,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2507.18043v2",
+        "archive_sha256": "f4e1ecd873c2ecade58dc91c2f43425c7c6b6072b12f461749ade18bc695b483",
+        "archive_bytes": 22471839,
+        "archive_member": "figures/vlms_steering_2.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "arXiv 非独占分发许可（私有参考）",
+        "note": "所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 156,
+        "pdf_text_spans": 62,
+        "embedded_raster_images": 16,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 1,
+          "path": 403,
+          "mask": 12,
+          "g": 42,
+          "image": 21,
+          "use": 662
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 文字转轮廓，原图中的位图内容保留。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 FlashTrace 与现有元素。",
+        "移除 LaTeX 插图片段中的行尾空格。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 599,
+          "sha256": "6be3cdbbd8e610ba069976709a15e830e80115e693348389071297ddea0e8464"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 717,
+          "sha256": "04a9ceffd28b43fe80736766f6b75283f62e795a149c37cff68dba06c9b84900"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 4559165,
+          "sha256": "2b745dca00d6139cb77dcb5f7c67a2f1f9eed178afa64ff1af1e9173ff3b0e87"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 315731,
+          "sha256": "4c0f3a273cb3bc95fbc57b5e38217cc707bddfdcdf73b2c0400bc1112b82bede"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 5703763,
+          "sha256": "54b0267ec7f0c2b7d9ee755c1e40e4e18818321d917f5d56c54eef0ecdab2e00"
+        }
+      ],
+      "path": "architecture/grains-attribution-steering-pipeline",
+      "metadata_path": "architecture/grains-attribution-steering-pipeline/metadata.json",
+      "readme_path": "architecture/grains-attribution-steering-pipeline/README.md",
+      "primary_path": "architecture/grains-attribution-steering-pipeline/original.pdf",
+      "preview_path": "architecture/grains-attribution-steering-pipeline/preview.png"
     },
     {
       "schema_version": 1,
@@ -17069,6 +17396,176 @@
       "readme_path": "architecture/memoryvla-perceptual-cognitive-architecture/README.md",
       "primary_path": "architecture/memoryvla-perceptual-cognitive-architecture/original.pdf",
       "preview_path": "architecture/memoryvla-perceptual-cognitive-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "mexgen-perturbation-attribution-workflow",
+      "title": "MExGen · 问答扰动与逐级文本归因",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "text-attribution",
+        "perturbation",
+        "question-answering",
+        "oral"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "围绕一条出生地问答展开文本切分和三条并行扰动。每个回答旁保留具体的标量分数，最后回到着色的原文本并用虚线表示进一步细分。",
+      "publication": {
+        "title": "Multi-Level Explanations for Generative Language Models",
+        "venue": "ACL",
+        "year": 2025,
+        "presentation": "oral",
+        "article_type": "research",
+        "evidence_url": "https://research.ibm.com/events/acl-2025",
+        "source_version": "2403.14459v2",
+        "checked_date": "2026-11-08",
+        "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "横向六步为输入、单元切分、生成扰动、问答、标量化和分数汇总，底部虚线回到单元切分。",
+          "panel_groups": 6,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "围绕一条出生地问答展开文本切分和三条并行扰动。每个回答旁保留具体的标量分数，最后回到着色的原文本并用虚线表示进一步细分。",
+        "what_to_borrow": [
+          "将同一问题的多条扰动输入、回答与分数横向对齐，便于看出差别来自哪个文本单元。",
+          "把阶段名称集中在底部，虚线从汇总结果回到切分步骤，呈现多粒度归因的迭代。"
+        ],
+        "reference_neighbors": [
+          "flashtrace-span-recursive-attribution"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://github.com/IBM/ICX360",
+        "authors": [
+          "Lucas Monteiro Paes",
+          "Dennis Wei",
+          "Hyo Jin Do",
+          "Hendrik Strobelt",
+          "Ronny Luss",
+          "Amit Dhurandhar",
+          "Manish Nagireddy",
+          "Karthikeyan Natesan Ramamurthy",
+          "Prasanna Sattigeri",
+          "Werner Geyer",
+          "Soumya Ghosh"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2403.14459v2",
+          "https://arxiv.org/pdf/2403.14459v2",
+          "https://arxiv.org/src/2403.14459v2",
+          "https://github.com/IBM/ICX360",
+          "https://research.ibm.com/events/acl-2025",
+          "https://aclanthology.org/2025.acl-long.1553/"
+        ],
+        "arxiv_id": "2403.14459v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2403.14459v2",
+        "full_pdf_sha256": "aecb9a83a6f173fc84e5906ad68248c44846be88f55cba8b7702768df64db4f6",
+        "full_pdf_bytes": 2627175,
+        "page_number": 3,
+        "figure_number": 2,
+        "original_sha256": "afdedf3e4a2cc5c3ec3b39c1ab9948ed3711842a019abbcb35e13c72c019339b",
+        "original_bytes": 533260,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2403.14459v2",
+        "archive_sha256": "53ebddf4621094cab545b5cfac94d8cfe993904f289359b8e690045936f5bc2e",
+        "archive_bytes": 2051546,
+        "archive_member": "Figures/DiagramMexGEN.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC BY 4.0（所收录论文版本）",
+        "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 48,
+        "pdf_text_spans": 101,
+        "embedded_raster_images": 4,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 11,
+          "path": 224,
+          "mask": 4,
+          "g": 24,
+          "image": 8,
+          "use": 1086
+        },
+        "normalized_path_transforms": 11,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 文字转轮廓，原图中的位图内容保留。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 FlashTrace 与现有元素。",
+        "等价展开 11 个 SVG 路径变换矩阵，并重新核对渲染。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 644,
+          "sha256": "fbe0c498e745621b6b6a6504c0f914f7ad977e554d1c613bc44b930687827aef"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 231,
+          "sha256": "af0cde98ea875fb9bdbdeb80a2be77f82e0e91475b147f2422019548c4c99d94"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 533260,
+          "sha256": "afdedf3e4a2cc5c3ec3b39c1ab9948ed3711842a019abbcb35e13c72c019339b"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 120077,
+          "sha256": "8230951f55da67a56a25683a46a68bd4b96696113f1ed2c0966e8ec2abe3f126"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 352545,
+          "sha256": "377016d196050e081135bcb419672b431cd1cc49c80c512aba0c627fef4480bc"
+        }
+      ],
+      "path": "architecture/mexgen-perturbation-attribution-workflow",
+      "metadata_path": "architecture/mexgen-perturbation-attribution-workflow/metadata.json",
+      "readme_path": "architecture/mexgen-perturbation-attribution-workflow/README.md",
+      "primary_path": "architecture/mexgen-perturbation-attribution-workflow/original.pdf",
+      "preview_path": "architecture/mexgen-perturbation-attribution-workflow/preview.png"
     },
     {
       "schema_version": 1,
@@ -19218,6 +19715,165 @@
     },
     {
       "schema_version": 1,
+      "id": "tokengeist-refund-provenance-trace",
+      "title": "Tokengeist · 五轮退款对话的递归溯源",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "provenance",
+        "agent",
+        "tool-use"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "一段五轮退款对话贯穿全图。逐层展示词元分数如何汇总到对话轮次、如何选取父节点，以及如何将有向无环图裁剪成最终溯源链。",
+      "publication": {
+        "title": "Tokengeist: Multi-Turn Attribution Tracing in Agentic Conversations",
+        "venue": "arXiv",
+        "year": 2026,
+        "presentation": "preprint",
+        "article_type": "research",
+        "evidence_url": "https://www.microsoft.com/en-us/research/publication/tokengeist-multi-turn-attribution-tracing-in-agentic-conversations/",
+        "source_version": "2607.22610v1",
+        "checked_date": "2026-11-08",
+        "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "左栏对话与归因目标，中栏三层递归并配有四步操作说明，右栏并列裁剪前后的溯源图。",
+          "panel_groups": 3,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "一段五轮退款对话贯穿全图。逐层展示词元分数如何汇总到对话轮次、如何选取父节点，以及如何将有向无环图裁剪成最终溯源链。",
+        "what_to_borrow": [
+          "把每一轮都会执行的四步操作集中写在中栏上方，下面三行用同样的布局展示分数和所选节点。",
+          "用同一套角色颜色贯穿原始对话、候选轮次和输出图，虚线区分工具结果到调用轮次的结构边。"
+        ],
+        "reference_neighbors": [
+          "flashtrace-span-recursive-attribution"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://www.microsoft.com/en-us/research/publication/tokengeist-multi-turn-attribution-tracing-in-agentic-conversations/",
+        "authors": [
+          "Jessica Tang",
+          "Shraddha Barke",
+          "Sharad Agarwal"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2607.22610v1",
+          "https://arxiv.org/pdf/2607.22610v1",
+          "https://arxiv.org/src/2607.22610v1",
+          "https://www.microsoft.com/en-us/research/publication/tokengeist-multi-turn-attribution-tracing-in-agentic-conversations/"
+        ],
+        "arxiv_id": "2607.22610v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2607.22610v1",
+        "full_pdf_sha256": "a8659487c2056f2a4144eb8c7f5365dcee38373dd89451805d532e3027e34609",
+        "full_pdf_bytes": 1762376,
+        "page_number": 26,
+        "figure_number": 13,
+        "original_sha256": "aad134dbef93368682b4dc57007a9f321c19c8befa6933615e2db5ef40e493d3",
+        "original_bytes": 389562,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2607.22610v1",
+        "archive_sha256": "b42bbf72ff62edf0f844fd7e4ffbfcc9431fc1c306248488d0e87408fca4eb44",
+        "archive_bytes": 1487319,
+        "archive_member": "figures/tokengeist-procedure.pdf",
+        "inclusion_member": "sections/appendix_procedure.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC BY 4.0（所收录论文版本）",
+        "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 334,
+        "pdf_text_spans": 241,
+        "embedded_raster_images": 6,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 1162,
+          "path": 1771,
+          "g": 1168,
+          "rect": 2,
+          "image": 6,
+          "mask": 2,
+          "use": 1480
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 文字转轮廓，原图中的位图内容保留。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 FlashTrace 与现有元素。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 519,
+          "sha256": "246f234b91c794944f1d93608e7eed5c9834516580cae3f2e2b9333fade063b9"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 840,
+          "sha256": "6cac558f6205d604c788a204d4140fe31b1e069b0e9139bb51f6573b75558db0"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 389562,
+          "sha256": "aad134dbef93368682b4dc57007a9f321c19c8befa6933615e2db5ef40e493d3"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 247301,
+          "sha256": "0645e429cdf34f61bc4aef7b7a0a627320b28b770bad79c4e40f86cde0456e4c"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 875808,
+          "sha256": "cbc872c1e1caa95a5f9d016355eb4614267c453facfe75de398073853f16e1e0"
+        }
+      ],
+      "path": "architecture/tokengeist-refund-provenance-trace",
+      "metadata_path": "architecture/tokengeist-refund-provenance-trace/metadata.json",
+      "readme_path": "architecture/tokengeist-refund-provenance-trace/README.md",
+      "primary_path": "architecture/tokengeist-refund-provenance-trace/original.pdf",
+      "preview_path": "architecture/tokengeist-refund-provenance-trace/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "var-architecture",
       "title": "VAR · 多尺度 VQVAE 与 VAR 两阶段训练",
       "category": "architecture",
@@ -19648,6 +20304,167 @@
       "readme_path": "architecture/vit-original-architecture/README.md",
       "primary_path": "architecture/vit-original-architecture/source.svg",
       "preview_path": "architecture/vit-original-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "vtrace-multihop-visual-attribution",
+      "title": "VTrace · 从回答到视觉证据的多跳归因",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "multimodal",
+        "vision-language",
+        "reasoning"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "用小狗跳过倒木的视觉问答展示直接归因、两跳和更长路径。左侧展开图像块与成对归因矩阵，底部对照校准前后的词元和图像块排序。",
+      "publication": {
+        "title": "Tracing the Evidence: Faithful Token Attribution Through Vision-Language Reasoning",
+        "venue": "arXiv",
+        "year": 2026,
+        "presentation": "preprint",
+        "article_type": "research",
+        "evidence_url": "https://arxiv.org/abs/2609.37656v1",
+        "source_version": "2609.37656v1",
+        "checked_date": "2026-11-08",
+        "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "左侧输入图像块与成对归因矩阵，右侧三层路径，底部校准与最终归因。",
+          "panel_groups": 3,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "用小狗跳过倒木的视觉问答展示直接归因、两跳和更长路径。左侧展开图像块与成对归因矩阵，底部对照校准前后的词元和图像块排序。",
+        "what_to_borrow": [
+          "逐层重复相同图片、问题和推理文字，虚线与短路径标签交代每一跳增加了哪个中间词元。",
+          "保留局部矩阵、文本路径和最终排序三种视图，让公式与具体图像块有可查的对应。"
+        ],
+        "reference_neighbors": [
+          "flashtrace-span-recursive-attribution"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://vtrace-attribution.github.io/",
+        "authors": [
+          "Bowen Yuan",
+          "Danny Wang",
+          "Ruihong Qiu",
+          "Zijian Wang",
+          "Zi Huang"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2609.37656v1",
+          "https://arxiv.org/pdf/2609.37656v1",
+          "https://arxiv.org/src/2609.37656v1",
+          "https://vtrace-attribution.github.io/"
+        ],
+        "arxiv_id": "2609.37656v1",
+        "full_pdf_url": "https://arxiv.org/pdf/2609.37656v1",
+        "full_pdf_sha256": "3ec1a4e14c1e16fd25146d7aa2dcdeefbcb95d0e8e843cc220da4ece5c77e03a",
+        "full_pdf_bytes": 13313262,
+        "page_number": 5,
+        "figure_number": 4,
+        "original_sha256": "4d00d55ff8f09207a4db8e3176b8e4748d154da4fa8f94275ea62d9e82d0d278",
+        "original_bytes": 356294,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2609.37656v1",
+        "archive_sha256": "73c923cd2aec4feebea6ea9922af095b2a2dc4712140828b5436acb06e3cb32e",
+        "archive_bytes": 12892534,
+        "archive_member": "figures/method_fig.pdf",
+        "inclusion_member": "content/3_Methodology.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC BY 4.0（所收录论文版本）",
+        "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 400,
+        "pdf_text_spans": 273,
+        "embedded_raster_images": 14,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 35,
+          "path": 696,
+          "mask": 3,
+          "g": 56,
+          "image": 9,
+          "use": 1071
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 文字转轮廓，原图中的位图内容保留。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 FlashTrace 与现有元素。",
+        "移除 LaTeX 插图片段中的行尾空格。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 538,
+          "sha256": "93556a4f807418061fafd8073bc34fbb08af943079c51743837c0f2855b8a2be"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 469,
+          "sha256": "c2de4034363b21153ef41ef537bda6518a44b6fd9cac2a00deaae7c5994b5219"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 356294,
+          "sha256": "4d00d55ff8f09207a4db8e3176b8e4748d154da4fa8f94275ea62d9e82d0d278"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 672364,
+          "sha256": "0b4e0f7afd1cb8f5922d60aa564b45362e70b0fef181c25b79b5289092954a9f"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 976675,
+          "sha256": "98fcb1ad2645ca076aa5b653c2529028679fe46c328b3971ff4fbc547ffdc100"
+        }
+      ],
+      "path": "architecture/vtrace-multihop-visual-attribution",
+      "metadata_path": "architecture/vtrace-multihop-visual-attribution/metadata.json",
+      "readme_path": "architecture/vtrace-multihop-visual-attribution/README.md",
+      "primary_path": "architecture/vtrace-multihop-visual-attribution/original.pdf",
+      "preview_path": "architecture/vtrace-multihop-visual-attribution/preview.png"
     },
     {
       "schema_version": 1,

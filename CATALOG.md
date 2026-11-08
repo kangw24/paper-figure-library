@@ -7,7 +7,7 @@
 | 类别 | 数量 | 入口 |
 |---|---:|---|
 | Teaser 范例 | 76 | [浏览](teaser/README.md) |
-| Architecture 范例 | 57 | [浏览](architecture/README.md) |
+| Architecture 范例 | 62 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 392 | [按内容与来源浏览](element/README.md) |
 
 完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。
@@ -1079,6 +1079,17 @@ ICLR 2024 · Oral · 矢量 + 原有位图
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/dreamgaussian-architecture/source.svg) · [来源记录](architecture/dreamgaussian-architecture/metadata.json)
 
+### [EAGLE · 图像子区搜索与模态归因](architecture/eagle-visual-language-attribution/README.md)
+
+用一张海滩照片串起超像素分区、贪心搜索和逐步揭示图像子区。输出同时展示词元对视觉或语言的依赖，以及图像上的归因热图。
+
+CVPR 2026 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/eagle-visual-language-attribution/preview.png" width="760" alt="EAGLE · 图像子区搜索与模态归因">](architecture/eagle-visual-language-attribution/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
+[原文件](architecture/eagle-visual-language-attribution/original.pdf) · [来源记录](architecture/eagle-visual-language-attribution/metadata.json)
+
 ### [FlashTrace · 片段归因与多跳递归追踪](architecture/flashtrace-span-recursive-attribution/README.md)
 
 三栏并置归因计算、逐跳回溯的购物示例和逐行解说。每一跳复用同一段文本，用颜色区分目标与高分词元，末尾汇总输入词元的归因分数。
@@ -1111,6 +1122,17 @@ ICML 2024 · Oral · 整图位图，仅构图参考
 
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/genie-architecture/source.png) · [来源记录](architecture/genie-architecture/metadata.json)
+
+### [GrAInS · 归因、PCA 与推理时引导](architecture/grains-attribution-steering-pipeline/README.md)
+
+以交通灯计数为例，依次展开对比积分梯度、正负掩码、PCA 构造引导向量及其在 Transformer 层的注入位置。
+
+ACL 2026 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/grains-attribution-steering-pipeline/preview.png" width="760" alt="GrAInS · 归因、PCA 与推理时引导">](architecture/grains-attribution-steering-pipeline/original.pdf)
+
+来源类型：论文范例。许可：arXiv 非独占分发许可（私有参考）。
+[原文件](architecture/grains-attribution-steering-pipeline/original.pdf) · [来源记录](architecture/grains-attribution-steering-pipeline/metadata.json)
 
 ### [HippoRAG · 三脑区类比与索引检索框架](architecture/hipporag-brain-region-framework/README.md)
 
@@ -1228,6 +1250,17 @@ ICLR 2026 · 会议论文，未核实 Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](architecture/memoryvla-perceptual-cognitive-architecture/original.pdf) · [来源记录](architecture/memoryvla-perceptual-cognitive-architecture/metadata.json)
+
+### [MExGen · 问答扰动与逐级文本归因](architecture/mexgen-perturbation-attribution-workflow/README.md)
+
+围绕一条出生地问答展开文本切分和三条并行扰动。每个回答旁保留具体的标量分数，最后回到着色的原文本并用虚线表示进一步细分。
+
+ACL 2025 · Oral · 矢量 + 原有位图
+
+[<img src="architecture/mexgen-perturbation-attribution-workflow/preview.png" width="760" alt="MExGen · 问答扰动与逐级文本归因">](architecture/mexgen-perturbation-attribution-workflow/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
+[原文件](architecture/mexgen-perturbation-attribution-workflow/original.pdf) · [来源记录](architecture/mexgen-perturbation-attribution-workflow/metadata.json)
 
 ### [多尺度网络总览与模块展开](architecture/multiscale-network/README.md)
 
@@ -1386,6 +1419,17 @@ National Science Review 2024 · 期刊论文 · 综述 · 矢量结构
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](architecture/survey-mllm-connector-framework/original.pdf) · [来源记录](architecture/survey-mllm-connector-framework/metadata.json)
 
+### [Tokengeist · 五轮退款对话的递归溯源](architecture/tokengeist-refund-provenance-trace/README.md)
+
+一段五轮退款对话贯穿全图。逐层展示词元分数如何汇总到对话轮次、如何选取父节点，以及如何将有向无环图裁剪成最终溯源链。
+
+arXiv 2026 · 预印本 · 矢量 + 原有位图
+
+[<img src="architecture/tokengeist-refund-provenance-trace/preview.png" width="760" alt="Tokengeist · 五轮退款对话的递归溯源">](architecture/tokengeist-refund-provenance-trace/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
+[原文件](architecture/tokengeist-refund-provenance-trace/original.pdf) · [来源记录](architecture/tokengeist-refund-provenance-trace/metadata.json)
+
 ### [VAR · 多尺度 VQVAE 与 VAR 两阶段训练](architecture/var-architecture/README.md)
 
 两块并列区域分别解释表示学习和自回归训练，尺度、token 序列和因果 mask 的对应关系可在图中追踪。
@@ -1418,6 +1462,17 @@ ICLR 2021 · Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/vit-original-architecture/source.svg) · [来源记录](architecture/vit-original-architecture/metadata.json)
+
+### [VTrace · 从回答到视觉证据的多跳归因](architecture/vtrace-multihop-visual-attribution/README.md)
+
+用小狗跳过倒木的视觉问答展示直接归因、两跳和更长路径。左侧展开图像块与成对归因矩阵，底部对照校准前后的词元和图像块排序。
+
+arXiv 2026 · 预印本 · 矢量 + 原有位图
+
+[<img src="architecture/vtrace-multihop-visual-attribution/preview.png" width="760" alt="VTrace · 从回答到视觉证据的多跳归因">](architecture/vtrace-multihop-visual-attribution/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
+[原文件](architecture/vtrace-multihop-visual-attribution/original.pdf) · [来源记录](architecture/vtrace-multihop-visual-attribution/metadata.json)
 
 ## Element
 

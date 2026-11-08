@@ -1,0 +1,6 @@
+\begin{figure*}
+    \centering
+    \includegraphics[width=0.9\linewidth]{figures/vlms_steering_2.pdf}
+    \caption{Overview of our attribution-guided steering method for VLMs. Our method consists of three stages: (A) Compute token-level attributions using contrastive Integrated Gradients, identifying the most influential positive and negative tokens (green/red). (B) Construct contrastive inputs by masking these tokens, extract the corresponding hidden states, and apply PCA to obtain directional steering vectors. (C) At inference time, inject these vectors into the model's hidden states at each layer, scaled and normalized to preserve representation scale.}
+    \label{fig:vlms-steering-overall}
+\end{figure*}

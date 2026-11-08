@@ -1,0 +1,8 @@
+Paper: Tokengeist: Multi-Turn Attribution Tracing in Agentic Conversations
+Authors: Jessica Tang, Shraddha Barke, Sharad Agarwal
+Source version: 2607.22610v1
+Archive: https://arxiv.org/src/2607.22610v1
+Member: figures/tokengeist-procedure.pdf
+Original SHA256: aad134dbef93368682b4dc57007a9f321c19c8befa6933615e2db5ef40e493d3
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。

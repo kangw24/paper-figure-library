@@ -1,0 +1,8 @@
+Paper: Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation
+Authors: Ruoyu Chen, Xiaoqing Guo, Kangwei Liu, Siyuan Liang, Shiming Liu, Qunli Zhang, Laiyuan Wang, Hua Zhang, Xiaochun Cao
+Source version: 2509.22496v5
+Archive: https://arxiv.org/src/2509.22496v5
+Member: images/framework.pdf
+Original SHA256: 4a796320b3bd0d6e30e6ef5b589c704cafd99b6529aa909fc85007ca1fb00b58
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。

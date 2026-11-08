@@ -6,7 +6,7 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 整体方法与训练流程 | 27 | [浏览](#framework) |
+| 整体方法与训练流程 | 32 | [浏览](#framework) |
 | 网络主干与模块展开 | 14 | [浏览](#network) |
 | 基础结构与教材范例 | 16 | [浏览](#tutorial) |
 
@@ -25,6 +25,66 @@ ICML 2026 · Oral
 [![预览](flashtrace-span-recursive-attribution/preview.png)](flashtrace-span-recursive-attribution/README.md)
 
 [说明与源文件](flashtrace-span-recursive-attribution/README.md) · [关联元素](flashtrace-span-recursive-attribution/README.md#关联范例与元素)
+
+### [Tokengeist · 五轮退款对话的递归溯源](tokengeist-refund-provenance-trace/README.md)
+
+一段五轮退款对话贯穿全图。逐层展示词元分数如何汇总到对话轮次、如何选取父节点，以及如何将有向无环图裁剪成最终溯源链。
+
+arXiv 2026 · 预印本
+
+**子图组织：** 左栏对话与归因目标，中栏三层递归并配有四步操作说明，右栏并列裁剪前后的溯源图。 原论文 Figure 13。
+
+[![预览](tokengeist-refund-provenance-trace/preview.png)](tokengeist-refund-provenance-trace/README.md)
+
+[说明与源文件](tokengeist-refund-provenance-trace/README.md) · [关联元素](tokengeist-refund-provenance-trace/README.md#关联范例与元素)
+
+### [VTrace · 从回答到视觉证据的多跳归因](vtrace-multihop-visual-attribution/README.md)
+
+用小狗跳过倒木的视觉问答展示直接归因、两跳和更长路径。左侧展开图像块与成对归因矩阵，底部对照校准前后的词元和图像块排序。
+
+arXiv 2026 · 预印本
+
+**子图组织：** 左侧输入图像块与成对归因矩阵，右侧三层路径，底部校准与最终归因。 原论文 Figure 4。
+
+[![预览](vtrace-multihop-visual-attribution/preview.png)](vtrace-multihop-visual-attribution/README.md)
+
+[说明与源文件](vtrace-multihop-visual-attribution/README.md) · [关联元素](vtrace-multihop-visual-attribution/README.md#关联范例与元素)
+
+### [GrAInS · 归因、PCA 与推理时引导](grains-attribution-steering-pipeline/README.md)
+
+以交通灯计数为例，依次展开对比积分梯度、正负掩码、PCA 构造引导向量及其在 Transformer 层的注入位置。
+
+ACL 2026 · 会议论文；未核实 Oral
+
+**子图组织：** A 计算词元归因，B 由掩码样本构造引导向量，C 把向量加到 Transformer 层。 原论文 Figure 2。
+
+[![预览](grains-attribution-steering-pipeline/preview.png)](grains-attribution-steering-pipeline/README.md)
+
+[说明与源文件](grains-attribution-steering-pipeline/README.md) · [关联元素](grains-attribution-steering-pipeline/README.md#关联范例与元素)
+
+### [EAGLE · 图像子区搜索与模态归因](eagle-visual-language-attribution/README.md)
+
+用一张海滩照片串起超像素分区、贪心搜索和逐步揭示图像子区。输出同时展示词元对视觉或语言的依赖，以及图像上的归因热图。
+
+CVPR 2026 · 会议论文；未核实 Oral
+
+**子图组织：** 四栏依次展示输入与图像分区、生成归因、视觉与语言影响、最终解释。 原论文 Figure 2。
+
+[![预览](eagle-visual-language-attribution/preview.png)](eagle-visual-language-attribution/README.md)
+
+[说明与源文件](eagle-visual-language-attribution/README.md) · [关联元素](eagle-visual-language-attribution/README.md#关联范例与元素)
+
+### [MExGen · 问答扰动与逐级文本归因](mexgen-perturbation-attribution-workflow/README.md)
+
+围绕一条出生地问答展开文本切分和三条并行扰动。每个回答旁保留具体的标量分数，最后回到着色的原文本并用虚线表示进一步细分。
+
+ACL 2025 · Oral
+
+**子图组织：** 横向六步为输入、单元切分、生成扰动、问答、标量化和分数汇总，底部虚线回到单元切分。 原论文 Figure 2。
+
+[![预览](mexgen-perturbation-attribution-workflow/preview.png)](mexgen-perturbation-attribution-workflow/README.md)
+
+[说明与源文件](mexgen-perturbation-attribution-workflow/README.md) · [关联元素](mexgen-perturbation-attribution-workflow/README.md#关联范例与元素)
 
 ### [GenAI 语义通信 · 语义记忆与物理信道双路框架](survey-genai-semantic-memory-framework/README.md)
 

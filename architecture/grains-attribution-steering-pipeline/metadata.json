@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "id": "grains-attribution-steering-pipeline",
+  "title": "GrAInS · 归因、PCA 与推理时引导",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "vision-language",
+    "integrated-gradients",
+    "steering"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "以交通灯计数为例，依次展开对比积分梯度、正负掩码、PCA 构造引导向量及其在 Transformer 层的注入位置。",
+  "publication": {
+    "title": "GrAInS: Gradient-based Attribution for Inference-Time Steering of LLMs and VLMs",
+    "venue": "ACL",
+    "year": 2026,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://aclanthology.org/2026.acl-long.2159/",
+    "source_version": "2507.18043v2",
+    "checked_date": "2026-11-08",
+    "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+  },
+  "curation": {
+    "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+    "panel_layout": {
+      "summary": "A 计算词元归因，B 由掩码样本构造引导向量，C 把向量加到 Transformer 层。",
+      "panel_groups": 3,
+      "counting_note": "按图中主要阶段或主题区计数。"
+    },
+    "why_selected": "以交通灯计数为例，依次展开对比积分梯度、正负掩码、PCA 构造引导向量及其在 Transformer 层的注入位置。",
+    "what_to_borrow": [
+      "用一张照片和红绿两色贯穿正负回答、归因高亮、掩码与 PCA 分支。",
+      "用三个编号面板明确阶段边界，并在最后一格单独画出向量进入残差流的位置。"
+    ],
+    "reference_neighbors": [
+      "flashtrace-span-recursive-attribution"
+    ],
+    "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://github.com/duykhuongnguyen/GrAInS",
+    "authors": [
+      "Duy Nguyen",
+      "Archiki Prasad",
+      "Elias Stengel-Eskin",
+      "Mohit Bansal"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2507.18043v2",
+      "https://arxiv.org/pdf/2507.18043v2",
+      "https://arxiv.org/src/2507.18043v2",
+      "https://github.com/duykhuongnguyen/GrAInS",
+      "https://aclanthology.org/2026.acl-long.2159/"
+    ],
+    "arxiv_id": "2507.18043v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2507.18043v2",
+    "full_pdf_sha256": "120f9390f6deefdf3fc88d2be46bc4f1db920540ddf0fe9c4a6b51ffcd5ec743",
+    "full_pdf_bytes": 24625763,
+    "page_number": 4,
+    "figure_number": 2,
+    "original_sha256": "2b745dca00d6139cb77dcb5f7c67a2f1f9eed178afa64ff1af1e9173ff3b0e87",
+    "original_bytes": 4559165,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2507.18043v2",
+    "archive_sha256": "f4e1ecd873c2ecade58dc91c2f43425c7c6b6072b12f461749ade18bc695b483",
+    "archive_bytes": 22471839,
+    "archive_member": "figures/vlms_steering_2.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "arXiv 非独占分发许可（私有参考）",
+    "note": "所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 156,
+    "pdf_text_spans": 62,
+    "embedded_raster_images": 16,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 1,
+      "path": 403,
+      "mask": 12,
+      "g": 42,
+      "image": 21,
+      "use": 662
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+    "notes": [
+      "作者 PDF 的矢量和文字对象保留。SVG 文字转轮廓，原图中的位图内容保留。对象计数不等于子图数。",
+      "桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+    "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+    "归入 Architecture，并关联 FlashTrace 与现有元素。",
+    "移除 LaTeX 插图片段中的行尾空格。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 599,
+      "sha256": "6be3cdbbd8e610ba069976709a15e830e80115e693348389071297ddea0e8464"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 717,
+      "sha256": "04a9ceffd28b43fe80736766f6b75283f62e795a149c37cff68dba06c9b84900"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 4559165,
+      "sha256": "2b745dca00d6139cb77dcb5f7c67a2f1f9eed178afa64ff1af1e9173ff3b0e87"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 315731,
+      "sha256": "4c0f3a273cb3bc95fbc57b5e38217cc707bddfdcdf73b2c0400bc1112b82bede"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 5703763,
+      "sha256": "54b0267ec7f0c2b7d9ee755c1e40e4e18818321d917f5d56c54eef0ecdab2e00"
+    }
+  ]
+}

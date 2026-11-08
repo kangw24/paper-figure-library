@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "id": "vtrace-multihop-visual-attribution",
+  "title": "VTrace · 从回答到视觉证据的多跳归因",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "multimodal",
+    "vision-language",
+    "reasoning"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "用小狗跳过倒木的视觉问答展示直接归因、两跳和更长路径。左侧展开图像块与成对归因矩阵，底部对照校准前后的词元和图像块排序。",
+  "publication": {
+    "title": "Tracing the Evidence: Faithful Token Attribution Through Vision-Language Reasoning",
+    "venue": "arXiv",
+    "year": 2026,
+    "presentation": "preprint",
+    "article_type": "research",
+    "evidence_url": "https://arxiv.org/abs/2609.37656v1",
+    "source_version": "2609.37656v1",
+    "checked_date": "2026-11-08",
+    "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+  },
+  "curation": {
+    "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+    "panel_layout": {
+      "summary": "左侧输入图像块与成对归因矩阵，右侧三层路径，底部校准与最终归因。",
+      "panel_groups": 3,
+      "counting_note": "按图中主要阶段或主题区计数。"
+    },
+    "why_selected": "用小狗跳过倒木的视觉问答展示直接归因、两跳和更长路径。左侧展开图像块与成对归因矩阵，底部对照校准前后的词元和图像块排序。",
+    "what_to_borrow": [
+      "逐层重复相同图片、问题和推理文字，虚线与短路径标签交代每一跳增加了哪个中间词元。",
+      "保留局部矩阵、文本路径和最终排序三种视图，让公式与具体图像块有可查的对应。"
+    ],
+    "reference_neighbors": [
+      "flashtrace-span-recursive-attribution"
+    ],
+    "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://vtrace-attribution.github.io/",
+    "authors": [
+      "Bowen Yuan",
+      "Danny Wang",
+      "Ruihong Qiu",
+      "Zijian Wang",
+      "Zi Huang"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2609.37656v1",
+      "https://arxiv.org/pdf/2609.37656v1",
+      "https://arxiv.org/src/2609.37656v1",
+      "https://vtrace-attribution.github.io/"
+    ],
+    "arxiv_id": "2609.37656v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2609.37656v1",
+    "full_pdf_sha256": "3ec1a4e14c1e16fd25146d7aa2dcdeefbcb95d0e8e843cc220da4ece5c77e03a",
+    "full_pdf_bytes": 13313262,
+    "page_number": 5,
+    "figure_number": 4,
+    "original_sha256": "4d00d55ff8f09207a4db8e3176b8e4748d154da4fa8f94275ea62d9e82d0d278",
+    "original_bytes": 356294,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2609.37656v1",
+    "archive_sha256": "73c923cd2aec4feebea6ea9922af095b2a2dc4712140828b5436acb06e3cb32e",
+    "archive_bytes": 12892534,
+    "archive_member": "figures/method_fig.pdf",
+    "inclusion_member": "content/3_Methodology.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC BY 4.0（所收录论文版本）",
+    "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 400,
+    "pdf_text_spans": 273,
+    "embedded_raster_images": 14,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 35,
+      "path": 696,
+      "mask": 3,
+      "g": 56,
+      "image": 9,
+      "use": 1071
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+    "notes": [
+      "作者 PDF 的矢量和文字对象保留。SVG 文字转轮廓，原图中的位图内容保留。对象计数不等于子图数。",
+      "桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+    "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+    "归入 Architecture，并关联 FlashTrace 与现有元素。",
+    "移除 LaTeX 插图片段中的行尾空格。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 538,
+      "sha256": "93556a4f807418061fafd8073bc34fbb08af943079c51743837c0f2855b8a2be"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 469,
+      "sha256": "c2de4034363b21153ef41ef537bda6518a44b6fd9cac2a00deaae7c5994b5219"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 356294,
+      "sha256": "4d00d55ff8f09207a4db8e3176b8e4748d154da4fa8f94275ea62d9e82d0d278"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 672364,
+      "sha256": "0b4e0f7afd1cb8f5922d60aa564b45362e70b0fef181c25b79b5289092954a9f"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 976675,
+      "sha256": "98fcb1ad2645ca076aa5b653c2529028679fe46c328b3971ff4fbc547ffdc100"
+    }
+  ]
+}

@@ -124,6 +124,11 @@
         "title": "整体方法与训练流程",
         "figures": [
           "flashtrace-span-recursive-attribution",
+          "tokengeist-refund-provenance-trace",
+          "vtrace-multihop-visual-attribution",
+          "grains-attribution-steering-pipeline",
+          "eagle-visual-language-attribution",
+          "mexgen-perturbation-attribution-workflow",
           "survey-genai-semantic-memory-framework",
           "hipporag-brain-region-framework",
           "hipporag2-indexing-retrieval-framework",
@@ -1205,6 +1210,33 @@
       "dit-residual-add",
       "amem-embedding-vector",
       "tabler-arrow-down"
+    ],
+    "tokengeist-refund-provenance-trace": [
+      "tabler-robot",
+      "tabler-database",
+      "tabler-chart-bar",
+      "tabler-filter"
+    ],
+    "vtrace-multihop-visual-attribution": [
+      "vit-patch-projection",
+      "lightglue-assignment-matrix",
+      "tabler-chart-bar"
+    ],
+    "grains-attribution-steering-pipeline": [
+      "dit-self-attention",
+      "dit-residual-add",
+      "amem-embedding-vector",
+      "tabler-chart-scatter"
+    ],
+    "eagle-visual-language-attribution": [
+      "vit-patch-projection",
+      "tabler-chart-line",
+      "tabler-arrow-loop-right"
+    ],
+    "mexgen-perturbation-attribution-workflow": [
+      "tabler-file-text",
+      "tabler-robot",
+      "tabler-arrow-loop-right"
     ]
   }
 }

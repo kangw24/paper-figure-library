@@ -1,0 +1,8 @@
+Paper: Multi-Level Explanations for Generative Language Models
+Authors: Lucas Monteiro Paes, Dennis Wei, Hyo Jin Do, Hendrik Strobelt, Ronny Luss, Amit Dhurandhar, Manish Nagireddy, Karthikeyan Natesan Ramamurthy, Prasanna Sattigeri, Werner Geyer, Soumya Ghosh
+Source version: 2403.14459v2
+Archive: https://arxiv.org/src/2403.14459v2
+Member: Figures/DiagramMexGEN.pdf
+Original SHA256: afdedf3e4a2cc5c3ec3b39c1ab9948ed3711842a019abbcb35e13c72c019339b
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。

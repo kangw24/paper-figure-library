@@ -15,6 +15,10 @@
 - 每一跳重复相同的输入、推理和输出，读者可以直接比较高亮位置如何变化。
 - 两种高亮分别标记本轮归因目标与高分输入，右栏解说与中栏各跳对齐。
 
+## 同类方法图
+
+这些范例都用具体示例串联计算细节与处理步骤。[Tokengeist Fig. 13](../tokengeist-refund-provenance-trace/README.md) · [VTrace Fig. 4](../vtrace-multihop-visual-attribution/README.md) · [GrAInS Fig. 2](../grains-attribution-steering-pipeline/README.md) · [EAGLE Fig. 2](../eagle-visual-language-attribution/README.md) · [MExGen Fig. 2](../mexgen-perturbation-attribution-workflow/README.md)
+
 ## 文件与编辑范围
 
 [作者独立 PDF](original.pdf) · [SVG 转换件](source.svg) · [LaTeX 插图定义](figure-inclusion.tex) · [来源与校验记录](metadata.json)

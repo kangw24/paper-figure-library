@@ -6,8 +6,8 @@
 
 | 预览 | 名称与 SVG | 来源与许可 | 关联范例（最多列三项） |
 |---|---|---|---|
-| <img src="../../element/previews/tabler-chart-line.png" width="140"> | [折线图符号](../../element/svg/tabler-chart-line.svg) | Tabler outline · MIT | [图基础模型范式对照 · 专用学习与共享预训练](../../teaser/survey-graph-foundation-paradigm/README.md) |
-| <img src="../../element/previews/tabler-chart-bar.png" width="140"> | [柱状图符号](../../element/svg/tabler-chart-bar.svg) | Tabler outline · MIT | [MVSplat · 重建质量、速度与参数量的并列对照](../../teaser/mvsplat-comparison/README.md) |
+| <img src="../../element/previews/tabler-chart-line.png" width="140"> | [折线图符号](../../element/svg/tabler-chart-line.svg) | Tabler outline · MIT | [图基础模型范式对照 · 专用学习与共享预训练](../../teaser/survey-graph-foundation-paradigm/README.md) · [EAGLE · 图像子区搜索与模态归因](../../architecture/eagle-visual-language-attribution/README.md) |
+| <img src="../../element/previews/tabler-chart-bar.png" width="140"> | [柱状图符号](../../element/svg/tabler-chart-bar.svg) | Tabler outline · MIT | [MVSplat · 重建质量、速度与参数量的并列对照](../../teaser/mvsplat-comparison/README.md) · [Tokengeist · 五轮退款对话的递归溯源](../../architecture/tokengeist-refund-provenance-trace/README.md) · [VTrace · 从回答到视觉证据的多跳归因](../../architecture/vtrace-multihop-visual-attribution/README.md) |
 | <img src="../../element/previews/tabler-chart-pie.png" width="140"> | [饼图符号](../../element/svg/tabler-chart-pie.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-chart-scatter.png" width="140"> | [散点图符号](../../element/svg/tabler-chart-scatter.svg) | Tabler outline · MIT | [LightGlue：速度与精度权衡](../../teaser/lightglue-tradeoff/README.md) · [自主 Agent 发展 · 趋势曲线与代表场景](../../teaser/survey-agent-growth-landscape/README.md) · [AI4Science 时空尺度图 · 研究对象与共同挑战](../../teaser/survey-ai4science-scale-map/README.md) |
 | <img src="../../element/previews/tabler-chart-histogram.png" width="140"> | [直方图符号](../../element/svg/tabler-chart-histogram.svg) | Tabler outline · MIT | — |

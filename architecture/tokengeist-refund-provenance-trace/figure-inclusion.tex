@@ -1,0 +1,10 @@
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figures/tokengeist-procedure.pdf}
+  \caption{\textbf{Tokengeist procedure on a five-turn refund-tool example.}
+  Stage~1 lists the inputs (the conversation, the target span $\bar{y}$, and the base attributor $\mathcal{A}$).
+  Stage~2 unrolls three recursion steps and shows the per-step substeps (concatenate, score, map to turns, top-$k$) once, in a legend box that applies to every step.
+  Stage~3 shows the constructed provenance DAG and the final trace after relative-threshold extraction with $\alpha\!=\!0.85$ (Section~\ref{sec:tokengeist}).
+  Solid arrows denote attribution edges; the dashed magenta arrow denotes the deterministic structural edge that bridges a tool-result turn to its invoking tool-call turn.}
+  \label{fig:procedure-walkthrough}
+\end{figure*}

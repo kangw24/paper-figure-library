@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "eagle-visual-language-attribution",
+  "title": "EAGLE · 图像子区搜索与模态归因",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "vision-language",
+    "greedy-search",
+    "modality"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "用一张海滩照片串起超像素分区、贪心搜索和逐步揭示图像子区。输出同时展示词元对视觉或语言的依赖，以及图像上的归因热图。",
+  "publication": {
+    "title": "Where MLLMs Attend and What They Rely On: Explaining Autoregressive Token Generation",
+    "venue": "CVPR",
+    "year": 2026,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://github.com/RuoyuChen10/EAGLE",
+    "source_version": "2509.22496v5",
+    "checked_date": "2026-11-08",
+    "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+  },
+  "curation": {
+    "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+    "panel_layout": {
+      "summary": "四栏依次展示输入与图像分区、生成归因、视觉与语言影响、最终解释。",
+      "panel_groups": 4,
+      "counting_note": "按图中主要阶段或主题区计数。"
+    },
+    "why_selected": "用一张海滩照片串起超像素分区、贪心搜索和逐步揭示图像子区。输出同时展示词元对视觉或语言的依赖，以及图像上的归因热图。",
+    "what_to_borrow": [
+      "将候选图像子区按排名并排展示，再用同一批子区解释逐步揭示过程。",
+      "把中间影响曲线贴在对应词元旁，末栏将词元着色与空间热图上下配对。"
+    ],
+    "reference_neighbors": [
+      "flashtrace-span-recursive-attribution"
+    ],
+    "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://github.com/RuoyuChen10/EAGLE",
+    "authors": [
+      "Ruoyu Chen",
+      "Xiaoqing Guo",
+      "Kangwei Liu",
+      "Siyuan Liang",
+      "Shiming Liu",
+      "Qunli Zhang",
+      "Laiyuan Wang",
+      "Hua Zhang",
+      "Xiaochun Cao"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2509.22496v5",
+      "https://arxiv.org/pdf/2509.22496v5",
+      "https://arxiv.org/src/2509.22496v5",
+      "https://github.com/RuoyuChen10/EAGLE"
+    ],
+    "arxiv_id": "2509.22496v5",
+    "full_pdf_url": "https://arxiv.org/pdf/2509.22496v5",
+    "full_pdf_sha256": "665b0d82d05a6bf16dd6c58c0f9c872f55da0cfdee39b329004e27964e570122",
+    "full_pdf_bytes": 33852963,
+    "page_number": 3,
+    "figure_number": 2,
+    "original_sha256": "4a796320b3bd0d6e30e6ef5b589c704cafd99b6529aa909fc85007ca1fb00b58",
+    "original_bytes": 727517,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2509.22496v5",
+    "archive_sha256": "c5dafff122dc55a179a60bb6e4b2baf81812e0f47c28e41570e8dff7963565bf",
+    "archive_bytes": 31963369,
+    "archive_member": "images/framework.pdf",
+    "inclusion_member": "sec/2_related_work.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC BY 4.0（所收录论文版本）",
+    "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 92,
+    "pdf_text_spans": 109,
+    "embedded_raster_images": 37,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 33,
+      "path": 376,
+      "mask": 21,
+      "g": 104,
+      "image": 55,
+      "use": 923
+    },
+    "normalized_path_transforms": 39,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+    "notes": [
+      "作者 PDF 的矢量和文字对象保留。SVG 文字转轮廓，原图中的位图内容保留。对象计数不等于子图数。",
+      "桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+    "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+    "归入 Architecture，并关联 FlashTrace 与现有元素。",
+    "等价展开 39 个 SVG 路径变换矩阵，并重新核对渲染。",
+    "移除 LaTeX 插图片段中的行尾空格。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 596,
+      "sha256": "eb2f1a517c14bcf263af94f7b12d126936ca22d6fd3117428586e05a7c69fb9b"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 459,
+      "sha256": "d5ac8ed698ffb6d75f9a90109cb4914fdeeefaa8ad6a2ba8934e32b56ef7f4f9"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 727517,
+      "sha256": "4a796320b3bd0d6e30e6ef5b589c704cafd99b6529aa909fc85007ca1fb00b58"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 369956,
+      "sha256": "24cfde873318e66d0dd1dda82767a59b92e94b02263726606e289e9762b54e4c"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1173388,
+      "sha256": "6172c409d8c45ad1c68e4a6c37a8088b1f0178a8e3369edacdcd5618347498cb"
+    }
+  ]
+}

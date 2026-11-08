@@ -1,0 +1,8 @@
+Paper: Tracing the Evidence: Faithful Token Attribution Through Vision-Language Reasoning
+Authors: Bowen Yuan, Danny Wang, Ruihong Qiu, Zijian Wang, Zi Huang
+Source version: 2609.37656v1
+Archive: https://arxiv.org/src/2609.37656v1
+Member: figures/method_fig.pdf
+Original SHA256: 4d00d55ff8f09207a4db8e3176b8e4748d154da4fa8f94275ea62d9e82d0d278
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。

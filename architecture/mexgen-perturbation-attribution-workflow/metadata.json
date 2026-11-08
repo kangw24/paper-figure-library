@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "mexgen-perturbation-attribution-workflow",
+  "title": "MExGen · 问答扰动与逐级文本归因",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "text-attribution",
+    "perturbation",
+    "question-answering",
+    "oral"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "围绕一条出生地问答展开文本切分和三条并行扰动。每个回答旁保留具体的标量分数，最后回到着色的原文本并用虚线表示进一步细分。",
+  "publication": {
+    "title": "Multi-Level Explanations for Generative Language Models",
+    "venue": "ACL",
+    "year": 2025,
+    "presentation": "oral",
+    "article_type": "research",
+    "evidence_url": "https://research.ibm.com/events/acl-2025",
+    "source_version": "2403.14459v2",
+    "checked_date": "2026-11-08",
+    "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+  },
+  "curation": {
+    "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+    "panel_layout": {
+      "summary": "横向六步为输入、单元切分、生成扰动、问答、标量化和分数汇总，底部虚线回到单元切分。",
+      "panel_groups": 6,
+      "counting_note": "按图中主要阶段或主题区计数。"
+    },
+    "why_selected": "围绕一条出生地问答展开文本切分和三条并行扰动。每个回答旁保留具体的标量分数，最后回到着色的原文本并用虚线表示进一步细分。",
+    "what_to_borrow": [
+      "将同一问题的多条扰动输入、回答与分数横向对齐，便于看出差别来自哪个文本单元。",
+      "把阶段名称集中在底部，虚线从汇总结果回到切分步骤，呈现多粒度归因的迭代。"
+    ],
+    "reference_neighbors": [
+      "flashtrace-span-recursive-attribution"
+    ],
+    "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://github.com/IBM/ICX360",
+    "authors": [
+      "Lucas Monteiro Paes",
+      "Dennis Wei",
+      "Hyo Jin Do",
+      "Hendrik Strobelt",
+      "Ronny Luss",
+      "Amit Dhurandhar",
+      "Manish Nagireddy",
+      "Karthikeyan Natesan Ramamurthy",
+      "Prasanna Sattigeri",
+      "Werner Geyer",
+      "Soumya Ghosh"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2403.14459v2",
+      "https://arxiv.org/pdf/2403.14459v2",
+      "https://arxiv.org/src/2403.14459v2",
+      "https://github.com/IBM/ICX360",
+      "https://research.ibm.com/events/acl-2025",
+      "https://aclanthology.org/2025.acl-long.1553/"
+    ],
+    "arxiv_id": "2403.14459v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2403.14459v2",
+    "full_pdf_sha256": "aecb9a83a6f173fc84e5906ad68248c44846be88f55cba8b7702768df64db4f6",
+    "full_pdf_bytes": 2627175,
+    "page_number": 3,
+    "figure_number": 2,
+    "original_sha256": "afdedf3e4a2cc5c3ec3b39c1ab9948ed3711842a019abbcb35e13c72c019339b",
+    "original_bytes": 533260,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2403.14459v2",
+    "archive_sha256": "53ebddf4621094cab545b5cfac94d8cfe993904f289359b8e690045936f5bc2e",
+    "archive_bytes": 2051546,
+    "archive_member": "Figures/DiagramMexGEN.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC BY 4.0（所收录论文版本）",
+    "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 48,
+    "pdf_text_spans": 101,
+    "embedded_raster_images": 4,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 11,
+      "path": 224,
+      "mask": 4,
+      "g": 24,
+      "image": 8,
+      "use": 1086
+    },
+    "normalized_path_transforms": 11,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+    "notes": [
+      "作者 PDF 的矢量和文字对象保留。SVG 文字转轮廓，原图中的位图内容保留。对象计数不等于子图数。",
+      "桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+    "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+    "归入 Architecture，并关联 FlashTrace 与现有元素。",
+    "等价展开 11 个 SVG 路径变换矩阵，并重新核对渲染。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 644,
+      "sha256": "fbe0c498e745621b6b6a6504c0f914f7ad977e554d1c613bc44b930687827aef"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 231,
+      "sha256": "af0cde98ea875fb9bdbdeb80a2be77f82e0e91475b147f2422019548c4c99d94"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 533260,
+      "sha256": "afdedf3e4a2cc5c3ec3b39c1ab9948ed3711842a019abbcb35e13c72c019339b"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 120077,
+      "sha256": "8230951f55da67a56a25683a46a68bd4b96696113f1ed2c0966e8ec2abe3f126"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 352545,
+      "sha256": "377016d196050e081135bcb419672b431cd1cc49c80c512aba0c627fef4480bc"
+    }
+  ]
+}

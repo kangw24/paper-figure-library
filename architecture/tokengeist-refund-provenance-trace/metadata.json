@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "tokengeist-refund-provenance-trace",
+  "title": "Tokengeist · 五轮退款对话的递归溯源",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "provenance",
+    "agent",
+    "tool-use"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "一段五轮退款对话贯穿全图。逐层展示词元分数如何汇总到对话轮次、如何选取父节点，以及如何将有向无环图裁剪成最终溯源链。",
+  "publication": {
+    "title": "Tokengeist: Multi-Turn Attribution Tracing in Agentic Conversations",
+    "venue": "arXiv",
+    "year": 2026,
+    "presentation": "preprint",
+    "article_type": "research",
+    "evidence_url": "https://www.microsoft.com/en-us/research/publication/tokengeist-multi-turn-attribution-tracing-in-agentic-conversations/",
+    "source_version": "2607.22610v1",
+    "checked_date": "2026-11-08",
+    "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+  },
+  "curation": {
+    "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+    "panel_layout": {
+      "summary": "左栏对话与归因目标，中栏三层递归并配有四步操作说明，右栏并列裁剪前后的溯源图。",
+      "panel_groups": 3,
+      "counting_note": "按图中主要阶段或主题区计数。"
+    },
+    "why_selected": "一段五轮退款对话贯穿全图。逐层展示词元分数如何汇总到对话轮次、如何选取父节点，以及如何将有向无环图裁剪成最终溯源链。",
+    "what_to_borrow": [
+      "把每一轮都会执行的四步操作集中写在中栏上方，下面三行用同样的布局展示分数和所选节点。",
+      "用同一套角色颜色贯穿原始对话、候选轮次和输出图，虚线区分工具结果到调用轮次的结构边。"
+    ],
+    "reference_neighbors": [
+      "flashtrace-span-recursive-attribution"
+    ],
+    "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://www.microsoft.com/en-us/research/publication/tokengeist-multi-turn-attribution-tracing-in-agentic-conversations/",
+    "authors": [
+      "Jessica Tang",
+      "Shraddha Barke",
+      "Sharad Agarwal"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2607.22610v1",
+      "https://arxiv.org/pdf/2607.22610v1",
+      "https://arxiv.org/src/2607.22610v1",
+      "https://www.microsoft.com/en-us/research/publication/tokengeist-multi-turn-attribution-tracing-in-agentic-conversations/"
+    ],
+    "arxiv_id": "2607.22610v1",
+    "full_pdf_url": "https://arxiv.org/pdf/2607.22610v1",
+    "full_pdf_sha256": "a8659487c2056f2a4144eb8c7f5365dcee38373dd89451805d532e3027e34609",
+    "full_pdf_bytes": 1762376,
+    "page_number": 26,
+    "figure_number": 13,
+    "original_sha256": "aad134dbef93368682b4dc57007a9f321c19c8befa6933615e2db5ef40e493d3",
+    "original_bytes": 389562,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2607.22610v1",
+    "archive_sha256": "b42bbf72ff62edf0f844fd7e4ffbfcc9431fc1c306248488d0e87408fca4eb44",
+    "archive_bytes": 1487319,
+    "archive_member": "figures/tokengeist-procedure.pdf",
+    "inclusion_member": "sections/appendix_procedure.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC BY 4.0（所收录论文版本）",
+    "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 334,
+    "pdf_text_spans": 241,
+    "embedded_raster_images": 6,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 1162,
+      "path": 1771,
+      "g": 1168,
+      "rect": 2,
+      "image": 6,
+      "mask": 2,
+      "use": 1480
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+    "notes": [
+      "作者 PDF 的矢量和文字对象保留。SVG 文字转轮廓，原图中的位图内容保留。对象计数不等于子图数。",
+      "桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+    "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+    "归入 Architecture，并关联 FlashTrace 与现有元素。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 519,
+      "sha256": "246f234b91c794944f1d93608e7eed5c9834516580cae3f2e2b9333fade063b9"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 840,
+      "sha256": "6cac558f6205d604c788a204d4140fe31b1e069b0e9139bb51f6573b75558db0"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 389562,
+      "sha256": "aad134dbef93368682b4dc57007a9f321c19c8befa6933615e2db5ef40e493d3"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 247301,
+      "sha256": "0645e429cdf34f61bc4aef7b7a0a627320b28b770bad79c4e40f86cde0456e4c"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 875808,
+      "sha256": "cbc872c1e1caa95a5f9d016355eb4614267c453facfe75de398073853f16e1e0"
+    }
+  ]
+}

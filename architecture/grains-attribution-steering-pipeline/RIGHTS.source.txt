@@ -1,0 +1,8 @@
+Paper: GrAInS: Gradient-based Attribution for Inference-Time Steering of LLMs and VLMs
+Authors: Duy Nguyen, Archiki Prasad, Elias Stengel-Eskin, Mohit Bansal
+Source version: 2507.18043v2
+Archive: https://arxiv.org/src/2507.18043v2
+Member: figures/vlms_steering_2.pdf
+Original SHA256: 2b745dca00d6139cb77dcb5f7c67a2f1f9eed178afa64ff1af1e9173ff3b0e87
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。

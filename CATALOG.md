@@ -7,7 +7,7 @@
 | 类别 | 数量 | 入口 |
 |---|---:|---|
 | Teaser 范例 | 76 | [浏览](teaser/README.md) |
-| Architecture 范例 | 56 | [浏览](architecture/README.md) |
+| Architecture 范例 | 57 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 392 | [按内容与来源浏览](element/README.md) |
 
 完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。
@@ -1078,6 +1078,17 @@ ICLR 2024 · Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/dreamgaussian-architecture/source.svg) · [来源记录](architecture/dreamgaussian-architecture/metadata.json)
+
+### [FlashTrace · 片段归因与多跳递归追踪](architecture/flashtrace-span-recursive-attribution/README.md)
+
+三栏并置归因计算、逐跳回溯的购物示例和逐行解说。每一跳复用同一段文本，用颜色区分目标与高分词元，末尾汇总输入词元的归因分数。
+
+ICML 2026 · Oral · 矢量 + 原有位图
+
+[<img src="architecture/flashtrace-span-recursive-attribution/preview.png" width="760" alt="FlashTrace · 片段归因与多跳递归追踪">](architecture/flashtrace-span-recursive-attribution/original.pdf)
+
+来源类型：论文范例。许可：CC BY-NC-ND 4.0（所收录论文版本）。
+[原文件](architecture/flashtrace-span-recursive-attribution/original.pdf) · [来源记录](architecture/flashtrace-span-recursive-attribution/metadata.json)
 
 ### [3D Gaussian Splatting · 优化与光栅化双向流程](architecture/gaussian-splatting-architecture/README.md)
 

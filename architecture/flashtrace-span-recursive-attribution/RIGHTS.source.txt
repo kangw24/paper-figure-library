@@ -1,0 +1,8 @@
+Paper: Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs
+Authors: Wenbo Pan, Zhichao Liu, Xianlong Wang, Haining Yu, Xiaohua Jia
+Source version: 2602.01914v4
+Archive: https://arxiv.org/src/2602.01914v4
+Member: Figures/overview.drawio.pdf
+Original SHA256: 5665eb136045a7b785affcb6f35df9339595ac5b99dc0939b98a6a7c9830426b
+Declared article license: https://creativecommons.org/licenses/by-nc-nd/4.0/
+所收录论文版本声明 CC BY-NC-ND 4.0。保留作者署名、原件与许可链接。SVG 和 PNG 保留整幅图的内容，分别用于格式转换与预览。许可限制分发改编后的作品。

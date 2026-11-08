@@ -111,6 +111,7 @@
 
 | 范例 | 现有元素 |
 |---|---|
+| [FlashTrace · 片段归因与多跳递归追踪](../architecture/flashtrace-span-recursive-attribution/README.md) | [DiT 多头自注意力模块](svg/dit-self-attention.svg) · [DiT 残差加法节点](svg/dit-residual-add.svg) · [查询嵌入向量条](svg/amem-embedding-vector.svg) · [下箭头](svg/tabler-arrow-down.svg) |
 | [GenAI 语义通信 · 语义记忆与物理信道双路框架](../architecture/survey-genai-semantic-memory-framework/README.md) | [数据库](svg/tabler-database.svg) · [编码器块](svg/rust-encoder.svg) · [解码器块](svg/rust-decoder.svg) · [分流箭头](svg/tabler-arrows-split.svg) |
 | [HippoRAG · 三脑区类比与索引检索框架](../architecture/hipporag-brain-region-framework/README.md) | [大脑](svg/tabler-brain.svg) · [网络](svg/tabler-network.svg) · [数据库](svg/tabler-database.svg) · [右箭头](svg/tabler-arrow-right.svg) · [大脑侧视图（Servier）](svg/bioicons-brain-servier-1.svg) · [大脑与脑干（Servier）](svg/bioicons-brain-servier-2.svg) · [脑冠状面与海马定位](svg/bioicons-brain-hippocampus.svg) · [锥体神经元](svg/bioicons-pyramidal-neuron.svg) |
 | [HippoRAG 2 · 图谱索引、筛选与检索双阶段](../architecture/hipporag2-indexing-retrieval-framework/README.md) | [网络](svg/tabler-network.svg) · [文本文件](svg/tabler-file-text.svg) · [过滤](svg/tabler-filter.svg) · [右箭头](svg/tabler-arrow-right.svg) |

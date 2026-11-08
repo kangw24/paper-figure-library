@@ -6,13 +6,25 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 整体方法与训练流程 | 26 | [浏览](#framework) |
+| 整体方法与训练流程 | 27 | [浏览](#framework) |
 | 网络主干与模块展开 | 14 | [浏览](#network) |
 | 基础结构与教材范例 | 16 | [浏览](#tutorial) |
 
 <a id="framework"></a>
 
 ## 整体方法与训练流程
+
+### [FlashTrace · 片段归因与多跳递归追踪](flashtrace-span-recursive-attribution/README.md)
+
+三栏并置归因计算、逐跳回溯的购物示例和逐行解说。每一跳复用同一段文本，用颜色区分目标与高分词元，末尾汇总输入词元的归因分数。
+
+ICML 2026 · Oral
+
+**子图组织：** 左栏展开片段归因计算，中栏叠放三跳文本示例并汇总分数，右栏逐行解释归因过程。 原论文 Figure 2。
+
+[![预览](flashtrace-span-recursive-attribution/preview.png)](flashtrace-span-recursive-attribution/README.md)
+
+[说明与源文件](flashtrace-span-recursive-attribution/README.md) · [关联元素](flashtrace-span-recursive-attribution/README.md#关联范例与元素)
 
 ### [GenAI 语义通信 · 语义记忆与物理信道双路框架](survey-genai-semantic-memory-framework/README.md)
 

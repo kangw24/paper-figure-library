@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "id": "flashtrace-span-recursive-attribution",
+  "title": "FlashTrace · 片段归因与多跳递归追踪",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "reasoning",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "oral"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "三栏并置归因计算、逐跳回溯的购物示例和逐行解说。每一跳复用同一段文本，用颜色区分目标与高分词元，末尾汇总输入词元的归因分数。",
+  "publication": {
+    "title": "Towards Long-Horizon Interpretability: Efficient and Faithful Multi-Token Attribution for Reasoning LLMs",
+    "venue": "ICML",
+    "year": 2026,
+    "presentation": "oral",
+    "article_type": "research",
+    "evidence_url": "https://arxiv.org/abs/2602.01914v4",
+    "source_version": "2602.01914v4",
+    "checked_date": "2026-11-08",
+    "source_version_note": "The fixed arXiv version identifies the paper as an ICML 2026 Oral in its author comments."
+  },
+  "curation": {
+    "figure_role": "解释片段归因计算与多跳递归流程，归入 Architecture。",
+    "panel_layout": {
+      "summary": "左栏展开片段归因计算，中栏叠放三跳文本示例并汇总分数，右栏逐行解释归因过程。",
+      "panel_groups": 3,
+      "counting_note": "按三列主题计数，中栏含三轮回溯。"
+    },
+    "why_selected": "三栏并置归因计算、逐跳回溯的购物示例和逐行解说。每一跳复用同一段文本，用颜色区分目标与高分词元，末尾汇总输入词元的归因分数。",
+    "what_to_borrow": [
+      "在各轮使用相同的示例文本，通过高亮位置的变化显示分数如何回溯。",
+      "将计算细节、实例和逐轮解说分栏，保留两类高亮的统一图例。"
+    ],
+    "reviewed_from": "fixed-version paper and caption; author figure PDF in the TeX source archive; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://github.com/wbopan/flashtrace",
+    "authors": [
+      "Wenbo Pan",
+      "Zhichao Liu",
+      "Xianlong Wang",
+      "Haining Yu",
+      "Xiaohua Jia"
+    ],
+    "urls": [
+      "https://github.com/wbopan/flashtrace",
+      "https://arxiv.org/abs/2602.01914v4",
+      "https://arxiv.org/pdf/2602.01914v4",
+      "https://arxiv.org/src/2602.01914v4",
+      "https://proceedings.mlr.press/v306/pan26g.html"
+    ],
+    "arxiv_id": "2602.01914v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2602.01914v4",
+    "full_pdf_sha256": "e9ff709d03baf846cc9afd13d35b3455a2f664c37610aae08d32bcdd85843249",
+    "full_pdf_bytes": 6185499,
+    "page_number": 3,
+    "figure_number": 2,
+    "original_sha256": "5665eb136045a7b785affcb6f35df9339595ac5b99dc0939b98a6a7c9830426b",
+    "original_bytes": 1495524,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2602.01914v4",
+    "archive_sha256": "3f838cdd5d63cb348ac638667fce9527d2772b7a29d7ec480c595878b3154d7a",
+    "archive_bytes": 4325785,
+    "archive_member": "Figures/overview.drawio.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "CC BY-NC-ND 4.0（所收录论文版本）",
+    "note": "所收录论文版本声明 CC BY-NC-ND 4.0。保留作者署名、原件与许可链接。SVG 和 PNG 保留整幅图的内容，分别用于格式转换与预览。许可限制分发改编后的作品。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 330,
+    "pdf_text_spans": 68,
+    "embedded_raster_images": 41,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 2,
+      "path": 931,
+      "mask": 40,
+      "g": 124,
+      "image": 81,
+      "use": 1141
+    },
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True)",
+    "notes": [
+      "PDF 中的矢量、文字和位图对象保留。SVG 的文字转轮廓，原有位图保留。对象数不代表子图数。",
+      "作者的 TeX 源包未附独立 .drawio 文件。桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "按原字节保存作者固定版本 TeX 源包里的独立图件，并记录原始插图定义。",
+    "由作者 PDF 生成 PNG 预览与自包含 SVG 转换件，保留原图内容。",
+    "归入 Architecture，并与现有元素按表达功能互链。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 658,
+      "sha256": "1d034cc38916650c7f40736d97ec0782cbb0f4beece223e05ae4fee8963ca9e0"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 427,
+      "sha256": "07a205143545a0e3d2ae903a29563e78ec89e03d0b83dbeead73d8d92c490cc7"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1495524,
+      "sha256": "5665eb136045a7b785affcb6f35df9339595ac5b99dc0939b98a6a7c9830426b"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 422645,
+      "sha256": "2ec27ae9be21514ee7680f694449a513a6ace4e92bd3509dd56eca4b4b879762"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 2048176,
+      "sha256": "9ef1122ee70595b69c11eae6ddc0768f2d0924efecfe272a8d786ffebe127571"
+    }
+  ]
+}

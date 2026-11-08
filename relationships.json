@@ -123,6 +123,7 @@
         "id": "framework",
         "title": "整体方法与训练流程",
         "figures": [
+          "flashtrace-span-recursive-attribution",
           "survey-genai-semantic-memory-framework",
           "hipporag-brain-region-framework",
           "hipporag2-indexing-retrieval-framework",
@@ -1198,6 +1199,12 @@
       "tabler-database",
       "tabler-robot",
       "tabler-arrow-loop-right"
+    ],
+    "flashtrace-span-recursive-attribution": [
+      "dit-self-attention",
+      "dit-residual-add",
+      "amem-embedding-vector",
+      "tabler-arrow-down"
     ]
   }
 }

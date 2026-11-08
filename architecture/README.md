@@ -6,7 +6,7 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 整体方法与训练流程 | 32 | [浏览](#framework) |
+| 整体方法与训练流程 | 38 | [浏览](#framework) |
 | 网络主干与模块展开 | 14 | [浏览](#network) |
 | 基础结构与教材范例 | 16 | [浏览](#tutorial) |
 
@@ -85,6 +85,78 @@ ACL 2025 · Oral
 [![预览](mexgen-perturbation-attribution-workflow/preview.png)](mexgen-perturbation-attribution-workflow/README.md)
 
 [说明与源文件](mexgen-perturbation-attribution-workflow/README.md) · [关联元素](mexgen-perturbation-attribution-workflow/README.md#关联范例与元素)
+
+### [Chain-of-Table · 自行车名次表的迭代推理](chain-of-table-cyclist-table-reasoning/README.md)
+
+同一张自行车名次表贯穿三种解法。方法部分把选操作、填参数、变换表格画成循环，右侧列出四轮操作及最终汇总表。
+
+ICLR 2024 · 会议论文；未核实 Oral
+
+**子图组织：** 共用左侧原表与问题。上方两行分别显示直接推理和程序辅助推理，下方展开三步循环与完整操作历史。 原论文 Figure 1。
+
+[![预览](chain-of-table-cyclist-table-reasoning/preview.png)](chain-of-table-cyclist-table-reasoning/README.md)
+
+[说明与源文件](chain-of-table-cyclist-table-reasoning/README.md) · [关联元素](chain-of-table-cyclist-table-reasoning/README.md#关联范例与元素)
+
+### [Graph of Thoughts · 64 个数字的分支排序](graph-of-thoughts-sorting-walkthrough/README.md)
+
+用同一组 64 个数字说明如何拆成四个子数组、比较候选排序、保留高分结果并逐层合并。上方有全局操作图，下方附中间结果、分数与参数批注。
+
+AAAI 2024 · 会议论文；未核实 Oral
+
+**子图组织：** 上半部是排序操作图与图例，下半部放大其中的分块、生成候选、评分、保留和合并操作。 原论文 Figure 4。
+
+[![预览](graph-of-thoughts-sorting-walkthrough/preview.png)](graph-of-thoughts-sorting-walkthrough/README.md)
+
+[说明与源文件](graph-of-thoughts-sorting-walkthrough/README.md) · [关联元素](graph-of-thoughts-sorting-walkthrough/README.md#关联范例与元素)
+
+### [IRCoT · 歌曲作者问答的多轮检索与推理](ircot-songwriting-multihop-retrieval/README.md)
+
+以追查 Murray Head 代表歌曲的作者为主线。每轮生成的推理句成为下一轮检索查询，文档不断累加，右侧展示模块输入和提示词组成。
+
+ACL 2023 · 会议论文；未核实 Oral
+
+**子图组织：** 左侧为歌曲作者问答的交替流程，右侧拆出检索和推理两个模块，底部汇总检索文档。 原论文 Figure 2。
+
+[![预览](ircot-songwriting-multihop-retrieval/preview.png)](ircot-songwriting-multihop-retrieval/README.md)
+
+[说明与源文件](ircot-songwriting-multihop-retrieval/README.md) · [关联元素](ircot-songwriting-multihop-retrieval/README.md#关联范例与元素)
+
+### [VoxPoser · 开抽屉并绕开花瓶的轨迹规划](voxposer-drawer-value-map-planning/README.md)
+
+用“打开上层抽屉并避开花瓶”串起双相机观测、视觉语言模型、代码、可供性图与约束图，最后叠加机器人末端轨迹。
+
+CoRL 2023 · 会议论文；未核实 Oral
+
+**子图组织：** 左部组合三维值图，从双相机观测和指令到代码及两类地图。右部在同一场景里画出轨迹。 原论文 Figure 2。
+
+[![预览](voxposer-drawer-value-map-planning/preview.png)](voxposer-drawer-value-map-planning/README.md)
+
+[说明与源文件](voxposer-drawer-value-map-planning/README.md) · [关联元素](voxposer-drawer-value-map-planning/README.md#关联范例与元素)
+
+### [G-Retriever · 图问答的索引、子图与生成](g-retriever-graph-question-walkthrough/README.md)
+
+围绕 Justin Bieber 的兄弟是谁，展示实体及边的索引、候选检索、连通子图的选择，以及子图和问题如何接入模型。
+
+NeurIPS 2024 · 会议论文；未核实 Oral
+
+**子图组织：** 四个编号面板分别展示索引、检索、构建连通子图和生成。关键实体颜色跨面板保持一致。 原论文 Figure 3。
+
+[![预览](g-retriever-graph-question-walkthrough/preview.png)](g-retriever-graph-question-walkthrough/README.md)
+
+[说明与源文件](g-retriever-graph-question-walkthrough/README.md) · [关联元素](g-retriever-graph-question-walkthrough/README.md#关联范例与元素)
+
+### [Tree of Thoughts · 24 点的分支生成与评估](tree-of-thoughts-game24-search/README.md)
+
+用 4、9、10、13 玩 24 点。左侧保留每次运算后剩余的数，右侧拿树上的输入和候选状态展开生成与评估模块。
+
+NeurIPS 2023 · 会议论文；未核实 Oral
+
+**子图组织：** 左侧为搜索树。右上展开候选生成提示与输出，右下展开候选评估提示与输出。 原论文 Figure 2。
+
+[![预览](tree-of-thoughts-game24-search/preview.png)](tree-of-thoughts-game24-search/README.md)
+
+[说明与源文件](tree-of-thoughts-game24-search/README.md) · [关联元素](tree-of-thoughts-game24-search/README.md#关联范例与元素)
 
 ### [GenAI 语义通信 · 语义记忆与物理信道双路框架](survey-genai-semantic-memory-framework/README.md)
 

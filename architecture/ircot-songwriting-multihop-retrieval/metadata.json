@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "ircot-songwriting-multihop-retrieval",
+  "title": "IRCoT · 歌曲作者问答的多轮检索与推理",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "multi-hop",
+    "worked-example",
+    "retrieval"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "以追查 Murray Head 代表歌曲的作者为主线。每轮生成的推理句成为下一轮检索查询，文档不断累加，右侧展示模块输入和提示词组成。",
+  "publication": {
+    "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+    "venue": "ACL",
+    "year": 2023,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://aclanthology.org/2023.acl-long.557/",
+    "source_version": "2212.10509v2",
+    "checked_date": "2026-11-08",
+    "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+  },
+  "curation": {
+    "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+    "panel_layout": {
+      "summary": "左侧为歌曲作者问答的交替流程，右侧拆出检索和推理两个模块，底部汇总检索文档。",
+      "panel_groups": 3,
+      "counting_note": "按图中主要阶段或主题区计数。"
+    },
+    "why_selected": "以追查 Murray Head 代表歌曲的作者为主线。每轮生成的推理句成为下一轮检索查询，文档不断累加，右侧展示模块输入和提示词组成。",
+    "what_to_borrow": [
+      "用往返箭头区分检索和推理，文档颜色在检索结果、下一轮输入和最终汇总里保持一致。",
+      "主线走完整个例子，右栏单独展开检索接口和推理提示，提示里还能看到一个短的上下文示范。"
+    ],
+    "reference_neighbors": [
+      "tokengeist-refund-provenance-trace"
+    ],
+    "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://github.com/StonyBrookNLP/ircot",
+    "authors": [
+      "Harsh Trivedi",
+      "Niranjan Balasubramanian",
+      "Tushar Khot",
+      "Ashish Sabharwal"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2212.10509v2",
+      "https://arxiv.org/pdf/2212.10509v2",
+      "https://arxiv.org/src/2212.10509v2",
+      "https://github.com/StonyBrookNLP/ircot",
+      "https://aclanthology.org/2023.acl-long.557/"
+    ],
+    "arxiv_id": "2212.10509v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2212.10509v2",
+    "full_pdf_sha256": "8bb43c0bd11fafc8bdac7655eef0649b28fd9fbb44fca877b1d31d7b4527759a",
+    "full_pdf_bytes": 6155558,
+    "page_number": 4,
+    "figure_number": 2,
+    "original_sha256": "3e822b1354afefd3880f65444abea980da412b72bd3684f78fbbdd1fcdf249f6",
+    "original_bytes": 163044,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2212.10509v2",
+    "archive_sha256": "08854c3b7838ac340af98664385f29ed13d71c422294ab7ea0da3e4ffbb69f84",
+    "archive_bytes": 6004165,
+    "archive_member": "images/main-figure.pdf",
+    "inclusion_member": "method.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC BY 4.0（所收录论文版本）",
+    "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 62,
+    "pdf_text_spans": 50,
+    "embedded_raster_images": 21,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 1,
+      "path": 151,
+      "mask": 20,
+      "g": 63,
+      "image": 13,
+      "use": 1144
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+    "notes": [
+      "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓，并保留原有位图。对象计数不等于子图数。",
+      "桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+    "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+    "归入 Architecture，并关联 Tokengeist Fig. 13 与现有元素。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 567,
+      "sha256": "b950598ebf9439a583201a52c8ddf420a30dd28c9c6166fa9e0bfe9c02630ed7"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 799,
+      "sha256": "c96e8a234f561dc02b7c995b14b383d14d238f975b07d881de96d2697478f204"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 163044,
+      "sha256": "3e822b1354afefd3880f65444abea980da412b72bd3684f78fbbdd1fcdf249f6"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 193455,
+      "sha256": "61027d19920b4b45c4b8334adb5ecfb1b987653bea473f689b18ad14a4edb416"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 421198,
+      "sha256": "c28976ab4156232de49e244b81f7f9f970d5a894ce83c8a80e686935d9db56d3"
+    }
+  ]
+}

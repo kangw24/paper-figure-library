@@ -17,8 +17,8 @@
 | <img src="../../element/previews/tabler-math-min.png" width="140"> | [最小值](../../element/svg/tabler-math-min.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-math-not.png" width="140"> | [逻辑非](../../element/svg/tabler-math-not.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-filter.png" width="140"> | [过滤](../../element/svg/tabler-filter.svg) | Tabler outline · MIT | [CRAG · 评估分流、知识纠正与三路生成](../../architecture/crag-evaluate-correct-generate/README.md) · [HippoRAG 2 · 图谱索引、筛选与检索双阶段](../../architecture/hipporag2-indexing-retrieval-framework/README.md) · [Tokengeist · 五轮退款对话的递归溯源](../../architecture/tokengeist-refund-provenance-trace/README.md) |
-| <img src="../../element/previews/tabler-sort-ascending.png" width="140"> | [升序](../../element/svg/tabler-sort-ascending.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-sort-descending.png" width="140"> | [降序](../../element/svg/tabler-sort-descending.svg) | Tabler outline · MIT | — |
+| <img src="../../element/previews/tabler-sort-ascending.png" width="140"> | [升序](../../element/svg/tabler-sort-ascending.svg) | Tabler outline · MIT | [Graph of Thoughts · 64 个数字的分支排序](../../architecture/graph-of-thoughts-sorting-walkthrough/README.md) |
+| <img src="../../element/previews/tabler-sort-descending.png" width="140"> | [降序](../../element/svg/tabler-sort-descending.svg) | Tabler outline · MIT | [Chain-of-Table · 自行车名次表的迭代推理](../../architecture/chain-of-table-cyclist-table-reasoning/README.md) |
 | <img src="../../element/previews/tabler-zoom-in.png" width="140"> | [放大](../../element/svg/tabler-zoom-in.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-zoom-out.png" width="140"> | [缩小](../../element/svg/tabler-zoom-out.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-resize.png" width="140"> | [改变尺寸](../../element/svg/tabler-resize.svg) | Tabler outline · MIT | — |

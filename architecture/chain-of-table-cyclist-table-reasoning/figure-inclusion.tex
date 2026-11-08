@@ -1,0 +1,10 @@
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/CoTable-Figure1-Jan8.pdf}
+    \vspace{-3.5mm}
+    \caption{
+    Illustration of the comparison between (a) generic reasoning, (b) program-aided reasoning, and (c) the proposed \textsc{Chain-of-Table}.
+    Given a complex table where a cyclist's nationality and name are in the same cell, (a) is unable to provide the correct answer through multi-step reasoning due to the complexity; (b) generates and executes programs (e.g. SQL queries) to deliver the answer, but it also falls short in accurately parsing the name and nationality in the table. In contrast, (c) \method iteratively samples a chain of operations that effectively transform the complex table into a version specifically tailored to the question. With the assistance of \method, the LLM can arrive at the correct answer.
+    }
+    \label{fig:cotable}
+\end{figure*}

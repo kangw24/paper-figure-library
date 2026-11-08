@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "voxposer-drawer-value-map-planning",
+  "title": "VoxPoser · 开抽屉并绕开花瓶的轨迹规划",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "robotics",
+    "worked-example",
+    "motion-planning"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "用“打开上层抽屉并避开花瓶”串起双相机观测、视觉语言模型、代码、可供性图与约束图，最后叠加机器人末端轨迹。",
+  "publication": {
+    "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+    "venue": "CoRL",
+    "year": 2023,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://proceedings.mlr.press/v229/huang23b.html",
+    "source_version": "2307.05973v2",
+    "checked_date": "2026-11-08",
+    "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+  },
+  "curation": {
+    "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+    "panel_layout": {
+      "summary": "左部组合三维值图，从双相机观测和指令到代码及两类地图。右部在同一场景里画出轨迹。",
+      "panel_groups": 2,
+      "counting_note": "按图中主要阶段或主题区计数。"
+    },
+    "why_selected": "用“打开上层抽屉并避开花瓶”串起双相机观测、视觉语言模型、代码、可供性图与约束图，最后叠加机器人末端轨迹。",
+    "what_to_borrow": [
+      "代码里的两个函数与两排地图一一对应，地图保留同样的两个观察角度。",
+      "在输入和轨迹输出中重复呈现抽屉、花瓶与机器人，让目标和障碍物在各阶段都能对上。"
+    ],
+    "reference_neighbors": [
+      "vtrace-multihop-visual-attribution"
+    ],
+    "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://voxposer.github.io/",
+    "authors": [
+      "Wenlong Huang",
+      "Chen Wang",
+      "Ruohan Zhang",
+      "Yunzhu Li",
+      "Jiajun Wu",
+      "Li Fei-Fei"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2307.05973v2",
+      "https://arxiv.org/pdf/2307.05973v2",
+      "https://arxiv.org/src/2307.05973v2",
+      "https://voxposer.github.io/",
+      "https://proceedings.mlr.press/v229/huang23b.html"
+    ],
+    "arxiv_id": "2307.05973v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2307.05973v2",
+    "full_pdf_sha256": "cf1cadcf7a1ee44979908c07698f87755c9b5340a79420db509a92d6d2533d42",
+    "full_pdf_bytes": 9374922,
+    "page_number": 4,
+    "figure_number": 2,
+    "original_sha256": "518006c12551b14e333a7e2ede6ce67859143a33c52df880dbca6fab01db85f0",
+    "original_bytes": 1043253,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2307.05973v2",
+    "archive_sha256": "249b4c4a07b2c9e46326fc48ee8622c335c83099a5199e0a8900a383b7d10501",
+    "archive_bytes": 8915222,
+    "archive_member": "media/method.pdf",
+    "inclusion_member": "main.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "arXiv 非独占分发许可（私有参考）",
+    "note": "所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 28,
+    "pdf_text_spans": 56,
+    "embedded_raster_images": 10,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 14,
+      "path": 151,
+      "mask": 4,
+      "g": 33,
+      "image": 14,
+      "use": 577
+    },
+    "normalized_path_transforms": 6,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+    "notes": [
+      "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓，并保留原有位图。对象计数不等于子图数。",
+      "桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+    "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+    "归入 Architecture，并关联 VTrace Fig. 4 与现有元素。",
+    "等价展开 6 个 SVG 路径变换矩阵，并重新核对渲染。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 600,
+      "sha256": "3489ea52c58229cae9c700179f1f40bd9d2db215bad29767f4a31d798250a3a3"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 718,
+      "sha256": "9b1118f0d8285b75ae87b47f0177dcf1a28bbad9ec084e47f7492cb611fb2ba7"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 1043253,
+      "sha256": "518006c12551b14e333a7e2ede6ce67859143a33c52df880dbca6fab01db85f0"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 594482,
+      "sha256": "b13002fd8373cbd2f686efc7e4481dadae5b945e86a31e04feea5a93a2bdeb03"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 1524923,
+      "sha256": "b0e253860865edb4dec25ddf6488fa2883a005cc11c1932e01ac0c9ae5acee28"
+    }
+  ]
+}

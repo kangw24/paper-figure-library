@@ -1,0 +1,6 @@
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=0.95\textwidth]{images/main-figure.pdf}
+\caption{\iconsys interleaves chain-of-thought (CoT) generation and retrieval steps to guide the retrieval by CoT and vice-versa. We start by retrieving $K$ documents using the question as they query and repeat two steps alternatingly until termination. (i) \texttt{reason}-step generates next CoT sentence based on the question, so far retrieved paragraphs, and CoT sentences. (ii) \texttt{retrieve}-step retrieves $K$ more paragraphs based on the last CoT sentence. The process terminates when the generated CoT has ``answer is'' or the number of steps exceeds a threshold. The collection of all paragraphs is returned as the retrieval result on the termination.}
+\label{fig:main-figure}
+\end{figure*}

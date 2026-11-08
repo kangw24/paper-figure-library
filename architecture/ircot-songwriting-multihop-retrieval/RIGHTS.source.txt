@@ -1,0 +1,8 @@
+Paper: Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions
+Authors: Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, Ashish Sabharwal
+Source version: 2212.10509v2
+Archive: https://arxiv.org/src/2212.10509v2
+Member: images/main-figure.pdf
+Original SHA256: 3e822b1354afefd3880f65444abea980da412b72bd3684f78fbbdd1fcdf249f6
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。

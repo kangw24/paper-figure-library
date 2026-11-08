@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "g-retriever-graph-question-walkthrough",
+  "title": "G-Retriever · 图问答的索引、子图与生成",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "graph-rag",
+    "worked-example",
+    "question-answering"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "围绕 Justin Bieber 的兄弟是谁，展示实体及边的索引、候选检索、连通子图的选择，以及子图和问题如何接入模型。",
+  "publication": {
+    "title": "G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html",
+    "source_version": "2402.07630v3",
+    "checked_date": "2026-11-08",
+    "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+  },
+  "curation": {
+    "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+    "panel_layout": {
+      "summary": "四个编号面板分别展示索引、检索、构建连通子图和生成。关键实体颜色跨面板保持一致。",
+      "panel_groups": 4,
+      "counting_note": "按图中主要阶段或主题区计数。"
+    },
+    "why_selected": "围绕 Justin Bieber 的兄弟是谁，展示实体及边的索引、候选检索、连通子图的选择，以及子图和问题如何接入模型。",
+    "what_to_borrow": [
+      "以同色实体连接原图、检索后的子图和生成结果，边的关系也保留在中间状态里。",
+      "生成模块同时展开图编码、投影和文本化提示，用图例标记冻结及可训练部分。"
+    ],
+    "reference_neighbors": [
+      "vtrace-multihop-visual-attribution"
+    ],
+    "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://github.com/XiaoxinHe/G-Retriever",
+    "authors": [
+      "Xiaoxin He",
+      "Yijun Tian",
+      "Yifei Sun",
+      "Nitesh V. Chawla",
+      "Thomas Laurent",
+      "Yann LeCun",
+      "Xavier Bresson",
+      "Bryan Hooi"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2402.07630v3",
+      "https://arxiv.org/pdf/2402.07630v3",
+      "https://arxiv.org/src/2402.07630v3",
+      "https://github.com/XiaoxinHe/G-Retriever",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html"
+    ],
+    "arxiv_id": "2402.07630v3",
+    "full_pdf_url": "https://arxiv.org/pdf/2402.07630v3",
+    "full_pdf_sha256": "c88093cd95417a12b8c7166ecc1132c9b52d077a4f73f84e7100e25722902b98",
+    "full_pdf_bytes": 4747389,
+    "page_number": 6,
+    "figure_number": 3,
+    "original_sha256": "c021ec817ae436276dd800a8a4cd028b0593dac52adfd92ef783e98934e01e02",
+    "original_bytes": 216185,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2402.07630v3",
+    "archive_sha256": "051d49fc9644def6469ef4cb7ff302c074741d0ca3450797aa15b4e03f3b0760",
+    "archive_bytes": 21090501,
+    "archive_member": "figs/overview_v3.pdf",
+    "inclusion_member": "neurips_2024.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "arXiv 非独占分发许可（私有参考）",
+    "note": "所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 359,
+    "pdf_text_spans": 70,
+    "embedded_raster_images": 11,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 3,
+      "path": 618,
+      "mask": 9,
+      "g": 31,
+      "image": 6,
+      "use": 854
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+    "notes": [
+      "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓，并保留原有位图。对象计数不等于子图数。",
+      "桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+    "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+    "归入 Architecture，并关联 VTrace Fig. 4 与现有元素。",
+    "移除 LaTeX 插图片段中的行尾空格。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 657,
+      "sha256": "82ca3501d52c4074cba2ea471797921f3fe5b36d880e9e8c8cbf29ff7aa88d6d"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 633,
+      "sha256": "be2a0560a70a4e000e38c1b6eee7b0ef4c457d22b39e61a0d19b6b69ba1e68cb"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 216185,
+      "sha256": "c021ec817ae436276dd800a8a4cd028b0593dac52adfd92ef783e98934e01e02"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 162852,
+      "sha256": "1b4f0d5af3080ad746588970e262ff4584da0bb9f2c22038fcfdd5954570da83"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 857479,
+      "sha256": "b4dbb6bcdd82a8b49a0ce3765c4f2120aaa6e450794efc07e2e503c2f13825c4"
+    }
+  ]
+}

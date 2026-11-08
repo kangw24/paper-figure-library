@@ -129,6 +129,12 @@
           "grains-attribution-steering-pipeline",
           "eagle-visual-language-attribution",
           "mexgen-perturbation-attribution-workflow",
+          "chain-of-table-cyclist-table-reasoning",
+          "graph-of-thoughts-sorting-walkthrough",
+          "ircot-songwriting-multihop-retrieval",
+          "voxposer-drawer-value-map-planning",
+          "g-retriever-graph-question-walkthrough",
+          "tree-of-thoughts-game24-search",
           "survey-genai-semantic-memory-framework",
           "hipporag-brain-region-framework",
           "hipporag2-indexing-retrieval-framework",
@@ -1237,6 +1243,38 @@
       "tabler-file-text",
       "tabler-robot",
       "tabler-arrow-loop-right"
+    ],
+    "chain-of-table-cyclist-table-reasoning": [
+      "tabler-table",
+      "tabler-sort-descending",
+      "tabler-arrow-loop-right"
+    ],
+    "graph-of-thoughts-sorting-walkthrough": [
+      "tabler-graph",
+      "tabler-sort-ascending",
+      "tabler-arrows-split",
+      "tabler-arrows-join"
+    ],
+    "ircot-songwriting-multihop-retrieval": [
+      "hipporag2-passage",
+      "tabler-database-search",
+      "tabler-arrows-right-left"
+    ],
+    "voxposer-drawer-value-map-planning": [
+      "tabler-robot",
+      "tabler-map",
+      "tabler-route"
+    ],
+    "g-retriever-graph-question-walkthrough": [
+      "hipporag2-knowledge-graph",
+      "hipporag2-triples",
+      "tabler-database-search",
+      "dit-self-attention"
+    ],
+    "tree-of-thoughts-game24-search": [
+      "tabler-arrows-split",
+      "tabler-graph",
+      "tabler-filter"
     ]
   }
 }

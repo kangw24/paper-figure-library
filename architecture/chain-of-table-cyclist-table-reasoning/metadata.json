@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "chain-of-table-cyclist-table-reasoning",
+  "title": "Chain-of-Table · 自行车名次表的迭代推理",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "table-reasoning",
+    "worked-example",
+    "iteration"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "同一张自行车名次表贯穿三种解法。方法部分把选操作、填参数、变换表格画成循环，右侧列出四轮操作及最终汇总表。",
+  "publication": {
+    "title": "Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding",
+    "venue": "ICLR",
+    "year": 2024,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f53fd88a4340063ecd258c0ae9948b40-Abstract-Conference.html",
+    "source_version": "2401.04398v2",
+    "checked_date": "2026-11-08",
+    "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+  },
+  "curation": {
+    "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+    "panel_layout": {
+      "summary": "共用左侧原表与问题。上方两行分别显示直接推理和程序辅助推理，下方展开三步循环与完整操作历史。",
+      "panel_groups": 3,
+      "counting_note": "按图中主要阶段或主题区计数。"
+    },
+    "why_selected": "同一张自行车名次表贯穿三种解法。方法部分把选操作、填参数、变换表格画成循环，右侧列出四轮操作及最终汇总表。",
+    "what_to_borrow": [
+      "基线和新方法共用原表，红色批注直接连到被错读的单元格。",
+      "把单轮的输入、输出与多轮的操作历史分开画，同时复用表格与函数框的配色。"
+    ],
+    "reference_neighbors": [
+      "tokengeist-refund-provenance-trace"
+    ],
+    "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://github.com/google-research/chain-of-table",
+    "authors": [
+      "Zilong Wang",
+      "Hao Zhang",
+      "Chun-Liang Li",
+      "Julian Martin Eisenschlos",
+      "Vincent Perot",
+      "Zifeng Wang",
+      "Lesly Miculicich",
+      "Yasuhisa Fujii",
+      "Jingbo Shang",
+      "Chen-Yu Lee",
+      "Tomas Pfister"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2401.04398v2",
+      "https://arxiv.org/pdf/2401.04398v2",
+      "https://arxiv.org/src/2401.04398v2",
+      "https://github.com/google-research/chain-of-table",
+      "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f53fd88a4340063ecd258c0ae9948b40-Abstract-Conference.html"
+    ],
+    "arxiv_id": "2401.04398v2",
+    "full_pdf_url": "https://arxiv.org/pdf/2401.04398v2",
+    "full_pdf_sha256": "b852a161dacdd1eb3ebebc140b8d9f6724aba6512bdabf74ff75f84159d03918",
+    "full_pdf_bytes": 1638905,
+    "page_number": 2,
+    "figure_number": 1,
+    "original_sha256": "a396e4455353679f708302f493bb6d5e24681ed0ba2f36d4b7a7d875759b2807",
+    "original_bytes": 276346,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2401.04398v2",
+    "archive_sha256": "fc5dc39ab33c6e201870ea17521d04f1b31d769b9e3ea18a71d541696cbca612",
+    "archive_bytes": 1065742,
+    "archive_member": "figures/CoTable-Figure1-Jan8.pdf",
+    "inclusion_member": "contents/1-introduction.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "arXiv 非独占分发许可（私有参考）",
+    "note": "所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 279,
+    "pdf_text_spans": 123,
+    "embedded_raster_images": 11,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "clipPath": 1,
+      "path": 508,
+      "mask": 11,
+      "g": 35,
+      "image": 20,
+      "use": 1526
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+    "notes": [
+      "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓，并保留原有位图。对象计数不等于子图数。",
+      "桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+    "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+    "归入 Architecture，并关联 Tokengeist Fig. 13 与现有元素。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 710,
+      "sha256": "bceb05755cd4ed4411080e952bde764ffce19b9b4d782da8b1bf3fd828fb2612"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 915,
+      "sha256": "bc40c524b01c98b3b768cfb953ab9a233718630479046ff6c8d4e0e1bcab3f94"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 276346,
+      "sha256": "a396e4455353679f708302f493bb6d5e24681ed0ba2f36d4b7a7d875759b2807"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 356074,
+      "sha256": "ec3d729dabf01c04d0a601ed02e181a0212dbe5a6afe80c2be53da9f22381649"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 614795,
+      "sha256": "9909819c16fe7b13013d4f090be23b3533edabf03aa9ba8bd1b62705a7a322c9"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Paper: Tree of Thoughts: Deliberate Problem Solving with Large Language Models
+Authors: Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, Karthik Narasimhan
+Source version: 2305.10601v2
+Archive: https://arxiv.org/src/2305.10601v2
+Member: figures/game24_diagram.pdf
+Original SHA256: 0d23dfdb661f10097bb1b4d4b25c9227c04964e4ac3f75032039413fa80cfad1
+Declared article license: https://creativecommons.org/licenses/by/4.0/
+所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。

@@ -1,0 +1,8 @@
+Paper: VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models
+Authors: Wenlong Huang, Chen Wang, Ruohan Zhang, Yunzhu Li, Jiajun Wu, Li Fei-Fei
+Source version: 2307.05973v2
+Archive: https://arxiv.org/src/2307.05973v2
+Member: media/method.pdf
+Original SHA256: 518006c12551b14e333a7e2ede6ce67859143a33c52df880dbca6fab01db85f0
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。

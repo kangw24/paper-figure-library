@@ -2,7 +2,7 @@
   "schema_version": 2,
   "counts": {
     "teaser": 76,
-    "architecture": 62,
+    "architecture": 68,
     "element": 392,
     "mechanism": 17,
     "layout-template": 11
@@ -13027,6 +13027,173 @@
     },
     {
       "schema_version": 1,
+      "id": "chain-of-table-cyclist-table-reasoning",
+      "title": "Chain-of-Table · 自行车名次表的迭代推理",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "table-reasoning",
+        "worked-example",
+        "iteration"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "同一张自行车名次表贯穿三种解法。方法部分把选操作、填参数、变换表格画成循环，右侧列出四轮操作及最终汇总表。",
+      "publication": {
+        "title": "Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding",
+        "venue": "ICLR",
+        "year": 2024,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f53fd88a4340063ecd258c0ae9948b40-Abstract-Conference.html",
+        "source_version": "2401.04398v2",
+        "checked_date": "2026-11-08",
+        "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "共用左侧原表与问题。上方两行分别显示直接推理和程序辅助推理，下方展开三步循环与完整操作历史。",
+          "panel_groups": 3,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "同一张自行车名次表贯穿三种解法。方法部分把选操作、填参数、变换表格画成循环，右侧列出四轮操作及最终汇总表。",
+        "what_to_borrow": [
+          "基线和新方法共用原表，红色批注直接连到被错读的单元格。",
+          "把单轮的输入、输出与多轮的操作历史分开画，同时复用表格与函数框的配色。"
+        ],
+        "reference_neighbors": [
+          "tokengeist-refund-provenance-trace"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://github.com/google-research/chain-of-table",
+        "authors": [
+          "Zilong Wang",
+          "Hao Zhang",
+          "Chun-Liang Li",
+          "Julian Martin Eisenschlos",
+          "Vincent Perot",
+          "Zifeng Wang",
+          "Lesly Miculicich",
+          "Yasuhisa Fujii",
+          "Jingbo Shang",
+          "Chen-Yu Lee",
+          "Tomas Pfister"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2401.04398v2",
+          "https://arxiv.org/pdf/2401.04398v2",
+          "https://arxiv.org/src/2401.04398v2",
+          "https://github.com/google-research/chain-of-table",
+          "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f53fd88a4340063ecd258c0ae9948b40-Abstract-Conference.html"
+        ],
+        "arxiv_id": "2401.04398v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2401.04398v2",
+        "full_pdf_sha256": "b852a161dacdd1eb3ebebc140b8d9f6724aba6512bdabf74ff75f84159d03918",
+        "full_pdf_bytes": 1638905,
+        "page_number": 2,
+        "figure_number": 1,
+        "original_sha256": "a396e4455353679f708302f493bb6d5e24681ed0ba2f36d4b7a7d875759b2807",
+        "original_bytes": 276346,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2401.04398v2",
+        "archive_sha256": "fc5dc39ab33c6e201870ea17521d04f1b31d769b9e3ea18a71d541696cbca612",
+        "archive_bytes": 1065742,
+        "archive_member": "figures/CoTable-Figure1-Jan8.pdf",
+        "inclusion_member": "contents/1-introduction.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "arXiv 非独占分发许可（私有参考）",
+        "note": "所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 279,
+        "pdf_text_spans": 123,
+        "embedded_raster_images": 11,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 1,
+          "path": 508,
+          "mask": 11,
+          "g": 35,
+          "image": 20,
+          "use": 1526
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓，并保留原有位图。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 Tokengeist Fig. 13 与现有元素。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 710,
+          "sha256": "bceb05755cd4ed4411080e952bde764ffce19b9b4d782da8b1bf3fd828fb2612"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 915,
+          "sha256": "bc40c524b01c98b3b768cfb953ab9a233718630479046ff6c8d4e0e1bcab3f94"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 276346,
+          "sha256": "a396e4455353679f708302f493bb6d5e24681ed0ba2f36d4b7a7d875759b2807"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 356074,
+          "sha256": "ec3d729dabf01c04d0a601ed02e181a0212dbe5a6afe80c2be53da9f22381649"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 614795,
+          "sha256": "9909819c16fe7b13013d4f090be23b3533edabf03aa9ba8bd1b62705a7a322c9"
+        }
+      ],
+      "path": "architecture/chain-of-table-cyclist-table-reasoning",
+      "metadata_path": "architecture/chain-of-table-cyclist-table-reasoning/metadata.json",
+      "readme_path": "architecture/chain-of-table-cyclist-table-reasoning/README.md",
+      "primary_path": "architecture/chain-of-table-cyclist-table-reasoning/original.pdf",
+      "preview_path": "architecture/chain-of-table-cyclist-table-reasoning/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "clip",
       "title": "CLIP Figure 1：训练到零样本预测",
       "category": "architecture",
@@ -15418,6 +15585,171 @@
     },
     {
       "schema_version": 1,
+      "id": "g-retriever-graph-question-walkthrough",
+      "title": "G-Retriever · 图问答的索引、子图与生成",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "graph-rag",
+        "worked-example",
+        "question-answering"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "围绕 Justin Bieber 的兄弟是谁，展示实体及边的索引、候选检索、连通子图的选择，以及子图和问题如何接入模型。",
+      "publication": {
+        "title": "G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering",
+        "venue": "NeurIPS",
+        "year": 2024,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html",
+        "source_version": "2402.07630v3",
+        "checked_date": "2026-11-08",
+        "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "四个编号面板分别展示索引、检索、构建连通子图和生成。关键实体颜色跨面板保持一致。",
+          "panel_groups": 4,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "围绕 Justin Bieber 的兄弟是谁，展示实体及边的索引、候选检索、连通子图的选择，以及子图和问题如何接入模型。",
+        "what_to_borrow": [
+          "以同色实体连接原图、检索后的子图和生成结果，边的关系也保留在中间状态里。",
+          "生成模块同时展开图编码、投影和文本化提示，用图例标记冻结及可训练部分。"
+        ],
+        "reference_neighbors": [
+          "vtrace-multihop-visual-attribution"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://github.com/XiaoxinHe/G-Retriever",
+        "authors": [
+          "Xiaoxin He",
+          "Yijun Tian",
+          "Yifei Sun",
+          "Nitesh V. Chawla",
+          "Thomas Laurent",
+          "Yann LeCun",
+          "Xavier Bresson",
+          "Bryan Hooi"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2402.07630v3",
+          "https://arxiv.org/pdf/2402.07630v3",
+          "https://arxiv.org/src/2402.07630v3",
+          "https://github.com/XiaoxinHe/G-Retriever",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html"
+        ],
+        "arxiv_id": "2402.07630v3",
+        "full_pdf_url": "https://arxiv.org/pdf/2402.07630v3",
+        "full_pdf_sha256": "c88093cd95417a12b8c7166ecc1132c9b52d077a4f73f84e7100e25722902b98",
+        "full_pdf_bytes": 4747389,
+        "page_number": 6,
+        "figure_number": 3,
+        "original_sha256": "c021ec817ae436276dd800a8a4cd028b0593dac52adfd92ef783e98934e01e02",
+        "original_bytes": 216185,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2402.07630v3",
+        "archive_sha256": "051d49fc9644def6469ef4cb7ff302c074741d0ca3450797aa15b4e03f3b0760",
+        "archive_bytes": 21090501,
+        "archive_member": "figs/overview_v3.pdf",
+        "inclusion_member": "neurips_2024.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "arXiv 非独占分发许可（私有参考）",
+        "note": "所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 359,
+        "pdf_text_spans": 70,
+        "embedded_raster_images": 11,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 3,
+          "path": 618,
+          "mask": 9,
+          "g": 31,
+          "image": 6,
+          "use": 854
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓，并保留原有位图。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 VTrace Fig. 4 与现有元素。",
+        "移除 LaTeX 插图片段中的行尾空格。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 657,
+          "sha256": "82ca3501d52c4074cba2ea471797921f3fe5b36d880e9e8c8cbf29ff7aa88d6d"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 633,
+          "sha256": "be2a0560a70a4e000e38c1b6eee7b0ef4c457d22b39e61a0d19b6b69ba1e68cb"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 216185,
+          "sha256": "c021ec817ae436276dd800a8a4cd028b0593dac52adfd92ef783e98934e01e02"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 162852,
+          "sha256": "1b4f0d5af3080ad746588970e262ff4584da0bb9f2c22038fcfdd5954570da83"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 857479,
+          "sha256": "b4dbb6bcdd82a8b49a0ce3765c4f2120aaa6e450794efc07e2e503c2f13825c4"
+        }
+      ],
+      "path": "architecture/g-retriever-graph-question-walkthrough",
+      "metadata_path": "architecture/g-retriever-graph-question-walkthrough/metadata.json",
+      "readme_path": "architecture/g-retriever-graph-question-walkthrough/README.md",
+      "primary_path": "architecture/g-retriever-graph-question-walkthrough/original.pdf",
+      "preview_path": "architecture/g-retriever-graph-question-walkthrough/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "gaussian-splatting-architecture",
       "title": "3D Gaussian Splatting · 优化与光栅化双向流程",
       "category": "architecture",
@@ -15862,6 +16194,173 @@
       "readme_path": "architecture/grains-attribution-steering-pipeline/README.md",
       "primary_path": "architecture/grains-attribution-steering-pipeline/original.pdf",
       "preview_path": "architecture/grains-attribution-steering-pipeline/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "graph-of-thoughts-sorting-walkthrough",
+      "title": "Graph of Thoughts · 64 个数字的分支排序",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "graph-reasoning",
+        "worked-example",
+        "sorting"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "用同一组 64 个数字说明如何拆成四个子数组、比较候选排序、保留高分结果并逐层合并。上方有全局操作图，下方附中间结果、分数与参数批注。",
+      "publication": {
+        "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+        "venue": "AAAI",
+        "year": 2024,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29720",
+        "source_version": "2308.09687v4",
+        "checked_date": "2026-11-08",
+        "source_version_note": "The downloaded arXiv v4 labels the sorting figure Figure 4. The AAAI proceedings label the corresponding sorting figure Figure 3."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "上半部是排序操作图与图例，下半部放大其中的分块、生成候选、评分、保留和合并操作。",
+          "panel_groups": 2,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "用同一组 64 个数字说明如何拆成四个子数组、比较候选排序、保留高分结果并逐层合并。上方有全局操作图，下方附中间结果、分数与参数批注。",
+        "what_to_borrow": [
+          "用一组高亮轮廓圈出全局操作图里要展开的节点，再在下面用同色块映射到实际数字。",
+          "把每轮候选的局部结果和分数并排放，评分规则与保留数量贴着相应操作标注。"
+        ],
+        "reference_neighbors": [
+          "tokengeist-refund-provenance-trace"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://github.com/spcl/graph-of-thoughts",
+        "authors": [
+          "Maciej Besta",
+          "Nils Blach",
+          "Ales Kubicek",
+          "Robert Gerstenberger",
+          "Michal Podstawski",
+          "Lukas Gianinazzi",
+          "Joanna Gajda",
+          "Tomasz Lehmann",
+          "Hubert Niewiadomski",
+          "Piotr Nyczyk",
+          "Torsten Hoefler"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2308.09687v4",
+          "https://arxiv.org/pdf/2308.09687v4",
+          "https://arxiv.org/src/2308.09687v4",
+          "https://github.com/spcl/graph-of-thoughts",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/29720"
+        ],
+        "arxiv_id": "2308.09687v4",
+        "full_pdf_url": "https://arxiv.org/pdf/2308.09687v4",
+        "full_pdf_sha256": "73caa3c05813105e5db38edfbb58e1b660771a00dfdb74768c8845e15263c5da",
+        "full_pdf_bytes": 3128193,
+        "page_number": 6,
+        "figure_number": 4,
+        "original_sha256": "ac2833f60e9becca11df550b7d4a224f29f3ee157a1613c34d99451c6d99a124",
+        "original_bytes": 491758,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2308.09687v4",
+        "archive_sha256": "73fd60b08d4cf9c165094c2b63d1fe817c146a9dcc63f1dbe49c5555b3f9a8b1",
+        "archive_bytes": 886673,
+        "archive_member": "sort_5.pdf",
+        "inclusion_member": "cases.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "arXiv 非独占分发许可（私有参考）",
+        "note": "所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 285,
+        "pdf_text_spans": 163,
+        "embedded_raster_images": 32,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "path": 509,
+          "clipPath": 32,
+          "mask": 32,
+          "g": 129,
+          "image": 64,
+          "use": 2025
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓，并保留原有位图。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 Tokengeist Fig. 13 与现有元素。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 693,
+          "sha256": "bac7b905ac3f5e954b9ed2c301fb322dc6ab8c3a5177683edd77340fd5266ae2"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 344,
+          "sha256": "0821edfd435f973b46f2d3703fb686e6c8dcd1be47d1332d6d8d75d7b47acc3a"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 491758,
+          "sha256": "ac2833f60e9becca11df550b7d4a224f29f3ee157a1613c34d99451c6d99a124"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 614697,
+          "sha256": "62c97a1323a7b4fc9d0ff18f8ac90b214c2efc1bfb16808dee640b012c0c2983"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 983169,
+          "sha256": "4b0d78dd37204fc1d0fffb50f3c5f0c7d1ab6d1b117469b5495e109c29382464"
+        }
+      ],
+      "path": "architecture/graph-of-thoughts-sorting-walkthrough",
+      "metadata_path": "architecture/graph-of-thoughts-sorting-walkthrough/metadata.json",
+      "readme_path": "architecture/graph-of-thoughts-sorting-walkthrough/README.md",
+      "primary_path": "architecture/graph-of-thoughts-sorting-walkthrough/original.pdf",
+      "preview_path": "architecture/graph-of-thoughts-sorting-walkthrough/preview.png"
     },
     {
       "schema_version": 1,
@@ -16321,6 +16820,166 @@
       "readme_path": "architecture/instant-ngp-hash-architecture/README.md",
       "primary_path": "architecture/instant-ngp-hash-architecture/source.svg",
       "preview_path": "architecture/instant-ngp-hash-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "ircot-songwriting-multihop-retrieval",
+      "title": "IRCoT · 歌曲作者问答的多轮检索与推理",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "multi-hop",
+        "worked-example",
+        "retrieval"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "以追查 Murray Head 代表歌曲的作者为主线。每轮生成的推理句成为下一轮检索查询，文档不断累加，右侧展示模块输入和提示词组成。",
+      "publication": {
+        "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+        "venue": "ACL",
+        "year": 2023,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://aclanthology.org/2023.acl-long.557/",
+        "source_version": "2212.10509v2",
+        "checked_date": "2026-11-08",
+        "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "左侧为歌曲作者问答的交替流程，右侧拆出检索和推理两个模块，底部汇总检索文档。",
+          "panel_groups": 3,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "以追查 Murray Head 代表歌曲的作者为主线。每轮生成的推理句成为下一轮检索查询，文档不断累加，右侧展示模块输入和提示词组成。",
+        "what_to_borrow": [
+          "用往返箭头区分检索和推理，文档颜色在检索结果、下一轮输入和最终汇总里保持一致。",
+          "主线走完整个例子，右栏单独展开检索接口和推理提示，提示里还能看到一个短的上下文示范。"
+        ],
+        "reference_neighbors": [
+          "tokengeist-refund-provenance-trace"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://github.com/StonyBrookNLP/ircot",
+        "authors": [
+          "Harsh Trivedi",
+          "Niranjan Balasubramanian",
+          "Tushar Khot",
+          "Ashish Sabharwal"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2212.10509v2",
+          "https://arxiv.org/pdf/2212.10509v2",
+          "https://arxiv.org/src/2212.10509v2",
+          "https://github.com/StonyBrookNLP/ircot",
+          "https://aclanthology.org/2023.acl-long.557/"
+        ],
+        "arxiv_id": "2212.10509v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2212.10509v2",
+        "full_pdf_sha256": "8bb43c0bd11fafc8bdac7655eef0649b28fd9fbb44fca877b1d31d7b4527759a",
+        "full_pdf_bytes": 6155558,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "3e822b1354afefd3880f65444abea980da412b72bd3684f78fbbdd1fcdf249f6",
+        "original_bytes": 163044,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2212.10509v2",
+        "archive_sha256": "08854c3b7838ac340af98664385f29ed13d71c422294ab7ea0da3e4ffbb69f84",
+        "archive_bytes": 6004165,
+        "archive_member": "images/main-figure.pdf",
+        "inclusion_member": "method.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC BY 4.0（所收录论文版本）",
+        "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 62,
+        "pdf_text_spans": 50,
+        "embedded_raster_images": 21,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 1,
+          "path": 151,
+          "mask": 20,
+          "g": 63,
+          "image": 13,
+          "use": 1144
+        },
+        "normalized_path_transforms": 0,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓，并保留原有位图。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 Tokengeist Fig. 13 与现有元素。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 567,
+          "sha256": "b950598ebf9439a583201a52c8ddf420a30dd28c9c6166fa9e0bfe9c02630ed7"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 799,
+          "sha256": "c96e8a234f561dc02b7c995b14b383d14d238f975b07d881de96d2697478f204"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 163044,
+          "sha256": "3e822b1354afefd3880f65444abea980da412b72bd3684f78fbbdd1fcdf249f6"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 193455,
+          "sha256": "61027d19920b4b45c4b8334adb5ecfb1b987653bea473f689b18ad14a4edb416"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 421198,
+          "sha256": "c28976ab4156232de49e244b81f7f9f970d5a894ce83c8a80e686935d9db56d3"
+        }
+      ],
+      "path": "architecture/ircot-songwriting-multihop-retrieval",
+      "metadata_path": "architecture/ircot-songwriting-multihop-retrieval/metadata.json",
+      "readme_path": "architecture/ircot-songwriting-multihop-retrieval/README.md",
+      "primary_path": "architecture/ircot-songwriting-multihop-retrieval/original.pdf",
+      "preview_path": "architecture/ircot-songwriting-multihop-retrieval/preview.png"
     },
     {
       "schema_version": 1,
@@ -19874,6 +20533,168 @@
     },
     {
       "schema_version": 1,
+      "id": "tree-of-thoughts-game24-search",
+      "title": "Tree of Thoughts · 24 点的分支生成与评估",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "tree-search",
+        "worked-example",
+        "arithmetic"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "用 4、9、10、13 玩 24 点。左侧保留每次运算后剩余的数，右侧拿树上的输入和候选状态展开生成与评估模块。",
+      "publication": {
+        "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+        "venue": "NeurIPS",
+        "year": 2023,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/271db9922b8d1f4dd7aaef84ed5ac703-Abstract-Conference.html",
+        "source_version": "2305.10601v2",
+        "checked_date": "2026-11-08",
+        "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "左侧为搜索树。右上展开候选生成提示与输出，右下展开候选评估提示与输出。",
+          "panel_groups": 3,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "用 4、9、10、13 玩 24 点。左侧保留每次运算后剩余的数，右侧拿树上的输入和候选状态展开生成与评估模块。",
+        "what_to_borrow": [
+          "用虚线框定位搜索树里要展开的状态，再连到右侧对应的模型提示词。",
+          "用颜色标出能继续的分支和失败路径。候选评估模块给出剩余数字以及模型的具体判断。"
+        ],
+        "reference_neighbors": [
+          "tokengeist-refund-provenance-trace"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://github.com/princeton-nlp/tree-of-thought-llm",
+        "authors": [
+          "Shunyu Yao",
+          "Dian Yu",
+          "Jeffrey Zhao",
+          "Izhak Shafran",
+          "Thomas L. Griffiths",
+          "Yuan Cao",
+          "Karthik Narasimhan"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2305.10601v2",
+          "https://arxiv.org/pdf/2305.10601v2",
+          "https://arxiv.org/src/2305.10601v2",
+          "https://github.com/princeton-nlp/tree-of-thought-llm",
+          "https://proceedings.neurips.cc/paper_files/paper/2023/hash/271db9922b8d1f4dd7aaef84ed5ac703-Abstract-Conference.html"
+        ],
+        "arxiv_id": "2305.10601v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2305.10601v2",
+        "full_pdf_sha256": "79c5237e3f63953a73f2b0d6894327702ee1f7e981450c251bb1b5cb4f8d7b8f",
+        "full_pdf_bytes": 799685,
+        "page_number": 5,
+        "figure_number": 2,
+        "original_sha256": "0d23dfdb661f10097bb1b4d4b25c9227c04964e4ac3f75032039413fa80cfad1",
+        "original_bytes": 95253,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2305.10601v2",
+        "archive_sha256": "e602c297e3cb21f7b1a14039eaf7a23a124353a62c066743602780e25c1b9fc6",
+        "archive_bytes": 637671,
+        "archive_member": "figures/game24_diagram.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "license": {
+        "status": "source-license",
+        "name": "CC BY 4.0（所收录论文版本）",
+        "note": "所收录 arXiv 版本标注 CC BY 4.0。保留作者署名和出处，图中第三方图像的权利以原出处为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 160,
+        "pdf_text_spans": 74,
+        "embedded_raster_images": 0,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 2,
+          "path": 300,
+          "g": 2,
+          "use": 1134
+        },
+        "normalized_path_transforms": 94,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 Tokengeist Fig. 13 与现有元素。",
+        "等价展开 94 个 SVG 路径变换矩阵，并重新核对渲染。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 572,
+          "sha256": "38e15a2dda6da21b95d75020689cabb899e5351a9fff539f796eea4c5179cef2"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 263,
+          "sha256": "e5f27a7f07439652422675b6e1281201aa8e474f461e2324a15a99c0744a6feb"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 95253,
+          "sha256": "0d23dfdb661f10097bb1b4d4b25c9227c04964e4ac3f75032039413fa80cfad1"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 92047,
+          "sha256": "d8d15056a9cf68841d3de867fa65d56d957d86999343a16cebbdc812aca2e20f"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 273309,
+          "sha256": "1f5e839f156a9161166d4aa5394416bdc05ab92fc377aa23d99258cad7e26dc0"
+        }
+      ],
+      "path": "architecture/tree-of-thoughts-game24-search",
+      "metadata_path": "architecture/tree-of-thoughts-game24-search/metadata.json",
+      "readme_path": "architecture/tree-of-thoughts-game24-search/README.md",
+      "primary_path": "architecture/tree-of-thoughts-game24-search/original.pdf",
+      "preview_path": "architecture/tree-of-thoughts-game24-search/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "var-architecture",
       "title": "VAR · 多尺度 VQVAE 与 VAR 两阶段训练",
       "category": "architecture",
@@ -20304,6 +21125,169 @@
       "readme_path": "architecture/vit-original-architecture/README.md",
       "primary_path": "architecture/vit-original-architecture/source.svg",
       "preview_path": "architecture/vit-original-architecture/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "voxposer-drawer-value-map-planning",
+      "title": "VoxPoser · 开抽屉并绕开花瓶的轨迹规划",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "interpretability",
+        "attribution",
+        "multi-panel",
+        "pdf",
+        "svg",
+        "robotics",
+        "worked-example",
+        "motion-planning"
+      ],
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "summary": "用“打开上层抽屉并避开花瓶”串起双相机观测、视觉语言模型、代码、可供性图与约束图，最后叠加机器人末端轨迹。",
+      "publication": {
+        "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+        "venue": "CoRL",
+        "year": 2023,
+        "presentation": "conference-paper",
+        "article_type": "research",
+        "evidence_url": "https://proceedings.mlr.press/v229/huang23b.html",
+        "source_version": "2307.05973v2",
+        "checked_date": "2026-11-08",
+        "source_version_note": "Venue and year refer to the verified publication status. The source figure is from the fixed arXiv version."
+      },
+      "curation": {
+        "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+        "panel_layout": {
+          "summary": "左部组合三维值图，从双相机观测和指令到代码及两类地图。右部在同一场景里画出轨迹。",
+          "panel_groups": 2,
+          "counting_note": "按图中主要阶段或主题区计数。"
+        },
+        "why_selected": "用“打开上层抽屉并避开花瓶”串起双相机观测、视觉语言模型、代码、可供性图与约束图，最后叠加机器人末端轨迹。",
+        "what_to_borrow": [
+          "代码里的两个函数与两排地图一一对应，地图保留同样的两个观察角度。",
+          "在输入和轨迹输出中重复呈现抽屉、花瓶与机器人，让目标和障碍物在各阶段都能对上。"
+        ],
+        "reference_neighbors": [
+          "vtrace-multihop-visual-attribution"
+        ],
+        "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+      },
+      "source": {
+        "project": "https://voxposer.github.io/",
+        "authors": [
+          "Wenlong Huang",
+          "Chen Wang",
+          "Ruohan Zhang",
+          "Yunzhu Li",
+          "Jiajun Wu",
+          "Li Fei-Fei"
+        ],
+        "urls": [
+          "https://arxiv.org/abs/2307.05973v2",
+          "https://arxiv.org/pdf/2307.05973v2",
+          "https://arxiv.org/src/2307.05973v2",
+          "https://voxposer.github.io/",
+          "https://proceedings.mlr.press/v229/huang23b.html"
+        ],
+        "arxiv_id": "2307.05973v2",
+        "full_pdf_url": "https://arxiv.org/pdf/2307.05973v2",
+        "full_pdf_sha256": "cf1cadcf7a1ee44979908c07698f87755c9b5340a79420db509a92d6d2533d42",
+        "full_pdf_bytes": 9374922,
+        "page_number": 4,
+        "figure_number": 2,
+        "original_sha256": "518006c12551b14e333a7e2ede6ce67859143a33c52df880dbca6fab01db85f0",
+        "original_bytes": 1043253,
+        "native_origin": "author-tex-source-archive",
+        "archive_url": "https://arxiv.org/src/2307.05973v2",
+        "archive_sha256": "249b4c4a07b2c9e46326fc48ee8622c335c83099a5199e0a8900a383b7d10501",
+        "archive_bytes": 8915222,
+        "archive_member": "media/method.pdf",
+        "inclusion_member": "main.tex",
+        "retrieved_date": "2026-11-08",
+        "checked_date": "2026-11-08",
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "license": {
+        "status": "reference-only",
+        "name": "arXiv 非独占分发许可（私有参考）",
+        "note": "所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。",
+        "file": "RIGHTS.source.txt"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "author independent PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "editable_text_by_format": {
+          "pdf": "original text objects and outlines retained",
+          "svg": "PDF conversion, text outlined"
+        },
+        "pdf_drawing_objects": 28,
+        "pdf_text_spans": 56,
+        "embedded_raster_images": 10,
+        "svg_object_counts": {
+          "svg": 1,
+          "defs": 1,
+          "clipPath": 14,
+          "path": 151,
+          "mask": 4,
+          "g": 33,
+          "image": 14,
+          "use": 577
+        },
+        "normalized_path_transforms": 6,
+        "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+        "notes": [
+          "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓，并保留原有位图。对象计数不等于子图数。",
+          "桌面 Illustrator 尚未实测。"
+        ]
+      },
+      "changes": [
+        "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+        "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+        "归入 Architecture，并关联 VTrace Fig. 4 与现有元素。",
+        "等价展开 6 个 SVG 路径变换矩阵，并重新核对渲染。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-08",
+      "files": [
+        {
+          "path": "RIGHTS.source.txt",
+          "bytes": 600,
+          "sha256": "3489ea52c58229cae9c700179f1f40bd9d2db215bad29767f4a31d798250a3a3"
+        },
+        {
+          "path": "figure-inclusion.tex",
+          "bytes": 718,
+          "sha256": "9b1118f0d8285b75ae87b47f0177dcf1a28bbad9ec084e47f7492cb611fb2ba7"
+        },
+        {
+          "path": "original.pdf",
+          "bytes": 1043253,
+          "sha256": "518006c12551b14e333a7e2ede6ce67859143a33c52df880dbca6fab01db85f0"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 594482,
+          "sha256": "b13002fd8373cbd2f686efc7e4481dadae5b945e86a31e04feea5a93a2bdeb03"
+        },
+        {
+          "path": "source.svg",
+          "bytes": 1524923,
+          "sha256": "b0e253860865edb4dec25ddf6488fa2883a005cc11c1932e01ac0c9ae5acee28"
+        }
+      ],
+      "path": "architecture/voxposer-drawer-value-map-planning",
+      "metadata_path": "architecture/voxposer-drawer-value-map-planning/metadata.json",
+      "readme_path": "architecture/voxposer-drawer-value-map-planning/README.md",
+      "primary_path": "architecture/voxposer-drawer-value-map-planning/original.pdf",
+      "preview_path": "architecture/voxposer-drawer-value-map-planning/preview.png"
     },
     {
       "schema_version": 1,

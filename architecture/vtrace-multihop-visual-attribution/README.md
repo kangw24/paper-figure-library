@@ -19,6 +19,10 @@
 
 同类构图可对照 [FlashTrace Figure 2](../flashtrace-span-recursive-attribution/README.md)。
 
+## 贯穿示例的架构图
+
+[VoxPoser](../voxposer-drawer-value-map-planning/README.md) · [G-Retriever](../g-retriever-graph-question-walkthrough/README.md)
+
 ## 文件与编辑范围
 
 [作者独立 PDF](original.pdf) · [SVG 转换件](source.svg) · [LaTeX 插图定义](figure-inclusion.tex) · [来源与校验记录](metadata.json)

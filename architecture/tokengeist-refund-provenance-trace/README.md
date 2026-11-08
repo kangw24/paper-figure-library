@@ -19,6 +19,10 @@
 
 同类构图可对照 [FlashTrace Figure 2](../flashtrace-span-recursive-attribution/README.md)。
 
+## 贯穿示例的架构图
+
+[Chain-of-Table](../chain-of-table-cyclist-table-reasoning/README.md) · [Graph of Thoughts](../graph-of-thoughts-sorting-walkthrough/README.md) · [IRCoT](../ircot-songwriting-multihop-retrieval/README.md) · [Tree of Thoughts](../tree-of-thoughts-game24-search/README.md)
+
 ## 文件与编辑范围
 
 [作者独立 PDF](original.pdf) · [SVG 转换件](source.svg) · [LaTeX 插图定义](figure-inclusion.tex) · [来源与校验记录](metadata.json)

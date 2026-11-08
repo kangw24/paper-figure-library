@@ -24,7 +24,7 @@
 | <img src="../../element/previews/tabler-stack.png" width="140"> | [堆叠](../../element/svg/tabler-stack.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-box-multiple.png" width="140"> | [多层方框](../../element/svg/tabler-box-multiple.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-function.png" width="140"> | [函数](../../element/svg/tabler-function.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-graph.png" width="140"> | [函数图形](../../element/svg/tabler-graph.svg) | Tabler outline · MIT | — |
+| <img src="../../element/previews/tabler-graph.png" width="140"> | [函数图形](../../element/svg/tabler-graph.svg) | Tabler outline · MIT | [Graph of Thoughts · 64 个数字的分支排序](../../architecture/graph-of-thoughts-sorting-walkthrough/README.md) · [Tree of Thoughts · 24 点的分支生成与评估](../../architecture/tree-of-thoughts-game24-search/README.md) |
 | <img src="../../element/previews/tabler-axis-x.png" width="140"> | [横坐标轴](../../element/svg/tabler-axis-x.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-axis-y.png" width="140"> | [纵坐标轴](../../element/svg/tabler-axis-y.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/bioicons-ai-bulb.png" width="140"> | [AI 灯泡符号](../../element/svg/bioicons-ai-bulb.svg) | Bioicons · CC0-1.0 | — |

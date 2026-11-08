@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "graph-of-thoughts-sorting-walkthrough",
+  "title": "Graph of Thoughts · 64 个数字的分支排序",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "interpretability",
+    "attribution",
+    "multi-panel",
+    "pdf",
+    "svg",
+    "graph-reasoning",
+    "worked-example",
+    "sorting"
+  ],
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "用同一组 64 个数字说明如何拆成四个子数组、比较候选排序、保留高分结果并逐层合并。上方有全局操作图，下方附中间结果、分数与参数批注。",
+  "publication": {
+    "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+    "venue": "AAAI",
+    "year": 2024,
+    "presentation": "conference-paper",
+    "article_type": "research",
+    "evidence_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29720",
+    "source_version": "2308.09687v4",
+    "checked_date": "2026-11-08",
+    "source_version_note": "The downloaded arXiv v4 labels the sorting figure Figure 4. The AAAI proceedings label the corresponding sorting figure Figure 3."
+  },
+  "curation": {
+    "figure_role": "按方法工作流程、局部计算及实例说明归入 Architecture。",
+    "panel_layout": {
+      "summary": "上半部是排序操作图与图例，下半部放大其中的分块、生成候选、评分、保留和合并操作。",
+      "panel_groups": 2,
+      "counting_note": "按图中主要阶段或主题区计数。"
+    },
+    "why_selected": "用同一组 64 个数字说明如何拆成四个子数组、比较候选排序、保留高分结果并逐层合并。上方有全局操作图，下方附中间结果、分数与参数批注。",
+    "what_to_borrow": [
+      "用一组高亮轮廓圈出全局操作图里要展开的节点，再在下面用同色块映射到实际数字。",
+      "把每轮候选的局部结果和分数并排放，评分规则与保留数量贴着相应操作标注。"
+    ],
+    "reference_neighbors": [
+      "tokengeist-refund-provenance-trace"
+    ],
+    "reviewed_from": "fixed-version paper and caption; independent author figure PDF and TeX inclusion; rendered PDF and SVG"
+  },
+  "source": {
+    "project": "https://github.com/spcl/graph-of-thoughts",
+    "authors": [
+      "Maciej Besta",
+      "Nils Blach",
+      "Ales Kubicek",
+      "Robert Gerstenberger",
+      "Michal Podstawski",
+      "Lukas Gianinazzi",
+      "Joanna Gajda",
+      "Tomasz Lehmann",
+      "Hubert Niewiadomski",
+      "Piotr Nyczyk",
+      "Torsten Hoefler"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2308.09687v4",
+      "https://arxiv.org/pdf/2308.09687v4",
+      "https://arxiv.org/src/2308.09687v4",
+      "https://github.com/spcl/graph-of-thoughts",
+      "https://ojs.aaai.org/index.php/AAAI/article/view/29720"
+    ],
+    "arxiv_id": "2308.09687v4",
+    "full_pdf_url": "https://arxiv.org/pdf/2308.09687v4",
+    "full_pdf_sha256": "73caa3c05813105e5db38edfbb58e1b660771a00dfdb74768c8845e15263c5da",
+    "full_pdf_bytes": 3128193,
+    "page_number": 6,
+    "figure_number": 4,
+    "original_sha256": "ac2833f60e9becca11df550b7d4a224f29f3ee157a1613c34d99451c6d99a124",
+    "original_bytes": 491758,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2308.09687v4",
+    "archive_sha256": "73fd60b08d4cf9c165094c2b63d1fe817c146a9dcc63f1dbe49c5555b3f9a8b1",
+    "archive_bytes": 886673,
+    "archive_member": "sort_5.pdf",
+    "inclusion_member": "cases.tex",
+    "retrieved_date": "2026-11-08",
+    "checked_date": "2026-11-08",
+    "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "license": {
+    "status": "reference-only",
+    "name": "arXiv 非独占分发许可（私有参考）",
+    "note": "所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "author independent PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "editable_text_by_format": {
+      "pdf": "original text objects and outlines retained",
+      "svg": "PDF conversion, text outlined"
+    },
+    "pdf_drawing_objects": 285,
+    "pdf_text_spans": 163,
+    "embedded_raster_images": 32,
+    "svg_object_counts": {
+      "svg": 1,
+      "defs": 1,
+      "path": 509,
+      "clipPath": 32,
+      "mask": 32,
+      "g": 129,
+      "image": 64,
+      "use": 2025
+    },
+    "normalized_path_transforms": 0,
+    "conversion_tool": "MuPDF Page.get_svg_image(text_as_path=True); equivalent path-transform normalization where required",
+    "notes": [
+      "作者 PDF 的矢量和文字对象保留。SVG 将文字转为轮廓，并保留原有位图。对象计数不等于子图数。",
+      "桌面 Illustrator 尚未实测。"
+    ]
+  },
+  "changes": [
+    "从作者固定版本 LaTeX 源码包按原字节保存独立 PDF，并保留插图定义。",
+    "从独立 PDF 生成 PNG 预览与自包含 SVG，保留整幅图的内容。",
+    "归入 Architecture，并关联 Tokengeist Fig. 13 与现有元素。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-08",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 693,
+      "sha256": "bac7b905ac3f5e954b9ed2c301fb322dc6ab8c3a5177683edd77340fd5266ae2"
+    },
+    {
+      "path": "figure-inclusion.tex",
+      "bytes": 344,
+      "sha256": "0821edfd435f973b46f2d3703fb686e6c8dcd1be47d1332d6d8d75d7b47acc3a"
+    },
+    {
+      "path": "original.pdf",
+      "bytes": 491758,
+      "sha256": "ac2833f60e9becca11df550b7d4a224f29f3ee157a1613c34d99451c6d99a124"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 614697,
+      "sha256": "62c97a1323a7b4fc9d0ff18f8ac90b214c2efc1bfb16808dee640b012c0c2983"
+    },
+    {
+      "path": "source.svg",
+      "bytes": 983169,
+      "sha256": "4b0d78dd37204fc1d0fffb50f3c5f0c7d1ab6d1b117469b5495e109c29382464"
+    }
+  ]
+}

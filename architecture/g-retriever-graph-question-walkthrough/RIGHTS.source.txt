@@ -1,0 +1,8 @@
+Paper: G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering
+Authors: Xiaoxin He, Yijun Tian, Yifei Sun, Nitesh V. Chawla, Thomas Laurent, Yann LeCun, Xavier Bresson, Bryan Hooi
+Source version: 2402.07630v3
+Archive: https://arxiv.org/src/2402.07630v3
+Member: figs/overview_v3.pdf
+Original SHA256: c021ec817ae436276dd800a8a4cd028b0593dac52adfd92ef783e98934e01e02
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。

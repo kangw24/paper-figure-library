@@ -1,0 +1,8 @@
+Paper: Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding
+Authors: Zilong Wang, Hao Zhang, Chun-Liang Li, Julian Martin Eisenschlos, Vincent Perot, Zifeng Wang, Lesly Miculicich, Yasuhisa Fujii, Jingbo Shang, Chen-Yu Lee, Tomas Pfister
+Source version: 2401.04398v2
+Archive: https://arxiv.org/src/2401.04398v2
+Member: figures/CoTable-Figure1-Jan8.pdf
+Original SHA256: a396e4455353679f708302f493bb6d5e24681ed0ba2f36d4b7a7d875759b2807
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。

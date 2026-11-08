@@ -7,7 +7,7 @@
 | 类别 | 数量 | 入口 |
 |---|---:|---|
 | Teaser 范例 | 76 | [浏览](teaser/README.md) |
-| Architecture 范例 | 62 | [浏览](architecture/README.md) |
+| Architecture 范例 | 68 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 392 | [按内容与来源浏览](element/README.md) |
 
 完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。
@@ -882,6 +882,17 @@ ICML 2023 · Poster · 矢量 + 原有位图
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](architecture/blip2-qformer-architecture/source.svg) · [来源记录](architecture/blip2-qformer-architecture/metadata.json)
 
+### [Chain-of-Table · 自行车名次表的迭代推理](architecture/chain-of-table-cyclist-table-reasoning/README.md)
+
+同一张自行车名次表贯穿三种解法。方法部分把选操作、填参数、变换表格画成循环，右侧列出四轮操作及最终汇总表。
+
+ICLR 2024 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/chain-of-table-cyclist-table-reasoning/preview.png" width="760" alt="Chain-of-Table · 自行车名次表的迭代推理">](architecture/chain-of-table-cyclist-table-reasoning/original.pdf)
+
+来源类型：论文范例。许可：arXiv 非独占分发许可（私有参考）。
+[原文件](architecture/chain-of-table-cyclist-table-reasoning/original.pdf) · [来源记录](architecture/chain-of-table-cyclist-table-reasoning/metadata.json)
+
 ### [CLIP Figure 1：训练到零样本预测](architecture/clip/README.md)
 
 CLIP 的训练与零样本使用流程，按方法流程归入 architecture。
@@ -1101,6 +1112,17 @@ ICML 2026 · Oral · 矢量 + 原有位图
 来源类型：论文范例。许可：CC BY-NC-ND 4.0（所收录论文版本）。
 [原文件](architecture/flashtrace-span-recursive-attribution/original.pdf) · [来源记录](architecture/flashtrace-span-recursive-attribution/metadata.json)
 
+### [G-Retriever · 图问答的索引、子图与生成](architecture/g-retriever-graph-question-walkthrough/README.md)
+
+围绕 Justin Bieber 的兄弟是谁，展示实体及边的索引、候选检索、连通子图的选择，以及子图和问题如何接入模型。
+
+NeurIPS 2024 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/g-retriever-graph-question-walkthrough/preview.png" width="760" alt="G-Retriever · 图问答的索引、子图与生成">](architecture/g-retriever-graph-question-walkthrough/original.pdf)
+
+来源类型：论文范例。许可：arXiv 非独占分发许可（私有参考）。
+[原文件](architecture/g-retriever-graph-question-walkthrough/original.pdf) · [来源记录](architecture/g-retriever-graph-question-walkthrough/metadata.json)
+
 ### [3D Gaussian Splatting · 优化与光栅化双向流程](architecture/gaussian-splatting-architecture/README.md)
 
 黑色实线和蓝色箭头分别表达正向操作与梯度回传，让自适应密度控制与可微渲染的关系无需依赖长图注。
@@ -1134,6 +1156,17 @@ ACL 2026 · 会议论文，未核实 Oral · 矢量 + 原有位图
 来源类型：论文范例。许可：arXiv 非独占分发许可（私有参考）。
 [原文件](architecture/grains-attribution-steering-pipeline/original.pdf) · [来源记录](architecture/grains-attribution-steering-pipeline/metadata.json)
 
+### [Graph of Thoughts · 64 个数字的分支排序](architecture/graph-of-thoughts-sorting-walkthrough/README.md)
+
+用同一组 64 个数字说明如何拆成四个子数组、比较候选排序、保留高分结果并逐层合并。上方有全局操作图，下方附中间结果、分数与参数批注。
+
+AAAI 2024 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/graph-of-thoughts-sorting-walkthrough/preview.png" width="760" alt="Graph of Thoughts · 64 个数字的分支排序">](architecture/graph-of-thoughts-sorting-walkthrough/original.pdf)
+
+来源类型：论文范例。许可：arXiv 非独占分发许可（私有参考）。
+[原文件](architecture/graph-of-thoughts-sorting-walkthrough/original.pdf) · [来源记录](architecture/graph-of-thoughts-sorting-walkthrough/metadata.json)
+
 ### [HippoRAG · 三脑区类比与索引检索框架](architecture/hipporag-brain-region-framework/README.md)
 
 上方三个脑区与下方 LLM、检索编码器、知识图谱及 PageRank 一一对应，再按离线索引和在线检索两行展开。
@@ -1166,6 +1199,17 @@ SIGGRAPH 2022 · 会议论文，未核实 Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/instant-ngp-hash-architecture/source.svg) · [来源记录](architecture/instant-ngp-hash-architecture/metadata.json)
+
+### [IRCoT · 歌曲作者问答的多轮检索与推理](architecture/ircot-songwriting-multihop-retrieval/README.md)
+
+以追查 Murray Head 代表歌曲的作者为主线。每轮生成的推理句成为下一轮检索查询，文档不断累加，右侧展示模块输入和提示词组成。
+
+ACL 2023 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/ircot-songwriting-multihop-retrieval/preview.png" width="760" alt="IRCoT · 歌曲作者问答的多轮检索与推理">](architecture/ircot-songwriting-multihop-retrieval/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
+[原文件](architecture/ircot-songwriting-multihop-retrieval/original.pdf) · [来源记录](architecture/ircot-songwriting-multihop-retrieval/metadata.json)
 
 ### [LAV：感知、预测与驾驶控制流程](architecture/lav/README.md)
 
@@ -1430,6 +1474,17 @@ arXiv 2026 · 预印本 · 矢量 + 原有位图
 来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
 [原文件](architecture/tokengeist-refund-provenance-trace/original.pdf) · [来源记录](architecture/tokengeist-refund-provenance-trace/metadata.json)
 
+### [Tree of Thoughts · 24 点的分支生成与评估](architecture/tree-of-thoughts-game24-search/README.md)
+
+用 4、9、10、13 玩 24 点。左侧保留每次运算后剩余的数，右侧拿树上的输入和候选状态展开生成与评估模块。
+
+NeurIPS 2023 · 会议论文，未核实 Oral · 矢量结构
+
+[<img src="architecture/tree-of-thoughts-game24-search/preview.png" width="760" alt="Tree of Thoughts · 24 点的分支生成与评估">](architecture/tree-of-thoughts-game24-search/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
+[原文件](architecture/tree-of-thoughts-game24-search/original.pdf) · [来源记录](architecture/tree-of-thoughts-game24-search/metadata.json)
+
 ### [VAR · 多尺度 VQVAE 与 VAR 两阶段训练](architecture/var-architecture/README.md)
 
 两块并列区域分别解释表示学习和自回归训练，尺度、token 序列和因果 mask 的对应关系可在图中追踪。
@@ -1462,6 +1517,17 @@ ICLR 2021 · Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：作者保留权利 / 参考收录。
 [原文件](architecture/vit-original-architecture/source.svg) · [来源记录](architecture/vit-original-architecture/metadata.json)
+
+### [VoxPoser · 开抽屉并绕开花瓶的轨迹规划](architecture/voxposer-drawer-value-map-planning/README.md)
+
+用“打开上层抽屉并避开花瓶”串起双相机观测、视觉语言模型、代码、可供性图与约束图，最后叠加机器人末端轨迹。
+
+CoRL 2023 · 会议论文，未核实 Oral · 矢量 + 原有位图
+
+[<img src="architecture/voxposer-drawer-value-map-planning/preview.png" width="760" alt="VoxPoser · 开抽屉并绕开花瓶的轨迹规划">](architecture/voxposer-drawer-value-map-planning/original.pdf)
+
+来源类型：论文范例。许可：arXiv 非独占分发许可（私有参考）。
+[原文件](architecture/voxposer-drawer-value-map-planning/original.pdf) · [来源记录](architecture/voxposer-drawer-value-map-planning/metadata.json)
 
 ### [VTrace · 从回答到视觉证据的多跳归因](architecture/vtrace-multihop-visual-attribution/README.md)
 

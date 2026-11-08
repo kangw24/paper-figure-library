@@ -1,0 +1,8 @@
+Paper: Graph of Thoughts: Solving Elaborate Problems with Large Language Models
+Authors: Maciej Besta, Nils Blach, Ales Kubicek, Robert Gerstenberger, Michal Podstawski, Lukas Gianinazzi, Joanna Gajda, Tomasz Lehmann, Hubert Niewiadomski, Piotr Nyczyk, Torsten Hoefler
+Source version: 2308.09687v4
+Archive: https://arxiv.org/src/2308.09687v4
+Member: sort_5.pdf
+Original SHA256: ac2833f60e9becca11df550b7d4a224f29f3ee157a1613c34d99451c6d99a124
+Declared article license: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
+所收录 arXiv 版本声明向 arXiv 授予非独占分发许可。此条保留作者署名与原件，用于私有参考，第三方重用授权以作者声明为准。

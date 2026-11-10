@@ -1,0 +1,9 @@
+Paper: Bistable origami robot for adaptive multimodal motion actuated by nonuniform magnetic fields
+Authors: Chong Huang, Zhuangzhi Miao, Sida Ma, Zheguo Tang, Heming Wang, Zhanpeng Cui, Yihao Fu, Yang Li
+DOI: 10.1038/s41467-026-79010-w
+Published online: 2026-11-06
+Figure: 1 (Article in Press PDF, page 3)
+Original publisher asset: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-79010-w/MediaObjects/41467_2026_79010_Fig1_HTML.png
+Original SHA256: 09b8569269100f7f414b0371e8aac90cc570b6b249db23a2d0d2f74be71f15e7
+License: https://creativecommons.org/licenses/by/4.0/
+出版社页面标注 CC BY 4.0。保留作者署名、出处与许可链接。原图按下载字节保存，预览仅作等比缩放。

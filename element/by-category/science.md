@@ -6,7 +6,7 @@
 
 | 预览 | 名称与 SVG | 来源与许可 | 关联范例（最多列三项） |
 |---|---|---|---|
-| <img src="../../element/previews/tabler-chart-line.png" width="140"> | [折线图符号](../../element/svg/tabler-chart-line.svg) | Tabler outline · MIT | [图基础模型范式对照 · 专用学习与共享预训练](../../teaser/survey-graph-foundation-paradigm/README.md) · [EAGLE · 图像子区搜索与模态归因](../../architecture/eagle-visual-language-attribution/README.md) |
+| <img src="../../element/previews/tabler-chart-line.png" width="140"> | [折线图符号](../../element/svg/tabler-chart-line.svg) | Tabler outline · MIT | [图基础模型范式对照 · 专用学习与共享预训练](../../teaser/survey-graph-foundation-paradigm/README.md) · [EAGLE · 图像子区搜索与模态归因](../../architecture/eagle-visual-language-attribution/README.md) · [双稳态折纸机器人 · 结构、磁驱动与运动模式](../../architecture/magnetic-bistable-origami-robot-design-actuation/README.md) |
 | <img src="../../element/previews/tabler-chart-bar.png" width="140"> | [柱状图符号](../../element/svg/tabler-chart-bar.svg) | Tabler outline · MIT | [MVSplat · 重建质量、速度与参数量的并列对照](../../teaser/mvsplat-comparison/README.md) · [Tokengeist · 五轮退款对话的递归溯源](../../architecture/tokengeist-refund-provenance-trace/README.md) · [VTrace · 从回答到视觉证据的多跳归因](../../architecture/vtrace-multihop-visual-attribution/README.md) |
 | <img src="../../element/previews/tabler-chart-pie.png" width="140"> | [饼图符号](../../element/svg/tabler-chart-pie.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-chart-scatter.png" width="140"> | [散点图符号](../../element/svg/tabler-chart-scatter.svg) | Tabler outline · MIT | [LightGlue：速度与精度权衡](../../teaser/lightglue-tradeoff/README.md) · [自主 Agent 发展 · 趋势曲线与代表场景](../../teaser/survey-agent-growth-landscape/README.md) · [AI4Science 时空尺度图 · 研究对象与共同挑战](../../teaser/survey-ai4science-scale-map/README.md) |
@@ -21,7 +21,7 @@
 | <img src="../../element/previews/tabler-atom.png" width="140"> | [原子](../../element/svg/tabler-atom.svg) | Tabler outline · MIT | [PBDL · 领域位置与方法空间的概念总览](../../teaser/pbdl-field-method-space/README.md) · [AI for PDEs · 领域定位、方法与应用全景](../../teaser/survey-ai-pde-scope-map/README.md) · [AI4Research · 三大领域、七类应用面板](../../teaser/survey-ai4research-seven-domains/README.md) |
 | <img src="../../element/previews/tabler-dna.png" width="140"> | [DNA](../../element/svg/tabler-dna.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/tabler-dna-2.png" width="140"> | [DNA 双螺旋](../../element/svg/tabler-dna-2.svg) | Tabler outline · MIT | — |
-| <img src="../../element/previews/tabler-magnet.png" width="140"> | [磁体](../../element/svg/tabler-magnet.svg) | Tabler outline · MIT | — |
+| <img src="../../element/previews/tabler-magnet.png" width="140"> | [磁体](../../element/svg/tabler-magnet.svg) | Tabler outline · MIT | [双稳态折纸机器人 · 结构、磁驱动与运动模式](../../architecture/magnetic-bistable-origami-robot-design-actuation/README.md) |
 | <img src="../../element/previews/tabler-flask.png" width="140"> | [烧瓶](../../element/svg/tabler-flask.svg) | Tabler outline · MIT | [AI4Science 领域圆环 · 从量子到连续系统](../../teaser/survey-ai4science-domain-wheel/README.md) |
 | <img src="../../element/previews/tabler-satellite-off.png" width="140"> | [卫星关闭](../../element/svg/tabler-satellite-off.svg) | Tabler outline · MIT | — |
 | <img src="../../element/previews/bioicons-earth.png" width="140"> | [earth](../../element/svg/bioicons-earth.svg) | Bioicons · CC-BY-3.0 | — |

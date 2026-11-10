@@ -7,7 +7,7 @@
 | 类别 | 数量 | 入口 |
 |---|---:|---|
 | Teaser 范例 | 76 | [浏览](teaser/README.md) |
-| Architecture 范例 | 68 | [浏览](architecture/README.md) |
+| Architecture 范例 | 69 | [浏览](architecture/README.md) |
 | Element 最小可复用元素 | 392 | [按内容与来源浏览](element/README.md) |
 
 完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。
@@ -1272,6 +1272,17 @@ NeurIPS 2023 · Oral · 矢量结构
 
 来源类型：论文范例。许可：CC-BY-4.0。
 [原文件](architecture/llava-original-architecture/source.svg) · [来源记录](architecture/llava-original-architecture/metadata.json)
+
+### [双稳态折纸机器人 · 结构、磁驱动与运动模式](architecture/magnetic-bistable-origami-robot-design-actuation/README.md)
+
+A–J 十个面板将折痕与铰链几何、原型和力学曲线、四线圈驱动装置与控制流程排在同一版。下方用一条示例路线和编号把八种形变与运动模式对应起来。
+
+Nature Communications 2026 · 期刊论文 · 整图位图，仅构图参考
+
+[<img src="architecture/magnetic-bistable-origami-robot-design-actuation/preview.png" width="760" alt="双稳态折纸机器人 · 结构、磁驱动与运动模式">](architecture/magnetic-bistable-origami-robot-design-actuation/original.png)
+
+来源类型：论文范例。许可：CC BY 4.0（出版社图版）。
+[原文件](architecture/magnetic-bistable-origami-robot-design-actuation/original.png) · [来源记录](architecture/magnetic-bistable-origami-robot-design-actuation/metadata.json)
 
 ### [MemoryOS · 三层记忆、动态更新与回答生成](architecture/memoryos-three-tier-memory-framework/README.md)
 

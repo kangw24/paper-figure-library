@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "id": "magnetic-bistable-origami-robot-design-actuation",
+  "title": "双稳态折纸机器人 · 结构、磁驱动与运动模式",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "robotics",
+    "origami",
+    "bistability",
+    "magnetic-actuation",
+    "multi-panel",
+    "png",
+    "raster-reference"
+  ],
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "summary": "A–J 十个面板将折痕与铰链几何、原型和力学曲线、四线圈驱动装置与控制流程排在同一版。下方用一条示例路线和编号把八种形变与运动模式对应起来。",
+  "publication": {
+    "title": "Bistable origami robot for adaptive multimodal motion actuated by nonuniform magnetic fields",
+    "venue": "Nature Communications",
+    "year": 2026,
+    "presentation": "journal-article",
+    "article_type": "research",
+    "evidence_url": "https://www.nature.com/articles/s41467-026-79010-w",
+    "published_date": "2026-11-06",
+    "source_version": "Article in Press, publisher figure asset",
+    "source_version_note": "The physical page number refers to the Article in Press reference PDF.",
+    "checked_date": "2026-11-10"
+  },
+  "curation": {
+    "figure_role": "同图解释机械结构、执行装置与驱动信号的求解流程，按用途归入 Architecture。",
+    "panel_layout": {
+      "summary": "A–F 展开结构、样机与力学表征，G–H 展示驱动装置和驱动信号求解，I 用表格与场景串起八种模式，J 作雷达图对比。",
+      "panel_groups": 10,
+      "counting_note": "按 A–J 图版编号计数。I 面板的 ①–⑧ 是场景中的八种模式。"
+    },
+    "why_selected": "A–J 十个面板将折痕与铰链几何、原型和力学曲线、四线圈驱动装置与控制流程排在同一版。下方用一条示例路线和编号把八种形变与运动模式对应起来。",
+    "what_to_borrow": [
+      "用 A–H 解释各层设计，再给 I 面板留出大面积，以同一条路线串起八种模式。表格、路线和局部姿态复用编号。",
+      "把线圈装置 G 放在流程图 H 上方。磁场、磁矩方向、磁力矩和梯度力分别用图例标识，读者可以将控制量对照到具体姿态。"
+    ],
+    "reference_neighbors": [
+      "voxposer-drawer-value-map-planning"
+    ],
+    "reviewed_from": "publisher full-resolution PNG, visually matched to the supplied reference; Article in Press PDF and caption; Supplementary Information and Code and Source Data archive"
+  },
+  "source": {
+    "project": "https://www.nature.com/articles/s41467-026-79010-w",
+    "authors": [
+      "Chong Huang",
+      "Zhuangzhi Miao",
+      "Sida Ma",
+      "Zheguo Tang",
+      "Heming Wang",
+      "Zhanpeng Cui",
+      "Yihao Fu",
+      "Yang Li"
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41467-026-79010-w",
+      "https://www.nature.com/articles/s41467-026-79010-w_reference.pdf",
+      "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-79010-w/MediaObjects/41467_2026_79010_Fig1_HTML.png",
+      "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-79010-w/MediaObjects/41467_2026_79010_MOESM1_ESM.pdf",
+      "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-79010-w/MediaObjects/41467_2026_79010_MOESM12_ESM.rar"
+    ],
+    "doi": "10.1038/s41467-026-79010-w",
+    "native_origin": "publisher-standalone-figure",
+    "figure_number": 1,
+    "page_number": 3,
+    "full_pdf_url": "https://www.nature.com/articles/s41467-026-79010-w_reference.pdf",
+    "full_pdf_sha256": "9de2b6dfefc6887ccb40ba073d1c14bc30a3e4043de2c960b0d75b68e21f71d2",
+    "full_pdf_bytes": 6870726,
+    "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-79010-w/MediaObjects/41467_2026_79010_Fig1_HTML.png",
+    "original_sha256": "09b8569269100f7f414b0371e8aac90cc570b6b249db23a2d0d2f74be71f15e7",
+    "original_bytes": 2820014,
+    "supplement_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-79010-w/MediaObjects/41467_2026_79010_MOESM1_ESM.pdf",
+    "supplement_sha256": "ac6ac4807e7f8ac85bb73cb469b62de0abb870066f61ff0b123f6402e3fb549d",
+    "source_data_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-79010-w/MediaObjects/41467_2026_79010_MOESM12_ESM.rar",
+    "source_data_sha256": "586c256cca7f3ca7bb1d198afb7a861a3de37ec7d1427a6e8a0f92e0e8239da0",
+    "source_data_members_for_figure": {
+      "Code and Source Data/Source data.xlsx": [
+        "Fig. 1C",
+        "Fig. 1D",
+        "Fig. 1F"
+      ]
+    },
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved_date": "2026-11-10",
+    "checked_date": "2026-11-10"
+  },
+  "license": {
+    "status": "source-license",
+    "name": "CC BY 4.0（出版社图版）",
+    "note": "出版社页面标注 CC BY 4.0。保留作者署名、出处与许可链接。原图按下载字节保存，预览仅作等比缩放。",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "publisher PNG",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pixel_dimensions": [
+      2000,
+      2444
+    ],
+    "paper_pdf_figure_raster_images": 1,
+    "paper_pdf_figure_vector_objects": 0,
+    "notes": [
+      "出版社独立图版为 2000 × 2444 的 PNG。Article in Press PDF 第 3 页把 Figure 1 作为一张同尺寸位图嵌入。公开补充包提供数值数据和 MATLAB 脚本，已查来源中未发现可逐对象编辑的整图。"
+    ]
+  },
+  "changes": [
+    "按原字节保存出版社的独立 PNG 图版。",
+    "等比缩小到 1211 × 1480 生成预览。",
+    "归入 Architecture，并关联类似范例与现有元素。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-10",
+  "files": [
+    {
+      "path": "RIGHTS.source.txt",
+      "bytes": 745,
+      "sha256": "781273882584cf8e0efebd1a8d3509bc2e1eee56c6cbe9dfb2b0f07920e8a372"
+    },
+    {
+      "path": "original.png",
+      "bytes": 2820014,
+      "sha256": "09b8569269100f7f414b0371e8aac90cc570b6b249db23a2d0d2f74be71f15e7"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1207832,
+      "sha256": "2bafc4ebfa07854807a9e98bcc77d6802b945dd19e40bee403d2e77beadc0ba0"
+    }
+  ]
+}

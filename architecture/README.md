@@ -6,7 +6,7 @@
 
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
-| 整体方法与训练流程 | 38 | [浏览](#framework) |
+| 整体方法与训练流程 | 39 | [浏览](#framework) |
 | 网络主干与模块展开 | 14 | [浏览](#network) |
 | 基础结构与教材范例 | 16 | [浏览](#tutorial) |
 
@@ -133,6 +133,20 @@ CoRL 2023 · 会议论文；未核实 Oral
 [![预览](voxposer-drawer-value-map-planning/preview.png)](voxposer-drawer-value-map-planning/README.md)
 
 [说明与源文件](voxposer-drawer-value-map-planning/README.md) · [关联元素](voxposer-drawer-value-map-planning/README.md#关联范例与元素)
+
+### [双稳态折纸机器人 · 结构、磁驱动与运动模式](magnetic-bistable-origami-robot-design-actuation/README.md)
+
+A–J 十个面板将折痕与铰链几何、原型和力学曲线、四线圈驱动装置与控制流程排在同一版。下方用一条示例路线和编号把八种形变与运动模式对应起来。
+
+Nature Communications 2026 · 期刊论文
+
+**子图组织：** A–F 展开结构、样机与力学表征，G–H 展示驱动装置和驱动信号求解，I 用表格与场景串起八种模式，J 作雷达图对比。 原论文 Figure 1。
+
+**整图位图，仅构图参考。**
+
+[![预览](magnetic-bistable-origami-robot-design-actuation/preview.png)](magnetic-bistable-origami-robot-design-actuation/README.md)
+
+[说明与源文件](magnetic-bistable-origami-robot-design-actuation/README.md) · [关联元素](magnetic-bistable-origami-robot-design-actuation/README.md#关联范例与元素)
 
 ### [G-Retriever · 图问答的索引、子图与生成](g-retriever-graph-question-walkthrough/README.md)
 

@@ -133,6 +133,7 @@
           "graph-of-thoughts-sorting-walkthrough",
           "ircot-songwriting-multihop-retrieval",
           "voxposer-drawer-value-map-planning",
+          "magnetic-bistable-origami-robot-design-actuation",
           "g-retriever-graph-question-walkthrough",
           "tree-of-thoughts-game24-search",
           "survey-genai-semantic-memory-framework",
@@ -1275,6 +1276,12 @@
       "tabler-arrows-split",
       "tabler-graph",
       "tabler-filter"
+    ],
+    "magnetic-bistable-origami-robot-design-actuation": [
+      "tabler-magnet",
+      "tabler-robot",
+      "tabler-route",
+      "tabler-chart-line"
     ]
   }
 }

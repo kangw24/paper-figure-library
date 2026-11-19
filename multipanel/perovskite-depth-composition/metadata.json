@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "perovskite-depth-composition",
+  "title": "沿薄膜深度追踪钙钛矿的成分偏析",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "从整体到局部",
+    "光伏材料",
+    "成分深度剖面",
+    "多尺度表征"
+  ],
+  "summary": "上部放器件剖面、晶格示意与处理分子。中左两列排深度剖面，下方并排参考膜与处理膜的三个取样深度。右列上下对齐两组衍射谱。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Homogenizing out-of-plane cation composition in perovskite solar cells",
+    "venue": "Nature",
+    "year": 2023,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41586-023-06784-0/figures/1"
+  },
+  "curation": {
+    "layout_family": "从整体到局部",
+    "panel_labels": "a–h",
+    "panel_count": 8,
+    "reading_order": "a 先标出表面、体相和底部。沿同一方向读 c、d 的成分测量，再横向对读 e、f 三个深度的晶格像，最后比较 g、h 中不同入射角的峰形。",
+    "why_selected": "上部放器件剖面、晶格示意与处理分子。中左两列排深度剖面，下方并排参考膜与处理膜的三个取样深度。右列上下对齐两组衍射谱。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Zheng Liang",
+      "Yong Zhang",
+      "Huifen Xu",
+      "Wenjing Chen",
+      "Boyuan Liu",
+      "Jiyao Zhang",
+      "Hui Zhang",
+      "Zihan Wang",
+      "Dong-Ho Kang",
+      "Jianrong Zeng",
+      "Xingyu Gao",
+      "Qisheng Wang",
+      "Huijie Hu",
+      "Hongmin Zhou",
+      "Xiangbin Cai",
+      "Xingyou Tian",
+      "Peter Reiss",
+      "Baomin Xu",
+      "Thomas Kirchartz",
+      "Zhengguo Xiao",
+      "Songyuan Dai",
+      "Nam-Gyu Park",
+      "Jiajiu Ye",
+      "Xu Pan"
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41586-023-06784-0/figures/1",
+      "https://www.nature.com/articles/s41586-023-06784-0.pdf",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41586-023-06784-0.pdf",
+    "full_pdf_sha256": "ddb40857520f513e89585cd82590fa8da29d1e52cd0024a31dcef21f25e443af",
+    "page_number": 2,
+    "crop_bbox_pt": [
+      47,
+      49,
+      555,
+      517
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0",
+    "copyright_notice": "© The Author(s) 2023"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 972,
+    "pdf_image_placements": 85,
+    "selectable_words": 153,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 2378879,
+      "sha256": "06814132de9f57f9ce2773374a8a392eb9d9ffd7da70d1a8daed32346af364dd"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 842067,
+      "sha256": "bddb031ad6b5c1dea53768800b6ebab8836d7ad6d24c344a009564d0bdf7d5bf"
+    }
+  ]
+}

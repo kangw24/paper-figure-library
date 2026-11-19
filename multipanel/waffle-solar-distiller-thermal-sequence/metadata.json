@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "waffle-solar-distiller-thermal-sequence",
+  "title": "同一束光下比较两种海水蒸发器",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "装置、过程与测量",
+    "太阳能蒸发",
+    "海水淡化",
+    "红外热成像"
+  ],
+  "summary": "首行并列结构示意、质量变化和效率。中央用两行同刻热像对比华夫形与平面蒸发器，右侧给温升曲线。底部以三种水质读数收尾。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Quasi-waffle solar distiller for durable desalination of seawater",
+    "venue": "Science Advances",
+    "year": 2024,
+    "presentation": "journal-article",
+    "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11135395/#F3"
+  },
+  "curation": {
+    "layout_family": "装置、过程与测量",
+    "panel_labels": "A–H",
+    "panel_count": 8,
+    "reading_order": "先用 A 确认结构差异，在 B、C 读蒸发性能。D 对照 0–15 分钟的同刻热像，E 把热像转为温度曲线。F–H 分别给出处理前后的酸碱性、染料浓度与海水盐度。",
+    "why_selected": "首行并列结构示意、质量变化和效率。中央用两行同刻热像对比华夫形与平面蒸发器，右侧给温升曲线。底部以三种水质读数收尾。"
+  },
+  "source": {
+    "figure_number": 3,
+    "authors": [
+      "Yanjun Wang",
+      "Tianqi Wei",
+      "Yue Wang",
+      "Jinjue Zeng",
+      "Tao Wang",
+      "Qi Wang",
+      "Shuo Zhang",
+      "Mengyue Zeng",
+      "Fengyue Wang",
+      "Pengcheng Dai",
+      "Xiangfen Jiang",
+      "Ming Hu",
+      "Jin Zhao",
+      "Zheng Hu",
+      "Jia Zhu",
+      "Xuebin Wang"
+    ],
+    "urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11135395/#F3",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC11135395.1/PMC11135395.1.pdf",
+      "https://creativecommons.org/licenses/by-nc/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11135395.1/PMC11135395.1.pdf",
+    "full_pdf_sha256": "c8dc370e681d80f56ee9f7dff796e0f31d97afaa7688f95fa3e4205befa5ae47",
+    "page_number": 4,
+    "crop_bbox_pt": [
+      79,
+      57,
+      517,
+      454
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "note": "CC BY-NC 4.0",
+    "copyright_notice": "Copyright © 2024 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution NonCommercial License 4.0 (CC BY-NC)."
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 433,
+    "pdf_image_placements": 2,
+    "selectable_words": 131,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 150819,
+      "sha256": "c8289eec63dd7efd73d639d3936fd385186d5c771e1da9a99857967549cebb39"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 439432,
+      "sha256": "f14aafd6be14c2caae9e38b4d23e812a82f62f244f05b40ad9ea3e33b0b304a4"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "origami-exoskeleton-module-to-arm",
+  "title": "从虾壳分节到承力折纸机械臂",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "装置、过程与测量",
+    "折纸力学",
+    "软体机械臂",
+    "仿生设计"
+  ],
+  "summary": "首行并列变形与承重的矛盾、虾体硬柔分节。下方以“单模块”和“多模块外骨骼”分区：构型照片贴近力学曲线，右下角用机械臂姿态收束。",
+  "formats": [
+    "pdf",
+    "png"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Origami exoskeletons for enhanced soft robotic manipulation",
+    "venue": "Science Advances",
+    "year": 2025,
+    "presentation": "journal-article",
+    "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12309676/#F1"
+  },
+  "curation": {
+    "layout_family": "装置、过程与测量",
+    "panel_labels": "A–H",
+    "panel_count": 8,
+    "reading_order": "A、B 提出设计取舍与生物原型。沿 C、D 看单元从折叠到展开的稳定态，再看 E 中四个单元依次转换如何产生多个力峰。F、G 对照增强前后的气动臂和索驱臂，H 标出可保持的姿态。",
+    "why_selected": "首行并列变形与承重的矛盾、虾体硬柔分节。下方以“单模块”和“多模块外骨骼”分区：构型照片贴近力学曲线，右下角用机械臂姿态收束。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Kangjia Fu",
+      "Xuesong Wu",
+      "Sunquan Yu",
+      "Qi Zhang",
+      "Yanjie Yang",
+      "Tonglin Xu",
+      "Wen Yao",
+      "Teng Yi",
+      "Hua Li",
+      "Yong Chen",
+      "Xiang Zhang",
+      "Xiaoqian Chen"
+    ],
+    "urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12309676/#F1",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC12309676.1/PMC12309676.1.pdf",
+      "https://creativecommons.org/licenses/by-nc/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12309676.1/PMC12309676.1.pdf",
+    "full_pdf_sha256": "06d8a1fe8f025e19f37fc8890fb69fb249bca99bbb4e1c581661aa53f7e42ffc",
+    "page_number": 2,
+    "crop_bbox_pt": [
+      80,
+      57,
+      515,
+      607
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "note": "CC BY-NC 4.0",
+    "copyright_notice": "Copyright © 2025 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution NonCommercial License 4.0 (CC BY-NC)."
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pdf_drawing_objects": 0,
+    "pdf_image_placements": 1,
+    "selectable_words": 0,
+    "notes": [
+      "出版 PDF 的整图以位图为主，放大或在 Illustrator 中打开时，图内曲线仍是像素。"
+    ],
+    "pixel_dimensions": [
+      1801,
+      2267
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 3554757,
+      "sha256": "220f41fcc2fdb15bf19b58726db31059395fb1facb462723ffb28ed38cc50c14"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 944344,
+      "sha256": "78284c300e6662f7ed9ec7a81167adcf00b9ce2866f9533c28d00ca2fd98ad48"
+    },
+    {
+      "path": "embedded.png",
+      "bytes": 3150401,
+      "sha256": "4a353646c69ca9904f16ffb56314ee064809c71c38e33908d9ff8e0e33de4c68"
+    }
+  ]
+}

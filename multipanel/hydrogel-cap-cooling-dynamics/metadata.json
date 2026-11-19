@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "hydrogel-cap-cooling-dynamics",
+  "title": "一只水凝胶球冠的冷却变形全过程",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "装置、过程与测量",
+    "形变材料",
+    "曲率",
+    "动力学"
+  ],
+  "summary": "顶端用一条黑底时间序列横贯全图。中部从三张校准图过渡到分时径向曲线，再排三张理论与实验对照。末行回到实物复现及其设计曲线。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Bioinspired 3D structures with programmable morphologies and motions",
+    "venue": "Nature Communications",
+    "year": 2018,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41467-018-05569-8/figures/5"
+  },
+  "curation": {
+    "layout_family": "装置、过程与测量",
+    "panel_labels": "a–j",
+    "panel_count": 10,
+    "reading_order": "从 a 的球冠追踪曲率变号。b–e 将曝光、冷却时间和径向生长联系起来。f–h 分别核对中心曲率、形状过渡位置和皱纹数。i、j 再用同一组时刻检验能否复现瞬态外形。",
+    "why_selected": "顶端用一条黑底时间序列横贯全图。中部从三张校准图过渡到分时径向曲线，再排三张理论与实验对照。末行回到实物复现及其设计曲线。"
+  },
+  "source": {
+    "figure_number": 5,
+    "authors": [
+      "Amirali Nojoomi",
+      "Hakan Arslan",
+      "Kwan Lee",
+      "Kyungsuk Yum"
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41467-018-05569-8/figures/5",
+      "https://www.nature.com/articles/s41467-018-05569-8.pdf",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41467-018-05569-8.pdf",
+    "full_pdf_sha256": "4617e16df9582d956c1a09c28f11c64393edc31c645cc8c9b010b3fe5104027a",
+    "page_number": 7,
+    "crop_bbox_pt": [
+      77,
+      49,
+      517,
+      546
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0",
+    "copyright_notice": "© The Author(s) 2018"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 437,
+    "pdf_image_placements": 2,
+    "selectable_words": 244,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 196593,
+      "sha256": "02bdb8163268c6da538afa3a615de1483057247dc075d1577e277eee7252eeb7"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 301471,
+      "sha256": "ec303d8fa5a7617a0458154260935ba434afe9f71b138d968b2e25ac5055f1be"
+    }
+  ]
+}

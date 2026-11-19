@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "microns-single-cell-structural-functional",
+  "title": "从单个锥体细胞追到突触靶点和功能响应",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "从整体到局部",
+    "结构连接组与双光子功能配准"
+  ],
+  "summary": "顶端两行沿同一组织方向重复细胞分布图。中段左侧展开单细胞及靶点，中央汇总连接去向，右侧竖排电镜与双光子图。底部热图回到视觉刺激。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Functional connectomics spanning multiple areas of mouse visual cortex",
+    "venue": "Nature",
+    "year": 2025,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41586-025-08790-w/figures/6"
+  },
+  "curation": {
+    "layout_family": "从整体到局部",
+    "panel_labels": "a–k",
+    "panel_count": 11,
+    "reading_order": "a–e 在同一组织体积分别标出细胞类别、功能配准与校对状态，f 比较校对细胞的输出突触与可归属靶点。g 选出一个锥体细胞，h 汇总它的突触去向，i、j 利用相同细胞及血管标志比对两种成像，k 将它与突触后靶细胞对同一影片片段的反应并排。",
+    "why_selected": "顶端两行沿同一组织方向重复细胞分布图。中段左侧展开单细胞及靶点，中央汇总连接去向，右侧竖排电镜与双光子图。底部热图回到视觉刺激。"
+  },
+  "source": {
+    "figure_number": 6,
+    "authors": [
+      "The MICrONS Consortium"
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41586-025-08790-w/figures/6",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC11981939.1/PMC11981939.1.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11981939/",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11981939.1/PMC11981939.1.pdf",
+    "full_pdf_sha256": "f5cd26b4c1577a042f9ac1309f0a029819443eb5232774dffe7763e84794976a",
+    "page_number": 8,
+    "crop_bbox_pt": [
+      64,
+      46,
+      538,
+      566
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0。已核对论文的版权与许可声明。"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 3618,
+    "pdf_image_placements": 10,
+    "selectable_words": 167,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 1943911,
+      "sha256": "aba543967c565cc0d1ecb6405fd3770927e62d9ec9b1c66b305bef65c9a65df6"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1310775,
+      "sha256": "268fbab480a494657b75422d8c44ac92f44a2e158e222b3680e9c3d840e76a5d"
+    }
+  ]
+}

@@ -1,20 +1,22 @@
 # Paper Figure Library
 
-个人 CS / AI 论文配图素材库，按用途分为 **Teaser、Architecture、Element**。收集作者和已有素材库的源文件，用 Markdown 串联完整范例、方法结构与可复用部件。
+个人 CS / AI 论文配图素材库，按用途分为 **Teaser、Architecture、大图、Element**。收集作者和已有素材库的源文件，用 Markdown 串联完整范例、方法结构与可复用部件。
 
-**76 个 teaser · 69 个 architecture · 392 个独立 element**。
+**76 个 teaser · 69 个 architecture · 392 个独立 element · 22 幅大图**。
 
 | 分类 | 用来找什么 | 入口 |
 |---|---|---|
 | **Teaser** | 问题动机、核心想法、能力展示、领域全景与演进 | [按表达目的浏览](teaser/README.md) |
 | **Architecture** | 整体流程、网络主干、训练框架和模块展开 | [按结构用途浏览](architecture/README.md) |
+| **大图 · Multipanel** | 一张正文图内怎样安排多个子图，贯穿实验、分析与结果 | [看多面板原图](multipanel/README.md) |
 | **Element** | 模块、张量、矩阵、运算、箭头和对象等独立 SVG | [按内容分类浏览](element/README.md) |
 
-根目录直接提供三个素材文件夹：
+根目录直接提供四个素材文件夹：
 
 ```text
 teaser/        动机、概念、能力展示与领域全景
 architecture/  方法流程、网络与模块结构
+multipanel/    多面板正文图及图版编排
 element/       独立可复用部件
 ```
 
@@ -75,7 +77,7 @@ AI4PDE 综述图：[Fig.1：领域定位、方法与应用全景](teaser/survey-
 
 [完整图文目录](CATALOG.md) · [来源 JSON 索引](catalog.json) · [收录与分类规则](CONTRIBUTING.md)
 
-新增条目后，在 [relationships.json](relationships.json) 补充表达用途、同论文关联和现有元素关联，再更新目录并检查：
+新增 Teaser 或 Architecture 范例时，在 [relationships.json](relationships.json) 补充范例和元素的关联。大图目录从各条目的 `metadata.json` 生成。更新后运行以下命令。
 
     python scripts/build_catalog.py
     python scripts/validate_library.py

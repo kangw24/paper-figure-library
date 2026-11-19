@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "cellpose-human-loop-annotation-budget",
+  "title": "Cellpose 2.0 · 两套数据上的分割质量与标注预算",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "多工况与方法对照",
+    "计算机视觉",
+    "交互式标注",
+    "图像分割"
+  ],
+  "summary": "上下两组分别对应 TissueNet 和 LiveCell。每组先并排四幅同一图像的分割结果，下一行以一幅人工复标图加三幅定量曲线收束。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Cellpose 2.0: how to train your own model",
+    "venue": "Nature Methods",
+    "year": 2022,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41592-022-01663-4/figures/5"
+  },
+  "curation": {
+    "layout_family": "多工况与方法对照",
+    "panel_labels": "a–j",
+    "panel_count": 10,
+    "reading_order": "a 比较四种训练和标注策略对同一 TissueNet 图像的预测，b 用同一人两次标注说明人工一致性。c 数人工勾画的区域，d、e 分别以训练图像数和手工区域数解释平均精度。f–j 在 LiveCell 的 A172 图像上复用同一顺序。",
+    "why_selected": "上下两组分别对应 TissueNet 和 LiveCell。每组先并排四幅同一图像的分割结果，下一行以一幅人工复标图加三幅定量曲线收束。"
+  },
+  "source": {
+    "figure_number": 5,
+    "authors": [
+      "Marius Pachitariu",
+      "Carsen Stringer"
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41592-022-01663-4/figures/5",
+      "https://www.nature.com/articles/s41592-022-01663-4.pdf",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41592-022-01663-4.pdf",
+    "full_pdf_sha256": "6050ea4ae19910e202afb55a70d553f2c3a76d16aca5f09ea4652c1d79e6118c",
+    "page_number": 6,
+    "crop_bbox_pt": [
+      41,
+      50,
+      568,
+      605
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0（论文及无单独署名例外的图材。原图注列明 TissueNet 和 LiveCell 的样本来源）"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 923,
+    "pdf_image_placements": 10,
+    "selectable_words": 196,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 736462,
+      "sha256": "d8bc28553da1a010b727e6ae414a8be7d991985ecf4f0e278fd788118a1f806e"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 965774,
+      "sha256": "6dc60f8fcc430a5a46868e54446ca0eebde5047f1ac35e344d9da944f179777c"
+    }
+  ]
+}

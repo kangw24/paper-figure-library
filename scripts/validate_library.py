@@ -20,7 +20,7 @@ KINDS = {"template", "paper-example", "tutorial-example"}
 def validate(root: Path) -> tuple[list[str], dict[str, int]]:
     root = root.resolve()
     errors: list[str] = []
-    counts = {"teaser": 0, "architecture": 0, "element": 0, "mechanism": 0, "layout-template": 0, "svg": 0}
+    counts = {"teaser": 0, "architecture": 0, "multipanel": 0, "element": 0, "mechanism": 0, "layout-template": 0, "svg": 0}
     ids: set[str] = set()
 
     def error(path: Path | str, message: str) -> None:
@@ -59,7 +59,7 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
         else:
             ids.add(value)
 
-    for category, directory in (("teaser", "teaser"), ("architecture", "architecture"), ("mechanism", "references/mechanisms"), ("layout-template", "templates/layouts")):
+    for category, directory in (("teaser", "teaser"), ("architecture", "architecture"), ("multipanel", "multipanel"), ("mechanism", "references/mechanisms"), ("layout-template", "templates/layouts")):
         folder = root / directory
         for entry in sorted(folder.iterdir()) if folder.is_dir() else []:
             if not entry.is_dir() or entry.name.startswith("."):
@@ -75,6 +75,20 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
             unique_id(item, metadata)
             if item.get("category") != category:
                 error(metadata, f"目录对应的 category 应为 {category}")
+            if category == "multipanel":
+                publication = item.get("publication", {})
+                if not publication.get("venue") or type(publication.get("year")) is not int:
+                    error(metadata, "大图须记录发表刊物或会议及整数年份")
+                if item.get("editability", {}).get("level") not in {"vector", "vector-and-raster", "raster-reference"}:
+                    error(metadata, "大图缺少可识别的编辑性分类")
+                layout = item.get("curation", {})
+                if not layout.get("layout_family") or not layout.get("reading_order"):
+                    error(metadata, "缺少大图的编排或面板阅读说明")
+                if not layout.get("panel_labels") or not isinstance(layout.get("panel_count"), int) or layout["panel_count"] < 2:
+                    error(metadata, "应记录原图面板编号和数量")
+                source = item.get("source", {})
+                if not isinstance(source.get("figure_number"), int) or source["figure_number"] < 1:
+                    error(metadata, "缺少原论文图号")
             if item.get("kind") not in KINDS:
                 error(metadata, "kind 不是支持的条目类型")
             if not isinstance(item.get("tags"), list) or not item["tags"]:
@@ -233,7 +247,7 @@ def main() -> int:
             print("- " + message)
         return 1
     print(f"校验通过：{counts['teaser']} teaser，{counts['architecture']} architecture，"
-          f"{counts['element']} 元素；{counts['svg']} 个 SVG 已检查。")
+          f"{counts['multipanel']} 大图，{counts['element']} 元素；{counts['svg']} 个 SVG 已检查。")
     print(f"另含 {counts['mechanism']} 张机制参考图、{counts['layout-template']} 份原生版式模板；分别计数。")
     print("仅检查结构、引用、已记录校验和及 SVG 自包含性；不证明桌面 Illustrator 兼容性或素材授权。")
     return 0

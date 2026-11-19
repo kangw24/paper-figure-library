@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "electromagnetic-soft-robots-locomotion",
+  "title": "电磁软机器人的运动序列与实测速度",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "装置、过程与测量",
+    "软体机器人",
+    "运动测试",
+    "多工况展示"
+  ],
+  "summary": "上层以连续摄影展示压平恢复和越障，中间并列水上装置、游动轨迹和频率响应。一条通栏编号轨迹示范转弯，下层以实物和连拍收束到无系绳原型。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Ultrafast small-scale soft electromagnetic robots",
+    "venue": "Nature Communications",
+    "year": 2022,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41467-022-32123-4/figures/4"
+  },
+  "curation": {
+    "layout_family": "装置、过程与测量",
+    "panel_labels": "a–k",
+    "panel_count": 11,
+    "reading_order": "a、b 把抗压恢复和越障画成时间序列。c–e 从入水姿态追到游动速度，f 的 1–7 帧连起直行和转向。g 是搬运释放，h–k 对应三款无系绳原型及其奔跑、游动。",
+    "why_selected": "上层以连续摄影展示压平恢复和越障，中间并列水上装置、游动轨迹和频率响应。一条通栏编号轨迹示范转弯，下层以实物和连拍收束到无系绳原型。"
+  },
+  "source": {
+    "figure_number": 4,
+    "authors": [
+      "Guoyong Mao",
+      "David Schiller",
+      "Doris Danninger",
+      "Bekele Hailegnaw",
+      "Florian Hartmann",
+      "Thomas Stockinger",
+      "Michael Drack",
+      "Nikita Arnold",
+      "Martin Kaltenbrunner"
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41467-022-32123-4/figures/4",
+      "https://www.nature.com/articles/s41467-022-32123-4.pdf",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41467-022-32123-4.pdf",
+    "full_pdf_sha256": "43860b57623e9048499b302e1faef133657c44371692cda650d966979ee91b27",
+    "page_number": 7,
+    "crop_bbox_pt": [
+      116,
+      47,
+      483,
+      625
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0",
+    "copyright_notice": "© The Author(s) 2022"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 277,
+    "pdf_image_placements": 5,
+    "selectable_words": 120,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 3706514,
+      "sha256": "130d49306f6ed78aff780e45d94e9ee2d264208c88b0f2a7dcbcada1b3e4ea01"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 886666,
+      "sha256": "6c779d96e907f42344bc570be439f456704831a265895bc7ca10d3bbbdc50d08"
+    }
+  ]
+}

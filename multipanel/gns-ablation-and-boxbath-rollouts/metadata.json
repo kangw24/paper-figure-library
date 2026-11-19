@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "gns-ablation-and-boxbath-rollouts",
+  "title": "GNS · 五组消融、同场景预测与跨材料误差",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "多工况与方法对照",
+    "图神经网络",
+    "粒子动力学",
+    "消融实验"
+  ],
+  "summary": "左侧五列消融各用上下两张柱图，共用横轴。右上给同一 BoxBath 场景的两幅模拟快照，右下为不同材料的误差总图。原图包含可编辑的曲线轴标与柱形，两张模拟快照为嵌入图像。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Learning to Simulate Complex Physics with Graph Networks",
+    "venue": "ICML",
+    "year": 2020,
+    "presentation": "conference-paper",
+    "evidence_url": "https://proceedings.mlr.press/v119/sanchez-gonzalez20a.html"
+  },
+  "curation": {
+    "layout_family": "多工况与方法对照",
+    "panel_labels": "a–m",
+    "panel_count": 13,
+    "reading_order": "a、b 比较消息传递步数对单步及多步预测误差的影响。沿 c–j 横读其余四种设置，每列都保持上行为单步、下行为多步。k、l 对照 GNS 与 CConv 推演 50 步后的场景。m 汇总各材料上的多步误差。",
+    "why_selected": "左侧五列消融各用上下两张柱图，共用横轴。右上给同一 BoxBath 场景的两幅模拟快照，右下为不同材料的误差总图。原图包含可编辑的曲线轴标与柱形，两张模拟快照为嵌入图像。"
+  },
+  "source": {
+    "figure_number": 4,
+    "authors": [
+      "Alvaro Sanchez-Gonzalez",
+      "Jonathan Godwin",
+      "Tobias Pfaff",
+      "Rex Ying",
+      "Jure Leskovec",
+      "Peter W. Battaglia"
+    ],
+    "urls": [
+      "https://proceedings.mlr.press/v119/sanchez-gonzalez20a.html",
+      "https://proceedings.mlr.press/v119/sanchez-gonzalez20a/sanchez-gonzalez20a.pdf",
+      "https://proceedings.mlr.press/pmlr-license-agreement.html",
+      "https://proceedings.mlr.press/pmlr-license-agreement.pdf",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://proceedings.mlr.press/v119/sanchez-gonzalez20a/sanchez-gonzalez20a.pdf",
+    "full_pdf_sha256": "85b52bea0da38cf5d41b77031794a91e9d5d9b43e64b95c00e14b66e306a5d53",
+    "page_number": 8,
+    "crop_bbox_pt": [
+      52,
+      64,
+      543,
+      220
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin",
+    "related_resources": [
+      {
+        "title": "PMLR 出版协议",
+        "url": "https://proceedings.mlr.press/pmlr-license-agreement.pdf"
+      }
+    ]
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0（PMLR 正式出版协议要求署名，并给出原论文在 PMLR 的链接）"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 283,
+    "pdf_image_placements": 1,
+    "selectable_words": 81,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 1046118,
+      "sha256": "90df8ec139f5530e6285c5d6215d8ce57b7103b2e416420c79c3728c3cebf8d7"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 123683,
+      "sha256": "ea5277de989e100a4ada0e536c2fd868ec48ced8e193577a254630f7767909f1"
+    }
+  ]
+}

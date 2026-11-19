@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "grid-cell-toroidal-coordinates",
+  "title": "把同一网格细胞放回物理空间和环面",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "同一对象的多种证据",
+    "空间表征与群体活动拓扑"
+  ],
+  "summary": "左上用环面及其二维展开解释坐标，中上用多行细胞热图对照环境，右列放信息量与模型拟合。左下和中下以连线图、累积分布检验位置稳定性。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Toroidal topology of population activity in grid cells",
+    "venue": "Nature",
+    "year": 2022,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41586-021-04268-7/figures/2"
+  },
+  "curation": {
+    "layout_family": "同一对象的多种证据",
+    "panel_labels": "a–g",
+    "panel_count": 7,
+    "reading_order": "a 定义推断的环面坐标，b 的每行在开放场和架高网格跑道中展示同一个细胞，并把它映回共同环面。c、d 比较环面位置和空间位置解释放电的能力。e 连同一细胞在两种环境中的场中心，f、g 分别统计距离与放电图相关。",
+    "why_selected": "左上用环面及其二维展开解释坐标，中上用多行细胞热图对照环境，右列放信息量与模型拟合。左下和中下以连线图、累积分布检验位置稳定性。"
+  },
+  "source": {
+    "figure_number": 2,
+    "authors": [
+      "Richard J. Gardner",
+      "Erik Hermansen",
+      "Marius Pachitariu",
+      "et al."
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41586-021-04268-7/figures/2",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC8810387.1/PMC8810387.1.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8810387/",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8810387.1/PMC8810387.1.pdf",
+    "full_pdf_sha256": "ca9bdede2572d45e7ebed1f7cde1d64aec79046b80d57b1cbaeff742e65c7a7d",
+    "page_number": 3,
+    "crop_bbox_pt": [
+      39,
+      46,
+      561,
+      214
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0。已核对论文的版权与许可声明。"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 3018,
+    "pdf_image_placements": 43,
+    "selectable_words": 204,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 458881,
+      "sha256": "594f3cff2382171b6201239a2db2f52c0cfb5297ce680768e5884cc2a2a31da7"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 304812,
+      "sha256": "6620a5a0bfc1712d636696d89f257f36f6872db63869f480e85e633298cf0269"
+    }
+  ]
+}

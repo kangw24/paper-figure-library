@@ -3,6 +3,7 @@
   "counts": {
     "teaser": 76,
     "architecture": 69,
+    "multipanel": 22,
     "element": 392,
     "mechanism": 17,
     "layout-template": 11
@@ -21595,6 +21596,2420 @@
       "readme_path": "architecture/vtrace-multihop-visual-attribution/README.md",
       "primary_path": "architecture/vtrace-multihop-visual-attribution/original.pdf",
       "preview_path": "architecture/vtrace-multihop-visual-attribution/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "brain-spine-rehabilitation-without-stimulation",
+      "title": "从无刺激步行连拍到康复评估",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "同一对象的多种证据",
+        "脑–脊髓接口与运动康复"
+      ],
+      "summary": "顶部三组连拍把同一位参与者的临床阶段并置。横跨整行的时间轴标明干预。中间把屈髋照片、肌电和身体分布图配成组，底部横排四类结局评估。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Walking naturally after spinal cord injury using a brain–spine interface",
+        "venue": "Nature",
+        "year": 2023,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-023-06094-5/figures/4"
+      },
+      "curation": {
+        "layout_family": "同一对象的多种证据",
+        "panel_labels": "a–h",
+        "panel_count": 8,
+        "reading_order": "a 比较三个阶段在关闭刺激时的行走，b 给出两段临床试验与训练日程。c 将屈髋动作和肌电配对，d 给出下肢运动评分。e–h 分别检查步行独立性、六分钟步行、承重与平衡等能力以及观察式步态评分。全图跟踪一位参与者。",
+        "why_selected": "顶部三组连拍把同一位参与者的临床阶段并置。横跨整行的时间轴标明干预。中间把屈髋照片、肌电和身体分布图配成组，底部横排四类结局评估。"
+      },
+      "source": {
+        "figure_number": 4,
+        "authors": [
+          "Henri Lorach",
+          "Andrea Galvez",
+          "Valeria Spagnolo",
+          "et al."
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-023-06094-5/figures/4",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC10232367.1/PMC10232367.1.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10232367/",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10232367.1/PMC10232367.1.pdf",
+        "full_pdf_sha256": "080d88c32e0220810555720a8c30f48506fe7c9773ccead3d001272e3776b34a",
+        "page_number": 6,
+        "crop_bbox_pt": [
+          31,
+          46,
+          559,
+          475
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0。已核对论文的版权与许可声明。"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 149,
+        "pdf_image_placements": 157,
+        "selectable_words": 275,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 3052366,
+          "sha256": "cafb961d2ddae24abd51e4e0cf6e1ae6f94641e5480048ff61969efcdb65ffa8"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 543990,
+          "sha256": "8b59b91949e3e52274605dc28517ccc1321c0a82510fab4cd4508818b2d35556"
+        }
+      ],
+      "path": "multipanel/brain-spine-rehabilitation-without-stimulation",
+      "metadata_path": "multipanel/brain-spine-rehabilitation-without-stimulation/metadata.json",
+      "readme_path": "multipanel/brain-spine-rehabilitation-without-stimulation/README.md",
+      "primary_path": "multipanel/brain-spine-rehabilitation-without-stimulation/figure.pdf",
+      "preview_path": "multipanel/brain-spine-rehabilitation-without-stimulation/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "cebra-natural-movie-decoding",
+      "title": "从视觉皮层活动解码电影帧",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "同一对象的多种证据",
+        "自然电影解码与神经表征"
+      ],
+      "summary": "上排 a–c 从解码流程、成对电影帧过渡到准确率曲线。下排 d–h 依次放场景识别、帧号对照、误差以及脑区与层别比较。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Learnable latent embeddings for joint behavioural and neural analysis",
+        "venue": "Nature",
+        "year": 2023,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-023-06031-6/figures/5"
+      },
+      "curation": {
+        "layout_family": "同一对象的多种证据",
+        "panel_labels": "a–h",
+        "panel_count": 8,
+        "reading_order": "a 给出从神经信号到帧分类的路径。b 上下对照原始帧和从钙记录解码的帧。c 对比短、长感受野，d 换成场景分类，e 与 f 用帧号对应关系和平均绝对误差衡量错到哪里。g、h 分别检查视觉脑区与 V1 层别。",
+        "why_selected": "上排 a–c 从解码流程、成对电影帧过渡到准确率曲线。下排 d–h 依次放场景识别、帧号对照、误差以及脑区与层别比较。"
+      },
+      "source": {
+        "figure_number": 5,
+        "authors": [
+          "Steffen Schneider",
+          "Jin Hwa Lee",
+          "Mackenzie Weygandt Mathis"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-023-06031-6/figures/5",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC10172131.1/PMC10172131.1.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10172131/",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10172131.1/PMC10172131.1.pdf",
+        "full_pdf_sha256": "8b2ba843fa15d4c43c3c65b1cf928bff91f43521339c6b8038dae163c9ba45c9",
+        "page_number": 7,
+        "crop_bbox_pt": [
+          39,
+          46,
+          560,
+          279
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0。已核对论文的版权与许可声明。b 含实验所用电影的画面，研究论文的许可声明未单列电影素材的独立授权。"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 7921,
+        "pdf_image_placements": 4,
+        "selectable_words": 233,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 388596,
+          "sha256": "9661c7469599c617539f9af58e912a6767e7e5b59d15d003d7e382f9a3879f65"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 262894,
+          "sha256": "5e6354325a7df4e12a6b7dba632f17631e81e546690431a47f209bb92973765b"
+        }
+      ],
+      "path": "multipanel/cebra-natural-movie-decoding",
+      "metadata_path": "multipanel/cebra-natural-movie-decoding/metadata.json",
+      "readme_path": "multipanel/cebra-natural-movie-decoding/README.md",
+      "primary_path": "multipanel/cebra-natural-movie-decoding/figure.pdf",
+      "preview_path": "multipanel/cebra-natural-movie-decoding/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "cellpose-human-loop-annotation-budget",
+      "title": "Cellpose 2.0 · 两套数据上的分割质量与标注预算",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "多工况与方法对照",
+        "计算机视觉",
+        "交互式标注",
+        "图像分割"
+      ],
+      "summary": "上下两组分别对应 TissueNet 和 LiveCell。每组先并排四幅同一图像的分割结果，下一行以一幅人工复标图加三幅定量曲线收束。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Cellpose 2.0: how to train your own model",
+        "venue": "Nature Methods",
+        "year": 2022,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41592-022-01663-4/figures/5"
+      },
+      "curation": {
+        "layout_family": "多工况与方法对照",
+        "panel_labels": "a–j",
+        "panel_count": 10,
+        "reading_order": "a 比较四种训练和标注策略对同一 TissueNet 图像的预测，b 用同一人两次标注说明人工一致性。c 数人工勾画的区域，d、e 分别以训练图像数和手工区域数解释平均精度。f–j 在 LiveCell 的 A172 图像上复用同一顺序。",
+        "why_selected": "上下两组分别对应 TissueNet 和 LiveCell。每组先并排四幅同一图像的分割结果，下一行以一幅人工复标图加三幅定量曲线收束。"
+      },
+      "source": {
+        "figure_number": 5,
+        "authors": [
+          "Marius Pachitariu",
+          "Carsen Stringer"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41592-022-01663-4/figures/5",
+          "https://www.nature.com/articles/s41592-022-01663-4.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41592-022-01663-4.pdf",
+        "full_pdf_sha256": "6050ea4ae19910e202afb55a70d553f2c3a76d16aca5f09ea4652c1d79e6118c",
+        "page_number": 6,
+        "crop_bbox_pt": [
+          41,
+          50,
+          568,
+          605
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0（论文及无单独署名例外的图材。原图注列明 TissueNet 和 LiveCell 的样本来源）"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 923,
+        "pdf_image_placements": 10,
+        "selectable_words": 196,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 736462,
+          "sha256": "d8bc28553da1a010b727e6ae414a8be7d991985ecf4f0e278fd788118a1f806e"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 965774,
+          "sha256": "6dc60f8fcc430a5a46868e54446ca0eebde5047f1ac35e344d9da944f179777c"
+        }
+      ],
+      "path": "multipanel/cellpose-human-loop-annotation-budget",
+      "metadata_path": "multipanel/cellpose-human-loop-annotation-budget/metadata.json",
+      "readme_path": "multipanel/cellpose-human-loop-annotation-budget/README.md",
+      "primary_path": "multipanel/cellpose-human-loop-annotation-budget/figure.pdf",
+      "preview_path": "multipanel/cellpose-human-loop-annotation-budget/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "dalle-contrastive-reranking-contact-sheet",
+      "title": "DALL·E · 八条提示词与四种候选池大小",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "多工况与方法对照",
+        "文生图",
+        "对比模型重排序",
+        "定性对照"
+      ],
+      "summary": "每列上方写一条 MS-COCO 提示词，下方沿同一列排四幅生成图。行名是 best of 512、64、8、1。共 32 个图像单元，论文没有逐格编字母。原文将整幅图嵌为 3364 × 1753 像素位图。",
+      "formats": [
+        "pdf",
+        "jpg"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Zero-Shot Text-to-Image Generation",
+        "venue": "ICML",
+        "year": 2021,
+        "presentation": "conference-paper",
+        "evidence_url": "https://proceedings.mlr.press/v139/ramesh21a.html"
+      },
+      "curation": {
+        "layout_family": "多工况与方法对照",
+        "panel_labels": "原图无字母；8 列 × 4 行",
+        "panel_count": 32,
+        "reading_order": "先纵读一列，观察同一提示词在四种候选数下被对比模型选中的结果，例如海滩上的人群或在施工路口停下的卡车。再横读一行，看固定候选数时不同题材的表现。每格都是生成样本，候选数是这一页唯一改变的比较条件。",
+        "why_selected": "每列上方写一条 MS-COCO 提示词，下方沿同一列排四幅生成图。行名是 best of 512、64、8、1。共 32 个图像单元，论文没有逐格编字母。原文将整幅图嵌为 3364 × 1753 像素位图。"
+      },
+      "source": {
+        "figure_number": 6,
+        "authors": [
+          "Aditya Ramesh",
+          "Mikhail Pavlov",
+          "Gabriel Goh",
+          "Scott Gray",
+          "Chelsea Voss",
+          "Alec Radford",
+          "Mark Chen",
+          "Ilya Sutskever"
+        ],
+        "urls": [
+          "https://proceedings.mlr.press/v139/ramesh21a.html",
+          "https://proceedings.mlr.press/v139/ramesh21a/ramesh21a.pdf",
+          "https://proceedings.mlr.press/pmlr-license-agreement.html",
+          "https://proceedings.mlr.press/pmlr-license-agreement.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://proceedings.mlr.press/v139/ramesh21a/ramesh21a.pdf",
+        "full_pdf_sha256": "c2801c43b6f2e9a967ec872f6d4b741384ecb88f8cd33f82470ece70daf6c2bb",
+        "page_number": 6,
+        "crop_bbox_pt": [
+          52,
+          69,
+          543,
+          324
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin",
+        "related_resources": [
+          {
+            "title": "PMLR 出版协议",
+            "url": "https://proceedings.mlr.press/pmlr-license-agreement.pdf"
+          }
+        ]
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0（PMLR 正式出版协议要求署名，并给出原论文在 PMLR 的链接）"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pdf_drawing_objects": 0,
+        "pdf_image_placements": 1,
+        "selectable_words": 0,
+        "notes": [
+          "出版 PDF 的整图以位图为主，放大或在 Illustrator 中打开时，图内曲线仍是像素。"
+        ],
+        "pixel_dimensions": [
+          3364,
+          1753
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 892868,
+          "sha256": "5a20d942124d1ed022c671fe601a0765882818720dfdfe24ea0759e82abc5572"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1098908,
+          "sha256": "34adc46797e7809a56ee6d1f6e1f4008c83630cdccdfe6b732900258bd9f9e27"
+        },
+        {
+          "path": "embedded.jpg",
+          "bytes": 891149,
+          "sha256": "a0565831960ffe67b564d2375faedc323c6c8405593599d5272eaf5f479cbc62"
+        }
+      ],
+      "path": "multipanel/dalle-contrastive-reranking-contact-sheet",
+      "metadata_path": "multipanel/dalle-contrastive-reranking-contact-sheet/metadata.json",
+      "readme_path": "multipanel/dalle-contrastive-reranking-contact-sheet/README.md",
+      "primary_path": "multipanel/dalle-contrastive-reranking-contact-sheet/figure.pdf",
+      "preview_path": "multipanel/dalle-contrastive-reranking-contact-sheet/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "electromagnetic-soft-robots-locomotion",
+      "title": "电磁软机器人的运动序列与实测速度",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "装置、过程与测量",
+        "软体机器人",
+        "运动测试",
+        "多工况展示"
+      ],
+      "summary": "上层以连续摄影展示压平恢复和越障，中间并列水上装置、游动轨迹和频率响应。一条通栏编号轨迹示范转弯，下层以实物和连拍收束到无系绳原型。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Ultrafast small-scale soft electromagnetic robots",
+        "venue": "Nature Communications",
+        "year": 2022,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41467-022-32123-4/figures/4"
+      },
+      "curation": {
+        "layout_family": "装置、过程与测量",
+        "panel_labels": "a–k",
+        "panel_count": 11,
+        "reading_order": "a、b 把抗压恢复和越障画成时间序列。c–e 从入水姿态追到游动速度，f 的 1–7 帧连起直行和转向。g 是搬运释放，h–k 对应三款无系绳原型及其奔跑、游动。",
+        "why_selected": "上层以连续摄影展示压平恢复和越障，中间并列水上装置、游动轨迹和频率响应。一条通栏编号轨迹示范转弯，下层以实物和连拍收束到无系绳原型。"
+      },
+      "source": {
+        "figure_number": 4,
+        "authors": [
+          "Guoyong Mao",
+          "David Schiller",
+          "Doris Danninger",
+          "Bekele Hailegnaw",
+          "Florian Hartmann",
+          "Thomas Stockinger",
+          "Michael Drack",
+          "Nikita Arnold",
+          "Martin Kaltenbrunner"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41467-022-32123-4/figures/4",
+          "https://www.nature.com/articles/s41467-022-32123-4.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41467-022-32123-4.pdf",
+        "full_pdf_sha256": "43860b57623e9048499b302e1faef133657c44371692cda650d966979ee91b27",
+        "page_number": 7,
+        "crop_bbox_pt": [
+          116,
+          47,
+          483,
+          625
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0",
+        "copyright_notice": "© The Author(s) 2022"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 277,
+        "pdf_image_placements": 5,
+        "selectable_words": 120,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 3706514,
+          "sha256": "130d49306f6ed78aff780e45d94e9ee2d264208c88b0f2a7dcbcada1b3e4ea01"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 886666,
+          "sha256": "6c779d96e907f42344bc570be439f456704831a265895bc7ca10d3bbbdc50d08"
+        }
+      ],
+      "path": "multipanel/electromagnetic-soft-robots-locomotion",
+      "metadata_path": "multipanel/electromagnetic-soft-robots-locomotion/metadata.json",
+      "readme_path": "multipanel/electromagnetic-soft-robots-locomotion/README.md",
+      "primary_path": "multipanel/electromagnetic-soft-robots-locomotion/figure.pdf",
+      "preview_path": "multipanel/electromagnetic-soft-robots-locomotion/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "gnome-discovery-loop-and-validation",
+      "title": "GNoME · 筛选闭环、发现规模与晶体实例",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从整体到局部",
+        "图神经网络",
+        "材料筛选",
+        "实验验证"
+      ],
+      "summary": "第一行通栏画两条候选生成支路和筛选反馈。下方两行各分两栏。中行右栏在一个字母内嵌入六个已验证结构，与左边发现数量的时间轴对照。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Scaling deep learning for materials discovery",
+        "venue": "Nature",
+        "year": 2023,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-023-06735-9/figures/1"
+      },
+      "curation": {
+        "layout_family": "从整体到局部",
+        "panel_labels": "a–e",
+        "panel_count": 5,
+        "reading_order": "a 说明结构或组分进入模型筛选后如何经密度泛函理论验证并回流。b 给发现规模，c 展示独立实验验证的六个结构实例。d 看高组分复杂度区域的发现占比，e 看随机结构搜索样本上的泛化。",
+        "why_selected": "第一行通栏画两条候选生成支路和筛选反馈。下方两行各分两栏。中行右栏在一个字母内嵌入六个已验证结构，与左边发现数量的时间轴对照。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Amil Merchant",
+          "Simon Batzner",
+          "Samuel S. Schoenholz",
+          "Muratahan Aykol",
+          "Gowoon Cheon",
+          "Ekin Dogus Cubuk"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-023-06735-9/figures/1",
+          "https://www.nature.com/articles/s41586-023-06735-9.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41586-023-06735-9.pdf",
+        "full_pdf_sha256": "f1af6c92eda54f5bd84eb5012f3010d7bb9167dca337414cffca81623b4a535a",
+        "page_number": 2,
+        "crop_bbox_pt": [
+          107,
+          46,
+          493,
+          428
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0（论文及无单独署名例外的图材。c 所示实例的实验来源见原图注参考文献 50–55）"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 154,
+        "pdf_image_placements": 41,
+        "selectable_words": 98,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 623000,
+          "sha256": "ab80f6f803861ac697b867a89152c968ac85f4f6dabfee771c8310a66074283b"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 334105,
+          "sha256": "fd76735e65237f372410dab96f52a035643a03f73a1696bafe11e8bb9b91c7cd"
+        }
+      ],
+      "path": "multipanel/gnome-discovery-loop-and-validation",
+      "metadata_path": "multipanel/gnome-discovery-loop-and-validation/metadata.json",
+      "readme_path": "multipanel/gnome-discovery-loop-and-validation/README.md",
+      "primary_path": "multipanel/gnome-discovery-loop-and-validation/figure.pdf",
+      "preview_path": "multipanel/gnome-discovery-loop-and-validation/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "gns-ablation-and-boxbath-rollouts",
+      "title": "GNS · 五组消融、同场景预测与跨材料误差",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "多工况与方法对照",
+        "图神经网络",
+        "粒子动力学",
+        "消融实验"
+      ],
+      "summary": "左侧五列消融各用上下两张柱图，共用横轴。右上给同一 BoxBath 场景的两幅模拟快照，右下为不同材料的误差总图。原图包含可编辑的曲线轴标与柱形，两张模拟快照为嵌入图像。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Learning to Simulate Complex Physics with Graph Networks",
+        "venue": "ICML",
+        "year": 2020,
+        "presentation": "conference-paper",
+        "evidence_url": "https://proceedings.mlr.press/v119/sanchez-gonzalez20a.html"
+      },
+      "curation": {
+        "layout_family": "多工况与方法对照",
+        "panel_labels": "a–m",
+        "panel_count": 13,
+        "reading_order": "a、b 比较消息传递步数对单步及多步预测误差的影响。沿 c–j 横读其余四种设置，每列都保持上行为单步、下行为多步。k、l 对照 GNS 与 CConv 推演 50 步后的场景。m 汇总各材料上的多步误差。",
+        "why_selected": "左侧五列消融各用上下两张柱图，共用横轴。右上给同一 BoxBath 场景的两幅模拟快照，右下为不同材料的误差总图。原图包含可编辑的曲线轴标与柱形，两张模拟快照为嵌入图像。"
+      },
+      "source": {
+        "figure_number": 4,
+        "authors": [
+          "Alvaro Sanchez-Gonzalez",
+          "Jonathan Godwin",
+          "Tobias Pfaff",
+          "Rex Ying",
+          "Jure Leskovec",
+          "Peter W. Battaglia"
+        ],
+        "urls": [
+          "https://proceedings.mlr.press/v119/sanchez-gonzalez20a.html",
+          "https://proceedings.mlr.press/v119/sanchez-gonzalez20a/sanchez-gonzalez20a.pdf",
+          "https://proceedings.mlr.press/pmlr-license-agreement.html",
+          "https://proceedings.mlr.press/pmlr-license-agreement.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://proceedings.mlr.press/v119/sanchez-gonzalez20a/sanchez-gonzalez20a.pdf",
+        "full_pdf_sha256": "85b52bea0da38cf5d41b77031794a91e9d5d9b43e64b95c00e14b66e306a5d53",
+        "page_number": 8,
+        "crop_bbox_pt": [
+          52,
+          64,
+          543,
+          220
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin",
+        "related_resources": [
+          {
+            "title": "PMLR 出版协议",
+            "url": "https://proceedings.mlr.press/pmlr-license-agreement.pdf"
+          }
+        ]
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0（PMLR 正式出版协议要求署名，并给出原论文在 PMLR 的链接）"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 283,
+        "pdf_image_placements": 1,
+        "selectable_words": 81,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 1046118,
+          "sha256": "90df8ec139f5530e6285c5d6215d8ce57b7103b2e416420c79c3728c3cebf8d7"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 123683,
+          "sha256": "ea5277de989e100a4ada0e536c2fd868ec48ced8e193577a254630f7767909f1"
+        }
+      ],
+      "path": "multipanel/gns-ablation-and-boxbath-rollouts",
+      "metadata_path": "multipanel/gns-ablation-and-boxbath-rollouts/metadata.json",
+      "readme_path": "multipanel/gns-ablation-and-boxbath-rollouts/README.md",
+      "primary_path": "multipanel/gns-ablation-and-boxbath-rollouts/figure.pdf",
+      "preview_path": "multipanel/gns-ablation-and-boxbath-rollouts/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "grid-cell-toroidal-coordinates",
+      "title": "把同一网格细胞放回物理空间和环面",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "同一对象的多种证据",
+        "空间表征与群体活动拓扑"
+      ],
+      "summary": "左上用环面及其二维展开解释坐标，中上用多行细胞热图对照环境，右列放信息量与模型拟合。左下和中下以连线图、累积分布检验位置稳定性。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Toroidal topology of population activity in grid cells",
+        "venue": "Nature",
+        "year": 2022,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-021-04268-7/figures/2"
+      },
+      "curation": {
+        "layout_family": "同一对象的多种证据",
+        "panel_labels": "a–g",
+        "panel_count": 7,
+        "reading_order": "a 定义推断的环面坐标，b 的每行在开放场和架高网格跑道中展示同一个细胞，并把它映回共同环面。c、d 比较环面位置和空间位置解释放电的能力。e 连同一细胞在两种环境中的场中心，f、g 分别统计距离与放电图相关。",
+        "why_selected": "左上用环面及其二维展开解释坐标，中上用多行细胞热图对照环境，右列放信息量与模型拟合。左下和中下以连线图、累积分布检验位置稳定性。"
+      },
+      "source": {
+        "figure_number": 2,
+        "authors": [
+          "Richard J. Gardner",
+          "Erik Hermansen",
+          "Marius Pachitariu",
+          "et al."
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-021-04268-7/figures/2",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC8810387.1/PMC8810387.1.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8810387/",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8810387.1/PMC8810387.1.pdf",
+        "full_pdf_sha256": "ca9bdede2572d45e7ebed1f7cde1d64aec79046b80d57b1cbaeff742e65c7a7d",
+        "page_number": 3,
+        "crop_bbox_pt": [
+          39,
+          46,
+          561,
+          214
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0。已核对论文的版权与许可声明。"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 3018,
+        "pdf_image_placements": 43,
+        "selectable_words": 204,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 458881,
+          "sha256": "594f3cff2382171b6201239a2db2f52c0cfb5297ce680768e5884cc2a2a31da7"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 304812,
+          "sha256": "6620a5a0bfc1712d636696d89f257f36f6872db63869f480e85e633298cf0269"
+        }
+      ],
+      "path": "multipanel/grid-cell-toroidal-coordinates",
+      "metadata_path": "multipanel/grid-cell-toroidal-coordinates/metadata.json",
+      "readme_path": "multipanel/grid-cell-toroidal-coordinates/README.md",
+      "primary_path": "multipanel/grid-cell-toroidal-coordinates/figure.pdf",
+      "preview_path": "multipanel/grid-cell-toroidal-coordinates/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "hydrogel-cap-cooling-dynamics",
+      "title": "一只水凝胶球冠的冷却变形全过程",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "装置、过程与测量",
+        "形变材料",
+        "曲率",
+        "动力学"
+      ],
+      "summary": "顶端用一条黑底时间序列横贯全图。中部从三张校准图过渡到分时径向曲线，再排三张理论与实验对照。末行回到实物复现及其设计曲线。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Bioinspired 3D structures with programmable morphologies and motions",
+        "venue": "Nature Communications",
+        "year": 2018,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41467-018-05569-8/figures/5"
+      },
+      "curation": {
+        "layout_family": "装置、过程与测量",
+        "panel_labels": "a–j",
+        "panel_count": 10,
+        "reading_order": "从 a 的球冠追踪曲率变号。b–e 将曝光、冷却时间和径向生长联系起来。f–h 分别核对中心曲率、形状过渡位置和皱纹数。i、j 再用同一组时刻检验能否复现瞬态外形。",
+        "why_selected": "顶端用一条黑底时间序列横贯全图。中部从三张校准图过渡到分时径向曲线，再排三张理论与实验对照。末行回到实物复现及其设计曲线。"
+      },
+      "source": {
+        "figure_number": 5,
+        "authors": [
+          "Amirali Nojoomi",
+          "Hakan Arslan",
+          "Kwan Lee",
+          "Kyungsuk Yum"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41467-018-05569-8/figures/5",
+          "https://www.nature.com/articles/s41467-018-05569-8.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41467-018-05569-8.pdf",
+        "full_pdf_sha256": "4617e16df9582d956c1a09c28f11c64393edc31c645cc8c9b010b3fe5104027a",
+        "page_number": 7,
+        "crop_bbox_pt": [
+          77,
+          49,
+          517,
+          546
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0",
+        "copyright_notice": "© The Author(s) 2018"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 437,
+        "pdf_image_placements": 2,
+        "selectable_words": 244,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 196593,
+          "sha256": "02bdb8163268c6da538afa3a615de1483057247dc075d1577e277eee7252eeb7"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 301471,
+          "sha256": "ec303d8fa5a7617a0458154260935ba434afe9f71b138d968b2e25ac5055f1be"
+        }
+      ],
+      "path": "multipanel/hydrogel-cap-cooling-dynamics",
+      "metadata_path": "multipanel/hydrogel-cap-cooling-dynamics/metadata.json",
+      "readme_path": "multipanel/hydrogel-cap-cooling-dynamics/README.md",
+      "primary_path": "multipanel/hydrogel-cap-cooling-dynamics/figure.pdf",
+      "preview_path": "multipanel/hydrogel-cap-cooling-dynamics/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "ibl-behaviour-task-and-neural-recordings",
+      "title": "从转轮选择任务到同一试次的神经记录",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "装置、过程与测量",
+        "行为决策与多脑区同步记录"
+      ],
+      "summary": "上半部左侧是任务装置和事件时间轴，中央是反应时，右侧的纵向长面板沿三次试验对齐行为与神经元放电。底部四组小图概括会话进程、区块切换和选择偏差。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "A brain-wide map of neural activity during complex behaviour",
+        "venue": "Nature",
+        "year": 2025,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-025-09235-0/figures/1"
+      },
+      "curation": {
+        "layout_family": "装置、过程与测量",
+        "panel_labels": "a–i",
+        "panel_count": 9,
+        "reading_order": "先沿 a、b 找到刺激、转轮动作和反馈，再在 i 的三个实际试次里对齐转轮、视频提取量及多脑区放电。c、d 检查反应时间和刺激对比度。e、f 检查临近会话结束时的变化，g、h 检查先验区块切换如何改变选择。",
+        "why_selected": "上半部左侧是任务装置和事件时间轴，中央是反应时，右侧的纵向长面板沿三次试验对齐行为与神经元放电。底部四组小图概括会话进程、区块切换和选择偏差。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "International Brain Laboratory",
+          "Dora Angelaki",
+          "Brandon Benson",
+          "et al."
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-025-09235-0/figures/1",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC12408349.1/PMC12408349.1.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12408349/",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://doi.org/10.7554/eLife.63711"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12408349.1/PMC12408349.1.pdf",
+        "full_pdf_sha256": "5bd756b597f974345dba968c7c93ba597c2e316bdd3d64996534204755628c58",
+        "page_number": 3,
+        "crop_bbox_pt": [
+          38,
+          46,
+          565,
+          422
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0。已核对论文的版权与许可声明。a 改编自原文参考文献 23（eLife，CC BY 4.0），使用时须保留其署名。",
+        "panel_a_credit": "The International Brain Laboratory et al., Standardized and reproducible measurement of decision-making in mice, eLife 10:e63711 (2021), CC BY 4.0."
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 1908,
+        "pdf_image_placements": 5,
+        "selectable_words": 183,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 578502,
+          "sha256": "fce950a27ba2ca0840996dfa2e554edfc04b85bc3929036e77d5de529720dbc1"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 478108,
+          "sha256": "cdc24aa4a7815e3ed531c799f8698204bc7297e3e67490694094f7b16cbdda96"
+        }
+      ],
+      "path": "multipanel/ibl-behaviour-task-and-neural-recordings",
+      "metadata_path": "multipanel/ibl-behaviour-task-and-neural-recordings/metadata.json",
+      "readme_path": "multipanel/ibl-behaviour-task-and-neural-recordings/README.md",
+      "primary_path": "multipanel/ibl-behaviour-task-and-neural-recordings/figure.pdf",
+      "preview_path": "multipanel/ibl-behaviour-task-and-neural-recordings/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "ibl-mouse-prior-cross-lab-replication",
+      "title": "从一只小鼠的先验偏差到跨实验室复核",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "同一对象的多种证据",
+        "行为学与跨实验室复现"
+      ],
+      "summary": "第一行从单只小鼠的连续选择过渡到区块间的偏移定义和汇总。中间七个实验室各占一格、共用坐标。最下排比较心理物理参数，并以分类结果检查实验室差异。",
+      "formats": [
+        "jpg"
+      ],
+      "primary_file": "original.jpg",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Standardized and reproducible measurement of decision-making in mice",
+        "venue": "eLife",
+        "year": 2021,
+        "presentation": "journal-article",
+        "evidence_url": "https://elifesciences.org/articles/63711#fig4"
+      },
+      "curation": {
+        "layout_family": "同一对象的多种证据",
+        "panel_labels": "a–j",
+        "panel_count": 10,
+        "reading_order": "a 记录刺激先验切换及小鼠实际选择，b、c 用两条心理物理曲线定义区块偏移，d 汇总对比度效应。e 并排展示七个实验室，f–i 分解阈值、左右失误率和偏差，j 检验能否凭这些行为量识别实验室。",
+        "why_selected": "第一行从单只小鼠的连续选择过渡到区块间的偏移定义和汇总。中间七个实验室各占一格、共用坐标。最下排比较心理物理参数，并以分类结果检查实验室差异。"
+      },
+      "source": {
+        "figure_number": 4,
+        "authors": [
+          "The International Brain Laboratory",
+          "Valeria Aguillon-Rodriguez",
+          "Dora Angelaki",
+          "et al."
+        ],
+        "urls": [
+          "https://elifesciences.org/articles/63711#fig4",
+          "https://iiif.elifesciences.org/lax:63711%2Felife-63711-fig4-v3.tif/full/full/0/default.jpg",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8137147/",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "original_url": "https://iiif.elifesciences.org/lax:63711%2Felife-63711-fig4-v3.tif/full/full/0/default.jpg",
+        "original_sha256": "7304c398002800934f00f1131ba91e0dc316766dadd9486db151d528b864afda"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0。已核对论文的版权与许可声明。"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "JPG",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pixel_dimensions": [
+          2505,
+          1984
+        ],
+        "notes": [
+          "出版方独立图像为 2505 × 1984 像素，原文件按下载字节保存。"
+        ]
+      },
+      "changes": [
+        "原文件保留下载字节，预览等比缩小。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.jpg",
+          "bytes": 398637,
+          "sha256": "7304c398002800934f00f1131ba91e0dc316766dadd9486db151d528b864afda"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 644236,
+          "sha256": "cc362ea2117558e3bcd0c6e675504159f4c484689ebdafb9f4595b1b403c4b28"
+        }
+      ],
+      "path": "multipanel/ibl-mouse-prior-cross-lab-replication",
+      "metadata_path": "multipanel/ibl-mouse-prior-cross-lab-replication/metadata.json",
+      "readme_path": "multipanel/ibl-mouse-prior-cross-lab-replication/README.md",
+      "primary_path": "multipanel/ibl-mouse-prior-cross-lab-replication/original.jpg",
+      "preview_path": "multipanel/ibl-mouse-prior-cross-lab-replication/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "larval-brain-connectome-reconstruction",
+      "title": "果蝇幼虫全脑重建与三类神经元",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从整体到局部",
+        "神经科学",
+        "连接组"
+      ],
+      "summary": "左上用整幅彩色神经重建定位全脑。右上四格把重建完整度、左右配对与通路关系排成两层。底行三张同构的「神经元形态＋计数柱图」并排，可沿同一视角比较。",
+      "formats": [
+        "pdf",
+        "jpg"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "The connectome of an insect brain",
+        "venue": "Science",
+        "year": 2023,
+        "presentation": "journal-article",
+        "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7614541/#F1",
+        "source_version": "PMC author accepted manuscript"
+      },
+      "curation": {
+        "layout_family": "从整体到局部",
+        "panel_labels": "A–H",
+        "panel_count": 8,
+        "reading_order": "A 在电镜体积内标出两个脑半球、食管下区与腹神经索。B 给出重建完整率，C 配对左右同源神经元。D 用框图介绍输入、中间和输出三级，E 把线路放回脑与腹神经索的位置。沿底行看 F 的输入神经元、G 的中间神经元、H 的输出神经元，每格都把形态与相应类别的数量并置。",
+        "why_selected": "左上用整幅彩色神经重建定位全脑。右上四格把重建完整度、左右配对与通路关系排成两层。底行三张同构的「神经元形态＋计数柱图」并排，可沿同一视角比较。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Michael Winding",
+          "Benjamin D Pedigo",
+          "Christopher L Barnes",
+          "Heather G Patsolic",
+          "Youngser Park",
+          "Tom Kazimiers",
+          "Akira Fushiki",
+          "Ingrid V Andrade",
+          "Avinash Khandelwal",
+          "Javier Valdes-Aleman",
+          "Feng Li",
+          "Nadine Randel",
+          "Elizabeth Barsotti",
+          "Ana Correia",
+          "Richard D Fetter",
+          "Volker Hartenstein",
+          "Carey E Priebe",
+          "Joshua T Vogelstein",
+          "Albert Cardona",
+          "Marta Zlatic"
+        ],
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7614541/#F1",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC7614541.1/PMC7614541.1.pdf",
+          "https://europepmc.org/articles/PMC7614541",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://doi.org/10.1126/science.add9330"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7614541.1/PMC7614541.1.pdf",
+        "full_pdf_sha256": "cac59605683d52276636bfa6d15d754f50c4c7938041f6df72ff883fc2a98f24",
+        "page_number": 34,
+        "crop_bbox_pt": [
+          83,
+          61,
+          589,
+          367
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin",
+        "related_resources": [
+          {
+            "title": "Science 正刊论文",
+            "url": "https://doi.org/10.1126/science.add9330"
+          }
+        ]
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0（适用于此 PMC 作者接受稿）",
+        "copyright_notice": "PMC 作者接受稿标明 CC BY 4.0；论文版权页列 American Association for the Advancement of Science 为独家被许可人。"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "cropped author accepted manuscript PDF",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pdf_drawing_objects": 0,
+        "pdf_image_placements": 1,
+        "selectable_words": 0,
+        "notes": [
+          "出版 PDF 的整图以位图为主，放大或在 Illustrator 中打开时，图内曲线仍是像素。"
+        ],
+        "pixel_dimensions": [
+          2096,
+          1265
+        ]
+      },
+      "changes": [
+        "从 PMC 公开的作者接受稿第 34 页提取完整图版，等比生成预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 475033,
+          "sha256": "3945085412d22495fbfd994bd8a114251d10ff3552796723e37f70ae52475825"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 730194,
+          "sha256": "573808defef3925058aab244762b7e05faeaf4f1889413ca4cc31b365b321ee2"
+        },
+        {
+          "path": "embedded.jpg",
+          "bytes": 470201,
+          "sha256": "efb78a88cc1a8df5855a218fb6d3b4398da46e4b02db4cfd22a783b164dd2481"
+        }
+      ],
+      "path": "multipanel/larval-brain-connectome-reconstruction",
+      "metadata_path": "multipanel/larval-brain-connectome-reconstruction/metadata.json",
+      "readme_path": "multipanel/larval-brain-connectome-reconstruction/README.md",
+      "primary_path": "multipanel/larval-brain-connectome-reconstruction/figure.pdf",
+      "preview_path": "multipanel/larval-brain-connectome-reconstruction/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "mattergen-chemical-space-crystals",
+      "title": "MatterGen · 从目标化学空间读到四个具体晶体",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从整体到局部",
+        "科学生成模型",
+        "晶体结构",
+        "材料发现"
+      ],
+      "summary": "左上为两行两列统计图，右上用跨两行的三元相图与局部放大框呈现个案。底行四个晶体结构并排，图中字母与放大框中的点相互索引。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "A generative model for inorganic materials design",
+        "venue": "Nature",
+        "year": 2025,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-025-08628-5/figures/3"
+      },
+      "curation": {
+        "layout_family": "从整体到局部",
+        "panel_labels": "a–i",
+        "panel_count": 9,
+        "reading_order": "a、b 比较各方法生成稳定、独特且新颖结构的比例，c、d 统计凸包上的结构数。e 把其中一个 V–Sr–O 化学体系展开。沿放大框里的 f–i，可以逐一点到底行对应晶体。f 是重新发现的已知结构。",
+        "why_selected": "左上为两行两列统计图，右上用跨两行的三元相图与局部放大框呈现个案。底行四个晶体结构并排，图中字母与放大框中的点相互索引。"
+      },
+      "source": {
+        "figure_number": 3,
+        "authors": [
+          "Claudio Zeni",
+          "Robert Pinsler",
+          "Daniel Zügner",
+          "Andrew Fowler",
+          "Matthew Horton",
+          "Xiang Fu",
+          "Zilong Wang",
+          "Aliaksandra Shysheya",
+          "Jonathan Crabbé",
+          "Shoko Ueda",
+          "Roberto Sordillo",
+          "Lixin Sun",
+          "Jake Smith",
+          "Bichlien Nguyen",
+          "Hannes Schulz",
+          "Sarah Lewis",
+          "Chin-Wei Huang",
+          "Ziheng Lu",
+          "Yichi Zhou",
+          "Han Yang",
+          "Hongxia Hao",
+          "Jielan Li",
+          "Chunlei Yang",
+          "Wenjie Li",
+          "Ryota Tomioka",
+          "Tian Xie"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-025-08628-5/figures/3",
+          "https://www.nature.com/articles/s41586-025-08628-5.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41586-025-08628-5.pdf",
+        "full_pdf_sha256": "06b740061a1152910ec23d8d9d12ae3b965659ef92361457b3b367a3497028ba",
+        "page_number": 4,
+        "crop_bbox_pt": [
+          38,
+          46,
+          565,
+          493
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0（论文及无单独署名例外的图材）"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 252,
+        "pdf_image_placements": 1,
+        "selectable_words": 108,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 981905,
+          "sha256": "e4a4a43cfd329cf77600a3919daf927d3d96ecd3ede15e91756f4d846d162c28"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 222961,
+          "sha256": "98622ef4c94eb91c70fa4d1cf04fcf19324eec0dc5206656a20a46a3726c4aa3"
+        }
+      ],
+      "path": "multipanel/mattergen-chemical-space-crystals",
+      "metadata_path": "multipanel/mattergen-chemical-space-crystals/metadata.json",
+      "readme_path": "multipanel/mattergen-chemical-space-crystals/README.md",
+      "primary_path": "multipanel/mattergen-chemical-space-crystals/figure.pdf",
+      "preview_path": "multipanel/mattergen-chemical-space-crystals/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "microfluidic-transistor-particle-dispenser",
+      "title": "微流控晶体管如何定时、分送单颗粒",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "装置、过程与测量",
+        "微流控",
+        "计时电路",
+        "单颗粒处理"
+      ],
+      "summary": "上方两行各用左电路图、右压力曲线。第三行把颗粒阱的三个状态放在左侧，右侧展开整个分配器。末行从一次分配的时序走到粒子间距统计。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "A microfluidic transistor for automatic control of liquids",
+        "venue": "Nature",
+        "year": 2023,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-023-06517-3/figures/3"
+      },
+      "curation": {
+        "layout_family": "装置、过程与测量",
+        "panel_labels": "a–h",
+        "panel_count": 8,
+        "reading_order": "a、b 的延时器依次开启通路，c、d 以环形振荡器产生重复波形。e、f 让读者看清颗粒停在哪里、谁触发释放，再用 g 的压力尖峰和 h 的进出间距分布检验排序效果。",
+        "why_selected": "上方两行各用左电路图、右压力曲线。第三行把颗粒阱的三个状态放在左侧，右侧展开整个分配器。末行从一次分配的时序走到粒子间距统计。"
+      },
+      "source": {
+        "figure_number": 3,
+        "authors": [
+          "Kaustav A Gopinathan",
+          "Avanish Mishra",
+          "Baris R Mutlu",
+          "Jon F Edd",
+          "Mehmet Toner"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-023-06517-3/figures/3",
+          "https://www.nature.com/articles/s41586-023-06517-3.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41586-023-06517-3.pdf",
+        "full_pdf_sha256": "98f8dc9440ad0ae75f697eb11260536ef5564c7ded251a6684f9ccd49d5dff74",
+        "page_number": 5,
+        "crop_bbox_pt": [
+          39,
+          47,
+          562,
+          548
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0",
+        "copyright_notice": "© The Author(s) 2023"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 874,
+        "pdf_image_placements": 20,
+        "selectable_words": 272,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 696507,
+          "sha256": "2b4f2d5b983a837ff3834f91e67d7ba81002fc69ae1894ed6c6cc247a073cb96"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 399504,
+          "sha256": "be59da402433792eecdbfc36a8f64d903294fa334d795f5092064207854e259b"
+        }
+      ],
+      "path": "multipanel/microfluidic-transistor-particle-dispenser",
+      "metadata_path": "multipanel/microfluidic-transistor-particle-dispenser/metadata.json",
+      "readme_path": "multipanel/microfluidic-transistor-particle-dispenser/README.md",
+      "primary_path": "multipanel/microfluidic-transistor-particle-dispenser/figure.pdf",
+      "preview_path": "multipanel/microfluidic-transistor-particle-dispenser/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "microns-single-cell-structural-functional",
+      "title": "从单个锥体细胞追到突触靶点和功能响应",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从整体到局部",
+        "结构连接组与双光子功能配准"
+      ],
+      "summary": "顶端两行沿同一组织方向重复细胞分布图。中段左侧展开单细胞及靶点，中央汇总连接去向，右侧竖排电镜与双光子图。底部热图回到视觉刺激。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Functional connectomics spanning multiple areas of mouse visual cortex",
+        "venue": "Nature",
+        "year": 2025,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-025-08790-w/figures/6"
+      },
+      "curation": {
+        "layout_family": "从整体到局部",
+        "panel_labels": "a–k",
+        "panel_count": 11,
+        "reading_order": "a–e 在同一组织体积分别标出细胞类别、功能配准与校对状态，f 比较校对细胞的输出突触与可归属靶点。g 选出一个锥体细胞，h 汇总它的突触去向，i、j 利用相同细胞及血管标志比对两种成像，k 将它与突触后靶细胞对同一影片片段的反应并排。",
+        "why_selected": "顶端两行沿同一组织方向重复细胞分布图。中段左侧展开单细胞及靶点，中央汇总连接去向，右侧竖排电镜与双光子图。底部热图回到视觉刺激。"
+      },
+      "source": {
+        "figure_number": 6,
+        "authors": [
+          "The MICrONS Consortium"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-025-08790-w/figures/6",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC11981939.1/PMC11981939.1.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11981939/",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11981939.1/PMC11981939.1.pdf",
+        "full_pdf_sha256": "f5cd26b4c1577a042f9ac1309f0a029819443eb5232774dffe7763e84794976a",
+        "page_number": 8,
+        "crop_bbox_pt": [
+          64,
+          46,
+          538,
+          566
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0。已核对论文的版权与许可声明。"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 3618,
+        "pdf_image_placements": 10,
+        "selectable_words": 167,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 1943911,
+          "sha256": "aba543967c565cc0d1ecb6405fd3770927e62d9ec9b1c66b305bef65c9a65df6"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1310775,
+          "sha256": "268fbab480a494657b75422d8c44ac92f44a2e158e222b3680e9c3d840e76a5d"
+        }
+      ],
+      "path": "multipanel/microns-single-cell-structural-functional",
+      "metadata_path": "multipanel/microns-single-cell-structural-functional/metadata.json",
+      "readme_path": "multipanel/microns-single-cell-structural-functional/README.md",
+      "primary_path": "multipanel/microns-single-cell-structural-functional/figure.pdf",
+      "preview_path": "multipanel/microns-single-cell-structural-functional/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "neuralgcm-weather-skill-and-maps",
+      "title": "NeuralGCM · 四种预报指标与全球误差地图",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "多工况与方法对照",
+        "天气预测",
+        "集合预报",
+        "空间误差诊断"
+      ],
+      "summary": "四行分别对应四种指标。每行左侧用三幅并列折线比较大气变量，右侧用两张同投影地图比较模型，并在行末放对应色标。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Neural general circulation models for weather and climate",
+        "venue": "Nature",
+        "year": 2024,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-024-07744-y/figures/2"
+      },
+      "curation": {
+        "layout_family": "多工况与方法对照",
+        "panel_labels": "a–h",
+        "panel_count": 8,
+        "reading_order": "先横读 a、b：随预报时效变化的 RMSE 与第 10 天 700 hPa 比湿的空间分布对应。再按同一顺序读 c、d 的偏差，e、f 的概率预报 CRPS，以及 g、h 的集合离散度与误差之比。",
+        "why_selected": "四行分别对应四种指标。每行左侧用三幅并列折线比较大气变量，右侧用两张同投影地图比较模型，并在行末放对应色标。"
+      },
+      "source": {
+        "figure_number": 2,
+        "authors": [
+          "Dmitrii Kochkov",
+          "Janni Yuval",
+          "Ian Langmore",
+          "Peter Norgaard",
+          "Jamie Smith",
+          "Griffin Mooers",
+          "Milan Klöwer",
+          "James Lottes",
+          "Stephan Rasp",
+          "Peter Düben",
+          "Sam Hatfield",
+          "Peter Battaglia",
+          "Alvaro Sanchez-Gonzalez",
+          "Matthew Willson",
+          "Michael P. Brenner",
+          "Stephan Hoyer"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-024-07744-y/figures/2",
+          "https://www.nature.com/articles/s41586-024-07744-y.pdf",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://arxiv.org/src/2311.07222v3",
+          "https://arxiv.org/abs/2311.07222v3",
+          "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41586-024-07744-y.pdf",
+        "full_pdf_sha256": "e1e95326c6f2068d9275cd33673cf49157bad107aa4f63684fee96c1bb46349c",
+        "page_number": 3,
+        "crop_bbox_pt": [
+          43,
+          46,
+          558,
+          349
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin",
+        "author_figure_in_preprint": {
+          "kind": "author-standalone-figure",
+          "format": "PDF",
+          "asset_url": "https://arxiv.org/src/2311.07222v3",
+          "landing_url": "https://arxiv.org/abs/2311.07222v3",
+          "archive_member": "images/fig2-specific-humidity.pdf",
+          "figure": 2,
+          "pages": 1,
+          "sha256": "bdf9666d7379ad1d6b685f053db3522c4872758fb487d9d075246dbd6f251adc",
+          "verification": "main.tex 的 Fig. 2 直接以 includegraphics 引用本文件。与 Nature 正式图对照，a–h 的折线、10 天比湿地图和色标相匹配，括号、字体及排版有差异。作者 PDF 中有 1,339 个矢量绘制对象和 8 幅嵌入图像。",
+          "license": "arXiv 非独占传播授权；未核实此版本单独授予第三方再发布权。仓库内可链接作者源包，并继续使用正式 CC BY 4.0 版的整图裁件。",
+          "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+          "redistribution": "link-only"
+        }
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0（论文及无单独署名例外的图材）"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 1309,
+        "pdf_image_placements": 16,
+        "selectable_words": 141,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 2082640,
+          "sha256": "eace3a7ba7b4f834aa265c23986c90aaf5d06b03f0768a0dcc000b92c6ca02a3"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 805689,
+          "sha256": "bec2a95e7cf3fbca5a8d1983ea0e464d74d27a93813c0139e91baa95eea4307b"
+        }
+      ],
+      "path": "multipanel/neuralgcm-weather-skill-and-maps",
+      "metadata_path": "multipanel/neuralgcm-weather-skill-and-maps/metadata.json",
+      "readme_path": "multipanel/neuralgcm-weather-skill-and-maps/README.md",
+      "primary_path": "multipanel/neuralgcm-weather-skill-and-maps/figure.pdf",
+      "preview_path": "multipanel/neuralgcm-weather-skill-and-maps/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "north-greenland-ice-shelf-change",
+      "title": "把八座冰架的退缩放回同一幅区域地图",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从整体到局部",
+        "北格陵兰冰架与冰冻圈遥感"
+      ],
+      "summary": "上方两排八个局部地图按冰架分格，共用其下方一整行色标。下方一幅区域图标出其位置、体积变化以及各处的质量收支柱状图。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Rapid disintegration and weakening of ice shelves in North Greenland",
+        "venue": "Nature Communications",
+        "year": 2023,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41467-023-42198-2/figures/1"
+      },
+      "curation": {
+        "layout_family": "从整体到局部",
+        "panel_labels": "a–i",
+        "panel_count": 9,
+        "reading_order": "a–d 依次是 Petermann、Steensby、Ryder、79N。e–h 对应 Ostenfeld、Hagen Bræ、Zachariæ Isstrøm、Storstrømmen。每一格用相同图例区分冰流速度、冰前缘、接地线。i 把这些冰架放回北格陵兰，用各处的柱图拆解表面质量平衡、底部融化与崩解贡献。",
+        "why_selected": "上方两排八个局部地图按冰架分格，共用其下方一整行色标。下方一幅区域图标出其位置、体积变化以及各处的质量收支柱状图。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "R. Millan",
+          "E. Jager",
+          "J. Mouginot",
+          "et al."
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41467-023-42198-2/figures/1",
+          "https://www.nature.com/articles/s41467-023-42198-2.pdf",
+          "https://www.nature.com/articles/s41467-023-42198-2#rightslink",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://doi.org/10.5281/zenodo.8354794"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41467-023-42198-2.pdf",
+        "full_pdf_sha256": "296e04531ccb62689ef58ce2e6a40813ae36a1ba5578bb6d78433e88487a1648",
+        "page_number": 2,
+        "crop_bbox_pt": [
+          76,
+          46,
+          526,
+          652
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin",
+        "related_resources": [
+          {
+            "title": "作者公开的数据与绘图代码",
+            "url": "https://doi.org/10.5281/zenodo.8354794"
+          }
+        ]
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0。图注注明冰流速度取自 Mouginot 等（参考文献 4），底图据 Morlighem 等的 BedMachine v3（文献 12），通量门据 Wood 等（文献 6）。沿用这些来源署名。"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 449,
+        "pdf_image_placements": 8,
+        "selectable_words": 101,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 1063812,
+          "sha256": "e4059ea12d5aafa621c3d72508a6f6b885f51d17dda3a932ed1c44daf09c6fe2"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1220216,
+          "sha256": "1d8e6388504484fd54677b51d5113eae3d76eb5588942d85fa4706f9d639660f"
+        }
+      ],
+      "path": "multipanel/north-greenland-ice-shelf-change",
+      "metadata_path": "multipanel/north-greenland-ice-shelf-change/metadata.json",
+      "readme_path": "multipanel/north-greenland-ice-shelf-change/README.md",
+      "primary_path": "multipanel/north-greenland-ice-shelf-change/figure.pdf",
+      "preview_path": "multipanel/north-greenland-ice-shelf-change/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "origami-exoskeleton-module-to-arm",
+      "title": "从虾壳分节到承力折纸机械臂",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "装置、过程与测量",
+        "折纸力学",
+        "软体机械臂",
+        "仿生设计"
+      ],
+      "summary": "首行并列变形与承重的矛盾、虾体硬柔分节。下方以“单模块”和“多模块外骨骼”分区：构型照片贴近力学曲线，右下角用机械臂姿态收束。",
+      "formats": [
+        "pdf",
+        "png"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Origami exoskeletons for enhanced soft robotic manipulation",
+        "venue": "Science Advances",
+        "year": 2025,
+        "presentation": "journal-article",
+        "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12309676/#F1"
+      },
+      "curation": {
+        "layout_family": "装置、过程与测量",
+        "panel_labels": "A–H",
+        "panel_count": 8,
+        "reading_order": "A、B 提出设计取舍与生物原型。沿 C、D 看单元从折叠到展开的稳定态，再看 E 中四个单元依次转换如何产生多个力峰。F、G 对照增强前后的气动臂和索驱臂，H 标出可保持的姿态。",
+        "why_selected": "首行并列变形与承重的矛盾、虾体硬柔分节。下方以“单模块”和“多模块外骨骼”分区：构型照片贴近力学曲线，右下角用机械臂姿态收束。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Kangjia Fu",
+          "Xuesong Wu",
+          "Sunquan Yu",
+          "Qi Zhang",
+          "Yanjie Yang",
+          "Tonglin Xu",
+          "Wen Yao",
+          "Teng Yi",
+          "Hua Li",
+          "Yong Chen",
+          "Xiang Zhang",
+          "Xiaoqian Chen"
+        ],
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12309676/#F1",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC12309676.1/PMC12309676.1.pdf",
+          "https://creativecommons.org/licenses/by-nc/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12309676.1/PMC12309676.1.pdf",
+        "full_pdf_sha256": "06d8a1fe8f025e19f37fc8890fb69fb249bca99bbb4e1c581661aa53f7e42ffc",
+        "page_number": 2,
+        "crop_bbox_pt": [
+          80,
+          57,
+          515,
+          607
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY-NC 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "note": "CC BY-NC 4.0",
+        "copyright_notice": "Copyright © 2025 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution NonCommercial License 4.0 (CC BY-NC)."
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pdf_drawing_objects": 0,
+        "pdf_image_placements": 1,
+        "selectable_words": 0,
+        "notes": [
+          "出版 PDF 的整图以位图为主，放大或在 Illustrator 中打开时，图内曲线仍是像素。"
+        ],
+        "pixel_dimensions": [
+          1801,
+          2267
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 3554757,
+          "sha256": "220f41fcc2fdb15bf19b58726db31059395fb1facb462723ffb28ed38cc50c14"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 944344,
+          "sha256": "78284c300e6662f7ed9ec7a81167adcf00b9ce2866f9533c28d00ca2fd98ad48"
+        },
+        {
+          "path": "embedded.png",
+          "bytes": 3150401,
+          "sha256": "4a353646c69ca9904f16ffb56314ee064809c71c38e33908d9ff8e0e33de4c68"
+        }
+      ],
+      "path": "multipanel/origami-exoskeleton-module-to-arm",
+      "metadata_path": "multipanel/origami-exoskeleton-module-to-arm/metadata.json",
+      "readme_path": "multipanel/origami-exoskeleton-module-to-arm/README.md",
+      "primary_path": "multipanel/origami-exoskeleton-module-to-arm/figure.pdf",
+      "preview_path": "multipanel/origami-exoskeleton-module-to-arm/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "perovskite-depth-composition",
+      "title": "沿薄膜深度追踪钙钛矿的成分偏析",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从整体到局部",
+        "光伏材料",
+        "成分深度剖面",
+        "多尺度表征"
+      ],
+      "summary": "上部放器件剖面、晶格示意与处理分子。中左两列排深度剖面，下方并排参考膜与处理膜的三个取样深度。右列上下对齐两组衍射谱。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Homogenizing out-of-plane cation composition in perovskite solar cells",
+        "venue": "Nature",
+        "year": 2023,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-023-06784-0/figures/1"
+      },
+      "curation": {
+        "layout_family": "从整体到局部",
+        "panel_labels": "a–h",
+        "panel_count": 8,
+        "reading_order": "a 先标出表面、体相和底部。沿同一方向读 c、d 的成分测量，再横向对读 e、f 三个深度的晶格像，最后比较 g、h 中不同入射角的峰形。",
+        "why_selected": "上部放器件剖面、晶格示意与处理分子。中左两列排深度剖面，下方并排参考膜与处理膜的三个取样深度。右列上下对齐两组衍射谱。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Zheng Liang",
+          "Yong Zhang",
+          "Huifen Xu",
+          "Wenjing Chen",
+          "Boyuan Liu",
+          "Jiyao Zhang",
+          "Hui Zhang",
+          "Zihan Wang",
+          "Dong-Ho Kang",
+          "Jianrong Zeng",
+          "Xingyu Gao",
+          "Qisheng Wang",
+          "Huijie Hu",
+          "Hongmin Zhou",
+          "Xiangbin Cai",
+          "Xingyou Tian",
+          "Peter Reiss",
+          "Baomin Xu",
+          "Thomas Kirchartz",
+          "Zhengguo Xiao",
+          "Songyuan Dai",
+          "Nam-Gyu Park",
+          "Jiajiu Ye",
+          "Xu Pan"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-023-06784-0/figures/1",
+          "https://www.nature.com/articles/s41586-023-06784-0.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41586-023-06784-0.pdf",
+        "full_pdf_sha256": "ddb40857520f513e89585cd82590fa8da29d1e52cd0024a31dcef21f25e443af",
+        "page_number": 2,
+        "crop_bbox_pt": [
+          47,
+          49,
+          555,
+          517
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0",
+        "copyright_notice": "© The Author(s) 2023"
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 972,
+        "pdf_image_placements": 85,
+        "selectable_words": 153,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 2378879,
+          "sha256": "06814132de9f57f9ce2773374a8a392eb9d9ffd7da70d1a8daed32346af364dd"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 842067,
+          "sha256": "bddb031ad6b5c1dea53768800b6ebab8836d7ad6d24c344a009564d0bdf7d5bf"
+        }
+      ],
+      "path": "multipanel/perovskite-depth-composition",
+      "metadata_path": "multipanel/perovskite-depth-composition/metadata.json",
+      "readme_path": "multipanel/perovskite-depth-composition/README.md",
+      "primary_path": "multipanel/perovskite-depth-composition/figure.pdf",
+      "preview_path": "multipanel/perovskite-depth-composition/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "plasmon-interference-photon-number",
+      "title": "用上下两排一一配对干涉图样和光子数统计",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "多工况与方法对照",
+        "量子光学与等离激元"
+      ],
+      "summary": "两行四列以实验条件为列。每个上格放远场空间强度剖面、小幅强度图和偏振／狭缝示意。对应的下格放光子数概率分布和二阶相关值。",
+      "formats": [
+        "pdf",
+        "png"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Observation of the modification of quantum statistics of plasmonic systems",
+        "venue": "Nature Communications",
+        "year": 2021,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41467-021-25489-4/figures/2"
+      },
+      "curation": {
+        "layout_family": "多工况与方法对照",
+        "panel_labels": "a–h",
+        "panel_count": 8,
+        "reading_order": "a/e 是单狭缝透射热光的基准。b/f、c/g 分别对照偏振旋转后的干涉条纹和光子数分布，条纹在 c 更清楚。d/h 显示沿相同方向偏振时的干涉图及重新接近热分布的统计。每一列均可就地对照实验柱和理论值。",
+        "why_selected": "两行四列以实验条件为列。每个上格放远场空间强度剖面、小幅强度图和偏振／狭缝示意。对应的下格放光子数概率分布和二阶相关值。"
+      },
+      "source": {
+        "figure_number": 2,
+        "authors": [
+          "Chenglong You",
+          "Mingyuan Hong",
+          "Narayan Bhusal",
+          "et al."
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41467-021-25489-4/figures/2",
+          "https://www.nature.com/articles/s41467-021-25489-4.pdf",
+          "https://www.nature.com/articles/s41467-021-25489-4#rightslink",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41467-021-25489-4.pdf",
+        "full_pdf_sha256": "1d7a7429e12287f23b76e1fe3e90841da09a59703a9be48c9df1e6a2a42884bd",
+        "page_number": 4,
+        "crop_bbox_pt": [
+          116,
+          49,
+          479.5,
+          182.5
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0。出版社原图注未单独列出第三方素材署名或排除条款。"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pdf_drawing_objects": 0,
+        "pdf_image_placements": 1,
+        "selectable_words": 0,
+        "notes": [
+          "出版 PDF 的整图以位图为主，放大或在 Illustrator 中打开时，图内曲线仍是像素。"
+        ],
+        "pixel_dimensions": [
+          1500,
+          542
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 395063,
+          "sha256": "671c8fd19759cb0dd3a142017354817b5642e1301f9675fe5897b69c5d90708e"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 210820,
+          "sha256": "047b4221443a3f7961487078ea9fb623efa2d8a07b45d422124393e7952a55e9"
+        },
+        {
+          "path": "embedded.png",
+          "bytes": 289262,
+          "sha256": "e6c8e548de8bea457b1d8d56722721e5dbba5944464d3f19343201335cbe2038"
+        }
+      ],
+      "path": "multipanel/plasmon-interference-photon-number",
+      "metadata_path": "multipanel/plasmon-interference-photon-number/metadata.json",
+      "readme_path": "multipanel/plasmon-interference-photon-number/README.md",
+      "primary_path": "multipanel/plasmon-interference-photon-number/figure.pdf",
+      "preview_path": "multipanel/plasmon-interference-photon-number/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "tcv-plasma-control-demonstrations",
+      "title": "TCV · 四种等离子体构型的控制轨迹",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "多工况与方法对照",
+        "强化学习",
+        "等离子体控制",
+        "物理实验"
+      ],
+      "summary": "四组放电实验占据两行两列。每组上方横排等离子体截面的时间快照，下方的测量或目标轨迹共用时间方向，便于在形状和数值之间切换。",
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Magnetic control of tokamak plasmas through deep reinforcement learning",
+        "venue": "Nature",
+        "year": 2022,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41586-021-04301-9/figures/3"
+      },
+      "curation": {
+        "layout_family": "多工况与方法对照",
+        "panel_labels": "a–d",
+        "panel_count": 4,
+        "reading_order": "a、b 分别展示高伸长比与近似 ITER 形状，c、d 展示负三角形变与雪花构型。先比较每组第一帧的交接状态和后续边界，再沿横轴读下方量测。d 还标出随时间移动的目标 X 点。",
+        "why_selected": "四组放电实验占据两行两列。每组上方横排等离子体截面的时间快照，下方的测量或目标轨迹共用时间方向，便于在形状和数值之间切换。"
+      },
+      "source": {
+        "figure_number": 3,
+        "authors": [
+          "Jonas Degrave",
+          "Federico Felici",
+          "Jonas Buchli",
+          "Michael Neunert",
+          "Brendan Tracey",
+          "Francesco Carpanese",
+          "Timo Ewalds",
+          "Roland Hafner",
+          "Abbas Abdolmaleki",
+          "Diego de las Casas",
+          "Craig Donner",
+          "Leslie Fritz",
+          "Cristian Galperti",
+          "Andrea Huber",
+          "James Keeling",
+          "Maria Tsimpoukelli",
+          "Jackie Kay",
+          "Antoine Merle",
+          "Jean-Marc Moret",
+          "Seb Noury",
+          "Federico Pesamosca",
+          "David Pfau",
+          "Olivier Sauter",
+          "Cristian Sommariva",
+          "Stefano Coda",
+          "Basil Duval",
+          "Ambrogio Fasoli",
+          "Pushmeet Kohli",
+          "Koray Kavukcuoglu",
+          "Demis Hassabis",
+          "Martin Riedmiller"
+        ],
+        "urls": [
+          "https://www.nature.com/articles/s41586-021-04301-9/figures/3",
+          "https://www.nature.com/articles/s41586-021-04301-9.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41586-021-04301-9.pdf",
+        "full_pdf_sha256": "e60c29e44b2cb227358aa78e899cd2578349c356e7c678f04044726af5844aaa",
+        "page_number": 4,
+        "crop_bbox_pt": [
+          41,
+          46,
+          558,
+          379
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "note": "CC BY 4.0（论文及无单独署名例外的图材）"
+      },
+      "editability": {
+        "level": "vector",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 2270,
+        "pdf_image_placements": 0,
+        "selectable_words": 67,
+        "notes": [
+          "PDF 保留可单独选择的矢量路径。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。",
+        "从正式图版导出 SVG。曲线保留为路径，文字转成轮廓。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 627846,
+          "sha256": "c6f0e8ba3142618bf20f932f8e2dd33be6313074d6a5aadc03583051e714d937"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 277875,
+          "sha256": "5aa41a079a73f1c987fd8224bce15f345f8258a5618fd5435751a742de846e7e"
+        },
+        {
+          "path": "figure.svg",
+          "bytes": 1444240,
+          "sha256": "6cc9d84920f645571d5273c328e702609d5460e01eb13cd629875ed4ea799cfe"
+        }
+      ],
+      "path": "multipanel/tcv-plasma-control-demonstrations",
+      "metadata_path": "multipanel/tcv-plasma-control-demonstrations/metadata.json",
+      "readme_path": "multipanel/tcv-plasma-control-demonstrations/README.md",
+      "primary_path": "multipanel/tcv-plasma-control-demonstrations/figure.pdf",
+      "preview_path": "multipanel/tcv-plasma-control-demonstrations/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "waffle-solar-distiller-thermal-sequence",
+      "title": "同一束光下比较两种海水蒸发器",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "装置、过程与测量",
+        "太阳能蒸发",
+        "海水淡化",
+        "红外热成像"
+      ],
+      "summary": "首行并列结构示意、质量变化和效率。中央用两行同刻热像对比华夫形与平面蒸发器，右侧给温升曲线。底部以三种水质读数收尾。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Quasi-waffle solar distiller for durable desalination of seawater",
+        "venue": "Science Advances",
+        "year": 2024,
+        "presentation": "journal-article",
+        "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11135395/#F3"
+      },
+      "curation": {
+        "layout_family": "装置、过程与测量",
+        "panel_labels": "A–H",
+        "panel_count": 8,
+        "reading_order": "先用 A 确认结构差异，在 B、C 读蒸发性能。D 对照 0–15 分钟的同刻热像，E 把热像转为温度曲线。F–H 分别给出处理前后的酸碱性、染料浓度与海水盐度。",
+        "why_selected": "首行并列结构示意、质量变化和效率。中央用两行同刻热像对比华夫形与平面蒸发器，右侧给温升曲线。底部以三种水质读数收尾。"
+      },
+      "source": {
+        "figure_number": 3,
+        "authors": [
+          "Yanjun Wang",
+          "Tianqi Wei",
+          "Yue Wang",
+          "Jinjue Zeng",
+          "Tao Wang",
+          "Qi Wang",
+          "Shuo Zhang",
+          "Mengyue Zeng",
+          "Fengyue Wang",
+          "Pengcheng Dai",
+          "Xiangfen Jiang",
+          "Ming Hu",
+          "Jin Zhao",
+          "Zheng Hu",
+          "Jia Zhu",
+          "Xuebin Wang"
+        ],
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11135395/#F3",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC11135395.1/PMC11135395.1.pdf",
+          "https://creativecommons.org/licenses/by-nc/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11135395.1/PMC11135395.1.pdf",
+        "full_pdf_sha256": "c8dc370e681d80f56ee9f7dff796e0f31d97afaa7688f95fa3e4205befa5ae47",
+        "page_number": 4,
+        "crop_bbox_pt": [
+          79,
+          57,
+          517,
+          454
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY-NC 4.0",
+        "status": "source-license",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "note": "CC BY-NC 4.0",
+        "copyright_notice": "Copyright © 2024 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution NonCommercial License 4.0 (CC BY-NC)."
+      },
+      "editability": {
+        "level": "vector-and-raster",
+        "native_format": "cropped publication PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 433,
+        "pdf_image_placements": 2,
+        "selectable_words": 131,
+        "notes": [
+          "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+        ]
+      },
+      "changes": [
+        "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 150819,
+          "sha256": "c8289eec63dd7efd73d639d3936fd385186d5c771e1da9a99857967549cebb39"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 439432,
+          "sha256": "f14aafd6be14c2caae9e38b4d23e812a82f62f244f05b40ad9ea3e33b0b304a4"
+        }
+      ],
+      "path": "multipanel/waffle-solar-distiller-thermal-sequence",
+      "metadata_path": "multipanel/waffle-solar-distiller-thermal-sequence/metadata.json",
+      "readme_path": "multipanel/waffle-solar-distiller-thermal-sequence/README.md",
+      "primary_path": "multipanel/waffle-solar-distiller-thermal-sequence/figure.pdf",
+      "preview_path": "multipanel/waffle-solar-distiller-thermal-sequence/preview.png"
     },
     {
       "schema_version": 1,

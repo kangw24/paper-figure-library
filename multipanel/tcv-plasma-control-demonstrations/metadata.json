@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "tcv-plasma-control-demonstrations",
+  "title": "TCV · 四种等离子体构型的控制轨迹",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "多工况与方法对照",
+    "强化学习",
+    "等离子体控制",
+    "物理实验"
+  ],
+  "summary": "四组放电实验占据两行两列。每组上方横排等离子体截面的时间快照，下方的测量或目标轨迹共用时间方向，便于在形状和数值之间切换。",
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Magnetic control of tokamak plasmas through deep reinforcement learning",
+    "venue": "Nature",
+    "year": 2022,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41586-021-04301-9/figures/3"
+  },
+  "curation": {
+    "layout_family": "多工况与方法对照",
+    "panel_labels": "a–d",
+    "panel_count": 4,
+    "reading_order": "a、b 分别展示高伸长比与近似 ITER 形状，c、d 展示负三角形变与雪花构型。先比较每组第一帧的交接状态和后续边界，再沿横轴读下方量测。d 还标出随时间移动的目标 X 点。",
+    "why_selected": "四组放电实验占据两行两列。每组上方横排等离子体截面的时间快照，下方的测量或目标轨迹共用时间方向，便于在形状和数值之间切换。"
+  },
+  "source": {
+    "figure_number": 3,
+    "authors": [
+      "Jonas Degrave",
+      "Federico Felici",
+      "Jonas Buchli",
+      "Michael Neunert",
+      "Brendan Tracey",
+      "Francesco Carpanese",
+      "Timo Ewalds",
+      "Roland Hafner",
+      "Abbas Abdolmaleki",
+      "Diego de las Casas",
+      "Craig Donner",
+      "Leslie Fritz",
+      "Cristian Galperti",
+      "Andrea Huber",
+      "James Keeling",
+      "Maria Tsimpoukelli",
+      "Jackie Kay",
+      "Antoine Merle",
+      "Jean-Marc Moret",
+      "Seb Noury",
+      "Federico Pesamosca",
+      "David Pfau",
+      "Olivier Sauter",
+      "Cristian Sommariva",
+      "Stefano Coda",
+      "Basil Duval",
+      "Ambrogio Fasoli",
+      "Pushmeet Kohli",
+      "Koray Kavukcuoglu",
+      "Demis Hassabis",
+      "Martin Riedmiller"
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41586-021-04301-9/figures/3",
+      "https://www.nature.com/articles/s41586-021-04301-9.pdf",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41586-021-04301-9.pdf",
+    "full_pdf_sha256": "e60c29e44b2cb227358aa78e899cd2578349c356e7c678f04044726af5844aaa",
+    "page_number": 4,
+    "crop_bbox_pt": [
+      41,
+      46,
+      558,
+      379
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0（论文及无单独署名例外的图材）"
+  },
+  "editability": {
+    "level": "vector",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 2270,
+    "pdf_image_placements": 0,
+    "selectable_words": 67,
+    "notes": [
+      "PDF 保留可单独选择的矢量路径。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。",
+    "从正式图版导出 SVG。曲线保留为路径，文字转成轮廓。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 627846,
+      "sha256": "c6f0e8ba3142618bf20f932f8e2dd33be6313074d6a5aadc03583051e714d937"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 277875,
+      "sha256": "5aa41a079a73f1c987fd8224bce15f345f8258a5618fd5435751a742de846e7e"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 1444240,
+      "sha256": "6cc9d84920f645571d5273c328e702609d5460e01eb13cd629875ed4ea799cfe"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "microfluidic-transistor-particle-dispenser",
+  "title": "微流控晶体管如何定时、分送单颗粒",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "装置、过程与测量",
+    "微流控",
+    "计时电路",
+    "单颗粒处理"
+  ],
+  "summary": "上方两行各用左电路图、右压力曲线。第三行把颗粒阱的三个状态放在左侧，右侧展开整个分配器。末行从一次分配的时序走到粒子间距统计。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "A microfluidic transistor for automatic control of liquids",
+    "venue": "Nature",
+    "year": 2023,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41586-023-06517-3/figures/3"
+  },
+  "curation": {
+    "layout_family": "装置、过程与测量",
+    "panel_labels": "a–h",
+    "panel_count": 8,
+    "reading_order": "a、b 的延时器依次开启通路，c、d 以环形振荡器产生重复波形。e、f 让读者看清颗粒停在哪里、谁触发释放，再用 g 的压力尖峰和 h 的进出间距分布检验排序效果。",
+    "why_selected": "上方两行各用左电路图、右压力曲线。第三行把颗粒阱的三个状态放在左侧，右侧展开整个分配器。末行从一次分配的时序走到粒子间距统计。"
+  },
+  "source": {
+    "figure_number": 3,
+    "authors": [
+      "Kaustav A Gopinathan",
+      "Avanish Mishra",
+      "Baris R Mutlu",
+      "Jon F Edd",
+      "Mehmet Toner"
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41586-023-06517-3/figures/3",
+      "https://www.nature.com/articles/s41586-023-06517-3.pdf",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41586-023-06517-3.pdf",
+    "full_pdf_sha256": "98f8dc9440ad0ae75f697eb11260536ef5564c7ded251a6684f9ccd49d5dff74",
+    "page_number": 5,
+    "crop_bbox_pt": [
+      39,
+      47,
+      562,
+      548
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0",
+    "copyright_notice": "© The Author(s) 2023"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 874,
+    "pdf_image_placements": 20,
+    "selectable_words": 272,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 696507,
+      "sha256": "2b4f2d5b983a837ff3834f91e67d7ba81002fc69ae1894ed6c6cc247a073cb96"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 399504,
+      "sha256": "be59da402433792eecdbfc36a8f64d903294fa334d795f5092064207854e259b"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "ibl-mouse-prior-cross-lab-replication",
+  "title": "从一只小鼠的先验偏差到跨实验室复核",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "同一对象的多种证据",
+    "行为学与跨实验室复现"
+  ],
+  "summary": "第一行从单只小鼠的连续选择过渡到区块间的偏移定义和汇总。中间七个实验室各占一格、共用坐标。最下排比较心理物理参数，并以分类结果检查实验室差异。",
+  "formats": [
+    "jpg"
+  ],
+  "primary_file": "original.jpg",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Standardized and reproducible measurement of decision-making in mice",
+    "venue": "eLife",
+    "year": 2021,
+    "presentation": "journal-article",
+    "evidence_url": "https://elifesciences.org/articles/63711#fig4"
+  },
+  "curation": {
+    "layout_family": "同一对象的多种证据",
+    "panel_labels": "a–j",
+    "panel_count": 10,
+    "reading_order": "a 记录刺激先验切换及小鼠实际选择，b、c 用两条心理物理曲线定义区块偏移，d 汇总对比度效应。e 并排展示七个实验室，f–i 分解阈值、左右失误率和偏差，j 检验能否凭这些行为量识别实验室。",
+    "why_selected": "第一行从单只小鼠的连续选择过渡到区块间的偏移定义和汇总。中间七个实验室各占一格、共用坐标。最下排比较心理物理参数，并以分类结果检查实验室差异。"
+  },
+  "source": {
+    "figure_number": 4,
+    "authors": [
+      "The International Brain Laboratory",
+      "Valeria Aguillon-Rodriguez",
+      "Dora Angelaki",
+      "et al."
+    ],
+    "urls": [
+      "https://elifesciences.org/articles/63711#fig4",
+      "https://iiif.elifesciences.org/lax:63711%2Felife-63711-fig4-v3.tif/full/full/0/default.jpg",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8137147/",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "original_url": "https://iiif.elifesciences.org/lax:63711%2Felife-63711-fig4-v3.tif/full/full/0/default.jpg",
+    "original_sha256": "7304c398002800934f00f1131ba91e0dc316766dadd9486db151d528b864afda"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0。已核对论文的版权与许可声明。"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "JPG",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pixel_dimensions": [
+      2505,
+      1984
+    ],
+    "notes": [
+      "出版方独立图像为 2505 × 1984 像素，原文件按下载字节保存。"
+    ]
+  },
+  "changes": [
+    "原文件保留下载字节，预览等比缩小。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.jpg",
+      "bytes": 398637,
+      "sha256": "7304c398002800934f00f1131ba91e0dc316766dadd9486db151d528b864afda"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 644236,
+      "sha256": "cc362ea2117558e3bcd0c6e675504159f4c484689ebdafb9f4595b1b403c4b28"
+    }
+  ]
+}

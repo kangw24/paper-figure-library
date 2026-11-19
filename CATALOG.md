@@ -1,6 +1,6 @@
 # 素材总目录
 
-[Teaser](teaser/README.md) · [Architecture](architecture/README.md) · [Element](element/README.md) · [仓库首页](README.md) · [JSON 来源索引](catalog.json)
+[Teaser](teaser/README.md) · [Architecture](architecture/README.md) · [大图](multipanel/README.md) · [Element](element/README.md) · [仓库首页](README.md) · [JSON 来源索引](catalog.json)
 
 按图的用途分类，会议、年份与 Oral 仅作为条目标签。完整范例与最小元素通过 [Markdown 对照表](element/with-examples.md) 互相连接。
 
@@ -8,6 +8,7 @@
 |---|---:|---|
 | Teaser 范例 | 76 | [浏览](teaser/README.md) |
 | Architecture 范例 | 69 | [浏览](architecture/README.md) |
+| 多面板大图 | 22 | [浏览](multipanel/README.md) |
 | Element 最小可复用元素 | 392 | [按内容与来源浏览](element/README.md) |
 
 完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。
@@ -1550,6 +1551,10 @@ arXiv 2026 · 预印本 · 矢量 + 原有位图
 
 来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
 [原文件](architecture/vtrace-multihop-visual-attribution/original.pdf) · [来源记录](architecture/vtrace-multihop-visual-attribution/metadata.json)
+
+## 多面板大图
+
+[按图版编排浏览全部大图与原件](multipanel/README.md)
 
 ## Element
 

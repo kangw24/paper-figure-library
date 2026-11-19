@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "north-greenland-ice-shelf-change",
+  "title": "把八座冰架的退缩放回同一幅区域地图",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "从整体到局部",
+    "北格陵兰冰架与冰冻圈遥感"
+  ],
+  "summary": "上方两排八个局部地图按冰架分格，共用其下方一整行色标。下方一幅区域图标出其位置、体积变化以及各处的质量收支柱状图。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Rapid disintegration and weakening of ice shelves in North Greenland",
+    "venue": "Nature Communications",
+    "year": 2023,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41467-023-42198-2/figures/1"
+  },
+  "curation": {
+    "layout_family": "从整体到局部",
+    "panel_labels": "a–i",
+    "panel_count": 9,
+    "reading_order": "a–d 依次是 Petermann、Steensby、Ryder、79N。e–h 对应 Ostenfeld、Hagen Bræ、Zachariæ Isstrøm、Storstrømmen。每一格用相同图例区分冰流速度、冰前缘、接地线。i 把这些冰架放回北格陵兰，用各处的柱图拆解表面质量平衡、底部融化与崩解贡献。",
+    "why_selected": "上方两排八个局部地图按冰架分格，共用其下方一整行色标。下方一幅区域图标出其位置、体积变化以及各处的质量收支柱状图。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "R. Millan",
+      "E. Jager",
+      "J. Mouginot",
+      "et al."
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41467-023-42198-2/figures/1",
+      "https://www.nature.com/articles/s41467-023-42198-2.pdf",
+      "https://www.nature.com/articles/s41467-023-42198-2#rightslink",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://doi.org/10.5281/zenodo.8354794"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41467-023-42198-2.pdf",
+    "full_pdf_sha256": "296e04531ccb62689ef58ce2e6a40813ae36a1ba5578bb6d78433e88487a1648",
+    "page_number": 2,
+    "crop_bbox_pt": [
+      76,
+      46,
+      526,
+      652
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin",
+    "related_resources": [
+      {
+        "title": "作者公开的数据与绘图代码",
+        "url": "https://doi.org/10.5281/zenodo.8354794"
+      }
+    ]
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0。图注注明冰流速度取自 Mouginot 等（参考文献 4），底图据 Morlighem 等的 BedMachine v3（文献 12），通量门据 Wood 等（文献 6）。沿用这些来源署名。"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 449,
+    "pdf_image_placements": 8,
+    "selectable_words": 101,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 1063812,
+      "sha256": "e4059ea12d5aafa621c3d72508a6f6b885f51d17dda3a932ed1c44daf09c6fe2"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1220216,
+      "sha256": "1d8e6388504484fd54677b51d5113eae3d76eb5588942d85fa4706f9d639660f"
+    }
+  ]
+}

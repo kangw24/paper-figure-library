@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "ibl-behaviour-task-and-neural-recordings",
+  "title": "从转轮选择任务到同一试次的神经记录",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "装置、过程与测量",
+    "行为决策与多脑区同步记录"
+  ],
+  "summary": "上半部左侧是任务装置和事件时间轴，中央是反应时，右侧的纵向长面板沿三次试验对齐行为与神经元放电。底部四组小图概括会话进程、区块切换和选择偏差。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "A brain-wide map of neural activity during complex behaviour",
+    "venue": "Nature",
+    "year": 2025,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41586-025-09235-0/figures/1"
+  },
+  "curation": {
+    "layout_family": "装置、过程与测量",
+    "panel_labels": "a–i",
+    "panel_count": 9,
+    "reading_order": "先沿 a、b 找到刺激、转轮动作和反馈，再在 i 的三个实际试次里对齐转轮、视频提取量及多脑区放电。c、d 检查反应时间和刺激对比度。e、f 检查临近会话结束时的变化，g、h 检查先验区块切换如何改变选择。",
+    "why_selected": "上半部左侧是任务装置和事件时间轴，中央是反应时，右侧的纵向长面板沿三次试验对齐行为与神经元放电。底部四组小图概括会话进程、区块切换和选择偏差。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "International Brain Laboratory",
+      "Dora Angelaki",
+      "Brandon Benson",
+      "et al."
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41586-025-09235-0/figures/1",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC12408349.1/PMC12408349.1.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12408349/",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://doi.org/10.7554/eLife.63711"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12408349.1/PMC12408349.1.pdf",
+    "full_pdf_sha256": "5bd756b597f974345dba968c7c93ba597c2e316bdd3d64996534204755628c58",
+    "page_number": 3,
+    "crop_bbox_pt": [
+      38,
+      46,
+      565,
+      422
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0。已核对论文的版权与许可声明。a 改编自原文参考文献 23（eLife，CC BY 4.0），使用时须保留其署名。",
+    "panel_a_credit": "The International Brain Laboratory et al., Standardized and reproducible measurement of decision-making in mice, eLife 10:e63711 (2021), CC BY 4.0."
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 1908,
+    "pdf_image_placements": 5,
+    "selectable_words": 183,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 578502,
+      "sha256": "fce950a27ba2ca0840996dfa2e554edfc04b85bc3929036e77d5de529720dbc1"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 478108,
+      "sha256": "cdc24aa4a7815e3ed531c799f8698204bc7297e3e67490694094f7b16cbdda96"
+    }
+  ]
+}

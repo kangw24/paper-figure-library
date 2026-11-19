@@ -5,8 +5,9 @@ import argparse,html,json,re
 from pathlib import Path
 from validate_library import ROOT,validate
 from build_links import load as load_links,build as build_links,figure_links
+from build_multipanel import gallery as multipanel_gallery
 
-SECTIONS=[('teaser','teaser','Teaser 范例'),('architecture','architecture','Architecture 范例'),('mechanism','references/mechanisms','机制参考图'),('layout-template','templates/layouts','原生版式模板')]
+SECTIONS=[('teaser','teaser','Teaser 范例'),('architecture','architecture','Architecture 范例'),('multipanel','multipanel','多面板大图'),('mechanism','references/mechanisms','机制参考图'),('layout-template','templates/layouts','原生版式模板')]
 LABELS={'modules':'网络与模块','data':'数据与文档','operations':'运算与变换','connections':'箭头与连接','training':'训练与标记','devices':'设备与对象','science':'科学与图表','concepts':'概念符号'}
 KINDS={'paper-example':'论文范例','tutorial-example':'教材或教程范例','template':'原生模板'}
 def write(root,path,text):
@@ -26,25 +27,30 @@ def build(root):
   for path in sorted((root/folder).glob('*/metadata.json')):
    x=json.loads(path.read_text());base=path.parent.relative_to(root).as_posix();x.update(path=base,metadata_path=base+'/metadata.json',readme_path=base+'/README.md',primary_path=base+'/'+x['primary_file'],preview_path=base+'/'+x['preview']);examples.append(x)
    lines+=['## ['+x['title']+']('+x['id']+'/README.md)','','**'+KINDS[x['kind']]+'** · '+x['summary']+('\n\n'+publication_line(x) if publication_line(x) else ''),'','[![预览]('+x['id']+'/'+x['preview']+')]('+x['id']+'/'+x['primary_file']+')','']
+  if category=='multipanel':
+   lines=multipanel_gallery(root,[x for x in examples if x['category']==category])
   write(root,Path(folder)/'README.md','\n'.join(lines))
  elements=json.loads((root/'element/catalog.json').read_text())['items'];normalized=[]
  for x in elements:normalized.append({**x,'title':x['title_zh'],'category':'element','element_category':x['category'],'kind':'external-element','formats':['svg'],'primary_path':x['svg_path']})
- counts={c:sum(x['category']==c for x in examples+normalized) for c in ['teaser','architecture','element','mechanism','layout-template']}
+ counts={c:sum(x['category']==c for x in examples+normalized) for c in ['teaser','architecture','multipanel','element','mechanism','layout-template']}
  figures,element_map,relationships=load_links(root)
  reverse=build_links(root,figures,element_map,relationships)
  readme=root/'README.md'
  if readme.exists():
   content=readme.read_text(encoding='utf-8')
-  label='**'+str(counts['teaser'])+' 个 teaser · '+str(counts['architecture'])+' 个 architecture · '+str(counts['element'])+' 个独立 element**'
-  content=re.sub(r'\*\*\d+ 个 teaser · \d+ 个 architecture · \d+ 个独立 element\*\*',lambda _:label,content)
+  label='**'+str(counts['teaser'])+' 个 teaser · '+str(counts['architecture'])+' 个 architecture · '+str(counts['element'])+' 个独立 element · '+str(counts['multipanel'])+' 幅大图**'
+  content=re.sub(r'\*\*\d+ 个 teaser · \d+ 个 architecture · \d+ 个独立 element(?: · \d+ 幅大图)?\*\*',lambda _:label,content)
   write(root,Path('README.md'),content)
  write(root,Path('catalog.json'),json.dumps({'schema_version':2,'counts':counts,'items':examples+normalized},ensure_ascii=False,indent=2))
- lines=['# 素材总目录','','[Teaser](teaser/README.md) · [Architecture](architecture/README.md) · [Element](element/README.md) · [仓库首页](README.md) · [JSON 来源索引](catalog.json)','','按图的用途分类，会议、年份与 Oral 仅作为条目标签。完整范例与最小元素通过 [Markdown 对照表](element/with-examples.md) 互相连接。','','| 类别 | 数量 | 入口 |','|---|---:|---|']
+ lines=['# 素材总目录','','[Teaser](teaser/README.md) · [Architecture](architecture/README.md) · [大图](multipanel/README.md) · [Element](element/README.md) · [仓库首页](README.md) · [JSON 来源索引](catalog.json)','','按图的用途分类，会议、年份与 Oral 仅作为条目标签。完整范例与最小元素通过 [Markdown 对照表](element/with-examples.md) 互相连接。','','| 类别 | 数量 | 入口 |','|---|---:|---|']
  for c,f,l in SECTIONS:
-  if c in ('teaser','architecture'):lines.append('| '+l+' | '+str(counts[c])+' | [浏览]('+f+'/README.md) |')
+  if c in ('teaser','architecture','multipanel'):lines.append('| '+l+' | '+str(counts[c])+' | [浏览]('+f+'/README.md) |')
  lines+=['| Element 最小可复用元素 | '+str(counts['element'])+' | [按内容与来源浏览](element/README.md) |','','完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。','']
  for c,f,l in SECTIONS:
-  if c not in ('teaser','architecture'):continue
+  if c not in ('teaser','architecture','multipanel'):continue
+  if c=='multipanel':
+   lines+=['## 多面板大图','','[按图版编排浏览全部大图与原件](multipanel/README.md)','']
+   continue
   lines+=['## '+l,'']
   if c=='architecture':lines+=['辅助入口：[原生 AI / AIT 版式母版](templates/layouts/README.md)。','']
   for x in examples:

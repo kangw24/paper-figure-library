@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "larval-brain-connectome-reconstruction",
+  "title": "果蝇幼虫全脑重建与三类神经元",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "从整体到局部",
+    "神经科学",
+    "连接组"
+  ],
+  "summary": "左上用整幅彩色神经重建定位全脑。右上四格把重建完整度、左右配对与通路关系排成两层。底行三张同构的「神经元形态＋计数柱图」并排，可沿同一视角比较。",
+  "formats": [
+    "pdf",
+    "jpg"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "The connectome of an insect brain",
+    "venue": "Science",
+    "year": 2023,
+    "presentation": "journal-article",
+    "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7614541/#F1",
+    "source_version": "PMC author accepted manuscript"
+  },
+  "curation": {
+    "layout_family": "从整体到局部",
+    "panel_labels": "A–H",
+    "panel_count": 8,
+    "reading_order": "A 在电镜体积内标出两个脑半球、食管下区与腹神经索。B 给出重建完整率，C 配对左右同源神经元。D 用框图介绍输入、中间和输出三级，E 把线路放回脑与腹神经索的位置。沿底行看 F 的输入神经元、G 的中间神经元、H 的输出神经元，每格都把形态与相应类别的数量并置。",
+    "why_selected": "左上用整幅彩色神经重建定位全脑。右上四格把重建完整度、左右配对与通路关系排成两层。底行三张同构的「神经元形态＋计数柱图」并排，可沿同一视角比较。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Michael Winding",
+      "Benjamin D Pedigo",
+      "Christopher L Barnes",
+      "Heather G Patsolic",
+      "Youngser Park",
+      "Tom Kazimiers",
+      "Akira Fushiki",
+      "Ingrid V Andrade",
+      "Avinash Khandelwal",
+      "Javier Valdes-Aleman",
+      "Feng Li",
+      "Nadine Randel",
+      "Elizabeth Barsotti",
+      "Ana Correia",
+      "Richard D Fetter",
+      "Volker Hartenstein",
+      "Carey E Priebe",
+      "Joshua T Vogelstein",
+      "Albert Cardona",
+      "Marta Zlatic"
+    ],
+    "urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7614541/#F1",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC7614541.1/PMC7614541.1.pdf",
+      "https://europepmc.org/articles/PMC7614541",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://doi.org/10.1126/science.add9330"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7614541.1/PMC7614541.1.pdf",
+    "full_pdf_sha256": "cac59605683d52276636bfa6d15d754f50c4c7938041f6df72ff883fc2a98f24",
+    "page_number": 34,
+    "crop_bbox_pt": [
+      83,
+      61,
+      589,
+      367
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin",
+    "related_resources": [
+      {
+        "title": "Science 正刊论文",
+        "url": "https://doi.org/10.1126/science.add9330"
+      }
+    ]
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0（适用于此 PMC 作者接受稿）",
+    "copyright_notice": "PMC 作者接受稿标明 CC BY 4.0；论文版权页列 American Association for the Advancement of Science 为独家被许可人。"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "cropped author accepted manuscript PDF",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pdf_drawing_objects": 0,
+    "pdf_image_placements": 1,
+    "selectable_words": 0,
+    "notes": [
+      "出版 PDF 的整图以位图为主，放大或在 Illustrator 中打开时，图内曲线仍是像素。"
+    ],
+    "pixel_dimensions": [
+      2096,
+      1265
+    ]
+  },
+  "changes": [
+    "从 PMC 公开的作者接受稿第 34 页提取完整图版，等比生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 475033,
+      "sha256": "3945085412d22495fbfd994bd8a114251d10ff3552796723e37f70ae52475825"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 730194,
+      "sha256": "573808defef3925058aab244762b7e05faeaf4f1889413ca4cc31b365b321ee2"
+    },
+    {
+      "path": "embedded.jpg",
+      "bytes": 470201,
+      "sha256": "efb78a88cc1a8df5855a218fb6d3b4398da46e4b02db4cfd22a783b164dd2481"
+    }
+  ]
+}

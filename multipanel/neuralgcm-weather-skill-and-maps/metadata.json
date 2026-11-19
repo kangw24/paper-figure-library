@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "neuralgcm-weather-skill-and-maps",
+  "title": "NeuralGCM · 四种预报指标与全球误差地图",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "多工况与方法对照",
+    "天气预测",
+    "集合预报",
+    "空间误差诊断"
+  ],
+  "summary": "四行分别对应四种指标。每行左侧用三幅并列折线比较大气变量，右侧用两张同投影地图比较模型，并在行末放对应色标。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Neural general circulation models for weather and climate",
+    "venue": "Nature",
+    "year": 2024,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41586-024-07744-y/figures/2"
+  },
+  "curation": {
+    "layout_family": "多工况与方法对照",
+    "panel_labels": "a–h",
+    "panel_count": 8,
+    "reading_order": "先横读 a、b：随预报时效变化的 RMSE 与第 10 天 700 hPa 比湿的空间分布对应。再按同一顺序读 c、d 的偏差，e、f 的概率预报 CRPS，以及 g、h 的集合离散度与误差之比。",
+    "why_selected": "四行分别对应四种指标。每行左侧用三幅并列折线比较大气变量，右侧用两张同投影地图比较模型，并在行末放对应色标。"
+  },
+  "source": {
+    "figure_number": 2,
+    "authors": [
+      "Dmitrii Kochkov",
+      "Janni Yuval",
+      "Ian Langmore",
+      "Peter Norgaard",
+      "Jamie Smith",
+      "Griffin Mooers",
+      "Milan Klöwer",
+      "James Lottes",
+      "Stephan Rasp",
+      "Peter Düben",
+      "Sam Hatfield",
+      "Peter Battaglia",
+      "Alvaro Sanchez-Gonzalez",
+      "Matthew Willson",
+      "Michael P. Brenner",
+      "Stephan Hoyer"
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41586-024-07744-y/figures/2",
+      "https://www.nature.com/articles/s41586-024-07744-y.pdf",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://arxiv.org/src/2311.07222v3",
+      "https://arxiv.org/abs/2311.07222v3",
+      "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41586-024-07744-y.pdf",
+    "full_pdf_sha256": "e1e95326c6f2068d9275cd33673cf49157bad107aa4f63684fee96c1bb46349c",
+    "page_number": 3,
+    "crop_bbox_pt": [
+      43,
+      46,
+      558,
+      349
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin",
+    "author_figure_in_preprint": {
+      "kind": "author-standalone-figure",
+      "format": "PDF",
+      "asset_url": "https://arxiv.org/src/2311.07222v3",
+      "landing_url": "https://arxiv.org/abs/2311.07222v3",
+      "archive_member": "images/fig2-specific-humidity.pdf",
+      "figure": 2,
+      "pages": 1,
+      "sha256": "bdf9666d7379ad1d6b685f053db3522c4872758fb487d9d075246dbd6f251adc",
+      "verification": "main.tex 的 Fig. 2 直接以 includegraphics 引用本文件。与 Nature 正式图对照，a–h 的折线、10 天比湿地图和色标相匹配，括号、字体及排版有差异。作者 PDF 中有 1,339 个矢量绘制对象和 8 幅嵌入图像。",
+      "license": "arXiv 非独占传播授权；未核实此版本单独授予第三方再发布权。仓库内可链接作者源包，并继续使用正式 CC BY 4.0 版的整图裁件。",
+      "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "redistribution": "link-only"
+    }
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0（论文及无单独署名例外的图材）"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 1309,
+    "pdf_image_placements": 16,
+    "selectable_words": 141,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 2082640,
+      "sha256": "eace3a7ba7b4f834aa265c23986c90aaf5d06b03f0768a0dcc000b92c6ca02a3"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 805689,
+      "sha256": "bec2a95e7cf3fbca5a8d1983ea0e464d74d27a93813c0139e91baa95eea4307b"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "plasmon-interference-photon-number",
+  "title": "用上下两排一一配对干涉图样和光子数统计",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "多工况与方法对照",
+    "量子光学与等离激元"
+  ],
+  "summary": "两行四列以实验条件为列。每个上格放远场空间强度剖面、小幅强度图和偏振／狭缝示意。对应的下格放光子数概率分布和二阶相关值。",
+  "formats": [
+    "pdf",
+    "png"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Observation of the modification of quantum statistics of plasmonic systems",
+    "venue": "Nature Communications",
+    "year": 2021,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41467-021-25489-4/figures/2"
+  },
+  "curation": {
+    "layout_family": "多工况与方法对照",
+    "panel_labels": "a–h",
+    "panel_count": 8,
+    "reading_order": "a/e 是单狭缝透射热光的基准。b/f、c/g 分别对照偏振旋转后的干涉条纹和光子数分布，条纹在 c 更清楚。d/h 显示沿相同方向偏振时的干涉图及重新接近热分布的统计。每一列均可就地对照实验柱和理论值。",
+    "why_selected": "两行四列以实验条件为列。每个上格放远场空间强度剖面、小幅强度图和偏振／狭缝示意。对应的下格放光子数概率分布和二阶相关值。"
+  },
+  "source": {
+    "figure_number": 2,
+    "authors": [
+      "Chenglong You",
+      "Mingyuan Hong",
+      "Narayan Bhusal",
+      "et al."
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41467-021-25489-4/figures/2",
+      "https://www.nature.com/articles/s41467-021-25489-4.pdf",
+      "https://www.nature.com/articles/s41467-021-25489-4#rightslink",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41467-021-25489-4.pdf",
+    "full_pdf_sha256": "1d7a7429e12287f23b76e1fe3e90841da09a59703a9be48c9df1e6a2a42884bd",
+    "page_number": 4,
+    "crop_bbox_pt": [
+      116,
+      49,
+      479.5,
+      182.5
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0。出版社原图注未单独列出第三方素材署名或排除条款。"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pdf_drawing_objects": 0,
+    "pdf_image_placements": 1,
+    "selectable_words": 0,
+    "notes": [
+      "出版 PDF 的整图以位图为主，放大或在 Illustrator 中打开时，图内曲线仍是像素。"
+    ],
+    "pixel_dimensions": [
+      1500,
+      542
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 395063,
+      "sha256": "671c8fd19759cb0dd3a142017354817b5642e1301f9675fe5897b69c5d90708e"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 210820,
+      "sha256": "047b4221443a3f7961487078ea9fb623efa2d8a07b45d422124393e7952a55e9"
+    },
+    {
+      "path": "embedded.png",
+      "bytes": 289262,
+      "sha256": "e6c8e548de8bea457b1d8d56722721e5dbba5944464d3f19343201335cbe2038"
+    }
+  ]
+}

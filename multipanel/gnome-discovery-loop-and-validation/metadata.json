@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "gnome-discovery-loop-and-validation",
+  "title": "GNoME · 筛选闭环、发现规模与晶体实例",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "从整体到局部",
+    "图神经网络",
+    "材料筛选",
+    "实验验证"
+  ],
+  "summary": "第一行通栏画两条候选生成支路和筛选反馈。下方两行各分两栏。中行右栏在一个字母内嵌入六个已验证结构，与左边发现数量的时间轴对照。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Scaling deep learning for materials discovery",
+    "venue": "Nature",
+    "year": 2023,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41586-023-06735-9/figures/1"
+  },
+  "curation": {
+    "layout_family": "从整体到局部",
+    "panel_labels": "a–e",
+    "panel_count": 5,
+    "reading_order": "a 说明结构或组分进入模型筛选后如何经密度泛函理论验证并回流。b 给发现规模，c 展示独立实验验证的六个结构实例。d 看高组分复杂度区域的发现占比，e 看随机结构搜索样本上的泛化。",
+    "why_selected": "第一行通栏画两条候选生成支路和筛选反馈。下方两行各分两栏。中行右栏在一个字母内嵌入六个已验证结构，与左边发现数量的时间轴对照。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Amil Merchant",
+      "Simon Batzner",
+      "Samuel S. Schoenholz",
+      "Muratahan Aykol",
+      "Gowoon Cheon",
+      "Ekin Dogus Cubuk"
+    ],
+    "urls": [
+      "https://www.nature.com/articles/s41586-023-06735-9/figures/1",
+      "https://www.nature.com/articles/s41586-023-06735-9.pdf",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41586-023-06735-9.pdf",
+    "full_pdf_sha256": "f1af6c92eda54f5bd84eb5012f3010d7bb9167dca337414cffca81623b4a535a",
+    "page_number": 2,
+    "crop_bbox_pt": [
+      107,
+      46,
+      493,
+      428
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "CC BY 4.0（论文及无单独署名例外的图材。c 所示实例的实验来源见原图注参考文献 50–55）"
+  },
+  "editability": {
+    "level": "vector-and-raster",
+    "native_format": "cropped publication PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 154,
+    "pdf_image_placements": 41,
+    "selectable_words": 98,
+    "notes": [
+      "PDF 同时保留矢量路径与嵌入位图。照片、显微图像或热图等位图部分保留原分辨率。部分文字可以选取。"
+    ]
+  },
+  "changes": [
+    "从论文 PDF 提取完整图版，另存为单页 PDF，并等比生成预览。面板沿用原文顺序。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 623000,
+      "sha256": "ab80f6f803861ac697b867a89152c968ac85f4f6dabfee771c8310a66074283b"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 334105,
+      "sha256": "fd76735e65237f372410dab96f52a035643a03f73a1696bafe11e8bb9b91c7cd"
+    }
+  ]
+}

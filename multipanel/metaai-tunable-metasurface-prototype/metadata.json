@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "metaai-tunable-metasurface-prototype",
+  "title": "MetaAI · 可调器件的两层结构、样品与透射测量",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "可调超表面",
+    "分层装配",
+    "样品照片",
+    "透射测量",
+    "分工况对照"
+  ],
+  "summary": "d 的两根引线把分层装配图连到可调层和生成层的样品照片。沿着组装后的器件读到 e，两种电容设置下都叠放了模拟与实测透射曲线。",
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Current-diffusion model for metasurface structure discoveries with spatial-frequency dynamics",
+    "venue": "Nature Machine Intelligence",
+    "year": 2026,
+    "published_online": "2025-12-31",
+    "volume": 8,
+    "pages": "59–69",
+    "presentation": "journal-article",
+    "article_type": "research",
+    "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z"
+  },
+  "curation": {
+    "figure_role": "装置、过程与测量",
+    "layout_family": "装置、过程与测量",
+    "panel_labels": "a–e",
+    "panel_count": 5,
+    "panel_layout": {
+      "summary": "a–c 解释两层的设计和组合响应，d 逐层指认样品，e 用同一频率轴对照模拟与实测。",
+      "panel_groups": 5
+    },
+    "reading_order": "从 d 的上层沿引线找到可调层实物，再从下层找到生成层实物。a 单看可调层，b 交代生成层的目标、预测与训练样本，c 展示两层组合后的透射响应。最后看 e，按图例将同一电容的模拟与实测曲线配成一对。a、c 标注 0.24 和 0.55 pF，e 标注 0.30 和 0.55 pF，后两组比较应以各自面板的图例为准。",
+    "why_selected": "d 的两根引线把分层装配图连到可调层和生成层的样品照片。沿着组装后的器件读到 e，两种电容设置下都叠放了模拟与实测透射曲线。"
+  },
+  "source": {
+    "authors": [
+      "Erji Li",
+      "Yusong Wang",
+      "Lei Jin",
+      "Zheng Zong",
+      "Enze Zhu",
+      "Bao Wang",
+      "Qian Wang",
+      "Zongyin Yang",
+      "Wen-Yan Yin",
+      "Zhun Wei"
+    ],
+    "doi": "10.1038/s42256-025-01162-z",
+    "figure_number": 4,
+    "figure_url": "https://www.nature.com/articles/s42256-025-01162-z/figures/4",
+    "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig4_HTML.png",
+    "original_sha256": "afbf58d1c051db0540d1ec31489907bc1e70f91ed353851fd2681087b4aca7be",
+    "original_bytes": 655582,
+    "checked_date": "2026-11-20",
+    "urls": [
+      "https://www.nature.com/articles/s42256-025-01162-z",
+      "https://www.nature.com/articles/s42256-025-01162-z/figures/4",
+      "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig4_HTML.png",
+      "https://www.nature.com/articles/s42256-025-01162-z#rightslink",
+      "https://doi.org/10.5281/zenodo.16875307",
+      "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM5_ESM.xlsx"
+    ],
+    "source_data": {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM5_ESM.xlsx",
+      "local_file": "source-data.xlsx",
+      "original_sha256": "37848c217bf53b98998f62169ecc51eeeb66d2b373e95cc9246fa2b101d94b65",
+      "worksheets": [
+        "Fig.4_a",
+        "Fig.4_b_1",
+        "Fig.4_b_2",
+        "Fig4_c",
+        "Fig4_e"
+      ],
+      "description": "5 张表。Fig4_c 保存两种设计电容的曲线，Fig4_e 的表头明确列出 0.30、0.55 pF 各自的模拟与实测透射。"
+    }
+  },
+  "license": {
+    "name": "© 2025 The Author(s), under exclusive licence to Springer Nature Limited",
+    "status": "reference-only",
+    "note": "期刊标明作者版权并独家授权 Springer Nature Limited。图版作为论文参考留存，发表时复用或改编请查阅期刊的权限说明。",
+    "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z#rightslink"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "PNG",
+    "pixel_dimensions": [
+      2166,
+      1019
+    ],
+    "vector_shapes": false,
+    "editable_text": false,
+    "notes": [
+      "期刊发布的整幅 PNG。",
+      "另附作者提供的数值工作簿，可用于重新绘制对应子图。"
+    ]
+  },
+  "changes": [
+    "保留出版社独立原图，另制等比预览。",
+    "保留期刊所附的原始绘图工作簿。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.png",
+      "bytes": 655582,
+      "sha256": "afbf58d1c051db0540d1ec31489907bc1e70f91ed353851fd2681087b4aca7be"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 386326,
+      "sha256": "ebcc7771d8ba673d7d8a34bd0580e6bb0de670149474fc73db7a29e8c5829a14"
+    },
+    {
+      "path": "source-data.xlsx",
+      "bytes": 70293,
+      "sha256": "37848c217bf53b98998f62169ecc51eeeb66d2b373e95cc9246fa2b101d94b65"
+    }
+  ]
+}

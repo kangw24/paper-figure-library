@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "metaai-current-diffusion-design-overview",
+  "title": "MetaAI · 从目标电磁响应到可实现的超表面",
+  "category": "teaser",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "电磁逆设计",
+    "扩散模型",
+    "物理场",
+    "超表面"
+  ],
+  "summary": "a 用目标点提出设计任务。b 把电磁条件变成跨频率的电流图，c 用正向代理模型筛选候选拓扑，d、e 再把图案放回可透射、反射、吸收或调谐的器件中。",
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Current-diffusion model for metasurface structure discoveries with spatial-frequency dynamics",
+    "venue": "Nature Machine Intelligence",
+    "year": 2026,
+    "published_online": "2025-12-31",
+    "volume": 8,
+    "pages": "59–69",
+    "presentation": "journal-article",
+    "article_type": "research",
+    "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z"
+  },
+  "curation": {
+    "figure_role": "任务、动机与能力展示",
+    "layout_family": "任务、动机与能力展示",
+    "panel_labels": "a–e",
+    "panel_count": 5,
+    "panel_layout": {
+      "summary": "底部整行展开逆扩散，右侧连接筛选与拓扑，中央的器件图把预测对象放回物理场景。",
+      "panel_groups": 5
+    },
+    "reading_order": "从左上角 a 的目标点出发。沿浅蓝色箭头走到底部 b，19 个频点的响应作为条件，噪声逐步变成有方向的电流分布。沿右侧箭头向上，在 c 看候选如何接受正向预测，再经 d 的拓扑回到中央 e 的器件。e 的各色波束分别标出透射、反射、吸收和调谐功能。",
+    "why_selected": "a 用目标点提出设计任务。b 把电磁条件变成跨频率的电流图，c 用正向代理模型筛选候选拓扑，d、e 再把图案放回可透射、反射、吸收或调谐的器件中。"
+  },
+  "source": {
+    "authors": [
+      "Erji Li",
+      "Yusong Wang",
+      "Lei Jin",
+      "Zheng Zong",
+      "Enze Zhu",
+      "Bao Wang",
+      "Qian Wang",
+      "Zongyin Yang",
+      "Wen-Yan Yin",
+      "Zhun Wei"
+    ],
+    "doi": "10.1038/s42256-025-01162-z",
+    "figure_number": 1,
+    "figure_url": "https://www.nature.com/articles/s42256-025-01162-z/figures/1",
+    "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig1_HTML.png",
+    "original_sha256": "6c03ad553d96edfa603a1dba9c5cc24267b01aa0fa4f3af45ba2ea975818452e",
+    "original_bytes": 835334,
+    "checked_date": "2026-11-20",
+    "urls": [
+      "https://www.nature.com/articles/s42256-025-01162-z",
+      "https://www.nature.com/articles/s42256-025-01162-z/figures/1",
+      "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig1_HTML.png",
+      "https://www.nature.com/articles/s42256-025-01162-z#rightslink",
+      "https://doi.org/10.5281/zenodo.16875307",
+      "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM3_ESM.xlsx"
+    ],
+    "source_data": {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM3_ESM.xlsx",
+      "local_file": "source-data.xlsx",
+      "original_sha256": "a9224c82fc12bc2531d56a6de4a17aa5f6557ab7774c11e17f45537644be2dd1",
+      "worksheets": [
+        "Fig.1_d_1",
+        "Fig.1_d_2",
+        "Fig.1_d_3",
+        "Fig.1_d_4",
+        "Fig.1_d_5",
+        "Fig.1_d_6",
+        "Fig.1_d_7",
+        "Fig.1_d_8"
+      ],
+      "description": "8 张表对应 d 中的八个拓扑图案。"
+    }
+  },
+  "license": {
+    "name": "© 2025 The Author(s), under exclusive licence to Springer Nature Limited",
+    "status": "reference-only",
+    "note": "期刊标明作者版权并独家授权 Springer Nature Limited。图版作为论文参考留存，发表时复用或改编请查阅期刊的权限说明。",
+    "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z#rightslink"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "PNG",
+    "pixel_dimensions": [
+      2166,
+      1487
+    ],
+    "vector_shapes": false,
+    "editable_text": false,
+    "notes": [
+      "期刊发布的整幅 PNG。",
+      "另附作者提供的数值工作簿，可用于重新绘制对应子图。"
+    ]
+  },
+  "changes": [
+    "保留出版社独立原图，另制等比预览。",
+    "保留期刊所附的原始绘图工作簿。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.png",
+      "bytes": 835334,
+      "sha256": "6c03ad553d96edfa603a1dba9c5cc24267b01aa0fa4f3af45ba2ea975818452e"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 634302,
+      "sha256": "228d67a042137c0f7fa987b6317b64baceeb5f7485cb18eac026f797f0bedc37"
+    },
+    {
+      "path": "source-data.xlsx",
+      "bytes": 387250,
+      "sha256": "a9224c82fc12bc2531d56a6de4a17aa5f6557ab7774c11e17f45537644be2dd1"
+    }
+  ]
+}

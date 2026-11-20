@@ -7,7 +7,7 @@
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
 | 整体方法与训练流程 | 39 | [浏览](#framework) |
-| 网络主干与模块展开 | 14 | [浏览](#network) |
+| 网络主干与模块展开 | 15 | [浏览](#network) |
 | 基础结构与教材范例 | 16 | [浏览](#tutorial) |
 
 <a id="framework"></a>
@@ -588,6 +588,20 @@ ICCV 2021 · Oral
 [![预览](3detr-architecture/preview.png)](3detr-architecture/README.md)
 
 [说明与源文件](3detr-architecture/README.md) · [同论文：3DETR · 输入点云、注意力与检测结果的对应](../teaser/3detr-attention-teaser/README.md) · [关联元素](3detr-architecture/README.md#关联范例与元素)
+
+### [MetaAI · 从电流扩散 Transformer 展开两种注意力](metaai-spatial-frequency-transformer/README.md)
+
+左侧从多频电流图读到噪声预测，灰色放大带把重复的 Transformer 块连到右侧内部结构。青色和绿色引线再分别指向空间注意力和频率注意力的计算细节。
+
+Nature Machine Intelligence 2026 · 期刊论文
+
+**子图组织：** a 画网络主干，b 先展开一个重复块，再在右下展开其中两种注意力。 原论文 Figure 2。
+
+**整图位图，仅构图参考。**
+
+[![预览](metaai-spatial-frequency-transformer/preview.png)](metaai-spatial-frequency-transformer/README.md)
+
+[说明与源文件](metaai-spatial-frequency-transformer/README.md) · [同论文：MetaAI · 从目标电磁响应到可实现的超表面](../teaser/metaai-current-diffusion-design-overview/README.md) · [关联元素](metaai-spatial-frequency-transformer/README.md#关联范例与元素)
 
 
 <a id="tutorial"></a>

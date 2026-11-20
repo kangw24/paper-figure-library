@@ -97,7 +97,8 @@
           "orienternet",
           "birefractive-rgbd",
           "sam2-task-model-data",
-          "3detr-attention-teaser"
+          "3detr-attention-teaser",
+          "metaai-current-diffusion-design-overview"
         ]
       },
       {
@@ -181,7 +182,8 @@
           "sam2-memory-architecture",
           "llava-original-architecture",
           "blip2-qformer-architecture",
-          "3detr-architecture"
+          "3detr-architecture",
+          "metaai-spatial-frequency-transformer"
         ]
       },
       {
@@ -343,6 +345,10 @@
     [
       "survey-ai-memory-video-task-panels",
       "survey-ai-memory-agent-feedback-framework"
+    ],
+    [
+      "metaai-current-diffusion-design-overview",
+      "metaai-spatial-frequency-transformer"
     ]
   ],
   "suggested_elements": {
@@ -1282,6 +1288,15 @@
       "tabler-robot",
       "tabler-route",
       "tabler-chart-line"
+    ],
+    "metaai-current-diffusion-design-overview": [
+      "dit-noised-latent",
+      "rust-feature-stack"
+    ],
+    "metaai-spatial-frequency-transformer": [
+      "dit-patchify",
+      "dit-self-attention",
+      "dit-scale-shift"
     ]
   }
 }

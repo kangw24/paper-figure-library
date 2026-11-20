@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "metaai-multilayer-transmission-absorption",
+  "title": "MetaAI · 三层样品的透射与吸收双重验证",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "多层超表面",
+    "分层装配",
+    "透射",
+    "吸收",
+    "实验验证"
+  ],
+  "summary": "d 的三根引线逐一对应损耗层、第一生成层和第二生成层的实物纹样。e 在两个相同频率范围的坐标系中分别核对整件样品的透射与吸收。",
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Current-diffusion model for metasurface structure discoveries with spatial-frequency dynamics",
+    "venue": "Nature Machine Intelligence",
+    "year": 2026,
+    "published_online": "2025-12-31",
+    "volume": 8,
+    "pages": "59–69",
+    "presentation": "journal-article",
+    "article_type": "research",
+    "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z"
+  },
+  "curation": {
+    "figure_role": "同一对象的多种证据",
+    "layout_family": "同一对象的多种证据",
+    "panel_labels": "a–e",
+    "panel_count": 5,
+    "panel_layout": {
+      "summary": "a–c 解释各项响应，d 将三个设计层连到样品照片，e 上下两图共用频率范围以对照两种输出。",
+      "panel_groups": 5
+    },
+    "reading_order": "先看 d，从上至下沿三根引线把每个设计层和对应的样品照片配对。接着看 e：上图对照模拟与实测透射，下图对照模拟与实测吸收。若想解释性能来自哪里，a 给出损耗层自身的响应，c 比较生成设计和训练集最佳设计的两种指标，b 右侧则按拓扑排列逐频透射误差。",
+    "why_selected": "d 的三根引线逐一对应损耗层、第一生成层和第二生成层的实物纹样。e 在两个相同频率范围的坐标系中分别核对整件样品的透射与吸收。"
+  },
+  "source": {
+    "authors": [
+      "Erji Li",
+      "Yusong Wang",
+      "Lei Jin",
+      "Zheng Zong",
+      "Enze Zhu",
+      "Bao Wang",
+      "Qian Wang",
+      "Zongyin Yang",
+      "Wen-Yan Yin",
+      "Zhun Wei"
+    ],
+    "doi": "10.1038/s42256-025-01162-z",
+    "figure_number": 5,
+    "figure_url": "https://www.nature.com/articles/s42256-025-01162-z/figures/5",
+    "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig5_HTML.png",
+    "original_sha256": "b6b9b49546d89ce9c805d0a9f8b45c5a38c7c3580759e8f2220d0c4ef1cc5311",
+    "original_bytes": 722322,
+    "checked_date": "2026-11-20",
+    "urls": [
+      "https://www.nature.com/articles/s42256-025-01162-z",
+      "https://www.nature.com/articles/s42256-025-01162-z/figures/5",
+      "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig5_HTML.png",
+      "https://www.nature.com/articles/s42256-025-01162-z#rightslink",
+      "https://doi.org/10.5281/zenodo.16875307",
+      "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM6_ESM.xlsx"
+    ],
+    "source_data": {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM6_ESM.xlsx",
+      "local_file": "source-data.xlsx",
+      "original_sha256": "601abaa7c2799b118fd612de3ad975d9c56f2283e46c3aad4548ad7b518fb8ec",
+      "worksheets": [
+        "Fig5_a",
+        "Fig.5_b_1",
+        "Fig.5_b_2",
+        "Fig5_c",
+        "Fig5_d"
+      ],
+      "description": "源数据有 5 张工作表，保留作者原表名。Fig.5_b_2 可用于查看候选拓扑的逐频误差。"
+    }
+  },
+  "license": {
+    "name": "© 2025 The Author(s), under exclusive licence to Springer Nature Limited",
+    "status": "reference-only",
+    "note": "期刊标明作者版权并独家授权 Springer Nature Limited。图版作为论文参考留存，发表时复用或改编请查阅期刊的权限说明。",
+    "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z#rightslink"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "PNG",
+    "pixel_dimensions": [
+      2165,
+      1161
+    ],
+    "vector_shapes": false,
+    "editable_text": false,
+    "notes": [
+      "期刊发布的整幅 PNG。",
+      "另附作者提供的数值工作簿，可用于重新绘制对应子图。"
+    ]
+  },
+  "changes": [
+    "保留出版社独立原图，另制等比预览。",
+    "保留期刊所附的原始绘图工作簿。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.png",
+      "bytes": 722322,
+      "sha256": "b6b9b49546d89ce9c805d0a9f8b45c5a38c7c3580759e8f2220d0c4ef1cc5311"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 398310,
+      "sha256": "22ea93ab0acae9930e2d51a49ffeec47ab2bdda143b79e3fc038dffc9f83f233"
+    },
+    {
+      "path": "source-data.xlsx",
+      "bytes": 62661,
+      "sha256": "601abaa7c2799b118fd612de3ad975d9c56f2283e46c3aad4548ad7b518fb8ec"
+    }
+  ]
+}

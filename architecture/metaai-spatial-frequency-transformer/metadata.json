@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "metaai-spatial-frequency-transformer",
+  "title": "MetaAI · 从电流扩散 Transformer 展开两种注意力",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "扩散模型",
+    "Transformer",
+    "空间注意力",
+    "频率注意力"
+  ],
+  "summary": "左侧从多频电流图读到噪声预测，灰色放大带把重复的 Transformer 块连到右侧内部结构。青色和绿色引线再分别指向空间注意力和频率注意力的计算细节。",
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Current-diffusion model for metasurface structure discoveries with spatial-frequency dynamics",
+    "venue": "Nature Machine Intelligence",
+    "year": 2026,
+    "published_online": "2025-12-31",
+    "volume": 8,
+    "pages": "59–69",
+    "presentation": "journal-article",
+    "article_type": "research",
+    "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z"
+  },
+  "curation": {
+    "figure_role": "网络主干与模块展开",
+    "layout_family": "网络主干与模块展开",
+    "panel_labels": "a、b",
+    "panel_count": 2,
+    "panel_layout": {
+      "summary": "a 画网络主干，b 先展开一个重复块，再在右下展开其中两种注意力。",
+      "panel_groups": 2
+    },
+    "reading_order": "从 a 底部的一叠电流图向上看：各频点的电流先编码，再分块送入重复的 Transformer 块。沿浅灰色放大带移到 b，堆叠块内的频率注意力和空间注意力各有一条同色引线。右下角的绿色细节图沿频点处理信息，青色细节图沿空间位置处理信息。S 和时间步 T 的条件输入都可沿各自的线追踪。",
+    "why_selected": "左侧从多频电流图读到噪声预测，灰色放大带把重复的 Transformer 块连到右侧内部结构。青色和绿色引线再分别指向空间注意力和频率注意力的计算细节。"
+  },
+  "source": {
+    "authors": [
+      "Erji Li",
+      "Yusong Wang",
+      "Lei Jin",
+      "Zheng Zong",
+      "Enze Zhu",
+      "Bao Wang",
+      "Qian Wang",
+      "Zongyin Yang",
+      "Wen-Yan Yin",
+      "Zhun Wei"
+    ],
+    "doi": "10.1038/s42256-025-01162-z",
+    "figure_number": 2,
+    "figure_url": "https://www.nature.com/articles/s42256-025-01162-z/figures/2",
+    "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig2_HTML.png",
+    "original_sha256": "9b0e0b5cdd0bbaffd701bdac337c685127695191c7c5ecf8f79762521914b908",
+    "original_bytes": 252766,
+    "checked_date": "2026-11-20",
+    "urls": [
+      "https://www.nature.com/articles/s42256-025-01162-z",
+      "https://www.nature.com/articles/s42256-025-01162-z/figures/2",
+      "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig2_HTML.png",
+      "https://www.nature.com/articles/s42256-025-01162-z#rightslink",
+      "https://doi.org/10.5281/zenodo.16875307"
+    ]
+  },
+  "license": {
+    "name": "© 2025 The Author(s), under exclusive licence to Springer Nature Limited",
+    "status": "reference-only",
+    "note": "期刊标明作者版权并独家授权 Springer Nature Limited。图版作为论文参考留存，发表时复用或改编请查阅期刊的权限说明。",
+    "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z#rightslink"
+  },
+  "editability": {
+    "level": "raster-reference",
+    "native_format": "PNG",
+    "pixel_dimensions": [
+      2165,
+      1550
+    ],
+    "vector_shapes": false,
+    "editable_text": false,
+    "notes": [
+      "期刊发布的整幅 PNG。"
+    ]
+  },
+  "changes": [
+    "保留出版社独立原图，另制等比预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.png",
+      "bytes": 252766,
+      "sha256": "9b0e0b5cdd0bbaffd701bdac337c685127695191c7c5ecf8f79762521914b908"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 283232,
+      "sha256": "86690a2c567f8eaf69fe6e390ef9ea1ccbc024654c9119b3c6aa35f988f67082"
+    }
+  ]
+}

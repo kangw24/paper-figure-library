@@ -9,7 +9,7 @@
 | 方法与范式对照 | 18 | [浏览](#comparison) |
 | 多子图主题与应用总览 | 19 | [浏览](#multi-panel) |
 | 领域全景、演进与综述路线图 | 26 | [浏览](#landscape) |
-| 任务、动机与能力展示 | 8 | [浏览](#capabilities) |
+| 任务、动机与能力展示 | 9 | [浏览](#capabilities) |
 | 控制效果与优化过程 | 3 | [浏览](#control-progress) |
 | 速度与精度权衡 | 2 | [浏览](#tradeoff) |
 
@@ -833,6 +833,20 @@ ICCV 2021 · Oral
 [![预览](3detr-attention-teaser/preview.png)](3detr-attention-teaser/README.md)
 
 [说明与源文件](3detr-attention-teaser/README.md) · [同论文：3DETR · 点云编码器、查询嵌入与集合预测](../architecture/3detr-architecture/README.md) · [关联元素](3detr-attention-teaser/README.md#关联范例与元素)
+
+### [MetaAI · 从目标电磁响应到可实现的超表面](metaai-current-diffusion-design-overview/README.md)
+
+a 用目标点提出设计任务。b 把电磁条件变成跨频率的电流图，c 用正向代理模型筛选候选拓扑，d、e 再把图案放回可透射、反射、吸收或调谐的器件中。
+
+Nature Machine Intelligence 2026 · 期刊论文
+
+**子图组织：** 底部整行展开逆扩散，右侧连接筛选与拓扑，中央的器件图把预测对象放回物理场景。 原论文 Figure 1。
+
+**整图位图，仅构图参考。**
+
+[![预览](metaai-current-diffusion-design-overview/preview.png)](metaai-current-diffusion-design-overview/README.md)
+
+[说明与源文件](metaai-current-diffusion-design-overview/README.md) · [同论文：MetaAI · 从电流扩散 Transformer 展开两种注意力](../architecture/metaai-spatial-frequency-transformer/README.md) · [关联元素](metaai-current-diffusion-design-overview/README.md#关联范例与元素)
 
 
 <a id="control-progress"></a>

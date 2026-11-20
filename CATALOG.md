@@ -6,9 +6,9 @@
 
 | 类别 | 数量 | 入口 |
 |---|---:|---|
-| Teaser 范例 | 76 | [浏览](teaser/README.md) |
-| Architecture 范例 | 69 | [浏览](architecture/README.md) |
-| 多面板大图 | 55 | [浏览](multipanel/README.md) |
+| Teaser 范例 | 77 | [浏览](teaser/README.md) |
+| Architecture 范例 | 70 | [浏览](architecture/README.md) |
+| 多面板大图 | 58 | [浏览](multipanel/README.md) |
 | Element 最小可复用元素 | 392 | [按内容与来源浏览](element/README.md) |
 
 完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。
@@ -171,6 +171,17 @@ arXiv 2025 · 预印本 · 矢量 + 原有位图
 
 来源类型：论文范例。许可：CC BY 4.0（所收录论文版本）。
 [原文件](teaser/memos-three-memory-consolidation-paths/original.pdf) · [来源记录](teaser/memos-three-memory-consolidation-paths/metadata.json)
+
+### [MetaAI · 从目标电磁响应到可实现的超表面](teaser/metaai-current-diffusion-design-overview/README.md)
+
+a 用目标点提出设计任务。b 把电磁条件变成跨频率的电流图，c 用正向代理模型筛选候选拓扑，d、e 再把图案放回可透射、反射、吸收或调谐的器件中。
+
+Nature Machine Intelligence 2026 · 期刊论文 · 整图位图，仅构图参考
+
+[<img src="teaser/metaai-current-diffusion-design-overview/preview.png" width="760" alt="MetaAI · 从目标电磁响应到可实现的超表面">](teaser/metaai-current-diffusion-design-overview/original.png)
+
+来源类型：论文范例。许可：© 2025 The Author(s), under exclusive licence to Springer Nature Limited。
+[原文件](teaser/metaai-current-diffusion-design-overview/original.png) · [来源记录](teaser/metaai-current-diffusion-design-overview/metadata.json)
 
 ### [MVSplat · 重建质量、速度与参数量的并列对照](teaser/mvsplat-comparison/README.md)
 
@@ -1306,6 +1317,17 @@ ICLR 2026 · 会议论文，未核实 Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：作者保留权利 / 私有参考。
 [原文件](architecture/memoryvla-perceptual-cognitive-architecture/original.pdf) · [来源记录](architecture/memoryvla-perceptual-cognitive-architecture/metadata.json)
+
+### [MetaAI · 从电流扩散 Transformer 展开两种注意力](architecture/metaai-spatial-frequency-transformer/README.md)
+
+左侧从多频电流图读到噪声预测，灰色放大带把重复的 Transformer 块连到右侧内部结构。青色和绿色引线再分别指向空间注意力和频率注意力的计算细节。
+
+Nature Machine Intelligence 2026 · 期刊论文 · 整图位图，仅构图参考
+
+[<img src="architecture/metaai-spatial-frequency-transformer/preview.png" width="760" alt="MetaAI · 从电流扩散 Transformer 展开两种注意力">](architecture/metaai-spatial-frequency-transformer/original.png)
+
+来源类型：论文范例。许可：© 2025 The Author(s), under exclusive licence to Springer Nature Limited。
+[原文件](architecture/metaai-spatial-frequency-transformer/original.png) · [来源记录](architecture/metaai-spatial-frequency-transformer/metadata.json)
 
 ### [MExGen · 问答扰动与逐级文本归因](architecture/mexgen-perturbation-attribution-workflow/README.md)
 

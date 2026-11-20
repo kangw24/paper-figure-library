@@ -101,6 +101,7 @@
 | [Uneven Double Refraction：原型与成像能力展示](../teaser/birefractive-rgbd/README.md) | [相机](svg/tabler-camera.svg) · [图像](svg/tabler-photo.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) |
 | [SAM 2 · 任务、模型与数据引擎三联概念图](../teaser/sam2-task-model-data/README.md) | [视频](svg/tabler-video.svg) · [开始](svg/tabler-player-play.svg) · [回环箭头](svg/tabler-arrow-loop-right.svg) · [ViT 编码器块](svg/vit-encoder-block.svg) |
 | [3DETR · 输入点云、注意力与检测结果的对应](../teaser/3detr-attention-teaser/README.md) | [相机](svg/tabler-camera.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [目标](svg/tabler-target.svg) |
+| [MetaAI · 从目标电磁响应到可实现的超表面](../teaser/metaai-current-diffusion-design-overview/README.md) | [带噪潜变量块](svg/dit-noised-latent.svg) · [特征表示堆叠](svg/rust-feature-stack.svg) |
 | [DreamGaussian · 生成能力与优化进程同图展示](../teaser/dreamgaussian-progress/README.md) | [图像](svg/tabler-photo.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [水平双向箭头](svg/tabler-arrows-right-left.svg) · [时钟](svg/tabler-clock.svg) |
 | [DECOLLAGE：局部风格控制与三维细化](../teaser/decollage/README.md) | [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [图像](svg/tabler-photo.svg) · [参数设置](svg/tabler-adjustments.svg) |
 | [ShaDDR：粗形状与示例驱动的成果展示](../teaser/shaddr/README.md) | [三维坐标物体](svg/tabler-cube-3d-sphere.svg) · [图像](svg/tabler-photo.svg) · [参数设置](svg/tabler-adjustments.svg) |
@@ -164,6 +165,7 @@
 | [LLaVA · 视觉投影与语言 token 的统一输入](../architecture/llava-original-architecture/README.md) | [ViT 编码器块](svg/vit-encoder-block.svg) · [线性映射与形状重排](svg/dit-linear-reshape.svg) · [条件嵌入模块](svg/dit-embed.svg) · [文本文件](svg/tabler-file-text.svg) |
 | [BLIP-2 · Q-Former 与三种注意力掩码](../architecture/blip2-qformer-architecture/README.md) | [DiT 多头自注意力模块](svg/dit-self-attention.svg) · [匹配相似度矩阵](svg/lightglue-assignment-matrix.svg) · [逐位置前馈网络模块](svg/dit-feed-forward.svg) · [ViT 编码器块](svg/vit-encoder-block.svg) |
 | [3DETR · 点云编码器、查询嵌入与集合预测](../architecture/3detr-architecture/README.md) | [ViT 编码器块](svg/vit-encoder-block.svg) · [DiT 多头自注意力模块](svg/dit-self-attention.svg) · [条件嵌入模块](svg/dit-embed.svg) · [ViT 前馈 MLP 模块](svg/vit-mlp.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) |
+| [MetaAI · 从电流扩散 Transformer 展开两种注意力](../architecture/metaai-spatial-frequency-transformer/README.md) | [Patchify 图像分块模块](svg/dit-patchify.svg) · [DiT 多头自注意力模块](svg/dit-self-attention.svg) · [条件缩放与平移模块](svg/dit-scale-shift.svg) |
 | [D2L · Transformer 编码器与解码器](../architecture/d2l-transformer/README.md) | [Self attention 块](svg/lightglue-self-attention.svg) · [残差加法节点](svg/lightglue-residual-add.svg) · [匹配相似度矩阵](svg/lightglue-assignment-matrix.svg) · [单层特征块](svg/rust-feature-tile.svg) · [编码器块](svg/rust-encoder.svg) · [解码器块](svg/rust-decoder.svg) |
 | [D2L · Vision Transformer](../architecture/d2l-vit/README.md) | [Self attention 块](svg/lightglue-self-attention.svg) · [残差加法节点](svg/lightglue-residual-add.svg) · [匹配相似度矩阵](svg/lightglue-assignment-matrix.svg) · [单层特征块](svg/rust-feature-tile.svg) · [多通道彩色张量](svg/task5-rgb-tensor.svg) |
 | [D2L · 编码器—解码器](../architecture/d2l-encoder-decoder/README.md) | [编码器块](svg/rust-encoder.svg) · [解码器块](svg/rust-decoder.svg) · [特征表示堆叠](svg/rust-feature-stack.svg) · [右向流程箭头](svg/rust-arrow-right.svg) |

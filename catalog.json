@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "counts": {
-    "teaser": 76,
-    "architecture": 69,
-    "multipanel": 55,
+    "teaser": 77,
+    "architecture": 70,
+    "multipanel": 58,
     "element": 392,
     "mechanism": 17,
     "layout-template": 11
@@ -2097,6 +2097,142 @@
       "readme_path": "teaser/memos-three-memory-consolidation-paths/README.md",
       "primary_path": "teaser/memos-three-memory-consolidation-paths/original.pdf",
       "preview_path": "teaser/memos-three-memory-consolidation-paths/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "metaai-current-diffusion-design-overview",
+      "title": "MetaAI · 从目标电磁响应到可实现的超表面",
+      "category": "teaser",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "电磁逆设计",
+        "扩散模型",
+        "物理场",
+        "超表面"
+      ],
+      "summary": "a 用目标点提出设计任务。b 把电磁条件变成跨频率的电流图，c 用正向代理模型筛选候选拓扑，d、e 再把图案放回可透射、反射、吸收或调谐的器件中。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Current-diffusion model for metasurface structure discoveries with spatial-frequency dynamics",
+        "venue": "Nature Machine Intelligence",
+        "year": 2026,
+        "published_online": "2025-12-31",
+        "volume": 8,
+        "pages": "59–69",
+        "presentation": "journal-article",
+        "article_type": "research",
+        "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z"
+      },
+      "curation": {
+        "figure_role": "任务、动机与能力展示",
+        "layout_family": "任务、动机与能力展示",
+        "panel_labels": "a–e",
+        "panel_count": 5,
+        "panel_layout": {
+          "summary": "底部整行展开逆扩散，右侧连接筛选与拓扑，中央的器件图把预测对象放回物理场景。",
+          "panel_groups": 5
+        },
+        "reading_order": "从左上角 a 的目标点出发。沿浅蓝色箭头走到底部 b，19 个频点的响应作为条件，噪声逐步变成有方向的电流分布。沿右侧箭头向上，在 c 看候选如何接受正向预测，再经 d 的拓扑回到中央 e 的器件。e 的各色波束分别标出透射、反射、吸收和调谐功能。",
+        "why_selected": "a 用目标点提出设计任务。b 把电磁条件变成跨频率的电流图，c 用正向代理模型筛选候选拓扑，d、e 再把图案放回可透射、反射、吸收或调谐的器件中。"
+      },
+      "source": {
+        "authors": [
+          "Erji Li",
+          "Yusong Wang",
+          "Lei Jin",
+          "Zheng Zong",
+          "Enze Zhu",
+          "Bao Wang",
+          "Qian Wang",
+          "Zongyin Yang",
+          "Wen-Yan Yin",
+          "Zhun Wei"
+        ],
+        "doi": "10.1038/s42256-025-01162-z",
+        "figure_number": 1,
+        "figure_url": "https://www.nature.com/articles/s42256-025-01162-z/figures/1",
+        "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig1_HTML.png",
+        "original_sha256": "6c03ad553d96edfa603a1dba9c5cc24267b01aa0fa4f3af45ba2ea975818452e",
+        "original_bytes": 835334,
+        "checked_date": "2026-11-20",
+        "urls": [
+          "https://www.nature.com/articles/s42256-025-01162-z",
+          "https://www.nature.com/articles/s42256-025-01162-z/figures/1",
+          "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig1_HTML.png",
+          "https://www.nature.com/articles/s42256-025-01162-z#rightslink",
+          "https://doi.org/10.5281/zenodo.16875307",
+          "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM3_ESM.xlsx"
+        ],
+        "source_data": {
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM3_ESM.xlsx",
+          "local_file": "source-data.xlsx",
+          "original_sha256": "a9224c82fc12bc2531d56a6de4a17aa5f6557ab7774c11e17f45537644be2dd1",
+          "worksheets": [
+            "Fig.1_d_1",
+            "Fig.1_d_2",
+            "Fig.1_d_3",
+            "Fig.1_d_4",
+            "Fig.1_d_5",
+            "Fig.1_d_6",
+            "Fig.1_d_7",
+            "Fig.1_d_8"
+          ],
+          "description": "8 张表对应 d 中的八个拓扑图案。"
+        }
+      },
+      "license": {
+        "name": "© 2025 The Author(s), under exclusive licence to Springer Nature Limited",
+        "status": "reference-only",
+        "note": "期刊标明作者版权并独家授权 Springer Nature Limited。图版作为论文参考留存，发表时复用或改编请查阅期刊的权限说明。",
+        "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z#rightslink"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "PNG",
+        "pixel_dimensions": [
+          2166,
+          1487
+        ],
+        "vector_shapes": false,
+        "editable_text": false,
+        "notes": [
+          "期刊发布的整幅 PNG。",
+          "另附作者提供的数值工作簿，可用于重新绘制对应子图。"
+        ]
+      },
+      "changes": [
+        "保留出版社独立原图，另制等比预览。",
+        "保留期刊所附的原始绘图工作簿。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 835334,
+          "sha256": "6c03ad553d96edfa603a1dba9c5cc24267b01aa0fa4f3af45ba2ea975818452e"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 634302,
+          "sha256": "228d67a042137c0f7fa987b6317b64baceeb5f7485cb18eac026f797f0bedc37"
+        },
+        {
+          "path": "source-data.xlsx",
+          "bytes": 387250,
+          "sha256": "a9224c82fc12bc2531d56a6de4a17aa5f6557ab7774c11e17f45537644be2dd1"
+        }
+      ],
+      "path": "teaser/metaai-current-diffusion-design-overview",
+      "metadata_path": "teaser/metaai-current-diffusion-design-overview/metadata.json",
+      "readme_path": "teaser/metaai-current-diffusion-design-overview/README.md",
+      "primary_path": "teaser/metaai-current-diffusion-design-overview/original.png",
+      "preview_path": "teaser/metaai-current-diffusion-design-overview/preview.png"
     },
     {
       "schema_version": 1,
@@ -18205,6 +18341,118 @@
     },
     {
       "schema_version": 1,
+      "id": "metaai-spatial-frequency-transformer",
+      "title": "MetaAI · 从电流扩散 Transformer 展开两种注意力",
+      "category": "architecture",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "扩散模型",
+        "Transformer",
+        "空间注意力",
+        "频率注意力"
+      ],
+      "summary": "左侧从多频电流图读到噪声预测，灰色放大带把重复的 Transformer 块连到右侧内部结构。青色和绿色引线再分别指向空间注意力和频率注意力的计算细节。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Current-diffusion model for metasurface structure discoveries with spatial-frequency dynamics",
+        "venue": "Nature Machine Intelligence",
+        "year": 2026,
+        "published_online": "2025-12-31",
+        "volume": 8,
+        "pages": "59–69",
+        "presentation": "journal-article",
+        "article_type": "research",
+        "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z"
+      },
+      "curation": {
+        "figure_role": "网络主干与模块展开",
+        "layout_family": "网络主干与模块展开",
+        "panel_labels": "a、b",
+        "panel_count": 2,
+        "panel_layout": {
+          "summary": "a 画网络主干，b 先展开一个重复块，再在右下展开其中两种注意力。",
+          "panel_groups": 2
+        },
+        "reading_order": "从 a 底部的一叠电流图向上看：各频点的电流先编码，再分块送入重复的 Transformer 块。沿浅灰色放大带移到 b，堆叠块内的频率注意力和空间注意力各有一条同色引线。右下角的绿色细节图沿频点处理信息，青色细节图沿空间位置处理信息。S 和时间步 T 的条件输入都可沿各自的线追踪。",
+        "why_selected": "左侧从多频电流图读到噪声预测，灰色放大带把重复的 Transformer 块连到右侧内部结构。青色和绿色引线再分别指向空间注意力和频率注意力的计算细节。"
+      },
+      "source": {
+        "authors": [
+          "Erji Li",
+          "Yusong Wang",
+          "Lei Jin",
+          "Zheng Zong",
+          "Enze Zhu",
+          "Bao Wang",
+          "Qian Wang",
+          "Zongyin Yang",
+          "Wen-Yan Yin",
+          "Zhun Wei"
+        ],
+        "doi": "10.1038/s42256-025-01162-z",
+        "figure_number": 2,
+        "figure_url": "https://www.nature.com/articles/s42256-025-01162-z/figures/2",
+        "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig2_HTML.png",
+        "original_sha256": "9b0e0b5cdd0bbaffd701bdac337c685127695191c7c5ecf8f79762521914b908",
+        "original_bytes": 252766,
+        "checked_date": "2026-11-20",
+        "urls": [
+          "https://www.nature.com/articles/s42256-025-01162-z",
+          "https://www.nature.com/articles/s42256-025-01162-z/figures/2",
+          "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig2_HTML.png",
+          "https://www.nature.com/articles/s42256-025-01162-z#rightslink",
+          "https://doi.org/10.5281/zenodo.16875307"
+        ]
+      },
+      "license": {
+        "name": "© 2025 The Author(s), under exclusive licence to Springer Nature Limited",
+        "status": "reference-only",
+        "note": "期刊标明作者版权并独家授权 Springer Nature Limited。图版作为论文参考留存，发表时复用或改编请查阅期刊的权限说明。",
+        "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z#rightslink"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "PNG",
+        "pixel_dimensions": [
+          2165,
+          1550
+        ],
+        "vector_shapes": false,
+        "editable_text": false,
+        "notes": [
+          "期刊发布的整幅 PNG。"
+        ]
+      },
+      "changes": [
+        "保留出版社独立原图，另制等比预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 252766,
+          "sha256": "9b0e0b5cdd0bbaffd701bdac337c685127695191c7c5ecf8f79762521914b908"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 283232,
+          "sha256": "86690a2c567f8eaf69fe6e390ef9ea1ccbc024654c9119b3c6aa35f988f67082"
+        }
+      ],
+      "path": "architecture/metaai-spatial-frequency-transformer",
+      "metadata_path": "architecture/metaai-spatial-frequency-transformer/metadata.json",
+      "readme_path": "architecture/metaai-spatial-frequency-transformer/README.md",
+      "primary_path": "architecture/metaai-spatial-frequency-transformer/original.png",
+      "preview_path": "architecture/metaai-spatial-frequency-transformer/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "mexgen-perturbation-attribution-workflow",
       "title": "MExGen · 问答扰动与逐级文本归因",
       "category": "architecture",
@@ -25032,6 +25280,546 @@
       "readme_path": "multipanel/mattergen-chemical-space-crystals/README.md",
       "primary_path": "multipanel/mattergen-chemical-space-crystals/figure.pdf",
       "preview_path": "multipanel/mattergen-chemical-space-crystals/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "metaai-multilayer-transmission-absorption",
+      "title": "MetaAI · 三层样品的透射与吸收双重验证",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "多层超表面",
+        "分层装配",
+        "透射",
+        "吸收",
+        "实验验证"
+      ],
+      "summary": "d 的三根引线逐一对应损耗层、第一生成层和第二生成层的实物纹样。e 在两个相同频率范围的坐标系中分别核对整件样品的透射与吸收。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Current-diffusion model for metasurface structure discoveries with spatial-frequency dynamics",
+        "venue": "Nature Machine Intelligence",
+        "year": 2026,
+        "published_online": "2025-12-31",
+        "volume": 8,
+        "pages": "59–69",
+        "presentation": "journal-article",
+        "article_type": "research",
+        "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z"
+      },
+      "curation": {
+        "figure_role": "同一对象的多种证据",
+        "layout_family": "同一对象的多种证据",
+        "panel_labels": "a–e",
+        "panel_count": 5,
+        "panel_layout": {
+          "summary": "a–c 解释各项响应，d 将三个设计层连到样品照片，e 上下两图共用频率范围以对照两种输出。",
+          "panel_groups": 5
+        },
+        "reading_order": "先看 d，从上至下沿三根引线把每个设计层和对应的样品照片配对。接着看 e：上图对照模拟与实测透射，下图对照模拟与实测吸收。若想解释性能来自哪里，a 给出损耗层自身的响应，c 比较生成设计和训练集最佳设计的两种指标，b 右侧则按拓扑排列逐频透射误差。",
+        "why_selected": "d 的三根引线逐一对应损耗层、第一生成层和第二生成层的实物纹样。e 在两个相同频率范围的坐标系中分别核对整件样品的透射与吸收。"
+      },
+      "source": {
+        "authors": [
+          "Erji Li",
+          "Yusong Wang",
+          "Lei Jin",
+          "Zheng Zong",
+          "Enze Zhu",
+          "Bao Wang",
+          "Qian Wang",
+          "Zongyin Yang",
+          "Wen-Yan Yin",
+          "Zhun Wei"
+        ],
+        "doi": "10.1038/s42256-025-01162-z",
+        "figure_number": 5,
+        "figure_url": "https://www.nature.com/articles/s42256-025-01162-z/figures/5",
+        "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig5_HTML.png",
+        "original_sha256": "b6b9b49546d89ce9c805d0a9f8b45c5a38c7c3580759e8f2220d0c4ef1cc5311",
+        "original_bytes": 722322,
+        "checked_date": "2026-11-20",
+        "urls": [
+          "https://www.nature.com/articles/s42256-025-01162-z",
+          "https://www.nature.com/articles/s42256-025-01162-z/figures/5",
+          "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig5_HTML.png",
+          "https://www.nature.com/articles/s42256-025-01162-z#rightslink",
+          "https://doi.org/10.5281/zenodo.16875307",
+          "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM6_ESM.xlsx"
+        ],
+        "source_data": {
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM6_ESM.xlsx",
+          "local_file": "source-data.xlsx",
+          "original_sha256": "601abaa7c2799b118fd612de3ad975d9c56f2283e46c3aad4548ad7b518fb8ec",
+          "worksheets": [
+            "Fig5_a",
+            "Fig.5_b_1",
+            "Fig.5_b_2",
+            "Fig5_c",
+            "Fig5_d"
+          ],
+          "description": "源数据有 5 张工作表，保留作者原表名。Fig.5_b_2 可用于查看候选拓扑的逐频误差。"
+        }
+      },
+      "license": {
+        "name": "© 2025 The Author(s), under exclusive licence to Springer Nature Limited",
+        "status": "reference-only",
+        "note": "期刊标明作者版权并独家授权 Springer Nature Limited。图版作为论文参考留存，发表时复用或改编请查阅期刊的权限说明。",
+        "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z#rightslink"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "PNG",
+        "pixel_dimensions": [
+          2165,
+          1161
+        ],
+        "vector_shapes": false,
+        "editable_text": false,
+        "notes": [
+          "期刊发布的整幅 PNG。",
+          "另附作者提供的数值工作簿，可用于重新绘制对应子图。"
+        ]
+      },
+      "changes": [
+        "保留出版社独立原图，另制等比预览。",
+        "保留期刊所附的原始绘图工作簿。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 722322,
+          "sha256": "b6b9b49546d89ce9c805d0a9f8b45c5a38c7c3580759e8f2220d0c4ef1cc5311"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 398310,
+          "sha256": "22ea93ab0acae9930e2d51a49ffeec47ab2bdda143b79e3fc038dffc9f83f233"
+        },
+        {
+          "path": "source-data.xlsx",
+          "bytes": 62661,
+          "sha256": "601abaa7c2799b118fd612de3ad975d9c56f2283e46c3aad4548ad7b518fb8ec"
+        }
+      ],
+      "path": "multipanel/metaai-multilayer-transmission-absorption",
+      "metadata_path": "multipanel/metaai-multilayer-transmission-absorption/metadata.json",
+      "readme_path": "multipanel/metaai-multilayer-transmission-absorption/README.md",
+      "primary_path": "multipanel/metaai-multilayer-transmission-absorption/original.png",
+      "preview_path": "multipanel/metaai-multilayer-transmission-absorption/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "metaai-single-layer-current-and-spectrum",
+      "title": "MetaAI · 从单层拓扑核对生成电流与全波仿真",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "全波仿真",
+        "电流分布",
+        "扩散步骤",
+        "频率对齐",
+        "透射谱"
+      ],
+      "summary": "b、c 以相同频率顺序分别排出生成电流和全波仿真电流。选定一个频点和分量，就能在上下两排直接核对同一结构的空间分布，再到 e 看整个频段的透射响应。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Current-diffusion model for metasurface structure discoveries with spatial-frequency dynamics",
+        "venue": "Nature Machine Intelligence",
+        "year": 2026,
+        "published_online": "2025-12-31",
+        "volume": 8,
+        "pages": "59–69",
+        "presentation": "journal-article",
+        "article_type": "research",
+        "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z"
+      },
+      "curation": {
+        "figure_role": "共用数据与坐标",
+        "layout_family": "共用数据与坐标",
+        "panel_labels": "a–f",
+        "panel_count": 6,
+        "panel_layout": {
+          "summary": "a 按步数和通道排列，b、c 共用频点与分量顺序，d–f 给出拓扑、透射谱和训练集带宽分布。",
+          "panel_groups": 6
+        },
+        "reading_order": "先在 b 的 Jₓ 区域选左上第一格，再在 c 找同一位置：二者都是 2 GHz 的 x 向电流，分别来自生成模型和对 d 中拓扑的全波仿真。想看这个结构怎么得到，可以回到 a，沿同一通道从扩散步 200 读到 0，再看 b 的多频电流如何用于投票确定 d。e 比较透射谱，f 将生成设计的相对带宽放到分频率统计的训练集分布上。",
+        "why_selected": "b、c 以相同频率顺序分别排出生成电流和全波仿真电流。选定一个频点和分量，就能在上下两排直接核对同一结构的空间分布，再到 e 看整个频段的透射响应。"
+      },
+      "source": {
+        "authors": [
+          "Erji Li",
+          "Yusong Wang",
+          "Lei Jin",
+          "Zheng Zong",
+          "Enze Zhu",
+          "Bao Wang",
+          "Qian Wang",
+          "Zongyin Yang",
+          "Wen-Yan Yin",
+          "Zhun Wei"
+        ],
+        "doi": "10.1038/s42256-025-01162-z",
+        "figure_number": 3,
+        "figure_url": "https://www.nature.com/articles/s42256-025-01162-z/figures/3",
+        "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig3_HTML.png",
+        "original_sha256": "4d49c168d540073dd5a8f11af45b1a4a6b14845420b2eb1fb4624d5ceab59852",
+        "original_bytes": 1346481,
+        "checked_date": "2026-11-20",
+        "urls": [
+          "https://www.nature.com/articles/s42256-025-01162-z",
+          "https://www.nature.com/articles/s42256-025-01162-z/figures/3",
+          "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig3_HTML.png",
+          "https://www.nature.com/articles/s42256-025-01162-z#rightslink",
+          "https://doi.org/10.5281/zenodo.16875307",
+          "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM4_ESM.xlsx"
+        ],
+        "source_data": {
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM4_ESM.xlsx",
+          "local_file": "source-data.xlsx",
+          "original_sha256": "e426c92783b2753933dd6824781ce1ce0807e1d730ee6cd324f0f7e1f1e20a64",
+          "worksheets": [
+            "Fig.3_a_1",
+            "Fig.3_a_2",
+            "Fig.3_a_3",
+            "Fig.3_a_4",
+            "Fig.3_a_5",
+            "Fig.3_a_6",
+            "Fig.3_a_7",
+            "Fig.3_a_8",
+            "Fig.3_a_9",
+            "Fig.3_a_10",
+            "Fig.3_a_11",
+            "Fig.3_a_12",
+            "Fig.3_a_13",
+            "Fig.3_a_14",
+            "Fig.3_a_15",
+            "Fig.3_a_16",
+            "Fig.3_a_17",
+            "Fig.3_a_18",
+            "Fig.3_a_19",
+            "Fig.3_a_20",
+            "Fig.3_a_21",
+            "Fig.3_a_22",
+            "Fig.3_a_23",
+            "Fig.3_a_24",
+            "Fig.3_a_25",
+            "Fig.3_a_26",
+            "Fig.3_a_27",
+            "Fig.3_a_28",
+            "Fig.3_a_29",
+            "Fig.3_a_30",
+            "Fig.3_a_31",
+            "Fig.3_a_32",
+            "Fig.3_a_33",
+            "Fig.3_a_34",
+            "Fig.3_a_35",
+            "Fig.3_a_36",
+            "Fig.3_a_37",
+            "Fig.3_a_38",
+            "Fig.3_a_39",
+            "Fig.3_a_40",
+            "Fig.3_a_41",
+            "Fig.3_a_42",
+            "Fig.3_a_43",
+            "Fig.3_a_44",
+            "Fig.3_a_45",
+            "Fig.3_a_46",
+            "Fig.3_a_47",
+            "Fig.3_a_48",
+            "Fig.3_a_49",
+            "Fig.3_a_50",
+            "Fig.3_a_51",
+            "Fig.3_a_52",
+            "Fig.3_a_53",
+            "Fig.3_a_54",
+            "Fig.3_a_55",
+            "Fig.3_a_56",
+            "Fig.3_a_57",
+            "Fig.3_a_58",
+            "Fig.3_a_59",
+            "Fig.3_a_60",
+            "Fig.3_a_61",
+            "Fig.3_a_62",
+            "Fig.3_a_63",
+            "Fig.3_a_64",
+            "Fig.3_b_1",
+            "Fig.3_b_2",
+            "Fig.3_b_3",
+            "Fig.3_b_4",
+            "Fig.3_b_5",
+            "Fig.3_b_6",
+            "Fig.3_b_7",
+            "Fig.3_b_8",
+            "Fig.3_b_9",
+            "Fig.3_b_10",
+            "Fig.3_b_11",
+            "Fig.3_b_12",
+            "Fig.3_b_13",
+            "Fig.3_b_14",
+            "Fig.3_b_15",
+            "Fig.3_b_16",
+            "Fig.3_b_17",
+            "Fig.3_b_18",
+            "Fig.3_b_19",
+            "Fig.3_b_20",
+            "Fig.3_b_21",
+            "Fig.3_b_22",
+            "Fig.3_b_23",
+            "Fig.3_b_24",
+            "Fig.3_b_25",
+            "Fig.3_b_26",
+            "Fig.3_b_27",
+            "Fig.3_b_28",
+            "Fig.3_b_29",
+            "Fig.3_b_30",
+            "Fig.3_b_31",
+            "Fig.3_b_32",
+            "Fig.3_b_33",
+            "Fig.3_b_34",
+            "Fig.3_b_35",
+            "Fig.3_b_36",
+            "Fig.3_b_37",
+            "Fig.3_b_38",
+            "Fig.3_c_1",
+            "Fig.3_c_2",
+            "Fig.3_c_3",
+            "Fig.3_c_4",
+            "Fig.3_c_5",
+            "Fig.3_c_6",
+            "Fig.3_c_7",
+            "Fig.3_c_8",
+            "Fig.3_c_9",
+            "Fig.3_c_10",
+            "Fig.3_c_11",
+            "Fig.3_c_12",
+            "Fig.3_c_13",
+            "Fig.3_c_14",
+            "Fig.3_c_15",
+            "Fig.3_c_16",
+            "Fig.3_c_17",
+            "Fig.3_c_18",
+            "Fig.3_c_19",
+            "Fig.3_c_20",
+            "Fig.3_c_21",
+            "Fig.3_c_22",
+            "Fig.3_c_23",
+            "Fig.3_c_24",
+            "Fig.3_c_25",
+            "Fig.3_c_26",
+            "Fig.3_c_27",
+            "Fig.3_c_28",
+            "Fig.3_c_29",
+            "Fig.3_c_30",
+            "Fig.3_c_31",
+            "Fig.3_c_32",
+            "Fig.3_c_33",
+            "Fig.3_c_34",
+            "Fig.3_c_35",
+            "Fig.3_c_36",
+            "Fig.3_c_37",
+            "Fig.3_c_38",
+            "Fig.3_d",
+            "Fig3_e",
+            "Fig3_f"
+          ],
+          "description": "143 张表。a 有 64 张潜变量矩阵，b、c 各有 38 张电流矩阵（19 个频点 × 2 个分量）。其余三张给出 d 的拓扑、e 的透射曲线和 f 的带宽数据。"
+        }
+      },
+      "license": {
+        "name": "© 2025 The Author(s), under exclusive licence to Springer Nature Limited",
+        "status": "reference-only",
+        "note": "期刊标明作者版权并独家授权 Springer Nature Limited。图版作为论文参考留存，发表时复用或改编请查阅期刊的权限说明。",
+        "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z#rightslink"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "PNG",
+        "pixel_dimensions": [
+          2162,
+          2298
+        ],
+        "vector_shapes": false,
+        "editable_text": false,
+        "notes": [
+          "期刊发布的整幅 PNG。",
+          "另附作者提供的数值工作簿，可用于重新绘制对应子图。"
+        ]
+      },
+      "changes": [
+        "保留出版社独立原图，另制等比预览。",
+        "保留期刊所附的原始绘图工作簿。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 1346481,
+          "sha256": "4d49c168d540073dd5a8f11af45b1a4a6b14845420b2eb1fb4624d5ceab59852"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 928703,
+          "sha256": "cd49e2d1942355ded920459938c482614727b08c6ae4d53c67a2d81147c9aa94"
+        },
+        {
+          "path": "source-data.xlsx",
+          "bytes": 8839922,
+          "sha256": "e426c92783b2753933dd6824781ce1ce0807e1d730ee6cd324f0f7e1f1e20a64"
+        }
+      ],
+      "path": "multipanel/metaai-single-layer-current-and-spectrum",
+      "metadata_path": "multipanel/metaai-single-layer-current-and-spectrum/metadata.json",
+      "readme_path": "multipanel/metaai-single-layer-current-and-spectrum/README.md",
+      "primary_path": "multipanel/metaai-single-layer-current-and-spectrum/original.png",
+      "preview_path": "multipanel/metaai-single-layer-current-and-spectrum/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "metaai-tunable-metasurface-prototype",
+      "title": "MetaAI · 可调器件的两层结构、样品与透射测量",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "可调超表面",
+        "分层装配",
+        "样品照片",
+        "透射测量",
+        "分工况对照"
+      ],
+      "summary": "d 的两根引线把分层装配图连到可调层和生成层的样品照片。沿着组装后的器件读到 e，两种电容设置下都叠放了模拟与实测透射曲线。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Current-diffusion model for metasurface structure discoveries with spatial-frequency dynamics",
+        "venue": "Nature Machine Intelligence",
+        "year": 2026,
+        "published_online": "2025-12-31",
+        "volume": 8,
+        "pages": "59–69",
+        "presentation": "journal-article",
+        "article_type": "research",
+        "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z"
+      },
+      "curation": {
+        "figure_role": "装置、过程与测量",
+        "layout_family": "装置、过程与测量",
+        "panel_labels": "a–e",
+        "panel_count": 5,
+        "panel_layout": {
+          "summary": "a–c 解释两层的设计和组合响应，d 逐层指认样品，e 用同一频率轴对照模拟与实测。",
+          "panel_groups": 5
+        },
+        "reading_order": "从 d 的上层沿引线找到可调层实物，再从下层找到生成层实物。a 单看可调层，b 交代生成层的目标、预测与训练样本，c 展示两层组合后的透射响应。最后看 e，按图例将同一电容的模拟与实测曲线配成一对。a、c 标注 0.24 和 0.55 pF，e 标注 0.30 和 0.55 pF，后两组比较应以各自面板的图例为准。",
+        "why_selected": "d 的两根引线把分层装配图连到可调层和生成层的样品照片。沿着组装后的器件读到 e，两种电容设置下都叠放了模拟与实测透射曲线。"
+      },
+      "source": {
+        "authors": [
+          "Erji Li",
+          "Yusong Wang",
+          "Lei Jin",
+          "Zheng Zong",
+          "Enze Zhu",
+          "Bao Wang",
+          "Qian Wang",
+          "Zongyin Yang",
+          "Wen-Yan Yin",
+          "Zhun Wei"
+        ],
+        "doi": "10.1038/s42256-025-01162-z",
+        "figure_number": 4,
+        "figure_url": "https://www.nature.com/articles/s42256-025-01162-z/figures/4",
+        "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig4_HTML.png",
+        "original_sha256": "afbf58d1c051db0540d1ec31489907bc1e70f91ed353851fd2681087b4aca7be",
+        "original_bytes": 655582,
+        "checked_date": "2026-11-20",
+        "urls": [
+          "https://www.nature.com/articles/s42256-025-01162-z",
+          "https://www.nature.com/articles/s42256-025-01162-z/figures/4",
+          "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_Fig4_HTML.png",
+          "https://www.nature.com/articles/s42256-025-01162-z#rightslink",
+          "https://doi.org/10.5281/zenodo.16875307",
+          "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM5_ESM.xlsx"
+        ],
+        "source_data": {
+          "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-025-01162-z/MediaObjects/42256_2025_1162_MOESM5_ESM.xlsx",
+          "local_file": "source-data.xlsx",
+          "original_sha256": "37848c217bf53b98998f62169ecc51eeeb66d2b373e95cc9246fa2b101d94b65",
+          "worksheets": [
+            "Fig.4_a",
+            "Fig.4_b_1",
+            "Fig.4_b_2",
+            "Fig4_c",
+            "Fig4_e"
+          ],
+          "description": "5 张表。Fig4_c 保存两种设计电容的曲线，Fig4_e 的表头明确列出 0.30、0.55 pF 各自的模拟与实测透射。"
+        }
+      },
+      "license": {
+        "name": "© 2025 The Author(s), under exclusive licence to Springer Nature Limited",
+        "status": "reference-only",
+        "note": "期刊标明作者版权并独家授权 Springer Nature Limited。图版作为论文参考留存，发表时复用或改编请查阅期刊的权限说明。",
+        "evidence_url": "https://www.nature.com/articles/s42256-025-01162-z#rightslink"
+      },
+      "editability": {
+        "level": "raster-reference",
+        "native_format": "PNG",
+        "pixel_dimensions": [
+          2166,
+          1019
+        ],
+        "vector_shapes": false,
+        "editable_text": false,
+        "notes": [
+          "期刊发布的整幅 PNG。",
+          "另附作者提供的数值工作簿，可用于重新绘制对应子图。"
+        ]
+      },
+      "changes": [
+        "保留出版社独立原图，另制等比预览。",
+        "保留期刊所附的原始绘图工作簿。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 655582,
+          "sha256": "afbf58d1c051db0540d1ec31489907bc1e70f91ed353851fd2681087b4aca7be"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 386326,
+          "sha256": "ebcc7771d8ba673d7d8a34bd0580e6bb0de670149474fc73db7a29e8c5829a14"
+        },
+        {
+          "path": "source-data.xlsx",
+          "bytes": 70293,
+          "sha256": "37848c217bf53b98998f62169ecc51eeeb66d2b373e95cc9246fa2b101d94b65"
+        }
+      ],
+      "path": "multipanel/metaai-tunable-metasurface-prototype",
+      "metadata_path": "multipanel/metaai-tunable-metasurface-prototype/metadata.json",
+      "readme_path": "multipanel/metaai-tunable-metasurface-prototype/README.md",
+      "primary_path": "multipanel/metaai-tunable-metasurface-prototype/original.png",
+      "preview_path": "multipanel/metaai-tunable-metasurface-prototype/preview.png"
     },
     {
       "schema_version": 1,

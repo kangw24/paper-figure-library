@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "aml-clonal-lineage-and-sampling",
+  "title": "克隆演化 · 谱系树的末端接到五次采样",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "共用数据与坐标",
+    "克隆演化"
+  ],
+  "summary": "左侧分支接到下方气泡矩阵的一行，每列对应一次采样。上方同色面积带表示由离散观测推断的克隆比例随时间变化。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Clonal evolution of acute myeloid leukemia revealed by high-throughput single-cell genomics",
+    "venue": "Nature Communications",
+    "year": 2020,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41467-020-19119-8"
+  },
+  "curation": {
+    "layout_family": "共用数据与坐标",
+    "panel_labels": "原图无字母 · 谱系、采样与推断",
+    "panel_count": 3,
+    "reading_order": "从左下谱系树沿 FLT3-ITD 分支向右读。该行五次采样中，前三次的比例为零，第四、第五次分别为 14.5% 和 46.2%。沿列向上能定位治疗与采样时点，再看上方青色带怎样连接这些离散观测。",
+    "why_selected": "左侧分支接到下方气泡矩阵的一行，每列对应一次采样。上方同色面积带表示由离散观测推断的克隆比例随时间变化。"
+  },
+  "source": {
+    "figure_number": 7,
+    "authors": [
+      "Kiyomi Morita",
+      "Feng Wang",
+      "Katharina Jahn",
+      "et al."
+    ],
+    "doi": "10.1038/s41467-020-19119-8",
+    "urls": [
+      "https://www.nature.com/articles/s41467-020-19119-8/figures/7",
+      "https://www.nature.com/articles/s41467-020-19119-8",
+      "https://www.nature.com/articles/s41467-020-19119-8.pdf",
+      "https://www.nature.com/articles/s41467-020-19119-8#rightslink",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41467-020-19119-8.pdf",
+    "full_pdf_sha256": "fb5a32f189a662aedca8092cf2bf55025ebc88e53b82f850ddcbd7f15b8686aa",
+    "page_number": 13,
+    "crop_bbox_pt": [
+      43,
+      41,
+      552,
+      684
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://www.nature.com/articles/s41467-020-19119-8#rightslink",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "notes": [
+      "上下两部分可以单独选择。上方鱼形面积图包含位图元素，下方谱系树、气泡等保留矢量路径。部分文字在源 PDF 中为轮廓。"
+    ],
+    "level": "vector-and-raster",
+    "native_format": "cropped paper PDF",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_drawing_objects": 612,
+    "pdf_image_placements": 1,
+    "selectable_words": 0
+  },
+  "changes": [
+    "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 646674,
+      "sha256": "3711a8d8605c70e847914de947352f82e4a1c112a53f21c236b72058dffb4104"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 386735,
+      "sha256": "62efd53fb2d54b781e9995ad2c4eb3ee5a3be47d8dbdc15e5f6abe55ffc0ffb7"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "gw150914-strain-reconstruction-residuals",
+  "title": "GW150914 · 实测与模型相减得到下一行残差",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "共用数据与坐标",
+    "GW150914"
+  ],
+  "summary": "每个探测器占一列，记录、模型、残差与时频图沿同一时间轴展开。第三行的每个点都能回到前两行，核对同一时刻相减的两个值。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+    "venue": "Physical Review Letters",
+    "year": 2016,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1103/PhysRevLett.116.061102"
+  },
+  "curation": {
+    "layout_family": "共用数据与坐标",
+    "panel_labels": "原图无字母 · 两列各四行",
+    "panel_count": 8,
+    "reading_order": "左列为 Hanford，右列为 Livingston。沿一列从上往下，先读滤波后的实测应变，再看数值相对论波形与两种重建区间。第三行用实测减去数值相对论波形，最下行给出同一事件的时频表示。",
+    "why_selected": "每个探测器占一列，记录、模型、残差与时频图沿同一时间轴展开。第三行的每个点都能回到前两行，核对同一时刻相减的两个值。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "B. P. Abbott et al. (LIGO Scientific Collaboration and Virgo Collaboration)"
+    ],
+    "doi": "10.1103/PhysRevLett.116.061102",
+    "urls": [
+      "https://gwosc.org/events/GW150914/",
+      "https://doi.org/10.1103/PhysRevLett.116.061102",
+      "https://arxiv.org/pdf/1602.03837",
+      "https://creativecommons.org/licenses/by/3.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://arxiv.org/pdf/1602.03837",
+    "full_pdf_sha256": "e5e864c23d015b69be17e5b5d51b5b462d2829353a867513414b6728f54589c4",
+    "page_number": 2,
+    "crop_bbox_pt": [
+      51,
+      153,
+      559,
+      566
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 3.0",
+    "status": "source-license",
+    "note": "CC BY 3.0",
+    "evidence_url": "https://doi.org/10.1103/PhysRevLett.116.061102",
+    "url": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "editability": {
+    "notes": [
+      "三排波形、残差曲线、轴与标注保留矢量，底部的两张时频图含位图。"
+    ],
+    "level": "vector-and-raster",
+    "native_format": "cropped paper PDF",
+    "vector_shapes": true,
+    "editable_text": false,
+    "pdf_drawing_objects": 997,
+    "pdf_image_placements": 65,
+    "selectable_words": 0
+  },
+  "changes": [
+    "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 334689,
+      "sha256": "773674a50003cf988705fb9d4455c1552002d6affdadfbb48a22a54d3dd6ca21"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 540441,
+      "sha256": "adc2cbefae97c6a1b519b9bdea20370cca5531067fdf859ea53eb2e58c92ae84"
+    }
+  ]
+}

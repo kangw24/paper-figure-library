@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "hydrogel-motion-sensor-body-readouts",
+  "title": "水凝胶传感器 · 身体测点连到电压曲线",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "引线与局部展开",
+    "水凝胶传感器"
+  ],
+  "summary": "中央跑步者身上的四个贴片各有一条引线。循着膝部贴片读到 d，照片给出弯膝动作，曲线给出膝关节反复弯曲时的电压响应。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Room-temperature Autocatalytic Multifunctional Hydrogels for Triboelectric Nanogenerators and Self-powered Sensors",
+    "venue": "Chinese Journal of Polymer Science",
+    "year": 2026,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1007/s10118-026-3764-9"
+  },
+  "curation": {
+    "layout_family": "引线与局部展开",
+    "panel_labels": "a–g",
+    "panel_count": 7,
+    "reading_order": "先看中央人物身上的贴片。四条虚线分别指向手指、手腕、手肘和膝部的 a–d。每个小图把动作照片放在电压记录旁。底排 e–g 继续比较足部动作的不同电压记录。",
+    "why_selected": "中央跑步者身上的四个贴片各有一条引线。循着膝部贴片读到 d，照片给出弯膝动作，曲线给出膝关节反复弯曲时的电压响应。"
+  },
+  "source": {
+    "figure_number": 9,
+    "authors": [
+      "Xin-Yu Ye",
+      "Jie He",
+      "Zhao-Wen Yang",
+      "Tai-Hong Chen",
+      "Yin-Jie Peng"
+    ],
+    "doi": "10.1007/s10118-026-3764-9",
+    "urls": [
+      "https://www.cjps.org/rc-pub/front/front-article/download/164715991/lowqualitypdf/Room-temperature%20Autocatalytic%20Multifunctional%20Hydrogels%20for%20Triboelectric%20Nanogenerators%20and%20Self-powered%20Sensors.pdf#page=12",
+      "https://doi.org/10.1007/s10118-026-3764-9",
+      "https://www.cjps.org/rc-pub/front/front-article/download/164715991/lowqualitypdf/Room-temperature%20Autocatalytic%20Multifunctional%20Hydrogels%20for%20Triboelectric%20Nanogenerators%20and%20Self-powered%20Sensors.pdf"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.cjps.org/rc-pub/front/front-article/download/164715991/lowqualitypdf/Room-temperature%20Autocatalytic%20Multifunctional%20Hydrogels%20for%20Triboelectric%20Nanogenerators%20and%20Self-powered%20Sensors.pdf",
+    "full_pdf_sha256": "c5e914d2e4e5c4f1f1950015140d93f0a704d00fdacfeb8943bc7da0069ddf51",
+    "page_number": 12,
+    "crop_bbox_pt": [
+      68,
+      88,
+      546,
+      475
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "© Chinese Chemical Society",
+    "status": "reference-only",
+    "note": "原刊标注 © Chinese Chemical Society；未确认单独的开放复用许可。",
+    "evidence_url": "https://www.cjps.org/rc-pub/front/front-article/download/164715991/lowqualitypdf/Room-temperature%20Autocatalytic%20Multifunctional%20Hydrogels%20for%20Triboelectric%20Nanogenerators%20and%20Self-powered%20Sensors.pdf"
+  },
+  "editability": {
+    "notes": [
+      "完整 a–g。电压随时间变化的曲线、刻度、标签等保留为矢量路径或文字，跑步者与实拍素材为嵌入位图。"
+    ],
+    "level": "vector-and-raster",
+    "native_format": "cropped paper PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 139,
+    "pdf_image_placements": 16,
+    "selectable_words": 123
+  },
+  "changes": [
+    "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 806265,
+      "sha256": "b4e432250b10595e5ce068c6682e412b89f0fecde1d292b5210646d85cc52ca4"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 463282,
+      "sha256": "591e6fd2013cc7f6bb26a257e6101939bf12579d482aecb27ba70542f2c10649"
+    }
+  ]
+}

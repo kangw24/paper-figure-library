@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "kan-edge-spline-grid-extension",
+  "title": "KAN · 从网络的一条边展开样条函数",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "引线与局部展开",
+    "KAN"
+  ],
+  "summary": "小函数图直接画在边上。选中的一条边用虚线圈出，跨图引线把它接到右侧，展示同一函数在粗、细网格上的样条表示。",
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "publication": {
+    "title": "KAN: Kolmogorov-Arnold Networks",
+    "venue": "ICLR",
+    "year": 2025,
+    "presentation": "conference-paper",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/afaed89642ea100935e39d39a4da602c-Abstract-Conference.html"
+  },
+  "curation": {
+    "layout_family": "引线与局部展开",
+    "panel_labels": "原图无字母 · 网络与函数局部",
+    "panel_count": 2,
+    "reading_order": "沿左图从输入节点经过边上的函数走到输出。上层右侧一条边被圈出，右边的放大区域给出函数及两套网格上的基函数。原文图号为 2.2。",
+    "why_selected": "小函数图直接画在边上。选中的一条边用虚线圈出，跨图引线把它接到右侧，展示同一函数在粗、细网格上的样条表示。"
+  },
+  "source": {
+    "figure_number": "2.2",
+    "authors": [
+      "Ziming Liu",
+      "Yixuan Wang",
+      "Sachin Vaidya",
+      "Fabian Ruehle",
+      "James Halverson",
+      "Marin Soljačić",
+      "Thomas Y. Hou",
+      "Max Tegmark"
+    ],
+    "doi": "10.48550/arXiv.2404.19756",
+    "urls": [
+      "https://arxiv.org/pdf/2404.19756v5#page=4",
+      "https://arxiv.org/abs/2404.19756v5",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/hash/afaed89642ea100935e39d39a4da602c-Abstract-Conference.html",
+      "https://arxiv.org/src/2404.19756v5",
+      "https://arxiv.org/pdf/2404.19756v5",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "original_sha256": "6866b55201bec04880edd15b9e5b8f3d10174b47547108bd4faaed2fecef37fa",
+    "archive_url": "https://arxiv.org/src/2404.19756v5",
+    "archive_sha256": "05bc86699ce99fdb3d97e329524d6cc9bc0212c630a92023bf1fe8097098bdfb",
+    "archive_member": "figs/spline_notation.png",
+    "tex_evidence": "kan.tex:178–180",
+    "version": "arXiv:2404.19756v5 (2025-02-09)",
+    "article_pdf_url": "https://arxiv.org/pdf/2404.19756v5",
+    "article_pdf_sha256": "c04339e34ac3f4a8695a74c59e2a0a4f332cfdcb3831a12696d5192cec2ed713",
+    "article_pdf_page": 4,
+    "article_pdf_image_xref": 267,
+    "article_pdf_image_bbox_pt": [
+      127.8010025024414,
+      71.99966430664062,
+      484.1944274902344,
+      247.14398193359375
+    ]
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://arxiv.org/abs/2404.19756v5",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "notes": [
+      "作者 arXiv v5 的 TeX 源码直接引用 figs/spline_notation.png。保留投稿 PNG 原件（3386 × 1664 像素）；v5 论文第 4 页此图也由单幅位图构成。"
+    ],
+    "level": "raster-reference",
+    "native_format": "PNG",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pixel_dimensions": [
+      3386,
+      1664
+    ]
+  },
+  "changes": [
+    "从作者发布的 TeX 源包原样提取图片，等比生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.png",
+      "bytes": 905443,
+      "sha256": "6866b55201bec04880edd15b9e5b8f3d10174b47547108bd4faaed2fecef37fa"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 304264,
+      "sha256": "4bcd3a7d81f4a4f9f518ddd5a0e3b49f55a5ce7c04917728e317d8abe7fc5096"
+    }
+  ]
+}

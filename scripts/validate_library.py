@@ -17,6 +17,12 @@ REQUIRED = {"schema_version", "id", "title", "category", "kind", "tags", "format
 KINDS = {"template", "paper-example", "tutorial-example"}
 
 
+def valid_figure_number(value: object) -> bool:
+    if type(value) is int:
+        return value > 0
+    return isinstance(value, str) and re.fullmatch(r"[1-9]\d*(?:\.[1-9]\d*)+", value) is not None
+
+
 def validate(root: Path) -> tuple[list[str], dict[str, int]]:
     root = root.resolve()
     errors: list[str] = []
@@ -87,7 +93,7 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
                 if not layout.get("panel_labels") or not isinstance(layout.get("panel_count"), int) or layout["panel_count"] < 2:
                     error(metadata, "应记录原图面板编号和数量")
                 source = item.get("source", {})
-                if not isinstance(source.get("figure_number"), int) or source["figure_number"] < 1:
+                if not valid_figure_number(source.get("figure_number")):
                     error(metadata, "缺少原论文图号")
             if item.get("kind") not in KINDS:
                 error(metadata, "kind 不是支持的条目类型")
@@ -129,9 +135,10 @@ def validate(root: Path) -> tuple[list[str], dict[str, int]]:
                     error(metadata, "Oral 必须有官网或作者明确声明的依据链接")
                 if publication.get("evidence_url") not in source.get("urls", []):
                     error(metadata, "会议身份依据应列入 source.urls")
-                for name in ("page_number", "figure_number"):
-                    if not isinstance(source.get(name), int) or source[name] < 1:
-                        error(metadata, name + " 必须为正整数")
+                if type(source.get("page_number")) is not int or source["page_number"] < 1:
+                    error(metadata, "page_number 必须为正整数")
+                if not valid_figure_number(source.get("figure_number")):
+                    error(metadata, "figure_number 应为正整数或带章节的图号")
                 box = source.get("crop_bbox_pt")
                 if not isinstance(box, list) or len(box) != 4 or not all(isinstance(v, (int, float)) and math.isfinite(v) for v in box):
                     error(metadata, "论文摘图必须有四个有限坐标")

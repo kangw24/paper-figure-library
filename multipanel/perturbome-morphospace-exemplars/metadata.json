@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "perturbome-morphospace-exemplars",
+  "title": "细胞形态空间 · 从统计点找到显微图像",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "引线与局部展开",
+    "细胞形态空间"
+  ],
+  "summary": "c 将处理条件压缩到二维形态空间，跨面板虚线把代表点连到 d 的细胞图像。点云中的差异由此可以回到具体形态上辨认。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Mapping the perturbome network of cellular perturbations",
+    "venue": "Nature Communications",
+    "year": 2019,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41467-019-13058-9"
+  },
+  "curation": {
+    "layout_family": "引线与局部展开",
+    "panel_labels": "a–f",
+    "panel_count": 6,
+    "reading_order": "a、b 从样品、成像和特征提取读到每个处理条件的表征。再在 c 选一个代表点，顺虚线找到 d 的对应显微图，最后看 e、f 对形态相似性作出的定量比较。",
+    "why_selected": "c 将处理条件压缩到二维形态空间，跨面板虚线把代表点连到 d 的细胞图像。点云中的差异由此可以回到具体形态上辨认。"
+  },
+  "source": {
+    "figure_number": 3,
+    "authors": [
+      "Michael Caldera",
+      "Felix Müller",
+      "Isabel Kaltenbrunner",
+      "Marco P. Licciardello",
+      "Charles-Hugues Lardeau",
+      "Stefan Kubicek",
+      "Jörg Menche"
+    ],
+    "doi": "10.1038/s41467-019-13058-9",
+    "urls": [
+      "https://www.nature.com/articles/s41467-019-13058-9/figures/3",
+      "https://www.nature.com/articles/s41467-019-13058-9",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC6853941.1/PMC6853941.1.pdf",
+      "https://www.nature.com/articles/s41467-019-13058-9#rightslink",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6853941.1/PMC6853941.1.pdf",
+    "full_pdf_sha256": "3596c7c19c640e1f0f854297646431a8e69d08c95ebd438096d53632334324a7",
+    "page_number": 6,
+    "crop_bbox_pt": [
+      54,
+      50,
+      542,
+      569
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://www.nature.com/articles/s41467-019-13058-9#rightslink",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "notes": [
+      "完整 a–f。流程图中的线条、图注文字与部分统计图保留为矢量对象；显微照片与部分形态嵌入图合并为位图。"
+    ],
+    "level": "vector-and-raster",
+    "native_format": "cropped paper PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 153,
+    "pdf_image_placements": 5,
+    "selectable_words": 157
+  },
+  "changes": [
+    "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 1147878,
+      "sha256": "c18b78c63825e5b433677fe5d505917c74715d36466eace4101a99f4f1e5f6a8"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 918037,
+      "sha256": "87bc06ad29654bde5f7eb0906ea9a046ab5c94bcd8ca7ab6ae2410d3371105a6"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "european-power-exchange-chords",
+  "title": "欧洲电网 · 沿交换带读到地区总量和份额",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "共用数据与坐标",
+    "欧洲电网"
+  ],
+  "summary": "弦带连接一对电力交换地区，带宽表示电量。顺着端点读到同一地区的弧段，能在同一角位置读取 TWh 刻度和外层百分比。",
+  "formats": [
+    "jpg"
+  ],
+  "primary_file": "original.jpg",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe",
+    "venue": "Renewable Energy",
+    "year": 2019,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1016/j.renene.2019.02.077"
+  },
+  "curation": {
+    "layout_family": "共用数据与坐标",
+    "panel_labels": "原图无字母 · 三层同心视图",
+    "panel_count": 3,
+    "reading_order": "以 BRI（英国与爱尔兰）为例。先沿内圈色带追踪与哪些地区交换电力，再回到 BRI 的圆弧读 TWh 刻度。外围三道百分比条由内向外给出出口、进口及两者合计的份额。数据来自作者对 2050 年的情景模拟。",
+    "why_selected": "弦带连接一对电力交换地区，带宽表示电量。顺着端点读到同一地区的弧段，能在同一角位置读取 TWh 刻度和外层百分比。"
+  },
+  "source": {
+    "figure_number": 18,
+    "authors": [
+      "Michael Child",
+      "Claudia Kemfert",
+      "Dmitrii Bogdanov",
+      "Christian Breyer"
+    ],
+    "doi": "10.1016/j.renene.2019.02.077",
+    "urls": [
+      "https://www.sciencedirect.com/science/article/pii/S0960148119302319#fig18",
+      "https://doi.org/10.1016/j.renene.2019.02.077",
+      "https://ars.els-cdn.com/content/image/1-s2.0-S0960148119302319-gr18_lrg.jpg",
+      "https://www.econstor.eu/bitstream/10419/200100/1/Child_2019_Flexible-Electricity-Generation%20Full%20Text.pdf",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "original_sha256": "09ab1ed2458f83b54c3e9ca0b7841ae1ff90ca19806326ead514d0e3dcce88e3",
+    "original_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960148119302319-gr18_lrg.jpg",
+    "article_pdf_url": "https://www.econstor.eu/bitstream/10419/200100/1/Child_2019_Flexible-Electricity-Generation%20Full%20Text.pdf",
+    "article_pdf_sha256": "2e66549be9d57865deb75d878f82964f6499544700de927bd2d4e5d25215a9b3",
+    "article_pdf_page": 16
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://www.econstor.eu/bitstream/10419/200100/1/Child_2019_Flexible-Electricity-Generation%20Full%20Text.pdf",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "notes": [
+      "出版社独立高清 JPEG 原件，3158 × 3157 像素。核查机构库中正式论文副本第 16 页（含机构封页），该图在 PDF 中为单幅 1895 × 1895 位图。"
+    ],
+    "level": "raster-reference",
+    "native_format": "JPG",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pixel_dimensions": [
+      3158,
+      3157
+    ]
+  },
+  "changes": [
+    "保存出版社独立发布的整张原图，另生成 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.jpg",
+      "bytes": 1938639,
+      "sha256": "09ab1ed2458f83b54c3e9ca0b7841ae1ff90ca19806326ead514d0e3dcce88e3"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 1759230,
+      "sha256": "d4337f0c665eab59116f17c4cc14b8823d34209302d1b6bbabf4f8320000323b"
+    }
+  ]
+}

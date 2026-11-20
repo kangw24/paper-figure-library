@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "microchannel-flow-field-and-profiles",
+  "title": "收缩微通道 · 从二维速度场取剖面和导数",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "共用数据与坐标",
+    "收缩微通道"
+  ],
+  "summary": "a 把实验与仿真放进同一通道轮廓。d 从中心轴取出速度，e 再对轴向位置求导，将二维图中的加速与减速变成可读的曲线。",
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Viscous flow through microfabricated axisymmetric contraction/expansion geometries",
+    "venue": "Experiments in Fluids",
+    "year": 2020,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1007/s00348-020-03036-z"
+  },
+  "curation": {
+    "layout_family": "共用数据与坐标",
+    "panel_labels": "a–e",
+    "panel_count": 5,
+    "reading_order": "a 上半是实验、下半是模拟，各有单独的色标。b、c 比较入口或出口及喉部的径向速度剖面，d 沿中心轴画速度随位置的变化，e 给出轴向伸长应变率。从 d 峰顶附近往下看，e 在这里由正转负。",
+    "why_selected": "a 把实验与仿真放进同一通道轮廓。d 从中心轴取出速度，e 再对轴向位置求导，将二维图中的加速与减速变成可读的曲线。"
+  },
+  "source": {
+    "figure_number": 8,
+    "authors": [
+      "Francisco Pimenta",
+      "Kazumi Toda-Peters",
+      "Amy Q. Shen",
+      "Manuel A. Alves",
+      "Simon J. Haward"
+    ],
+    "doi": "10.1007/s00348-020-03036-z",
+    "urls": [
+      "https://link.springer.com/article/10.1007/s00348-020-03036-z/figures/8",
+      "https://doi.org/10.1007/s00348-020-03036-z",
+      "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00348-020-03036-z/MediaObjects/348_2020_3036_Fig8_HTML.png",
+      "https://link.springer.com/content/pdf/10.1007/s00348-020-03036-z.pdf",
+      "https://link.springer.com/article/10.1007/s00348-020-03036-z#rightslink",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "original_sha256": "ecd3273fc6f04956211dfed9eef4ea7c19a58eee37d191c066fc13385d143b22",
+    "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00348-020-03036-z/MediaObjects/348_2020_3036_Fig8_HTML.png",
+    "checked_pdf": {
+      "url": "https://link.springer.com/content/pdf/10.1007/s00348-020-03036-z.pdf",
+      "sha256": "5057285034f01a684787a95dd136505d9ddd877f0e3834021c5a406ac00b3fce",
+      "page": 11,
+      "figure_bbox_pt": [
+        74.31779479980469,
+        57.755828857421875,
+        520.957763671875,
+        514.475830078125
+      ],
+      "crop_coordinates": "top-left origin, PDF page points"
+    }
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0，第三方材料以各自的署名说明为准。",
+    "evidence_url": "https://link.springer.com/article/10.1007/s00348-020-03036-z#rightslink",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "notes": [
+      "1860 × 1902 像素的出版社 PNG。出版 PDF 中整幅图亦为一张位图。"
+    ],
+    "level": "raster-reference",
+    "native_format": "PNG",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pixel_dimensions": [
+      1860,
+      1902
+    ]
+  },
+  "changes": [
+    "保存出版社独立发布的整张原图，另生成 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.png",
+      "bytes": 1087010,
+      "sha256": "ecd3273fc6f04956211dfed9eef4ea7c19a58eee37d191c066fc13385d143b22"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 715314,
+      "sha256": "ac34104480c59d71ee2f92e8812168e42c22c665e683a625f5062bd59ca7ba10"
+    }
+  ]
+}

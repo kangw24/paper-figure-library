@@ -2,13 +2,13 @@
 
 个人 CS / AI 论文配图素材库，按用途分为 **Teaser、Architecture、大图、Element**。收集作者和已有素材库的源文件，用 Markdown 串联完整范例、方法结构与可复用部件。
 
-**76 个 teaser · 69 个 architecture · 392 个独立 element · 22 幅大图**。
+**76 个 teaser · 69 个 architecture · 392 个独立 element · 34 幅大图**。
 
 | 分类 | 用来找什么 | 入口 |
 |---|---|---|
 | **Teaser** | 问题动机、核心想法、能力展示、领域全景与演进 | [按表达目的浏览](teaser/README.md) |
 | **Architecture** | 整体流程、网络主干、训练框架和模块展开 | [按结构用途浏览](architecture/README.md) |
-| **大图 · Multipanel** | 一张正文图内怎样安排多个子图，贯穿实验、分析与结果 | [看多面板原图](multipanel/README.md) |
+| **大图 · Multipanel** | 一张正文图内怎样安排多个子图，贯穿实验、分析与结果 | [看多面板原图](multipanel/README.md) · [引线与局部展开](multipanel/README.md#cross-panel-links) · [共用数据与坐标](multipanel/README.md#linked-data) |
 | **Element** | 模块、张量、矩阵、运算、箭头和对象等独立 SVG | [按内容分类浏览](element/README.md) |
 
 根目录直接提供四个素材文件夹：

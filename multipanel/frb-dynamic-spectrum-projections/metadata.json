@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "frb-dynamic-spectrum-projections",
+  "title": "快速射电暴 · 时频图和两侧投影共用坐标",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "共用数据与坐标",
+    "快速射电暴"
+  ],
+  "summary": "每次暴发占一列。热图上方是沿频率平均的时间波形，彩条选中的时间窗又决定右侧频谱使用哪些数据。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "A link between repeating and non-repeating fast radio bursts through their energy distributions",
+    "venue": "Nature Astronomy",
+    "year": 2024,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1038/s41550-023-02153-z"
+  },
+  "curation": {
+    "layout_family": "共用数据与坐标",
+    "panel_labels": "a–l",
+    "panel_count": 12,
+    "reading_order": "以第一列为例，a 的横轴是时间，纵轴是频率。沿频率平均得到 e。再看 e 下方紫色短条，在这段时间内平均便得到 i。其余三列对另外三次暴发采用相同的读法。",
+    "why_selected": "每次暴发占一列。热图上方是沿频率平均的时间波形，彩条选中的时间窗又决定右侧频谱使用哪些数据。"
+  },
+  "source": {
+    "figure_number": 2,
+    "authors": [
+      "F. Kirsten et al."
+    ],
+    "doi": "10.1038/s41550-023-02153-z",
+    "urls": [
+      "https://www.nature.com/articles/s41550-023-02153-z/figures/2",
+      "https://doi.org/10.1038/s41550-023-02153-z",
+      "https://research.chalmers.se/publication/539316/file/539316_Fulltext.pdf",
+      "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41550-023-02153-z/MediaObjects/41550_2023_2153_Fig2_HTML.png",
+      "https://www.nature.com/articles/s41550-023-02153-z#rightslink",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://research.chalmers.se/publication/539316/file/539316_Fulltext.pdf",
+    "full_pdf_sha256": "93fb556602bebb858052d29c5975cbb4e897c9ed877140fd0e480bef63ce1093",
+    "page_number": 5,
+    "crop_bbox_pt": [
+      82.5,
+      49.2,
+      513.5,
+      182.8
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin",
+    "publisher_png_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41550-023-02153-z/MediaObjects/41550_2023_2153_Fig2_HTML.png",
+    "publisher_png_sha256": "755973cf7bc8f72db101c678246d616dbd3e724b7eed8a729bea0de216edc06b",
+    "printed_page": 340
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0，第三方材料以各自的署名说明为准。",
+    "evidence_url": "https://www.nature.com/articles/s41550-023-02153-z#rightslink",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "notes": [
+      "矢量与位图混合的论文图版。单图 PDF 保留原图版中的文字、曲线和坐标轴；动态频谱保留为位图。渲染层检出 151 个绘图对象和 4 个图像放置实例。"
+    ],
+    "level": "vector-and-raster",
+    "native_format": "cropped paper PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 151,
+    "pdf_image_placements": 4,
+    "selectable_words": 80
+  },
+  "changes": [
+    "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 437244,
+      "sha256": "9d57c967f3230cabbd32c80743aab454de48c82c088ba8ed4b10524b8d600b43"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 912661,
+      "sha256": "8917b66f2ee5b914753bc04896d303fef3b795c7701c58598d6403d5d6430e4b"
+    }
+  ]
+}

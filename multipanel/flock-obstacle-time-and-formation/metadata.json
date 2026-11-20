@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "flock-obstacle-time-and-formation",
+  "title": "集群避障 · 从误差发生的时刻追到队形",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "引线与局部展开",
+    "集群避障"
+  ],
+  "summary": "b 的两排时间曲线选出三个时刻，引线接到 a 的三列队形。对照同一时刻的两种队形，可以定位碰撞风险出现在哪里。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Optimal flock formation induced by agent heterogeneity",
+    "venue": "Nature Communications",
+    "year": 2025,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41467-025-64233-0"
+  },
+  "curation": {
+    "layout_family": "引线与局部展开",
+    "panel_labels": "a、b",
+    "panel_count": 2,
+    "reading_order": "先在 b 的时间轴上找标记，再顺着灰线向上看 a。三个时刻各有上下两种队形。最右一列的箭头指出其中一组在障碍物旁的碰撞风险，下方曲线给出这段过程的队形偏差与跟踪误差。",
+    "why_selected": "b 的两排时间曲线选出三个时刻，引线接到 a 的三列队形。对照同一时刻的两种队形，可以定位碰撞风险出现在哪里。"
+  },
+  "source": {
+    "figure_number": 7,
+    "authors": [
+      "Arthur N. Montanari",
+      "Ana Elisa D. Barioni",
+      "Chao Duan",
+      "Adilson E. Motter"
+    ],
+    "doi": "10.1038/s41467-025-64233-0",
+    "urls": [
+      "https://www.nature.com/articles/s41467-025-64233-0/figures/7",
+      "https://www.nature.com/articles/s41467-025-64233-0",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC12578833.1/PMC12578833.1.pdf",
+      "https://www.nature.com/articles/s41467-025-64233-0#rightslink",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12578833.1/PMC12578833.1.pdf",
+    "full_pdf_sha256": "6992609fa9cce3868bae4de94198ab810471aef1f62228d699bef312453dde10",
+    "page_number": 10,
+    "crop_bbox_pt": [
+      87,
+      45,
+      513,
+      505
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "status": "source-license",
+    "note": "CC BY-NC-ND 4.0",
+    "evidence_url": "https://www.nature.com/articles/s41467-025-64233-0#rightslink",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "editability": {
+    "notes": [
+      "完整 a、b 组。轨迹、队形、时间引线与坐标可在 PDF 中选择；窄色标为位图。"
+    ],
+    "level": "vector-and-raster",
+    "native_format": "cropped paper PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 1334,
+    "pdf_image_placements": 1,
+    "selectable_words": 54
+  },
+  "changes": [
+    "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 451835,
+      "sha256": "dfc36baa2e64b778a48e9dadb3741cfa0764b4ab592723aa028b0625bf397e24"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 292334,
+      "sha256": "35c128b59418cc6e3c1d495d3a75b68e9ca99db3afc8df042deb8e5edede1384"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "counts": {
     "teaser": 76,
     "architecture": 69,
-    "multipanel": 22,
+    "multipanel": 34,
     "element": 392,
     "mechanism": 17,
     "layout-template": 11
@@ -21599,6 +21599,108 @@
     },
     {
       "schema_version": 1,
+      "id": "aml-clonal-lineage-and-sampling",
+      "title": "克隆演化 · 谱系树的末端接到五次采样",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "共用数据与坐标",
+        "克隆演化"
+      ],
+      "summary": "左侧分支接到下方气泡矩阵的一行，每列对应一次采样。上方同色面积带表示由离散观测推断的克隆比例随时间变化。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Clonal evolution of acute myeloid leukemia revealed by high-throughput single-cell genomics",
+        "venue": "Nature Communications",
+        "year": 2020,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41467-020-19119-8"
+      },
+      "curation": {
+        "layout_family": "共用数据与坐标",
+        "panel_labels": "原图无字母 · 谱系、采样与推断",
+        "panel_count": 3,
+        "reading_order": "从左下谱系树沿 FLT3-ITD 分支向右读。该行五次采样中，前三次的比例为零，第四、第五次分别为 14.5% 和 46.2%。沿列向上能定位治疗与采样时点，再看上方青色带怎样连接这些离散观测。",
+        "why_selected": "左侧分支接到下方气泡矩阵的一行，每列对应一次采样。上方同色面积带表示由离散观测推断的克隆比例随时间变化。"
+      },
+      "source": {
+        "figure_number": 7,
+        "authors": [
+          "Kiyomi Morita",
+          "Feng Wang",
+          "Katharina Jahn",
+          "et al."
+        ],
+        "doi": "10.1038/s41467-020-19119-8",
+        "urls": [
+          "https://www.nature.com/articles/s41467-020-19119-8/figures/7",
+          "https://www.nature.com/articles/s41467-020-19119-8",
+          "https://www.nature.com/articles/s41467-020-19119-8.pdf",
+          "https://www.nature.com/articles/s41467-020-19119-8#rightslink",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41467-020-19119-8.pdf",
+        "full_pdf_sha256": "fb5a32f189a662aedca8092cf2bf55025ebc88e53b82f850ddcbd7f15b8686aa",
+        "page_number": 13,
+        "crop_bbox_pt": [
+          43,
+          41,
+          552,
+          684
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://www.nature.com/articles/s41467-020-19119-8#rightslink",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "notes": [
+          "上下两部分可以单独选择。上方鱼形面积图包含位图元素，下方谱系树、气泡等保留矢量路径。部分文字在源 PDF 中为轮廓。"
+        ],
+        "level": "vector-and-raster",
+        "native_format": "cropped paper PDF",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_drawing_objects": 612,
+        "pdf_image_placements": 1,
+        "selectable_words": 0
+      },
+      "changes": [
+        "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 646674,
+          "sha256": "3711a8d8605c70e847914de947352f82e4a1c112a53f21c236b72058dffb4104"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 386735,
+          "sha256": "62efd53fb2d54b781e9995ad2c4eb3ee5a3be47d8dbdc15e5f6abe55ffc0ffb7"
+        }
+      ],
+      "path": "multipanel/aml-clonal-lineage-and-sampling",
+      "metadata_path": "multipanel/aml-clonal-lineage-and-sampling/metadata.json",
+      "readme_path": "multipanel/aml-clonal-lineage-and-sampling/README.md",
+      "primary_path": "multipanel/aml-clonal-lineage-and-sampling/figure.pdf",
+      "preview_path": "multipanel/aml-clonal-lineage-and-sampling/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "brain-spine-rehabilitation-without-stimulation",
       "title": "从无刺激步行连拍到康复评估",
       "category": "multipanel",
@@ -22122,6 +22224,403 @@
     },
     {
       "schema_version": 1,
+      "id": "estimation-plot-aligned-difference",
+      "title": "估计图 · 左侧对照均值就是右侧差值零点",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "共用数据与坐标",
+        "估计图"
+      ],
+      "summary": "e 把右侧差值轴的零点放在左侧对照组均值的高度，处理组均值对应右侧的差值点。左右两边用同一段垂直距离表达组间差异。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Moving beyond P values: data analysis with estimation graphics",
+        "venue": "Nature Methods",
+        "year": 2019,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1038/s41592-019-0470-3"
+      },
+      "curation": {
+        "layout_family": "共用数据与坐标",
+        "panel_labels": "a–e",
+        "panel_count": 5,
+        "reading_order": "a–c 用柱、箱线和散点逐步展开同一份两组数据。d 加入零假设分布。e 保留原始观测，并让读者沿水平方向从对照均值读到右轴的零、从处理均值读到估计差值；右侧同时显示均值差的自助法分布与置信区间。",
+        "why_selected": "e 把右侧差值轴的零点放在左侧对照组均值的高度，处理组均值对应右侧的差值点。左右两边用同一段垂直距离表达组间差异。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Joses Ho",
+          "Tayfun Tumkaya",
+          "Sameer Aryal",
+          "Hyungwon Choi",
+          "Adam Claridge-Chang"
+        ],
+        "doi": "10.1038/s41592-019-0470-3",
+        "urls": [
+          "https://www.nature.com/articles/s41592-019-0470-3/figures/1",
+          "https://doi.org/10.1038/s41592-019-0470-3",
+          "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-019-0470-3/MediaObjects/41592_2019_470_Fig1_HTML.png",
+          "https://www.nature.com/articles/s41592-019-0470-3#rightslink"
+        ],
+        "checked_date": "2026-11-20",
+        "original_sha256": "d63bba964ccfb00ab6c4b85104ebd50db452a0a7c70f2b27cdf0a1f0d7722afb",
+        "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-019-0470-3/MediaObjects/41592_2019_470_Fig1_HTML.png"
+      },
+      "license": {
+        "name": "未核实独立开放许可",
+        "status": "reference-only",
+        "note": "出版社提供原图浏览；未核实可单独复用此图的开放许可。DABEST 的软件许可证仅适用于软件。",
+        "evidence_url": "https://www.nature.com/articles/s41592-019-0470-3#rightslink"
+      },
+      "editability": {
+        "notes": [
+          "1852 × 513 像素的出版社 PNG。未取得可核验的对应矢量原图。"
+        ],
+        "level": "raster-reference",
+        "native_format": "PNG",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pixel_dimensions": [
+          1852,
+          513
+        ]
+      },
+      "changes": [
+        "保存出版社独立发布的整张原图，另生成 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 59341,
+          "sha256": "d63bba964ccfb00ab6c4b85104ebd50db452a0a7c70f2b27cdf0a1f0d7722afb"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 103814,
+          "sha256": "9c3ad29bf6bac91ff5858fb91b18198531967298cf13c1a4e8f9d931e6a50b93"
+        }
+      ],
+      "path": "multipanel/estimation-plot-aligned-difference",
+      "metadata_path": "multipanel/estimation-plot-aligned-difference/metadata.json",
+      "readme_path": "multipanel/estimation-plot-aligned-difference/README.md",
+      "primary_path": "multipanel/estimation-plot-aligned-difference/original.png",
+      "preview_path": "multipanel/estimation-plot-aligned-difference/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "european-power-exchange-chords",
+      "title": "欧洲电网 · 沿交换带读到地区总量和份额",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "共用数据与坐标",
+        "欧洲电网"
+      ],
+      "summary": "弦带连接一对电力交换地区，带宽表示电量。顺着端点读到同一地区的弧段，能在同一角位置读取 TWh 刻度和外层百分比。",
+      "formats": [
+        "jpg"
+      ],
+      "primary_file": "original.jpg",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Flexible electricity generation, grid exchange and storage for the transition to a 100% renewable energy system in Europe",
+        "venue": "Renewable Energy",
+        "year": 2019,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1016/j.renene.2019.02.077"
+      },
+      "curation": {
+        "layout_family": "共用数据与坐标",
+        "panel_labels": "原图无字母 · 三层同心视图",
+        "panel_count": 3,
+        "reading_order": "以 BRI（英国与爱尔兰）为例。先沿内圈色带追踪与哪些地区交换电力，再回到 BRI 的圆弧读 TWh 刻度。外围三道百分比条由内向外给出出口、进口及两者合计的份额。数据来自作者对 2050 年的情景模拟。",
+        "why_selected": "弦带连接一对电力交换地区，带宽表示电量。顺着端点读到同一地区的弧段，能在同一角位置读取 TWh 刻度和外层百分比。"
+      },
+      "source": {
+        "figure_number": 18,
+        "authors": [
+          "Michael Child",
+          "Claudia Kemfert",
+          "Dmitrii Bogdanov",
+          "Christian Breyer"
+        ],
+        "doi": "10.1016/j.renene.2019.02.077",
+        "urls": [
+          "https://www.sciencedirect.com/science/article/pii/S0960148119302319#fig18",
+          "https://doi.org/10.1016/j.renene.2019.02.077",
+          "https://ars.els-cdn.com/content/image/1-s2.0-S0960148119302319-gr18_lrg.jpg",
+          "https://www.econstor.eu/bitstream/10419/200100/1/Child_2019_Flexible-Electricity-Generation%20Full%20Text.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "original_sha256": "09ab1ed2458f83b54c3e9ca0b7841ae1ff90ca19806326ead514d0e3dcce88e3",
+        "original_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0960148119302319-gr18_lrg.jpg",
+        "article_pdf_url": "https://www.econstor.eu/bitstream/10419/200100/1/Child_2019_Flexible-Electricity-Generation%20Full%20Text.pdf",
+        "article_pdf_sha256": "2e66549be9d57865deb75d878f82964f6499544700de927bd2d4e5d25215a9b3",
+        "article_pdf_page": 16
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://www.econstor.eu/bitstream/10419/200100/1/Child_2019_Flexible-Electricity-Generation%20Full%20Text.pdf",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "notes": [
+          "出版社独立高清 JPEG 原件，3158 × 3157 像素。核查机构库中正式论文副本第 16 页（含机构封页），该图在 PDF 中为单幅 1895 × 1895 位图。"
+        ],
+        "level": "raster-reference",
+        "native_format": "JPG",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pixel_dimensions": [
+          3158,
+          3157
+        ]
+      },
+      "changes": [
+        "保存出版社独立发布的整张原图，另生成 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.jpg",
+          "bytes": 1938639,
+          "sha256": "09ab1ed2458f83b54c3e9ca0b7841ae1ff90ca19806326ead514d0e3dcce88e3"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 1759230,
+          "sha256": "d4337f0c665eab59116f17c4cc14b8823d34209302d1b6bbabf4f8320000323b"
+        }
+      ],
+      "path": "multipanel/european-power-exchange-chords",
+      "metadata_path": "multipanel/european-power-exchange-chords/metadata.json",
+      "readme_path": "multipanel/european-power-exchange-chords/README.md",
+      "primary_path": "multipanel/european-power-exchange-chords/original.jpg",
+      "preview_path": "multipanel/european-power-exchange-chords/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "flock-obstacle-time-and-formation",
+      "title": "集群避障 · 从误差发生的时刻追到队形",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "引线与局部展开",
+        "集群避障"
+      ],
+      "summary": "b 的两排时间曲线选出三个时刻，引线接到 a 的三列队形。对照同一时刻的两种队形，可以定位碰撞风险出现在哪里。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Optimal flock formation induced by agent heterogeneity",
+        "venue": "Nature Communications",
+        "year": 2025,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41467-025-64233-0"
+      },
+      "curation": {
+        "layout_family": "引线与局部展开",
+        "panel_labels": "a、b",
+        "panel_count": 2,
+        "reading_order": "先在 b 的时间轴上找标记，再顺着灰线向上看 a。三个时刻各有上下两种队形。最右一列的箭头指出其中一组在障碍物旁的碰撞风险，下方曲线给出这段过程的队形偏差与跟踪误差。",
+        "why_selected": "b 的两排时间曲线选出三个时刻，引线接到 a 的三列队形。对照同一时刻的两种队形，可以定位碰撞风险出现在哪里。"
+      },
+      "source": {
+        "figure_number": 7,
+        "authors": [
+          "Arthur N. Montanari",
+          "Ana Elisa D. Barioni",
+          "Chao Duan",
+          "Adilson E. Motter"
+        ],
+        "doi": "10.1038/s41467-025-64233-0",
+        "urls": [
+          "https://www.nature.com/articles/s41467-025-64233-0/figures/7",
+          "https://www.nature.com/articles/s41467-025-64233-0",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC12578833.1/PMC12578833.1.pdf",
+          "https://www.nature.com/articles/s41467-025-64233-0#rightslink",
+          "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12578833.1/PMC12578833.1.pdf",
+        "full_pdf_sha256": "6992609fa9cce3868bae4de94198ab810471aef1f62228d699bef312453dde10",
+        "page_number": 10,
+        "crop_bbox_pt": [
+          87,
+          45,
+          513,
+          505
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY-NC-ND 4.0",
+        "status": "source-license",
+        "note": "CC BY-NC-ND 4.0",
+        "evidence_url": "https://www.nature.com/articles/s41467-025-64233-0#rightslink",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      "editability": {
+        "notes": [
+          "完整 a、b 组。轨迹、队形、时间引线与坐标可在 PDF 中选择；窄色标为位图。"
+        ],
+        "level": "vector-and-raster",
+        "native_format": "cropped paper PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 1334,
+        "pdf_image_placements": 1,
+        "selectable_words": 54
+      },
+      "changes": [
+        "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 451835,
+          "sha256": "dfc36baa2e64b778a48e9dadb3741cfa0764b4ab592723aa028b0625bf397e24"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 292334,
+          "sha256": "35c128b59418cc6e3c1d495d3a75b68e9ca99db3afc8df042deb8e5edede1384"
+        }
+      ],
+      "path": "multipanel/flock-obstacle-time-and-formation",
+      "metadata_path": "multipanel/flock-obstacle-time-and-formation/metadata.json",
+      "readme_path": "multipanel/flock-obstacle-time-and-formation/README.md",
+      "primary_path": "multipanel/flock-obstacle-time-and-formation/figure.pdf",
+      "preview_path": "multipanel/flock-obstacle-time-and-formation/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "frb-dynamic-spectrum-projections",
+      "title": "快速射电暴 · 时频图和两侧投影共用坐标",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "共用数据与坐标",
+        "快速射电暴"
+      ],
+      "summary": "每次暴发占一列。热图上方是沿频率平均的时间波形，彩条选中的时间窗又决定右侧频谱使用哪些数据。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "A link between repeating and non-repeating fast radio bursts through their energy distributions",
+        "venue": "Nature Astronomy",
+        "year": 2024,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1038/s41550-023-02153-z"
+      },
+      "curation": {
+        "layout_family": "共用数据与坐标",
+        "panel_labels": "a–l",
+        "panel_count": 12,
+        "reading_order": "以第一列为例，a 的横轴是时间，纵轴是频率。沿频率平均得到 e。再看 e 下方紫色短条，在这段时间内平均便得到 i。其余三列对另外三次暴发采用相同的读法。",
+        "why_selected": "每次暴发占一列。热图上方是沿频率平均的时间波形，彩条选中的时间窗又决定右侧频谱使用哪些数据。"
+      },
+      "source": {
+        "figure_number": 2,
+        "authors": [
+          "F. Kirsten et al."
+        ],
+        "doi": "10.1038/s41550-023-02153-z",
+        "urls": [
+          "https://www.nature.com/articles/s41550-023-02153-z/figures/2",
+          "https://doi.org/10.1038/s41550-023-02153-z",
+          "https://research.chalmers.se/publication/539316/file/539316_Fulltext.pdf",
+          "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41550-023-02153-z/MediaObjects/41550_2023_2153_Fig2_HTML.png",
+          "https://www.nature.com/articles/s41550-023-02153-z#rightslink",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://research.chalmers.se/publication/539316/file/539316_Fulltext.pdf",
+        "full_pdf_sha256": "93fb556602bebb858052d29c5975cbb4e897c9ed877140fd0e480bef63ce1093",
+        "page_number": 5,
+        "crop_bbox_pt": [
+          82.5,
+          49.2,
+          513.5,
+          182.8
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin",
+        "publisher_png_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41550-023-02153-z/MediaObjects/41550_2023_2153_Fig2_HTML.png",
+        "publisher_png_sha256": "755973cf7bc8f72db101c678246d616dbd3e724b7eed8a729bea0de216edc06b",
+        "printed_page": 340
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0，第三方材料以各自的署名说明为准。",
+        "evidence_url": "https://www.nature.com/articles/s41550-023-02153-z#rightslink",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "notes": [
+          "矢量与位图混合的论文图版。单图 PDF 保留原图版中的文字、曲线和坐标轴；动态频谱保留为位图。渲染层检出 151 个绘图对象和 4 个图像放置实例。"
+        ],
+        "level": "vector-and-raster",
+        "native_format": "cropped paper PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 151,
+        "pdf_image_placements": 4,
+        "selectable_words": 80
+      },
+      "changes": [
+        "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 437244,
+          "sha256": "9d57c967f3230cabbd32c80743aab454de48c82c088ba8ed4b10524b8d600b43"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 912661,
+          "sha256": "8917b66f2ee5b914753bc04896d303fef3b795c7701c58598d6403d5d6430e4b"
+        }
+      ],
+      "path": "multipanel/frb-dynamic-spectrum-projections",
+      "metadata_path": "multipanel/frb-dynamic-spectrum-projections/metadata.json",
+      "readme_path": "multipanel/frb-dynamic-spectrum-projections/README.md",
+      "primary_path": "multipanel/frb-dynamic-spectrum-projections/figure.pdf",
+      "preview_path": "multipanel/frb-dynamic-spectrum-projections/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "gnome-discovery-loop-and-validation",
       "title": "GNoME · 筛选闭环、发现规模与晶体实例",
       "category": "multipanel",
@@ -22334,6 +22833,120 @@
     },
     {
       "schema_version": 1,
+      "id": "graphene-respiration-monitor-screen",
+      "title": "呼吸监测 · 从实验台的屏幕读到实时波形",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "引线与局部展开",
+        "呼吸监测"
+      ],
+      "summary": "f 的笔记本屏幕被红框圈出，两条虚线接到 g 的显示界面。读者能在装置照片中找到信号来源，又能在旁边看清波形。",
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Multiscale and hierarchical wrinkle enhanced graphene/Ecoflex sensors integrated with human-machine interfaces and cloud-platform",
+        "venue": "npj Flexible Electronics",
+        "year": 2022,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41528-022-00189-1"
+      },
+      "curation": {
+        "layout_family": "引线与局部展开",
+        "panel_labels": "a–h",
+        "panel_count": 8,
+        "reading_order": "上部 a–d 给出动作传感曲线，e 交代信号怎样进入采集和显示系统。沿 f 中屏幕的两条红色引线读到 g 的波形；右边 h 再用三段记录比较不同呼吸状态。",
+        "why_selected": "f 的笔记本屏幕被红框圈出，两条虚线接到 g 的显示界面。读者能在装置照片中找到信号来源，又能在旁边看清波形。"
+      },
+      "source": {
+        "figure_number": 5,
+        "authors": [
+          "Jian Zhou",
+          "Xinxin Long",
+          "Jian Huang",
+          "Caixuan Jiang",
+          "Fengling Zhuo",
+          "Chen Guo",
+          "Honglang Li",
+          "YongQing Fu",
+          "Huigao Duan"
+        ],
+        "doi": "10.1038/s41528-022-00189-1",
+        "urls": [
+          "https://www.nature.com/articles/s41528-022-00189-1/figures/5",
+          "https://www.nature.com/articles/s41528-022-00189-1",
+          "https://www.nature.com/articles/s41528-022-00189-1.pdf",
+          "https://www.nature.com/articles/s41528-022-00189-1#rightslink",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.nature.com/articles/s41528-022-00189-1.pdf",
+        "full_pdf_sha256": "7bf25b2bdcb36251421d3a906fe8282eca9cf326c049b7d605e95249632c1b01",
+        "page_number": 8,
+        "crop_bbox_pt": [
+          52,
+          57,
+          554,
+          419
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://www.nature.com/articles/s41528-022-00189-1#rightslink",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "notes": [
+          "完整 a–h。实验照片等共用一幅位图；红框、跨屏引线、多条曲线和文字等保留为独立 PDF 对象。"
+        ],
+        "level": "vector-and-raster",
+        "native_format": "cropped paper PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 209,
+        "pdf_image_placements": 1,
+        "selectable_words": 163
+      },
+      "changes": [
+        "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。",
+        "另从单页 PDF 导出 SVG。文字转为轮廓，内嵌位图保留原样。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 339875,
+          "sha256": "0cb713ddfae0a3df0ced3ffbf99c5b95bbe1722267d51d28687ae74e27aecbb7"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 815990,
+          "sha256": "ed5c4312ffc0026ba7493c97fad60d6067c60b19d8e40c4f5b1fd2698974e35e"
+        },
+        {
+          "path": "figure.svg",
+          "bytes": 631079,
+          "sha256": "6e42f675beb3f96a25ada876be462480d3ba1d7320d4ed6375d56ab7be3c744c"
+        }
+      ],
+      "path": "multipanel/graphene-respiration-monitor-screen",
+      "metadata_path": "multipanel/graphene-respiration-monitor-screen/metadata.json",
+      "readme_path": "multipanel/graphene-respiration-monitor-screen/README.md",
+      "primary_path": "multipanel/graphene-respiration-monitor-screen/figure.pdf",
+      "preview_path": "multipanel/graphene-respiration-monitor-screen/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "grid-cell-toroidal-coordinates",
       "title": "把同一网格细胞放回物理空间和环面",
       "category": "multipanel",
@@ -22430,6 +23043,104 @@
       "readme_path": "multipanel/grid-cell-toroidal-coordinates/README.md",
       "primary_path": "multipanel/grid-cell-toroidal-coordinates/figure.pdf",
       "preview_path": "multipanel/grid-cell-toroidal-coordinates/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "gw150914-strain-reconstruction-residuals",
+      "title": "GW150914 · 实测与模型相减得到下一行残差",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "共用数据与坐标",
+        "GW150914"
+      ],
+      "summary": "每个探测器占一列，记录、模型、残差与时频图沿同一时间轴展开。第三行的每个点都能回到前两行，核对同一时刻相减的两个值。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+        "venue": "Physical Review Letters",
+        "year": 2016,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1103/PhysRevLett.116.061102"
+      },
+      "curation": {
+        "layout_family": "共用数据与坐标",
+        "panel_labels": "原图无字母 · 两列各四行",
+        "panel_count": 8,
+        "reading_order": "左列为 Hanford，右列为 Livingston。沿一列从上往下，先读滤波后的实测应变，再看数值相对论波形与两种重建区间。第三行用实测减去数值相对论波形，最下行给出同一事件的时频表示。",
+        "why_selected": "每个探测器占一列，记录、模型、残差与时频图沿同一时间轴展开。第三行的每个点都能回到前两行，核对同一时刻相减的两个值。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "B. P. Abbott et al. (LIGO Scientific Collaboration and Virgo Collaboration)"
+        ],
+        "doi": "10.1103/PhysRevLett.116.061102",
+        "urls": [
+          "https://gwosc.org/events/GW150914/",
+          "https://doi.org/10.1103/PhysRevLett.116.061102",
+          "https://arxiv.org/pdf/1602.03837",
+          "https://creativecommons.org/licenses/by/3.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://arxiv.org/pdf/1602.03837",
+        "full_pdf_sha256": "e5e864c23d015b69be17e5b5d51b5b462d2829353a867513414b6728f54589c4",
+        "page_number": 2,
+        "crop_bbox_pt": [
+          51,
+          153,
+          559,
+          566
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 3.0",
+        "status": "source-license",
+        "note": "CC BY 3.0",
+        "evidence_url": "https://doi.org/10.1103/PhysRevLett.116.061102",
+        "url": "https://creativecommons.org/licenses/by/3.0/"
+      },
+      "editability": {
+        "notes": [
+          "三排波形、残差曲线、轴与标注保留矢量，底部的两张时频图含位图。"
+        ],
+        "level": "vector-and-raster",
+        "native_format": "cropped paper PDF",
+        "vector_shapes": true,
+        "editable_text": false,
+        "pdf_drawing_objects": 997,
+        "pdf_image_placements": 65,
+        "selectable_words": 0
+      },
+      "changes": [
+        "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 334689,
+          "sha256": "773674a50003cf988705fb9d4455c1552002d6affdadfbb48a22a54d3dd6ca21"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 540441,
+          "sha256": "adc2cbefae97c6a1b519b9bdea20370cca5531067fdf859ea53eb2e58c92ae84"
+        }
+      ],
+      "path": "multipanel/gw150914-strain-reconstruction-residuals",
+      "metadata_path": "multipanel/gw150914-strain-reconstruction-residuals/metadata.json",
+      "readme_path": "multipanel/gw150914-strain-reconstruction-residuals/README.md",
+      "primary_path": "multipanel/gw150914-strain-reconstruction-residuals/figure.pdf",
+      "preview_path": "multipanel/gw150914-strain-reconstruction-residuals/preview.png"
     },
     {
       "schema_version": 1,
@@ -22531,6 +23242,106 @@
       "readme_path": "multipanel/hydrogel-cap-cooling-dynamics/README.md",
       "primary_path": "multipanel/hydrogel-cap-cooling-dynamics/figure.pdf",
       "preview_path": "multipanel/hydrogel-cap-cooling-dynamics/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "hydrogel-motion-sensor-body-readouts",
+      "title": "水凝胶传感器 · 身体测点连到电压曲线",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "引线与局部展开",
+        "水凝胶传感器"
+      ],
+      "summary": "中央跑步者身上的四个贴片各有一条引线。循着膝部贴片读到 d，照片给出弯膝动作，曲线给出膝关节反复弯曲时的电压响应。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Room-temperature Autocatalytic Multifunctional Hydrogels for Triboelectric Nanogenerators and Self-powered Sensors",
+        "venue": "Chinese Journal of Polymer Science",
+        "year": 2026,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1007/s10118-026-3764-9"
+      },
+      "curation": {
+        "layout_family": "引线与局部展开",
+        "panel_labels": "a–g",
+        "panel_count": 7,
+        "reading_order": "先看中央人物身上的贴片。四条虚线分别指向手指、手腕、手肘和膝部的 a–d。每个小图把动作照片放在电压记录旁。底排 e–g 继续比较足部动作的不同电压记录。",
+        "why_selected": "中央跑步者身上的四个贴片各有一条引线。循着膝部贴片读到 d，照片给出弯膝动作，曲线给出膝关节反复弯曲时的电压响应。"
+      },
+      "source": {
+        "figure_number": 9,
+        "authors": [
+          "Xin-Yu Ye",
+          "Jie He",
+          "Zhao-Wen Yang",
+          "Tai-Hong Chen",
+          "Yin-Jie Peng"
+        ],
+        "doi": "10.1007/s10118-026-3764-9",
+        "urls": [
+          "https://www.cjps.org/rc-pub/front/front-article/download/164715991/lowqualitypdf/Room-temperature%20Autocatalytic%20Multifunctional%20Hydrogels%20for%20Triboelectric%20Nanogenerators%20and%20Self-powered%20Sensors.pdf#page=12",
+          "https://doi.org/10.1007/s10118-026-3764-9",
+          "https://www.cjps.org/rc-pub/front/front-article/download/164715991/lowqualitypdf/Room-temperature%20Autocatalytic%20Multifunctional%20Hydrogels%20for%20Triboelectric%20Nanogenerators%20and%20Self-powered%20Sensors.pdf"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://www.cjps.org/rc-pub/front/front-article/download/164715991/lowqualitypdf/Room-temperature%20Autocatalytic%20Multifunctional%20Hydrogels%20for%20Triboelectric%20Nanogenerators%20and%20Self-powered%20Sensors.pdf",
+        "full_pdf_sha256": "c5e914d2e4e5c4f1f1950015140d93f0a704d00fdacfeb8943bc7da0069ddf51",
+        "page_number": 12,
+        "crop_bbox_pt": [
+          68,
+          88,
+          546,
+          475
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "© Chinese Chemical Society",
+        "status": "reference-only",
+        "note": "原刊标注 © Chinese Chemical Society；未确认单独的开放复用许可。",
+        "evidence_url": "https://www.cjps.org/rc-pub/front/front-article/download/164715991/lowqualitypdf/Room-temperature%20Autocatalytic%20Multifunctional%20Hydrogels%20for%20Triboelectric%20Nanogenerators%20and%20Self-powered%20Sensors.pdf"
+      },
+      "editability": {
+        "notes": [
+          "完整 a–g。电压随时间变化的曲线、刻度、标签等保留为矢量路径或文字，跑步者与实拍素材为嵌入位图。"
+        ],
+        "level": "vector-and-raster",
+        "native_format": "cropped paper PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 139,
+        "pdf_image_placements": 16,
+        "selectable_words": 123
+      },
+      "changes": [
+        "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 806265,
+          "sha256": "b4e432250b10595e5ce068c6682e412b89f0fecde1d292b5210646d85cc52ca4"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 463282,
+          "sha256": "591e6fd2013cc7f6bb26a257e6101939bf12579d482aecb27ba70542f2c10649"
+        }
+      ],
+      "path": "multipanel/hydrogel-motion-sensor-body-readouts",
+      "metadata_path": "multipanel/hydrogel-motion-sensor-body-readouts/metadata.json",
+      "readme_path": "multipanel/hydrogel-motion-sensor-body-readouts/README.md",
+      "primary_path": "multipanel/hydrogel-motion-sensor-body-readouts/figure.pdf",
+      "preview_path": "multipanel/hydrogel-motion-sensor-body-readouts/preview.png"
     },
     {
       "schema_version": 1,
@@ -22724,6 +23535,120 @@
       "readme_path": "multipanel/ibl-mouse-prior-cross-lab-replication/README.md",
       "primary_path": "multipanel/ibl-mouse-prior-cross-lab-replication/original.jpg",
       "preview_path": "multipanel/ibl-mouse-prior-cross-lab-replication/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "kan-edge-spline-grid-extension",
+      "title": "KAN · 从网络的一条边展开样条函数",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "引线与局部展开",
+        "KAN"
+      ],
+      "summary": "小函数图直接画在边上。选中的一条边用虚线圈出，跨图引线把它接到右侧，展示同一函数在粗、细网格上的样条表示。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "KAN: Kolmogorov-Arnold Networks",
+        "venue": "ICLR",
+        "year": 2025,
+        "presentation": "conference-paper",
+        "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/afaed89642ea100935e39d39a4da602c-Abstract-Conference.html"
+      },
+      "curation": {
+        "layout_family": "引线与局部展开",
+        "panel_labels": "原图无字母 · 网络与函数局部",
+        "panel_count": 2,
+        "reading_order": "沿左图从输入节点经过边上的函数走到输出。上层右侧一条边被圈出，右边的放大区域给出函数及两套网格上的基函数。原文图号为 2.2。",
+        "why_selected": "小函数图直接画在边上。选中的一条边用虚线圈出，跨图引线把它接到右侧，展示同一函数在粗、细网格上的样条表示。"
+      },
+      "source": {
+        "figure_number": "2.2",
+        "authors": [
+          "Ziming Liu",
+          "Yixuan Wang",
+          "Sachin Vaidya",
+          "Fabian Ruehle",
+          "James Halverson",
+          "Marin Soljačić",
+          "Thomas Y. Hou",
+          "Max Tegmark"
+        ],
+        "doi": "10.48550/arXiv.2404.19756",
+        "urls": [
+          "https://arxiv.org/pdf/2404.19756v5#page=4",
+          "https://arxiv.org/abs/2404.19756v5",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/afaed89642ea100935e39d39a4da602c-Abstract-Conference.html",
+          "https://arxiv.org/src/2404.19756v5",
+          "https://arxiv.org/pdf/2404.19756v5",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "original_sha256": "6866b55201bec04880edd15b9e5b8f3d10174b47547108bd4faaed2fecef37fa",
+        "archive_url": "https://arxiv.org/src/2404.19756v5",
+        "archive_sha256": "05bc86699ce99fdb3d97e329524d6cc9bc0212c630a92023bf1fe8097098bdfb",
+        "archive_member": "figs/spline_notation.png",
+        "tex_evidence": "kan.tex:178–180",
+        "version": "arXiv:2404.19756v5 (2025-02-09)",
+        "article_pdf_url": "https://arxiv.org/pdf/2404.19756v5",
+        "article_pdf_sha256": "c04339e34ac3f4a8695a74c59e2a0a4f332cfdcb3831a12696d5192cec2ed713",
+        "article_pdf_page": 4,
+        "article_pdf_image_xref": 267,
+        "article_pdf_image_bbox_pt": [
+          127.8010025024414,
+          71.99966430664062,
+          484.1944274902344,
+          247.14398193359375
+        ]
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://arxiv.org/abs/2404.19756v5",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "notes": [
+          "作者 arXiv v5 的 TeX 源码直接引用 figs/spline_notation.png。保留投稿 PNG 原件（3386 × 1664 像素）；v5 论文第 4 页此图也由单幅位图构成。"
+        ],
+        "level": "raster-reference",
+        "native_format": "PNG",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pixel_dimensions": [
+          3386,
+          1664
+        ]
+      },
+      "changes": [
+        "从作者发布的 TeX 源包原样提取图片，等比生成预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 905443,
+          "sha256": "6866b55201bec04880edd15b9e5b8f3d10174b47547108bd4faaed2fecef37fa"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 304264,
+          "sha256": "4bcd3a7d81f4a4f9f518ddd5a0e3b49f55a5ce7c04917728e317d8abe7fc5096"
+        }
+      ],
+      "path": "multipanel/kan-edge-spline-grid-extension",
+      "metadata_path": "multipanel/kan-edge-spline-grid-extension/metadata.json",
+      "readme_path": "multipanel/kan-edge-spline-grid-extension/README.md",
+      "primary_path": "multipanel/kan-edge-spline-grid-extension/original.png",
+      "preview_path": "multipanel/kan-edge-spline-grid-extension/preview.png"
     },
     {
       "schema_version": 1,
@@ -22981,6 +23906,115 @@
       "readme_path": "multipanel/mattergen-chemical-space-crystals/README.md",
       "primary_path": "multipanel/mattergen-chemical-space-crystals/figure.pdf",
       "preview_path": "multipanel/mattergen-chemical-space-crystals/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "microchannel-flow-field-and-profiles",
+      "title": "收缩微通道 · 从二维速度场取剖面和导数",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "共用数据与坐标",
+        "收缩微通道"
+      ],
+      "summary": "a 把实验与仿真放进同一通道轮廓。d 从中心轴取出速度，e 再对轴向位置求导，将二维图中的加速与减速变成可读的曲线。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Viscous flow through microfabricated axisymmetric contraction/expansion geometries",
+        "venue": "Experiments in Fluids",
+        "year": 2020,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1007/s00348-020-03036-z"
+      },
+      "curation": {
+        "layout_family": "共用数据与坐标",
+        "panel_labels": "a–e",
+        "panel_count": 5,
+        "reading_order": "a 上半是实验、下半是模拟，各有单独的色标。b、c 比较入口或出口及喉部的径向速度剖面，d 沿中心轴画速度随位置的变化，e 给出轴向伸长应变率。从 d 峰顶附近往下看，e 在这里由正转负。",
+        "why_selected": "a 把实验与仿真放进同一通道轮廓。d 从中心轴取出速度，e 再对轴向位置求导，将二维图中的加速与减速变成可读的曲线。"
+      },
+      "source": {
+        "figure_number": 8,
+        "authors": [
+          "Francisco Pimenta",
+          "Kazumi Toda-Peters",
+          "Amy Q. Shen",
+          "Manuel A. Alves",
+          "Simon J. Haward"
+        ],
+        "doi": "10.1007/s00348-020-03036-z",
+        "urls": [
+          "https://link.springer.com/article/10.1007/s00348-020-03036-z/figures/8",
+          "https://doi.org/10.1007/s00348-020-03036-z",
+          "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00348-020-03036-z/MediaObjects/348_2020_3036_Fig8_HTML.png",
+          "https://link.springer.com/content/pdf/10.1007/s00348-020-03036-z.pdf",
+          "https://link.springer.com/article/10.1007/s00348-020-03036-z#rightslink",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "original_sha256": "ecd3273fc6f04956211dfed9eef4ea7c19a58eee37d191c066fc13385d143b22",
+        "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00348-020-03036-z/MediaObjects/348_2020_3036_Fig8_HTML.png",
+        "checked_pdf": {
+          "url": "https://link.springer.com/content/pdf/10.1007/s00348-020-03036-z.pdf",
+          "sha256": "5057285034f01a684787a95dd136505d9ddd877f0e3834021c5a406ac00b3fce",
+          "page": 11,
+          "figure_bbox_pt": [
+            74.31779479980469,
+            57.755828857421875,
+            520.957763671875,
+            514.475830078125
+          ],
+          "crop_coordinates": "top-left origin, PDF page points"
+        }
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0，第三方材料以各自的署名说明为准。",
+        "evidence_url": "https://link.springer.com/article/10.1007/s00348-020-03036-z#rightslink",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "notes": [
+          "1860 × 1902 像素的出版社 PNG。出版 PDF 中整幅图亦为一张位图。"
+        ],
+        "level": "raster-reference",
+        "native_format": "PNG",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pixel_dimensions": [
+          1860,
+          1902
+        ]
+      },
+      "changes": [
+        "保存出版社独立发布的整张原图，另生成 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 1087010,
+          "sha256": "ecd3273fc6f04956211dfed9eef4ea7c19a58eee37d191c066fc13385d143b22"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 715314,
+          "sha256": "ac34104480c59d71ee2f92e8812168e42c22c665e683a625f5062bd59ca7ba10"
+        }
+      ],
+      "path": "multipanel/microchannel-flow-field-and-profiles",
+      "metadata_path": "multipanel/microchannel-flow-field-and-profiles/metadata.json",
+      "readme_path": "multipanel/microchannel-flow-field-and-profiles/README.md",
+      "primary_path": "multipanel/microchannel-flow-field-and-profiles/original.png",
+      "preview_path": "multipanel/microchannel-flow-field-and-profiles/preview.png"
     },
     {
       "schema_version": 1,
@@ -23657,6 +24691,111 @@
     },
     {
       "schema_version": 1,
+      "id": "perturbome-morphospace-exemplars",
+      "title": "细胞形态空间 · 从统计点找到显微图像",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "引线与局部展开",
+        "细胞形态空间"
+      ],
+      "summary": "c 将处理条件压缩到二维形态空间，跨面板虚线把代表点连到 d 的细胞图像。点云中的差异由此可以回到具体形态上辨认。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Mapping the perturbome network of cellular perturbations",
+        "venue": "Nature Communications",
+        "year": 2019,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41467-019-13058-9"
+      },
+      "curation": {
+        "layout_family": "引线与局部展开",
+        "panel_labels": "a–f",
+        "panel_count": 6,
+        "reading_order": "a、b 从样品、成像和特征提取读到每个处理条件的表征。再在 c 选一个代表点，顺虚线找到 d 的对应显微图，最后看 e、f 对形态相似性作出的定量比较。",
+        "why_selected": "c 将处理条件压缩到二维形态空间，跨面板虚线把代表点连到 d 的细胞图像。点云中的差异由此可以回到具体形态上辨认。"
+      },
+      "source": {
+        "figure_number": 3,
+        "authors": [
+          "Michael Caldera",
+          "Felix Müller",
+          "Isabel Kaltenbrunner",
+          "Marco P. Licciardello",
+          "Charles-Hugues Lardeau",
+          "Stefan Kubicek",
+          "Jörg Menche"
+        ],
+        "doi": "10.1038/s41467-019-13058-9",
+        "urls": [
+          "https://www.nature.com/articles/s41467-019-13058-9/figures/3",
+          "https://www.nature.com/articles/s41467-019-13058-9",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC6853941.1/PMC6853941.1.pdf",
+          "https://www.nature.com/articles/s41467-019-13058-9#rightslink",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6853941.1/PMC6853941.1.pdf",
+        "full_pdf_sha256": "3596c7c19c640e1f0f854297646431a8e69d08c95ebd438096d53632334324a7",
+        "page_number": 6,
+        "crop_bbox_pt": [
+          54,
+          50,
+          542,
+          569
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://www.nature.com/articles/s41467-019-13058-9#rightslink",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "notes": [
+          "完整 a–f。流程图中的线条、图注文字与部分统计图保留为矢量对象；显微照片与部分形态嵌入图合并为位图。"
+        ],
+        "level": "vector-and-raster",
+        "native_format": "cropped paper PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 153,
+        "pdf_image_placements": 5,
+        "selectable_words": 157
+      },
+      "changes": [
+        "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 1147878,
+          "sha256": "c18b78c63825e5b433677fe5d505917c74715d36466eace4101a99f4f1e5f6a8"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 918037,
+          "sha256": "87bc06ad29654bde5f7eb0906ea9a046ab5c94bcd8ca7ab6ae2410d3371105a6"
+        }
+      ],
+      "path": "multipanel/perturbome-morphospace-exemplars",
+      "metadata_path": "multipanel/perturbome-morphospace-exemplars/metadata.json",
+      "readme_path": "multipanel/perturbome-morphospace-exemplars/README.md",
+      "primary_path": "multipanel/perturbome-morphospace-exemplars/figure.pdf",
+      "preview_path": "multipanel/perturbome-morphospace-exemplars/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "plasmon-interference-photon-number",
       "title": "用上下两排一一配对干涉图样和光子数统计",
       "category": "multipanel",
@@ -23897,6 +25036,113 @@
       "readme_path": "multipanel/tcv-plasma-control-demonstrations/README.md",
       "primary_path": "multipanel/tcv-plasma-control-demonstrations/figure.pdf",
       "preview_path": "multipanel/tcv-plasma-control-demonstrations/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "upsetr-intersection-and-attributes",
+      "title": "UpSetR · 同一列连起集合组合、计数与属性",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "共用数据与坐标",
+        "UpSetR"
+      ],
+      "summary": "点阵的一列定义一个集合交集。沿列向上读其计数，再沿颜色去找下方对应的属性热图，可以一直追踪同一批变异。",
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "UpSetR: an R package for the visualization of intersecting sets and their properties",
+        "venue": "Bioinformatics",
+        "year": 2017,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1093/bioinformatics/btx364"
+      },
+      "curation": {
+        "layout_family": "共用数据与坐标",
+        "panel_labels": "原图无字母 · 按五个功能区阅读",
+        "panel_count": 5,
+        "reading_order": "先读左侧各研究的信息和集合大小。再找交集矩阵中连着两个绿点的列，行名为 LAML-KR 和 LUSC-KR。柱顶的 4,536 是仅出现于这两项研究的变异数；下方第三张灰阶热图用绿色标题标明这批变异的替换类型。",
+        "why_selected": "点阵的一列定义一个集合交集。沿列向上读其计数，再沿颜色去找下方对应的属性热图，可以一直追踪同一批变异。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Jake R. Conway",
+          "Alexander Lex",
+          "Nils Gehlenborg"
+        ],
+        "doi": "10.1093/bioinformatics/btx364",
+        "urls": [
+          "https://rcastoragev2.blob.core.windows.net/b174f12dcdda32768fa4ea0d9a675722/PMC5870712.pdf#page=2",
+          "https://doi.org/10.1093/bioinformatics/btx364",
+          "https://rcastoragev2.blob.core.windows.net/b174f12dcdda32768fa4ea0d9a675722/PMC5870712.pdf",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://rcastoragev2.blob.core.windows.net/b174f12dcdda32768fa4ea0d9a675722/PMC5870712.pdf",
+        "full_pdf_sha256": "b8fa11403ff3d6a5f8f505472b0c23df757d29de875f6a3d8ba78fc37e07b1a9",
+        "page_number": 2,
+        "crop_bbox_pt": [
+          62,
+          59,
+          550,
+          273
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://doi.org/10.1093/bioinformatics/btx364",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "notes": [
+          "柱、点阵、连线及热图方格保留为矢量路径。图中带有三小块位图色带。"
+        ],
+        "level": "vector-and-raster",
+        "native_format": "cropped paper PDF",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 697,
+        "pdf_image_placements": 3,
+        "selectable_words": 144
+      },
+      "changes": [
+        "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。",
+        "另从单页 PDF 导出 SVG。文字转为轮廓，内嵌位图保留原样。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 47974,
+          "sha256": "eb3e553354ce191395aeeef420b4320e2edfd16da5654458dcf519883223cfba"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 74003,
+          "sha256": "95d774a658338305323e14720c3b42a78bc3f2672a7c837e236cf63ef3f28de9"
+        },
+        {
+          "path": "figure.svg",
+          "bytes": 300581,
+          "sha256": "be3d087fe02bc21f4b727f5eb9d400879e77b45324848c507a482ae8711872fc"
+        }
+      ],
+      "path": "multipanel/upsetr-intersection-and-attributes",
+      "metadata_path": "multipanel/upsetr-intersection-and-attributes/metadata.json",
+      "readme_path": "multipanel/upsetr-intersection-and-attributes/README.md",
+      "primary_path": "multipanel/upsetr-intersection-and-attributes/figure.pdf",
+      "preview_path": "multipanel/upsetr-intersection-and-attributes/preview.png"
     },
     {
       "schema_version": 1,

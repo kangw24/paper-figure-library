@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "estimation-plot-aligned-difference",
+  "title": "估计图 · 左侧对照均值就是右侧差值零点",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "共用数据与坐标",
+    "估计图"
+  ],
+  "summary": "e 把右侧差值轴的零点放在左侧对照组均值的高度，处理组均值对应右侧的差值点。左右两边用同一段垂直距离表达组间差异。",
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Moving beyond P values: data analysis with estimation graphics",
+    "venue": "Nature Methods",
+    "year": 2019,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1038/s41592-019-0470-3"
+  },
+  "curation": {
+    "layout_family": "共用数据与坐标",
+    "panel_labels": "a–e",
+    "panel_count": 5,
+    "reading_order": "a–c 用柱、箱线和散点逐步展开同一份两组数据。d 加入零假设分布。e 保留原始观测，并让读者沿水平方向从对照均值读到右轴的零、从处理均值读到估计差值；右侧同时显示均值差的自助法分布与置信区间。",
+    "why_selected": "e 把右侧差值轴的零点放在左侧对照组均值的高度，处理组均值对应右侧的差值点。左右两边用同一段垂直距离表达组间差异。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Joses Ho",
+      "Tayfun Tumkaya",
+      "Sameer Aryal",
+      "Hyungwon Choi",
+      "Adam Claridge-Chang"
+    ],
+    "doi": "10.1038/s41592-019-0470-3",
+    "urls": [
+      "https://www.nature.com/articles/s41592-019-0470-3/figures/1",
+      "https://doi.org/10.1038/s41592-019-0470-3",
+      "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-019-0470-3/MediaObjects/41592_2019_470_Fig1_HTML.png",
+      "https://www.nature.com/articles/s41592-019-0470-3#rightslink"
+    ],
+    "checked_date": "2026-11-20",
+    "original_sha256": "d63bba964ccfb00ab6c4b85104ebd50db452a0a7c70f2b27cdf0a1f0d7722afb",
+    "original_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-019-0470-3/MediaObjects/41592_2019_470_Fig1_HTML.png"
+  },
+  "license": {
+    "name": "未核实独立开放许可",
+    "status": "reference-only",
+    "note": "出版社提供原图浏览；未核实可单独复用此图的开放许可。DABEST 的软件许可证仅适用于软件。",
+    "evidence_url": "https://www.nature.com/articles/s41592-019-0470-3#rightslink"
+  },
+  "editability": {
+    "notes": [
+      "1852 × 513 像素的出版社 PNG。未取得可核验的对应矢量原图。"
+    ],
+    "level": "raster-reference",
+    "native_format": "PNG",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pixel_dimensions": [
+      1852,
+      513
+    ]
+  },
+  "changes": [
+    "保存出版社独立发布的整张原图，另生成 PNG 预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.png",
+      "bytes": 59341,
+      "sha256": "d63bba964ccfb00ab6c4b85104ebd50db452a0a7c70f2b27cdf0a1f0d7722afb"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 103814,
+      "sha256": "9c3ad29bf6bac91ff5858fb91b18198531967298cf13c1a4e8f9d931e6a50b93"
+    }
+  ]
+}

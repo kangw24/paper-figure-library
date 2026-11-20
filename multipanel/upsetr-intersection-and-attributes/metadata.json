@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "id": "upsetr-intersection-and-attributes",
+  "title": "UpSetR · 同一列连起集合组合、计数与属性",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "共用数据与坐标",
+    "UpSetR"
+  ],
+  "summary": "点阵的一列定义一个集合交集。沿列向上读其计数，再沿颜色去找下方对应的属性热图，可以一直追踪同一批变异。",
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "UpSetR: an R package for the visualization of intersecting sets and their properties",
+    "venue": "Bioinformatics",
+    "year": 2017,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1093/bioinformatics/btx364"
+  },
+  "curation": {
+    "layout_family": "共用数据与坐标",
+    "panel_labels": "原图无字母 · 按五个功能区阅读",
+    "panel_count": 5,
+    "reading_order": "先读左侧各研究的信息和集合大小。再找交集矩阵中连着两个绿点的列，行名为 LAML-KR 和 LUSC-KR。柱顶的 4,536 是仅出现于这两项研究的变异数；下方第三张灰阶热图用绿色标题标明这批变异的替换类型。",
+    "why_selected": "点阵的一列定义一个集合交集。沿列向上读其计数，再沿颜色去找下方对应的属性热图，可以一直追踪同一批变异。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Jake R. Conway",
+      "Alexander Lex",
+      "Nils Gehlenborg"
+    ],
+    "doi": "10.1093/bioinformatics/btx364",
+    "urls": [
+      "https://rcastoragev2.blob.core.windows.net/b174f12dcdda32768fa4ea0d9a675722/PMC5870712.pdf#page=2",
+      "https://doi.org/10.1093/bioinformatics/btx364",
+      "https://rcastoragev2.blob.core.windows.net/b174f12dcdda32768fa4ea0d9a675722/PMC5870712.pdf",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://rcastoragev2.blob.core.windows.net/b174f12dcdda32768fa4ea0d9a675722/PMC5870712.pdf",
+    "full_pdf_sha256": "b8fa11403ff3d6a5f8f505472b0c23df757d29de875f6a3d8ba78fc37e07b1a9",
+    "page_number": 2,
+    "crop_bbox_pt": [
+      62,
+      59,
+      550,
+      273
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://doi.org/10.1093/bioinformatics/btx364",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "notes": [
+      "柱、点阵、连线及热图方格保留为矢量路径。图中带有三小块位图色带。"
+    ],
+    "level": "vector-and-raster",
+    "native_format": "cropped paper PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 697,
+    "pdf_image_placements": 3,
+    "selectable_words": 144
+  },
+  "changes": [
+    "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。",
+    "另从单页 PDF 导出 SVG。文字转为轮廓，内嵌位图保留原样。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 47974,
+      "sha256": "eb3e553354ce191395aeeef420b4320e2edfd16da5654458dcf519883223cfba"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 74003,
+      "sha256": "95d774a658338305323e14720c3b42a78bc3f2672a7c837e236cf63ef3f28de9"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 300581,
+      "sha256": "be3d087fe02bc21f4b727f5eb9d400879e77b45324848c507a482ae8711872fc"
+    }
+  ]
+}

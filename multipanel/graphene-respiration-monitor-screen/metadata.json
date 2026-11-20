@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "graphene-respiration-monitor-screen",
+  "title": "呼吸监测 · 从实验台的屏幕读到实时波形",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "引线与局部展开",
+    "呼吸监测"
+  ],
+  "summary": "f 的笔记本屏幕被红框圈出，两条虚线接到 g 的显示界面。读者能在装置照片中找到信号来源，又能在旁边看清波形。",
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Multiscale and hierarchical wrinkle enhanced graphene/Ecoflex sensors integrated with human-machine interfaces and cloud-platform",
+    "venue": "npj Flexible Electronics",
+    "year": 2022,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s41528-022-00189-1"
+  },
+  "curation": {
+    "layout_family": "引线与局部展开",
+    "panel_labels": "a–h",
+    "panel_count": 8,
+    "reading_order": "上部 a–d 给出动作传感曲线，e 交代信号怎样进入采集和显示系统。沿 f 中屏幕的两条红色引线读到 g 的波形；右边 h 再用三段记录比较不同呼吸状态。",
+    "why_selected": "f 的笔记本屏幕被红框圈出，两条虚线接到 g 的显示界面。读者能在装置照片中找到信号来源，又能在旁边看清波形。"
+  },
+  "source": {
+    "figure_number": 5,
+    "authors": [
+      "Jian Zhou",
+      "Xinxin Long",
+      "Jian Huang",
+      "Caixuan Jiang",
+      "Fengling Zhuo",
+      "Chen Guo",
+      "Honglang Li",
+      "YongQing Fu",
+      "Huigao Duan"
+    ],
+    "doi": "10.1038/s41528-022-00189-1",
+    "urls": [
+      "https://www.nature.com/articles/s41528-022-00189-1/figures/5",
+      "https://www.nature.com/articles/s41528-022-00189-1",
+      "https://www.nature.com/articles/s41528-022-00189-1.pdf",
+      "https://www.nature.com/articles/s41528-022-00189-1#rightslink",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://www.nature.com/articles/s41528-022-00189-1.pdf",
+    "full_pdf_sha256": "7bf25b2bdcb36251421d3a906fe8282eca9cf326c049b7d605e95249632c1b01",
+    "page_number": 8,
+    "crop_bbox_pt": [
+      52,
+      57,
+      554,
+      419
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://www.nature.com/articles/s41528-022-00189-1#rightslink",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "notes": [
+      "完整 a–h。实验照片等共用一幅位图；红框、跨屏引线、多条曲线和文字等保留为独立 PDF 对象。"
+    ],
+    "level": "vector-and-raster",
+    "native_format": "cropped paper PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 209,
+    "pdf_image_placements": 1,
+    "selectable_words": 163
+  },
+  "changes": [
+    "从来源 PDF 中裁出完整图版，保留原有面板顺序、文字、矢量线条和内嵌图像。等比渲染 PNG 预览。",
+    "另从单页 PDF 导出 SVG。文字转为轮廓，内嵌位图保留原样。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 339875,
+      "sha256": "0cb713ddfae0a3df0ced3ffbf99c5b95bbe1722267d51d28687ae74e27aecbb7"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 815990,
+      "sha256": "ed5c4312ffc0026ba7493c97fad60d6067c60b19d8e40c4f5b1fd2698974e35e"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 631079,
+      "sha256": "6e42f675beb3f96a25ada876be462480d3ba1d7320d4ed6375d56ab7be3c744c"
+    }
+  ]
+}

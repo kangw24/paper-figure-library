@@ -8,6 +8,8 @@ FAMILIES = {
     "同一对象的多种证据": "evidence",
     "从整体到局部": "scales",
     "多工况与方法对照": "comparisons",
+    "引线与局部展开": "cross-panel-links",
+    "共用数据与坐标": "linked-data",
 }
 FORMATS = {
     "vector": "矢量",

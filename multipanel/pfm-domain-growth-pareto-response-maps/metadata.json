@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "pfm-domain-growth-pareto-response-maps",
+  "title": "铁电畴生长 · 从前沿上的公式追到二维半径预测图",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "帕累托选模",
+    "铁电畴",
+    "符号回归",
+    "响应面",
+    "实测数据"
+  ],
+  "summary": "前沿图例直接写出每个彩色点的公式，下一排沿用点色给出选择分数，最下排用公式作小图标题，把候选式对应到电压、脉宽与畴半径的实测和预测。",
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "publication": {
+    "title": "LLM-Guided Open Hypothesis Learning from Autonomous Scanning Probe Microscopy Experiments",
+    "venue": "arXiv（预印本）",
+    "year": 2026,
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2605.06839v1"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "a–e（e 含两行共十幅预测图）",
+    "panel_count": 5,
+    "reading_order": "在迭代 0 的 a 中选最右侧橙点，复杂度为 9，图例写作 ReLU(0.0175V + 0.0175t − 0.0806)。c 同一橙点给出这一轮最高的 PySR 分数。e 上排最右小图把同一公式写在标题，横轴为脉冲时长、纵轴为电压，底色是预测有效半径，圆点是实验数据。也可在 b 中选迭代 9 的红点（复杂度 10），沿公式 V(0.0019t⁰·⁵ + 0.0049) 找到 e 下排第四幅，比较另一种生长规律的响应。",
+    "why_selected": "前沿图例直接写出每个彩色点的公式，下一排沿用点色给出选择分数，最下排用公式作小图标题，把候选式对应到电压、脉宽与畴半径的实测和预测。",
+    "model_trace": "a 橙色复杂度 9 的前沿点 → a 图例中的 ReLU 公式 → c 中同色的 PySR 分数 → e 上排最右、同公式为标题的二维输出及实测点。公式界定了模型结构，图中未另画表达式树。"
+  },
+  "source": {
+    "figure_number": 4,
+    "authors": [
+      "Boris Slautin",
+      "Utkarsh Pratiush",
+      "Yu Liu",
+      "Kamyar Barakati",
+      "Sergei Kalinin"
+    ],
+    "doi": "10.48550/arXiv.2605.06839",
+    "urls": [
+      "https://arxiv.org/pdf/2605.06839v1#page=11",
+      "https://arxiv.org/abs/2605.06839v1",
+      "https://arxiv.org/pdf/2605.06839v1",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "article_pdf_url": "https://arxiv.org/pdf/2605.06839v1",
+    "article_pdf_sha256": "fe4b760460f41200841e613870f861b61454a440f63295de984c306c90723a40",
+    "article_pdf_page": 11,
+    "article_pdf_image_xref": 62,
+    "article_pdf_image_bbox_pt": [
+      72.0,
+      71.99993896484375,
+      523.2999877929688,
+      608.449951171875
+    ],
+    "original_sha256": "c9600987e0cb82749be7ba6484eb2d9b49105eb7bf330e9a2c7bf697bb13de9d",
+    "extraction_method": "embedded image from author PDF",
+    "crop_coordinate_system": "PDF points, top-left origin on the source page"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://arxiv.org/abs/2605.06839v1",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "PNG",
+    "notes": [
+      "作者提交的 PDF 在第 11 页把完整 Fig. 4 嵌为单张 1379 × 1640 位图。这里无损取出为 PNG，保留全部五个面板和十张预测图。"
+    ],
+    "level": "raster-reference",
+    "pixel_dimensions": [
+      1379,
+      1640
+    ],
+    "vector_shapes": false,
+    "editable_text": false
+  },
+  "changes": [
+    "从论文 PDF 无损取出整张内嵌图像，等比生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.png",
+      "bytes": 1067079,
+      "sha256": "c9600987e0cb82749be7ba6484eb2d9b49105eb7bf330e9a2c7bf697bb13de9d"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 801615,
+      "sha256": "b83f752bd03c956f367159a0c6ff48ac47141ad7441a4cf92c2097570287af0e"
+    }
+  ]
+}

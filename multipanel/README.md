@@ -2,11 +2,11 @@
 
 [仓库首页](../README.md) · [总目录](../CATALOG.md) · [Teaser](../teaser/README.md) · [Architecture](../architecture/README.md) · [Element](../element/README.md)
 
-42 幅完整论文图，按面板之间的关系浏览。点击缩略图可查看高清图版、逐面板解读和出处。
+49 幅完整论文图，按面板之间的关系浏览。点击缩略图可查看高清图版、逐面板解读和出处。
 
-其中 30 幅 PDF 保留可编辑的矢量路径，12 幅保留为位图参考。
+其中 36 幅 PDF 保留可编辑的矢量路径，13 幅保留为位图参考。
 
-[装置、过程与测量（6）](#apparatus) · [同一对象的多种证据（4）](#evidence) · [从整体到局部（6）](#scales) · [多工况与方法对照（6）](#comparisons) · [引线与局部展开（5）](#cross-panel-links) · [共用数据与坐标（9）](#linked-data) · [从模型选择读到输出（2）](#model-to-output) · [同一输入的干预对照（2）](#paired-interventions) · [按事件对齐与汇总（2）](#event-alignment)
+[装置、过程与测量（6）](#apparatus) · [同一对象的多种证据（4）](#evidence) · [从整体到局部（6）](#scales) · [多工况与方法对照（6）](#comparisons) · [引线与局部展开（5）](#cross-panel-links) · [共用数据与坐标（9）](#linked-data) · [从模型选择读到输出（9）](#model-to-output) · [同一输入的干预对照（2）](#paired-interventions) · [按事件对齐与汇总（2）](#event-alignment)
 
 <a id="apparatus"></a>
 
@@ -75,7 +75,11 @@
 
 | | |
 |---|---|
-| <a href="fox-symbolic-regression-pareto-isotherms/README.md"><img src="fox-symbolic-regression-pareto-isotherms/preview.png" alt="符号回归 · 从帕累托拐点读到拟合曲线" width="340"></a><br>**[符号回归 · 从帕累托拐点读到拟合曲线](fox-symbolic-regression-pareto-isotherms/README.md)**<br>Machine Learning: Science and Technology 2024 · Fig. 5 · 四行 × 两列（图内无字母） · 位图参考<br>左列给出表达式复杂度与损失，右列把前沿上选出的表达式画回同一批氮吸附数据。图例中的复杂度编号把帕累托点、公式和预测曲线对应起来。 | <a href="sindy-lorenz-active-terms/README.md"><img src="sindy-lorenz-active-terms/preview.png" alt="SINDy · 从稀疏系数读回方程和轨迹" width="340"></a><br>**[SINDy · 从稀疏系数读回方程和轨迹](sindy-lorenz-active-terms/README.md)**<br>PNAS 2016 · Fig. 1 · I–III（含系数表和分项展开） · 矢量与位图混合<br>沿蓝色的 x 导数读下去，候选项只剩 x 和 y。右上表中对应的两个非零系数决定右侧方程，方程再生成右下的轨迹。 |
+| <a href="wgan-perception-distortion-digit-outputs/README.md"><img src="wgan-perception-distortion-digit-outputs/preview.png" alt="手写数字去噪 · 从权衡曲线上的 A–D 读到四组输出" width="340"></a><br>**[手写数字去噪 · 从权衡曲线上的 A–D 读到四组输出](wgan-perception-distortion-digit-outputs/README.md)**<br>CVPR 2018 · Fig. 6 · 权衡图与 A–D 四组去噪结果 · 矢量与位图混合<br>蓝色折线连接以不同损失权重训练的去噪器。A–D 同时标在模型点和下方数字图组上，沿一个字母就能看到该模型输出的笔画。 | <a href="lorenz-pareto-coefficients-and-trajectories/README.md"><img src="lorenz-pareto-coefficients-and-trajectories/preview.png" alt="Lorenz 系统 · 从帕累托选择读到系数与三条状态轨迹" width="340"></a><br>**[Lorenz 系统 · 从帕累托选择读到系数与三条状态轨迹](lorenz-pareto-coefficients-and-trajectories/README.md)**<br>IEEE Transactions on Pattern Analysis and Machine Intelligence 2022 · Fig. 6 · a–c · 矢量<br>a 标出三个候选解，c 用相同颜色画每个解在三个状态分量上的预测；b 补出沿前沿推进时保留下来的系数。黄色点在未见数据上的轨迹比青色拐点更贴近黑色参考。 |
+| <a href="fox-symbolic-regression-pareto-isotherms/README.md"><img src="fox-symbolic-regression-pareto-isotherms/preview.png" alt="符号回归 · 从帕累托拐点读到拟合曲线" width="340"></a><br>**[符号回归 · 从帕累托拐点读到拟合曲线](fox-symbolic-regression-pareto-isotherms/README.md)**<br>Machine Learning: Science and Technology 2024 · Fig. 5 · 四行 × 两列（图内无字母） · 位图参考<br>左列给出表达式复杂度与损失，右列把前沿上选出的表达式画回同一批氮吸附数据。图例中的复杂度编号把帕累托点、公式和预测曲线对应起来。 | <a href="multi-ion-pareto-committor/README.md"><img src="multi-ion-pareto-committor/preview.png" alt="离子配对 · 从前沿红叉追到解析式与采样验证" width="340"></a><br>**[离子配对 · 从前沿红叉追到解析式与采样验证](multi-ion-pareto-committor/README.md)**<br>Nature Computational Science 2023 · Fig. 2 · a–e · 矢量与位图混合<br>c 的红叉选定一个模型，d 把它写成显式函数，b 说明函数里的水分子几何量 x₇。e 将该模型对 LiCl、CsCl 的到达概率预测与独立轨迹采样并排核对。 |
+| <a href="nanoantennas-pareto-geometry-and-measured-spectra/README.md"><img src="nanoantennas-pareto-geometry-and-measured-spectra/preview.png" alt="硅纳米天线 · 从前沿上的编号追到几何、模拟谱与实测谱" width="340"></a><br>**[硅纳米天线 · 从前沿上的编号追到几何、模拟谱与实测谱](nanoantennas-pareto-geometry-and-measured-spectra/README.md)**<br>Nature Nanotechnology 2017 · Fig. 3 · a–f · 矢量与位图混合<br>同一套 1–40 的天线编号标在 b 的前沿、a 的几何与实物显微图，以及 c–f 四幅散射谱的纵轴上。选一个编号，就能读到该器件在两个偏振方向上的模拟和实测输出。 | <a href="sindy-lorenz-active-terms/README.md"><img src="sindy-lorenz-active-terms/preview.png" alt="SINDy · 从稀疏系数读回方程和轨迹" width="340"></a><br>**[SINDy · 从稀疏系数读回方程和轨迹](sindy-lorenz-active-terms/README.md)**<br>PNAS 2016 · Fig. 1 · I–III（含系数表和分项展开） · 矢量与位图混合<br>沿蓝色的 x 导数读下去，候选项只剩 x 和 y。右上表中对应的两个非零系数决定右侧方程，方程再生成右下的轨迹。 |
+| <a href="feml-conductivity-pareto-inset/README.md"><img src="feml-conductivity-pareto-inset/preview.png" alt="FEML 热导率 · 从复杂度 5 的拐点读到温度区间外的预测" width="340"></a><br>**[FEML 热导率 · 从复杂度 5 的拐点读到温度区间外的预测](feml-conductivity-pareto-inset/README.md)**<br>Scientific Reports 2026 · Fig. 18 · 主图与右上插图（无字母编号） · 矢量<br>插图用蓝色三角锁定复杂度 5 的候选式。主图把它求值成橙色虚线，并与有限元学习得到的蓝线和真值点线一起延伸到拟合温度区间之外。 | <a href="metamaterial-pareto-unit-cell-frequency-response/README.md"><img src="metamaterial-pareto-unit-cell-frequency-response/preview.png" alt="声学超材料 · 同一编号串起前沿点、单胞几何与带隙" width="340"></a><br>**[声学超材料 · 同一编号串起前沿点、单胞几何与带隙](metamaterial-pareto-unit-cell-frequency-response/README.md)**<br>Structures 2025 · Fig. 10 · a、b（b 含三组单胞与频响） · 矢量与位图混合<br>a 选出前沿上的三个具名设计。b 在同一张频率图中放入对应的单胞几何、有效质量密度曲线和带隙。颜色、编号和线型共同维系三者的对应关系。 |
+| <a href="pfm-domain-growth-pareto-response-maps/README.md"><img src="pfm-domain-growth-pareto-response-maps/preview.png" alt="铁电畴生长 · 从前沿上的公式追到二维半径预测图" width="340"></a><br>**[铁电畴生长 · 从前沿上的公式追到二维半径预测图](pfm-domain-growth-pareto-response-maps/README.md)**<br>arXiv（预印本） 2026 · Fig. 4 · a–e（e 含两行共十幅预测图） · 位图参考<br>前沿图例直接写出每个彩色点的公式，下一排沿用点色给出选择分数，最下排用公式作小图标题，把候选式对应到电压、脉宽与畴半径的实测和预测。 |  |
 
 <a id="paired-interventions"></a>
 

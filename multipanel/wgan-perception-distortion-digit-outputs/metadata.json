@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "wgan-perception-distortion-digit-outputs",
+  "title": "手写数字去噪 · 从权衡曲线上的 A–D 读到四组输出",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "模型选择",
+    "感知–失真权衡",
+    "输出样本",
+    "图像去噪"
+  ],
+  "summary": "蓝色折线连接以不同损失权重训练的去噪器。A–D 同时标在模型点和下方数字图组上，沿一个字母就能看到该模型输出的笔画。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "The Perception-Distortion Tradeoff",
+    "venue": "CVPR",
+    "year": 2018,
+    "presentation": "oral",
+    "evidence_url": "https://arxiv.org/abs/1711.06077"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "权衡图与 A–D 四组去噪结果",
+    "panel_count": 5,
+    "reading_order": "上方横轴为像素 RMSE，纵轴为输出与真实数字分布之间的距离。沿蓝线选 D，再看下方 D 组的数字；并排看 A、D 两组，D 的笔画更清楚，像素误差也更大。图注给出生成器损失 ℓ_MSE + λℓ_adv，作者通过改变 λ 得到各工作点。黑虚线表示理论界限，蓝线连接实际训练得到的去噪器。共有的网络层配置列在补充表 S1。",
+    "why_selected": "蓝色折线连接以不同损失权重训练的去噪器。A–D 同时标在模型点和下方数字图组上，沿一个字母就能看到该模型输出的笔画。",
+    "model_trace": "蓝线上的 D → 该训练配置共用的生成器和加权损失 → 下方 D 组实际去噪图像。字母标识具体模型；逐点的损失权重数值没有标在原图中。"
+  },
+  "source": {
+    "figure_number": 6,
+    "authors": [
+      "Yochai Blau",
+      "Tomer Michaeli"
+    ],
+    "doi": "10.1109/CVPR.2018.00652",
+    "urls": [
+      "https://openaccess.thecvf.com/content_cvpr_2018/papers/Blau_The_Perception-Distortion_Tradeoff_CVPR_2018_paper.pdf#page=6",
+      "https://openaccess.thecvf.com/content_cvpr_2018/html/Blau_The_Perception-Distortion_Tradeoff_CVPR_2018_paper.html",
+      "https://arxiv.org/src/1711.06077v2",
+      "https://arxiv.org/abs/1711.06077v2",
+      "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "https://openaccess.thecvf.com/content_cvpr_2018/Supplemental/2765-supp.pdf",
+      "https://arxiv.org/abs/1711.06077"
+    ],
+    "checked_date": "2026-11-20",
+    "tex_evidence": "tradeOff.tex:53",
+    "version": "arXiv:1711.06077v2",
+    "article_pdf_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Blau_The_Perception-Distortion_Tradeoff_CVPR_2018_paper.pdf",
+    "article_pdf_sha256": "db120c6c9a750ccc1e33f8e435493c6e2dcb6257b53814298a197c23872a318e",
+    "article_pdf_page": 6,
+    "archive_url": "https://arxiv.org/src/1711.06077v2",
+    "archive_sha256": "27f8110b0fcc861194a4322fc7563342b725135f7c6f92a83c19c22d510ab870",
+    "archive_member": "figures/WGAN.pdf",
+    "original_sha256": "273ad33ed08ca94a9b6e41cbcfe92f611df1b519cf646561c57c63faec7fd557"
+  },
+  "license": {
+    "name": "arXiv 非独占传播许可，图版另行授权未核实",
+    "status": "reference-only",
+    "note": "arXiv 非独占传播许可，未核实图版的独立开放复用许可。",
+    "evidence_url": "https://arxiv.org/abs/1711.06077v2"
+  },
+  "editability": {
+    "native_format": "author-supplied PDF",
+    "notes": [
+      "作者 TeX 源包中直接引用的独立 PDF。曲线、圆点和坐标保留矢量，四组手写数字为内嵌图像。"
+    ],
+    "level": "vector-and-raster",
+    "pdf_drawing_objects": 73,
+    "pdf_image_placements": 4,
+    "selectable_words": 15,
+    "vector_shapes": true,
+    "editable_text": true
+  },
+  "changes": [
+    "从作者 TeX 源包原样提取 figures/WGAN.pdf，等比渲染预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.pdf",
+      "bytes": 179654,
+      "sha256": "273ad33ed08ca94a9b6e41cbcfe92f611df1b519cf646561c57c63faec7fd557"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 345034,
+      "sha256": "1dcb8c46727231bfa7518086b7041d811914739a8e7ec7a87d57ec9cc0ab95c4"
+    }
+  ]
+}

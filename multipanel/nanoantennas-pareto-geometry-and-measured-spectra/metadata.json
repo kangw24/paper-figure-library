@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "nanoantennas-pareto-geometry-and-measured-spectra",
+  "title": "硅纳米天线 · 从前沿上的编号追到几何、模拟谱与实测谱",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "帕累托前沿",
+    "天线几何",
+    "散射谱",
+    "实验与仿真",
+    "器件编号"
+  ],
+  "summary": "同一套 1–40 的天线编号标在 b 的前沿、a 的几何与实物显微图，以及 c–f 四幅散射谱的纵轴上。选一个编号，就能读到该器件在两个偏振方向上的模拟和实测输出。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Evolutionary multi-objective optimization of colour pixels based on dielectric nanoantennas",
+    "venue": "Nature Nanotechnology",
+    "year": 2017,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1038/nnano.2016.224"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "a–f",
+    "panel_count": 6,
+    "reading_order": "在 b 的绿色前沿找到左上端的 (1)，此处 Y 偏振下的目标散射效率较高。回到 a 的 1 号格，彩色图标给出子块排布，正下方是制成器件的 SEM 图。再沿 c–f 接近底边的第 1 行横向读波长，左列是 X 偏振，右列是 Y 偏振，上排为模拟，下排为实验。在 630 nm 附近，比较 d 与 f 就能检查前沿点对应的 Y 偏振目标在实物上的表现。编号也允许对前沿中间的 (20) 重复这一路径。",
+    "why_selected": "同一套 1–40 的天线编号标在 b 的前沿、a 的几何与实物显微图，以及 c–f 四幅散射谱的纵轴上。选一个编号，就能读到该器件在两个偏振方向上的模拟和实测输出。",
+    "model_trace": "b 的 (1) → a 同编号设计和 SEM → c/d 编号 1 的 X/Y 偏振计算散射谱 → e/f 的同一器件实测散射谱。谱线以热图行呈现，前沿用 630 nm 的计算散射效率构建，实测谱使用任意单位。原图给出光谱响应，不含显式解析函数。"
+  },
+  "source": {
+    "figure_number": 3,
+    "authors": [
+      "Peter R. Wiecha",
+      "Arnaud Arbouet",
+      "Christian Girard",
+      "Aurélie Lecestre",
+      "Guilhem Larrieu",
+      "Vincent Paillard"
+    ],
+    "doi": "10.1038/nnano.2016.224",
+    "urls": [
+      "https://www.nature.com/articles/nnano.2016.224/figures/3",
+      "https://doi.org/10.1038/nnano.2016.224",
+      "https://arxiv.org/src/1609.06709v2",
+      "https://arxiv.org/abs/1609.06709v2",
+      "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "https://www.nature.com/articles/nnano.2016.224/figures/4"
+    ],
+    "checked_date": "2026-11-20",
+    "tex_evidence": "2016_EMO-GDM_double_resonant.tex:223",
+    "version": "arXiv:1609.06709v2",
+    "archive_url": "https://arxiv.org/src/1609.06709v2",
+    "archive_sha256": "bd23df466bd0992dd75e2358745646adae737a6d13d9895d29ac0d01e954dd50",
+    "archive_member": "figure03.pdf",
+    "original_sha256": "18803a9d6bf1e848bc1ccc1ddb9efb5104d5d7c8e828024f78c28795ec1d4100"
+  },
+  "license": {
+    "name": "arXiv 非独占传播许可，图版另行授权未核实",
+    "status": "reference-only",
+    "note": "arXiv 非独占传播许可；未核实图版的独立开放复用许可。",
+    "evidence_url": "https://arxiv.org/abs/1609.06709v2"
+  },
+  "editability": {
+    "native_format": "author-supplied PDF",
+    "notes": [
+      "作者 TeX 源包直接收录的完整独立 PDF。前沿和轴标保留矢量，SEM 显微照片等保留为位图。"
+    ],
+    "level": "vector-and-raster",
+    "pdf_drawing_objects": 8331,
+    "pdf_image_placements": 70,
+    "selectable_words": 122,
+    "vector_shapes": true,
+    "editable_text": true
+  },
+  "changes": [
+    "从作者 TeX 源包原样提取 figure03.pdf，等比渲染预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.pdf",
+      "bytes": 217277,
+      "sha256": "18803a9d6bf1e848bc1ccc1ddb9efb5104d5d7c8e828024f78c28795ec1d4100"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 475215,
+      "sha256": "0b8f03a7e1057fb5df7a7a43f9a82156dfd9865e1bf730bb7f577b00391835ce"
+    }
+  ]
+}

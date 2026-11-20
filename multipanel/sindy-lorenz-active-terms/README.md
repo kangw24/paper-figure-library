@@ -17,3 +17,5 @@ I 给出作为参照的 Lorenz 方程及其轨迹。选蓝色导数列，沿 II 
 作者在预印本 v1 中使用的独立 PDF。矩阵线条、系数表和部分文字可分别选择，图中也有内嵌图像。 原件位于作者源包的 `FIG00_BIG4.pdf`。
 
 作者源包采用 arXiv 非独占传播许可，单图另行复用的许可未核实。 [原图出处](https://doi.org/10.1073/pnas.1517384113) · [作者源包](https://arxiv.org/src/1509.03580v1) · [许可](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)
+
+[同一 Lorenz 系统的模型选择图](../lorenz-pareto-coefficients-and-trajectories/README.md)把三个前沿点对应到各自的预测轨迹，并提供三份作者子图 PDF。

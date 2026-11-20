@@ -3,7 +3,7 @@
   "counts": {
     "teaser": 76,
     "architecture": 69,
-    "multipanel": 42,
+    "multipanel": 49,
     "element": 392,
     "mechanism": 17,
     "layout-template": 11
@@ -22629,6 +22629,110 @@
     },
     {
       "schema_version": 1,
+      "id": "feml-conductivity-pareto-inset",
+      "title": "FEML 热导率 · 从复杂度 5 的拐点读到温度区间外的预测",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "帕累托选模",
+        "热导率",
+        "符号回归",
+        "区间外预测",
+        "模型选择"
+      ],
+      "summary": "插图用蓝色三角锁定复杂度 5 的候选式。主图把它求值成橙色虚线，并与有限元学习得到的蓝线和真值点线一起延伸到拟合温度区间之外。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Missing physics discovery through fully differentiable finite element-based machine learning",
+        "venue": "Scientific Reports",
+        "year": 2026,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s41598-026-65125-z"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "主图与右上插图（无字母编号）",
+        "panel_count": 2,
+        "reading_order": "先看右上粉色前沿的蓝色三角。它选中通过正值筛选的复杂度 5 候选，正文式（10）给出 k(T) = (884.2/T)^0.6547。回到主图看橙色虚线：在黄色的 400–700 K 拟合区内，它紧贴黑色真值点线；超过 700 K 后，仍可逐温度与真值和神经网络的蓝线比较。",
+        "why_selected": "插图用蓝色三角锁定复杂度 5 的候选式。主图把它求值成橙色虚线，并与有限元学习得到的蓝线和真值点线一起延伸到拟合温度区间之外。",
+        "model_trace": "右上蓝色三角（复杂度 5）→ 正文式（10）的幂律 k(T) = (884.2/T)^0.6547 → 主图橙色虚线。前沿与函数输出同图；具体公式在正文，图内没有结构图。"
+      },
+      "source": {
+        "figure_number": 18,
+        "authors": [
+          "Ado Farsi",
+          "Nacime Bouziani",
+          "David A. Ham"
+        ],
+        "doi": "10.1038/s41598-026-65125-z",
+        "urls": [
+          "https://www.nature.com/articles/s41598-026-65125-z/figures/18",
+          "https://www.nature.com/articles/s41598-026-65125-z",
+          "https://arxiv.org/src/2507.15787v3",
+          "https://arxiv.org/abs/2507.15787v3",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://www.nature.com/articles/s41598-026-65125-z#rightslink",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13719489/"
+        ],
+        "checked_date": "2026-11-20",
+        "tex_evidence": "main.tex:1422",
+        "version": "arXiv:2507.15787v3",
+        "archive_url": "https://arxiv.org/src/2507.15787v3",
+        "archive_sha256": "e7d6042f7ff778623a703c1f505da7686e658919493d5cb0146373bb5e8c4080",
+        "archive_member": "figures/symbolic_regression_combined.pdf",
+        "original_sha256": "bd3fa585e4c7f92cc38b7fe8805a2ba72112f3edaf499c97b64f6d48d6c40cfd"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://arxiv.org/abs/2507.15787v3",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "author-supplied PDF",
+        "notes": [
+          "作者 TeX 源包中的独立矢量 PDF。散点、填色区域、曲线与文字可单独选取。"
+        ],
+        "level": "vector",
+        "pdf_drawing_objects": 88,
+        "pdf_image_placements": 0,
+        "selectable_words": 43,
+        "vector_shapes": true,
+        "editable_text": true
+      },
+      "changes": [
+        "从作者 TeX 源包原样提取 figures/symbolic_regression_combined.pdf，等比渲染预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.pdf",
+          "bytes": 232212,
+          "sha256": "bd3fa585e4c7f92cc38b7fe8805a2ba72112f3edaf499c97b64f6d48d6c40cfd"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 111175,
+          "sha256": "ef9b0f6f760aaa9c89fa49b943b47f98c4fdbb5c85904df63f87753399ebd88f"
+        }
+      ],
+      "path": "multipanel/feml-conductivity-pareto-inset",
+      "metadata_path": "multipanel/feml-conductivity-pareto-inset/metadata.json",
+      "readme_path": "multipanel/feml-conductivity-pareto-inset/README.md",
+      "primary_path": "multipanel/feml-conductivity-pareto-inset/original.pdf",
+      "preview_path": "multipanel/feml-conductivity-pareto-inset/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "flock-obstacle-time-and-formation",
       "title": "集群避障 · 从误差发生的时刻追到队形",
       "category": "multipanel",
@@ -24220,6 +24324,166 @@
     },
     {
       "schema_version": 1,
+      "id": "lorenz-pareto-coefficients-and-trajectories",
+      "title": "Lorenz 系统 · 从帕累托选择读到系数与三条状态轨迹",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "SINDy",
+        "Lorenz 系统",
+        "帕累托前沿",
+        "系数路径",
+        "轨迹预测"
+      ],
+      "summary": "a 标出三个候选解，c 用相同颜色画每个解在三个状态分量上的预测；b 补出沿前沿推进时保留下来的系数。黄色点在未见数据上的轨迹比青色拐点更贴近黑色参考。",
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "On the Treatment of Optimization Problems With L1 Penalty Terms via Multiobjective Continuation",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "year": 2022,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1109/TPAMI.2021.3114962"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "a–c",
+        "panel_count": 3,
+        "reading_order": "a 的横轴是导数拟合误差 f，纵轴是系数矩阵的 ℓ₁ 范数。选左上黄色点或左下青色点，再在 c 的 x₁、x₂、x₃ 三行逐一找同色曲线，并与黑色 Lorenz 参考轨迹对照。b 从整个求解过程展示曾超过 0.5 的系数分量，图例中的 W 下标区分状态和系数。三个候选点与轨迹的对应由 a 和 c 的颜色给出，b 没有逐点画出三个候选的系数表。",
+        "why_selected": "a 标出三个候选解，c 用相同颜色画每个解在三个状态分量上的预测；b 补出沿前沿推进时保留下来的系数。黄色点在未见数据上的轨迹比青色拐点更贴近黑色参考。",
+        "model_trace": "a 黄、青、紫三个候选点 → c 对应颜色的三条状态随时间的输出；b 展示稀疏多项式系数随延续迭代的变化。",
+        "trace_scope": "b 记录的是连续迭代过程中的系数曲线，三个模型的显式多项式和各自对应的迭代步未在图内逐一标注。"
+      },
+      "source": {
+        "figure_number": 6,
+        "authors": [
+          "Katharina Bieker",
+          "Bennet Gebken",
+          "Sebastian Peitz"
+        ],
+        "doi": "10.1109/TPAMI.2021.3114962",
+        "urls": [
+          "https://arxiv.org/pdf/2012.07483v2#page=10",
+          "https://doi.org/10.1109/TPAMI.2021.3114962",
+          "https://arxiv.org/pdf/2012.07483v2",
+          "https://arxiv.org/abs/2012.07483v2",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://arxiv.org/src/2012.07483v2",
+          "https://ris.uni-paderborn.de/record/20731"
+        ],
+        "checked_date": "2026-11-20",
+        "author_panel_archive_url": "https://arxiv.org/src/2012.07483v2",
+        "author_panel_archive_sha256": "c46ea3b8bcf8a6a56b743d8696c04900948a7a48305620ade4da0be8f8b88563",
+        "author_panel_pdfs": [
+          {
+            "path": "panel-a.pdf",
+            "archive_member": "Figures/PC_Lorenz_imagespace_v3.pdf",
+            "sha256": "d14cca10f03b3c6f818186b470cab90d0f22aafa8eeb960a3c7b3220f6d73ac4",
+            "bytes": 13974,
+            "tex_evidence": "main_submission_IEEE.tex:1267",
+            "panel": "a"
+          },
+          {
+            "path": "panel-b.pdf",
+            "archive_member": "Figures/PC_Lorenz_weights_v3.pdf",
+            "sha256": "f35f6eee14807ed4c43f25244252ea3c2bae7a55453e21beaf1b2c2062738170",
+            "bytes": 82848,
+            "tex_evidence": "main_submission_IEEE.tex:1268",
+            "panel": "b"
+          },
+          {
+            "path": "panel-c.pdf",
+            "archive_member": "Figures/PC_fig_Lorenzsystem_v3.pdf",
+            "sha256": "b8acf1ba8a954410f3b05ea4eba2e7ddfae41d348f5cf974308e09c4e789e85b",
+            "bytes": 389587,
+            "tex_evidence": "main_submission_IEEE.tex:1269",
+            "panel": "c"
+          }
+        ],
+        "full_pdf_url": "https://arxiv.org/pdf/2012.07483v2",
+        "full_pdf_sha256": "27638c020c2caa72a61621f1c5417879955a8ecc390aee28ccab5f9f20e5827a",
+        "page_number": 10,
+        "crop_bbox_pt": [
+          46.0,
+          436.0,
+          302.0,
+          670.0
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin on the source page"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://arxiv.org/abs/2012.07483v2",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "cropped paper PDF",
+        "notes": [
+          "完整图版裁自作者稿 arXiv v2 第 10 页。另附作者 TeX 源包内 a、b、c 三份原始矢量 PDF。"
+        ],
+        "level": "vector",
+        "pdf_drawing_objects": 245,
+        "pdf_image_placements": 0,
+        "selectable_words": 60,
+        "vector_shapes": true,
+        "editable_text": true
+      },
+      "changes": [
+        "从来源 PDF 裁出整幅图版，等比渲染预览。",
+        "另收录作者排版使用的三份独立子图 PDF，保留源包文件内容。",
+        "从整图 PDF 导出 SVG，文字以轮廓保留。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 512511,
+          "sha256": "1f90301312441e32469a706b08c2c94d0fc663e2a51b3c953a2105cad8ed74c9"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 210672,
+          "sha256": "7920084ccb713669f2d7e6696c67260123f0e230ad2a7947f18ce8fe640f56b2"
+        },
+        {
+          "path": "panel-a.pdf",
+          "bytes": 13974,
+          "sha256": "d14cca10f03b3c6f818186b470cab90d0f22aafa8eeb960a3c7b3220f6d73ac4"
+        },
+        {
+          "path": "panel-b.pdf",
+          "bytes": 82848,
+          "sha256": "f35f6eee14807ed4c43f25244252ea3c2bae7a55453e21beaf1b2c2062738170"
+        },
+        {
+          "path": "panel-c.pdf",
+          "bytes": 389587,
+          "sha256": "b8acf1ba8a954410f3b05ea4eba2e7ddfae41d348f5cf974308e09c4e789e85b"
+        },
+        {
+          "path": "figure.svg",
+          "bytes": 1215889,
+          "sha256": "8cf14e049de2cbf3baeec7411341f9c1198af3286c96911dc49694b93c9b9c95"
+        }
+      ],
+      "path": "multipanel/lorenz-pareto-coefficients-and-trajectories",
+      "metadata_path": "multipanel/lorenz-pareto-coefficients-and-trajectories/metadata.json",
+      "readme_path": "multipanel/lorenz-pareto-coefficients-and-trajectories/README.md",
+      "primary_path": "multipanel/lorenz-pareto-coefficients-and-trajectories/figure.pdf",
+      "preview_path": "multipanel/lorenz-pareto-coefficients-and-trajectories/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "mattergen-chemical-space-crystals",
       "title": "MatterGen · 从目标化学空间读到四个具体晶体",
       "category": "multipanel",
@@ -24339,6 +24603,113 @@
       "readme_path": "multipanel/mattergen-chemical-space-crystals/README.md",
       "primary_path": "multipanel/mattergen-chemical-space-crystals/figure.pdf",
       "preview_path": "multipanel/mattergen-chemical-space-crystals/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "metamaterial-pareto-unit-cell-frequency-response",
+      "title": "声学超材料 · 同一编号串起前沿点、单胞几何与带隙",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "帕累托前沿",
+        "单胞结构",
+        "有效质量密度",
+        "带隙",
+        "数值仿真"
+      ],
+      "summary": "a 选出前沿上的三个具名设计。b 在同一张频率图中放入对应的单胞几何、有效质量密度曲线和带隙。颜色、编号和线型共同维系三者的对应关系。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "A multi-objective design optimization strategy for acoustic/elastic metamaterials under impact loading",
+        "venue": "Structures",
+        "year": 2025,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1016/j.istruc.2025.108229"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "a、b（b 含三组单胞与频响）",
+        "panel_count": 2,
+        "reading_order": "先在 a 的黑色帕累托前沿找到绿色 P_C，第二个目标约为 1。到 b 找同编号的单胞插图，再沿绿色点线读这个结构的归一化有效质量密度随频率的变化。这里的频率在纵轴上，所以带隙的上下限要沿纵向读。红色 P_A 和蓝色 P_B 分别对应两个目标的极端设计，同法可以比较各自的结构、响应和带隙。",
+        "why_selected": "a 选出前沿上的三个具名设计。b 在同一张频率图中放入对应的单胞几何、有效质量密度曲线和带隙。颜色、编号和线型共同维系三者的对应关系。",
+        "model_trace": "a 的 P_C → b 绿色 P_C 单胞 → 绿色点线表示的有效质量密度频响 → 同色阴影标出的带隙。几何配置、计算响应和目标点同图。作者在随后的表 2 给出 P_C 的带隙中心 643 Hz、宽度 88 Hz。本图展示数值求解结果。"
+      },
+      "source": {
+        "figure_number": 10,
+        "authors": [
+          "Ana Carolina Azevedo Vasconcelos",
+          "Dingena Schott",
+          "Jovana Jovanova"
+        ],
+        "doi": "10.1016/j.istruc.2025.108229",
+        "urls": [
+          "https://repository.tudelft.nl/file/File_ba7af526-6b0e-4632-b2bc-3e6e0f026808?preview=1#page=10",
+          "https://doi.org/10.1016/j.istruc.2025.108229",
+          "https://repository.tudelft.nl/file/File_ba7af526-6b0e-4632-b2bc-3e6e0f026808?preview=1",
+          "https://repository.tudelft.nl/file/File_ba7af526-6b0e-4632-b2bc-3e6e0f026808?preview=1#page=2",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "printed_page": 9,
+        "full_pdf_url": "https://repository.tudelft.nl/file/File_ba7af526-6b0e-4632-b2bc-3e6e0f026808?preview=1",
+        "full_pdf_sha256": "50767e9b929500afa2375fdf223561dd9f4533a6494d185aee58cbd74cdf0839",
+        "page_number": 10,
+        "crop_bbox_pt": [
+          138.0,
+          43.0,
+          457.0,
+          319.0
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin on the source page"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://repository.tudelft.nl/file/File_ba7af526-6b0e-4632-b2bc-3e6e0f026808?preview=1#page=2",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "cropped paper PDF",
+        "notes": [
+          "期刊正式版的单页 PDF 摘图。轴标、刻度字形和面板字母为矢量轮廓；前沿上的点、单胞几何与三条频响曲线均位于同一幅内嵌位图中。"
+        ],
+        "level": "vector-and-raster",
+        "pdf_drawing_objects": 118,
+        "pdf_image_placements": 1,
+        "selectable_words": 0,
+        "vector_shapes": true,
+        "editable_text": false
+      },
+      "changes": [
+        "从来源 PDF 裁出整幅图版，等比渲染预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 256612,
+          "sha256": "f89ddedf81d109facd4190c66ffcf5a5ccbf05c3f513ef42a7484ddfed484a31"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 707474,
+          "sha256": "0135bbf6ae8e1036a3557261ebc7a96af1f7d0752e38de65cbd3bf188ba67715"
+        }
+      ],
+      "path": "multipanel/metamaterial-pareto-unit-cell-frequency-response",
+      "metadata_path": "multipanel/metamaterial-pareto-unit-cell-frequency-response/metadata.json",
+      "readme_path": "multipanel/metamaterial-pareto-unit-cell-frequency-response/README.md",
+      "primary_path": "multipanel/metamaterial-pareto-unit-cell-frequency-response/figure.pdf",
+      "preview_path": "multipanel/metamaterial-pareto-unit-cell-frequency-response/preview.png"
     },
     {
       "schema_version": 1,
@@ -24646,6 +25017,225 @@
       "readme_path": "multipanel/microns-single-cell-structural-functional/README.md",
       "primary_path": "multipanel/microns-single-cell-structural-functional/figure.pdf",
       "preview_path": "multipanel/microns-single-cell-structural-functional/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "multi-ion-pareto-committor",
+      "title": "离子配对 · 从前沿红叉追到解析式与采样验证",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "帕累托前沿",
+        "模型选择",
+        "符号回归",
+        "输入结构",
+        "概率预测",
+        "独立验证"
+      ],
+      "summary": "c 的红叉选定一个模型，d 把它写成显式函数，b 说明函数里的水分子几何量 x₇。e 将该模型对 LiCl、CsCl 的到达概率预测与独立轨迹采样并排核对。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Machine-guided path sampling to discover mechanisms of molecular self-organization",
+        "venue": "Nature Computational Science",
+        "year": 2023,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.nature.com/articles/s43588-023-00428-z"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "a–e",
+        "panel_count": 5,
+        "reading_order": "先在 c 的运算次数–验证损失图找到红叉，再到 d 的黄框读所选模型。它使用离子距离、离子尺寸以及 x₇、x₁₅ 两个水分子几何量。想知道 x₇ 实际量了什么，可以回看 b 的几何示意及青色框内的计算式。用 d 的反应坐标 q 换算概率 p_B 后，e 用左右两幅图分别比较 LiCl、CsCl 的模型预测和独立分子动力学采样值；红色对角线表示两者相等。",
+        "why_selected": "c 的红叉选定一个模型，d 把它写成显式函数，b 说明函数里的水分子几何量 x₇。e 将该模型对 LiCl、CsCl 的到达概率预测与独立轨迹采样并排核对。",
+        "model_trace": "c 红叉 → d 黄框函数（四个输入量）→ b 对 x₇ 的定义 → e 中同一函数对 LiCl 与 CsCl 的预测与采样对照。",
+        "trace_scope": "这里的配置是显式函数采用的输入和运算结构。输出参照来自独立分子动力学轨迹采样。"
+      },
+      "source": {
+        "figure_number": 2,
+        "authors": [
+          "Hendrik Jung",
+          "Roberto Covino",
+          "A. Arjun",
+          "Christian Leitold",
+          "Christoph Dellago",
+          "Peter G. Bolhuis",
+          "Gerhard Hummer"
+        ],
+        "doi": "10.1038/s43588-023-00428-z",
+        "urls": [
+          "https://www.nature.com/articles/s43588-023-00428-z/figures/2",
+          "https://www.nature.com/articles/s43588-023-00428-z",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC10766509.1/PMC10766509.1.pdf",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC10766509.1/PMC10766509.1.xml",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC10766509.1/43588_2023_428_MOESM4_ESM.zip",
+          "https://zenodo.org/records/7704969"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10766509.1/PMC10766509.1.pdf",
+        "full_pdf_sha256": "e2aeac4f2f8fb9d260b64cf768a99ee3252caf950fc153adcad24ce37211a424",
+        "page_number": 3,
+        "crop_bbox_pt": [
+          75.0,
+          47.0,
+          526.0,
+          299.0
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin on the source page"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10766509.1/PMC10766509.1.xml",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "cropped paper PDF",
+        "notes": [
+          "从期刊 PDF 第 3 页裁出完整 a–e。坐标、散点、前沿上的红叉与多数文字保留矢量对象；水分子示意含嵌入位图。"
+        ],
+        "level": "vector-and-raster",
+        "pdf_drawing_objects": 4589,
+        "pdf_image_placements": 13,
+        "selectable_words": 149,
+        "vector_shapes": true,
+        "editable_text": true
+      },
+      "changes": [
+        "从来源 PDF 裁出整幅图版，等比渲染预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 1458373,
+          "sha256": "1c1bc03ccb2c2359a28fa915a5c2e0e421680d12f923f34fe12ae90fe64cb219"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 236100,
+          "sha256": "cc6414a74e25b33e6bd8f7409c73ee8b97b4120cab59a82412f9edbca7260de9"
+        }
+      ],
+      "path": "multipanel/multi-ion-pareto-committor",
+      "metadata_path": "multipanel/multi-ion-pareto-committor/metadata.json",
+      "readme_path": "multipanel/multi-ion-pareto-committor/README.md",
+      "primary_path": "multipanel/multi-ion-pareto-committor/figure.pdf",
+      "preview_path": "multipanel/multi-ion-pareto-committor/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "nanoantennas-pareto-geometry-and-measured-spectra",
+      "title": "硅纳米天线 · 从前沿上的编号追到几何、模拟谱与实测谱",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "帕累托前沿",
+        "天线几何",
+        "散射谱",
+        "实验与仿真",
+        "器件编号"
+      ],
+      "summary": "同一套 1–40 的天线编号标在 b 的前沿、a 的几何与实物显微图，以及 c–f 四幅散射谱的纵轴上。选一个编号，就能读到该器件在两个偏振方向上的模拟和实测输出。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Evolutionary multi-objective optimization of colour pixels based on dielectric nanoantennas",
+        "venue": "Nature Nanotechnology",
+        "year": 2017,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1038/nnano.2016.224"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "a–f",
+        "panel_count": 6,
+        "reading_order": "在 b 的绿色前沿找到左上端的 (1)，此处 Y 偏振下的目标散射效率较高。回到 a 的 1 号格，彩色图标给出子块排布，正下方是制成器件的 SEM 图。再沿 c–f 接近底边的第 1 行横向读波长，左列是 X 偏振，右列是 Y 偏振，上排为模拟，下排为实验。在 630 nm 附近，比较 d 与 f 就能检查前沿点对应的 Y 偏振目标在实物上的表现。编号也允许对前沿中间的 (20) 重复这一路径。",
+        "why_selected": "同一套 1–40 的天线编号标在 b 的前沿、a 的几何与实物显微图，以及 c–f 四幅散射谱的纵轴上。选一个编号，就能读到该器件在两个偏振方向上的模拟和实测输出。",
+        "model_trace": "b 的 (1) → a 同编号设计和 SEM → c/d 编号 1 的 X/Y 偏振计算散射谱 → e/f 的同一器件实测散射谱。谱线以热图行呈现，前沿用 630 nm 的计算散射效率构建，实测谱使用任意单位。原图给出光谱响应，不含显式解析函数。"
+      },
+      "source": {
+        "figure_number": 3,
+        "authors": [
+          "Peter R. Wiecha",
+          "Arnaud Arbouet",
+          "Christian Girard",
+          "Aurélie Lecestre",
+          "Guilhem Larrieu",
+          "Vincent Paillard"
+        ],
+        "doi": "10.1038/nnano.2016.224",
+        "urls": [
+          "https://www.nature.com/articles/nnano.2016.224/figures/3",
+          "https://doi.org/10.1038/nnano.2016.224",
+          "https://arxiv.org/src/1609.06709v2",
+          "https://arxiv.org/abs/1609.06709v2",
+          "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+          "https://www.nature.com/articles/nnano.2016.224/figures/4"
+        ],
+        "checked_date": "2026-11-20",
+        "tex_evidence": "2016_EMO-GDM_double_resonant.tex:223",
+        "version": "arXiv:1609.06709v2",
+        "archive_url": "https://arxiv.org/src/1609.06709v2",
+        "archive_sha256": "bd23df466bd0992dd75e2358745646adae737a6d13d9895d29ac0d01e954dd50",
+        "archive_member": "figure03.pdf",
+        "original_sha256": "18803a9d6bf1e848bc1ccc1ddb9efb5104d5d7c8e828024f78c28795ec1d4100"
+      },
+      "license": {
+        "name": "arXiv 非独占传播许可，图版另行授权未核实",
+        "status": "reference-only",
+        "note": "arXiv 非独占传播许可；未核实图版的独立开放复用许可。",
+        "evidence_url": "https://arxiv.org/abs/1609.06709v2"
+      },
+      "editability": {
+        "native_format": "author-supplied PDF",
+        "notes": [
+          "作者 TeX 源包直接收录的完整独立 PDF。前沿和轴标保留矢量，SEM 显微照片等保留为位图。"
+        ],
+        "level": "vector-and-raster",
+        "pdf_drawing_objects": 8331,
+        "pdf_image_placements": 70,
+        "selectable_words": 122,
+        "vector_shapes": true,
+        "editable_text": true
+      },
+      "changes": [
+        "从作者 TeX 源包原样提取 figure03.pdf，等比渲染预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.pdf",
+          "bytes": 217277,
+          "sha256": "18803a9d6bf1e848bc1ccc1ddb9efb5104d5d7c8e828024f78c28795ec1d4100"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 475215,
+          "sha256": "0b8f03a7e1057fb5df7a7a43f9a82156dfd9865e1bf730bb7f577b00391835ce"
+        }
+      ],
+      "path": "multipanel/nanoantennas-pareto-geometry-and-measured-spectra",
+      "metadata_path": "multipanel/nanoantennas-pareto-geometry-and-measured-spectra/metadata.json",
+      "readme_path": "multipanel/nanoantennas-pareto-geometry-and-measured-spectra/README.md",
+      "primary_path": "multipanel/nanoantennas-pareto-geometry-and-measured-spectra/original.pdf",
+      "preview_path": "multipanel/nanoantennas-pareto-geometry-and-measured-spectra/preview.png"
     },
     {
       "schema_version": 1,
@@ -25226,6 +25816,117 @@
       "readme_path": "multipanel/perturbome-morphospace-exemplars/README.md",
       "primary_path": "multipanel/perturbome-morphospace-exemplars/figure.pdf",
       "preview_path": "multipanel/perturbome-morphospace-exemplars/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "pfm-domain-growth-pareto-response-maps",
+      "title": "铁电畴生长 · 从前沿上的公式追到二维半径预测图",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "帕累托选模",
+        "铁电畴",
+        "符号回归",
+        "响应面",
+        "实测数据"
+      ],
+      "summary": "前沿图例直接写出每个彩色点的公式，下一排沿用点色给出选择分数，最下排用公式作小图标题，把候选式对应到电压、脉宽与畴半径的实测和预测。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "LLM-Guided Open Hypothesis Learning from Autonomous Scanning Probe Microscopy Experiments",
+        "venue": "arXiv（预印本）",
+        "year": 2026,
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2605.06839v1"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "a–e（e 含两行共十幅预测图）",
+        "panel_count": 5,
+        "reading_order": "在迭代 0 的 a 中选最右侧橙点，复杂度为 9，图例写作 ReLU(0.0175V + 0.0175t − 0.0806)。c 同一橙点给出这一轮最高的 PySR 分数。e 上排最右小图把同一公式写在标题，横轴为脉冲时长、纵轴为电压，底色是预测有效半径，圆点是实验数据。也可在 b 中选迭代 9 的红点（复杂度 10），沿公式 V(0.0019t⁰·⁵ + 0.0049) 找到 e 下排第四幅，比较另一种生长规律的响应。",
+        "why_selected": "前沿图例直接写出每个彩色点的公式，下一排沿用点色给出选择分数，最下排用公式作小图标题，把候选式对应到电压、脉宽与畴半径的实测和预测。",
+        "model_trace": "a 橙色复杂度 9 的前沿点 → a 图例中的 ReLU 公式 → c 中同色的 PySR 分数 → e 上排最右、同公式为标题的二维输出及实测点。公式界定了模型结构，图中未另画表达式树。"
+      },
+      "source": {
+        "figure_number": 4,
+        "authors": [
+          "Boris Slautin",
+          "Utkarsh Pratiush",
+          "Yu Liu",
+          "Kamyar Barakati",
+          "Sergei Kalinin"
+        ],
+        "doi": "10.48550/arXiv.2605.06839",
+        "urls": [
+          "https://arxiv.org/pdf/2605.06839v1#page=11",
+          "https://arxiv.org/abs/2605.06839v1",
+          "https://arxiv.org/pdf/2605.06839v1",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "article_pdf_url": "https://arxiv.org/pdf/2605.06839v1",
+        "article_pdf_sha256": "fe4b760460f41200841e613870f861b61454a440f63295de984c306c90723a40",
+        "article_pdf_page": 11,
+        "article_pdf_image_xref": 62,
+        "article_pdf_image_bbox_pt": [
+          72.0,
+          71.99993896484375,
+          523.2999877929688,
+          608.449951171875
+        ],
+        "original_sha256": "c9600987e0cb82749be7ba6484eb2d9b49105eb7bf330e9a2c7bf697bb13de9d",
+        "extraction_method": "embedded image from author PDF",
+        "crop_coordinate_system": "PDF points, top-left origin on the source page"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://arxiv.org/abs/2605.06839v1",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "PNG",
+        "notes": [
+          "作者提交的 PDF 在第 11 页把完整 Fig. 4 嵌为单张 1379 × 1640 位图。这里无损取出为 PNG，保留全部五个面板和十张预测图。"
+        ],
+        "level": "raster-reference",
+        "pixel_dimensions": [
+          1379,
+          1640
+        ],
+        "vector_shapes": false,
+        "editable_text": false
+      },
+      "changes": [
+        "从论文 PDF 无损取出整张内嵌图像，等比生成预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 1067079,
+          "sha256": "c9600987e0cb82749be7ba6484eb2d9b49105eb7bf330e9a2c7bf697bb13de9d"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 801615,
+          "sha256": "b83f752bd03c956f367159a0c6ff48ac47141ad7441a4cf92c2097570287af0e"
+        }
+      ],
+      "path": "multipanel/pfm-domain-growth-pareto-response-maps",
+      "metadata_path": "multipanel/pfm-domain-growth-pareto-response-maps/metadata.json",
+      "readme_path": "multipanel/pfm-domain-growth-pareto-response-maps/README.md",
+      "primary_path": "multipanel/pfm-domain-growth-pareto-response-maps/original.png",
+      "preview_path": "multipanel/pfm-domain-growth-pareto-response-maps/preview.png"
     },
     {
       "schema_version": 1,
@@ -25999,6 +26700,110 @@
       "readme_path": "multipanel/waffle-solar-distiller-thermal-sequence/README.md",
       "primary_path": "multipanel/waffle-solar-distiller-thermal-sequence/figure.pdf",
       "preview_path": "multipanel/waffle-solar-distiller-thermal-sequence/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "wgan-perception-distortion-digit-outputs",
+      "title": "手写数字去噪 · 从权衡曲线上的 A–D 读到四组输出",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "模型选择",
+        "感知–失真权衡",
+        "输出样本",
+        "图像去噪"
+      ],
+      "summary": "蓝色折线连接以不同损失权重训练的去噪器。A–D 同时标在模型点和下方数字图组上，沿一个字母就能看到该模型输出的笔画。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "The Perception-Distortion Tradeoff",
+        "venue": "CVPR",
+        "year": 2018,
+        "presentation": "oral",
+        "evidence_url": "https://arxiv.org/abs/1711.06077"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "权衡图与 A–D 四组去噪结果",
+        "panel_count": 5,
+        "reading_order": "上方横轴为像素 RMSE，纵轴为输出与真实数字分布之间的距离。沿蓝线选 D，再看下方 D 组的数字；并排看 A、D 两组，D 的笔画更清楚，像素误差也更大。图注给出生成器损失 ℓ_MSE + λℓ_adv，作者通过改变 λ 得到各工作点。黑虚线表示理论界限，蓝线连接实际训练得到的去噪器。共有的网络层配置列在补充表 S1。",
+        "why_selected": "蓝色折线连接以不同损失权重训练的去噪器。A–D 同时标在模型点和下方数字图组上，沿一个字母就能看到该模型输出的笔画。",
+        "model_trace": "蓝线上的 D → 该训练配置共用的生成器和加权损失 → 下方 D 组实际去噪图像。字母标识具体模型；逐点的损失权重数值没有标在原图中。"
+      },
+      "source": {
+        "figure_number": 6,
+        "authors": [
+          "Yochai Blau",
+          "Tomer Michaeli"
+        ],
+        "doi": "10.1109/CVPR.2018.00652",
+        "urls": [
+          "https://openaccess.thecvf.com/content_cvpr_2018/papers/Blau_The_Perception-Distortion_Tradeoff_CVPR_2018_paper.pdf#page=6",
+          "https://openaccess.thecvf.com/content_cvpr_2018/html/Blau_The_Perception-Distortion_Tradeoff_CVPR_2018_paper.html",
+          "https://arxiv.org/src/1711.06077v2",
+          "https://arxiv.org/abs/1711.06077v2",
+          "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+          "https://openaccess.thecvf.com/content_cvpr_2018/Supplemental/2765-supp.pdf",
+          "https://arxiv.org/abs/1711.06077"
+        ],
+        "checked_date": "2026-11-20",
+        "tex_evidence": "tradeOff.tex:53",
+        "version": "arXiv:1711.06077v2",
+        "article_pdf_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Blau_The_Perception-Distortion_Tradeoff_CVPR_2018_paper.pdf",
+        "article_pdf_sha256": "db120c6c9a750ccc1e33f8e435493c6e2dcb6257b53814298a197c23872a318e",
+        "article_pdf_page": 6,
+        "archive_url": "https://arxiv.org/src/1711.06077v2",
+        "archive_sha256": "27f8110b0fcc861194a4322fc7563342b725135f7c6f92a83c19c22d510ab870",
+        "archive_member": "figures/WGAN.pdf",
+        "original_sha256": "273ad33ed08ca94a9b6e41cbcfe92f611df1b519cf646561c57c63faec7fd557"
+      },
+      "license": {
+        "name": "arXiv 非独占传播许可，图版另行授权未核实",
+        "status": "reference-only",
+        "note": "arXiv 非独占传播许可，未核实图版的独立开放复用许可。",
+        "evidence_url": "https://arxiv.org/abs/1711.06077v2"
+      },
+      "editability": {
+        "native_format": "author-supplied PDF",
+        "notes": [
+          "作者 TeX 源包中直接引用的独立 PDF。曲线、圆点和坐标保留矢量，四组手写数字为内嵌图像。"
+        ],
+        "level": "vector-and-raster",
+        "pdf_drawing_objects": 73,
+        "pdf_image_placements": 4,
+        "selectable_words": 15,
+        "vector_shapes": true,
+        "editable_text": true
+      },
+      "changes": [
+        "从作者 TeX 源包原样提取 figures/WGAN.pdf，等比渲染预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.pdf",
+          "bytes": 179654,
+          "sha256": "273ad33ed08ca94a9b6e41cbcfe92f611df1b519cf646561c57c63faec7fd557"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 345034,
+          "sha256": "1dcb8c46727231bfa7518086b7041d811914739a8e7ec7a87d57ec9cc0ab95c4"
+        }
+      ],
+      "path": "multipanel/wgan-perception-distortion-digit-outputs",
+      "metadata_path": "multipanel/wgan-perception-distortion-digit-outputs/metadata.json",
+      "readme_path": "multipanel/wgan-perception-distortion-digit-outputs/README.md",
+      "primary_path": "multipanel/wgan-perception-distortion-digit-outputs/original.pdf",
+      "preview_path": "multipanel/wgan-perception-distortion-digit-outputs/preview.png"
     },
     {
       "schema_version": 1,

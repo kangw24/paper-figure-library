@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "lorenz-pareto-coefficients-and-trajectories",
+  "title": "Lorenz 系统 · 从帕累托选择读到系数与三条状态轨迹",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "SINDy",
+    "Lorenz 系统",
+    "帕累托前沿",
+    "系数路径",
+    "轨迹预测"
+  ],
+  "summary": "a 标出三个候选解，c 用相同颜色画每个解在三个状态分量上的预测；b 补出沿前沿推进时保留下来的系数。黄色点在未见数据上的轨迹比青色拐点更贴近黑色参考。",
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "On the Treatment of Optimization Problems With L1 Penalty Terms via Multiobjective Continuation",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "year": 2022,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1109/TPAMI.2021.3114962"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "a–c",
+    "panel_count": 3,
+    "reading_order": "a 的横轴是导数拟合误差 f，纵轴是系数矩阵的 ℓ₁ 范数。选左上黄色点或左下青色点，再在 c 的 x₁、x₂、x₃ 三行逐一找同色曲线，并与黑色 Lorenz 参考轨迹对照。b 从整个求解过程展示曾超过 0.5 的系数分量，图例中的 W 下标区分状态和系数。三个候选点与轨迹的对应由 a 和 c 的颜色给出，b 没有逐点画出三个候选的系数表。",
+    "why_selected": "a 标出三个候选解，c 用相同颜色画每个解在三个状态分量上的预测；b 补出沿前沿推进时保留下来的系数。黄色点在未见数据上的轨迹比青色拐点更贴近黑色参考。",
+    "model_trace": "a 黄、青、紫三个候选点 → c 对应颜色的三条状态随时间的输出；b 展示稀疏多项式系数随延续迭代的变化。",
+    "trace_scope": "b 记录的是连续迭代过程中的系数曲线，三个模型的显式多项式和各自对应的迭代步未在图内逐一标注。"
+  },
+  "source": {
+    "figure_number": 6,
+    "authors": [
+      "Katharina Bieker",
+      "Bennet Gebken",
+      "Sebastian Peitz"
+    ],
+    "doi": "10.1109/TPAMI.2021.3114962",
+    "urls": [
+      "https://arxiv.org/pdf/2012.07483v2#page=10",
+      "https://doi.org/10.1109/TPAMI.2021.3114962",
+      "https://arxiv.org/pdf/2012.07483v2",
+      "https://arxiv.org/abs/2012.07483v2",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://arxiv.org/src/2012.07483v2",
+      "https://ris.uni-paderborn.de/record/20731"
+    ],
+    "checked_date": "2026-11-20",
+    "author_panel_archive_url": "https://arxiv.org/src/2012.07483v2",
+    "author_panel_archive_sha256": "c46ea3b8bcf8a6a56b743d8696c04900948a7a48305620ade4da0be8f8b88563",
+    "author_panel_pdfs": [
+      {
+        "path": "panel-a.pdf",
+        "archive_member": "Figures/PC_Lorenz_imagespace_v3.pdf",
+        "sha256": "d14cca10f03b3c6f818186b470cab90d0f22aafa8eeb960a3c7b3220f6d73ac4",
+        "bytes": 13974,
+        "tex_evidence": "main_submission_IEEE.tex:1267",
+        "panel": "a"
+      },
+      {
+        "path": "panel-b.pdf",
+        "archive_member": "Figures/PC_Lorenz_weights_v3.pdf",
+        "sha256": "f35f6eee14807ed4c43f25244252ea3c2bae7a55453e21beaf1b2c2062738170",
+        "bytes": 82848,
+        "tex_evidence": "main_submission_IEEE.tex:1268",
+        "panel": "b"
+      },
+      {
+        "path": "panel-c.pdf",
+        "archive_member": "Figures/PC_fig_Lorenzsystem_v3.pdf",
+        "sha256": "b8acf1ba8a954410f3b05ea4eba2e7ddfae41d348f5cf974308e09c4e789e85b",
+        "bytes": 389587,
+        "tex_evidence": "main_submission_IEEE.tex:1269",
+        "panel": "c"
+      }
+    ],
+    "full_pdf_url": "https://arxiv.org/pdf/2012.07483v2",
+    "full_pdf_sha256": "27638c020c2caa72a61621f1c5417879955a8ecc390aee28ccab5f9f20e5827a",
+    "page_number": 10,
+    "crop_bbox_pt": [
+      46.0,
+      436.0,
+      302.0,
+      670.0
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin on the source page"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://arxiv.org/abs/2012.07483v2",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "cropped paper PDF",
+    "notes": [
+      "完整图版裁自作者稿 arXiv v2 第 10 页。另附作者 TeX 源包内 a、b、c 三份原始矢量 PDF。"
+    ],
+    "level": "vector",
+    "pdf_drawing_objects": 245,
+    "pdf_image_placements": 0,
+    "selectable_words": 60,
+    "vector_shapes": true,
+    "editable_text": true
+  },
+  "changes": [
+    "从来源 PDF 裁出整幅图版，等比渲染预览。",
+    "另收录作者排版使用的三份独立子图 PDF，保留源包文件内容。",
+    "从整图 PDF 导出 SVG，文字以轮廓保留。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 512511,
+      "sha256": "1f90301312441e32469a706b08c2c94d0fc663e2a51b3c953a2105cad8ed74c9"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 210672,
+      "sha256": "7920084ccb713669f2d7e6696c67260123f0e230ad2a7947f18ce8fe640f56b2"
+    },
+    {
+      "path": "panel-a.pdf",
+      "bytes": 13974,
+      "sha256": "d14cca10f03b3c6f818186b470cab90d0f22aafa8eeb960a3c7b3220f6d73ac4"
+    },
+    {
+      "path": "panel-b.pdf",
+      "bytes": 82848,
+      "sha256": "f35f6eee14807ed4c43f25244252ea3c2bae7a55453e21beaf1b2c2062738170"
+    },
+    {
+      "path": "panel-c.pdf",
+      "bytes": 389587,
+      "sha256": "b8acf1ba8a954410f3b05ea4eba2e7ddfae41d348f5cf974308e09c4e789e85b"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 1215889,
+      "sha256": "8cf14e049de2cbf3baeec7411341f9c1198af3286c96911dc49694b93c9b9c95"
+    }
+  ]
+}

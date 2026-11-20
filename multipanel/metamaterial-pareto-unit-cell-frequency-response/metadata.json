@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "id": "metamaterial-pareto-unit-cell-frequency-response",
+  "title": "声学超材料 · 同一编号串起前沿点、单胞几何与带隙",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "帕累托前沿",
+    "单胞结构",
+    "有效质量密度",
+    "带隙",
+    "数值仿真"
+  ],
+  "summary": "a 选出前沿上的三个具名设计。b 在同一张频率图中放入对应的单胞几何、有效质量密度曲线和带隙。颜色、编号和线型共同维系三者的对应关系。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "A multi-objective design optimization strategy for acoustic/elastic metamaterials under impact loading",
+    "venue": "Structures",
+    "year": 2025,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1016/j.istruc.2025.108229"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "a、b（b 含三组单胞与频响）",
+    "panel_count": 2,
+    "reading_order": "先在 a 的黑色帕累托前沿找到绿色 P_C，第二个目标约为 1。到 b 找同编号的单胞插图，再沿绿色点线读这个结构的归一化有效质量密度随频率的变化。这里的频率在纵轴上，所以带隙的上下限要沿纵向读。红色 P_A 和蓝色 P_B 分别对应两个目标的极端设计，同法可以比较各自的结构、响应和带隙。",
+    "why_selected": "a 选出前沿上的三个具名设计。b 在同一张频率图中放入对应的单胞几何、有效质量密度曲线和带隙。颜色、编号和线型共同维系三者的对应关系。",
+    "model_trace": "a 的 P_C → b 绿色 P_C 单胞 → 绿色点线表示的有效质量密度频响 → 同色阴影标出的带隙。几何配置、计算响应和目标点同图。作者在随后的表 2 给出 P_C 的带隙中心 643 Hz、宽度 88 Hz。本图展示数值求解结果。"
+  },
+  "source": {
+    "figure_number": 10,
+    "authors": [
+      "Ana Carolina Azevedo Vasconcelos",
+      "Dingena Schott",
+      "Jovana Jovanova"
+    ],
+    "doi": "10.1016/j.istruc.2025.108229",
+    "urls": [
+      "https://repository.tudelft.nl/file/File_ba7af526-6b0e-4632-b2bc-3e6e0f026808?preview=1#page=10",
+      "https://doi.org/10.1016/j.istruc.2025.108229",
+      "https://repository.tudelft.nl/file/File_ba7af526-6b0e-4632-b2bc-3e6e0f026808?preview=1",
+      "https://repository.tudelft.nl/file/File_ba7af526-6b0e-4632-b2bc-3e6e0f026808?preview=1#page=2",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "printed_page": 9,
+    "full_pdf_url": "https://repository.tudelft.nl/file/File_ba7af526-6b0e-4632-b2bc-3e6e0f026808?preview=1",
+    "full_pdf_sha256": "50767e9b929500afa2375fdf223561dd9f4533a6494d185aee58cbd74cdf0839",
+    "page_number": 10,
+    "crop_bbox_pt": [
+      138.0,
+      43.0,
+      457.0,
+      319.0
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin on the source page"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://repository.tudelft.nl/file/File_ba7af526-6b0e-4632-b2bc-3e6e0f026808?preview=1#page=2",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "cropped paper PDF",
+    "notes": [
+      "期刊正式版的单页 PDF 摘图。轴标、刻度字形和面板字母为矢量轮廓；前沿上的点、单胞几何与三条频响曲线均位于同一幅内嵌位图中。"
+    ],
+    "level": "vector-and-raster",
+    "pdf_drawing_objects": 118,
+    "pdf_image_placements": 1,
+    "selectable_words": 0,
+    "vector_shapes": true,
+    "editable_text": false
+  },
+  "changes": [
+    "从来源 PDF 裁出整幅图版，等比渲染预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 256612,
+      "sha256": "f89ddedf81d109facd4190c66ffcf5a5ccbf05c3f513ef42a7484ddfed484a31"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 707474,
+      "sha256": "0135bbf6ae8e1036a3557261ebc7a96af1f7d0752e38de65cbd3bf188ba67715"
+    }
+  ]
+}

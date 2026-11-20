@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "multi-ion-pareto-committor",
+  "title": "离子配对 · 从前沿红叉追到解析式与采样验证",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "帕累托前沿",
+    "模型选择",
+    "符号回归",
+    "输入结构",
+    "概率预测",
+    "独立验证"
+  ],
+  "summary": "c 的红叉选定一个模型，d 把它写成显式函数，b 说明函数里的水分子几何量 x₇。e 将该模型对 LiCl、CsCl 的到达概率预测与独立轨迹采样并排核对。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Machine-guided path sampling to discover mechanisms of molecular self-organization",
+    "venue": "Nature Computational Science",
+    "year": 2023,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.nature.com/articles/s43588-023-00428-z"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "a–e",
+    "panel_count": 5,
+    "reading_order": "先在 c 的运算次数–验证损失图找到红叉，再到 d 的黄框读所选模型。它使用离子距离、离子尺寸以及 x₇、x₁₅ 两个水分子几何量。想知道 x₇ 实际量了什么，可以回看 b 的几何示意及青色框内的计算式。用 d 的反应坐标 q 换算概率 p_B 后，e 用左右两幅图分别比较 LiCl、CsCl 的模型预测和独立分子动力学采样值；红色对角线表示两者相等。",
+    "why_selected": "c 的红叉选定一个模型，d 把它写成显式函数，b 说明函数里的水分子几何量 x₇。e 将该模型对 LiCl、CsCl 的到达概率预测与独立轨迹采样并排核对。",
+    "model_trace": "c 红叉 → d 黄框函数（四个输入量）→ b 对 x₇ 的定义 → e 中同一函数对 LiCl 与 CsCl 的预测与采样对照。",
+    "trace_scope": "这里的配置是显式函数采用的输入和运算结构。输出参照来自独立分子动力学轨迹采样。"
+  },
+  "source": {
+    "figure_number": 2,
+    "authors": [
+      "Hendrik Jung",
+      "Roberto Covino",
+      "A. Arjun",
+      "Christian Leitold",
+      "Christoph Dellago",
+      "Peter G. Bolhuis",
+      "Gerhard Hummer"
+    ],
+    "doi": "10.1038/s43588-023-00428-z",
+    "urls": [
+      "https://www.nature.com/articles/s43588-023-00428-z/figures/2",
+      "https://www.nature.com/articles/s43588-023-00428-z",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC10766509.1/PMC10766509.1.pdf",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC10766509.1/PMC10766509.1.xml",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC10766509.1/43588_2023_428_MOESM4_ESM.zip",
+      "https://zenodo.org/records/7704969"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10766509.1/PMC10766509.1.pdf",
+    "full_pdf_sha256": "e2aeac4f2f8fb9d260b64cf768a99ee3252caf950fc153adcad24ce37211a424",
+    "page_number": 3,
+    "crop_bbox_pt": [
+      75.0,
+      47.0,
+      526.0,
+      299.0
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin on the source page"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10766509.1/PMC10766509.1.xml",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "cropped paper PDF",
+    "notes": [
+      "从期刊 PDF 第 3 页裁出完整 a–e。坐标、散点、前沿上的红叉与多数文字保留矢量对象；水分子示意含嵌入位图。"
+    ],
+    "level": "vector-and-raster",
+    "pdf_drawing_objects": 4589,
+    "pdf_image_placements": 13,
+    "selectable_words": 149,
+    "vector_shapes": true,
+    "editable_text": true
+  },
+  "changes": [
+    "从来源 PDF 裁出整幅图版，等比渲染预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 1458373,
+      "sha256": "1c1bc03ccb2c2359a28fa915a5c2e0e421680d12f923f34fe12ae90fe64cb219"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 236100,
+      "sha256": "cc6414a74e25b33e6bd8f7409c73ee8b97b4120cab59a82412f9edbca7260de9"
+    }
+  ]
+}

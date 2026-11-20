@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "rome-causal-tracing-seattle",
+  "title": "ROME · 把一次激活恢复实验读成概率热图",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "同一输入的干预对照",
+    "因果追踪",
+    "激活恢复",
+    "语言模型",
+    "干预热图",
+    "NeurIPS"
+  ],
+  "summary": "同一句 Space Needle 提示贯穿正常、加噪和局部恢复三种计算。下排每个格子对应在一个指定位置恢复激活后，模型给 Seattle 分配的概率。",
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Locating and Editing Factual Associations in GPT",
+    "venue": "NeurIPS",
+    "year": 2022,
+    "presentation": "conference-paper",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html"
+  },
+  "curation": {
+    "layout_family": "同一输入的干预对照",
+    "panel_labels": "a–g",
+    "panel_count": 7,
+    "reading_order": "从 a 的正常输出 Seattle 开始，在 b 给地标名称的词嵌入加噪，再循 c 的紫色箭头把选定位置的正常激活复制回来。d 指出要观察的输出。e–g 固定同一提示和目标词，依次显示恢复隐藏状态、MLP 或注意力后的概率。沿地标末尾的 le* 行，f 在靠前的中间层出现绿色高值；g 的红色高值出现在 downtown 行的较后层。f 和 g 的横坐标标的是连续十层恢复窗口的中心。",
+    "why_selected": "同一句 Space Needle 提示贯穿正常、加噪和局部恢复三种计算。下排每个格子对应在一个指定位置恢复激活后，模型给 Seattle 分配的概率。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Kevin Meng",
+      "David Bau",
+      "Alex Andonian",
+      "Yonatan Belinkov"
+    ],
+    "doi": "10.52202/068431-1262",
+    "urls": [
+      "https://proceedings.neurips.cc/paper_files/paper/2022/file/6f1d43d5a82a37e89b0665b33bf3a182-Paper-Conference.pdf#page=2",
+      "https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html",
+      "https://arxiv.org/src/2202.05262v5",
+      "https://proceedings.neurips.cc/paper_files/paper/2022/file/6f1d43d5a82a37e89b0665b33bf3a182-Paper-Conference.pdf",
+      "https://arxiv.org/abs/2202.05262v5",
+      "https://nips.cc/FAQ/Copyright",
+      "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "https://rome.baulab.info/"
+    ],
+    "checked_date": "2026-11-20",
+    "article_pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/6f1d43d5a82a37e89b0665b33bf3a182-Paper-Conference.pdf",
+    "article_pdf_sha256": "d714e196bf8efa72ce6bc843b61a1e3e770f202911e6e5b26a6663910643e0a3",
+    "article_pdf_page": 2,
+    "tex_evidence": "figtext/info-flow-maps.tex:2",
+    "archive_url": "https://arxiv.org/src/2202.05262v5",
+    "archive_sha256": "b98f9baa6bfa132ea1a8e63cbd604a604cf8214832809efa0ba170228d5a911e",
+    "archive_member": "figs/info-flow-maps-crop.pdf",
+    "original_sha256": "eb9e86b5e5e50b9fb41e0afb413e6323b7bdec973980ca1a5b1e235c5b3a906d"
+  },
+  "license": {
+    "name": "arXiv 非独占传播许可，图版另行授权未核实",
+    "status": "reference-only",
+    "note": "作者保留版权，未核实单独开放图形许可。arXiv v5 采用 arXiv 非独占传播许可。",
+    "evidence_url": "https://arxiv.org/abs/2202.05262v5"
+  },
+  "editability": {
+    "native_format": "author-supplied PDF",
+    "notes": [
+      "作者投稿源包中的独立 PDF。节点、箭头、大部分文字与热图单元保留矢量对象；三幅热图的色标为嵌入位图。"
+    ],
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 2250,
+    "pdf_image_placements": 3,
+    "selectable_words": 62
+  },
+  "changes": [
+    "从作者 TeX 源包原样提取 figs/info-flow-maps-crop.pdf，等比生成预览。",
+    "从作者独立 PDF 导出另附的 SVG，文字转为轮廓。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.pdf",
+      "bytes": 333571,
+      "sha256": "eb9e86b5e5e50b9fb41e0afb413e6323b7bdec973980ca1a5b1e235c5b3a906d"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 254172,
+      "sha256": "d241d3f1588da823cb631e185b70b097d3e856d0655559a3ea30bc405bad5d1f"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 952067,
+      "sha256": "2d11f790836563e8a9df879da72058d6f731d6960f7a619b9451f6675e710115"
+    }
+  ]
+}

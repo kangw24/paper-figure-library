@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "zebrafish-turn-triggered-trajectories",
+  "title": "斑马鱼转向 · 用上一次转弯对齐后五次游动",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "按事件对齐与汇总",
+    "斑马鱼",
+    "轨迹对齐",
+    "事件触发",
+    "历史依赖"
+  ],
+  "summary": "B 保留游动的原始路线，C 把一次转弯当作共同起点，旋转并对齐随后五次游动。前一次左转或右转的颜色贯穿时序和扇形轨迹，读者能直接看出历史如何影响接下来的方向。",
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Brain-wide mapping of neural activity controlling zebrafish exploratory locomotion",
+    "venue": "eLife",
+    "year": 2016,
+    "presentation": "journal-article",
+    "evidence_url": "https://elifesciences.org/articles/12741"
+  },
+  "curation": {
+    "layout_family": "按事件对齐与汇总",
+    "panel_labels": "A–L",
+    "panel_count": 12,
+    "reading_order": "A 说明怎样由航向记录识别转弯。B 从红框取出一段实测路线，绿点为左转，品红点为右转，点的大小随转角变化。C 左用同一套颜色按时间排列转角，右将每次转弯后的五次游动移到共同起点、对齐朝向，并用起始转弯方向着色。D–F 从转角分布、转向偏好和同向串长汇总这些事件。G–L 用左右运动神经信号推断虚拟转弯，重复这套分析。",
+    "why_selected": "B 保留游动的原始路线，C 把一次转弯当作共同起点，旋转并对齐随后五次游动。前一次左转或右转的颜色贯穿时序和扇形轨迹，读者能直接看出历史如何影响接下来的方向。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Timothy W Dunn",
+      "Yu Mu",
+      "Sujatha Narayan",
+      "Owen Randlett",
+      "Eva A Naumann",
+      "Chao-Tsung Yang",
+      "Alexander F Schier",
+      "Jeremy Freeman",
+      "Florian Engert",
+      "Misha B Ahrens"
+    ],
+    "doi": "10.7554/eLife.12741",
+    "urls": [
+      "https://elifesciences.org/articles/12741/figures#fig1",
+      "https://elifesciences.org/articles/12741",
+      "https://iiif.elifesciences.org/lax:12741%2Felife-12741-fig1-v2.tif/full/full/0/default.png",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC4841782.1/PMC4841782.1.pdf",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC4841782.1/PMC4841782.1.xml",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "article_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4841782.1/PMC4841782.1.pdf",
+    "article_pdf_sha256": "e231a98d7ba37e67a35b41a999e1e3dd59dcff016e524b18ff620c37ca679e0a",
+    "article_pdf_page": 4,
+    "original_url": "https://iiif.elifesciences.org/lax:12741%2Felife-12741-fig1-v2.tif/full/full/0/default.png",
+    "original_sha256": "6c03829f3cb567ab01bfa1690e572b045bdad14466574404b3adfea1dcd7fbce"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4841782.1/PMC4841782.1.xml",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "PNG",
+    "notes": [
+      "期刊图像服务器提供的完整 PNG（2677 × 2180）。正式论文 PDF 第 4 页的图像内容也是一整幅位图（1593 × 1297）。"
+    ],
+    "level": "raster-reference",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pixel_dimensions": [
+      2677,
+      2180
+    ]
+  },
+  "changes": [
+    "保存期刊发布的完整图像，等比生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.png",
+      "bytes": 1902996,
+      "sha256": "6c03829f3cb567ab01bfa1690e572b045bdad14466574404b3adfea1dcd7fbce"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 635852,
+      "sha256": "a4f0903423654c633a3f63f62f5d4bb57715271fe9128283d57d1addb361c571"
+    }
+  ]
+}

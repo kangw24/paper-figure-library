@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "visuomotor-halt-and-replay",
+  "title": "同一段视觉刺激在闭环和回放中对照",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "同一输入的干预对照",
+    "开环回放",
+    "闭环反馈",
+    "事件对齐"
+  ],
+  "summary": "原样回放闭环实验的视流序列，让同一次停顿出现在不同运动条件下。从 A 的刺激设计追到 C 的响应热图，再到 H 按误差大小汇成的比较。",
+  "formats": [
+    "png"
+  ],
+  "primary_file": "original.png",
+  "preview": "preview.png",
+  "publication": {
+    "title": "The locus coeruleus broadcasts prediction errors across the cortex to promote sensorimotor plasticity",
+    "venue": "eLife",
+    "year": 2023,
+    "presentation": "journal-article",
+    "evidence_url": "https://elifesciences.org/articles/85111"
+  },
+  "curation": {
+    "layout_family": "同一输入的干预对照",
+    "panel_labels": "A–H",
+    "panel_count": 8,
+    "reading_order": "A 右上绿色曲线在动物奔跑时停住 1 秒。右下回放同一段绿色视流，此时小鼠的运动不再控制画面。C 左右两列分别对齐闭环停顿和静止时的回放停顿，每列从速度与误差、各视场热图读到平均钙响应；D 把静止和运动时的回放分别列出。F、G 对视流启动作相应比较，H 最后将各条件的平均响应用同一条误差变化横轴表示。",
+    "why_selected": "原样回放闭环实验的视流序列，让同一次停顿出现在不同运动条件下。从 A 的刺激设计追到 C 的响应热图，再到 H 按误差大小汇成的比较。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Rebecca Jordan",
+      "Georg B Keller"
+    ],
+    "doi": "10.7554/eLife.85111.3",
+    "urls": [
+      "https://elifesciences.org/articles/85111/figures#fig1",
+      "https://elifesciences.org/articles/85111",
+      "https://iiif.elifesciences.org/lax:85111%2Felife-85111-fig1-v1.tif/full/full/0/default.png",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC10328511.1/PMC10328511.1.pdf",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC10328511.1/PMC10328511.1.xml",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://iiif.elifesciences.org/lax:85111%2Felife-85111-fig1-v1.tif/info.json",
+      "https://zenodo.org/records/8006972"
+    ],
+    "checked_date": "2026-11-20",
+    "article_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10328511.1/PMC10328511.1.pdf",
+    "article_pdf_sha256": "b4dafffa47adcaab1915a8003dbcdc8e32b6a363f9816d8dd18a46f984d16400",
+    "article_pdf_page": 3,
+    "original_url": "https://iiif.elifesciences.org/lax:85111%2Felife-85111-fig1-v1.tif/full/full/0/default.png",
+    "original_sha256": "f858af6a1989770f46b6946625bc0ea7928c43a73666607d9805aafd2a14acac"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10328511.1/PMC10328511.1.xml",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "PNG",
+    "notes": [
+      "eLife 图像服务提供 4651 × 4196 像素完整 PNG。出版 PDF 第 3 页将整幅图作为 2192 × 1978 像素位图嵌入。"
+    ],
+    "level": "raster-reference",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pixel_dimensions": [
+      4651,
+      4196
+    ]
+  },
+  "changes": [
+    "保存期刊发布的完整图像，等比生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.png",
+      "bytes": 3669381,
+      "sha256": "f858af6a1989770f46b6946625bc0ea7928c43a73666607d9805aafd2a14acac"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 922853,
+      "sha256": "c9d96c882153822eb9d843ed2208ecf8c337d80fda091f6823cfc101b6d0d7ed"
+    }
+  ]
+}

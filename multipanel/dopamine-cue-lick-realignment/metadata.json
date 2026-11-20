@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "id": "dopamine-cue-lick-realignment",
+  "title": "把同一批试次分别对齐提示与首次动作",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "按事件对齐与汇总",
+    "神经信号",
+    "双事件对齐",
+    "动作时刻分组"
+  ],
+  "summary": "同一批钙信号在横轴断口两侧分别对齐提示和首次舔舐。首次动作发生的早晚决定 B、C 中曲线的颜色与右侧对齐时刻。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Slowly evolving dopaminergic activity modulates the moment-to-moment probability of reward-related self-timed movements",
+    "venue": "eLife",
+    "year": 2021,
+    "presentation": "journal-article",
+    "evidence_url": "https://elifesciences.org/articles/62583"
+  },
+  "curation": {
+    "layout_family": "按事件对齐与汇总",
+    "panel_labels": "A–C",
+    "panel_count": 3,
+    "reading_order": "A 先取首次舔舐发生在提示后 3 至 3.25 秒的一组试次。沿绿色曲线从左读到断口，左端以提示为准，右端改按每次试验的首次舔舐对齐；黑色虚线标出这一动作。B 把早舔和晚舔的试次分组，用同色曲线与虚线标出每组的信号和动作时刻。C 放大纵轴，只绘到动作前 150 毫秒，可直接比较同一时间组的钙信号与对照荧光。",
+    "why_selected": "同一批钙信号在横轴断口两侧分别对齐提示和首次舔舐。首次动作发生的早晚决定 B、C 中曲线的颜色与右侧对齐时刻。"
+  },
+  "source": {
+    "figure_number": 2,
+    "authors": [
+      "Allison E Hamilos",
+      "Giulia Spedicato",
+      "Ye Hong",
+      "Fangmiao Sun",
+      "Yulong Li",
+      "John A Assad"
+    ],
+    "doi": "10.7554/eLife.62583",
+    "urls": [
+      "https://elifesciences.org/articles/62583/figures#fig2",
+      "https://elifesciences.org/articles/62583",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC8860451.1/PMC8860451.1.pdf",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC8860451.1/PMC8860451.1.xml",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://cdn.elifesciences.org/articles/62583/elife-62583-fig2-data1-v3.zip"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8860451.1/PMC8860451.1.pdf",
+    "full_pdf_sha256": "32abefeb283758bfc8373302bf29f47c00cf736a91f80bc4580f3d39158e2a5e",
+    "page_number": 5,
+    "crop_bbox_pt": [
+      35.0,
+      52.0,
+      491.0,
+      662.0
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8860451.1/PMC8860451.1.xml",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "cropped paper PDF",
+    "notes": [
+      "单页 PDF 保留信号曲线、坐标、虚线、文字和装置示意中的矢量对象；左侧示意中含少量小位图。"
+    ],
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 185,
+    "pdf_image_placements": 14,
+    "selectable_words": 54
+  },
+  "changes": [
+    "从来源论文 PDF 裁出整幅图版，等比生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 2899976,
+      "sha256": "3cccc550da6535119b5af3de4ee32b02f4654ad56ebe9208b0adf92538b127eb"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 463089,
+      "sha256": "53460c0b4b394ce1033c17c24a6e93e6d5ea7d4725dc61540365c784318a6341"
+    }
+  ]
+}

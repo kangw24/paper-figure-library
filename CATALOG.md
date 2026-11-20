@@ -8,7 +8,7 @@
 |---|---:|---|
 | Teaser 范例 | 76 | [浏览](teaser/README.md) |
 | Architecture 范例 | 69 | [浏览](architecture/README.md) |
-| 多面板大图 | 34 | [浏览](multipanel/README.md) |
+| 多面板大图 | 42 | [浏览](multipanel/README.md) |
 | Element 最小可复用元素 | 392 | [按内容与来源浏览](element/README.md) |
 
 完整机制参考由 Element 页链接，版式母版由 Architecture 页链接，均单独计数。

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "fox-symbolic-regression-pareto-isotherms",
+  "title": "符号回归 · 从帕累托拐点读到拟合曲线",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "帕累托前沿",
+    "符号回归",
+    "模型选择",
+    "候选公式",
+    "拟合曲线"
+  ],
+  "summary": "左列给出表达式复杂度与损失，右列把前沿上选出的表达式画回同一批氮吸附数据。图例中的复杂度编号把帕累托点、公式和预测曲线对应起来。",
+  "formats": [
+    "jpg"
+  ],
+  "primary_file": "original.jpg",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Incorporating background knowledge in symbolic regression using a computer algebra system",
+    "venue": "Machine Learning: Science and Technology",
+    "year": 2024,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1088/2632-2153/ad4a1e"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "四行 × 两列（图内无字母）",
+    "panel_count": 8,
+    "reading_order": "先读第一行左图。橙色前沿在复杂度 7 达到蓝色目标点，标注损失为 0.122。转到同一行右图，图例里的 [7] 给出对应公式，橙色吸附曲线与灰色目标曲线几乎重合；[5] 的蓝色直线在较高压力处继续上升。上下四行依次是关闭约束的 BSR、PySR 和打开约束的 BSR、PySR，同一套氮吸附观测重复出现在每一行右侧。",
+    "why_selected": "左列给出表达式复杂度与损失，右列把前沿上选出的表达式画回同一批氮吸附数据。图例中的复杂度编号把帕累托点、公式和预测曲线对应起来。"
+  },
+  "source": {
+    "figure_number": 5,
+    "authors": [
+      "Charles Fox",
+      "Neil D Tran",
+      "F Nikki Nacion",
+      "Samiha Sharlin",
+      "Tyler R Josephson"
+    ],
+    "doi": "10.1088/2632-2153/ad4a1e",
+    "urls": [
+      "https://iopscience.iop.org/article/10.1088/2632-2153/ad4a1e/pdf#page=9",
+      "https://doi.org/10.1088/2632-2153/ad4a1e",
+      "https://iopscience.iop.org/article/10.1088/2632-2153/ad4a1e/pdf",
+      "https://iopscience.iop.org/article/10.1088/2632-2153/ad4a1e/pdf#page=2",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://arxiv.org/src/2301.11919v2",
+      "https://github.com/ATOMSLab/pySR_adsorption"
+    ],
+    "checked_date": "2026-11-20",
+    "article_pdf_url": "https://iopscience.iop.org/article/10.1088/2632-2153/ad4a1e/pdf",
+    "article_pdf_sha256": "eb2d1412b15a7afed356984f19d10746eedc513d333e0fa7dbd72117d1ddcb0c",
+    "article_pdf_page": 9,
+    "article_pdf_image_xref": 588,
+    "article_pdf_image_bbox_pt": [
+      129.305,
+      77.436,
+      543.449,
+      639.78
+    ],
+    "original_sha256": "bf8e2019e6dcb836b7346a06aabf1958d9a38bfadd62518a3e107004d323e26c",
+    "extraction_method": "lossless embedded JPEG from the publication PDF"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://iopscience.iop.org/article/10.1088/2632-2153/ad4a1e/pdf#page=2",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "JPG",
+    "notes": [
+      "从期刊 PDF 第 9 页直接取出嵌入的完整 JPEG（1352 × 1835）。作者公开的 TeX 源包也以八幅 PNG 排成此图。"
+    ],
+    "level": "raster-reference",
+    "vector_shapes": false,
+    "editable_text": false,
+    "pixel_dimensions": [
+      1352,
+      1835
+    ]
+  },
+  "changes": [
+    "从期刊 PDF 中无损提取内嵌整图，等比生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.jpg",
+      "bytes": 449440,
+      "sha256": "bf8e2019e6dcb836b7346a06aabf1958d9a38bfadd62518a3e107004d323e26c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 522634,
+      "sha256": "dc2d5ff2ca9ae969b3a6639983416dad6f43d45a95a0867784af6acfcc496735"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "counts": {
     "teaser": 76,
     "architecture": 69,
-    "multipanel": 34,
+    "multipanel": 42,
     "element": 392,
     "mechanism": 17,
     "layout-template": 11
@@ -21800,6 +21800,112 @@
     },
     {
       "schema_version": 1,
+      "id": "bubble-coalescence-rescaled-time",
+      "title": "气泡合并 · 拟合出来的时间尺度成为下一幅图的纵轴",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "共用数据与坐标",
+        "尺度分析"
+      ],
+      "summary": "a 中不同黏度的数据原本分开。b 用各组各自的时间尺度把它们叠到一条曲线上，c 再拿这些拟合出的时间尺度作图。",
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Coalescence of bubbles and drops in an outer fluid",
+        "venue": "Nature Communications",
+        "year": 2014,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1038/ncomms4182"
+      },
+      "curation": {
+        "layout_family": "共用数据与坐标",
+        "panel_labels": "a–c",
+        "panel_count": 3,
+        "reading_order": "a 用颜色区分硅油黏度。选最右侧的黑色点列，在 b 中找到同色的数据：颈部半径除以气泡半径 A，时间除以这一组的拟合尺度 τ_out。c 把每组 τ_out 对外部流体黏度作图，并给出拟合误差。低黏度段近似水平，高黏度段上升，解释了 a 中各组相差的时间尺度。",
+        "why_selected": "a 中不同黏度的数据原本分开。b 用各组各自的时间尺度把它们叠到一条曲线上，c 再拿这些拟合出的时间尺度作图。"
+      },
+      "source": {
+        "figure_number": 2,
+        "authors": [
+          "Joseph D. Paulsen",
+          "Rémi Carmigniani",
+          "Anerudh Kannan",
+          "Justin C. Burton",
+          "Sidney R. Nagel"
+        ],
+        "doi": "10.1038/ncomms4182",
+        "urls": [
+          "https://www.nature.com/articles/ncomms4182/figures/2",
+          "https://doi.org/10.1038/ncomms4182",
+          "https://arxiv.org/src/1407.6657v1",
+          "https://arxiv.org/abs/1407.6657v1",
+          "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "version": "arXiv:1407.6657v1",
+        "tex_evidence": "Paulsen_20140724.tex:197",
+        "archive_url": "https://arxiv.org/src/1407.6657v1",
+        "archive_sha256": "d20499fe0bf09f868e7a29d85f80198762a823e7e8917eb1eb06253dd7042a77",
+        "archive_member": "Fig2.pdf",
+        "original_sha256": "df05636192c028a4ad64dab7557ccf385d86784d7341baffae1da2a1a5d9014f"
+      },
+      "license": {
+        "name": "arXiv 非独占传播许可，图版另行授权未核实",
+        "status": "reference-only",
+        "note": "作者源包采用 arXiv 非独占传播许可，单图另行复用的许可未核实。",
+        "evidence_url": "https://arxiv.org/abs/1407.6657v1",
+        "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": {
+        "native_format": "author-supplied PDF",
+        "notes": [
+          "作者在 TeX 源包中提供的独立矢量 PDF，三个面板的散点、参考线和轴标均保留。"
+        ],
+        "level": "vector",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 884,
+        "pdf_image_placements": 0,
+        "selectable_words": 49
+      },
+      "changes": [
+        "从作者 TeX 源包原样提取 Fig2.pdf，等比生成预览。",
+        "从作者独立 PDF 导出另附的 SVG，文字转为轮廓。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.pdf",
+          "bytes": 119065,
+          "sha256": "df05636192c028a4ad64dab7557ccf385d86784d7341baffae1da2a1a5d9014f"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 174632,
+          "sha256": "b13b1a859e1f28a1146ddf6c309208c31b6b2e5b46b07357c194a7b0fb457b92"
+        },
+        {
+          "path": "figure.svg",
+          "bytes": 404118,
+          "sha256": "b2356833c6006b0a4bb1451eab6d7778eac4fb5116782afa86c8102205a5847a"
+        }
+      ],
+      "path": "multipanel/bubble-coalescence-rescaled-time",
+      "metadata_path": "multipanel/bubble-coalescence-rescaled-time/metadata.json",
+      "readme_path": "multipanel/bubble-coalescence-rescaled-time/README.md",
+      "primary_path": "multipanel/bubble-coalescence-rescaled-time/original.pdf",
+      "preview_path": "multipanel/bubble-coalescence-rescaled-time/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "cebra-natural-movie-decoding",
       "title": "从视觉皮层活动解码电影帧",
       "category": "multipanel",
@@ -22115,6 +22221,113 @@
       "readme_path": "multipanel/dalle-contrastive-reranking-contact-sheet/README.md",
       "primary_path": "multipanel/dalle-contrastive-reranking-contact-sheet/figure.pdf",
       "preview_path": "multipanel/dalle-contrastive-reranking-contact-sheet/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "dopamine-cue-lick-realignment",
+      "title": "把同一批试次分别对齐提示与首次动作",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "按事件对齐与汇总",
+        "神经信号",
+        "双事件对齐",
+        "动作时刻分组"
+      ],
+      "summary": "同一批钙信号在横轴断口两侧分别对齐提示和首次舔舐。首次动作发生的早晚决定 B、C 中曲线的颜色与右侧对齐时刻。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Slowly evolving dopaminergic activity modulates the moment-to-moment probability of reward-related self-timed movements",
+        "venue": "eLife",
+        "year": 2021,
+        "presentation": "journal-article",
+        "evidence_url": "https://elifesciences.org/articles/62583"
+      },
+      "curation": {
+        "layout_family": "按事件对齐与汇总",
+        "panel_labels": "A–C",
+        "panel_count": 3,
+        "reading_order": "A 先取首次舔舐发生在提示后 3 至 3.25 秒的一组试次。沿绿色曲线从左读到断口，左端以提示为准，右端改按每次试验的首次舔舐对齐；黑色虚线标出这一动作。B 把早舔和晚舔的试次分组，用同色曲线与虚线标出每组的信号和动作时刻。C 放大纵轴，只绘到动作前 150 毫秒，可直接比较同一时间组的钙信号与对照荧光。",
+        "why_selected": "同一批钙信号在横轴断口两侧分别对齐提示和首次舔舐。首次动作发生的早晚决定 B、C 中曲线的颜色与右侧对齐时刻。"
+      },
+      "source": {
+        "figure_number": 2,
+        "authors": [
+          "Allison E Hamilos",
+          "Giulia Spedicato",
+          "Ye Hong",
+          "Fangmiao Sun",
+          "Yulong Li",
+          "John A Assad"
+        ],
+        "doi": "10.7554/eLife.62583",
+        "urls": [
+          "https://elifesciences.org/articles/62583/figures#fig2",
+          "https://elifesciences.org/articles/62583",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC8860451.1/PMC8860451.1.pdf",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC8860451.1/PMC8860451.1.xml",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://cdn.elifesciences.org/articles/62583/elife-62583-fig2-data1-v3.zip"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8860451.1/PMC8860451.1.pdf",
+        "full_pdf_sha256": "32abefeb283758bfc8373302bf29f47c00cf736a91f80bc4580f3d39158e2a5e",
+        "page_number": 5,
+        "crop_bbox_pt": [
+          35.0,
+          52.0,
+          491.0,
+          662.0
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8860451.1/PMC8860451.1.xml",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "cropped paper PDF",
+        "notes": [
+          "单页 PDF 保留信号曲线、坐标、虚线、文字和装置示意中的矢量对象；左侧示意中含少量小位图。"
+        ],
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 185,
+        "pdf_image_placements": 14,
+        "selectable_words": 54
+      },
+      "changes": [
+        "从来源论文 PDF 裁出整幅图版，等比生成预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 2899976,
+          "sha256": "3cccc550da6535119b5af3de4ee32b02f4654ad56ebe9208b0adf92538b127eb"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 463089,
+          "sha256": "53460c0b4b394ce1033c17c24a6e93e6d5ea7d4725dc61540365c784318a6341"
+        }
+      ],
+      "path": "multipanel/dopamine-cue-lick-realignment",
+      "metadata_path": "multipanel/dopamine-cue-lick-realignment/metadata.json",
+      "readme_path": "multipanel/dopamine-cue-lick-realignment/README.md",
+      "primary_path": "multipanel/dopamine-cue-lick-realignment/figure.pdf",
+      "preview_path": "multipanel/dopamine-cue-lick-realignment/preview.png"
     },
     {
       "schema_version": 1,
@@ -22515,6 +22728,226 @@
       "readme_path": "multipanel/flock-obstacle-time-and-formation/README.md",
       "primary_path": "multipanel/flock-obstacle-time-and-formation/figure.pdf",
       "preview_path": "multipanel/flock-obstacle-time-and-formation/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "fly-behavior-map-transition-matrix",
+      "title": "果蝇行为图谱 · 从个体列追到行为地图与转移矩阵",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "共用数据与坐标",
+        "行为图谱",
+        "个体追踪",
+        "矩阵与地图",
+        "状态转移"
+      ],
+      "summary": "C 为每只果蝇保留一列，三根引线把选中的列接到 D 中各自的行为概率地图。E、G、H 又把同一套行为分组带到相关矩阵、二维地图和相邻帧转移矩阵中。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "The structure of behavioral variation within a genotype",
+        "venue": "eLife",
+        "year": 2021,
+        "presentation": "journal-article",
+        "evidence_url": "https://elifesciences.org/articles/64988"
+      },
+      "curation": {
+        "layout_family": "共用数据与坐标",
+        "panel_labels": "A–H",
+        "panel_count": 8,
+        "reading_order": "先看 B 怎样把单果蝇录像转换成行为地图。C 每行代表一种行为，每列代表一只果蝇。D 三幅图来自 C 中被引线标出的三个个体，每幅沿用同一组区域边界，深浅表示这只果蝇在各行为上的概率。E 把行为按跨个体相关性分组，G 将组别颜色贴回地图，H 的对角分块对应同一分组，格子表示相邻视频帧从一种行为转到另一种的概率。",
+        "why_selected": "C 为每只果蝇保留一列，三根引线把选中的列接到 D 中各自的行为概率地图。E、G、H 又把同一套行为分组带到相关矩阵、二维地图和相邻帧转移矩阵中。"
+      },
+      "source": {
+        "figure_number": 2,
+        "authors": [
+          "Zachary Werkhoven",
+          "Alyssa Bravin",
+          "Kyobi Skutt-Kakaria",
+          "Pablo Reimers",
+          "Luisa F Pallares",
+          "Julien Ayroles",
+          "Benjamin L de Bivort"
+        ],
+        "doi": "10.7554/eLife.64988",
+        "urls": [
+          "https://elifesciences.org/articles/64988/figures#fig2",
+          "https://elifesciences.org/articles/64988",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC8526060.1/PMC8526060.1.pdf",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC8526060.1/PMC8526060.1.xml",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8526060.1/PMC8526060.1.pdf",
+        "full_pdf_sha256": "5f2c53a0d51d0b2fb32fd5057cd6dc2b560311ebc993aacb5fa35f85c85f45ca",
+        "page_number": 8,
+        "crop_bbox_pt": [
+          35.0,
+          52.0,
+          543.0,
+          480.0
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8526060.1/PMC8526060.1.xml",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "cropped paper PDF",
+        "notes": [
+          "论文 PDF 保留文字、面板引线、部分坐标与散点等矢量对象，行为热图、地图等含位图。"
+        ],
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 559,
+        "pdf_image_placements": 22,
+        "selectable_words": 106
+      },
+      "changes": [
+        "从来源论文 PDF 裁出整幅图版，等比生成预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 1079394,
+          "sha256": "f4e5d5daa8d73eecc089140f8331655249c9d1bd5ab7b6f11d8b40ddf62e09b3"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 672385,
+          "sha256": "fb935297fd2f67f4cae332e5ce6f9aac3cc3f86528f7902e40a3ab0e3a272536"
+        }
+      ],
+      "path": "multipanel/fly-behavior-map-transition-matrix",
+      "metadata_path": "multipanel/fly-behavior-map-transition-matrix/metadata.json",
+      "readme_path": "multipanel/fly-behavior-map-transition-matrix/README.md",
+      "primary_path": "multipanel/fly-behavior-map-transition-matrix/figure.pdf",
+      "preview_path": "multipanel/fly-behavior-map-transition-matrix/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "fox-symbolic-regression-pareto-isotherms",
+      "title": "符号回归 · 从帕累托拐点读到拟合曲线",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "帕累托前沿",
+        "符号回归",
+        "模型选择",
+        "候选公式",
+        "拟合曲线"
+      ],
+      "summary": "左列给出表达式复杂度与损失，右列把前沿上选出的表达式画回同一批氮吸附数据。图例中的复杂度编号把帕累托点、公式和预测曲线对应起来。",
+      "formats": [
+        "jpg"
+      ],
+      "primary_file": "original.jpg",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Incorporating background knowledge in symbolic regression using a computer algebra system",
+        "venue": "Machine Learning: Science and Technology",
+        "year": 2024,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1088/2632-2153/ad4a1e"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "四行 × 两列（图内无字母）",
+        "panel_count": 8,
+        "reading_order": "先读第一行左图。橙色前沿在复杂度 7 达到蓝色目标点，标注损失为 0.122。转到同一行右图，图例里的 [7] 给出对应公式，橙色吸附曲线与灰色目标曲线几乎重合；[5] 的蓝色直线在较高压力处继续上升。上下四行依次是关闭约束的 BSR、PySR 和打开约束的 BSR、PySR，同一套氮吸附观测重复出现在每一行右侧。",
+        "why_selected": "左列给出表达式复杂度与损失，右列把前沿上选出的表达式画回同一批氮吸附数据。图例中的复杂度编号把帕累托点、公式和预测曲线对应起来。"
+      },
+      "source": {
+        "figure_number": 5,
+        "authors": [
+          "Charles Fox",
+          "Neil D Tran",
+          "F Nikki Nacion",
+          "Samiha Sharlin",
+          "Tyler R Josephson"
+        ],
+        "doi": "10.1088/2632-2153/ad4a1e",
+        "urls": [
+          "https://iopscience.iop.org/article/10.1088/2632-2153/ad4a1e/pdf#page=9",
+          "https://doi.org/10.1088/2632-2153/ad4a1e",
+          "https://iopscience.iop.org/article/10.1088/2632-2153/ad4a1e/pdf",
+          "https://iopscience.iop.org/article/10.1088/2632-2153/ad4a1e/pdf#page=2",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://arxiv.org/src/2301.11919v2",
+          "https://github.com/ATOMSLab/pySR_adsorption"
+        ],
+        "checked_date": "2026-11-20",
+        "article_pdf_url": "https://iopscience.iop.org/article/10.1088/2632-2153/ad4a1e/pdf",
+        "article_pdf_sha256": "eb2d1412b15a7afed356984f19d10746eedc513d333e0fa7dbd72117d1ddcb0c",
+        "article_pdf_page": 9,
+        "article_pdf_image_xref": 588,
+        "article_pdf_image_bbox_pt": [
+          129.305,
+          77.436,
+          543.449,
+          639.78
+        ],
+        "original_sha256": "bf8e2019e6dcb836b7346a06aabf1958d9a38bfadd62518a3e107004d323e26c",
+        "extraction_method": "lossless embedded JPEG from the publication PDF"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://iopscience.iop.org/article/10.1088/2632-2153/ad4a1e/pdf#page=2",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "JPG",
+        "notes": [
+          "从期刊 PDF 第 9 页直接取出嵌入的完整 JPEG（1352 × 1835）。作者公开的 TeX 源包也以八幅 PNG 排成此图。"
+        ],
+        "level": "raster-reference",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pixel_dimensions": [
+          1352,
+          1835
+        ]
+      },
+      "changes": [
+        "从期刊 PDF 中无损提取内嵌整图，等比生成预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.jpg",
+          "bytes": 449440,
+          "sha256": "bf8e2019e6dcb836b7346a06aabf1958d9a38bfadd62518a3e107004d323e26c"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 522634,
+          "sha256": "dc2d5ff2ca9ae969b3a6639983416dad6f43d45a95a0867784af6acfcc496735"
+        }
+      ],
+      "path": "multipanel/fox-symbolic-regression-pareto-isotherms",
+      "metadata_path": "multipanel/fox-symbolic-regression-pareto-isotherms/metadata.json",
+      "readme_path": "multipanel/fox-symbolic-regression-pareto-isotherms/README.md",
+      "primary_path": "multipanel/fox-symbolic-regression-pareto-isotherms/original.jpg",
+      "preview_path": "multipanel/fox-symbolic-regression-pareto-isotherms/preview.png"
     },
     {
       "schema_version": 1,
@@ -24905,6 +25338,215 @@
     },
     {
       "schema_version": 1,
+      "id": "rome-causal-tracing-seattle",
+      "title": "ROME · 把一次激活恢复实验读成概率热图",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "同一输入的干预对照",
+        "因果追踪",
+        "激活恢复",
+        "语言模型",
+        "干预热图",
+        "NeurIPS"
+      ],
+      "summary": "同一句 Space Needle 提示贯穿正常、加噪和局部恢复三种计算。下排每个格子对应在一个指定位置恢复激活后，模型给 Seattle 分配的概率。",
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Locating and Editing Factual Associations in GPT",
+        "venue": "NeurIPS",
+        "year": 2022,
+        "presentation": "conference-paper",
+        "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html"
+      },
+      "curation": {
+        "layout_family": "同一输入的干预对照",
+        "panel_labels": "a–g",
+        "panel_count": 7,
+        "reading_order": "从 a 的正常输出 Seattle 开始，在 b 给地标名称的词嵌入加噪，再循 c 的紫色箭头把选定位置的正常激活复制回来。d 指出要观察的输出。e–g 固定同一提示和目标词，依次显示恢复隐藏状态、MLP 或注意力后的概率。沿地标末尾的 le* 行，f 在靠前的中间层出现绿色高值；g 的红色高值出现在 downtown 行的较后层。f 和 g 的横坐标标的是连续十层恢复窗口的中心。",
+        "why_selected": "同一句 Space Needle 提示贯穿正常、加噪和局部恢复三种计算。下排每个格子对应在一个指定位置恢复激活后，模型给 Seattle 分配的概率。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Kevin Meng",
+          "David Bau",
+          "Alex Andonian",
+          "Yonatan Belinkov"
+        ],
+        "doi": "10.52202/068431-1262",
+        "urls": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/file/6f1d43d5a82a37e89b0665b33bf3a182-Paper-Conference.pdf#page=2",
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html",
+          "https://arxiv.org/src/2202.05262v5",
+          "https://proceedings.neurips.cc/paper_files/paper/2022/file/6f1d43d5a82a37e89b0665b33bf3a182-Paper-Conference.pdf",
+          "https://arxiv.org/abs/2202.05262v5",
+          "https://nips.cc/FAQ/Copyright",
+          "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+          "https://rome.baulab.info/"
+        ],
+        "checked_date": "2026-11-20",
+        "article_pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/6f1d43d5a82a37e89b0665b33bf3a182-Paper-Conference.pdf",
+        "article_pdf_sha256": "d714e196bf8efa72ce6bc843b61a1e3e770f202911e6e5b26a6663910643e0a3",
+        "article_pdf_page": 2,
+        "tex_evidence": "figtext/info-flow-maps.tex:2",
+        "archive_url": "https://arxiv.org/src/2202.05262v5",
+        "archive_sha256": "b98f9baa6bfa132ea1a8e63cbd604a604cf8214832809efa0ba170228d5a911e",
+        "archive_member": "figs/info-flow-maps-crop.pdf",
+        "original_sha256": "eb9e86b5e5e50b9fb41e0afb413e6323b7bdec973980ca1a5b1e235c5b3a906d"
+      },
+      "license": {
+        "name": "arXiv 非独占传播许可，图版另行授权未核实",
+        "status": "reference-only",
+        "note": "作者保留版权，未核实单独开放图形许可。arXiv v5 采用 arXiv 非独占传播许可。",
+        "evidence_url": "https://arxiv.org/abs/2202.05262v5"
+      },
+      "editability": {
+        "native_format": "author-supplied PDF",
+        "notes": [
+          "作者投稿源包中的独立 PDF。节点、箭头、大部分文字与热图单元保留矢量对象；三幅热图的色标为嵌入位图。"
+        ],
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 2250,
+        "pdf_image_placements": 3,
+        "selectable_words": 62
+      },
+      "changes": [
+        "从作者 TeX 源包原样提取 figs/info-flow-maps-crop.pdf，等比生成预览。",
+        "从作者独立 PDF 导出另附的 SVG，文字转为轮廓。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.pdf",
+          "bytes": 333571,
+          "sha256": "eb9e86b5e5e50b9fb41e0afb413e6323b7bdec973980ca1a5b1e235c5b3a906d"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 254172,
+          "sha256": "d241d3f1588da823cb631e185b70b097d3e856d0655559a3ea30bc405bad5d1f"
+        },
+        {
+          "path": "figure.svg",
+          "bytes": 952067,
+          "sha256": "2d11f790836563e8a9df879da72058d6f731d6960f7a619b9451f6675e710115"
+        }
+      ],
+      "path": "multipanel/rome-causal-tracing-seattle",
+      "metadata_path": "multipanel/rome-causal-tracing-seattle/metadata.json",
+      "readme_path": "multipanel/rome-causal-tracing-seattle/README.md",
+      "primary_path": "multipanel/rome-causal-tracing-seattle/original.pdf",
+      "preview_path": "multipanel/rome-causal-tracing-seattle/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "sindy-lorenz-active-terms",
+      "title": "SINDy · 从稀疏系数读回方程和轨迹",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "符号回归"
+      ],
+      "summary": "沿蓝色的 x 导数读下去，候选项只剩 x 和 y。右上表中对应的两个非零系数决定右侧方程，方程再生成右下的轨迹。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems",
+        "venue": "PNAS",
+        "year": 2016,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1073/pnas.1517384113"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "I–III（含系数表和分项展开）",
+        "panel_count": 3,
+        "reading_order": "I 给出作为参照的 Lorenz 方程及其轨迹。选蓝色导数列，沿 II 左边的小图寻找保留的候选项 x、y，再到右上表的第一列核对系数 −9.9996 和 9.9998。它们构成 III 中第一条识别方程。最后比较左右两幅相图中原系统与识别系统的轨迹形状。",
+        "why_selected": "沿蓝色的 x 导数读下去，候选项只剩 x 和 y。右上表中对应的两个非零系数决定右侧方程，方程再生成右下的轨迹。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Steven L. Brunton",
+          "Joshua L. Proctor",
+          "J. Nathan Kutz"
+        ],
+        "doi": "10.1073/pnas.1517384113",
+        "urls": [
+          "https://doi.org/10.1073/pnas.1517384113",
+          "https://arxiv.org/src/1509.03580v1",
+          "https://arxiv.org/abs/1509.03580v1",
+          "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "version": "arXiv:1509.03580v1",
+        "tex_evidence": "arxiv.tex:335",
+        "archive_url": "https://arxiv.org/src/1509.03580v1",
+        "archive_sha256": "9872903757f5879b22a72cc44287e2f4987d782126009615ff942922b76df3ae",
+        "archive_member": "FIG00_BIG4.pdf",
+        "original_sha256": "7c0bce576d5e2574188c5b6b953c52bf640cfd1337a25746a6e2b61cb5f7c542"
+      },
+      "license": {
+        "name": "arXiv 非独占传播许可，图版另行授权未核实",
+        "status": "reference-only",
+        "note": "作者源包采用 arXiv 非独占传播许可，单图另行复用的许可未核实。",
+        "evidence_url": "https://arxiv.org/abs/1509.03580v1",
+        "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      },
+      "editability": {
+        "native_format": "author-supplied PDF",
+        "notes": [
+          "作者在预印本 v1 中使用的独立 PDF。矩阵线条、系数表和部分文字可分别选择，图中也有内嵌图像。"
+        ],
+        "level": "vector-and-raster",
+        "vector_shapes": true,
+        "editable_text": true,
+        "pdf_drawing_objects": 2923,
+        "pdf_image_placements": 18,
+        "selectable_words": 297
+      },
+      "changes": [
+        "从作者 TeX 源包原样提取 FIG00_BIG4.pdf，等比生成预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.pdf",
+          "bytes": 3382267,
+          "sha256": "7c0bce576d5e2574188c5b6b953c52bf640cfd1337a25746a6e2b61cb5f7c542"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 273992,
+          "sha256": "e548bdeb09db3235b5dbfa55b7094ca4cfae0b611b8ab2b30b818700fc5bfee7"
+        }
+      ],
+      "path": "multipanel/sindy-lorenz-active-terms",
+      "metadata_path": "multipanel/sindy-lorenz-active-terms/metadata.json",
+      "readme_path": "multipanel/sindy-lorenz-active-terms/README.md",
+      "primary_path": "multipanel/sindy-lorenz-active-terms/original.pdf",
+      "preview_path": "multipanel/sindy-lorenz-active-terms/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "tcv-plasma-control-demonstrations",
       "title": "TCV · 四种等离子体构型的控制轨迹",
       "category": "multipanel",
@@ -25146,6 +25788,107 @@
     },
     {
       "schema_version": 1,
+      "id": "visuomotor-halt-and-replay",
+      "title": "同一段视觉刺激在闭环和回放中对照",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "同一输入的干预对照",
+        "开环回放",
+        "闭环反馈",
+        "事件对齐"
+      ],
+      "summary": "原样回放闭环实验的视流序列，让同一次停顿出现在不同运动条件下。从 A 的刺激设计追到 C 的响应热图，再到 H 按误差大小汇成的比较。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "The locus coeruleus broadcasts prediction errors across the cortex to promote sensorimotor plasticity",
+        "venue": "eLife",
+        "year": 2023,
+        "presentation": "journal-article",
+        "evidence_url": "https://elifesciences.org/articles/85111"
+      },
+      "curation": {
+        "layout_family": "同一输入的干预对照",
+        "panel_labels": "A–H",
+        "panel_count": 8,
+        "reading_order": "A 右上绿色曲线在动物奔跑时停住 1 秒。右下回放同一段绿色视流，此时小鼠的运动不再控制画面。C 左右两列分别对齐闭环停顿和静止时的回放停顿，每列从速度与误差、各视场热图读到平均钙响应；D 把静止和运动时的回放分别列出。F、G 对视流启动作相应比较，H 最后将各条件的平均响应用同一条误差变化横轴表示。",
+        "why_selected": "原样回放闭环实验的视流序列，让同一次停顿出现在不同运动条件下。从 A 的刺激设计追到 C 的响应热图，再到 H 按误差大小汇成的比较。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Rebecca Jordan",
+          "Georg B Keller"
+        ],
+        "doi": "10.7554/eLife.85111.3",
+        "urls": [
+          "https://elifesciences.org/articles/85111/figures#fig1",
+          "https://elifesciences.org/articles/85111",
+          "https://iiif.elifesciences.org/lax:85111%2Felife-85111-fig1-v1.tif/full/full/0/default.png",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC10328511.1/PMC10328511.1.pdf",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC10328511.1/PMC10328511.1.xml",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://iiif.elifesciences.org/lax:85111%2Felife-85111-fig1-v1.tif/info.json",
+          "https://zenodo.org/records/8006972"
+        ],
+        "checked_date": "2026-11-20",
+        "article_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10328511.1/PMC10328511.1.pdf",
+        "article_pdf_sha256": "b4dafffa47adcaab1915a8003dbcdc8e32b6a363f9816d8dd18a46f984d16400",
+        "article_pdf_page": 3,
+        "original_url": "https://iiif.elifesciences.org/lax:85111%2Felife-85111-fig1-v1.tif/full/full/0/default.png",
+        "original_sha256": "f858af6a1989770f46b6946625bc0ea7928c43a73666607d9805aafd2a14acac"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10328511.1/PMC10328511.1.xml",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "PNG",
+        "notes": [
+          "eLife 图像服务提供 4651 × 4196 像素完整 PNG。出版 PDF 第 3 页将整幅图作为 2192 × 1978 像素位图嵌入。"
+        ],
+        "level": "raster-reference",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pixel_dimensions": [
+          4651,
+          4196
+        ]
+      },
+      "changes": [
+        "保存期刊发布的完整图像，等比生成预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 3669381,
+          "sha256": "f858af6a1989770f46b6946625bc0ea7928c43a73666607d9805aafd2a14acac"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 922853,
+          "sha256": "c9d96c882153822eb9d843ed2208ecf8c337d80fda091f6823cfc101b6d0d7ed"
+        }
+      ],
+      "path": "multipanel/visuomotor-halt-and-replay",
+      "metadata_path": "multipanel/visuomotor-halt-and-replay/metadata.json",
+      "readme_path": "multipanel/visuomotor-halt-and-replay/README.md",
+      "primary_path": "multipanel/visuomotor-halt-and-replay/original.png",
+      "preview_path": "multipanel/visuomotor-halt-and-replay/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "waffle-solar-distiller-thermal-sequence",
       "title": "同一束光下比较两种海水蒸发器",
       "category": "multipanel",
@@ -25256,6 +25999,114 @@
       "readme_path": "multipanel/waffle-solar-distiller-thermal-sequence/README.md",
       "primary_path": "multipanel/waffle-solar-distiller-thermal-sequence/figure.pdf",
       "preview_path": "multipanel/waffle-solar-distiller-thermal-sequence/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "zebrafish-turn-triggered-trajectories",
+      "title": "斑马鱼转向 · 用上一次转弯对齐后五次游动",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "按事件对齐与汇总",
+        "斑马鱼",
+        "轨迹对齐",
+        "事件触发",
+        "历史依赖"
+      ],
+      "summary": "B 保留游动的原始路线，C 把一次转弯当作共同起点，旋转并对齐随后五次游动。前一次左转或右转的颜色贯穿时序和扇形轨迹，读者能直接看出历史如何影响接下来的方向。",
+      "formats": [
+        "png"
+      ],
+      "primary_file": "original.png",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Brain-wide mapping of neural activity controlling zebrafish exploratory locomotion",
+        "venue": "eLife",
+        "year": 2016,
+        "presentation": "journal-article",
+        "evidence_url": "https://elifesciences.org/articles/12741"
+      },
+      "curation": {
+        "layout_family": "按事件对齐与汇总",
+        "panel_labels": "A–L",
+        "panel_count": 12,
+        "reading_order": "A 说明怎样由航向记录识别转弯。B 从红框取出一段实测路线，绿点为左转，品红点为右转，点的大小随转角变化。C 左用同一套颜色按时间排列转角，右将每次转弯后的五次游动移到共同起点、对齐朝向，并用起始转弯方向着色。D–F 从转角分布、转向偏好和同向串长汇总这些事件。G–L 用左右运动神经信号推断虚拟转弯，重复这套分析。",
+        "why_selected": "B 保留游动的原始路线，C 把一次转弯当作共同起点，旋转并对齐随后五次游动。前一次左转或右转的颜色贯穿时序和扇形轨迹，读者能直接看出历史如何影响接下来的方向。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Timothy W Dunn",
+          "Yu Mu",
+          "Sujatha Narayan",
+          "Owen Randlett",
+          "Eva A Naumann",
+          "Chao-Tsung Yang",
+          "Alexander F Schier",
+          "Jeremy Freeman",
+          "Florian Engert",
+          "Misha B Ahrens"
+        ],
+        "doi": "10.7554/eLife.12741",
+        "urls": [
+          "https://elifesciences.org/articles/12741/figures#fig1",
+          "https://elifesciences.org/articles/12741",
+          "https://iiif.elifesciences.org/lax:12741%2Felife-12741-fig1-v2.tif/full/full/0/default.png",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC4841782.1/PMC4841782.1.pdf",
+          "https://pmc-oa-opendata.s3.amazonaws.com/PMC4841782.1/PMC4841782.1.xml",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ],
+        "checked_date": "2026-11-20",
+        "article_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4841782.1/PMC4841782.1.pdf",
+        "article_pdf_sha256": "e231a98d7ba37e67a35b41a999e1e3dd59dcff016e524b18ff620c37ca679e0a",
+        "article_pdf_page": 4,
+        "original_url": "https://iiif.elifesciences.org/lax:12741%2Felife-12741-fig1-v2.tif/full/full/0/default.png",
+        "original_sha256": "6c03829f3cb567ab01bfa1690e572b045bdad14466574404b3adfea1dcd7fbce"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4841782.1/PMC4841782.1.xml",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "PNG",
+        "notes": [
+          "期刊图像服务器提供的完整 PNG（2677 × 2180）。正式论文 PDF 第 4 页的图像内容也是一整幅位图（1593 × 1297）。"
+        ],
+        "level": "raster-reference",
+        "vector_shapes": false,
+        "editable_text": false,
+        "pixel_dimensions": [
+          2677,
+          2180
+        ]
+      },
+      "changes": [
+        "保存期刊发布的完整图像，等比生成预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.png",
+          "bytes": 1902996,
+          "sha256": "6c03829f3cb567ab01bfa1690e572b045bdad14466574404b3adfea1dcd7fbce"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 635852,
+          "sha256": "a4f0903423654c633a3f63f62f5d4bb57715271fe9128283d57d1addb361c571"
+        }
+      ],
+      "path": "multipanel/zebrafish-turn-triggered-trajectories",
+      "metadata_path": "multipanel/zebrafish-turn-triggered-trajectories/metadata.json",
+      "readme_path": "multipanel/zebrafish-turn-triggered-trajectories/README.md",
+      "primary_path": "multipanel/zebrafish-turn-triggered-trajectories/original.png",
+      "preview_path": "multipanel/zebrafish-turn-triggered-trajectories/preview.png"
     },
     {
       "schema_version": 1,

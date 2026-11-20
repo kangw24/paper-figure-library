@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "fly-behavior-map-transition-matrix",
+  "title": "果蝇行为图谱 · 从个体列追到行为地图与转移矩阵",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "共用数据与坐标",
+    "行为图谱",
+    "个体追踪",
+    "矩阵与地图",
+    "状态转移"
+  ],
+  "summary": "C 为每只果蝇保留一列，三根引线把选中的列接到 D 中各自的行为概率地图。E、G、H 又把同一套行为分组带到相关矩阵、二维地图和相邻帧转移矩阵中。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "The structure of behavioral variation within a genotype",
+    "venue": "eLife",
+    "year": 2021,
+    "presentation": "journal-article",
+    "evidence_url": "https://elifesciences.org/articles/64988"
+  },
+  "curation": {
+    "layout_family": "共用数据与坐标",
+    "panel_labels": "A–H",
+    "panel_count": 8,
+    "reading_order": "先看 B 怎样把单果蝇录像转换成行为地图。C 每行代表一种行为，每列代表一只果蝇。D 三幅图来自 C 中被引线标出的三个个体，每幅沿用同一组区域边界，深浅表示这只果蝇在各行为上的概率。E 把行为按跨个体相关性分组，G 将组别颜色贴回地图，H 的对角分块对应同一分组，格子表示相邻视频帧从一种行为转到另一种的概率。",
+    "why_selected": "C 为每只果蝇保留一列，三根引线把选中的列接到 D 中各自的行为概率地图。E、G、H 又把同一套行为分组带到相关矩阵、二维地图和相邻帧转移矩阵中。"
+  },
+  "source": {
+    "figure_number": 2,
+    "authors": [
+      "Zachary Werkhoven",
+      "Alyssa Bravin",
+      "Kyobi Skutt-Kakaria",
+      "Pablo Reimers",
+      "Luisa F Pallares",
+      "Julien Ayroles",
+      "Benjamin L de Bivort"
+    ],
+    "doi": "10.7554/eLife.64988",
+    "urls": [
+      "https://elifesciences.org/articles/64988/figures#fig2",
+      "https://elifesciences.org/articles/64988",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC8526060.1/PMC8526060.1.pdf",
+      "https://pmc-oa-opendata.s3.amazonaws.com/PMC8526060.1/PMC8526060.1.xml",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "full_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8526060.1/PMC8526060.1.pdf",
+    "full_pdf_sha256": "5f2c53a0d51d0b2fb32fd5057cd6dc2b560311ebc993aacb5fa35f85c85f45ca",
+    "page_number": 8,
+    "crop_bbox_pt": [
+      35.0,
+      52.0,
+      543.0,
+      480.0
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8526060.1/PMC8526060.1.xml",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "cropped paper PDF",
+    "notes": [
+      "论文 PDF 保留文字、面板引线、部分坐标与散点等矢量对象，行为热图、地图等含位图。"
+    ],
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 559,
+    "pdf_image_placements": 22,
+    "selectable_words": 106
+  },
+  "changes": [
+    "从来源论文 PDF 裁出整幅图版，等比生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 1079394,
+      "sha256": "f4e5d5daa8d73eecc089140f8331655249c9d1bd5ab7b6f11d8b40ddf62e09b3"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 672385,
+      "sha256": "fb935297fd2f67f4cae332e5ce6f9aac3cc3f86528f7902e40a3ab0e3a272536"
+    }
+  ]
+}

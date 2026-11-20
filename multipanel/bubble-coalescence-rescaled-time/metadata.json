@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "bubble-coalescence-rescaled-time",
+  "title": "气泡合并 · 拟合出来的时间尺度成为下一幅图的纵轴",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "共用数据与坐标",
+    "尺度分析"
+  ],
+  "summary": "a 中不同黏度的数据原本分开。b 用各组各自的时间尺度把它们叠到一条曲线上，c 再拿这些拟合出的时间尺度作图。",
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Coalescence of bubbles and drops in an outer fluid",
+    "venue": "Nature Communications",
+    "year": 2014,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1038/ncomms4182"
+  },
+  "curation": {
+    "layout_family": "共用数据与坐标",
+    "panel_labels": "a–c",
+    "panel_count": 3,
+    "reading_order": "a 用颜色区分硅油黏度。选最右侧的黑色点列，在 b 中找到同色的数据：颈部半径除以气泡半径 A，时间除以这一组的拟合尺度 τ_out。c 把每组 τ_out 对外部流体黏度作图，并给出拟合误差。低黏度段近似水平，高黏度段上升，解释了 a 中各组相差的时间尺度。",
+    "why_selected": "a 中不同黏度的数据原本分开。b 用各组各自的时间尺度把它们叠到一条曲线上，c 再拿这些拟合出的时间尺度作图。"
+  },
+  "source": {
+    "figure_number": 2,
+    "authors": [
+      "Joseph D. Paulsen",
+      "Rémi Carmigniani",
+      "Anerudh Kannan",
+      "Justin C. Burton",
+      "Sidney R. Nagel"
+    ],
+    "doi": "10.1038/ncomms4182",
+    "urls": [
+      "https://www.nature.com/articles/ncomms4182/figures/2",
+      "https://doi.org/10.1038/ncomms4182",
+      "https://arxiv.org/src/1407.6657v1",
+      "https://arxiv.org/abs/1407.6657v1",
+      "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "version": "arXiv:1407.6657v1",
+    "tex_evidence": "Paulsen_20140724.tex:197",
+    "archive_url": "https://arxiv.org/src/1407.6657v1",
+    "archive_sha256": "d20499fe0bf09f868e7a29d85f80198762a823e7e8917eb1eb06253dd7042a77",
+    "archive_member": "Fig2.pdf",
+    "original_sha256": "df05636192c028a4ad64dab7557ccf385d86784d7341baffae1da2a1a5d9014f"
+  },
+  "license": {
+    "name": "arXiv 非独占传播许可，图版另行授权未核实",
+    "status": "reference-only",
+    "note": "作者源包采用 arXiv 非独占传播许可，单图另行复用的许可未核实。",
+    "evidence_url": "https://arxiv.org/abs/1407.6657v1",
+    "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "editability": {
+    "native_format": "author-supplied PDF",
+    "notes": [
+      "作者在 TeX 源包中提供的独立矢量 PDF，三个面板的散点、参考线和轴标均保留。"
+    ],
+    "level": "vector",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 884,
+    "pdf_image_placements": 0,
+    "selectable_words": 49
+  },
+  "changes": [
+    "从作者 TeX 源包原样提取 Fig2.pdf，等比生成预览。",
+    "从作者独立 PDF 导出另附的 SVG，文字转为轮廓。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.pdf",
+      "bytes": 119065,
+      "sha256": "df05636192c028a4ad64dab7557ccf385d86784d7341baffae1da2a1a5d9014f"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 174632,
+      "sha256": "b13b1a859e1f28a1146ddf6c309208c31b6b2e5b46b07357c194a7b0fb457b92"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 404118,
+      "sha256": "b2356833c6006b0a4bb1451eab6d7778eac4fb5116782afa86c8102205a5847a"
+    }
+  ]
+}

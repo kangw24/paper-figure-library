@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "sindy-lorenz-active-terms",
+  "title": "SINDy · 从稀疏系数读回方程和轨迹",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "符号回归"
+  ],
+  "summary": "沿蓝色的 x 导数读下去，候选项只剩 x 和 y。右上表中对应的两个非零系数决定右侧方程，方程再生成右下的轨迹。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems",
+    "venue": "PNAS",
+    "year": 2016,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1073/pnas.1517384113"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "I–III（含系数表和分项展开）",
+    "panel_count": 3,
+    "reading_order": "I 给出作为参照的 Lorenz 方程及其轨迹。选蓝色导数列，沿 II 左边的小图寻找保留的候选项 x、y，再到右上表的第一列核对系数 −9.9996 和 9.9998。它们构成 III 中第一条识别方程。最后比较左右两幅相图中原系统与识别系统的轨迹形状。",
+    "why_selected": "沿蓝色的 x 导数读下去，候选项只剩 x 和 y。右上表中对应的两个非零系数决定右侧方程，方程再生成右下的轨迹。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Steven L. Brunton",
+      "Joshua L. Proctor",
+      "J. Nathan Kutz"
+    ],
+    "doi": "10.1073/pnas.1517384113",
+    "urls": [
+      "https://doi.org/10.1073/pnas.1517384113",
+      "https://arxiv.org/src/1509.03580v1",
+      "https://arxiv.org/abs/1509.03580v1",
+      "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+    ],
+    "checked_date": "2026-11-20",
+    "version": "arXiv:1509.03580v1",
+    "tex_evidence": "arxiv.tex:335",
+    "archive_url": "https://arxiv.org/src/1509.03580v1",
+    "archive_sha256": "9872903757f5879b22a72cc44287e2f4987d782126009615ff942922b76df3ae",
+    "archive_member": "FIG00_BIG4.pdf",
+    "original_sha256": "7c0bce576d5e2574188c5b6b953c52bf640cfd1337a25746a6e2b61cb5f7c542"
+  },
+  "license": {
+    "name": "arXiv 非独占传播许可，图版另行授权未核实",
+    "status": "reference-only",
+    "note": "作者源包采用 arXiv 非独占传播许可，单图另行复用的许可未核实。",
+    "evidence_url": "https://arxiv.org/abs/1509.03580v1",
+    "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+  },
+  "editability": {
+    "native_format": "author-supplied PDF",
+    "notes": [
+      "作者在预印本 v1 中使用的独立 PDF。矩阵线条、系数表和部分文字可分别选择，图中也有内嵌图像。"
+    ],
+    "level": "vector-and-raster",
+    "vector_shapes": true,
+    "editable_text": true,
+    "pdf_drawing_objects": 2923,
+    "pdf_image_placements": 18,
+    "selectable_words": 297
+  },
+  "changes": [
+    "从作者 TeX 源包原样提取 FIG00_BIG4.pdf，等比生成预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.pdf",
+      "bytes": 3382267,
+      "sha256": "7c0bce576d5e2574188c5b6b953c52bf640cfd1337a25746a6e2b61cb5f7c542"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 273992,
+      "sha256": "e548bdeb09db3235b5dbfa55b7094ca4cfae0b611b8ab2b30b818700fc5bfee7"
+    }
+  ]
+}

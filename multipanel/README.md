@@ -2,11 +2,11 @@
 
 [仓库首页](../README.md) · [总目录](../CATALOG.md) · [Teaser](../teaser/README.md) · [Architecture](../architecture/README.md) · [Element](../element/README.md)
 
-34 幅完整论文图，按面板之间的关系浏览。点击缩略图可查看高清图版、逐面板解读和出处。
+42 幅完整论文图，按面板之间的关系浏览。点击缩略图可查看高清图版、逐面板解读和出处。
 
-其中 25 幅 PDF 保留可编辑的矢量路径，9 幅保留为位图参考。
+其中 30 幅 PDF 保留可编辑的矢量路径，12 幅保留为位图参考。
 
-[装置、过程与测量（6）](#apparatus) · [同一对象的多种证据（4）](#evidence) · [从整体到局部（6）](#scales) · [多工况与方法对照（6）](#comparisons) · [引线与局部展开（5）](#cross-panel-links) · [共用数据与坐标（7）](#linked-data)
+[装置、过程与测量（6）](#apparatus) · [同一对象的多种证据（4）](#evidence) · [从整体到局部（6）](#scales) · [多工况与方法对照（6）](#comparisons) · [引线与局部展开（5）](#cross-panel-links) · [共用数据与坐标（9）](#linked-data) · [从模型选择读到输出（2）](#model-to-output) · [同一输入的干预对照（2）](#paired-interventions) · [按事件对齐与汇总（2）](#event-alignment)
 
 <a id="apparatus"></a>
 
@@ -65,7 +65,32 @@
 |---|---|
 | <a href="upsetr-intersection-and-attributes/README.md"><img src="upsetr-intersection-and-attributes/preview.png" alt="UpSetR · 同一列连起集合组合、计数与属性" width="340"></a><br>**[UpSetR · 同一列连起集合组合、计数与属性](upsetr-intersection-and-attributes/README.md)**<br>Bioinformatics 2017 · Fig. 1 · 原图无字母 · 按五个功能区阅读 · 矢量与位图混合<br>点阵的一列定义一个集合交集。沿列向上读其计数，再沿颜色去找下方对应的属性热图，可以一直追踪同一批变异。 | <a href="microchannel-flow-field-and-profiles/README.md"><img src="microchannel-flow-field-and-profiles/preview.png" alt="收缩微通道 · 从二维速度场取剖面和导数" width="340"></a><br>**[收缩微通道 · 从二维速度场取剖面和导数](microchannel-flow-field-and-profiles/README.md)**<br>Experiments in Fluids 2020 · Fig. 8 · a–e · 位图参考<br>a 把实验与仿真放进同一通道轮廓。d 从中心轴取出速度，e 再对轴向位置求导，将二维图中的加速与减速变成可读的曲线。 |
 | <a href="frb-dynamic-spectrum-projections/README.md"><img src="frb-dynamic-spectrum-projections/preview.png" alt="快速射电暴 · 时频图和两侧投影共用坐标" width="340"></a><br>**[快速射电暴 · 时频图和两侧投影共用坐标](frb-dynamic-spectrum-projections/README.md)**<br>Nature Astronomy 2024 · Fig. 2 · a–l · 矢量与位图混合<br>每次暴发占一列。热图上方是沿频率平均的时间波形，彩条选中的时间窗又决定右侧频谱使用哪些数据。 | <a href="aml-clonal-lineage-and-sampling/README.md"><img src="aml-clonal-lineage-and-sampling/preview.png" alt="克隆演化 · 谱系树的末端接到五次采样" width="340"></a><br>**[克隆演化 · 谱系树的末端接到五次采样](aml-clonal-lineage-and-sampling/README.md)**<br>Nature Communications 2020 · Fig. 7 · 原图无字母 · 谱系、采样与推断 · 矢量与位图混合<br>左侧分支接到下方气泡矩阵的一行，每列对应一次采样。上方同色面积带表示由离散观测推断的克隆比例随时间变化。 |
-| <a href="estimation-plot-aligned-difference/README.md"><img src="estimation-plot-aligned-difference/preview.png" alt="估计图 · 左侧对照均值就是右侧差值零点" width="340"></a><br>**[估计图 · 左侧对照均值就是右侧差值零点](estimation-plot-aligned-difference/README.md)**<br>Nature Methods 2019 · Fig. 1 · a–e · 位图参考<br>e 把右侧差值轴的零点放在左侧对照组均值的高度，处理组均值对应右侧的差值点。左右两边用同一段垂直距离表达组间差异。 | <a href="gw150914-strain-reconstruction-residuals/README.md"><img src="gw150914-strain-reconstruction-residuals/preview.png" alt="GW150914 · 实测与模型相减得到下一行残差" width="340"></a><br>**[GW150914 · 实测与模型相减得到下一行残差](gw150914-strain-reconstruction-residuals/README.md)**<br>Physical Review Letters 2016 · Fig. 1 · 原图无字母 · 两列各四行 · 矢量与位图混合<br>每个探测器占一列，记录、模型、残差与时频图沿同一时间轴展开。第三行的每个点都能回到前两行，核对同一时刻相减的两个值。 |
-| <a href="european-power-exchange-chords/README.md"><img src="european-power-exchange-chords/preview.png" alt="欧洲电网 · 沿交换带读到地区总量和份额" width="340"></a><br>**[欧洲电网 · 沿交换带读到地区总量和份额](european-power-exchange-chords/README.md)**<br>Renewable Energy 2019 · Fig. 18 · 原图无字母 · 三层同心视图 · 位图参考<br>弦带连接一对电力交换地区，带宽表示电量。顺着端点读到同一地区的弧段，能在同一角位置读取 TWh 刻度和外层百分比。 |  |
+| <a href="bubble-coalescence-rescaled-time/README.md"><img src="bubble-coalescence-rescaled-time/preview.png" alt="气泡合并 · 拟合出来的时间尺度成为下一幅图的纵轴" width="340"></a><br>**[气泡合并 · 拟合出来的时间尺度成为下一幅图的纵轴](bubble-coalescence-rescaled-time/README.md)**<br>Nature Communications 2014 · Fig. 2 · a–c · 矢量<br>a 中不同黏度的数据原本分开。b 用各组各自的时间尺度把它们叠到一条曲线上，c 再拿这些拟合出的时间尺度作图。 | <a href="estimation-plot-aligned-difference/README.md"><img src="estimation-plot-aligned-difference/preview.png" alt="估计图 · 左侧对照均值就是右侧差值零点" width="340"></a><br>**[估计图 · 左侧对照均值就是右侧差值零点](estimation-plot-aligned-difference/README.md)**<br>Nature Methods 2019 · Fig. 1 · a–e · 位图参考<br>e 把右侧差值轴的零点放在左侧对照组均值的高度，处理组均值对应右侧的差值点。左右两边用同一段垂直距离表达组间差异。 |
+| <a href="gw150914-strain-reconstruction-residuals/README.md"><img src="gw150914-strain-reconstruction-residuals/preview.png" alt="GW150914 · 实测与模型相减得到下一行残差" width="340"></a><br>**[GW150914 · 实测与模型相减得到下一行残差](gw150914-strain-reconstruction-residuals/README.md)**<br>Physical Review Letters 2016 · Fig. 1 · 原图无字母 · 两列各四行 · 矢量与位图混合<br>每个探测器占一列，记录、模型、残差与时频图沿同一时间轴展开。第三行的每个点都能回到前两行，核对同一时刻相减的两个值。 | <a href="european-power-exchange-chords/README.md"><img src="european-power-exchange-chords/preview.png" alt="欧洲电网 · 沿交换带读到地区总量和份额" width="340"></a><br>**[欧洲电网 · 沿交换带读到地区总量和份额](european-power-exchange-chords/README.md)**<br>Renewable Energy 2019 · Fig. 18 · 原图无字母 · 三层同心视图 · 位图参考<br>弦带连接一对电力交换地区，带宽表示电量。顺着端点读到同一地区的弧段，能在同一角位置读取 TWh 刻度和外层百分比。 |
+| <a href="fly-behavior-map-transition-matrix/README.md"><img src="fly-behavior-map-transition-matrix/preview.png" alt="果蝇行为图谱 · 从个体列追到行为地图与转移矩阵" width="340"></a><br>**[果蝇行为图谱 · 从个体列追到行为地图与转移矩阵](fly-behavior-map-transition-matrix/README.md)**<br>eLife 2021 · Fig. 2 · A–H · 矢量与位图混合<br>C 为每只果蝇保留一列，三根引线把选中的列接到 D 中各自的行为概率地图。E、G、H 又把同一套行为分组带到相关矩阵、二维地图和相邻帧转移矩阵中。 |  |
+
+<a id="model-to-output"></a>
+
+## 从模型选择读到输出
+
+| | |
+|---|---|
+| <a href="fox-symbolic-regression-pareto-isotherms/README.md"><img src="fox-symbolic-regression-pareto-isotherms/preview.png" alt="符号回归 · 从帕累托拐点读到拟合曲线" width="340"></a><br>**[符号回归 · 从帕累托拐点读到拟合曲线](fox-symbolic-regression-pareto-isotherms/README.md)**<br>Machine Learning: Science and Technology 2024 · Fig. 5 · 四行 × 两列（图内无字母） · 位图参考<br>左列给出表达式复杂度与损失，右列把前沿上选出的表达式画回同一批氮吸附数据。图例中的复杂度编号把帕累托点、公式和预测曲线对应起来。 | <a href="sindy-lorenz-active-terms/README.md"><img src="sindy-lorenz-active-terms/preview.png" alt="SINDy · 从稀疏系数读回方程和轨迹" width="340"></a><br>**[SINDy · 从稀疏系数读回方程和轨迹](sindy-lorenz-active-terms/README.md)**<br>PNAS 2016 · Fig. 1 · I–III（含系数表和分项展开） · 矢量与位图混合<br>沿蓝色的 x 导数读下去，候选项只剩 x 和 y。右上表中对应的两个非零系数决定右侧方程，方程再生成右下的轨迹。 |
+
+<a id="paired-interventions"></a>
+
+## 同一输入的干预对照
+
+| | |
+|---|---|
+| <a href="rome-causal-tracing-seattle/README.md"><img src="rome-causal-tracing-seattle/preview.png" alt="ROME · 把一次激活恢复实验读成概率热图" width="340"></a><br>**[ROME · 把一次激活恢复实验读成概率热图](rome-causal-tracing-seattle/README.md)**<br>NeurIPS 2022 · Fig. 1 · a–g · 矢量与位图混合<br>同一句 Space Needle 提示贯穿正常、加噪和局部恢复三种计算。下排每个格子对应在一个指定位置恢复激活后，模型给 Seattle 分配的概率。 | <a href="visuomotor-halt-and-replay/README.md"><img src="visuomotor-halt-and-replay/preview.png" alt="同一段视觉刺激在闭环和回放中对照" width="340"></a><br>**[同一段视觉刺激在闭环和回放中对照](visuomotor-halt-and-replay/README.md)**<br>eLife 2023 · Fig. 1 · A–H · 位图参考<br>原样回放闭环实验的视流序列，让同一次停顿出现在不同运动条件下。从 A 的刺激设计追到 C 的响应热图，再到 H 按误差大小汇成的比较。 |
+
+<a id="event-alignment"></a>
+
+## 按事件对齐与汇总
+
+| | |
+|---|---|
+| <a href="dopamine-cue-lick-realignment/README.md"><img src="dopamine-cue-lick-realignment/preview.png" alt="把同一批试次分别对齐提示与首次动作" width="340"></a><br>**[把同一批试次分别对齐提示与首次动作](dopamine-cue-lick-realignment/README.md)**<br>eLife 2021 · Fig. 2 · A–C · 矢量与位图混合<br>同一批钙信号在横轴断口两侧分别对齐提示和首次舔舐。首次动作发生的早晚决定 B、C 中曲线的颜色与右侧对齐时刻。 | <a href="zebrafish-turn-triggered-trajectories/README.md"><img src="zebrafish-turn-triggered-trajectories/preview.png" alt="斑马鱼转向 · 用上一次转弯对齐后五次游动" width="340"></a><br>**[斑马鱼转向 · 用上一次转弯对齐后五次游动](zebrafish-turn-triggered-trajectories/README.md)**<br>eLife 2016 · Fig. 1 · A–L · 位图参考<br>B 保留游动的原始路线，C 把一次转弯当作共同起点，旋转并对齐随后五次游动。前一次左转或右转的颜色贯穿时序和扇形轨迹，读者能直接看出历史如何影响接下来的方向。 |
 
 [另见双稳态折纸机器人 Fig. 1 · A–J](../architecture/magnetic-bistable-origami-robot-design-actuation/README.md)。这张已收录在 Architecture 的图把折纸结构、力学曲线、装置和八种运动模式放在同一页。

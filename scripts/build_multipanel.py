@@ -10,6 +10,9 @@ FAMILIES = {
     "多工况与方法对照": "comparisons",
     "引线与局部展开": "cross-panel-links",
     "共用数据与坐标": "linked-data",
+    "从模型选择读到输出": "model-to-output",
+    "同一输入的干预对照": "paired-interventions",
+    "按事件对齐与汇总": "event-alignment",
 }
 FORMATS = {
     "vector": "矢量",

@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "id": "sym-eft-length50-spectrum-and-error",
+  "title": "Sym-EFT · 从长度 50 的候选式检验功率谱分量的模拟误差",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "帕累托选模",
+    "符号回归",
+    "功率谱",
+    "误差带",
+    "宇宙学"
+  ],
+  "summary": "左图用一条竖虚线选定长度 50 的符号表达式。右上给出两个宇宙学参数例子下待拟合的功率谱分量，右下用同一波数轴展示该表达式在 300 组参数下的相对误差。",
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Sym-EFT: accelerating effective field theory of large-scale structure with symbolic regression",
+    "venue": "Monthly Notices of the Royal Astronomical Society",
+    "year": 2026,
+    "presentation": "journal-article",
+    "evidence_url": "https://academic.oup.com/mnras/article/552/3/stag1663/8785131"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "左侧误差前沿、右上谱分量、右下误差带",
+    "panel_count": 3,
+    "reading_order": "先读左图竖虚线 Length=50，训练和验证集各有一条 RMSE–模型长度曲线。正文式（17）给出这条候选的函数，式（18）列出 20 个数值系数。右上沿波数 k 读两个示例的谱分量，右下在同一 k 位置比较模型相对模拟值的误差带和 ±0.5% 阈值。",
+    "why_selected": "左图用一条竖虚线选定长度 50 的符号表达式。右上给出两个宇宙学参数例子下待拟合的功率谱分量，右下用同一波数轴展示该表达式在 300 组参数下的相对误差。",
+    "model_trace": "左图 Length=50 竖线 → 正文式（17）及其 20 个系数〔式（18）〕 → 右下 300 个宇宙学参数组合的 1σ、2σ 百分比误差带。",
+    "trace_scope": "右上两条黑线表示两个示例宇宙学模型的目标谱分量。该候选式的预测表现由右下误差带给出；函数和系数见正文。"
+  },
+  "source": {
+    "figure_number": 4,
+    "authors": [
+      "Despoina Farakou",
+      "Constantinos Skordis"
+    ],
+    "urls": [
+      "https://arxiv.org/pdf/2511.05093v2#page=8",
+      "https://academic.oup.com/mnras/article/552/3/stag1663/8785131",
+      "https://arxiv.org/pdf/2511.05093v2",
+      "https://arxiv.org/abs/2511.05093v2",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://arxiv.org/src/2511.05093v2",
+      "https://academic.oup.com/view-large/figure/577985880/stag1663fig4.jpg"
+    ],
+    "checked_date": "2026-11-20",
+    "doi": "10.1093/mnras/stag1663",
+    "tex_evidence": "Sym-EFT.tex:662–671",
+    "version": "arXiv:2511.05093v2",
+    "source_type": "pdf-crop",
+    "pixel_mae_255": 1.2746902957827781e-05,
+    "author_panel_archive_url": "https://arxiv.org/src/2511.05093v2",
+    "author_panel_archive_sha256": "ccfae6fe1adfca22e9be91228aa70a4b7bef443fd8dd2931b903a29ff9b0df40",
+    "author_panel_pdfs": [
+      {
+        "path": "panel-left.pdf",
+        "panel": "left",
+        "tex_evidence": "Sym-EFT.tex:664",
+        "archive_member": "Figures_SymEFT/paretos/Final_k2p11_R0.pdf",
+        "sha256": "8871860170841f4726dd3592a60f3ea8f07a0a6863ab803b0adef16144aa4ac2",
+        "bytes": 18594
+      },
+      {
+        "path": "panel-right.pdf",
+        "panel": "right",
+        "tex_evidence": "Sym-EFT.tex:667",
+        "archive_member": "Figures_SymEFT/errors/k2p11r0.pdf",
+        "sha256": "85da34e17e6ec380751ae1e6e13a8042458e0726f4fa49d555d3288bbe6a3531",
+        "bytes": 30813
+      }
+    ],
+    "full_pdf_url": "https://arxiv.org/pdf/2511.05093v2",
+    "full_pdf_sha256": "745e382a7a11499b4c98a69bd2e4214c1dfcc300bd28a018d118edcbba89edce",
+    "page_number": 8,
+    "crop_bbox_pt": [
+      59.0,
+      52.0,
+      532.0,
+      224.0
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin on the source page"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://arxiv.org/abs/2511.05093v2",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "cropped paper PDF",
+    "notes": [
+      "整图按作者稿第 8 页原排版裁出，保留曲线、标记与文字。另附作者 TeX 源包中的左右两份独立矢量 PDF。"
+    ],
+    "level": "vector",
+    "pdf_drawing_objects": 315,
+    "pdf_image_placements": 0,
+    "selectable_words": 45,
+    "vector_shapes": true,
+    "editable_text": true
+  },
+  "changes": [
+    "从论文 PDF 中裁出完整图版，渲染整图预览。",
+    "另收录用于排版的作者独立子图 PDF，保留源文件字节。",
+    "从图版 PDF 导出 SVG，文字保留为轮廓。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 43229,
+      "sha256": "9a946d267b67dd5a54cae6d37e46f42dea5492efcb0094f874159ba7333cccbf"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 74757,
+      "sha256": "704d4e529e35792e5dfdb2e51e3ad444866c79aa8cd3b294c958a27e515e464f"
+    },
+    {
+      "path": "panel-left.pdf",
+      "bytes": 18594,
+      "sha256": "8871860170841f4726dd3592a60f3ea8f07a0a6863ab803b0adef16144aa4ac2"
+    },
+    {
+      "path": "panel-right.pdf",
+      "bytes": 30813,
+      "sha256": "85da34e17e6ec380751ae1e6e13a8042458e0726f4fa49d555d3288bbe6a3531"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 306295,
+      "sha256": "d3a205a07c08031655c1ba0229be4dc5702b7520a5f98e47c3bf103e8e77952b"
+    }
+  ]
+}

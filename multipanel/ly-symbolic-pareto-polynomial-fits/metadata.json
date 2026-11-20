@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "ly-symbolic-pareto-polynomial-fits",
+  "title": "多项式选模 · 沿同一个公式从前沿读到拟合曲线",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "extracted-from-author-pdf",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "帕累托前沿",
+    "符号回归",
+    "模型复杂度",
+    "拟合曲线",
+    "多项式"
+  ],
+  "summary": "a 把候选多项式写在帕累托阶梯的各个黑点旁。b 用相同公式作图例，把每个候选的拟合曲线叠在同一组样本上；可直接追踪加粗的三次式，也可以跟踪最简单的常数项。",
+  "formats": [
+    "pdf",
+    "svg"
+  ],
+  "primary_file": "figure.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Learning Symbolic Representations of Hybrid Dynamical Systems",
+    "venue": "Journal of Machine Learning Research",
+    "year": 2012,
+    "presentation": "journal-article",
+    "evidence_url": "https://www.jmlr.org/papers/v13/ly12a.html"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "a、b",
+    "panel_count": 2,
+    "reading_order": "在 a 左上角选加粗的三次式 x³ + 3.06x² − 8.99x。它与左侧更复杂的候选精度接近，但少一个常数项。移到 b，在图例中找到同一个加粗公式，沿实线看它如何跟随样本的峰、谷和右端上升段。试着再看 a 右下角的 17.01，它在 b 里变成横穿整组样本的一条水平线。",
+    "why_selected": "a 把候选多项式写在帕累托阶梯的各个黑点旁。b 用相同公式作图例，把每个候选的拟合曲线叠在同一组样本上；可直接追踪加粗的三次式，也可以跟踪最简单的常数项。",
+    "model_trace": "a 的黑点 → 点旁的多项式 → b 中同名图例和线型 → 同一组样本上的函数输出。",
+    "trace_scope": "作者用一个合成多项式例子解释模型复杂度与精度的权衡。"
+  },
+  "source": {
+    "figure_number": 5,
+    "authors": [
+      "Daniel L. Ly",
+      "Hod Lipson"
+    ],
+    "urls": [
+      "https://www.jmlr.org/papers/volume13/ly12a/ly12a.pdf#page=10",
+      "https://www.jmlr.org/papers/v13/ly12a.html",
+      "https://www.jmlr.org/papers/volume13/ly12a/ly12a.pdf",
+      "https://www.jmlr.org/papers/volume13/ly12a/ly12a.pdf#page=1",
+      "https://doi.org/10.5555/2503308.2503356"
+    ],
+    "checked_date": "2026-11-20",
+    "doi": "10.5555/2503308.2503356",
+    "printed_page": 3594,
+    "pixel_mae_255": 0.00013125676085470783,
+    "full_pdf_url": "https://www.jmlr.org/papers/volume13/ly12a/ly12a.pdf",
+    "full_pdf_sha256": "c5a359bd39ae42e5523a8a3ab0abb0abdf47aa331e23b0bb1673fcaa47e07c9a",
+    "page_number": 10,
+    "crop_bbox_pt": [
+      85.0,
+      87.0,
+      526.0,
+      254.0
+    ],
+    "crop_coordinate_system": "PDF points, top-left origin on the source page"
+  },
+  "license": {
+    "name": "作者版权，图版再使用许可未核实",
+    "status": "reference-only",
+    "note": "© 2012 Daniel L. Ly 与 Hod Lipson。原文标明作者版权，未核实此图的单独再使用许可",
+    "evidence_url": "https://www.jmlr.org/papers/volume13/ly12a/ly12a.pdf#page=1"
+  },
+  "editability": {
+    "native_format": "cropped paper PDF",
+    "notes": [
+      "从 JMLR 论文第 10 页（印刷页码 3594）裁取 a、b 两个子图。图内的线条、点和公式均为矢量轮廓，文字可以移动和缩放，无法作为文本改写。"
+    ],
+    "level": "vector",
+    "pdf_drawing_objects": 321,
+    "pdf_image_placements": 0,
+    "selectable_words": 0,
+    "vector_shapes": true,
+    "editable_text": false
+  },
+  "changes": [
+    "从论文 PDF 中裁出完整图版，渲染整图预览。",
+    "从图版 PDF 导出 SVG，文字保留为轮廓。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "figure.pdf",
+      "bytes": 49529,
+      "sha256": "42b38485d48b0c1b324ddff575ee670629e7d49e2bc4fe2696d88f47d8265cf4"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 72886,
+      "sha256": "4bda19e4166e0d9996884cc550caaf57efcffc0b3c22526e53e1547f2eb513a9"
+    },
+    {
+      "path": "figure.svg",
+      "bytes": 183990,
+      "sha256": "364be1d7bad6dc172f2c81fc1c53d38ce192f891a61b6afec48da94bc127b8c6"
+    }
+  ]
+}

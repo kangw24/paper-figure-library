@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "greco-flexoelectric-front-potential-fields",
+  "title": "挠曲电应变传感器 · 七个前沿点各自连到结构和电势场",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "帕累托前沿",
+    "拓扑优化",
+    "挠曲电",
+    "电势场",
+    "多点引线",
+    "工程仿真"
+  ],
+  "summary": "右下绘出材料面积分数与等效压电系数的权衡。每个选中点都有一根同色虚线，沿线可找到该设计的周期微结构和施加应变时的电势分布。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Topology optimization of flexoelectric metamaterials with apparent piezoelectricity",
+    "venue": "Journal of the Mechanics and Physics of Solids",
+    "year": 2024,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1016/j.jmps.2023.105477"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "右下前沿图与七个带编号的圆形局部图（h̄₁ 至 h̄₇）",
+    "panel_count": 8,
+    "reading_order": "在右下图靠近面积分数 0.2、等效压电系数 0.03 GV/m 处找到金黄色圆点。沿金黄色虚线向左读到 h̄₃，细杆的连接形状给出设计，杆身的蓝白红填色给出同一结构在指定应变下的局部电势。换到右上方粉色的 h̄₇，就能用同一色标比较另一种结构；前沿分支的颜色标识拓扑族，场值由左上独立色标解释。",
+    "why_selected": "右下绘出材料面积分数与等效压电系数的权衡。每个选中点都有一根同色虚线，沿线可找到该设计的周期微结构和施加应变时的电势分布。",
+    "model_trace": "右下金黄色前沿点 → 同色虚线 → h̄₃ 的周期微结构 → 该结构上的归一化电势分布。另六个点均可沿各自的虚线追到对应输出。输出是数值场，图中没有独立实测或显式回归函数。",
+    "trace_scope": "电势来自计算模型。独立 PDF 中部分图层为位图。作者以 CC BY-NC-ND 4.0 发布，保留原件，发布改编图须另获许可。"
+  },
+  "source": {
+    "figure_number": 6,
+    "authors": [
+      "Francesco Greco",
+      "David Codony",
+      "Hossein Mohammadi",
+      "Sonia Fernández-Méndez",
+      "Irene Arias"
+    ],
+    "urls": [
+      "https://arxiv.org/html/2303.09448v2#S5.F6",
+      "https://doi.org/10.1016/j.jmps.2023.105477",
+      "https://arxiv.org/src/2303.09448v2",
+      "https://arxiv.org/abs/2303.09448v2",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "https://www.lacan.upc.edu/?pub=1021&serve_pdf=1-s2.0-S0022509623002818-main.pdf"
+    ],
+    "checked_date": "2026-11-20",
+    "doi": "10.1016/j.jmps.2023.105477",
+    "tex_evidence": "TopoOpt.tex:499–500",
+    "version": "arXiv:2303.09448v2, 2023-11-03",
+    "source_type": "archive-member",
+    "archive_url": "https://arxiv.org/src/2303.09448v2",
+    "archive_sha256": "0d6a2ee23a6edc88e0b0642316bdea960f7ced7ed8c9db6c763532acf1b9ed21",
+    "archive_member": "h_thinnerH1.pdf",
+    "original_sha256": "5373522a007569a63cda6baf5d6e2143d7c52fcc292f5f08561d4efff3442be6"
+  },
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "status": "source-license",
+    "note": "CC BY-NC-ND 4.0",
+    "evidence_url": "https://arxiv.org/abs/2303.09448v2",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "editability": {
+    "native_format": "author-supplied PDF",
+    "notes": [
+      "作者 TeX 源包随附的整图 PDF，原字节保存。含 1459 个矢量绘图对象和 8 个位图绘制实例；部分文字是轮廓或嵌在图层中。"
+    ],
+    "level": "vector-and-raster",
+    "pdf_drawing_objects": 1459,
+    "pdf_image_placements": 8,
+    "selectable_words": 17,
+    "vector_shapes": true,
+    "editable_text": true
+  },
+  "changes": [
+    "从作者提交的源包中原样提取 h_thinnerH1.pdf，渲染整图预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.pdf",
+      "bytes": 374369,
+      "sha256": "5373522a007569a63cda6baf5d6e2143d7c52fcc292f5f08561d4efff3442be6"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 365054,
+      "sha256": "967a025c2bbccadf0aecd495eb736b86457a92109ccc8058d6b6e8fb4f39145b"
+    }
+  ]
+}

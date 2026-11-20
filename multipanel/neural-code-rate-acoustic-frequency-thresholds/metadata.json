@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "neural-code-rate-acoustic-frequency-thresholds",
+  "title": "听觉编码 · 从一个编码率读到调谐函数和频率辨别阈",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "率失真",
+    "听觉编码",
+    "调谐函数",
+    "模型输出与受试者测量",
+    "跨面板共享参数"
+  ],
+  "summary": "每排从率–失真曲线出发，中列放大所选编码率下的神经元调谐函数，右列把模型预测的频率辨别阈与三位受试者的实测值叠在同一坐标系。",
+  "formats": [
+    "tif"
+  ],
+  "primary_file": "original.tif",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Jointly efficient encoding and decoding in neural populations",
+    "venue": "PLOS Computational Biology",
+    "year": 2024,
+    "presentation": "journal-article",
+    "evidence_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012240"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "A–F，上排高斯解码器，下排对数正态解码器",
+    "panel_count": 6,
+    "reading_order": "沿下排读对数正态解码器。D 在横轴目标编码率约 2.3 处给出失真，插图也用浅绿标出该设置。E 在同一编码率处用细框挑出一列神经元，沿引线向上看各神经元随频率变化的响应概率。F 按图例找浅绿曲线，与三位受试者的红色实测点比较。模型曲线来自刺激估计的均方根误差，作者拟合一个比例系数，将其换算为频率辨别阈。",
+    "why_selected": "每排从率–失真曲线出发，中列放大所选编码率下的神经元调谐函数，右列把模型预测的频率辨别阈与三位受试者的实测值叠在同一坐标系。",
+    "model_trace": "D 的 R̄≈2.3 工作点 → 下排对数正态解码器、12 个神经元 → E 右侧框选列上方的 q(rᵢ=1 | f) 调谐曲线 → F 的 R̄=2.3 浅绿预测线与红色实测点。蓝线来自一组约束优化的数值解，表示该模型的率–失真权衡。"
+  },
+  "source": {
+    "figure_number": 9,
+    "authors": [
+      "Simone Blanco Malerba",
+      "Aurora Micheli",
+      "Michael Woodford",
+      "Rava Azeredo da Silveira"
+    ],
+    "urls": [
+      "https://doi.org/10.1371/journal.pcbi.1012240.g009",
+      "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012240",
+      "https://journals.plos.org/ploscompbiol/article/figure/image?size=original&id=10.1371/journal.pcbi.1012240.g009",
+      "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012240&type=manuscript",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://github.com/simonebmalerba/neural_VAE"
+    ],
+    "checked_date": "2026-11-20",
+    "doi": "10.1371/journal.pcbi.1012240",
+    "version": "期刊正式版 20(7): e1012240，2024-07-10",
+    "source_type": "publisher-raster-figure",
+    "source_original_format": "TIFF (RGB, 2050 × 1531, LZW)",
+    "published_page": 21,
+    "published_pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012240&type=printable",
+    "published_pdf_sha256": "9ed18c5713dddc2dcacb9c7de3b55e2751f53d4a6a288f13449360e59d761573",
+    "published_pdf_figure_bbox_pt": [
+      84.019,
+      78.009,
+      576.0,
+      445.436
+    ],
+    "published_pdf_bbox_convention": "1-based page number; PDF points measured from its top left",
+    "original_sha256": "1bc4ada0d6ae7a2fe533bfb705802c0d22f1a1c68ecf0e612323f328eb888536"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012240&type=manuscript",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "TIF",
+    "notes": [
+      "期刊提供的独立 TIFF 原图（2050 × 1531）。正式论文第 21 页内嵌此图也是位图。预览 PNG 由原件缩小；坐标、文字与曲线均为像素。作者代码库列出了图 9 的复现 notebook 与数据文件。"
+    ],
+    "level": "raster-reference",
+    "pixel_dimensions": [
+      2050,
+      1531
+    ],
+    "vector_shapes": false,
+    "editable_text": false
+  },
+  "changes": [
+    "保留下载的原始图版，生成浏览预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.tif",
+      "bytes": 823536,
+      "sha256": "1bc4ada0d6ae7a2fe533bfb705802c0d22f1a1c68ecf0e612323f328eb888536"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 336129,
+      "sha256": "a021685d4594bc8f5110e042c3416bea74a40dbd1391a0084dab58e416c1fa1a"
+    }
+  ]
+}

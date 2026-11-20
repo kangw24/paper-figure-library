@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "jenkins-metasurface-masks-robustness",
+  "title": "超表面制造偏差 · 从前沿设计追到掩模与衍射效率曲线",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "帕累托前沿",
+    "光学超表面",
+    "几何掩模",
+    "衍射效率",
+    "制造容差",
+    "数值验证"
+  ],
+  "summary": "A 标出三种选择，D 展示各自的超胞几何掩模，C 给出边缘偏差从 −20 到 +20 nm 时网络预测与电磁求解器计算的衍射效率，E 汇总标称和保证效率。",
+  "formats": [
+    "jpg"
+  ],
+  "primary_file": "original.jpg",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Establishing exhaustive metasurface robustness against fabrication uncertainties through deep learning",
+    "venue": "Nanophotonics",
+    "year": 2021,
+    "presentation": "journal-article",
+    "evidence_url": "https://doi.org/10.1515/nanoph-2021-0428"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "A–E，设计编号为小写 a、b、c",
+    "panel_count": 5,
+    "reading_order": "先找 A 中位于绿色前沿右侧的粉色 c，再到 D 的第一行辨认 c 的黄色掩模。C 仍用粉色表示 c，实线为严格耦合波分析（RCWA）的计算结果，虚线为神经网络预测。对照红色 a，边缘偏差增大时两种结构的效率下降幅度显著不同；E 的保证效率一列给出 c 为 66.7%、a 为 30.8%。B 解释蓝色 b 如何按另一种加权指标选出。",
+    "why_selected": "A 标出三种选择，D 展示各自的超胞几何掩模，C 给出边缘偏差从 −20 到 +20 nm 时网络预测与电磁求解器计算的衍射效率，E 汇总标称和保证效率。",
+    "model_trace": "A 的粉色前沿点 c → D 第一行同名超胞掩模 → C 的粉色实线与虚线 → E 中标称和保证效率。蓝色 b 依据 B 的加权目标选择，位于 A 的绿色前沿内部。输出是网络预测和电磁数值校验，未给出硬件实测或解析函数。",
+    "trace_scope": "出版社发布的独立原图为 JPEG，未取得可分层编辑的矢量文件。衍射效率由电磁求解器校验。"
+  },
+  "source": {
+    "figure_number": 4,
+    "authors": [
+      "Ronald P. Jenkins",
+      "Sawyer D. Campbell",
+      "Douglas H. Werner"
+    ],
+    "urls": [
+      "https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2021-0428/asset/graphic/j_nanoph-2021-0428_fig_004.jpg",
+      "https://doi.org/10.1515/nanoph-2021-0428",
+      "https://api.crossref.org/works/10.1515/nanoph-2021-0428",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://onlinelibrary.wiley.com/doi/10.1515/nanoph-2021-0428",
+      "https://www.degruyterbrill.com/de/document/doi/10.1515/nanoph-2021-0428/html"
+    ],
+    "checked_date": "2026-11-20",
+    "doi": "10.1515/nanoph-2021-0428",
+    "source_type": "publisher-original-image",
+    "original_sha256": "0f54bd8c014fa0b00e1bdaadf78a2cfe6ecb8a37ccd611e97cd5c42dc1f52447"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://api.crossref.org/works/10.1515/nanoph-2021-0428",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "JPG",
+    "notes": [
+      "出版社发布的独立 JPEG，1943 × 1243 像素；整图为位图，文字、曲线及掩模均未分层。"
+    ],
+    "level": "raster-reference",
+    "pixel_dimensions": [
+      1943,
+      1243
+    ],
+    "vector_shapes": false,
+    "editable_text": false
+  },
+  "changes": [
+    "保留下载的原始图版，生成浏览预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.jpg",
+      "bytes": 1064698,
+      "sha256": "0f54bd8c014fa0b00e1bdaadf78a2cfe6ecb8a37ccd611e97cd5c42dc1f52447"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 624547,
+      "sha256": "90f01cbe839d82c1f94babb809752f24efac7a811ae00eab6ee838ce74f80339"
+    }
+  ]
+}

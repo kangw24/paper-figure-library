@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "dirac-decoder-sampling-operating-points",
+  "title": "DIRAC 图像压缩 · 用相同标记找到三个解码步数各自的街景重建",
+  "category": "multipanel",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "multi-panel",
+    "从模型选择读到输出",
+    "图像重建",
+    "感知与失真",
+    "经验权衡曲线",
+    "扩散解码",
+    "跨面板同形标记"
+  ],
+  "summary": "左上青线固定 0.30 bpp。菱形、圆形和三角形在右侧三行重建中再次出现，对应 1、80、100 步解码。每行都看同一幅街景的三个区域。",
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "publication": {
+    "title": "Neural Image Compression with a Diffusion-Based Decoder",
+    "venue": "arXiv preprint (v1)",
+    "year": 2023,
+    "presentation": "preprint",
+    "evidence_url": "https://arxiv.org/abs/2301.05489v1"
+  },
+  "curation": {
+    "layout_family": "从模型选择读到输出",
+    "panel_labels": "左上性能曲线、左下参考图与三个裁区、右侧四行重建（无字母编号，按六组阅读）",
+    "panel_count": 6,
+    "reading_order": "先选青线中间的圆，移到右侧同样带圆标的 DIRAC-80。沿着这一行看外墙纹理、远处的小招牌和霓虹文字，再与上方菱形的 1 步、下方三角形的 100 步比较。左下原图用红、绿、蓝框给三个裁区定位。左上 FID 与 PSNR 汇总整个 CLIC 测试集，街景展示其中一个样本。",
+    "why_selected": "左上青线固定 0.30 bpp。菱形、圆形和三角形在右侧三行重建中再次出现，对应 1、80、100 步解码。每行都看同一幅街景的三个区域。",
+    "model_trace": "0.30 bpp 青线上的圆 → 同一解码器取 80 个采样步骤 → 右侧 DIRAC-80 行的三个重建裁块。图中是三个码率下实测的感知–失真权衡，作者用插值匹配码率。图内给出采样步数，解码器结构见该版本图 2。"
+  },
+  "source": {
+    "figure_number": 1,
+    "authors": [
+      "Noor Fathima Ghouse",
+      "Jens Petersen",
+      "Auke Wiggers",
+      "Tianlin Xu",
+      "Guillaume Sautière"
+    ],
+    "urls": [
+      "https://arxiv.org/pdf/2301.05489v1#page=3",
+      "https://arxiv.org/abs/2301.05489v1",
+      "https://arxiv.org/src/2301.05489v1",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://arxiv.org/abs/2301.05489v3"
+    ],
+    "checked_date": "2026-11-20",
+    "doi": "10.48550/arXiv.2301.05489",
+    "tex_evidence": "sections/02_method.tex:49–53",
+    "version": "arXiv:2301.05489v1 · 2023-01-13 · 第 3 页图 1。v3 更名并更换首图。",
+    "source_type": "archive-member",
+    "archive_url": "https://arxiv.org/src/2301.05489v1",
+    "archive_sha256": "b2892f5406933482568b8701b0c5607568f89195533aeb53e0142bfddba7b854",
+    "archive_member": "figures/main-figure-v7-20220928.pdf",
+    "original_sha256": "f1d53f3b7b51d6d915c642bae9c4b6803107b834347be2d685fb8fa88f50dd3a"
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "status": "source-license",
+    "note": "CC BY 4.0",
+    "evidence_url": "https://arxiv.org/abs/2301.05489v1",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "editability": {
+    "native_format": "author-supplied PDF",
+    "notes": [
+      "作者 TeX 源包内独立 PDF。性能曲线、点标记与标签保留矢量对象，部分图中文字已转为轮廓；照片及局部裁块为嵌入位图。"
+    ],
+    "level": "vector-and-raster",
+    "pdf_drawing_objects": 264,
+    "pdf_image_placements": 7,
+    "selectable_words": 10,
+    "vector_shapes": true,
+    "editable_text": true
+  },
+  "changes": [
+    "从作者提交的源包中原样提取 figures/main-figure-v7-20220928.pdf，渲染整图预览。"
+  ],
+  "visual_reviewed": true,
+  "added_date": "2026-11-20",
+  "files": [
+    {
+      "path": "original.pdf",
+      "bytes": 746555,
+      "sha256": "f1d53f3b7b51d6d915c642bae9c4b6803107b834347be2d685fb8fa88f50dd3a"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 2179594,
+      "sha256": "9e9eef4af5192f8e3aff62775c75c4940d564850285ada5165fb7aad8af0f7c6"
+    }
+  ]
+}

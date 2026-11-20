@@ -3,7 +3,7 @@
   "counts": {
     "teaser": 76,
     "architecture": 69,
-    "multipanel": 49,
+    "multipanel": 55,
     "element": 392,
     "mechanism": 17,
     "layout-template": 11
@@ -22224,6 +22224,111 @@
     },
     {
       "schema_version": 1,
+      "id": "dirac-decoder-sampling-operating-points",
+      "title": "DIRAC 图像压缩 · 用相同标记找到三个解码步数各自的街景重建",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "图像重建",
+        "感知与失真",
+        "经验权衡曲线",
+        "扩散解码",
+        "跨面板同形标记"
+      ],
+      "summary": "左上青线固定 0.30 bpp。菱形、圆形和三角形在右侧三行重建中再次出现，对应 1、80、100 步解码。每行都看同一幅街景的三个区域。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Neural Image Compression with a Diffusion-Based Decoder",
+        "venue": "arXiv preprint (v1)",
+        "year": 2023,
+        "presentation": "preprint",
+        "evidence_url": "https://arxiv.org/abs/2301.05489v1"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "左上性能曲线、左下参考图与三个裁区、右侧四行重建（无字母编号，按六组阅读）",
+        "panel_count": 6,
+        "reading_order": "先选青线中间的圆，移到右侧同样带圆标的 DIRAC-80。沿着这一行看外墙纹理、远处的小招牌和霓虹文字，再与上方菱形的 1 步、下方三角形的 100 步比较。左下原图用红、绿、蓝框给三个裁区定位。左上 FID 与 PSNR 汇总整个 CLIC 测试集，街景展示其中一个样本。",
+        "why_selected": "左上青线固定 0.30 bpp。菱形、圆形和三角形在右侧三行重建中再次出现，对应 1、80、100 步解码。每行都看同一幅街景的三个区域。",
+        "model_trace": "0.30 bpp 青线上的圆 → 同一解码器取 80 个采样步骤 → 右侧 DIRAC-80 行的三个重建裁块。图中是三个码率下实测的感知–失真权衡，作者用插值匹配码率。图内给出采样步数，解码器结构见该版本图 2。"
+      },
+      "source": {
+        "figure_number": 1,
+        "authors": [
+          "Noor Fathima Ghouse",
+          "Jens Petersen",
+          "Auke Wiggers",
+          "Tianlin Xu",
+          "Guillaume Sautière"
+        ],
+        "urls": [
+          "https://arxiv.org/pdf/2301.05489v1#page=3",
+          "https://arxiv.org/abs/2301.05489v1",
+          "https://arxiv.org/src/2301.05489v1",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://arxiv.org/abs/2301.05489v3"
+        ],
+        "checked_date": "2026-11-20",
+        "doi": "10.48550/arXiv.2301.05489",
+        "tex_evidence": "sections/02_method.tex:49–53",
+        "version": "arXiv:2301.05489v1 · 2023-01-13 · 第 3 页图 1。v3 更名并更换首图。",
+        "source_type": "archive-member",
+        "archive_url": "https://arxiv.org/src/2301.05489v1",
+        "archive_sha256": "b2892f5406933482568b8701b0c5607568f89195533aeb53e0142bfddba7b854",
+        "archive_member": "figures/main-figure-v7-20220928.pdf",
+        "original_sha256": "f1d53f3b7b51d6d915c642bae9c4b6803107b834347be2d685fb8fa88f50dd3a"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://arxiv.org/abs/2301.05489v1",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "author-supplied PDF",
+        "notes": [
+          "作者 TeX 源包内独立 PDF。性能曲线、点标记与标签保留矢量对象，部分图中文字已转为轮廓；照片及局部裁块为嵌入位图。"
+        ],
+        "level": "vector-and-raster",
+        "pdf_drawing_objects": 264,
+        "pdf_image_placements": 7,
+        "selectable_words": 10,
+        "vector_shapes": true,
+        "editable_text": true
+      },
+      "changes": [
+        "从作者提交的源包中原样提取 figures/main-figure-v7-20220928.pdf，渲染整图预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.pdf",
+          "bytes": 746555,
+          "sha256": "f1d53f3b7b51d6d915c642bae9c4b6803107b834347be2d685fb8fa88f50dd3a"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 2179594,
+          "sha256": "9e9eef4af5192f8e3aff62775c75c4940d564850285ada5165fb7aad8af0f7c6"
+        }
+      ],
+      "path": "multipanel/dirac-decoder-sampling-operating-points",
+      "metadata_path": "multipanel/dirac-decoder-sampling-operating-points/metadata.json",
+      "readme_path": "multipanel/dirac-decoder-sampling-operating-points/README.md",
+      "primary_path": "multipanel/dirac-decoder-sampling-operating-points/original.pdf",
+      "preview_path": "multipanel/dirac-decoder-sampling-operating-points/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "dopamine-cue-lick-realignment",
       "title": "把同一批试次分别对齐提示与首次动作",
       "category": "multipanel",
@@ -23484,6 +23589,114 @@
     },
     {
       "schema_version": 1,
+      "id": "greco-flexoelectric-front-potential-fields",
+      "title": "挠曲电应变传感器 · 七个前沿点各自连到结构和电势场",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "帕累托前沿",
+        "拓扑优化",
+        "挠曲电",
+        "电势场",
+        "多点引线",
+        "工程仿真"
+      ],
+      "summary": "右下绘出材料面积分数与等效压电系数的权衡。每个选中点都有一根同色虚线，沿线可找到该设计的周期微结构和施加应变时的电势分布。",
+      "formats": [
+        "pdf"
+      ],
+      "primary_file": "original.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Topology optimization of flexoelectric metamaterials with apparent piezoelectricity",
+        "venue": "Journal of the Mechanics and Physics of Solids",
+        "year": 2024,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1016/j.jmps.2023.105477"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "右下前沿图与七个带编号的圆形局部图（h̄₁ 至 h̄₇）",
+        "panel_count": 8,
+        "reading_order": "在右下图靠近面积分数 0.2、等效压电系数 0.03 GV/m 处找到金黄色圆点。沿金黄色虚线向左读到 h̄₃，细杆的连接形状给出设计，杆身的蓝白红填色给出同一结构在指定应变下的局部电势。换到右上方粉色的 h̄₇，就能用同一色标比较另一种结构；前沿分支的颜色标识拓扑族，场值由左上独立色标解释。",
+        "why_selected": "右下绘出材料面积分数与等效压电系数的权衡。每个选中点都有一根同色虚线，沿线可找到该设计的周期微结构和施加应变时的电势分布。",
+        "model_trace": "右下金黄色前沿点 → 同色虚线 → h̄₃ 的周期微结构 → 该结构上的归一化电势分布。另六个点均可沿各自的虚线追到对应输出。输出是数值场，图中没有独立实测或显式回归函数。",
+        "trace_scope": "电势来自计算模型。独立 PDF 中部分图层为位图。作者以 CC BY-NC-ND 4.0 发布，保留原件，发布改编图须另获许可。"
+      },
+      "source": {
+        "figure_number": 6,
+        "authors": [
+          "Francesco Greco",
+          "David Codony",
+          "Hossein Mohammadi",
+          "Sonia Fernández-Méndez",
+          "Irene Arias"
+        ],
+        "urls": [
+          "https://arxiv.org/html/2303.09448v2#S5.F6",
+          "https://doi.org/10.1016/j.jmps.2023.105477",
+          "https://arxiv.org/src/2303.09448v2",
+          "https://arxiv.org/abs/2303.09448v2",
+          "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "https://www.lacan.upc.edu/?pub=1021&serve_pdf=1-s2.0-S0022509623002818-main.pdf"
+        ],
+        "checked_date": "2026-11-20",
+        "doi": "10.1016/j.jmps.2023.105477",
+        "tex_evidence": "TopoOpt.tex:499–500",
+        "version": "arXiv:2303.09448v2, 2023-11-03",
+        "source_type": "archive-member",
+        "archive_url": "https://arxiv.org/src/2303.09448v2",
+        "archive_sha256": "0d6a2ee23a6edc88e0b0642316bdea960f7ced7ed8c9db6c763532acf1b9ed21",
+        "archive_member": "h_thinnerH1.pdf",
+        "original_sha256": "5373522a007569a63cda6baf5d6e2143d7c52fcc292f5f08561d4efff3442be6"
+      },
+      "license": {
+        "name": "CC BY-NC-ND 4.0",
+        "status": "source-license",
+        "note": "CC BY-NC-ND 4.0",
+        "evidence_url": "https://arxiv.org/abs/2303.09448v2",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      "editability": {
+        "native_format": "author-supplied PDF",
+        "notes": [
+          "作者 TeX 源包随附的整图 PDF，原字节保存。含 1459 个矢量绘图对象和 8 个位图绘制实例；部分文字是轮廓或嵌在图层中。"
+        ],
+        "level": "vector-and-raster",
+        "pdf_drawing_objects": 1459,
+        "pdf_image_placements": 8,
+        "selectable_words": 17,
+        "vector_shapes": true,
+        "editable_text": true
+      },
+      "changes": [
+        "从作者提交的源包中原样提取 h_thinnerH1.pdf，渲染整图预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.pdf",
+          "bytes": 374369,
+          "sha256": "5373522a007569a63cda6baf5d6e2143d7c52fcc292f5f08561d4efff3442be6"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 365054,
+          "sha256": "967a025c2bbccadf0aecd495eb736b86457a92109ccc8058d6b6e8fb4f39145b"
+        }
+      ],
+      "path": "multipanel/greco-flexoelectric-front-potential-fields",
+      "metadata_path": "multipanel/greco-flexoelectric-front-potential-fields/metadata.json",
+      "readme_path": "multipanel/greco-flexoelectric-front-potential-fields/README.md",
+      "primary_path": "multipanel/greco-flexoelectric-front-potential-fields/original.pdf",
+      "preview_path": "multipanel/greco-flexoelectric-front-potential-fields/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "grid-cell-toroidal-coordinates",
       "title": "把同一网格细胞放回物理空间和环面",
       "category": "multipanel",
@@ -24075,6 +24288,108 @@
     },
     {
       "schema_version": 1,
+      "id": "jenkins-metasurface-masks-robustness",
+      "title": "超表面制造偏差 · 从前沿设计追到掩模与衍射效率曲线",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "帕累托前沿",
+        "光学超表面",
+        "几何掩模",
+        "衍射效率",
+        "制造容差",
+        "数值验证"
+      ],
+      "summary": "A 标出三种选择，D 展示各自的超胞几何掩模，C 给出边缘偏差从 −20 到 +20 nm 时网络预测与电磁求解器计算的衍射效率，E 汇总标称和保证效率。",
+      "formats": [
+        "jpg"
+      ],
+      "primary_file": "original.jpg",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Establishing exhaustive metasurface robustness against fabrication uncertainties through deep learning",
+        "venue": "Nanophotonics",
+        "year": 2021,
+        "presentation": "journal-article",
+        "evidence_url": "https://doi.org/10.1515/nanoph-2021-0428"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "A–E，设计编号为小写 a、b、c",
+        "panel_count": 5,
+        "reading_order": "先找 A 中位于绿色前沿右侧的粉色 c，再到 D 的第一行辨认 c 的黄色掩模。C 仍用粉色表示 c，实线为严格耦合波分析（RCWA）的计算结果，虚线为神经网络预测。对照红色 a，边缘偏差增大时两种结构的效率下降幅度显著不同；E 的保证效率一列给出 c 为 66.7%、a 为 30.8%。B 解释蓝色 b 如何按另一种加权指标选出。",
+        "why_selected": "A 标出三种选择，D 展示各自的超胞几何掩模，C 给出边缘偏差从 −20 到 +20 nm 时网络预测与电磁求解器计算的衍射效率，E 汇总标称和保证效率。",
+        "model_trace": "A 的粉色前沿点 c → D 第一行同名超胞掩模 → C 的粉色实线与虚线 → E 中标称和保证效率。蓝色 b 依据 B 的加权目标选择，位于 A 的绿色前沿内部。输出是网络预测和电磁数值校验，未给出硬件实测或解析函数。",
+        "trace_scope": "出版社发布的独立原图为 JPEG，未取得可分层编辑的矢量文件。衍射效率由电磁求解器校验。"
+      },
+      "source": {
+        "figure_number": 4,
+        "authors": [
+          "Ronald P. Jenkins",
+          "Sawyer D. Campbell",
+          "Douglas H. Werner"
+        ],
+        "urls": [
+          "https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2021-0428/asset/graphic/j_nanoph-2021-0428_fig_004.jpg",
+          "https://doi.org/10.1515/nanoph-2021-0428",
+          "https://api.crossref.org/works/10.1515/nanoph-2021-0428",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://onlinelibrary.wiley.com/doi/10.1515/nanoph-2021-0428",
+          "https://www.degruyterbrill.com/de/document/doi/10.1515/nanoph-2021-0428/html"
+        ],
+        "checked_date": "2026-11-20",
+        "doi": "10.1515/nanoph-2021-0428",
+        "source_type": "publisher-original-image",
+        "original_sha256": "0f54bd8c014fa0b00e1bdaadf78a2cfe6ecb8a37ccd611e97cd5c42dc1f52447"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://api.crossref.org/works/10.1515/nanoph-2021-0428",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "JPG",
+        "notes": [
+          "出版社发布的独立 JPEG，1943 × 1243 像素；整图为位图，文字、曲线及掩模均未分层。"
+        ],
+        "level": "raster-reference",
+        "pixel_dimensions": [
+          1943,
+          1243
+        ],
+        "vector_shapes": false,
+        "editable_text": false
+      },
+      "changes": [
+        "保留下载的原始图版，生成浏览预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.jpg",
+          "bytes": 1064698,
+          "sha256": "0f54bd8c014fa0b00e1bdaadf78a2cfe6ecb8a37ccd611e97cd5c42dc1f52447"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 624547,
+          "sha256": "90f01cbe839d82c1f94babb809752f24efac7a811ae00eab6ee838ce74f80339"
+        }
+      ],
+      "path": "multipanel/jenkins-metasurface-masks-robustness",
+      "metadata_path": "multipanel/jenkins-metasurface-masks-robustness/metadata.json",
+      "readme_path": "multipanel/jenkins-metasurface-masks-robustness/README.md",
+      "primary_path": "multipanel/jenkins-metasurface-masks-robustness/original.jpg",
+      "preview_path": "multipanel/jenkins-metasurface-masks-robustness/preview.png"
+    },
+    {
+      "schema_version": 1,
       "id": "kan-edge-spline-grid-extension",
       "title": "KAN · 从网络的一条边展开样条函数",
       "category": "multipanel",
@@ -24481,6 +24796,120 @@
       "readme_path": "multipanel/lorenz-pareto-coefficients-and-trajectories/README.md",
       "primary_path": "multipanel/lorenz-pareto-coefficients-and-trajectories/figure.pdf",
       "preview_path": "multipanel/lorenz-pareto-coefficients-and-trajectories/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "ly-symbolic-pareto-polynomial-fits",
+      "title": "多项式选模 · 沿同一个公式从前沿读到拟合曲线",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "帕累托前沿",
+        "符号回归",
+        "模型复杂度",
+        "拟合曲线",
+        "多项式"
+      ],
+      "summary": "a 把候选多项式写在帕累托阶梯的各个黑点旁。b 用相同公式作图例，把每个候选的拟合曲线叠在同一组样本上；可直接追踪加粗的三次式，也可以跟踪最简单的常数项。",
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Learning Symbolic Representations of Hybrid Dynamical Systems",
+        "venue": "Journal of Machine Learning Research",
+        "year": 2012,
+        "presentation": "journal-article",
+        "evidence_url": "https://www.jmlr.org/papers/v13/ly12a.html"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "a、b",
+        "panel_count": 2,
+        "reading_order": "在 a 左上角选加粗的三次式 x³ + 3.06x² − 8.99x。它与左侧更复杂的候选精度接近，但少一个常数项。移到 b，在图例中找到同一个加粗公式，沿实线看它如何跟随样本的峰、谷和右端上升段。试着再看 a 右下角的 17.01，它在 b 里变成横穿整组样本的一条水平线。",
+        "why_selected": "a 把候选多项式写在帕累托阶梯的各个黑点旁。b 用相同公式作图例，把每个候选的拟合曲线叠在同一组样本上；可直接追踪加粗的三次式，也可以跟踪最简单的常数项。",
+        "model_trace": "a 的黑点 → 点旁的多项式 → b 中同名图例和线型 → 同一组样本上的函数输出。",
+        "trace_scope": "作者用一个合成多项式例子解释模型复杂度与精度的权衡。"
+      },
+      "source": {
+        "figure_number": 5,
+        "authors": [
+          "Daniel L. Ly",
+          "Hod Lipson"
+        ],
+        "urls": [
+          "https://www.jmlr.org/papers/volume13/ly12a/ly12a.pdf#page=10",
+          "https://www.jmlr.org/papers/v13/ly12a.html",
+          "https://www.jmlr.org/papers/volume13/ly12a/ly12a.pdf",
+          "https://www.jmlr.org/papers/volume13/ly12a/ly12a.pdf#page=1",
+          "https://doi.org/10.5555/2503308.2503356"
+        ],
+        "checked_date": "2026-11-20",
+        "doi": "10.5555/2503308.2503356",
+        "printed_page": 3594,
+        "pixel_mae_255": 0.00013125676085470783,
+        "full_pdf_url": "https://www.jmlr.org/papers/volume13/ly12a/ly12a.pdf",
+        "full_pdf_sha256": "c5a359bd39ae42e5523a8a3ab0abb0abdf47aa331e23b0bb1673fcaa47e07c9a",
+        "page_number": 10,
+        "crop_bbox_pt": [
+          85.0,
+          87.0,
+          526.0,
+          254.0
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin on the source page"
+      },
+      "license": {
+        "name": "作者版权，图版再使用许可未核实",
+        "status": "reference-only",
+        "note": "© 2012 Daniel L. Ly 与 Hod Lipson。原文标明作者版权，未核实此图的单独再使用许可",
+        "evidence_url": "https://www.jmlr.org/papers/volume13/ly12a/ly12a.pdf#page=1"
+      },
+      "editability": {
+        "native_format": "cropped paper PDF",
+        "notes": [
+          "从 JMLR 论文第 10 页（印刷页码 3594）裁取 a、b 两个子图。图内的线条、点和公式均为矢量轮廓，文字可以移动和缩放，无法作为文本改写。"
+        ],
+        "level": "vector",
+        "pdf_drawing_objects": 321,
+        "pdf_image_placements": 0,
+        "selectable_words": 0,
+        "vector_shapes": true,
+        "editable_text": false
+      },
+      "changes": [
+        "从论文 PDF 中裁出完整图版，渲染整图预览。",
+        "从图版 PDF 导出 SVG，文字保留为轮廓。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 49529,
+          "sha256": "42b38485d48b0c1b324ddff575ee670629e7d49e2bc4fe2696d88f47d8265cf4"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 72886,
+          "sha256": "4bda19e4166e0d9996884cc550caaf57efcffc0b3c22526e53e1547f2eb513a9"
+        },
+        {
+          "path": "figure.svg",
+          "bytes": 183990,
+          "sha256": "364be1d7bad6dc172f2c81fc1c53d38ce192f891a61b6afec48da94bc127b8c6"
+        }
+      ],
+      "path": "multipanel/ly-symbolic-pareto-polynomial-fits",
+      "metadata_path": "multipanel/ly-symbolic-pareto-polynomial-fits/metadata.json",
+      "readme_path": "multipanel/ly-symbolic-pareto-polynomial-fits/README.md",
+      "primary_path": "multipanel/ly-symbolic-pareto-polynomial-fits/figure.pdf",
+      "preview_path": "multipanel/ly-symbolic-pareto-polynomial-fits/preview.png"
     },
     {
       "schema_version": 1,
@@ -25236,6 +25665,119 @@
       "readme_path": "multipanel/nanoantennas-pareto-geometry-and-measured-spectra/README.md",
       "primary_path": "multipanel/nanoantennas-pareto-geometry-and-measured-spectra/original.pdf",
       "preview_path": "multipanel/nanoantennas-pareto-geometry-and-measured-spectra/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "neural-code-rate-acoustic-frequency-thresholds",
+      "title": "听觉编码 · 从一个编码率读到调谐函数和频率辨别阈",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "downloaded",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "率失真",
+        "听觉编码",
+        "调谐函数",
+        "模型输出与受试者测量",
+        "跨面板共享参数"
+      ],
+      "summary": "每排从率–失真曲线出发，中列放大所选编码率下的神经元调谐函数，右列把模型预测的频率辨别阈与三位受试者的实测值叠在同一坐标系。",
+      "formats": [
+        "tif"
+      ],
+      "primary_file": "original.tif",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Jointly efficient encoding and decoding in neural populations",
+        "venue": "PLOS Computational Biology",
+        "year": 2024,
+        "presentation": "journal-article",
+        "evidence_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012240"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "A–F，上排高斯解码器，下排对数正态解码器",
+        "panel_count": 6,
+        "reading_order": "沿下排读对数正态解码器。D 在横轴目标编码率约 2.3 处给出失真，插图也用浅绿标出该设置。E 在同一编码率处用细框挑出一列神经元，沿引线向上看各神经元随频率变化的响应概率。F 按图例找浅绿曲线，与三位受试者的红色实测点比较。模型曲线来自刺激估计的均方根误差，作者拟合一个比例系数，将其换算为频率辨别阈。",
+        "why_selected": "每排从率–失真曲线出发，中列放大所选编码率下的神经元调谐函数，右列把模型预测的频率辨别阈与三位受试者的实测值叠在同一坐标系。",
+        "model_trace": "D 的 R̄≈2.3 工作点 → 下排对数正态解码器、12 个神经元 → E 右侧框选列上方的 q(rᵢ=1 | f) 调谐曲线 → F 的 R̄=2.3 浅绿预测线与红色实测点。蓝线来自一组约束优化的数值解，表示该模型的率–失真权衡。"
+      },
+      "source": {
+        "figure_number": 9,
+        "authors": [
+          "Simone Blanco Malerba",
+          "Aurora Micheli",
+          "Michael Woodford",
+          "Rava Azeredo da Silveira"
+        ],
+        "urls": [
+          "https://doi.org/10.1371/journal.pcbi.1012240.g009",
+          "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012240",
+          "https://journals.plos.org/ploscompbiol/article/figure/image?size=original&id=10.1371/journal.pcbi.1012240.g009",
+          "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012240&type=manuscript",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://github.com/simonebmalerba/neural_VAE"
+        ],
+        "checked_date": "2026-11-20",
+        "doi": "10.1371/journal.pcbi.1012240",
+        "version": "期刊正式版 20(7): e1012240，2024-07-10",
+        "source_type": "publisher-raster-figure",
+        "source_original_format": "TIFF (RGB, 2050 × 1531, LZW)",
+        "published_page": 21,
+        "published_pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012240&type=printable",
+        "published_pdf_sha256": "9ed18c5713dddc2dcacb9c7de3b55e2751f53d4a6a288f13449360e59d761573",
+        "published_pdf_figure_bbox_pt": [
+          84.019,
+          78.009,
+          576.0,
+          445.436
+        ],
+        "published_pdf_bbox_convention": "1-based page number; PDF points measured from its top left",
+        "original_sha256": "1bc4ada0d6ae7a2fe533bfb705802c0d22f1a1c68ecf0e612323f328eb888536"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012240&type=manuscript",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "TIF",
+        "notes": [
+          "期刊提供的独立 TIFF 原图（2050 × 1531）。正式论文第 21 页内嵌此图也是位图。预览 PNG 由原件缩小；坐标、文字与曲线均为像素。作者代码库列出了图 9 的复现 notebook 与数据文件。"
+        ],
+        "level": "raster-reference",
+        "pixel_dimensions": [
+          2050,
+          1531
+        ],
+        "vector_shapes": false,
+        "editable_text": false
+      },
+      "changes": [
+        "保留下载的原始图版，生成浏览预览。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "original.tif",
+          "bytes": 823536,
+          "sha256": "1bc4ada0d6ae7a2fe533bfb705802c0d22f1a1c68ecf0e612323f328eb888536"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 336129,
+          "sha256": "a021685d4594bc8f5110e042c3416bea74a40dbd1391a0084dab58e416c1fa1a"
+        }
+      ],
+      "path": "multipanel/neural-code-rate-acoustic-frequency-thresholds",
+      "metadata_path": "multipanel/neural-code-rate-acoustic-frequency-thresholds/metadata.json",
+      "readme_path": "multipanel/neural-code-rate-acoustic-frequency-thresholds/README.md",
+      "primary_path": "multipanel/neural-code-rate-acoustic-frequency-thresholds/original.tif",
+      "preview_path": "multipanel/neural-code-rate-acoustic-frequency-thresholds/preview.png"
     },
     {
       "schema_version": 1,
@@ -26245,6 +26787,156 @@
       "readme_path": "multipanel/sindy-lorenz-active-terms/README.md",
       "primary_path": "multipanel/sindy-lorenz-active-terms/original.pdf",
       "preview_path": "multipanel/sindy-lorenz-active-terms/preview.png"
+    },
+    {
+      "schema_version": 1,
+      "id": "sym-eft-length50-spectrum-and-error",
+      "title": "Sym-EFT · 从长度 50 的候选式检验功率谱分量的模拟误差",
+      "category": "multipanel",
+      "kind": "paper-example",
+      "origin": "extracted-from-author-pdf",
+      "tags": [
+        "multi-panel",
+        "从模型选择读到输出",
+        "帕累托选模",
+        "符号回归",
+        "功率谱",
+        "误差带",
+        "宇宙学"
+      ],
+      "summary": "左图用一条竖虚线选定长度 50 的符号表达式。右上给出两个宇宙学参数例子下待拟合的功率谱分量，右下用同一波数轴展示该表达式在 300 组参数下的相对误差。",
+      "formats": [
+        "pdf",
+        "svg"
+      ],
+      "primary_file": "figure.pdf",
+      "preview": "preview.png",
+      "publication": {
+        "title": "Sym-EFT: accelerating effective field theory of large-scale structure with symbolic regression",
+        "venue": "Monthly Notices of the Royal Astronomical Society",
+        "year": 2026,
+        "presentation": "journal-article",
+        "evidence_url": "https://academic.oup.com/mnras/article/552/3/stag1663/8785131"
+      },
+      "curation": {
+        "layout_family": "从模型选择读到输出",
+        "panel_labels": "左侧误差前沿、右上谱分量、右下误差带",
+        "panel_count": 3,
+        "reading_order": "先读左图竖虚线 Length=50，训练和验证集各有一条 RMSE–模型长度曲线。正文式（17）给出这条候选的函数，式（18）列出 20 个数值系数。右上沿波数 k 读两个示例的谱分量，右下在同一 k 位置比较模型相对模拟值的误差带和 ±0.5% 阈值。",
+        "why_selected": "左图用一条竖虚线选定长度 50 的符号表达式。右上给出两个宇宙学参数例子下待拟合的功率谱分量，右下用同一波数轴展示该表达式在 300 组参数下的相对误差。",
+        "model_trace": "左图 Length=50 竖线 → 正文式（17）及其 20 个系数〔式（18）〕 → 右下 300 个宇宙学参数组合的 1σ、2σ 百分比误差带。",
+        "trace_scope": "右上两条黑线表示两个示例宇宙学模型的目标谱分量。该候选式的预测表现由右下误差带给出；函数和系数见正文。"
+      },
+      "source": {
+        "figure_number": 4,
+        "authors": [
+          "Despoina Farakou",
+          "Constantinos Skordis"
+        ],
+        "urls": [
+          "https://arxiv.org/pdf/2511.05093v2#page=8",
+          "https://academic.oup.com/mnras/article/552/3/stag1663/8785131",
+          "https://arxiv.org/pdf/2511.05093v2",
+          "https://arxiv.org/abs/2511.05093v2",
+          "https://creativecommons.org/licenses/by/4.0/",
+          "https://arxiv.org/src/2511.05093v2",
+          "https://academic.oup.com/view-large/figure/577985880/stag1663fig4.jpg"
+        ],
+        "checked_date": "2026-11-20",
+        "doi": "10.1093/mnras/stag1663",
+        "tex_evidence": "Sym-EFT.tex:662–671",
+        "version": "arXiv:2511.05093v2",
+        "source_type": "pdf-crop",
+        "pixel_mae_255": 1.2746902957827781e-05,
+        "author_panel_archive_url": "https://arxiv.org/src/2511.05093v2",
+        "author_panel_archive_sha256": "ccfae6fe1adfca22e9be91228aa70a4b7bef443fd8dd2931b903a29ff9b0df40",
+        "author_panel_pdfs": [
+          {
+            "path": "panel-left.pdf",
+            "panel": "left",
+            "tex_evidence": "Sym-EFT.tex:664",
+            "archive_member": "Figures_SymEFT/paretos/Final_k2p11_R0.pdf",
+            "sha256": "8871860170841f4726dd3592a60f3ea8f07a0a6863ab803b0adef16144aa4ac2",
+            "bytes": 18594
+          },
+          {
+            "path": "panel-right.pdf",
+            "panel": "right",
+            "tex_evidence": "Sym-EFT.tex:667",
+            "archive_member": "Figures_SymEFT/errors/k2p11r0.pdf",
+            "sha256": "85da34e17e6ec380751ae1e6e13a8042458e0726f4fa49d555d3288bbe6a3531",
+            "bytes": 30813
+          }
+        ],
+        "full_pdf_url": "https://arxiv.org/pdf/2511.05093v2",
+        "full_pdf_sha256": "745e382a7a11499b4c98a69bd2e4214c1dfcc300bd28a018d118edcbba89edce",
+        "page_number": 8,
+        "crop_bbox_pt": [
+          59.0,
+          52.0,
+          532.0,
+          224.0
+        ],
+        "crop_coordinate_system": "PDF points, top-left origin on the source page"
+      },
+      "license": {
+        "name": "CC BY 4.0",
+        "status": "source-license",
+        "note": "CC BY 4.0",
+        "evidence_url": "https://arxiv.org/abs/2511.05093v2",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "editability": {
+        "native_format": "cropped paper PDF",
+        "notes": [
+          "整图按作者稿第 8 页原排版裁出，保留曲线、标记与文字。另附作者 TeX 源包中的左右两份独立矢量 PDF。"
+        ],
+        "level": "vector",
+        "pdf_drawing_objects": 315,
+        "pdf_image_placements": 0,
+        "selectable_words": 45,
+        "vector_shapes": true,
+        "editable_text": true
+      },
+      "changes": [
+        "从论文 PDF 中裁出完整图版，渲染整图预览。",
+        "另收录用于排版的作者独立子图 PDF，保留源文件字节。",
+        "从图版 PDF 导出 SVG，文字保留为轮廓。"
+      ],
+      "visual_reviewed": true,
+      "added_date": "2026-11-20",
+      "files": [
+        {
+          "path": "figure.pdf",
+          "bytes": 43229,
+          "sha256": "9a946d267b67dd5a54cae6d37e46f42dea5492efcb0094f874159ba7333cccbf"
+        },
+        {
+          "path": "preview.png",
+          "bytes": 74757,
+          "sha256": "704d4e529e35792e5dfdb2e51e3ad444866c79aa8cd3b294c958a27e515e464f"
+        },
+        {
+          "path": "panel-left.pdf",
+          "bytes": 18594,
+          "sha256": "8871860170841f4726dd3592a60f3ea8f07a0a6863ab803b0adef16144aa4ac2"
+        },
+        {
+          "path": "panel-right.pdf",
+          "bytes": 30813,
+          "sha256": "85da34e17e6ec380751ae1e6e13a8042458e0726f4fa49d555d3288bbe6a3531"
+        },
+        {
+          "path": "figure.svg",
+          "bytes": 306295,
+          "sha256": "d3a205a07c08031655c1ba0229be4dc5702b7520a5f98e47c3bf103e8e77952b"
+        }
+      ],
+      "path": "multipanel/sym-eft-length50-spectrum-and-error",
+      "metadata_path": "multipanel/sym-eft-length50-spectrum-and-error/metadata.json",
+      "readme_path": "multipanel/sym-eft-length50-spectrum-and-error/README.md",
+      "primary_path": "multipanel/sym-eft-length50-spectrum-and-error/figure.pdf",
+      "preview_path": "multipanel/sym-eft-length50-spectrum-and-error/preview.png"
     },
     {
       "schema_version": 1,

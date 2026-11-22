@@ -2,6 +2,8 @@
 
 个人 CS / AI 论文配图素材库，按用途分为 **Teaser、Architecture、大图、Element**。收集作者和已有素材库的源文件，用 Markdown 串联完整范例、方法结构与可复用部件。
 
+从读图目标、子图关系和黑白草图，到定稿与导出，见[通用论文绘图指南](docs/figure-design-guide.md)。
+
 **77 个 teaser · 70 个 architecture · 392 个独立 element · 58 幅大图**。
 
 | 分类 | 用来找什么 | 入口 |

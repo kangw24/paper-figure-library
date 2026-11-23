@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "laver-2d-rope",
+  "title": "LaVer · 二维旋转位置编码",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "attention",
+    "multimodal",
+    "author-pdf"
+  ],
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "在同一 token 序列中展开二维视觉网格，展示视觉 patch 与两侧文本位置的索引关系。",
+  "source": {
+    "authors": [
+      "Hengzhuang Li",
+      "Xinsong Zhang",
+      "Qiming Peng",
+      "Bin Luo",
+      "Han Hu",
+      "Dengyang Jiang",
+      "Han-Jia Ye",
+      "Teng Zhang",
+      "Hai Jin"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2512.06281v1",
+      "https://arxiv.org/src/2512.06281v1"
+    ],
+    "arxiv_id": "2512.06281v1",
+    "figure_number": "3(c)",
+    "original_sha256": "7d171a76290d3b3cfd5358d34b71451dafd04ff6d317095d5087b96274ebb20c",
+    "original_bytes": 32990,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2512.06281v1",
+    "archive_sha256": "d3eb26b9fae7e96f5f8dd18c75e890379b33849b2b7fe50e9aa1e37a9b90183d",
+    "archive_bytes": 11160981,
+    "archive_member": "fig/3_fig_2drope.pdf",
+    "inclusion_member": "sec/3_preliminary.tex",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved_date": "2026-11-23"
+  },
+  "license": {
+    "status": "cc-by-4.0",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector",
+    "native_format": "author PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "raster_images": 0,
+    "notes": [
+      "有可提取文字；未核验 Illustrator 导入。"
+    ]
+  },
+  "changes": [
+    "作者 PDF 字节原样保存，PNG 为另存的缩小预览。"
+  ],
+  "added_date": "2026-11-23",
+  "visual_reviewed": true,
+  "files": [
+    {
+      "path": "original.pdf",
+      "sha256": "7d171a76290d3b3cfd5358d34b71451dafd04ff6d317095d5087b96274ebb20c",
+      "bytes": 32990
+    },
+    {
+      "path": "preview.png",
+      "sha256": "6efb4360e9550e20c90e26fe4e134c8c54906b1c854c72aa46718c38a69a83e0",
+      "bytes": 28892
+    },
+    {
+      "path": "RIGHTS.source.txt",
+      "sha256": "aec69d2ec81777342055d5329e346434a105d2b4ae4f8b75a410787817ddc126",
+      "bytes": 391
+    }
+  ]
+}

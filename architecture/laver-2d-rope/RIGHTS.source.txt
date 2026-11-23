@@ -1,0 +1,4 @@
+Hengzhuang Li, Xinsong Zhang, Qiming Peng, Bin Luo, Han Hu, Dengyang Jiang, Han-Jia Ye, Teng Zhang, Hai Jin. Unleashing the Intrinsic Visual Representation Capability of Multimodal Large Language Models. arXiv:2512.06281v1, Fig. 3(c).
+https://arxiv.org/abs/2512.06281v1
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+作者独立原始 PDF 未改动；另存缩小的 PNG 预览。

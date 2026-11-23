@@ -183,7 +183,9 @@
           "llava-original-architecture",
           "blip2-qformer-architecture",
           "3detr-architecture",
-          "metaai-spatial-frequency-transformer"
+          "metaai-spatial-frequency-transformer",
+          "laver-mixed-attention",
+          "laver-2d-rope"
         ]
       },
       {
@@ -349,6 +351,10 @@
     [
       "metaai-current-diffusion-design-overview",
       "metaai-spatial-frequency-transformer"
+    ],
+    [
+      "laver-mixed-attention",
+      "laver-2d-rope"
     ]
   ],
   "suggested_elements": {
@@ -1297,6 +1303,8 @@
       "dit-patchify",
       "dit-self-attention",
       "dit-scale-shift"
-    ]
+    ],
+    "laver-mixed-attention": [],
+    "laver-2d-rope": []
   }
 }

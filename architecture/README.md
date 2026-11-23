@@ -7,7 +7,7 @@
 | 表达用途 | 数量 | 入口 |
 |---|---:|---|
 | 整体方法与训练流程 | 39 | [浏览](#framework) |
-| 网络主干与模块展开 | 15 | [浏览](#network) |
+| 网络主干与模块展开 | 17 | [浏览](#network) |
 | 基础结构与教材范例 | 16 | [浏览](#tutorial) |
 
 <a id="framework"></a>
@@ -602,6 +602,22 @@ Nature Machine Intelligence 2026 · 期刊论文
 [![预览](metaai-spatial-frequency-transformer/preview.png)](metaai-spatial-frequency-transformer/README.md)
 
 [说明与源文件](metaai-spatial-frequency-transformer/README.md) · [同论文：MetaAI · 从目标电磁响应到可实现的超表面](../teaser/metaai-current-diffusion-design-overview/README.md) · [关联元素](metaai-spatial-frequency-transformer/README.md#关联范例与元素)
+
+### [LaVer · 视觉全注意力与文本因果注意力](laver-mixed-attention/README.md)
+
+用块矩阵区分视觉 token 的全注意力与文本 token 的因果注意力，颜色编码两种模态。
+
+[![预览](laver-mixed-attention/preview.png)](laver-mixed-attention/README.md)
+
+[说明与源文件](laver-mixed-attention/README.md) · [同论文：LaVer · 二维旋转位置编码](laver-2d-rope/README.md) · [关联元素](laver-mixed-attention/README.md#关联范例与元素)
+
+### [LaVer · 二维旋转位置编码](laver-2d-rope/README.md)
+
+在同一 token 序列中展开二维视觉网格，展示视觉 patch 与两侧文本位置的索引关系。
+
+[![预览](laver-2d-rope/preview.png)](laver-2d-rope/README.md)
+
+[说明与源文件](laver-2d-rope/README.md) · [同论文：LaVer · 视觉全注意力与文本因果注意力](laver-mixed-attention/README.md) · [关联元素](laver-2d-rope/README.md#关联范例与元素)
 
 
 <a id="tutorial"></a>

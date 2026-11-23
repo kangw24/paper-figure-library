@@ -166,6 +166,8 @@
 | [BLIP-2 · Q-Former 与三种注意力掩码](../architecture/blip2-qformer-architecture/README.md) | [DiT 多头自注意力模块](svg/dit-self-attention.svg) · [匹配相似度矩阵](svg/lightglue-assignment-matrix.svg) · [逐位置前馈网络模块](svg/dit-feed-forward.svg) · [ViT 编码器块](svg/vit-encoder-block.svg) |
 | [3DETR · 点云编码器、查询嵌入与集合预测](../architecture/3detr-architecture/README.md) | [ViT 编码器块](svg/vit-encoder-block.svg) · [DiT 多头自注意力模块](svg/dit-self-attention.svg) · [条件嵌入模块](svg/dit-embed.svg) · [ViT 前馈 MLP 模块](svg/vit-mlp.svg) · [三维坐标物体](svg/tabler-cube-3d-sphere.svg) |
 | [MetaAI · 从电流扩散 Transformer 展开两种注意力](../architecture/metaai-spatial-frequency-transformer/README.md) | [Patchify 图像分块模块](svg/dit-patchify.svg) · [DiT 多头自注意力模块](svg/dit-self-attention.svg) · [条件缩放与平移模块](svg/dit-scale-shift.svg) |
+| [LaVer · 视觉全注意力与文本因果注意力](../architecture/laver-mixed-attention/README.md) |  |
+| [LaVer · 二维旋转位置编码](../architecture/laver-2d-rope/README.md) |  |
 | [D2L · Transformer 编码器与解码器](../architecture/d2l-transformer/README.md) | [Self attention 块](svg/lightglue-self-attention.svg) · [残差加法节点](svg/lightglue-residual-add.svg) · [匹配相似度矩阵](svg/lightglue-assignment-matrix.svg) · [单层特征块](svg/rust-feature-tile.svg) · [编码器块](svg/rust-encoder.svg) · [解码器块](svg/rust-decoder.svg) |
 | [D2L · Vision Transformer](../architecture/d2l-vit/README.md) | [Self attention 块](svg/lightglue-self-attention.svg) · [残差加法节点](svg/lightglue-residual-add.svg) · [匹配相似度矩阵](svg/lightglue-assignment-matrix.svg) · [单层特征块](svg/rust-feature-tile.svg) · [多通道彩色张量](svg/task5-rgb-tensor.svg) |
 | [D2L · 编码器—解码器](../architecture/d2l-encoder-decoder/README.md) | [编码器块](svg/rust-encoder.svg) · [解码器块](svg/rust-decoder.svg) · [特征表示堆叠](svg/rust-feature-stack.svg) · [右向流程箭头](svg/rust-arrow-right.svg) |

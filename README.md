@@ -4,7 +4,7 @@
 
 从读图目标、子图关系和黑白草图，到定稿与导出，见[通用论文绘图指南](docs/figure-design-guide.md)。
 
-**77 个 teaser · 70 个 architecture · 392 个独立 element · 58 幅大图**。
+**77 个 teaser · 72 个 architecture · 392 个独立 element · 58 幅大图**。
 
 | 分类 | 用来找什么 | 入口 |
 |---|---|---|
@@ -84,4 +84,4 @@ AI4PDE 综述图：[Fig.1：领域定位、方法与应用全景](teaser/survey-
     python scripts/build_catalog.py
     python scripts/validate_library.py
 
-[可编辑综述图收录记录](sources/survey-editable-2026-10-28.json) · [方法面板与优化图收录记录](sources/physics-overviews-3-2026-10-28.json) · [后续物理学习图收录记录](sources/physics-overviews-2-2026-10-27.json) · [物理与知识融合图收录记录](sources/physics-overviews-2026-10-27.json) · [AI4PDE 图收录记录](sources/ai-pde-review-2026-10-27.json) · [多子图综述收录记录](sources/survey-panels-2026-10-27.json) · [综述原图收录记录](sources/survey-figures-2026-10-27.json) · [领域全景扩充记录](sources/survey-rich-2026-10-27.json) · [论文原图收录记录](sources/top-conference-2026-10-27.json) · [元素下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)
+[八张参考图的原论文链接](sources/paper-figures-2026-11-23.json) · [可编辑综述图收录记录](sources/survey-editable-2026-10-28.json) · [方法面板与优化图收录记录](sources/physics-overviews-3-2026-10-28.json) · [后续物理学习图收录记录](sources/physics-overviews-2-2026-10-27.json) · [物理与知识融合图收录记录](sources/physics-overviews-2026-10-27.json) · [AI4PDE 图收录记录](sources/ai-pde-review-2026-10-27.json) · [多子图综述收录记录](sources/survey-panels-2026-10-27.json) · [综述原图收录记录](sources/survey-figures-2026-10-27.json) · [领域全景扩充记录](sources/survey-rich-2026-10-27.json) · [论文原图收录记录](sources/top-conference-2026-10-27.json) · [元素下载记录](sources/expansion-2026-10-25.json) · [原始收录纠正记录](docs/curation-correction.md)

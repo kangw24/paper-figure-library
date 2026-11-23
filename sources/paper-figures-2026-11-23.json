@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-23",
+  "scope": "八张参考图及固定版本来源；完整图均仅链接，额外收录 LaVer 图 3(b)、3(c) 两张可独立取得的作者原始图版。",
+  "counts": {
+    "source_only": 8,
+    "architecture_subpanels": 2
+  },
+  "items": [
+    {
+      "slide": 2,
+      "title": "AdaSVD",
+      "status": "source-only",
+      "source": {
+        "arxiv_id": "2502.01403v4",
+        "figure_number": 2,
+        "urls": [
+          "https://arxiv.org/abs/2502.01403v4",
+          "https://arxiv.org/html/2502.01403v4"
+        ],
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "checked_date": "2026-11-23"
+      },
+      "note": "arXiv 的非独占分发许可不是第三方转载授权。"
+    },
+    {
+      "slide": 3,
+      "title": "ZOO-Prune",
+      "status": "source-only",
+      "source": {
+        "arxiv_id": "2509.24837v4",
+        "figure_number": 3,
+        "urls": [
+          "https://arxiv.org/abs/2509.24837v4",
+          "https://arxiv.org/html/2509.24837v4"
+        ],
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "checked_date": "2026-11-23"
+      },
+      "note": "arXiv 的非独占分发许可不是第三方转载授权。"
+    },
+    {
+      "slide": 4,
+      "title": "LaVer",
+      "status": "source-only",
+      "source": {
+        "arxiv_id": "2512.06281v1",
+        "figure_number": 3,
+        "urls": [
+          "https://arxiv.org/abs/2512.06281v1",
+          "https://arxiv.org/html/2512.06281v1"
+        ],
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "checked_date": "2026-11-23"
+      },
+      "note": "论文声明 CC BY 4.0，但图 3(a) 内样例照片未核实转载权限；链接指向原论文的完整图 3（a–c）。",
+      "admitted_subpanels": [
+        {
+          "id": "laver-mixed-attention",
+          "path": "architecture/laver-mixed-attention",
+          "figure_number": "3(b)",
+          "upstream_path": "fig/3_fig_full_attn.pdf"
+        },
+        {
+          "id": "laver-2d-rope",
+          "path": "architecture/laver-2d-rope",
+          "figure_number": "3(c)",
+          "upstream_path": "fig/3_fig_2drope.pdf"
+        }
+      ]
+    },
+    {
+      "slide": 5,
+      "title": "RE-VLM",
+      "status": "source-only",
+      "source": {
+        "arxiv_id": "2605.19329v2",
+        "figure_number": 2,
+        "urls": [
+          "https://arxiv.org/abs/2605.19329v2",
+          "https://arxiv.org/html/2605.19329v2"
+        ],
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "checked_date": "2026-11-23"
+      },
+      "note": "arXiv 的非独占分发许可不是第三方转载授权。"
+    },
+    {
+      "slide": 6,
+      "title": "OmniZip",
+      "status": "source-only",
+      "source": {
+        "arxiv_id": "2511.14582v2",
+        "figure_number": 3,
+        "urls": [
+          "https://arxiv.org/abs/2511.14582v2",
+          "https://arxiv.org/html/2511.14582v2"
+        ],
+        "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "checked_date": "2026-11-23"
+      },
+      "note": "论文声明 CC BY 4.0，但图 3 的影片条内嵌帧未核实转载权限；保留原图链接。"
+    },
+    {
+      "slide": 7,
+      "title": "Proxy3D",
+      "status": "source-only",
+      "source": {
+        "arxiv_id": "2605.08064v1",
+        "figure_number": 2,
+        "urls": [
+          "https://arxiv.org/abs/2605.08064v1",
+          "https://arxiv.org/html/2605.08064v1"
+        ],
+        "declared_article_license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "checked_date": "2026-11-23"
+      },
+      "note": "原论文采用 CC BY-NC-ND 4.0；此处仅链接，不转载裁切或衍生图。"
+    },
+    {
+      "slide": 8,
+      "title": "PDCR",
+      "status": "source-only",
+      "source": {
+        "arxiv_id": "2605.13467v1",
+        "figure_number": 4,
+        "urls": [
+          "https://arxiv.org/abs/2605.13467v1",
+          "https://arxiv.org/html/2605.13467v1"
+        ],
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "checked_date": "2026-11-23"
+      },
+      "note": "arXiv 的非独占分发许可不是第三方转载授权。"
+    },
+    {
+      "slide": 9,
+      "title": "ERBA",
+      "status": "source-only",
+      "source": {
+        "arxiv_id": "2603.12845v2",
+        "figure_number": 2,
+        "urls": [
+          "https://arxiv.org/abs/2603.12845v2",
+          "https://arxiv.org/html/2603.12845v2"
+        ],
+        "declared_article_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "checked_date": "2026-11-23"
+      },
+      "note": "arXiv 的非独占分发许可不是第三方转载授权。"
+    }
+  ]
+}

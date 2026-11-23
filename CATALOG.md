@@ -7,7 +7,7 @@
 | 类别 | 数量 | 入口 |
 |---|---:|---|
 | Teaser 范例 | 77 | [浏览](teaser/README.md) |
-| Architecture 范例 | 70 | [浏览](architecture/README.md) |
+| Architecture 范例 | 72 | [浏览](architecture/README.md) |
 | 多面板大图 | 58 | [浏览](multipanel/README.md) |
 | Element 最小可复用元素 | 392 | [按内容与来源浏览](element/README.md) |
 
@@ -1231,6 +1231,24 @@ ACL 2023 · 会议论文，未核实 Oral · 矢量 + 原有位图
 
 来源类型：论文范例。许可：Apache-2.0（来源仓库）。。
 [原文件](architecture/lav/source.svg) · [来源记录](architecture/lav/metadata.json)
+
+### [LaVer · 二维旋转位置编码](architecture/laver-2d-rope/README.md)
+
+在同一 token 序列中展开二维视觉网格，展示视觉 patch 与两侧文本位置的索引关系。
+
+[<img src="architecture/laver-2d-rope/preview.png" width="760" alt="LaVer · 二维旋转位置编码">](architecture/laver-2d-rope/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0。
+[原文件](architecture/laver-2d-rope/original.pdf) · [来源记录](architecture/laver-2d-rope/metadata.json)
+
+### [LaVer · 视觉全注意力与文本因果注意力](architecture/laver-mixed-attention/README.md)
+
+用块矩阵区分视觉 token 的全注意力与文本 token 的因果注意力，颜色编码两种模态。
+
+[<img src="architecture/laver-mixed-attention/preview.png" width="760" alt="LaVer · 视觉全注意力与文本因果注意力">](architecture/laver-mixed-attention/original.pdf)
+
+来源类型：论文范例。许可：CC BY 4.0。
+[原文件](architecture/laver-mixed-attention/original.pdf) · [来源记录](architecture/laver-mixed-attention/metadata.json)
 
 ### [LGM · 非对称 U-Net 与跨视角注意力](architecture/lgm-architecture/README.md)
 

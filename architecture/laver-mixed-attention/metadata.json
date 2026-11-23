@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "laver-mixed-attention",
+  "title": "LaVer · 视觉全注意力与文本因果注意力",
+  "category": "architecture",
+  "kind": "paper-example",
+  "origin": "downloaded",
+  "tags": [
+    "attention",
+    "multimodal",
+    "author-pdf"
+  ],
+  "formats": [
+    "pdf"
+  ],
+  "primary_file": "original.pdf",
+  "preview": "preview.png",
+  "summary": "用块矩阵区分视觉 token 的全注意力与文本 token 的因果注意力，颜色编码两种模态。",
+  "source": {
+    "authors": [
+      "Hengzhuang Li",
+      "Xinsong Zhang",
+      "Qiming Peng",
+      "Bin Luo",
+      "Han Hu",
+      "Dengyang Jiang",
+      "Han-Jia Ye",
+      "Teng Zhang",
+      "Hai Jin"
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2512.06281v1",
+      "https://arxiv.org/src/2512.06281v1"
+    ],
+    "arxiv_id": "2512.06281v1",
+    "figure_number": "3(b)",
+    "original_sha256": "64c9279ef69ce5b6055efb045632ef94b48c692f964baec4422795b0cd1c86c3",
+    "original_bytes": 31745,
+    "native_origin": "author-tex-source-archive",
+    "archive_url": "https://arxiv.org/src/2512.06281v1",
+    "archive_sha256": "d3eb26b9fae7e96f5f8dd18c75e890379b33849b2b7fe50e9aa1e37a9b90183d",
+    "archive_bytes": 11160981,
+    "archive_member": "fig/3_fig_full_attn.pdf",
+    "inclusion_member": "sec/3_preliminary.tex",
+    "declared_article_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved_date": "2026-11-23"
+  },
+  "license": {
+    "status": "cc-by-4.0",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "file": "RIGHTS.source.txt"
+  },
+  "editability": {
+    "level": "vector",
+    "native_format": "author PDF",
+    "vector_shapes": true,
+    "editable_text": true,
+    "raster_images": 0,
+    "notes": [
+      "有可提取文字；未核验 Illustrator 导入。"
+    ]
+  },
+  "changes": [
+    "作者 PDF 字节原样保存，PNG 为另存的缩小预览。"
+  ],
+  "added_date": "2026-11-23",
+  "visual_reviewed": true,
+  "files": [
+    {
+      "path": "original.pdf",
+      "sha256": "64c9279ef69ce5b6055efb045632ef94b48c692f964baec4422795b0cd1c86c3",
+      "bytes": 31745
+    },
+    {
+      "path": "preview.png",
+      "sha256": "f0e47bed996c5f73c8678704753a80c5c1f2091c38ab352106cb2e18d34cdb09",
+      "bytes": 36095
+    },
+    {
+      "path": "RIGHTS.source.txt",
+      "sha256": "4c8a6e64ecacc4c2cb98513f88f9ce9297844b6e64c0c9aed40775cfccf69cfa",
+      "bytes": 391
+    }
+  ]
+}
